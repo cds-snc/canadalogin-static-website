@@ -4,6 +4,9 @@
 	"name": "GC Static Website Dev Container",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"containerEnv": {
+		"SHELL": "/bin/zsh"
+	},
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/aws-cli:1": {
