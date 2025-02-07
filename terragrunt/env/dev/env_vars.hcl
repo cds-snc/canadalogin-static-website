@@ -2,7 +2,7 @@
 #
 inputs = {
   account_id   = "767397971970"
-  domain_en    = "gc-sign-in.cdssandbox.xyz"            
+  domain_en    = "gc-signin.cdssandbox.xyz"            
   domain_fr    = "connexion-gc.cdssandbox.xyz"
   env          = "dev"                                   
   product_name = "gc-sign-in-website"
