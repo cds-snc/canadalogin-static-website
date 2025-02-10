@@ -1,0 +1,111 @@
+---
+product_title: GC Sign in
+title: GC Sign in
+---
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style data-styles="">
+        gcds-alert,
+        gcds-breadcrumbs,
+        gcds-breadcrumbs-item,
+        gcds-button,
+        gcds-card,
+        gcds-checkbox,
+        gcds-container,
+        gcds-date-input,
+        gcds-date-modified,
+        gcds-details,
+        gcds-error-message,
+        gcds-error-summary,
+        gcds-fieldset,
+        gcds-file-uploader,
+        gcds-footer,
+        gcds-grid,
+        gcds-grid-col,
+        gcds-header,
+        gcds-heading,
+        gcds-hint,
+        gcds-icon,
+        gcds-input,
+        gcds-label,
+        gcds-lang-toggle,
+        gcds-link,
+        gcds-nav-group,
+        gcds-nav-link,
+        gcds-notice,
+        gcds-pagination,
+        gcds-phase-banner,
+        gcds-radio-group,
+        gcds-search,
+        gcds-select,
+        gcds-side-nav,
+        gcds-signature,
+        gcds-sr-only,
+        gcds-stepper,
+        gcds-text,
+        gcds-textarea,
+        gcds-top-nav,
+        gcds-topic-menu,
+        gcds-verify-banner {
+            visibility: hidden
+        }
+
+        .hydrated {
+            visibility: inherit
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="GC Sign in" />
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>{{product_title}}</title>
+
+    <!---------- GC Design System Utility ---------->
+    <link rel="stylesheet"
+        href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.5.0/dist/gcds-utility.min.css">
+
+    <!---------- GC Design System Components ---------->
+    <link rel="stylesheet"
+        href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.30.0/dist/gcds/gcds.css">
+    <script type="module"
+        src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.30.0/dist/gcds/gcds.esm.js"></script>
+    <script nomodule=""
+        src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.30.0/dist/gcds/gcds.js"></script>
+</head>
+
+<body>
+    <!---------- Header ---------->
+    <!-- TODO: Modify the lang-href to set the language toggle's URL. -->
+    <!-- TODO: Update the skip-to-href with the main content container's id. -->
+
+    <gcds-header lang-href="#" skip-to-href="#main-content">
+        <!-- The slot="breadcrumb" attribute adds the breadcrumbs component to the header. -->
+        {% include 'nav.njk' %}
+        <gcds-breadcrumbs slot="breadcrumb"></gcds-breadcrumbs>
+
+    </gcds-header>
+
+    <!---------- Main content ---------->
+    <!-- TODO: Confirm the id matches the "skip-to-href" id in the header. -->
+    <gcds-container id="main-content" main-container size="xl" centered tag="main">
+        <!-- TODO: Update the heading and text content. -->
+        <section>
+            <gcds-heading tag="h1">{{title}}</gcds-heading>
+        </section>
+        <section>
+            {{content | safe}}
+        </section>
+
+        <gcds-date-modified>Test</gcds-date-modified>
+    </gcds-container>
+
+    <gcds-footer display="full" contextual-heading="Canadian Digital Service">
+    </gcds-footer>
+
+</body>
+
+</html>

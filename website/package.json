@@ -1,0 +1,21 @@
+{
+  "name": "gc-signin-website",
+  "version": "1.0.0",
+  "description": "Website for GC Signin",
+  "keywords": [],
+  "type": "module",
+  "author": "GC Sign in",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "devDependencies": {
+    "luxon": "^3.5.0"
+  }
+}
