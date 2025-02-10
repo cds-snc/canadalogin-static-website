@@ -32,7 +32,8 @@
 				"github.copilot",
 				"github.vscode-github-actions",
 				"hashicorp.hcl",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"ms-vscode.makefile-tools"
 			],
 			"[terraform]": {
 				"editor.formatOnSave": true
