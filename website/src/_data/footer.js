@@ -1,7 +1,7 @@
 module.exports = {
   en: {
     contextual: {
-      heading: 'GC Design System',
+      heading: 'GC Sign in',
       list: 'Contact us',
       listurl: '/en/contact',
       issue: 'Report an issue',

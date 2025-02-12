@@ -2,15 +2,11 @@
   "locale": "en",
   "links": {
     "home": "/en",
-
-    "installation": "/en/installation",
-
     "styles": "/en/styles",
     "designTokens": "/en/styles/design-tokens",
     "colour": "/en/styles/colour",
     "spacing": "/en/styles/spacing",
     "typography": "/en/styles/typography",
-
     "components": "/en/components",
     "alert": "/en/coming-soon",
     "breadcrumbs": "/en/components/breadcrumbs",
@@ -49,21 +45,18 @@
     "topNav": "/en/components/top-navigation",
     "topicmenu": "/en/components/theme-and-topic-menu/",
     "verifyBanner": "/en/coming-soon",
-
     "about": "/en/about-us",
     "contact": "/en/contact",
     "contactMail": "mailto:cds-snc@servicecanada.gc.ca",
     "getInvolved": "/en/get-involved",
     "roadmap": "/en/roadmap",
     "registerDemo": "/en/register-for-a-demo",
-
     "comingSoon": "/en/coming-soon",
     "demo": "/en/demo",
     "releaseNotes": "https://github.com/cds-snc/gcds-components/blob/main/CHANGELOG.md",
     "privacy": "/en/privacy-notice",
     "termsOfUse": "/en/terms-of-use",
     "sla": "/en/service-level-agreement",
-
     "pageTemplates": "/en/page-templates",
     "pageTemplatesBasic": "/en/page-templates/basic",
     "pageTemplatesBasicPreview": "/en/page-templates/basic/preview",
@@ -75,11 +68,8 @@
     "pageTemplatesBasicExtOTPCode": "/en/page-templates/basic/code-on-this-page",
     "pageTemplatesBasicExtOTPGithubLink": "https://github.com/cds-snc/gcds-examples/blob/main/templates/english/basic/extensions/basic-page-template-table-of-contents.html",
     "pageTemplatesBasicExtOTPGithubRaw": "https://raw.githubusercontent.com/cds-snc/gcds-examples/refs/heads/main/templates/english/basic/extensions/basic-page-template-table-of-contents.html",
-
     "figma": "https://www.figma.com/file/mh2maMG2NBtk41k1O1UGHV/Canadian-Digital-Service%E2%80%A8---GC-Design-System?node-id=4%3A1006&t=qguKsJtr1ityUsUN-0",
-
     "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
-
     "accessToInformationAct": "https://laws-lois.justice.gc.ca/eng/acts/a-1/page-1.html",
     "airtable": "https://www.airtable.com/",
     "airtablePrivacy": "https://www.airtable.com/company/privacy",
@@ -100,7 +90,6 @@
     "outreachActivities": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu938",
     "privacyAct": "https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html",
     "privacyCommissionerCanada": "https://www.priv.gc.ca/en/for-individuals/",
-
     "github": "https://github.com/cds-snc/gcds-components",
     "githubGetStarted": "https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github",
     "githubCompsBug": "https://github.com/cds-snc/gcds-components/issues/new?assignees=&labels=&projects=&template=bug_report.yml&title=bug%3A+",
@@ -110,12 +99,10 @@
     "githubIssues": "https://github.com/cds-snc/gcds-components/issues",
     "githubTokens": "https://github.com/cds-snc/gcds-tokens",
     "githubTokensIssues": "https://github.com/cds-snc/gcds-tokens/issues",
-
     "tbsStandardsOnWebA11y": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601",
     "wcag": "https://www.w3.org/TR/WCAG21/",
     "wcagTargetSize": "https://www.w3.org/TR/WCAG21/#target-size",
     "wcagTextSpacing": "https://www.w3.org/TR/WCAG21/#text-spacing",
-
     "webaim": "https://webaim.org/resources/contrastchecker/"
   }
 }

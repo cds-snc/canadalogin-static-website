@@ -2,11 +2,7 @@
 title: Installation
 translationKey: installation
 layout: 'layouts/installation.njk'
-eleventyNavigation:
-  key: installationEN
-  title: Installation
-  locale: en
-  order: 1
+
 date: 'git Last Modified'
 ---
 

@@ -371,10 +371,9 @@ module.exports = function (eleventyConfig) {
 
                 const datelink = `<gcds-link external href="${date.link}">${date.lang === 'en' ? langStrings[locale].enDemo : langStrings[locale].frDemo}</gcds-link>`;
                 const time = `<time>
-                  ${
-                    locale === 'en'
-                      ? `${prnDt}, ${convertTime(date.starttime)} – ${convertTime(date.endtime)} ${langStrings[locale].timezone}`
-                      : `${prnDt}, de ${date.starttime.replace(':', 'h')} à ${date.endtime.replace(':', 'h')} ${langStrings[locale].timezone}`
+                  ${locale === 'en'
+                    ? `${prnDt}, ${convertTime(date.starttime)} – ${convertTime(date.endtime)} ${langStrings[locale].timezone}`
+                    : `${prnDt}, de ${date.starttime.replace(':', 'h')} à ${date.endtime.replace(':', 'h')} ${langStrings[locale].timezone}`
                   }
                 </time>`;
 
@@ -443,12 +442,12 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.on('eleventy.after', () => {
-    execSync(
-      `npx pagefind --site _site --exclude-selectors "gcds-side-nav, gcds-top-nav, gcds-breadcrumbs, .github-link, .figma-link, h1 > code, .component-preview" --glob \"**/*.html\"`,
-      { encoding: 'utf-8' },
-    );
-  });
+  // eleventyConfig.on('eleventy.after', () => {
+  //   execSync(
+  //     `npx pagefind --site _site --exclude-selectors "gcds-side-nav, gcds-top-nav, gcds-breadcrumbs, .github-link, .figma-link, h1 > code, .component-preview" --glob \"**/*.html\"`,
+  //     { encoding: 'utf-8' },
+  //   );
+  // });
 
   return {
     pathPrefix: process.env.PATH_PREFIX || '/',

@@ -1,11 +1,11 @@
 module.exports = {
   en: {
-    title: 'GC Design System',
+    title: 'GC Sign in',
     url: '/en',
     label: 'Main menu',
   },
   fr: {
-    title: 'Système de design GC',
+    title: 'Connexion GC',
     url: '/fr',
     label: 'Menu principal',
   },
