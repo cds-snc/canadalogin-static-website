@@ -69,7 +69,6 @@ package-lock.json
 .cache
 
 # Ignore output folder
-public/
 _site/
 
 # Output folder for page templates
