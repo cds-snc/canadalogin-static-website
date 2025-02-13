@@ -8,12 +8,6 @@ variable "billing_tag_key" {
   type        = string
   default     = "CostCentre"
 }
-
-variable "billing_tag_value" {
-  description = "(Required) Value of the billing tag."
-  type        = string
-}
-
 variable "billing_code" {
   description = "(Required) Value of the billing tag."
   type        = string

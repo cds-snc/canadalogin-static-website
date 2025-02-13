@@ -11,7 +11,6 @@ locals {
 inputs = {
   account_id             = local.env_vars.inputs.account_id
   billing_code           = local.billing_code
-  billing_tag_value      = local.billing_code
   domain_en              = local.env_vars.inputs.domain_en
   domain_fr              = local.env_vars.inputs.domain_fr
   env                    = local.env_vars.inputs.env
