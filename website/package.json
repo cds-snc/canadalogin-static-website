@@ -1,9 +1,9 @@
 {
-  "name": "gcds-documentation",
+  "name": "gc-signin-website",
   "version": "0.1.8",
   "author": "Government of Canada | Gouvernement du Canada",
-  "description": "GC Design System Documentation",
-  "homepage": "https://design-system.alpha.canada.ca/",
+  "description": "GC Sign in information website",
+  "homepage": "",
   "main": "index.js",
   "scripts": {
     "build:sass": "sass src/styles:src/styles",
@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cds-snc/gcds-docs"
+    "url": "git+https://github.com/cds-snc/gc-signin-static-website"
   },
   "bugs": {
-    "url": "https://github.com/cds-snc/gcds-docs/issues"
+    "url": "https://github.com/cds-snc/gc-signin-static-website/issues"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",

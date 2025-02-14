@@ -24,9 +24,3 @@ jobs:
         run: |
           mkdir -p ./_site/.github/workflows/
           cp -r ./.github/workflows/a11y-tests.yaml ./_site/.github/workflows/a11y-tests.yaml
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4.0.0
-        with:
-          publish_dir: ./_site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          exclude_assets: 'admin/index.html,admin/config.yml'
