@@ -28,6 +28,8 @@ Use this form to provide feedback or ask questions, get help using GC Design Sys
   <input type="hidden" name="form-name" value="contactEN" />
   <input name="honeypot" type="text" aria-label="bot" hidden/>
 
+<!-- replace with gc forms -->
+
 <gcds-input type="text" name="name" input-id="name" label="Full name" size="30" autocomplete="name" required></gcds-input>
 <gcds-input type="email" name="email" input-id="email" label="Email address" size="50" autocomplete="email" required></gcds-input>
 <gcds-textarea name="message" label="Provide your feedback or ask a question if you need help" textarea-id="message"></gcds-textarea>
