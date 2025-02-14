@@ -10,20 +10,15 @@ const { getLatestCdnVersion } = require('./utils/cdn-info');
 const { DateTime } = require('luxon');
 
 const contextMenu = require('./utils/context-menu');
-// const displayTokens = require('./utils/display-tokens');
 const markdownAnchor = require('./utils/anchor');
 const slugify = require('./utils/slugify');
 const { encode } = require('html-entities');
-
-const { downloadTemplates } = require('./scripts/templates');
-const { execSync } = require('child_process');
-
-// const demoDates = require('./src/_data/registerdemos.js');
 
 module.exports = function (eleventyConfig) {
   // Pass through copies
 
   eleventyConfig.addPassthroughCopy('_redirects');
+  eleventyConfig.addPassthroughCopy('./src/robots.txt');
   eleventyConfig.addPassthroughCopy('./src/styles/style.css');
   eleventyConfig.addPassthroughCopy('./src/styles/prism.css');
   eleventyConfig.addPassthroughCopy('./src/images');
@@ -230,56 +225,6 @@ module.exports = function (eleventyConfig) {
     return await getLatestCdnVersion();
   });
 
-  // eleventyConfig.addPairedShortcode(
-  //   'docLinks',
-  //   (children, locale, stage, figma, github) => {
-  //     let stageChip = '';
-  //     let figmaLink = '';
-  //     let githubLink = '';
-  //     const langStrings = {
-  //       en: {
-  //         stage: 'stage',
-  //         figma: 'Figma',
-  //         github: 'GitHub',
-  //         comingsoon: 'coming soon',
-  //       },
-  //       fr: {
-  //         stage: 'phase',
-  //         figma: 'Figma',
-  //         github: 'GitHub',
-  //         comingsoon: 'à venir',
-  //       },
-  //     };
-  //     if (stage) {
-  //       stageChip = `<li class="stage-chip">
-  //         <span>${langStrings[locale].stage}</span><span>${stage}</span>
-  //       </li>`;
-  //     }
-  //     if (figma) {
-  //       figmaLink = `
-  //       <li class="figma-link">
-  //         <gcds-link external href="${figma}">${langStrings[locale].figma}</gcds-link>
-  //       </li>`;
-  //     } else {
-  //       figmaLink = `
-  //       <li class="figma-link">
-  //         <span>${langStrings[locale].figma} — ${langStrings[locale].comingsoon}</span>
-  //       </li>`;
-  //     }
-  //     if (github) {
-  //       githubLink = github;
-  //     } else {
-  //       githubLink = 'https://github.com/cds-snc/gcds-components';
-  //     }
-  //     return `
-  //     <ul class="d-flex flex-wrap gap-300">
-  //       ${stageChip} <li class="github-link">
-  //         <gcds-link external href="${githubLink}">${langStrings[locale].github}</gcds-link>
-  //       </li> ${figmaLink}
-  //     </ul>`;
-  //   },
-  // );
-
   eleventyConfig.addPairedShortcode(
     'componentPreview',
     (children, title, padding = 'px-225 py-300', margin = 'my-600') => {
@@ -321,73 +266,6 @@ module.exports = function (eleventyConfig) {
     },
   );
 
-  /*
-   * Shortcode to render demo dates
-   * Renders based on data file at ./src/_data/registerdemos.js
-   */
-  // eleventyConfig.addPairedShortcode(
-  //   'registerForDemoLinks',
-  //   (children, locale) => {
-  //     const langStrings = {
-  //       en: {
-  //         enDemo: 'English demo',
-  //         frDemo: 'French demo',
-  //         timezone: 'Eastern time',
-  //         nodates: 'No upcoming dates.',
-  //       },
-  //       fr: {
-  //         enDemo: 'Démo en anglais',
-  //         frDemo: 'Démo en français',
-  //         timezone: 'heure de l\'Est',
-  //         nodates: 'Aucune date à venir.',
-  //       },
-  //     };
-
-  //     let validDates = [];
-
-  //     demoDates.map(date => {
-  //       if (new Date() < new Date(date.date)) {
-  //         validDates.push(date.date);
-  //       }
-  //     });
-
-  //     if (validDates.length > 0) {
-  //       return `
-  //       <ul class="mb-300">
-  //         ${demoDates
-  //           .map(date => {
-  //             if (validDates.includes(date.date)) {
-  //               const options = {
-  //                 weekday: 'long',
-  //                 year: 'numeric',
-  //                 month: 'long',
-  //                 day: 'numeric',
-  //                 timeZone: 'UTC',
-  //               };
-  //               const prnDt = new Date(date.date).toLocaleString(
-  //                 locale,
-  //                 options,
-  //               );
-
-  //               const datelink = `<gcds-link external href="${date.link}">${date.lang === 'en' ? langStrings[locale].enDemo : langStrings[locale].frDemo}</gcds-link>`;
-  //               const time = `<time>
-  //                 ${locale === 'en'
-  //                   ? `${prnDt}, ${convertTime(date.starttime)} – ${convertTime(date.endtime)} ${langStrings[locale].timezone}`
-  //                   : `${prnDt}, de ${date.starttime.replace(':', 'h')} à ${date.endtime.replace(':', 'h')} ${langStrings[locale].timezone}`
-  //                 }
-  //               </time>`;
-
-  //               return `<li>${datelink} – ${time}</li>`;
-  //             }
-  //           })
-  //           .join('')}
-  //       </ul>
-  //     `;
-  //     } else {
-  //       return `<p>${langStrings[locale].nodates}</p>`;
-  //     }
-  //   },
-  // );
 
   /*
    * Convert 24 hour time to 12 hour time
@@ -400,13 +278,6 @@ module.exports = function (eleventyConfig) {
       minute: 'numeric',
     });
   };
-
-  // /*
-  //  * Display tokens in tables based on passed name
-  //  */
-  // eleventyConfig.addShortcode('displayTokens', (token, subCategory, locale) => {
-  //   return displayTokens(token, subCategory, locale);
-  // });
 
   /*
    * Convert string from camelCase to kebab-case
@@ -434,20 +305,6 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Pull templates from github into partials
-  eleventyConfig.on('eleventy.before', async ({ runMode }) => {
-    // Only download templates in build mode
-    if (runMode === 'build') {
-      await downloadTemplates();
-    }
-  });
-
-  // eleventyConfig.on('eleventy.after', () => {
-  //   execSync(
-  //     `npx pagefind --site _site --exclude-selectors "gcds-side-nav, gcds-top-nav, gcds-breadcrumbs, .github-link, .figma-link, h1 > code, .component-preview" --glob \"**/*.html\"`,
-  //     { encoding: 'utf-8' },
-  //   );
-  // });
 
   return {
     pathPrefix: process.env.PATH_PREFIX || '/',
