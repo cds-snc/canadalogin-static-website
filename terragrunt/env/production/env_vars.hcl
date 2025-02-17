@@ -1,7 +1,7 @@
 # Set the environment's global variables
 #
 inputs = {
-  account_id   = "688567301192"
+  account_id   = "699475931199"
   domain_en    = "gc-signin.alpha.canada.ca"         
   domain_fr    = "connexion-gc.alpha.canada.ca" 
   env          = "prod"                                
