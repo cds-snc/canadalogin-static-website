@@ -1,0 +1,26 @@
+name: Eleventy Build
+on:
+  push:
+    paths-ignore:
+      - README.md
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    name: Eleventy Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Install
+        run: npm install
+      - name: Build
+        run: npm run build
+        env:
+          PATH_PREFIX: ${{ github.event.repository.name }}
+          GITHUB_ORG: cds-snc
+      - name: Add a11y action
+        run: |
+          mkdir -p ./_site/.github/workflows/
+          cp -r ./.github/workflows/a11y-tests.yaml ./_site/.github/workflows/a11y-tests.yaml

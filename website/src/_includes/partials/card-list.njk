@@ -1,0 +1,34 @@
+{% set components = [cardlist.type, locale | upper] | join %}
+
+{% if (cardlist.type == "components") %}
+  {% set navPages = collections.all | eleventyNavigation(components) | sortAlpha %}
+{% else %}
+  {% set navPages = collections.all | eleventyNavigation(components) %}
+{% endif %}
+
+{% if (cardlist.type === 'components' or cardlist.type === 'foundations') and cardlist.state === 'published' %}
+  <div class="my-600">
+    <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr">
+    {%- for entry in navPages %}
+      {% if entry.state == cardlist.state %}
+        <gcds-card
+          card-title="{{ entry.title }}"
+          href="{{entry.url}}"
+          card-title-tag="h3"
+          badge="{% if entry.tag %}{{ entry.tag }}{% endif %}"
+          img-src="{{ entry.thumbnail }}"
+          img-alt="{{ entry.alt }}"
+          role="listitem"
+        >
+          <gcds-text >{{ entry.description }}</gcds-text>
+          {% if entry.otherNames %}
+            <gcds-text text-role="secondary" size="small" margin-bottom="0">
+              <em>{{ documentation[locale].othernames }}{{ entry.otherNames }}</em>
+            </gcds-text>
+          {% endif %}
+        </gcds-card>
+      {% endif %}
+    {%- endfor -%}
+    </gcds-grid>
+  </div>
+{% endif %}

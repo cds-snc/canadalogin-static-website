@@ -1,0 +1,40 @@
+/*
+ * General
+ */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fade 0.05s normal forwards ease-in-out;
+}
+
+.remove-empty-p p:empty {
+  display: none;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+ul li {
+  p.mb-300:has(+ ul),
+  ul.mb-300 {
+    margin-block-end: 0;
+  }
+
+  ul li {
+    list-style: circle;
+  }
+}
+
+.max-width-content {
+  width: var(--gcds-text-character-limit);
+  max-width: 100%;
+}

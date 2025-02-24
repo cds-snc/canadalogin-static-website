@@ -1,7 +1,7 @@
 # Set the environment's global variables
 #
 inputs = {
-  account_id   = "767397971970"
+  account_id   = "329599618423"
   domain_en    = "gc-signin.cdssandbox.xyz"
   domain_fr    = "connexion-gc.cdssandbox.xyz"
   env          = "dev"

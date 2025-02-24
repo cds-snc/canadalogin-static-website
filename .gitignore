@@ -56,3 +56,23 @@ venv.bak/
 
 # Ignore local stack data file
 .devcontainer/data
+
+# Ignore source code editors
+.vscode
+
+###### WEBSITE ignore ######
+
+
+# Ignore installed npm modules
+node_modules/
+.cache
+
+# Ignore output folder
+_site/
+
+# Output folder for page templates
+src/_includes/partials/templates/en/
+src/_includes/partials/templates/fr/
+cypress/screenshots/
+
+###### end of WEBSITE ignore ######

@@ -32,10 +32,19 @@
 				"github.copilot",
 				"github.vscode-github-actions",
 				"hashicorp.hcl",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"ms-vscode.makefile-tools"
 			],
-			"[terraform]": {
-				"editor.formatOnSave": true
+			"settings": {
+				"[terraform]": {
+					"editor.formatOnSave": true
+				},
+				"files.associations": {
+					"*.njk": "html"
+				},
+				"emmet.includeLanguages": {
+					"njk": "html"
+				}
 			}
 		},
 		"codespaces": {
