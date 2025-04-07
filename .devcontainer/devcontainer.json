@@ -28,17 +28,12 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"hashicorp.terraform",
 				"github.copilot",
 				"github.vscode-github-actions",
 				"hashicorp.hcl",
-				"eamodio.gitlens",
-				"ms-vscode.makefile-tools"
+				"eamodio.gitlens"
 			],
 			"settings": {
-				"[terraform]": {
-					"editor.formatOnSave": true
-				},
 				"files.associations": {
 					"*.njk": "html"
 				},
@@ -49,10 +44,8 @@
 		},
 		"codespaces": {
 			"extensions": [
-				"hashicorp.terraform",
 				"github.copilot",
 				"github.vscode-github-actions",
-				"hashicorp.hcl",
 				"redhat.vscode-yaml"
 			]
 		}
