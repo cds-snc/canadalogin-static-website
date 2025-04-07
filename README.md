@@ -1,6 +1,6 @@
-# Growth Team
+# GC Sign in
 
-A spot for the Growth Team to track their work.
+Landing page and central source of information for potential clients that are interested in GC Sign in.
 
 
 ### Quick Start
