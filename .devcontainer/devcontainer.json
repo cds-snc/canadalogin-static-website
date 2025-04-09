@@ -12,11 +12,6 @@
 		"ghcr.io/devcontainers/features/aws-cli:1": {
 			"version": "latest"
 		},
-		"ghcr.io/devcontainers/features/terraform:1": {
-			"version": "1.9.4",
-			"tflint": "latest",
-			"terragrunt": "0.66.9"
-		},
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"version": "latest",
 			"dockerDashComposeVersion": "latest"
@@ -28,17 +23,12 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"hashicorp.terraform",
 				"github.copilot",
 				"github.vscode-github-actions",
 				"hashicorp.hcl",
-				"eamodio.gitlens",
-				"ms-vscode.makefile-tools"
+				"eamodio.gitlens"
 			],
 			"settings": {
-				"[terraform]": {
-					"editor.formatOnSave": true
-				},
 				"files.associations": {
 					"*.njk": "html"
 				},
@@ -49,10 +39,8 @@
 		},
 		"codespaces": {
 			"extensions": [
-				"hashicorp.terraform",
 				"github.copilot",
 				"github.vscode-github-actions",
-				"hashicorp.hcl",
 				"redhat.vscode-yaml"
 			]
 		}
