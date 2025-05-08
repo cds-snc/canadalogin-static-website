@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: gc-signin-static-website
+  title: GC Sign Static Website
   description: Landing page and central source of information for potential clients that are interested in GC Sign in
   labels:
     license: MIT
