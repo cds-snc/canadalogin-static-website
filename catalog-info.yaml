@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gc-signin-static-website
+  description: null
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: digital-credentials-gc-sign-in-admin
