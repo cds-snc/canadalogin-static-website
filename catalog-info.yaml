@@ -2,10 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: gc-signin-static-website
-  description: null
+  title: GC Sign Static Website
+  description: Landing page and central source of information for potential clients that are interested in GC Sign in
   labels:
     license: MIT
 spec:
   type: website
   lifecycle: experimental
-  owner: digital-credentials-gc-sign-in-admin
+  owner: group:cds-snc/digital-credentials-gc-sign-in
+  system: gc-signin-solution
+
