@@ -32,7 +32,7 @@ const anchor = (md, options) => {
   };
 
   md.renderer.rules.paragraph_open = function (tokens, index) {
-    return `<${tokens[index].tag} class="mb-300">`;
+    return `<${tokens[index].tag}>`;
   };
 };
 

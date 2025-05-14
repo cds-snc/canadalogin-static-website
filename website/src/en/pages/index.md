@@ -1,5 +1,5 @@
 ---
-title: Home
+title: GC Sign in Help Centre
 layout: 'layouts/home.njk'
 permalink: /en/
 translationKey: 'index'
@@ -7,52 +7,19 @@ redirect_from: /
 date: 'git Last Modified'
 ---
 
-<!-- <h2 class="py-450">{{ homehero[locale].signIn }} - One front door for the GC</h2>
-<gcds-heading tag="h2">
-  Heading
-</gcds-heading> -->
+# {{ homehero[locale].signIn }} Help Centre
 
-<gcds-heading tag="h1">{{ homehero[locale].signIn }} - One front door for the GC</gcds-heading>
+## Getting started with {{ homehero[locale].signIn }}
+How to create your account. Learn about authentication options and account features.
+
+{% link links.getstarted 'Get started →' %}     
+### How can we help?
+<section class="mb-1000">
+    <gcds-grid columns="repeat(auto-fit, minmax(200px, 450px))">
+        <p><gcds-card card-title="Trouble signing up" href="{{ links.troublesigningup }}" description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues." card-title-tag="h4"></gcds-card></p>
+        <p><gcds-card card-title="Trouble signing in" href="{{ links.troublesigningin }}" description="Forgot your password? Locked out of your account? We’ll help you resolve access issues." card-title-tag="h4"></gcds-card></p>
+        <p><gcds-card card-title="Managing your GC Sign in account" href="{{ links.manageyouraccount }}" description="Change your account settings including your password, phone number, email and more." card-title-tag="h4"></gcds-card></p>
+    </gcds-grid>
+</section>
 
 
-<gcds-text>
- {{ homehero[locale].signIn }} is a user-friendly sign in experience
-that only requires people to prove their identity once
-to access Government of Canada digital services.
-</gcds-text>
-
-<gcds-link href="{{ links.contact }}">Contact us to use {{ homehero[locale].signIn }}</gcds-link>
-
-<article class="py-450">
-
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr">
-    <li class="list-none">
-      <img class="mb-150" src="../../images/common/home/icon-components.svg" alt="" />
-      <h3 class="mb-300">Authentication</h3>
-      <p class="mb-300">Users don’t have to create a new way to sign in, users can sign in with something they already have</p>
-    </li>
-    <li class="list-none">
-      <img class="mb-150" src="../../images/common/home/icon-template.svg" alt="" />
-      <h3 class="mb-300">Core Profile</h3>
-      <p class="mb-300">Saves the hassle of entering the same data again.</p>
-    </li>
-    <li class="list-none">
-      <img class="mb-150" src="../../images/common/home/icon-tokens.svg" alt="" />
-      <h3 class="mb-300">Identity</h3>
-      <p class="mb-300">Departments can have users sign in 
-and identity proof without maintaining underlying technology or be concerned about adherence to authentication and identity standards​..</p>
-    </li>
-  </gcds-grid>
-</article>
-
-<article class="py-600 bg-light bg-full-width">
-  <h2 class="mb-300">What's new</h2>
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr">
-    <li class="list-none bg-white px-175 py-450 b-radius-md">
-      <h3 class="mb-300">
-        <gcds-link external href="{{ links.releaseNotes }}">Release notes</gcds-link>
-      </h3>
-      <p>Read about the latest additions.</p>
-    </li>
-  </gcds-grid>
-</article>

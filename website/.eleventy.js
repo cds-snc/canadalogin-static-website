@@ -225,6 +225,14 @@ module.exports = function (eleventyConfig) {
     return await getLatestCdnVersion();
   });
 
+  eleventyConfig.addShortcode("link", function(url, text){
+    return '<gcds-link href="'+url+'">'+text+'</gcds-link>';
+  })
+
+  eleventyConfig.addShortcode("linkRef", function(url, ref, text){
+    return '<gcds-link href="'+url+'#'+ref+'">'+text+'</gcds-link>';
+  })
+
   eleventyConfig.addPairedShortcode(
     'componentPreview',
     (children, title, padding = 'px-225 py-300', margin = 'my-600') => {
