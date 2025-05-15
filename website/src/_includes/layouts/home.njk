@@ -55,17 +55,13 @@
       <section class="container-xl mx-auto xl:px-0 sm:px-600 px-225">
         {% block content %}{{ content | safe }}{% endblock %}
 
-        {% include "partials/helpus.njk" %}
-
-        <gcds-date-modified class="mb-300">
-          {{ page.date | dateLastModified}}
-        </gcds-date-modified>
       </section>
     </main>
 
-    <gcds-footer display="full" lang="{{ locale }}" contextual-heading="{{ footer[locale].contextual.heading }}"
-      contextual-links='{ "{{ footer[locale].contextual.list }}": "{{ footer[locale].contextual.listurl }}", "{{ footer[locale].contextual.issue }}": "{{ footer[locale].contextual.issueurl }}", "{{ footer[locale].contextual.about }}": "{{ footer[locale].contextual.abouturl }}" }'
-      sub-links='{ "{{ footer[locale].sub.social }}": "{{ footer[locale].sub.socialurl }}", "{{ footer[locale].sub.mobile }}": "{{ footer[locale].sub.mobileurl }}", "{{ footer[locale].sub.about }}": "{{ footer[locale].sub.abouturl }}", "{{ footer[locale].sub.terms }}": "{{ footer[locale].sub.termsurl }}", "{{ footer[locale].sub.privacy }}": "{{ links.privacy }}" }'></gcds-footer>
+    <gcds-footer display="compact" lang="{{ locale }}"
+      sub-links='{ "{{ footer[locale].sub.about }}": "{{ footer[locale].sub.abouturl }}",
+      "{{ footer[locale].sub.help }}": "{{ footer[locale].sub.helpurl }}",
+      "{{ footer[locale].sub.terms }}": "{{ footer[locale].sub.termsurl }}" }'></gcds-footer>
 
   </div>
 

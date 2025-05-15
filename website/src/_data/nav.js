@@ -1,6 +1,6 @@
 module.exports = {
   en: {
-    title: 'GC Sign in',
+    title: 'GC Sign in | Help Center',
     url: '/en',
     label: 'Main menu',
   },
