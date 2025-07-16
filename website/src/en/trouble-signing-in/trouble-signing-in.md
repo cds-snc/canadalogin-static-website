@@ -19,5 +19,5 @@ Forgot your password? Locked out of your account? Get help accessing your accoun
 - [How to sign in to GC Sign in](how-to-sign-in)
 - [Problems entering your email address](problems-entering-your-email-address)
 - [Forgot your password](forgot-your-password)
-- Cannot access your phone
+- [Cannot access your phone](cannot-access-your-phone)
 - Not receiving verification codes to your phone
