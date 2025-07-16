@@ -1,27 +1,29 @@
 ---
-title: Issues with creating a profile
-translationKey: creatingprofile
+title: Problèmes liés à la création d'un profil
+translationKey: issuesCreatingProfile
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: creatingProfileEn
-  title: Issues with creating a profile
-  locale: en
-  order: 2
-  parent: troubleSigningUpEn
+  key: issuesCreatingProfileFr
+  title: Profil
+  locale: fr
+  order: 5
+  parent: troubleSigningUpFr
   hideMain: true
 ---
 
-# Issues creating a profile
+# Problèmes liés à la création d'un profil
 
-When signing up for GC Sign in, you’ll need to provide some basic information to create your profile, including your:
-- Name
-           
-If you’re having issues entering this information, see our troubleshooting topics below:
+Pour créer votre profil lors de votre inscription à Connexion GC, vous devrez fournir quelques renseignements de base, y compris le renseignement suivant:
 
-### You are not sure what to enter for your name
-    
-Try the following:
-- <strong>First name (optional)</strong>: You can choose to enter a first name or leave it blank.
-- <strong>Last name (required)</strong>: You must enter your last name. If you do not have a last name, write your legal name in this field.
- 
-If you are still having issues {% link links.contact 'contact customer support' %} with your issue and tell them what you’ve tried.
+* Nom
+
+Si vous avez des problèmes pour entrer ces renseignements, consultez nos guides de dépannage ci-dessous:
+
+## Vous ne savez pas quoi entrer comme nom
+
+Essayez ce modèle:
+
+* **Prénom (facultatif):** Vous pouvez choisir d'entrer un prénom ou de laisser le champ vide.
+* **Nom de famille (obligatoire):** Vous devez entrer un nom de famille. Si vous n'avez qu'un nom au lieu d'un nom et d'un prénom, écrivez votre nom légal dans ce champ.
+
+Si vous rencontrez encore des problèmes, {% linkRef links.contact '' 'contactez l\'équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.

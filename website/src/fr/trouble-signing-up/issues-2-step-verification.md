@@ -1,85 +1,76 @@
 ---
-title: Issues with setting up 2-step verification
+title: Problèmes liés à la configuration de la vérification en deux étapes
 translationKey: issuesSettingUp2Fa
 layout: 'layouts/base.njk'
 eleventyNavigation:
-   key: issuesSettingUp2FaEn
-   title: 2-step verification
-   locale: en
+   key: issuesSettingUp2FaFr
+   title: Vérification en deux étapes
+   locale: fr
    order: 2
-   parent: troubleSigningUpEn
+   parent: troubleSigningUpFr
    hideMain: true
 ---
 
-# Issues with setting up 2-step verification
+# Problèmes liés à la configuration de la vérification en deux étapes
 
-- {% link '#it-says-your-phone-number-is-invalid' 'It says your phone number is invalid' %}
-- {% link '#you-are-not-receiving-codes-to-your-phone' 'You are not receiving codes to your phone' %}
-- {% link '#it-says-your-code-is-invalid' 'It says your code is invalid' %}
+- {% link '#un-message-indique-que-votre-numero-de-telephone-est-invalide' 'Un message indique que votre numéro de téléphone est invalide' %}
+- {% link '#vous-navez-pas-recu-de-code-a-usage-unique-sur-votre-telephone' 'Vous n\'avez pas reçu de code à usage unique sur votre téléphone' %}
+- {% link '#un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
 
-## Issues with registering text message / phone call verification
+## Problèmes liés à l'enregistrement de la vérification par message texte / appel vocal
     
-### It says your phone number is invalid
+### Un message indique que votre numéro de téléphone est invalide
   
-If you receive an error message telling you that your phone number is invalid, try the following troubleshooting steps:
+Si vous recevez un message d'erreur indiquant que votre numéro de téléphone est invalide, essayez les étapes de dépannage suivantes :
 
-1. <strong>Check that your phone number is correct</strong>
-   - Make sure you entered the correct number with no typos or missing digits. 
-   - Make sure you selected the correct country code from the dropdown menu (e.g., +1 for Canada and the United States).
+1. **Vérifiez que votre numéro de téléphone est correct**
+   - Assurez-vous d'avoir entré le bon numéro, sans faute de frappe ni chiffre manquant.
+   - Assurez-vous d'avoir sélectionné le bon indicatif dans la liste déroulante (p. ex. : +1 pour le Canada et les États-Unis).
                    
-2. <strong>Check that your phone number works</strong>
-   - Verify that the phone number is active and capable of receiving SMS or voice calls.
+2. **Vérifiez que votre numéro de téléphone fonctionne**
+   - Vérifiez que le numéro de téléphone est actif et qu'il peut recevoir des SMS ou des appels vocaux.
                
-3. <strong>Check that your phone number is supported</strong>
-   - Our service supports phone numbers from the countries found on this list:
-     {% link links.supportedcountries 'Supported international phone numbers' %}.
-   - If your phone number is from a country not on this list, signing in using Text Message or Voice is not possible. 
-     You will not be able to create a GC Sign in account at this time, until more verification methods have been added.
+3. **Vérifiez que votre numéro de téléphone est pris en charge**
+   - En raison de limitations techniques, notre service ne prend actuellement en charge que les numéros de téléphone des pays figurant sur cette liste :
+     {% linkRef links.supportedcountries '' 'Numéros de téléphone internationaux pris en charge' %}.
+   - Si votre numéro de téléphone correspond à un pays n'apparaissant pas dans la liste, vous ne pouvez pas vous connecter à l'aide de la vérification par message texte ou par appel vocal. 
+     Vous ne serez pas en mesure de créer un compte Connexion GC à l'heure actuelle et devrez attendre que d'autres méthodes de vérification soient ajoutées.
 
-4. <strong>Try using a different phone number if possible</strong>
+4. **Essayez d'utiliser un autre numéro de téléphone si cela est possible**
 
-
-5. <strong>Contact Support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+5. **Contactez l'équipe de soutien**
+   - Si aucune de ces solutions ne fonctionne, {% linkRef links.contact '' 'contactez l\'équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
                      
-### You are not receiving codes to your phone
+### Vous n'avez pas reçu de code à usage unique sur votre téléphone
              
-If you’re not receiving your verification code via SMS (text) or phone call for GC Sign in, try these troubleshooting steps:
+Si vous n'avez pas reçu votre code de vérification Connexion GC par message texte (SMS) ou appel vocal, essayez ces étapes de dépannage :
 
-<br />
-
-1. <strong>Check your phone number</strong>
-   - Make sure you entered the correct number with no typos or missing digits.
-   - Make sure you selected the correct country code from the dropdown menu (e.g., +1 for Canada and the United States).
+1. **Vérifiez votre numéro de téléphone**
+   - Assurez-vous d'avoir entré le bon numéro, sans faute de frappe ni chiffre manquant.
+   - Assurez-vous d'avoir sélectionné le bon indicatif dans la liste déroulante (p. ex. : +1 pour le Canada et les États-Unis).
    
-2. <strong>Check your mobile signal</strong>Ensure you have a strong signal or switch to a different location.
-   - Ensure you have a strong signal or switch to a different location.
-   - Restart your phone to refresh the network connection.
+2. **Vérifiez votre accès au réseau mobile**
+   - Vérifiez que vous avez accès au réseau mobile ou déplacez-vous.
+   - Redémarrez votre téléphone pour actualiser la connexion au réseau.
 
-3. <strong>Verify your message or call settings</strong>
-   - Check your phone settings to see if messages or calls from unknown numbers are blocked.
-   - Look for messages in your spam or filtered messages folder.
+3. **Vérifiez vos paramètres pour les messages ou appels**
+   - Vérifiez les paramètres de votre téléphone pour voir si les messages ou les appels provenant de numéros inconnus sont bloqués. Consultez le contenu d'aide du fabricant de votre téléphone pour savoir comment procéder.
+   - Consultez vos dossiers de pourriels ou de messages filtrés.
    
-4. <strong>Wait a few minutes and try again</strong> 
-   - Network delays can happen. If you requested multiple codes, use the most recent one. 
-   - If the message or call doesn’t arrive, request a new code by selecting “Send the code again” under “Problems with the code?”. You may have to wait a few seconds for the link to appear.
+4. **Attendez quelques minutes et réessayez** 
+   - Le réseau peut connaître des retard de transmission. Si vous avez demandé plusieurs codes, utilisez le code le plus récent.
+   - Si le message ou appel ne vous parvient pas, demandez un nouveau code en cliquant sur « Demander un nouveau code » sous « Des problèmes avec votre code? ». Il se peut que vous deviez attendre quelques secondes avant que le lien permettant de demander un nouveau code apparaisse.
                                        
-5. <strong>Contact Support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already. 
+5. **Contactez l'équipe de soutien**
+   - Si aucune de ces solutions ne fonctionne, {% linkRef links.contact '' 'contactez l\'équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
    
-### It says your code is invalid                                  
+### Un message indique que le code est invalide                                  
 
-If it says your one-time code is invalid, try these troubleshooting steps:
+Si un message indique que le code à usage unique que vous avez entré est invalide, essayez ces étapes de dépannage :
 
-<br />
-
-1. <strong>Make sure you have entered the code correctly</strong>
-    - Codes are 6-digits, double check that you entered or copied it correctly.
+1. **Assurez-vous d'avoir entré le code correctement**
+    - Les codes sont composés de six chiffres, vérifiez d'avoir entré ou copié votre code correctement.
                                        
-2. <strong>Make sure you have the right code</strong>
-   - If you requested multiple codes, only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works. 
-   - If you enter the code incorrectly too many times, you may be temporarily locked out.
- 
-3. <strong>Contact Support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
-                                             
+2. **Assurez-vous d'avoir le bon code**
+   - Si vous avez demandé plusieurs codes, seul le code que vous avez reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes jusqu'à ce que l'un d'entre eux fonctionne.
+   - Si vous entrez le mauvais code à de trop nombreuses reprises, il se peut que votre compte soit temporairement verrouillé.

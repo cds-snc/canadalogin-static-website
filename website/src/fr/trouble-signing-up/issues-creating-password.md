@@ -1,71 +1,58 @@
 ---
-title: Issues creating a password
-translationKey: issuesPassword
+title: Problèmes liés à la création d'un mot de passe
+translationKey: issuesCreatingPassword
 layout: 'layouts/base.njk'
 eleventyNavigation:
-   key: issuesPasswordEn
-   title: Issues creating a password
-   locale: en
-   order: 2
-   parent: troubleSigningUpEn
-   hideMain: true
+  key: issuesCreatingPasswordFr
+  title: Mot de passe
+  locale: fr
+  order: 3
+  parent: troubleSigningUpFr
+  hideMain: true
 ---
 
-# Issues creating a password
+# Problèmes liés à la création d'un mot de passe
 
-- {% link '#it-says-your-password-is-not-valid' 'It says your password is not valid' %}
-- {% link '#' 'How to make a strong password' %}
-- {% link '#it-says-your-password-is-compromised-what-should-you-do' 'It says your password is compromised. What should you do?' %}
+- {% link '#un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}
+- {% link '#comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}
 
-## It says your password is not valid
+## Un message indique que votre mot de passe est invalide
 
-If you're seeing a message that your password is not valid try the following troubleshooting steps:
-   
-<br />
+Si vous recevez un message disant que votre mot de passe n'est pas valide, essayez les étapes de dépannage suivantes :
 
-1. <strong>Make sure your password meets all the requirements</strong>
-   
-   <br />
-   
-   GC Sign in passwords <strong>must</strong>:
-    - Be between 12 and 65 characters long.
-   <br />
+### 1. Assurez-vous que votre mot de passe répond à toutes les exigences
 
-   GC Sign in passwords <strong>cannot</strong>:
-   - Be common word or phrase, or a commonly used password (e.g., "password123").
-   - Contain repeated characters (e.g., "111" or "aaa").
-   - Include parts of your email address.
+Les mots de passe Connexion GC **doivent** remplir la condition suivante :
 
-2. <strong>Try creating a stronger password</strong>
+* Comprendre entre 12 et 65 caractères.
 
-   <br />
-   
-   To create a strong password that helps keep your account secure, consider strengthening your password by:
-   - Using unique phrases that only you recognize.
-   - Using multiple words with spaces to get to 12 characters.
-   - Creating a longer password that you can still remember.
-   - Not using dates, like your birthday.
-   - Not using the same password, or parts of it, that you use for other accounts, such as your bank account or email.
-   <br />
-   
-   You can follow these tips to make a {% link '#' 'strong password' %}.
+Les mots de passe Connexion GC **ne peuvent pas** se trouver dans un des cas suivants :
 
-   <br />
+* Être un mot courant ou une phrase courante, ni être un mot de passe couramment utilisé (comme « motdepasse123 »).
+* Contenir des caractères répétitifs (p. ex. : « 111 » ou « aaa »).
+* Contenir des éléments de votre adresse courriel.
 
-3. <strong>Choose a different password and try again</strong>
-    - If your password does not meet the above rules, try choosing a new one that follows the guidelines.
-4. <strong>Contact Support</strong>
-    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+### 2. Choisissez un mot de passe différent et réessayez
 
-## It says your password is compromised. What should you do?
+Si votre mot de passe n'est pas conforme aux règles ci-dessus, essayez d'en choisir un nouveau qui respecte ces règles.
 
-If you see a message that the password you tried to create is compromised,
-it means your password may have been part of a known data breach. To protect your account:
+Vous pouvez suivre notre guide {% link '#comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}.
 
-- Choose a different password that is not used on any of your other accounts.
-- Use unique phrases that only you recognize.
-- Avoid using the same password across multiple accounts.
+### 3. Contactez l'équipe de soutien
 
-We also recommend changing your password on any other accounts that you use this password for.
+Si aucune de ces solutions ne fonctionne, {% linkRef links.contact '' 'contactez l\'équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
 
-You can follow these tips to make a {% link '#' 'strong password' %}.
+## Comment créer un mot de passe robuste
+
+Pour aider à éviter que votre compte et vos renseignements personnels soient compromis, envisagez de renforcer votre mot de passe en utilisant les éléments suivants : 
+
+* Des phrases uniques que vous êtes la seule personne à reconnaître.   
+* Une phrase complète au lieu d'un seul mot. Vous pouvez par exemple combiner plusieurs mots en les séparant par une espace (p. ex. : « coussin orignal plat »).  
+* Des chiffres et des caractères spéciaux.   
+* Un mot de passe plus long qui reste possible à retenir pour vous.
+
+Évitez les mots de passe faciles à deviner, comme ceux qui utilisent :
+
+* Des phrases communes ou des caractères qui se répètent, comme « abc » ou « 111 ».  
+* Des éléments de votre adresse courriel ou des dates qui vous sont personnelles, comme votre anniversaire.  
+* Le même mot de passe que celui que vous utilisez pour d'autres comptes (compte bancaire, compte de courrier électronique) ou un mot de passe similaire.
