@@ -17,7 +17,7 @@ Forgot your password? Locked out of your account? Get help accessing your accoun
 ## Common Problems
 
 - [How to sign in to GC Sign in](how-to-sign-in)
-- Problems entering your email address
+- [Problems entering your email address](problems-entering-your-email-address)
 - [Forgot your password](forgot-your-password)
 - Cannot access your phone
 - Not receiving verification codes to your phone
