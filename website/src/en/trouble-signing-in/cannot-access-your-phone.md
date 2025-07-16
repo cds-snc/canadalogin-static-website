@@ -53,7 +53,7 @@ If you do not have multiple numbers registered to your account, you will need to
 6. **Retrieve the one-time code from your text messages or by answering the call from GC Sign in.**
 
    **Related help guides**
-   - {% linkRef links.issuestwostepverification 'you-are-not-receiving-codes-to-your-phone' 'Not receiving verification codes to your phone' %}
+   - [Not receiving verification codes to your phone](../not-receiving-verification-codes-to-your-phone)
 
 7. **Enter the code on the webpage.**
 
