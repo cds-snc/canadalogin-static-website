@@ -1,6 +1,6 @@
 ---
 title: Cannot access your phone
-translationKey: cannotaccessyourphone
+translationKey: cannotaccessyouTo delete numbers you do not want on your account anymore, follow our guide on {% linkRef links.deleteatwostepverificationphonenumber 'delete-a-2-step-verification-phone-number' 'how to delete a 2-step verification phone number' %}.phone
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: cannotAccessYourPhoneEn
@@ -24,7 +24,7 @@ If you no longer have access to the default phone number on your account, but ha
 
 3. **A 6-digit verification code will be sent to the phone number you selected via text message or voice call. Enter this code on the webpage when prompted.**
 
-4. **Once you've signed in, you can navigate to your GC Sign in manage area,** to add a new phone number and delete your old one, or change your default phone number.
+4. **Once you've signed in, you can navigate to your GC Sign in manage area,** to {% linkRef links.addatwostepverificationphonenumber 'add-a-2-step-verification-phone-number' 'add a new phone number' %} and {% linkRef links.deleteatwostepverificationphonenumber 'delete-a-2-step-verification-phone-number' 'delete your old one' %}, or {% linkRef links.changeyourdefaulttwostepverificationnumber 'change-your-default-2-step-verification-number' 'change your default phone number' %}.
 
 ## If you only have one 2-step verification phone number registered to your account
 
@@ -53,7 +53,7 @@ If you do not have multiple numbers registered to your account, you will need to
 6. **Retrieve the one-time code from your text messages or by answering the call from GC Sign in.**
 
    **Related help guides**
-   - [Not receiving verification codes to your phone](../not-receiving-verification-codes-to-your-phone)
+   - {% linkRef links.notreceivingverificationcodestoyourphone 'not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}
 
 7. **Enter the code on the webpage.**
 
@@ -65,4 +65,4 @@ If you do not have multiple numbers registered to your account, you will need to
 
 ### This does not replace any of the existing numbers on your account
 
-To delete numbers you do not want on your account anymore, follow our guide on how to delete a 2-step verification phone number.
+To delete numbers you do not want on your account anymore, follow our guide on {% linkRef links.deleteatwostepverificationphonenumber 'delete-a-2-step-verification-phone-number' 'how to delete a 2-step verification phone number' %}.

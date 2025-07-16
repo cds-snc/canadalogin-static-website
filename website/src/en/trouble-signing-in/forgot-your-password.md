@@ -31,8 +31,8 @@ If you believe you are entering the correct password, but you are still getting 
 4. **Enter your new password.**
 
    **Related help guides**
-   - {% linkRef links.issuespassword '#'  'How to make a strong password' %}
-   - [Problems creating a password](/en/trouble-signing-up/issues-creating-password/) 
+   - {% linkRef links.issuespassword '' 'How to make a strong password' %}
+   - {% linkRef links.issuespassword '' 'Problems creating a password' %} 
 
 5. **Select the "continue" button.**
 

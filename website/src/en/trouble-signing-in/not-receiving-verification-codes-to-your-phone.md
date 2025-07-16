@@ -23,4 +23,4 @@ If you're not receiving verification codes to your phone, try the following:
 3. **If you still are not receiving codes and you do not have an alternative number set up in your account that you can use to sign in, you might need to** [recover your phone number](../cannot-access-your-phone#how-to-recover-your-phone-number).
 
    **Related help guides**
-   - [How to sign in if you have more than one 2-step verification phone number registered to your account](../cannot-access-your-phone#if-you-have-more-than-one-2-step-verification-phone-number-registered-to-your-account)
+   - [How to sign in if you have more than one 2-step verification phone number registered to your account](../cannot-access-your-phone/#if-you-have-more-than-one-2-step-verification-phone-number-registered-to-your-account)

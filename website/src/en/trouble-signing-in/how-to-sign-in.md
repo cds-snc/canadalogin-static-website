@@ -14,7 +14,7 @@ eleventyNavigation:
 
 Follow these steps to sign in to GC Sign in:
 
-1. **Go to a service or program already connected to your GC Sign in account.** If you're not sure which programs/services are using GC Sign in, go to our [available services](/en/available-services/) page.
+1. **Go to a service or program already connected to your GC Sign in account.** If you're not sure which programs/services are using GC Sign in, go to our {% linkRef links.availableservices '' 'available services' %} page.
 
    **Note:** If you select a service listed on the available services page that is not already connected to your GC Sign in, the following instructions will connect you to that service.
 
