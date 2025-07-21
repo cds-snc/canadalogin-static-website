@@ -21,7 +21,7 @@ Si vous n'avez plus accès au numéro de téléphone par défaut associé à vot
 1. Sur la page de la vérification en deux étapes qui apparaît lors de la connexion, cliquez sur « Essayer d'une autre manière ».  
 2. Sélectionnez un numéro de téléphone auquel vous avez actuellement accès.  
 3. Un code de vérification à six chiffres sera envoyé par message texte ou appel vocal au numéro de téléphone que vous avez sélectionné. Entrez ce numéro de téléphone sur la page Web lorsque cela vous sera demandé.  
-4. Après la connexion, vous pouvez vous rendre dans la section de gestion de votre compte Connexion GC pour {% linkRef links.addatwostepverificationphonenumber 'ajouter-un-numero-de-telephone-pour-la-verification-en-deux-etapes' 'ajouter un nouveau numéro de téléphone' %} et {% linkRef links.deleteatwostepverificationphonenumber 'supprimer-un-numero-de-telephone-pour-la-verification-en-deux-etapes' 'supprimer votre ancien numéro de téléphone' %}, ou encore pour {% linkRef links.changeyourdefaulttwostepverificationnumber 'modifier-votre-numero-de-telephone-par-defaut-pour-la-verification-en-deux-etapes' 'modifier votre numéro de téléphone par défaut pour la vérification en deux étapes' %}.
+4. Après la connexion, vous pouvez vous rendre dans la section de gestion de votre compte Connexion GC pour {% linkRef links.manageyouraccount 'gerer-votre-compte' 'gérer les paramètres de votre compte' %}.
 
 ## Si vous n'avez qu'un seul numéro de téléphone enregistré sur votre compte pour la vérification en deux étapes
 
@@ -55,4 +55,4 @@ Si vous n'avez pas d'autre numéro enregistré sur votre compte, vous devez suiv
 
 ### Cette action ne remplace aucun des numéros existants sur votre compte
 
-Pour supprimer des numéros de téléphone que vous ne voulez plus associer à votre compte, suivez notre guide {% linkRef links.deleteatwostepverificationphonenumber 'supprimer-un-numero-de-telephone-pour-la-verification-en-deux-etapes' 'Supprimer un numéro de téléphone pour la vérification en deux étapes' %}.
+Pour supprimer des numéros de téléphone que vous ne voulez plus associer à votre compte, suivez notre guide {% linkRef links.manageyouraccount 'gerer-votre-compte' 'pour gérer votre compte' %}.
