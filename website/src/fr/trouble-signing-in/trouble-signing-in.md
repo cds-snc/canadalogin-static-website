@@ -19,5 +19,4 @@ Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compt
 - {% linkRef links.howtosignin '' 'Comment se connecter à Connexion GC' %}
 - {% linkRef links.problemsenteringyouremailaddress '' 'Problèmes liés à la saisie de votre adresse courriel' %}
 - {% linkRef links.forgotyourpassword '' 'Mot de passe oublié' %}
-- {% linkRef links.cannotaccessyourphone '' 'Vous n\'avez pas accès à votre téléphone' %}
-- {% linkRef links.notreceivingverificationcodestoyourphone '' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}
+- {% linkRef links.problemssigninginwith2stepverification '' 'Problèmes de connexion avec la vérification en deux étapes' %}

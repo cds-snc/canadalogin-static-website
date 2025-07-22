@@ -21,16 +21,16 @@ Si vous avez oublié votre mot de passe, suivez ces étapes pour le réinitialis
 
 1. Au moment d'entrer votre mot de passe pour vous connecter, cliquez sur le lien « Réinitialiser le mot de passe » près du bas de la page.  
 2. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ». Ce courriel contiendra un code à usage unique de six chiffres.  
-* Entrez le code sur la page Web et cliquez sur « Continuer ».  
-  
-  **Guides connexes**
-  - {% linkRef links.issuesenterverifyemail 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Que faire si vous ne trouvez pas de courriel contenant le code dans votre boîte de réception' %}
+3. Entrez le code sur la page Web et cliquez sur « Continuer ».  
+  <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
+    <gcds-text>{% linkRef links.issuesenterverifyemail 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Que faire si vous ne trouvez pas de courriel contenant le code dans votre boîte de réception' %}</gcds-text>
+  </gcds-notice>
 
-* Entrez votre nouveau mot de passe.   
-  
-  **Guides connexes**
-  - {% linkRef links.issuespassword '' 'Comment créer un mot de passe robuste' %}
-  - {% linkRef links.issuespassword '' 'Problèmes liés à la création d\'un mot de passe' %}
+4. Entrez votre nouveau mot de passe.   
+  <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
+    <gcds-text>{% linkRef links.issuespassword '' 'Comment créer un mot de passe robuste' %}</gcds-text>
+    <gcds-text>{% linkRef links.issuespassword '' 'Problèmes liés à la création d\'un mot de passe' %}</gcds-text>
+  </gcds-notice>
 
-* Cliquez sur « Continuer ».  
-* Félicitations! Vous avez réinitialisé votre mot de passe et la connexion a réussi. Votre redirection va être effectuée vers le programme ou service auquel vous cherchiez à accéder. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
+5. Cliquez sur « Continuer ».  
+6. Félicitations! Vous avez réinitialisé votre mot de passe et la connexion a réussi. Votre redirection va être effectuée vers le programme ou service auquel vous cherchiez à accéder. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
