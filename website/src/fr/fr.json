@@ -18,8 +18,15 @@
     "forgotyouremail": "/fr/trouble-signing-in/forgot-your-email/",
     "cannotaccessyourphone": "/fr/trouble-signing-in/cannot-access-your-phone/",
     "notreceivingverificationcodestoyourphone": "/fr/trouble-signing-in/not-receiving-verification-codes-to-your-phone/",
-    "availableservices": "/fr/available-services/",
     "manageyouraccount": "/fr/manage-your-account/",
+    "accessyoursettings": "/fr/manage-your-account/access-your-settings/",
+    "changeyouremailaddress": "/fr/manage-your-account/change-your-email-address/",
+    "managehowYousignin": "/fr/manage-your-account/manage-how-you-sign-in/",
+    "manageyourpersonalinformation": "/fr/manage-your-account/manage-your-personal-information/",
+    "howtokeepyouraccountsecure": "/fr/manage-your-account/how-to-keep-your-account-secure/",
+    "whattodowhenyoufindsuspiciousactivity": "/fr/manage-your-account/what-to-do-when-you-find-suspicious-activity/",
+    "howtosignout": "/fr/manage-your-account/how-to-sign-out/",
+    "availableservices": "/fr/available-services/",
     "about": "/fr/about-us/",
     "contact": "/fr/contact/"
   }
