@@ -10,7 +10,7 @@ eleventyNavigation:
   hideMain: true
 ---
 
-# Gérer votre compte
+# Gérer votre compte Connexion GC
 - {% linkRef links.accessyoursettings '' 'Accéder à vos paramètres' %}
 - {% linkRef links.changeyouremailaddress '' 'Modifier votre adresse courriel' %}
 - {% linkRef links.managehowYousignin '' 'Gérer la manière dont vous vous connectez' %}

@@ -10,7 +10,7 @@ eleventyNavigation:
   hideMain: true
 ---
 
-# Manage your account
+# Manage your GC Sign in account
 - {% linkRef links.accessyoursettings '' 'Access your settings' %}
 - {% linkRef links.changeyouremailaddress '' 'Change your email address' %}
 - {% linkRef links.managehowYousignin '' 'Manage how you sign in' %}
