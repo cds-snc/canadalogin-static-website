@@ -39,8 +39,11 @@ Your email address is used for recovering your account if you get locked out, so
 
 - If you sign in on a shared device, the device of a family member or friend, or on a public computer, always make sure you are fully signed out before you stop using the device. For help with this, navigate to our guide on {% linkRef links.howtosignout '' 'how to sign out' %}.
 - Try to avoid using your own devices on public wifi, if you can.
-  - For more information on why this is important, and how to keep your information safe, refer to our [guide on public wifi](https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi).
+  
+  <gcds-notice type="info" notice-title-tag="h3" notice-title="">
+    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public wifi</a>.</gcds-text>
+  </gcds-notice>
 
 ## Monitor for suspicious activity
 
-- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity '' 'these steps to secure your account' %}.
+- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity '#secure-your-gc-sign-in-account' 'these steps to secure your account' %}.
