@@ -1,100 +1,100 @@
 ---
-title: Supported international phone numbers
+title: Numéros de téléphone internationaux pris en charge
 translationKey: supportedPhoneNumbers
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: supportedPhoneNumbersEn
-  title: Supported international phone numbers
-  locale: en
+  key: supportedPhoneNumbersFr
+  title: Numéros de téléphone internationaux pris en charge
+  locale: fr
   order: 2
-  parent: issuesSettingUp2FaEn
+  parent: issuesSettingUp2FaFr
   hideMain: true
 countries1:
-  - Argentina
-  - Australia
-  - Austria
-  - Belarus
-  - Belgium
-  - Brazil
-  - Bulgaria
+  - Argentine
+  - Australie
+  - Autriche
+  - Bélarus
+  - Belgique
+  - Brésil
+  - Bulgarie
   - Canada
-  - Chile
-  - Columbia
+  - Chili
+  - Colombie
   - Costa Rica
-  - Croatia
-  - Denmark
-  - Dominican Republic
-  - Ecuador
-  - Egypt
-  - Estonia
-  - Finland
+  - Croatie
+  - Danemark
+  - République dominicaine
+  - Équateur
+  - Égypte
+  - Estonie
+  - Finlande
   - France
-  - Germany
-  - Greece
+  - Allemagne
+  - Grèce
   - Guadeloupe
   - Guatemala
-  - Guernsey
+  - Guernesey
   - Hong Kong
-  - Hungary
+  - Hongrie
 countries2:
-  - Iceland
-  - India
-  - Indonesia
-  - Ireland
-  - Isle of Mann
-  - Israel
-  - Italy
-  - Jamaica
-  - Japan
+  - Islande
+  - Inde
+  - Indonésie
+  - Irlande
+  - Île de Man
+  - Israël
+  - Italie
+  - Jamaïque
+  - Japon
   - Jersey
   - Kenya
-  - Lithuania
+  - Lituanie
   - Luxembourg
-  - Macedonia
-  - Malasia
-  - Mexico
-  - Morocco
-  - Netherlands
-  - New Zealand
-  - Nigeria
-  - Norway
+  - Macédoine
+  - Malaisie
+  - Mexique
+  - Maroc
+  - Pays-Bas
+  - Nouvelle-Zélande
+  - Nigéria
+  - Norvège
   - Oman
   - Pakistan
   - Panama
-  - Peru
+  - Pérou
   - Philippines
 countries3:
-  - Poland
+  - Pologne
   - Portugal
-  - Puerto Rico
+  - Porto Rico
   - Qatar
-  - Romania
-  - Russia
-  - Saudi Arabia
-  - Singapore
-  - Slovakia
-  - South Africa
-  - South Korea
-  - Spain
+  - Roumanie
+  - Russie
+  - Arabie saoudite
+  - Singapour
+  - Slovaquie
+  - Afrique du Sud
+  - Corée du Sud
+  - Espagne
   - Sri Lanka
-  - Sweden
-  - Switzerland
-  - Taiwan
-  - Thailand
-  - Trinidad and Tobago
-  - Turkey
+  - Suède
+  - Suisse
+  - Taïwan
+  - Thaïlande
+  - Trinité-et-Tobago
+  - Turquie
   - Ukraine
-  - United Kingdom
-  - United States
+  - Royaume-Uni
+  - États-Unis
   - Uruguay
-  - Uzbekistan
+  - Ouzbékistan
   - Venezuela
   - Vietnam
 ---
 
-# Supported international phone numbers
+# Numéros de téléphone internationaux pris en charge
 
-The following is a list of countries that GC Sign in currently supports phone numbers from:
+En raison de limitations techniques, notre service ne prend actuellement en charge que les numéros de téléphone des pays figurant sur cette liste :
 
 <br />
 

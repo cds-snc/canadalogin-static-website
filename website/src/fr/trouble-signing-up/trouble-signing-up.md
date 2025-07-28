@@ -1,34 +1,33 @@
 ---
-title: Trouble signing up here
+title: Problème lié à l'inscription
 translationKey: troublesigningup
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: troubleSigningUpEn
-  title: Trouble signing up
-  locale: en
+  key: troubleSigningUpFr
+  title: Problème lié à l'inscription
+  locale: fr
   order: 2
   hideMain: true
 ---
 
-# Trouble signing up
+# Problème lié à l'inscription
 
-## Common issues
+## Problèmes fréquents
 
-### Issues with entering and verifying your email
-- {% linkRef links.issuesenterverifyemail 'it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}
-- {% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}
-- {% linkRef links.issuesenterverifyemail 'it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}
+### Problèmes liés à la saisie et à la vérification de votre adresse courriel
+- {% linkRef links.issuesenterverifyemail 'un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}
+- {% linkRef links.issuesenterverifyemail 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
+- {% linkRef links.issuesenterverifyemail 'un-message-indique-que-votre-adresse-courriel-est-deja-associee-a-un-compte-connexion-gc' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
 
-### Issues with creating a password
-- {% linkRef links.issuespassword 'it-says-your-password-is-not-valid' 'It says your password is not valid' %}
-- {% linkRef links.issuespassword '#'  'How to make a strong password' %}
-- {% linkRef links.issuespassword 'it-says-your-password-is-compromised-what-should-you-do'  'It says your password is compromised. What should you do?' %}
+### Problèmes liés à la création d'un mot de passe
+- {% linkRef links.issuespassword 'un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}
+- {% linkRef links.issuespassword 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}
 
-### Issues with setting up 2-step verification
-- {% link links.twostepverificationmethods 'You don’t know which verification method to choose' %}
-- {% linkRef links.issuestwostepverification 'it-says-your-phone-number-is-invalid' 'It says your phone number is invalid' %}
-- {% linkRef links.issuestwostepverification 'you-are-not-receiving-codes-to-your-phone' 'I did not receive the one-time code to your phone' %}
-- {% linkRef links.issuestwostepverification 'it-says-your-code-is-invalid' 'It says your code is invalid' %}
+### Problèmes liés à la configuration de la vérification en deux étapes
+- {% linkRef links.twostepverificationmethods '' 'Qu\'est-ce que la vérification en deux étapes?' %}
+- {% linkRef links.issuestwostepverification 'un-message-indique-que-votre-numero-de-telephone-est-invalide' 'Un message indique que votre numéro de téléphone est invalide' %}
+- {% linkRef links.issuestwostepverification 'vous-navez-pas-recu-de-code-a-usage-unique-sur-votre-telephone' 'Vous n\'avez pas reçu de code à usage unique sur votre téléphone' %}
+- {% linkRef links.issuestwostepverification 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
 
-### Issues with profile creation
-- {% link links.issuesprofile 'Creating your profile' %}
+### Problèmes liés à la création d'un profil
+- {% linkRef links.issuesprofile '' 'Problèmes liés à la création d\'un profil' %}

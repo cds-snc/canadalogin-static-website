@@ -12,7 +12,15 @@
     "issuespassword": "/en/trouble-signing-up/issues-creating-password/",
     "issuesprofile": "/en/trouble-signing-up/issues-creating-profile/",
     "troublesigningin": "/en/trouble-signing-in/",
+    "howtosignin": "/en/trouble-signing-in/how-to-sign-in/",
+    "problemsenteringyouremailaddress": "/en/trouble-signing-in/problems-entering-your-email-address/",
+    "forgotyourpassword": "/en/trouble-signing-in/forgot-your-password/",
+    "forgotyouremail": "/en/trouble-signing-in/forgot-your-email/",
+    "cannotaccessyourphone": "/en/trouble-signing-in/cannot-access-your-phone/",
+    "notreceivingverificationcodestoyourphone": "/en/trouble-signing-in/not-receiving-verification-codes-to-your-phone/",
+    "problemssigninginwith2stepverification": "/en/trouble-signing-in/problems-signing-in-with-2-step-verification/",
     "manageyouraccount": "/en/manage-your-account/",
+    "availableservices": "/en/available-services/",
     "about": "/en/about-us/",
     "contact": "/en/contact/"
   }
