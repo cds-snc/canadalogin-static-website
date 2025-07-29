@@ -32,7 +32,7 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Protégez le téléphone que vous utilisez pour la vérification en deux étapes
 
-- Pour vous assurer de ne jamais perdre accès à votre compte, nous vous recommandons d'y ajouter plusieurs numéros de téléphone pour la vérification en deux étapes. Pour obtenir de l'aide à ce sujet, consultez notre guide {% linkRef links.managehowYousignin '' '« Ajouter un numéro de téléphone pour la vérification en deux étapes »' %}.
+- Pour vous assurer de ne jamais perdre accès à votre compte, nous vous recommandons d'y ajouter plusieurs numéros de téléphone pour la vérification en deux étapes. Pour obtenir de l'aide à ce sujet, consultez notre guide {% linkRef links.managehowyousignin '#ajouter-un-numero-de-telephone-pour-la-verification-en-deux-etapes' '« Ajouter un numéro de téléphone pour la vérification en deux étapes »' %}.
 - Vous aurez besoin d'un numéro de téléphone pour accéder à votre compte. Assurez-vous donc qu'il s'agit d'un numéro sécurisé auquel vous aurez toujours accès à l'avenir.
 
 ## Faites attention aux appareils depuis lesquels vous vous connectez

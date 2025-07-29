@@ -38,7 +38,7 @@ If you think someone changed your account info, like your password or 2-step ver
 
 ### 3. Ensure you are following safety practices for good account security
 
-- Have backup 2-step verification phone numbers on your GC Sign account. {% linkRef links.managehowYousignin '' 'How to add 2-step verification numbers to your account' %}.
+- Have backup 2-step verification phone numbers on your GC Sign account. {% linkRef links.managehowyousignin '' 'How to add 2-step verification numbers to your account' %}.
 - {% linkRef links.issuespassword '' 'Use a strong password' %}
 - Don't use the same password you use on other accounts.
 - Make sure your email password is also unique, since it's used to recover your GC Sign in account.

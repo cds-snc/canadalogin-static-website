@@ -32,7 +32,7 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Keep the phone you use for 2-step verification secure
 
-- To make sure you never get locked out, we recommend adding multiple 2-step verification phone numbers to your account. For help with this, refer to our guide on how to {% linkRef links.managehowYousignin '' 'add a 2-step verification phone number' %}.
+- To make sure you never get locked out, we recommend adding multiple 2-step verification phone numbers to your account. For help with this, refer to our guide on how to {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'add a 2-step verification phone number' %}.
 - You will need this phone number to get into your account, so make sure it's a number that's secure, and that you will be able to access in the future.
 
 ## Be careful where you sign in from
@@ -40,10 +40,10 @@ Your email address is used for recovering your account if you get locked out, so
 - If you sign in on a shared device, the device of a family member or friend, or on a public computer, always make sure you are fully signed out before you stop using the device. For help with this, navigate to our guide on {% linkRef links.howtosignout '' 'how to sign out' %}.
 - Try to avoid using your own devices on public wifi, if you can.
   
-  <gcds-notice type="info" notice-title-tag="h3" notice-title="">
+  <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
     <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public wifi</a>.</gcds-text>
   </gcds-notice>
 
 ## Monitor for suspicious activity
 
-- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity '#secure-your-gc-sign-in-account' 'these steps to secure your account' %}.
+- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity 'secure-your-gc-sign-in-account' 'these steps to secure your account' %}.

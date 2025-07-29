@@ -63,7 +63,7 @@ Pour changer la langue officielle dans laquelle vous souhaitez que Connexion GC 
 ## Modifier votre numéro de téléphone de communication
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-  <gcds-text>Cette action <strong>ne modifie pas</strong> votre numéro pour la vérification en deux étapes. Pour modifier le numéro de téléphone que vous utilisez pour vous connecter, consultez notre guide {% linkRef links.managehowYousignin '' '« Modifier votre numéro de téléphone pour la vérification en deux étapes »' %}.</gcds-text>
+  <gcds-text>Cette action <strong>ne modifie pas</strong> votre numéro pour la vérification en deux étapes. Pour modifier le numéro de téléphone que vous utilisez pour vous connecter, consultez notre guide {% linkRef links.managehowyousignin '' '« Modifier votre numéro de téléphone pour la vérification en deux étapes »' %}.</gcds-text>
 </gcds-notice>
 
 Pour modifier le numéro de téléphone que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour vous contacter, procédez comme suit :

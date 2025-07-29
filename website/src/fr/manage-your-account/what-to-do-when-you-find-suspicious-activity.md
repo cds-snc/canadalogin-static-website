@@ -38,7 +38,7 @@ Si vous pensez qu'une personne a modifié les renseignements relatifs à votre c
 
 ### 3. Assurez-vous de suivre les pratiques de sécurité afin de protéger votre compte.
 
-- Ajoutez des numéros de téléphone de secours pour la vérification en deux étapes sur votre compte Connexion GC. {% linkRef links.managehowYousignin '' 'Comment ajouter la vérification en deux étapes à votre compte' %}.
+- Ajoutez des numéros de téléphone de secours pour la vérification en deux étapes sur votre compte Connexion GC. {% linkRef links.managehowyousignin '' 'Comment ajouter la vérification en deux étapes à votre compte' %}.
 - {% linkRef links.issuespassword '' 'Utilisez un mot de passe robuste' %}
 - N'utilisez pas de mot de passe que vous utilisez déjà pour d'autres comptes.
 - Veillez à ce que le mot de passe utilisé pour votre compte de courrier électronique soit également unique, puisqu'il est nécessaire à la récupération de votre compte Connexion GC.

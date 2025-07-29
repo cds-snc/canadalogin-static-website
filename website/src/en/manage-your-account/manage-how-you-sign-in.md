@@ -1,6 +1,6 @@
 ---
 title: Manage how you sign in
-translationKey: managehowYousignin
+translationKey: managehowyousignin
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: manageHowYouSignInEn

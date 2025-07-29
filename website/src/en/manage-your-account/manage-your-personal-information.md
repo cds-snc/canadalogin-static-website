@@ -63,7 +63,7 @@ To change your preference for which official language GC Sign in and connected p
 ## Change your contact phone number
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-  <gcds-text>This <strong>does not</strong> change your 2-step verification number. To change the number you use to sign in, go to our guide on how to {% linkRef links.managehowYousignin '#change-your-2-step-verification-phone-number' 'change your 2-step verification number' %}.</gcds-text>
+  <gcds-text>This <strong>does not</strong> change your 2-step verification number. To change the number you use to sign in, go to our guide on how to {% linkRef links.managehowyousignin '#change-your-2-step-verification-phone-number' 'change your 2-step verification number' %}.</gcds-text>
 </gcds-notice>
 
 To change the phone number GC Sign in and connected programs/services use to contact you, follow these steps:
