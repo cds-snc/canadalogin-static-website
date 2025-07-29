@@ -19,8 +19,8 @@ eleventyNavigation:
 
 ## Change your name
 
-<gcds-notice type="warning" notice-title-tag="h3" notice-title="This *does not* legally change your name">
-  <gcds-text>The name you use with your GC Sign in account is shared with programs and services you have connected to your account. However, updating your name with GC Sign in **does not legally change your name**. It also does not change your name everywhere, only with programs/services connected to your GC Sign in.</gcds-text>
+<gcds-notice type="warning" notice-title-tag="h3" notice-title="This does not legally change your name">
+  <gcds-text>The name you use with your GC Sign in account is shared with programs and services you have connected to your account. However, updating your name with GC Sign in <strong>does not legally change your name</strong>. It also does not change your name everywhere, only with programs/services connected to your GC Sign in.</gcds-text>
 </gcds-notice>
 
 To change your name on GC Sign in, follow these steps:
@@ -62,8 +62,8 @@ To change your preference for which official language GC Sign in and connected p
 
 ## Change your contact phone number
 
-<gcds-notice type="info" notice-title-tag="h3" notice-title="">
-  <gcds-text>This **does not** change your 2-step verification number. To change the number you use to sign in, go to our guide on how to {% linkRef links.managehowYousignin '#change-your-2-step-verification-phone-number' 'change your 2-step verification number' %}.</gcds-text>
+<gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
+  <gcds-text>This <strong>does not</strong> change your 2-step verification number. To change the number you use to sign in, go to our guide on how to {% linkRef links.managehowYousignin '#change-your-2-step-verification-phone-number' 'change your 2-step verification number' %}.</gcds-text>
 </gcds-notice>
 
 To change the phone number GC Sign in and connected programs/services use to contact you, follow these steps:
@@ -79,7 +79,7 @@ To change the phone number GC Sign in and connected programs/services use to con
      <gcds-text>{% linkRef links.issuesenterverifyemail '' 'Problems entering and verifying your phone number' %}</gcds-text>
    </gcds-notice>
 
-7. **Success!** There will be a message confirming that your contact phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email
+7. Success! There will be a message confirming that your contact phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email
 8. Update your contact phone number with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your contact phone number here only updates it with programs/services that are connected to your GC Sign in">
