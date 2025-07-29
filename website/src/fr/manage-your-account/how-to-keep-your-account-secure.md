@@ -32,15 +32,18 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Protégez le téléphone que vous utilisez pour la vérification en deux étapes
 
-- Pour vous assurer de ne jamais perdre accès à votre compte, nous vous recommandons d'y ajouter plusieurs numéros de téléphone pour la vérification en deux étapes. Pour obtenir de l'aide à ce sujet, consultez notre guide {% linkRef links.managehowyousignin '#ajouter-un-numero-de-telephone-pour-la-verification-en-deux-etapes' '« Ajouter un numéro de téléphone pour la vérification en deux étapes »' %}.
+- Pour vous assurer de ne jamais perdre accès à votre compte, nous vous recommandons d'y ajouter plusieurs numéros de téléphone pour la vérification en deux étapes. Pour obtenir de l'aide à ce sujet, consultez notre guide {% linkRef links.managehowyousignin 'ajouter-un-numero-de-telephone-pour-la-verification-en-deux-etapes' '« Ajouter un numéro de téléphone pour la vérification en deux étapes »' %}.
 - Vous aurez besoin d'un numéro de téléphone pour accéder à votre compte. Assurez-vous donc qu'il s'agit d'un numéro sécurisé auquel vous aurez toujours accès à l'avenir.
 
 ## Faites attention aux appareils depuis lesquels vous vous connectez
 
 - Si vous vous connectez sur un appareil en commun l'appareil d'un ou d'une membre de votre famille ou d'un ami ou d'une amie, ou encore sur un ordinateur public, assurez-vous toujours de vous déconnecter complètement avant de cesser d'utiliser l'appareil. Pour obtenir de l'aide à ce sujet, consultez notre guide {% linkRef links.howtosignout '' '« Comment se déconnecter »' %}.
 - Essayez d'éviter d'utiliser vos propres appareils sur le WiFi public, si vous le pouvez.
-  - Pour savoir en quoi cela est important et comment protéger vos renseignements, consultez notre [guide sur le WiFi public](https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi).
+  
+  <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
+    <gcds-text>Pour savoir en quoi cela est important et comment protéger vos renseignements, consultez notre <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide sur le WiFi public</a>.</gcds-text>
+  </gcds-notice>
 
 ## Guettez toute activité suspecte
 
-- Faites attention aux notifications que nous vous envoyons par courriel indiquant qu'une modification a été apportée à votre compte. Si vous n'êtes pas à l'origine du changement en question, suivez {% linkRef links.whattodowhenyoufindsuspiciousactivity '' 'ces étapes pour protéger votre compte' %}.
+- Faites attention aux notifications que nous vous envoyons par courriel indiquant qu'une modification a été apportée à votre compte. Si vous n'êtes pas à l'origine du changement en question, suivez {% linkRef links.whattodowhenyoufindsuspiciousactivity 'securisez-votre-compte-connexion-gc' 'ces étapes pour protéger votre compte' %}.
