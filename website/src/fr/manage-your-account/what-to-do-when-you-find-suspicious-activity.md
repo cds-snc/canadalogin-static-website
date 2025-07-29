@@ -24,21 +24,19 @@ Guettez toujours les activités suspectes sur votre compte. Faites attention aux
 Si vous pensez qu'une personne a modifié les renseignements relatifs à votre compte, comme votre mot de passe ou votre numéro de téléphone pour la vérification en deux étapes, ou si vous ne pouvez pas vous connecter pour toute autre raison, essayez les options suivantes pour vous connecter :
 
 - {% linkRef links.forgotyourpassword '' 'Réinitialisez votre mot de passe' %}
-- {% linkRef links.cannotaccessyourphone '' 'Récupérez votre vérification en deux étapes' %}
+- {% linkRef links.problemssigninginwith2stepverification 'vous-navez-pas-acces-a-votre-telephone' 'Récupérez votre vérification en deux étapes' %}
 
 ### 2. Examinez vos paramètres et annulez toute modification qui aurait été apportée à vos renseignements.
 
-#### 1. Si vous trouvez des modifications à votre compte Connexion GC dont vous n'êtes pas à l'origine, corrigez-les immédiatement.
-
-- Adresse courriel
-- Mot de passe
-- Numéro de téléphone pour la vérification en deux étapes
-
-#### 2. Passez en revue les programmes et services pour lesquels vous utilisez Connexion GC afin de corriger toute modification ayant été apportée à vos renseignements.
+  1. Si vous trouvez des modifications à votre compte Connexion GC dont vous n'êtes pas à l'origine, corrigez-les immédiatement.
+      - Adresse courriel
+      - Mot de passe
+      - Numéro de téléphone pour la vérification en deux étapes
+  2. Passez en revue les programmes et services pour lesquels vous utilisez Connexion GC afin de corriger toute modification ayant été apportée à vos renseignements.
 
 ### 3. Assurez-vous de suivre les pratiques de sécurité afin de protéger votre compte.
 
-- Ajoutez des numéros de téléphone de secours pour la vérification en deux étapes sur votre compte Connexion GC. {% linkRef links.managehowyousignin '' 'Comment ajouter la vérification en deux étapes à votre compte' %}.
+- Ajoutez des numéros de téléphone de secours pour la vérification en deux étapes sur votre compte Connexion GC. {% linkRef links.managehowyousignin 'ajouter-un-numero-de-telephone-pour-la-verification-en-deux-etapes' 'Comment ajouter la vérification en deux étapes à votre compte' %}.
 - {% linkRef links.issuespassword '' 'Utilisez un mot de passe robuste' %}
 - N'utilisez pas de mot de passe que vous utilisez déjà pour d'autres comptes.
 - Veillez à ce que le mot de passe utilisé pour votre compte de courrier électronique soit également unique, puisqu'il est nécessaire à la récupération de votre compte Connexion GC.
