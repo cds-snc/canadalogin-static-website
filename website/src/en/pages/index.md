@@ -19,6 +19,7 @@ How to create your account. Learn about authentication options and account featu
         <p><gcds-card card-title="Trouble signing up" href="{{ links.troublesigningup }}" description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues." card-title-tag="h4"></gcds-card></p>
         <p><gcds-card card-title="Trouble signing in" href="{{ links.troublesigningin }}" description="Forgot your password? Locked out of your account? We’ll help you resolve access issues." card-title-tag="h4"></gcds-card></p>
         <p><gcds-card card-title="Managing your GC Sign in account" href="{{ links.manageyouraccount }}" description="Change your account settings including your password, phone number, email and more." card-title-tag="h4"></gcds-card></p>
+        <p><gcds-card card-title="OpenID Connection Protocol" href="{{ links.openidconnectionprotocol }}" description="General information about OpenID Connection Protocol" card-title-tag="h4"></gcds-card></p>
     </gcds-grid>
 </section>
 

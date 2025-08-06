@@ -20,6 +20,10 @@
     "notreceivingverificationcodestoyourphone": "/en/trouble-signing-in/not-receiving-verification-codes-to-your-phone/",
     "problemssigninginwith2stepverification": "/en/trouble-signing-in/problems-signing-in-with-2-step-verification/",
     "manageyouraccount": "/en/manage-your-account/",
+    "openidconnectionprotocol": "/en/openid-connection-protocol/",
+    "implementationofopenidconnect": "/en/openid-connection-protocol/implementation-of-openid-connect/",
+    "sequencediagrams": "/en/openid-connection-protocol/sequence-diagrams/",
+    "integrateyourrelyingparty": "/en/openid-connection-protocol/integration-your-relying-party/",
     "availableservices": "/en/available-services/",
     "about": "/en/about-us/",
     "contact": "/en/contact/"
