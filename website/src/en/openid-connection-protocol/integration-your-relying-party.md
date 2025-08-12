@@ -48,8 +48,8 @@ After providing the required information, the GC Sign-In team will provide you t
     2. email: This scope value requests access to the email and email_verified claims.
     3. phone: This scope value requests access to the phone_number and phone_number_verified claims.
 
-## Standard Claims list
-Here are the standard claims available during the GC Sign-In pilot:
+## Avaiable User Info Claims list
+Here are the user info claims available during the GC Sign-In pilot:
 
 * `uid` - Unique identifier
 * `preferred_username` - Preferred username
@@ -64,7 +64,11 @@ Here are the standard claims available during the GC Sign-In pilot:
 * `family_name` - Last name
 * `iss` - Token issuer
 * `acr` - Authentication context class reference
+* `amr` - Authentication Methods Reference
+* `locale` - Preferred language 
 
 ## Reference the following links for GC Sign-In envrionment links and endpoints
 
-{% link links.implementationofopenidconnect 'GC Sign-In Implementation of OpenID Connect' %}     
+{% link links.implementationofopenidconnect 'GC Sign-In Implementation of OpenID Connect' %}    
+
+

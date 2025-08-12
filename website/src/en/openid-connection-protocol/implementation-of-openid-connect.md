@@ -111,7 +111,7 @@ GC Sign-In allows you to collect different types of tokens:
     </tr>
     <tr>
       <td style="border: 1px solid #000; padding: 8px;">user info</td>
-      <td style="border: 1px solid #000; padding: 8px;">JWT</td>
+      <td style="border: 1px solid #000; padding: 8px;">JSON</td>
     </tr>
   </tbody>
 </table>
@@ -120,7 +120,7 @@ GC Sign-In allows you to collect different types of tokens:
 
 ## Token signing and encryption
 
-In GC Sign-In pilot phase, JWT tokens (ID Token and User Info) are only signed, not encrypted. The signature guarantees the integrity of the exchanged data, while confidentiality is maintained through TLS protocol during communications between actors.
+In GC Sign-In pilot phase, JWT tokens (ID Token) are only signed, not encrypted. The signature guarantees the integrity of the exchanged data, while confidentiality is maintained through TLS protocol during communications between actors.
 
 
 Future releases may introduce token encryption to provide additional security features based on business requirements and security assessments.

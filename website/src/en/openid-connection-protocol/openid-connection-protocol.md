@@ -126,16 +126,37 @@ The ID token is a JWT format token that is provided along with the access token 
 
 ```json
 {
-  "sub": "4d327dd1e427daf4d50296ab71d6f3fc82ccc40742943521d42cb2bae4df41afv1",
-  "amr": ["fc"],
-  "auth_time": 1619605379,
-  "acr": "eidas3",
-  "nonce": "8c1696f884cac760436c9551ce34be81a3ab61171bf486dd31a58d2bc23a7bbd",
-  "at_hash": "zc4hJ6cxMmrkb8KQn9UXbg",
-  "aud": "6925fb8143c76eded44d32b40c0cb1006065f7f003de52712b78985704f39950",
-  "exp": 1619605440,
-  "iat": 1619605380,
-  "iss": "https://cds-gcsignin-dev.verify.ibm.com/oauth2"
+  "acr": "urn:ibm:security:policy:id:1",
+  "amr": [
+    "password",
+    "smsotp"
+    ],
+  "aud": [
+    "b5c1c2f7-bed0-4120-874c-c5faac5c7f8a"
+  ],
+  "auth_time": 1755016606,
+  "displayName": "John Smith",
+  "email": "John.Smith@example.com",
+  "email_verified": true,
+  "exp": 1755026125,
+  "family_name": "Smith",
+  "given_name": "John",
+  "groupIds": [
+    "allUsers"
+  ],
+  "iat": 1755018925,
+  "iss": "https://cds-gcsignin-dev.verify.ibm.com/oauth2",
+  "jti": "94cff036-701c-48fd-886c-f90c32d934b1",
+  "locale": "en-ca",
+  "name": "John Smith",
+  "preferred_username": "John.Smith@example.com",
+  "rat": 1755018924,
+  "realmName": "cloudIdentityRealm",
+  "sub": "555555XYZ123",
+  "tenantId": "cds-gcsignin-dev.verify.ibm.com",
+  "uid": "555555XYZ123",
+  "uniqueSecurityName": "555555XYZ123",
+  "userType": "regular"
 }
 ```
 
