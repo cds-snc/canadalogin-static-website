@@ -12,13 +12,13 @@ eleventyNavigation:
 
 # OpenID Connect protocol
 
-{% link links.implementationofopenidconnect 'GC Sign-In Implementation of OpenID Connect' %}     
+{% link links.implementationofopenidconnect 'GC Sign-in Implementation of OpenID Connect' %}     
 {% link links.sequencediagrams 'Sequece diagrams' %}  
 {% link links.integrateyourrelyingparty 'Integration your relying party' %}  
 
 ## What is the OpenID Connect protocol?
 
-The OpenID Connect protocol is at the heart of GC Sign-In's operation. It is an identification layer based on the OAuth 2.0 protocol. It allows Clients to access Users ' identities through an Authorization Server .
+The OpenID Connect protocol is at the heart of GC Sign-in's operation. It is an identification layer based on the OAuth 2.0 protocol. It allows Clients to access Users ' identities through an Authorization Server .
 
 The protocol specification can be found at http://openid.net/connect/ .
 
