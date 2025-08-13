@@ -5,49 +5,32 @@ eleventyNavigation:
   key: contactusFR
   title: Contactez-nous
   locale: fr
-  order: 3
+  order: 2
   hideMain: false
 translationKey: 'contactus'
 contactForm: fr
 date: 'git Last Modified'
 ---
 
-# Contacter Système de design GC
+# Contactez-nous
 
-## Formulaire de soutien GitHub
+## Avant de nous contacter
 
-Avec votre compte GitHub, utilisez notre <gcds-link external href="{{ links.githubCompsIssues }}">formulaire de soutien</gcds-link> pour signaler des bogues et obtenir un soutien technique. Vous aurez accès aux problèmes (issues) passés et verrez les progrès accomplis.
+Avant de nous contacter, reportez-vous à nos guides si vous avez un problème avec l'un des points suivants ou si vous souhaitez en savoir plus sur l'un des points suivants :
 
-<hr class="my-600" />
+* {% linkRef links.getstarted '' 'Se lancer avec Connexion GC' %}
+* {% linkRef links.troublesigningup '' 'Problème lié à l\'inscription' %}
+* {% linkRef links.troublesigningin '' 'Problème lié à la connexion' %}
+* {% linkRef links.manageyouraccount '' 'Gestion de votre compte Connexion GC' %}
+* {% linkRef links.howtokeepyouraccountsecure '' 'Comment sécuriser votre compte' %}
+* {% linkRef links.whattodowhenyoufindsuspiciousactivity '' 'Que faire si vous détectez une activité suspecte' %}
 
-## Envoyer des commentaires, demander de l’aide ou s’inscrire
+## Comment nous contacter
 
-Remplissez le formulaire suivant pour nous envoyer vos commentaires, demander de l’aide pour utiliser Système de design GC, ou vous inscrire à notre liste d’envoi ou à une démo.
+### Service à la clientèle
 
-<form class="my-600 contact-us-form" name="contactFR" method="post" style="min-height: 32rem;" action="/api/submission">
-  <input type="hidden" name="form-name" value="contactFR" />
-  <input name="honeypot" type="text" aria-label="bot" hidden/>
+**Téléphone :** 1-800-O-Canada (1-800-622-6232)  
+**TTY :** 1-800-926-9105  
+**À l'extérieur du Canada :** Composer le 1-800-O-Canada à l'étranger
 
-<gcds-input type="text" name="name" input-id="name" label="Nom complet" size="30" autocomplete="name" required></gcds-input>
-<gcds-input type="email" name="email" input-id="email" label="Adresse courriel" size="50" autocomplete="email" required></gcds-input>
-<gcds-textarea name="message" label="Fournissez vos commentaires ou posez une question si vous avez besoin d’aide" textarea-id="message"></gcds-textarea>
-
-  <gcds-fieldset fieldset-id="learnMore" legend="Apprenez-en plus sur Système de design GC" hint="Choisissez autant d'options que vous le souhaitez.">
-    <gcds-checkbox checkbox-id="learnMoreMailingList" label="Ajoutez-moi à votre liste d'envoi." value="learn-more-mailing-list" name="learn-more-mailing-list"></gcds-checkbox>
-    <gcds-checkbox checkbox-id="learnMoreDemo" label="Contactez-moi pour une démo." value="learn-more-demo" name="learn-more-demo"></gcds-checkbox>
-    <gcds-checkbox checkbox-id="learnMoreResearch" label="Contactez-moi pour les études sur l'utilisabilité." value="learn-more-research" name="learn-more-research"></gcds-checkbox>
-  </gcds-fieldset>
-
-  <gcds-fieldset fieldset-id="familiarityGCDS" legend="Indiquez votre expérience avec Système de design GC" hint="Sélectionnez 1 option." required>
-    <gcds-radio-group name="familiarityGCDS" options='{{ contactus[locale].options | stringify | encode-html }}'>
-    </gcds-radio-group>
-  </gcds-fieldset>
-
-  <div hidden>
-    <gcds-input type="text" name="bot-field" input-id="bot-field" label="bot"></gcds-input>
-  </div>
-
-  <gcds-button button-role="primary" type="submit">
-    Envoyer
-  </gcds-button>
-</form>
+**Pour connaître les temps d'attente relatifs aux appels téléphoniques, consultez la page :** {% linkRef links.canada 'https://www.canada.ca/fr/contact/communiquez-avec-1-800-o-canada.html' 'canada.ca/fr/contact/communiquez-avec-1-800-o-canada.html' %}

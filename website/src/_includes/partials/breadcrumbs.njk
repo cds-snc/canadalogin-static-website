@@ -1,9 +1,6 @@
 
 
   <gcds-breadcrumbs lang="{{ locale }}" slot="breadcrumb" hide-canada-link="true">
-    <gcds-breadcrumbs-item href="https://geo.ca/">
-            GEO.ca
-          </gcds-breadcrumbs-item>
     {% if eleventyNavigation or tags %}
       <gcds-breadcrumbs-item href={{ breadcrumbs[locale].url | url }}>
         {{ breadcrumbs[locale].linkText }}
