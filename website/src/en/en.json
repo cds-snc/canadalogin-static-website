@@ -25,6 +25,10 @@
     "howtokeepyouraccountsecure": "/en/manage-your-account/how-to-keep-your-account-secure/",
     "whattodowhenyoufindsuspiciousactivity": "/en/manage-your-account/what-to-do-when-you-find-suspicious-activity/",
     "howtosignout": "/en/manage-your-account/how-to-sign-out/",
+    "openidconnectionprotocol": "/en/openid-connection-protocol/",
+    "implementationofopenidconnect": "/en/openid-connection-protocol/implementation-of-openid-connect/",
+    "sequencediagrams": "/en/openid-connection-protocol/sequence-diagrams/",
+    "integrateyourrelyingparty": "/en/openid-connection-protocol/integration-your-relying-party/",
     "availableservices": "/en/available-services/",
     "about": "/en/about-us/",
     "contact": "/en/contact/"
