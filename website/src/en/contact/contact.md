@@ -13,10 +13,25 @@ eleventyNavigation:
 ---
 
 
-<h1 class="mt-0 mb-300">
-    Page could not be found <br/><span lang="fr">Page introuvable</span>
-</h1>
+# Contact us
 
-Check you’ve entered the correct web address.
+## Before you contact us
 
-<p class="mb-300" lang="fr">Assurez-vous d’avoir saisi la bonne adresse Web.</p>
+Before you contact us, read our guidance if you're having a problem with or want to learn more about:
+
+* {% linkRef links.getstarted '' 'Get started with GC Sign in' %}
+* {% linkRef links.troublesigningup '' 'Trouble signing up' %}
+* {% linkRef links.troublesigningin '' 'Trouble signing in' %}
+* {% linkRef links.manageyouraccount '' 'Managing your GC Sign in account' %}
+* {% linkRef links.howtokeepyouraccountsecure '' 'How to keep your account secure' %}
+* {% linkRef links.whattodowhenyoufindsuspiciousactivity '' 'What to do when you find suspicious activity' %}
+
+## Ways to contact us
+
+### Customer support
+
+**Telephone:** 1-800-O-Canada (1-800-622-6232)  
+**TTY:** 1-800-926-9105  
+**From outside Canada:** Call 1-800-O-Canada from abroad
+
+**For information on call wait times, visit:** {% linkRef links.canada 'https://www.canada.ca/en/contact/contact-1-800-o-canada.html' 'canada.ca/en/contact/contact-1-800-o-canada.html' %}
