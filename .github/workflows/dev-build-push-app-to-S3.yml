@@ -56,5 +56,5 @@ jobs:
 
       - name: Invalidate FRONTEND_APP_CLOUDFRONT_DISTRIBUTION cache
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.EN_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.FR_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.EN_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/en/*" "/en/index.html"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.FR_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/fr/*" "/fr/index.html"
