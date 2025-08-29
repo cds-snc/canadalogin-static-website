@@ -31,6 +31,8 @@
     "integrateyourrelyingparty": "/en/openid-connection-protocol/integration-your-relying-party/",
     "availableservices": "/en/available-services/",
     "about": "/en/about-us/",
-    "contact": "/en/contact/"
+    "contact": "/en/contact/",
+    "individualsorgs": "/en/users/",
+    "federaldepartments": "/en/partners/"
   }
 }

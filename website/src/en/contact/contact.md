@@ -9,7 +9,7 @@ eleventyNavigation:
   title: Contact us
   locale: en
   order: 2
-  hideMain: false
+  hideMain: true
 ---
 
 
