@@ -1,6 +1,6 @@
 ---
 title: GC Sign in for individuals and organisations
-translationKey: getstarted
+translationKey: 
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: 
