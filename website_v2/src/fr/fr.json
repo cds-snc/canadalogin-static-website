@@ -1,0 +1,32 @@
+{
+  "locale": "fr",
+  "links": {
+    "home": "/fr/",
+    "getstarted": "/fr/get-started/",
+    "createaccount": "/fr/get-started/create-account/",
+    "twostepverificationmethods": "/fr/get-started/two-step-verification-methods/",
+    "troublesigningup": "/fr/trouble-signing-up/",
+    "supportedcountries": "/fr/trouble-signing-up/supported-countries/",
+    "issuestwostepverification": "/fr/trouble-signing-up/issues-2-step-verification/",
+    "issuesenterverifyemail": "/fr/trouble-signing-up/issues-enter-verify-email/",
+    "issuespassword": "/fr/trouble-signing-up/issues-creating-password/",
+    "issuesprofile": "/fr/trouble-signing-up/issues-creating-profile/",
+    "troublesigningin": "/fr/trouble-signing-in/",
+    "howtosignin": "/fr/trouble-signing-in/how-to-sign-in/",
+    "problemsenteringyouremailaddress": "/fr/trouble-signing-in/problems-entering-your-email-address/",
+    "forgotyourpassword": "/fr/trouble-signing-in/forgot-your-password/",
+    "forgotyouremail": "/fr/trouble-signing-in/forgot-your-email/",
+    "problemssigninginwith2stepverification": "/fr/trouble-signing-in/problems-signing-in-with-2-step-verification/",
+    "manageyouraccount": "/fr/manage-your-account/",
+    "accessyoursettings": "/fr/manage-your-account/access-your-settings/",
+    "changeyouremailaddress": "/fr/manage-your-account/change-your-email-address/",
+    "managehowyousignin": "/fr/manage-your-account/manage-how-you-sign-in/",
+    "manageyourpersonalinformation": "/fr/manage-your-account/manage-your-personal-information/",
+    "howtokeepyouraccountsecure": "/fr/manage-your-account/how-to-keep-your-account-secure/",
+    "whattodowhenyoufindsuspiciousactivity": "/fr/manage-your-account/what-to-do-when-you-find-suspicious-activity/",
+    "howtosignout": "/fr/manage-your-account/how-to-sign-out/",
+    "availableservices": "/fr/available-services/",
+    "about": "/fr/about-us/",
+    "contact": "/fr/contactez/"
+  }
+}

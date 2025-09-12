@@ -1,0 +1,17 @@
+<section data-pagefind-ignore class="pt-75 mt-300 mb-900 {% if removeBorder %} {% else %}bt-sm b-dark {% endif %}">
+  <h2 class="mt-225 mb-300">
+    {{ helpus[locale].heading }}
+  </h2>
+
+  <p class="mb-300">
+    {{ helpus[locale].paragraph }}
+  </p>
+
+  <gcds-button
+    type="link"
+    button-role="secondary"
+    href="{{ helpus[locale].feedbackHref }}"
+  >
+    {{ helpus[locale].feedback }}
+  </gcds-button>
+</section>
