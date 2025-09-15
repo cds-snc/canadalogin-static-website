@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TODO: Add a description of the page for better SEO and sharing previews. -->
+    <meta
+      name="description"
+      content="Add a description to provide a brief summary of the content."
+    />
+
+    <title>GC Sign in for individuals and organisations</title>
+
+    <!---------- GC Design System Utility ---------->
+    <!-- TODO: Replace <version-number> with the latest version number to receive corresponding updates of the GC Design System utility framework. All notable changes will be documented in the changelog: https://github.com/cds-snc/gcds-utility/blob/main/CHANGELOG.md -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.9.2/dist/gcds-utility.min.css"
+    />
+
+    <!---------- GC Design System Components ---------->
+    <!-- TODO: Replace <version-number> with the latest version number to receive corresponding updates of GC Design System Components. All notable changes will be documented in the changelog: https://github.com/cds-snc/gcds-components/blob/main/CHANGELOG.md -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"
+    ></script>
+
+    <!-- Custom styles -->
+    <!-- TODO: If needed, uncomment and link your custom CSS file here. -->
+    <!-- <link rel="stylesheet" href="path/to/custom.css" /> -->
+     <link rel="stylesheet" href="/styles/prism.css">
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+
+  <body>
+    <!---------- Header ---------->
+    <!-- TODO: Modify the lang-href to set the language toggle's URL. -->
+    <!-- TODO: Update the skip-to-href with the main content container's id. -->
+    <gcds-header lang-href="https://connexion.alpha.canada.ca/partenaires/" skip-to-href="#main-content">
+
+        <gcds-top-nav slot="menu" label="Main menu" alignment="right">
+            <gcds-nav-link slot="home" href="/">GC Sign in Users</gcds-nav-link>
+            
+            <gcds-nav-group
+                menu-label="Help topics"
+                open-trigger="Help topics">
+                <gcds-nav-link href="help-topics/">Get started</gcds-nav-link>
+                <gcds-nav-link href="help-topics/trouble-signing-up/">Trouble signing up</gcds-nav-link>
+                <gcds-nav-link href="help-topics/trouble-signing-in/">Trouble signing in</gcds-nav-link>
+                <gcds-nav-link href="help-topics/managing-your-account/">Managing your account</gcds-nav-link>
+                <gcds-nav-link href="help-topics/link-an-existing-account/">Link an existing account</gcds-nav-link>
+            </gcds-nav-group>
+            
+            <gcds-nav-link href="contact/">
+            Contact us
+            </gcds-nav-link>    
+            
+            <gcds-nav-link href="about/">
+            About
+            </gcds-nav-link>
+        </gcds-top-nav>
+        
+      <!-- The slot="search" attribute adds the search component to the header. -->
+      <gcds-search slot="search"></gcds-search>
+      <!-- <gcds-search search-id="search" slot="search" placeholder="GC Sign in" action="/en/search">
+        </gcds-search> -->
+
+      <gcds-breadcrumbs slot="breadcrumb">
+        <gcds-breadcrumbs-item href="/">GC Sign in</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Individuals and organisations</gcds-breadcrumbs-item>
+      </gcds-breadcrumbs>
+    </gcds-header>
+
+
+
+        <section>
+            <div class="md:py-1250 py-900 hero">
+              <div class="container-xl mx-auto">
+                <article class="sm:py-750 py-450 xl:ps-0 sm:ps-600 ps-450 sm:pe-750 pe-300 bg-primary text-light hero__content">
+                  <h1>
+                    <span class="d-block">GC Sign in for individuals and organisations</span>
+                  </h1>
+                  <p>Say goodbye to multiple accounts and passwords. GC Sign in is designed to simplify your experience, protect your information, and help you get to where you need to go faster.</p>
+                </article>
+              </div>
+            </div>
+        </section>
+
+
+    <!---------- Main content ---------->
+    <!-- TODO: Confirm the id matches the "skip-to-href" id in the header. -->
+    <gcds-container
+      id="main-content"
+      main-container
+      size="xl"
+      centered
+      tag="main">
+
+      
+      <!-- TODO: Update the heading and text content. -->
+      <section>
+        <gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
+          What is GC Sign in
+        </gcds-heading>
+        <!-- <gcds-heading tag="h1">What is GC Sign in</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text> -->
+      </section>
+
+
+<section>
+    <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
+        <li class="list-none">
+        <img class="mb-150" src="../../images/common/home/icon-components.svg" alt="">
+        <p><i class="fa-solid fa-people-group fa-4x"></i></p>
+        <h3 class="mt-0">One login method</h3>
+        <p>With GC Sign in, you can access multiple government services and programs without having to create new usernames and passwords for each one.</p>
+        </li>
+        <li class="list-none">
+        <img class="mb-150" src="../../images/common/home/icon-components.svg" alt="">
+        <p><i class="fa-brands fa-canadian-maple-leaf fa-4x"></i></p>
+        <h3 class="mt-0">Security and privacy</h3>
+        <p>GC Sign in uses best-in-class technology and security that meets Government of Canada standards. It also uses two-factor authentication to help better protect your identity.</p>     
+        </li>
+        <li class="list-none">
+        <img class="mb-150" src="../../images/common/home/icon-components.svg" alt="">
+        <p><i class="fa-brands fa-canadian-maple-leaf fa-4x"></i></p>
+        <h3 class="mt-0">Setting up your account</h3>
+        <p>Simply create an account using your email address and set up your password. Then, use that account to access participating Government of Canada programs and services.</p>     
+        </li>
+    </gcds-grid>
+</section>
+
+
+<!-- 
+      <section>
+        <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
+            <gcds-card
+            card-title="One login method"
+            href="#"
+            card-title-tag="h3"
+            description="With GC Sign in, you can access multiple government services and programs without having to create new usernames and passwords for each one."
+            img-src="images/img1.jpg"
+            img-alt="Image1">
+            </gcds-card>
+            <gcds-card
+            card-title="Security and privacy"
+            href="#"
+            card-title-tag="h3"
+            description="GC Sign in uses best-in-class technology and security that meets Government of Canada standards. It also uses two-factor authentication to help better protect your identity."
+            img-src="images/img1.jpg"
+            img-alt="Image1">
+            </gcds-card>
+            <gcds-card
+            card-title="Setting up your account"
+            href="#"
+            card-title-tag="h3"
+            description="Simply create an account using your email address and set up your password. Then, use that account to access participating Government of Canada programs and services."
+            img-src="images/img1.jpg"
+            img-alt="Image1">
+            </gcds-card>
+        </gcds-grid>
+      </section>
+ -->
+
+      <section>
+        <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
+            <div>
+                <gcds-heading tag="h2">Get started with GC Sign in</gcds-heading>
+                <gcds-text>
+                How to create your account. Learn about authentication options and account features.
+                </gcds-text>
+                <gcds-link href="get-started/">Get started →</gcds-link>
+            </div>
+            <div style="background-color: rgb(181, 186, 186);">
+                <!-- <gcds-icon label="Placeholder" name="external" margin-left="100" margin-right="100" size="h4">
+                </gcds-icon> -->
+                <img class="mb-150" src="../../images/common/home/icon-components.svg" alt="">
+            </div>
+        </gcds-grid>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">How can we help?</gcds-heading>
+        <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
+            <gcds-card
+            card-title="Trouble signing up"
+            href="#"
+            card-title-tag="h3"
+            description="With GC Sign in, you can access multiple government services and programs without having to create new usernames and passwords for each one.">
+            </gcds-card>
+            <gcds-card
+            card-title="Trouble signing in"
+            href="#"
+            card-title-tag="h3"
+            description="GC Sign in uses best-in-class technology and security that meets Government of Canada standards. It also uses two-factor authentication to help better protect your identity.">
+            </gcds-card>
+            <gcds-card
+            card-title="Managing your GC Sign in account"
+            href="#"
+            card-title-tag="h3"
+            description="Simply create an account using your email address and set up your password. Then, use that account to access participating Government of Canada programs and services.">
+            </gcds-card>
+            <gcds-card
+            card-title="Link an existing account"
+            href="#"
+            card-title-tag="h3"
+            description="Simply create an account using your email address and set up your password. Then, use that account to access participating Government of Canada programs and services.">
+            </gcds-card>
+        </gcds-grid>
+      </section>
+
+      <gcds-date-modified>2025-09-04</gcds-date-modified>
+
+    </gcds-container>
+
+    <!---------- Footer ---------->
+    <!-- TODO: Update or remove the contextual footer heading and links as needed.
+    <gcds-footer
+      display="full"
+      contextual-heading="Canadian Digital Service"
+      contextual-links='{ "Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'
+    >
+    </gcds-footer> -->
+
+    <gcds-footer display="compact" lang="en"
+        sub-links='{ "About GC Sign in": "/en/",
+        "Help": "",
+        "Terms": "/en/terms/" }'>
+    </gcds-footer>
+
+  </body>
+</html>

@@ -1,1 +1,2 @@
-This folder contains the HTML/GC Design System version of the GC Sign in static website, intended for Sales & Marketing prototyping and testing. This section of the site is focused on users (individuals and organizations), and partners (departments and agencies). It does not include login functionality or user account management features.
+# sign-in-dot-canada-ca
+Playground for purely static website

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Add a description to provide a brief summary of the content."
+    />
+
+    <title>Link an existing account</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.9.2/dist/gcds-utility.min.css"
+    />
+
+   <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"
+    >
+</script>
+
+</head>
+  <body>
+    <gcds-header lang-href="https://connexion.alpha.canada.ca/partenaires/" skip-to-href="#main-content">
+
+        <gcds-top-nav slot="menu" label="Main menu" alignment="right">
+            <gcds-nav-link slot="home" href="/">GC Sign in Users</gcds-nav-link>
+            
+            <gcds-nav-group
+                menu-label="Help topics"
+                open-trigger="Help topics">
+                <gcds-nav-link href="/users/help-topics/">Get started</gcds-nav-link>
+                <gcds-nav-link href="/users/help-topics/trouble-signing-up/">Trouble signing up</gcds-nav-link>
+                <gcds-nav-link href="/users/help-topics/trouble-signing-in/">Trouble signing in</gcds-nav-link>
+                <gcds-nav-link href="/users/help-topics/managing-your-account/">Managing your account</gcds-nav-link>
+                <gcds-nav-link href="#" current>Link an existing account</gcds-nav-link>
+            </gcds-nav-group>
+            
+            <gcds-nav-link href="/users/contact/">
+            Contact us
+            </gcds-nav-link>    
+            
+            <gcds-nav-link href="/users/about/">
+            About
+            </gcds-nav-link>
+        </gcds-top-nav>
+        
+      <!-- The slot="search" attribute adds the search component to the header. -->
+      <gcds-search slot="search"></gcds-search>
+      <!-- <gcds-search search-id="search" slot="search" placeholder="GC Sign in" action="/en/search">
+        </gcds-search> -->
+
+      <gcds-breadcrumbs slot="breadcrumb">
+        <gcds-breadcrumbs-item href="/">GC Sign in Users</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="/users/">Individuals and organisations</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="/users/help-topics/">Get started</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Link an existing account</gcds-breadcrumbs-item>
+      </gcds-breadcrumbs>
+    </gcds-header>
+
+    <!---------- Main content ---------->
+    <gcds-container
+      id="main-content"
+      main-container
+      size="xl"
+      centered
+      tag="main"
+    >
+      <!-- TODO: Update the heading and text content. -->
+      <section>
+        <gcds-heading tag="h1">Link an existing account</gcds-heading>
+        <gcds-text>
+          Coming soon
+        </gcds-text>
+      </section>
+
+      <gcds-date-modified>2025-09-04</gcds-date-modified>
+
+    </gcds-container>
+
+    <gcds-footer display="compact" lang="en"
+        sub-links='{ "About GC Sign in": "/en/",
+        "Help": "",
+        "Terms": "/en/terms/" }'>
+    </gcds-footer>
+
+  </body>
+</html>

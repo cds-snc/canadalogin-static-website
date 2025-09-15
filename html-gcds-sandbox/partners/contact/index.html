@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TODO: Add a description of the page for better SEO and sharing previews. -->
+    <meta
+      name="description"
+      content="Add a description to provide a brief summary of the content."
+    />
+
+    <title>Get in contact with the GC Sign in team</title>
+
+    <!---------- GC Design System Utility ---------->
+    <!-- TODO: Replace <version-number> with the latest version number to receive corresponding updates of the GC Design System utility framework. All notable changes will be documented in the changelog: https://github.com/cds-snc/gcds-utility/blob/main/CHANGELOG.md -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.9.2/dist/gcds-utility.min.css"
+    />
+
+    <!---------- GC Design System Components ---------->
+    <!-- TODO: Replace <version-number> with the latest version number to receive corresponding updates of GC Design System Components. All notable changes will be documented in the changelog: https://github.com/cds-snc/gcds-components/blob/main/CHANGELOG.md -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"
+    ></script>
+
+    <!-- Custom styles -->
+    <!-- TODO: If needed, uncomment and link your custom CSS file here. -->
+    <!-- <link rel="stylesheet" href="path/to/custom.css" /> -->
+  </head>
+
+  <body>
+    <!---------- Header ---------->
+    <!-- TODO: Modify the lang-href to set the language toggle's URL. -->
+    <!-- TODO: Update the skip-to-href with the main content container's id. -->
+    <gcds-header lang-href="https://connexion.alpha.canada.ca/partenaires/" skip-to-href="#main-content">
+
+        <gcds-top-nav slot="menu" label="Main menu" alignment="right">
+            <gcds-nav-link slot="home" href="/">GC Sign in Partners</gcds-nav-link>
+    
+            <gcds-nav-link href="/partners/about/">
+            About
+            </gcds-nav-link>
+
+            <gcds-nav-group
+                menu-label="Learn more"
+                open-trigger="Learn more">
+                <gcds-nav-link href="/partners/gc-sign-in-roadmap/">GC Sign in roadmap</gcds-nav-link>
+                <gcds-nav-link href="/partners/demos/">Demos</gcds-nav-link>
+                <gcds-nav-link href="/partners/technical-resources/">Resources</gcds-nav-link>
+            </gcds-nav-group>
+            
+            <gcds-nav-link href="#" current>
+            Contact us
+            </gcds-nav-link>
+        
+        </gcds-top-nav>
+        
+      <!-- The slot="search" attribute adds the search component to the header. -->
+      <gcds-search slot="search"></gcds-search>
+      <!-- <gcds-search search-id="search" slot="search" placeholder="GC Sign in" action="/en/search">
+        </gcds-search> -->
+
+      <gcds-breadcrumbs slot="breadcrumb">
+        <gcds-breadcrumbs-item href="/">GC Sign in</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="/partners/">Departments and agencies</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Contact us</gcds-breadcrumbs-item>
+      </gcds-breadcrumbs>
+    </gcds-header>
+
+    <!---------- Main content ---------->
+    <!-- TODO: Confirm the id matches the "skip-to-href" id in the header. -->
+    <gcds-container
+      id="main-content"
+      main-container
+      size="xl"
+      centered
+      tag="main"
+    >
+      <!-- TODO: Update the heading and text content. -->
+      <section>
+        <gcds-heading tag="h1">Get in contact with the GC Sign in team</gcds-heading>
+        <gcds-text>
+          <strong>Whether you have questions or want to plan your launch with GC Sign in, get in touch. We’re happy to help.</strong> 
+        </gcds-text>
+      </section>
+
+      <gcds-notice type="success" notice-title-tag="h2" notice-title="Are you a user looking for help with GC Sign in?">
+        <gcds-text>Go to the <gcds-link href="#" class="hydrated">user help centre</gcds-link></gcds-text>
+      </gcds-notice>
+
+      <section>
+
+        <form class="my-600 contact-us-form" name="contactEN" method="post" style="min-height: 32rem;" action="/api/submission" novalidate="">
+          <gcds-error-summary class="hydrated"></gcds-error-summary>
+          <input type="hidden" name="form-name" value="contactEN">
+          <input name="honeypot" type="text" aria-label="bot" hidden="">
+        <p><gcds-input type="text" name="name" input-id="name" label="Full name" autocomplete="name" required="" class="hydrated"></gcds-input>
+        <gcds-input type="email" name="email" input-id="email" label="Email address" autocomplete="email" required="" class="hydrated"></gcds-input>
+
+        <!-- <gcds-input
+          input-id="input-default"
+          label="Name"
+          name="example-default"
+          hint=""
+          error-message="Name is required"
+          required
+          maxlength="50">
+        </gcds-input>
+
+        <gcds-input
+          input-id="input-default"
+          label="E-mail"
+          name="email"
+          type="email"
+          hint="Must be a valid government of Canada email address"
+          error-message="E-mail is required"
+          required
+          maxlength="50">
+        </gcds-input> -->
+
+        <gcds-select
+          select-id="select-props"
+          label="Department or agency"
+          name="select"
+          hint=""
+          default-value="Select option."
+          required
+          error-message="This field is required">
+          <option value="Administrative Tribunals Support Service of Canada">Administrative Tribunals Support Service of Canada</option>
+          <option value="Agriculture and Agri-Food Canada">Agriculture and Agri-Food Canada</option>
+          <option value="Atlantic Canada Opportunities Agency">Atlantic Canada Opportunities Agency</option>
+          <option value="Atlantic Pilotage Authority Canada">Atlantic Pilotage Authority Canada</option>
+          <option value="Atomic Energy of Canada Limited">Atomic Energy of Canada Limited</option>
+          <option value="Auditor General of Canada (Office of the)">Auditor General of Canada (Office of the)</option>
+          <option value="Bank of Canada">Bank of Canada</option>
+          <option value="Blue Water Bridge Canada">Blue Water Bridge Canada</option>
+          <option value="Business Development Bank of Canada">Business Development Bank of Canada</option>
+          <option value="Canada Agricultural Review Tribunal">Canada Agricultural Review Tribunal</option>
+          <option value="Canada Agriculture and Food Museum">Canada Agriculture and Food Museum</option>
+          <option value="Canada Aviation and Space Museum">Canada Aviation and Space Museum</option>
+          <option value="Canada Border Services Agency">Canada Border Services Agency</option>
+          <option value="Canada Council for the Arts">Canada Council for the Arts</option>
+          <option value="Canada Deposit Insurance Corporation">Canada Deposit Insurance Corporation</option>
+          <option value="Canada Development Investment Corporation">Canada Development Investment Corporation</option>
+          <option value="Canada Economic Development for Quebec Regions">Canada Economic Development for Quebec Regions</option>
+          <option value="Canada Employment Insurance Commission">Canada Employment Insurance Commission</option>
+          <option value="Canada Firearms Centre">Canada Firearms Centre</option>
+          <option value="Canada Industrial Relations Board">Canada Industrial Relations Board</option>
+          <option value="Canada Infrastructure Bank">Canada Infrastructure Bank</option>
+          <option value="Canada Lands Company Limited">Canada Lands Company Limited</option>
+          <option value="Canada Mortgage and Housing Corporation">Canada Mortgage and Housing Corporation</option>
+          <option value="Canada Pension Plan">Canada Pension Plan</option>
+          <option value="Canada Pension Plan Investment Board">Canada Pension Plan Investment Board</option>
+          <option value="Canada Post">Canada Post</option>
+          <option value="Canada Research Chairs">Canada Research Chairs</option>
+          <option value="Canada Revenue Agency">Canada Revenue Agency</option>
+          <option value="Canada School of Public Service">Canada School of Public Service</option>
+          <option value="Accessibility Standards Canada">Accessibility Standards Canada</option>
+          <option value="Canadian Air Transport Security Authority">Canadian Air Transport Security Authority</option>
+          <option value="Canadian Army">Canadian Army</option>
+          <option value="Canadian Centre for Occupational Health and Safety">Canadian Centre for Occupational Health and Safety</option>
+          <option value="Canadian Coast Guard">Canadian Coast Guard</option>
+          <option value="Canadian Commercial Corporation">Canadian Commercial Corporation</option>
+          <option value="Canadian Conservation Institute">Canadian Conservation Institute</option>
+          <option value="Canadian Cultural Property Export Review Board">Canadian Cultural Property Export Review Board</option>
+          <option value="Canadian Dairy Commission">Canadian Dairy Commission</option>
+          <option value="Canada Energy Regulator">Canada Energy Regulator</option>
+          <option value="Chief Accessibility Officer (Office of the)">Chief Accessibility Officer (Office of the)</option>
+          <option value="Impact Assessment Agency of Canada">Impact Assessment Agency of Canada</option>
+          <option value="Canadian Food Inspection Agency">Canadian Food Inspection Agency</option>
+          <option value="Canadian Forces Housing Agency">Canadian Forces Housing Agency</option>
+          <option value="Canadian Grain Commission">Canadian Grain Commission</option>
+          <option value="Canadian Heritage">Canadian Heritage</option>
+          <option value="Canadian Heritage Information Network">Canadian Heritage Information Network</option>
+          <option value="Canadian Human Rights Commission">Canadian Human Rights Commission</option>
+          <option value="Canadian Institutes of Health Research">Canadian Institutes of Health Research</option>
+          <option value="Canadian Intellectual Property Office">Canadian Intellectual Property Office</option>
+          <option value="Canadian Intergovernmental Conference Secretariat">Canadian Intergovernmental Conference Secretariat</option>
+          <option value="Canadian International Trade Tribunal">Canadian International Trade Tribunal</option>
+          <option value="Canadian Judicial Council">Canadian Judicial Council</option>
+          <option value="Canadian Museum for Human Rights">Canadian Museum for Human Rights</option>
+          <option value="Canadian Museum of History">Canadian Museum of History</option>
+          <option value="Canadian Museum of Immigration at Pier 21">Canadian Museum of Immigration at Pier 21</option>
+          <option value="Canadian Museum of Nature">Canadian Museum of Nature</option>
+          <option value="Canadian Northern Economic Development Agency">Canadian Northern Economic Development Agency</option>
+          <option value="Canadian Nuclear Safety Commission">Canadian Nuclear Safety Commission</option>
+          <option value="Canadian Pari-Mutuel Agency">Canadian Pari-Mutuel Agency</option>
+          <option value="Canadian Police College">Canadian Police College</option>
+          <option value="Canadian Race Relations Foundation">Canadian Race Relations Foundation</option>
+          <option value="Canadian Radio-Television and Telecommunications Commission">Canadian Radio-Television and Telecommunications Commission</option>
+          <option value="Canadian Security Intelligence Service">Canadian Security Intelligence Service</option>
+          <option value="Canadian Space Agency">Canadian Space Agency</option>
+          <option value="Canadian Special Operations Forces Command">Canadian Special Operations Forces Command</option>
+          <option value="Destination Canada">Destination Canada</option>
+          <option value="Canadian Trade Commissioner Service">Canadian Trade Commissioner Service</option>
+          <option value="Canadian Transportation Agency">Canadian Transportation Agency</option>
+          <option value="Canadian War Museum">Canadian War Museum</option>
+          <option value="CBC/Radio-Canada">CBC/Radio-Canada</option>
+          <option value="Civilian Review and Complaints Commission for the RCMP">Civilian Review and Complaints Commission for the RCMP</option>
+          <option value="Commissioner for Federal Judicial Affairs Canada (Office of the)">Commissioner for Federal Judicial Affairs Canada (Office of the)</option>
+          <option value="Commissioner of Lobbying of Canada (Office of the)">Commissioner of Lobbying of Canada (Office of the)</option>
+          <option value="Commissioner of Official Languages (Office of the)">Commissioner of Official Languages (Office of the)</option>
+          <option value="Communications Research Centre Canada">Communications Research Centre Canada</option>
+          <option value="Communications Security Establishment Canada">Communications Security Establishment Canada</option>
+          <option value="Competition Bureau Canada">Competition Bureau Canada</option>
+          <option value="Competition Tribunal">Competition Tribunal</option>
+          <option value="Conflict of Interest and Ethics Commissioner (Office of the)">Conflict of Interest and Ethics Commissioner (Office of the)</option>
+          <option value="Copyright Board Canada">Copyright Board Canada</option>
+          <option value="CORCAN">CORCAN</option>
+          <option value="Correctional Investigator Canada">Correctional Investigator Canada</option>
+          <option value="Correctional Service Canada">Correctional Service Canada</option>
+          <option value="Courts Administration Service">Courts Administration Service</option>
+          <option value="Court Martial Appeal Court of Canada">Court Martial Appeal Court of Canada</option>
+          <option value="Crown-Indigenous Relations and Northern Affairs Canada">Crown-Indigenous Relations and Northern Affairs Canada</option>
+          <option value="Bank of Canada Museum">Bank of Canada Museum</option>
+          <option value="Defence Construction Canada">Defence Construction Canada</option>
+          <option value="Defence Research and Development Canada">Defence Research and Development Canada</option>
+          <option value="Democratic Institutions">Democratic Institutions</option>
+          <option value="Digital Museums Canada">Digital Museums Canada</option>
+          <option value="Environmental Protection Tribunal of Canada">Environmental Protection Tribunal of Canada</option>
+          <option value="Elections Canada">Elections Canada</option>
+          <option value="Employment and Social Development Canada">Employment and Social Development Canada</option>
+          <option value="Environment and Climate Change Canada">Environment and Climate Change Canada</option>
+          <option value="Environmental Protection Review Canada">Environmental Protection Review Canada</option>
+          <option value="Export Development Canada">Export Development Canada</option>
+          <option value="Farm Credit Canada">Farm Credit Canada</option>
+          <option value="Farm Products Council of Canada">Farm Products Council of Canada</option>
+          <option value="Federal Bridge Corporation">Federal Bridge Corporation</option>
+          <option value="Federal Court of Appeal">Federal Court of Appeal</option>
+          <option value="Federal Court of Canada">Federal Court of Canada</option>
+          <option value="Federal Economic Development Agency for Southern Ontario">Federal Economic Development Agency for Southern Ontario</option>
+          <option value="Federal Ombudsperson for Victims Of Crime (Office of the)">Federal Ombudsperson for Victims Of Crime (Office of the)</option>
+          <option value="Federal Economic Development Agency for Northern Ontario">Federal Economic Development Agency for Northern Ontario</option>
+          <option value="Finance Canada (Department of)">Finance Canada (Department of)</option>
+          <option value="Financial Consumer Agency of Canada">Financial Consumer Agency of Canada</option>
+          <option value="Financial Transactions and Reports Analysis Centre of Canada">Financial Transactions and Reports Analysis Centre of Canada</option>
+          <option value="Fisheries and Oceans Canada">Fisheries and Oceans Canada</option>
+          <option value="Freshwater Fish Marketing Corporation">Freshwater Fish Marketing Corporation</option>
+          <option value="Global Affairs Canada">Global Affairs Canada</option>
+          <option value="Governor General of Canada">Governor General of Canada</option>
+          <option value="Great Lakes Pilotage Authority Canada">Great Lakes Pilotage Authority Canada</option>
+          <option value="Health Canada">Health Canada</option>
+          <option value="Historic Sites and Monuments Board of Canada">Historic Sites and Monuments Board of Canada</option>
+          <option value="Canadian Human Rights Tribunal">Canadian Human Rights Tribunal</option>
+          <option value="Intelligence Commissoner (Office of the)">Intelligence Commissoner (Office of the)</option>
+          <option value="Immigration and Refugee Board of Canada">Immigration and Refugee Board of Canada</option>
+          <option value="Immigration, Refugees and Citizenship Canada">Immigration, Refugees and Citizenship Canada</option>
+          <option value="Impact Canada">Impact Canada</option>
+          <option value="Independent Review Panel for Defence Acquisition">Independent Review Panel for Defence Acquisition</option>
+          <option value="Indian Oil and Gas Canada">Indian Oil and Gas Canada</option>
+          <option value="Indigenous Services Canada">Indigenous Services Canada</option>
+          <option value="Industrial Technologies Office">Industrial Technologies Office</option>
+          <option value="Information Commissioner (Office of the)">Information Commissioner (Office of the)</option>
+          <option value="Housing, Infrastructure and Communities Canada">Housing, Infrastructure and Communities Canada</option>
+          <option value="Innovation, Science and Economic Development Canada">Innovation, Science and Economic Development Canada</option>
+          <option value="Intergovernmental Affairs">Intergovernmental Affairs</option>
+          <option value="International Development Research Centre">International Development Research Centre</option>
+          <option value="Jacques Cartier and Champlain Bridges">Jacques Cartier and Champlain Bridges</option>
+          <option value="Judicial Compensation and Benefits Commission">Judicial Compensation and Benefits Commission</option>
+          <option value="Justice Canada (Department of)">Justice Canada (Department of)</option>
+          <option value="Labour Program">Labour Program</option>
+          <option value="Laurentian Pilotage Authority Canada">Laurentian Pilotage Authority Canada</option>
+          <option value="Law Commission of Canada">Law Commission of Canada</option>
+          <option value="Leader of the Government in the House of Commons">Leader of the Government in the House of Commons</option>
+          <option value="Library and Archives Canada">Library and Archives Canada</option>
+          <option value="Management Advisory Board for the RCMP">Management Advisory Board for the RCMP</option>
+          <option value="Marine Atlantic">Marine Atlantic</option>
+          <option value="Measurement Canada">Measurement Canada</option>
+          <option value="Military Grievances External Review Committee">Military Grievances External Review Committee</option>
+          <option value="Military Police Complaints Commission of Canada">Military Police Complaints Commission of Canada</option>
+          <option value="National Arts Centre">National Arts Centre</option>
+          <option value="National Battlefields Commission">National Battlefields Commission</option>
+          <option value="National Capital Commission">National Capital Commission</option>
+          <option value="National Defence">National Defence</option>
+          <option value="National Security and Intelligence Review Agency">National Security and Intelligence Review Agency</option>
+          <option value="Ombudsman for the Department of National Defence and the Canadian Armed Forces (Office of the)">Ombudsman for the Department of National Defence and the Canadian Armed Forces (Office of the)</option>
+          <option value="National Film Board">National Film Board</option>
+          <option value="National Gallery of Canada">National Gallery of Canada</option>
+          <option value="Canada Science and Technology Museum">Canada Science and Technology Museum</option>
+          <option value="National Research Council Canada">National Research Council Canada</option>
+          <option value="Natural Resources Canada">Natural Resources Canada</option>
+          <option value="National Seniors Council">National Seniors Council</option>
+          <option value="Natural Sciences and Engineering Research Canada">Natural Sciences and Engineering Research Canada</option>
+          <option value="Northern Pipeline Agency Canada">Northern Pipeline Agency Canada</option>
+          <option value="Occupational Health and Safety Tribunal Canada">Occupational Health and Safety Tribunal Canada</option>
+          <option value="Chief Military Judge (Office of the)">Chief Military Judge (Office of the)</option>
+          <option value="Pacific Economic Development Canada">Pacific Economic Development Canada</option>
+          <option value="Pacific Pilotage Authority Canada">Pacific Pilotage Authority Canada</option>
+          <option value="Parks Canada">Parks Canada</option>
+          <option value="Parole Board of Canada">Parole Board of Canada</option>
+          <option value="Parliament of Canada">Parliament of Canada</option>
+          <option value="Passport Program">Passport Program</option>
+          <option value="Patented Medicine Prices Review Board Canada">Patented Medicine Prices Review Board Canada</option>
+          <option value="Polar Knowledge Canada">Polar Knowledge Canada</option>
+          <option value="Prairies Economic Development Canada">Prairies Economic Development Canada</option>
+          <option value="Prime Minister of Canada">Prime Minister of Canada</option>
+          <option value="Privacy Commissioner of Canada (Office of the)">Privacy Commissioner of Canada (Office of the)</option>
+          <option value="Privy Council Office">Privy Council Office</option>
+          <option value="Procurement Ombud (Office of the)">Procurement Ombud (Office of the)</option>
+          <option value="Public Health Agency of Canada">Public Health Agency of Canada</option>
+          <option value="Public Prosecution Service of Canada">Public Prosecution Service of Canada</option>
+          <option value="Public Safety Canada">Public Safety Canada</option>
+          <option value="Public Sector Integrity Commissioner of Canada (Office of the)">Public Sector Integrity Commissioner of Canada (Office of the)</option>
+          <option value="Public Sector Pension Investment Board">Public Sector Pension Investment Board</option>
+          <option value="Public Servants Disclosure Protection Tribunal Canada">Public Servants Disclosure Protection Tribunal Canada</option>
+          <option value="Public Service Commission of Canada">Public Service Commission of Canada</option>
+          <option value="Public Service Labour Relations and Employment Board">Public Service Labour Relations and Employment Board</option>
+          <option value="Public Services and Procurement Canada">Public Services and Procurement Canada</option>
+          <option value="Registry of the Specific Claims Tribunal of Canada">Registry of the Specific Claims Tribunal of Canada</option>
+          <option value="Royal Canadian Air Force">Royal Canadian Air Force</option>
+          <option value="Royal Canadian Mint">Royal Canadian Mint</option>
+          <option value="Royal Canadian Mounted Police">Royal Canadian Mounted Police</option>
+          <option value="Royal Canadian Mounted Police External Review Committee">Royal Canadian Mounted Police External Review Committee</option>
+          <option value="Royal Canadian Navy">Royal Canadian Navy</option>
+          <option value="Royal Military College of Canada">Royal Military College of Canada</option>
+          <option value="Secretariat of the National Security and Intelligence Committee of Parliamentarians">Secretariat of the National Security and Intelligence Committee of Parliamentarians</option>
+          <option value="Service Canada">Service Canada</option>
+          <option value="Shared Services Canada">Shared Services Canada</option>
+          <option value="Social Sciences and Humanities Research Council of Canada">Social Sciences and Humanities Research Council of Canada</option>
+          <option value="Social Security Tribunal of Canada">Social Security Tribunal of Canada</option>
+          <option value="Standards Council of Canada">Standards Council of Canada</option>
+          <option value="Statistics Canada">Statistics Canada</option>
+          <option value="Women and Gender Equality Canada">Women and Gender Equality Canada</option>
+          <option value="Superintendent of Bankruptcy Canada (Office of the)">Superintendent of Bankruptcy Canada (Office of the)</option>
+          <option value="Superintendent of Financial Institutions Canada (Office of the)">Superintendent of Financial Institutions Canada (Office of the)</option>
+          <option value="Supreme Court of Canada">Supreme Court of Canada</option>
+          <option value="Tax Court of Canada">Tax Court of Canada</option>
+          <option value="Taxpayers' Ombudsperson (Office of the)">Taxpayers' Ombudsperson (Office of the)</option>
+          <option value="Telefilm Canada">Telefilm Canada</option>
+          <option value="Translation Bureau">Translation Bureau</option>
+          <option value="Transport Canada">Transport Canada</option>
+          <option value="Transportation Appeal Tribunal of Canada">Transportation Appeal Tribunal of Canada</option>
+          <option value="Transportation Safety Board of Canada">Transportation Safety Board of Canada</option>
+          <option value="Treasury Board of Canada Secretariat">Treasury Board of Canada Secretariat</option>
+          <option value="Veterans Affairs Canada">Veterans Affairs Canada</option>
+          <option value="Veterans' Ombudsman (Office of the)">Veterans' Ombudsman (Office of the)</option>
+          <option value="Veterans Review and Appeal Board">Veterans Review and Appeal Board</option>
+          <option value="VIA Rail Canada">VIA Rail Canada</option>
+          <option value="Windsor-Detroit Bridge Authority">Windsor-Detroit Bridge Authority</option>
+          <option value="Youth">Youth</option>
+          <option value="Canada Water Agency">Canada Water Agency</option>
+        </gcds-select>
+
+        <p><gcds-radios legend="User migration" hint="Will you need to migrate users from an existing sign-in solution so they can keep access to their account data?" name="familiarityGCDS" class="hydrated" options="[
+          {
+            &quot;id&quot;: &quot;familiarityUsingGCDS&quot;,
+            &quot;label&quot;: &quot;Yes&quot;,
+            &quot;value&quot;: &quot;Yes&quot;
+          },
+          {
+            &quot;id&quot;: &quot;familiarityExploringGCDS&quot;,
+            &quot;label&quot;: &quot;No&quot;,
+            &quot;value&quot;: &quot;No&quot;
+          },
+          {
+            &quot;id&quot;: &quot;familiarityNeverUsedGCDS&quot;,
+            &quot;label&quot;: &quot;Unsure&quot;,
+            &quot;value&quot;: &quot;Unsure&quot;
+          }
+        ]">
+        </gcds-radios></p>
+
+        <gcds-textarea name="message" label="Name of your application/portal" hint="Include what type of authentication your application/portal currently uses" textarea-id="message" class="hydrated" rows="2"></gcds-textarea></p>
+
+        <gcds-date-input
+          legend="Date input"
+          name="props-default"
+          format="full">
+        </gcds-date-input>
+
+        <gcds-textarea name="message" label="Questions or comments" hint="" textarea-id="message" class="hydrated" rows="2"></gcds-textarea></p>
+
+          <gcds-fieldset legend="Receive communication from GC Sign in" legend-size="h3" hint="If you'd like us to contact you, choose one or both options." class="hydrated">
+            <gcds-checkboxes name="learn-more-mailing-list" options="[
+          {
+            &quot;id&quot;: &quot;learnMoreMailingList&quot;,
+            &quot;label&quot;: &quot;Sign me up for the mailing list.&quot;,
+            &quot;value&quot;: &quot;learn-more-mailing-list&quot;
+          }
+        ]" class="hydrated" error-message=""></gcds-checkboxes>
+            <gcds-checkboxes name="learn-more-research" options="[
+          {
+            &quot;id&quot;: &quot;learnMoreResearch&quot;,
+            &quot;label&quot;: &quot;Contact me for usability research.&quot;,
+            &quot;value&quot;: &quot;learn-more-mailing-list&quot;
+          }
+        ]" class="hydrated"></gcds-checkboxes>
+          </gcds-fieldset>
+
+          <div hidden="">
+            <gcds-input type="text" name="bot-field" input-id="bot-field" label="bot" class="hydrated"></gcds-input>
+          </div>
+          <gcds-button button-role="primary" type="submit" class="hydrated">
+            Submit
+          </gcds-button>
+        </form>
+      </section>       
+
+<!-- <gcds-button type="link" button-role="secondary" href="/en/register-for-a-demo" class="hydrated">
+  Find an upcoming event
+</gcds-button>
+
+<hr class="my-600"> -->
+
+      <section> 
+        <gcds-date-modified>2025-09-10</gcds-date-modified>
+      </section> 
+
+  </gcds-container>
+
+    <!---------- Footer ---------->
+    <!-- TODO: Update or remove the contextual footer heading and links as needed.
+    <gcds-footer
+      display="full"
+      contextual-heading="Canadian Digital Service"
+      contextual-links='{ "Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'
+    >
+    </gcds-footer> -->
+
+    <gcds-footer display="compact" lang="en"
+        sub-links='{ "About GC Sign in": "/en/",
+        "Help": "",
+        "Terms": "/en/terms/" }'>
+    </gcds-footer>
+
+  </body>
+</html>

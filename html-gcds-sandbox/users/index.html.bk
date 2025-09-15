@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - GC Sign in</title>
+
+    <!-- Utility framework -->
+    <link rel="stylesheet"
+        href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.5.0/dist/gcds-utility.min.css" />
+
+    <!-- <link rel="stylesheet" href="/styles/prism.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/code-showcase.js"></script>
+    <script src="/scripts/general.js"></script>
+    <link rel="icon" type="image/x-icon" sizes="96x96" href="/favicon.ico"> -->
+
+    <!-- GC Design System  Components-->
+    <link
+        rel="stylesheet"
+        href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.41.0/dist/gcds/gcds.css" />
+    <script
+        type="module"
+        src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.41.0/dist/gcds/gcds.esm.js">    
+    </script>
+
+    <!-- Icons Font Awesome (to access icons, import Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    crossorigin="anonymous">
+
+    <!-- Pagefind
+    <script src="/pagefind/pagefind.js" type="module"></script>
+    <script src="/scripts/search.js" type="module"></script> -->
+
+  </head>
+  <body>
+
+    <gcds-header lang="en" skip-to-href="#mc" lang-href='https://connexion.alpha.canada.ca/'>  
+        <gcds-top-nav slot="menu" label="Main menu" alignment="right">
+            <gcds-nav-link slot="home" href="/">GC Sign in</gcds-nav-link>
+    
+            <gcds-nav-link href="/users/">
+            Individuals and organisations
+            </gcds-nav-link>
+        
+            <gcds-nav-link href="/partners/">
+            Departments and agencies
+            </gcds-nav-link>
+        
+        </gcds-top-nav>  
+
+        <gcds-breadcrumbs lang="en" slot="breadcrumb">
+            
+        </gcds-breadcrumbs>
+  
+        <gcds-search search-id="search" slot="search" placeholder="GC Sign in" action="/en/search">
+        </gcds-search>
+    </gcds-header>
+
+    <div class="content-wrapper">
+
+      <main id="mc" class="general-layout">
+
+        <section>
+            <div class="md:py-1250 py-900 hero">
+              <div class="container-xl mx-auto">
+                <article class="sm:py-750 py-450 xl:ps-0 sm:ps-600 ps-450 sm:pe-750 pe-300 bg-primary text-light hero__content">
+                  <h1>
+                    <span class="d-block">Welcome to GC Sign in</span>
+                  </h1>
+                  <h1>Welcome to GC Sign in</h1>
+                  <p>Accessing Government of Canada programs and services is now easier than ever. Use a single, secure sign-in to access all participating federal programs and services</p>
+                  <!-- <a class="link-light" href="/en/about-us">About us</a> -->
+                </article>
+              </div>
+            </div>
+        </section>
+
+        <section class="container-xl mx-auto xl:px-0 sm:px-600 px-225">
+
+            <gcds-heading tag="h1" character-limit="false" margin-bottom="300">
+                Who is GC Sign in for?
+            </gcds-heading>
+
+            
+
+<section>
+    <gcds-heading tag="h1" character-limit="false">GC Sign in for individuals and organisations</gcds-heading>
+    <gcds-text>
+        <strong>Say goodbye to multiple accounts and passwords. GC Sign in is designed to simplify your experience, protect your information, and help you get to where you need to go faster.</strong>
+    </gcds-text>
+    <gcds-text>
+        GC Sign in provides a secure and easy way to access Government of Canada programs and services online.
+    </gcds-text>
+</section>
+
+<section>
+    <gcds-heading tag="h2">How it works</gcds-heading>
+    <gcds-text>
+        With GC Sign in, people can access multiple government services and programs without having to create new usernames and passwords for each one. With this secure, inclusive, and user-friendly platform, people will only need to have one sign-in method to gain seamless access to a variety of programs and services. 
+    </gcds-text>
+</section>
+
+<section>
+    <gcds-heading tag="h2">How to sign in</gcds-heading>
+    <gcds-text>
+        Simply create an account using your email address and set up your password. Then, use that account to access participating Government of Canada programs and services.
+    </gcds-text>
+    <gcds-text>
+        <strong>Some government departments might require you to provide additional information in order to access their programs and/or services.</strong> GC Sign in is the first, consistent, step when accessing these services. Some departments may ask for additional information, like records of health cards or drivers license, as an added layer of identity proofing and verification. 
+    </gcds-text>
+</section>
+
+<section>
+    <gcds-heading tag="h2">Security and privacy</gcds-heading>
+    <gcds-text>
+        GC Sign in uses best-in-class technology and security that meets Government of Canada standards. It also uses two-factor Authentication to help better protect your identity.
+    </gcds-text>
+</section>
+
+        </main>
+
+        <gcds-footer display="compact" lang="en"
+            sub-links='{ "About GC Sign in": "/en/",
+            "Help": "",
+            "Terms": "/en/terms/" }'>
+        </gcds-footer>
+
+    </div>
+
+    <script>
+        function showTooltip(o,e){o.trigger.className.includes("tooltipped")||(o.trigger.children[0].className="tooltipped tooltipped-s",o.trigger.children[0].ariaLabel=e)}window.addEventListener("load",()=>{var o=new ClipboardJS(".code-copy");o.on("success",o=>showTooltip(o,"Copied!")),o.on("error",o=>showTooltip(o,"Failed..."))});
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js">
+    </script>
+  
+    </body>
+</html>
