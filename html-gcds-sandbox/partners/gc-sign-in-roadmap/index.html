@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Add a description to provide a brief summary of the content."
+    />
+
+    <title>GC Sign in Roadmap</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.9.2/dist/gcds-utility.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"
+    ></script>
+
+  </head>
+
+  <body>
+    <!---------- Header ---------->
+    <!-- TODO: Modify the lang-href to set the language toggle's URL. -->
+    <!-- TODO: Update the skip-to-href with the main content container's id. -->
+    <gcds-header lang-href="https://connexion.alpha.canada.ca/partenaires/" skip-to-href="#main-content">
+
+      <gcds-top-nav slot="menu" label="Main menu" alignment="right">
+        <gcds-nav-link slot="home" href="/">GC Sign in Partners</gcds-nav-link>
+
+        <gcds-nav-link href="/partners/about/">
+        About
+        </gcds-nav-link>
+
+        <gcds-nav-group
+          menu-label="Learn more"
+          open-trigger="Learn more">
+          <gcds-nav-link href="/partners/gc-sign-in-roadmap/" current>GC Sign in roadmap</gcds-nav-link>
+          <gcds-nav-link href="/partners/demos/">Demos</gcds-nav-link>
+          <gcds-nav-link href="/partners/technical-resources/">Resources</gcds-nav-link>
+        </gcds-nav-group>
+        
+        <gcds-nav-link href="/partners/contact/">
+          Contact us
+        </gcds-nav-link>
+      </gcds-top-nav>
+        
+      <!-- The slot="search" attribute adds the search component to the header. -->
+      <gcds-search slot="search"></gcds-search>
+      <!-- <gcds-search search-id="search" slot="search" placeholder="GC Sign in" action="/en/search">
+        </gcds-search> -->
+
+      <gcds-breadcrumbs slot="breadcrumb">
+        <gcds-breadcrumbs-item href="/">GC Sign in</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="/partners/">Departments and agencies</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Roadmap</gcds-breadcrumbs-item>
+      </gcds-breadcrumbs>
+    </gcds-header>
+
+    <!---------- Main content ---------->
+    <!-- TODO: Confirm the id matches the "skip-to-href" id in the header. -->
+    <gcds-container
+      id="main-content"
+      main-container
+      size="xl"
+      centered
+      tag="main"
+    >
+      <!-- TODO: Update the heading and text content. -->
+      <section>
+        <gcds-heading tag="h1">GC Sign in Roadmap</gcds-heading>
+        <gcds-text>
+          <strong>Below is the planned schedule for providing features and achieving milestones for the GC Sign in product, organized by fiscal quarter. Please note that due to GC Sign in’s iterative design, this roadmap is subject to change.</strong> 
+        </gcds-text>
+        <gcds-text>
+          As a general rule, there is 90% confidence in delivering the schedule for the current quarter and 75% confidence for the following quarter. Changes to the schedule become more likely for quarters that are farther away.
+        </gcds-text>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">What we're working on now</gcds-heading>
+        <gcds-grid tag="ul" columns-desktop="1fr" columns-tablet="1fr" columns="1fr">
+          <li class="list-none">
+            <h3 class="mt-0">Preparing for pilot</h3>
+            <p>Insert table...</p>
+          </li>
+        </gcds-grid>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Future plans</gcds-heading>
+        <gcds-text>
+          <gcds-icon name="chevron-right"></gcds-icon><gcds-link href="#">October 2025 to March 2026 (Initial release)</gcds-link>
+        </gcds-text>
+        <gcds-text>
+          <gcds-icon name="chevron-right"></gcds-icon><gcds-link href="#">April 2026 to September 2026 (Fraud detection)</gcds-link> 
+        </gcds-text>
+        <gcds-text>
+          <gcds-icon name="chevron-right"></gcds-icon><gcds-link href="#">October 2026 to March 2027 (Identity and support for critical applications)</gcds-link>
+        </gcds-text>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Want to get started with GC Sign in?</gcds-heading>
+        <gcds-text>
+          Contact us to learn more about GC Sign in and how it could meet your service’s needs.
+        </gcds-text>
+        <gcds-button value="Contact us >">
+          Contact us
+          <gcds-icon name="chevron-right"></gcds-icon>
+        </gcds-button>
+      </section>
+
+      <gcds-date-modified>2025-09-04</gcds-date-modified>
+
+    </gcds-container>
+
+    <!---------- Footer ---------->
+    <!-- TODO: Update or remove the contextual footer heading and links as needed.
+    <gcds-footer
+      display="full"
+      contextual-heading="Canadian Digital Service"
+      contextual-links='{ "Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'
+    >
+    </gcds-footer> -->
+
+    <gcds-footer display="compact" lang="en"
+        sub-links='{ "About GC Sign in": "/en/",
+        "Help": "",
+        "Terms": "/en/terms/" }'>
+    </gcds-footer>
+
+  </body>
+</html>
