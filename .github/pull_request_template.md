@@ -29,6 +29,6 @@ _TODO: Fill in test instructions for the reviewer. Describe any steps needed to 
 - [ ] I have confirmed test coverage is adequate.
 - [ ] I have reviewed the code for clarity, maintainability and potential issues.
 
-# ⚠️ Impact / Risks
+# ⚠️ Impact/Risks | Risques
 
 _Optional: Use this section to highlight any potential implcations, risks or important notes for reviewers or maintainers, i.e. breaking changes, performance implications, dependency updates, etc._
