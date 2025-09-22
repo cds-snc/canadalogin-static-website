@@ -1,0 +1,47 @@
+---
+title: Individuals and organisations
+translationKey: individualsOrganisations
+layout: 'layouts/home.njk'
+eleventyNavigation:
+  key: usersEn
+  title: Individuals and organisations
+  locale: en
+  order: 3
+  hideMain: false
+hero:
+  title: 'GC Sign in for individuals and organisations'
+  summary: 'Say goodbye to multiple sign in methods and passwords. GC Sign in is designed to simplify your experience, protect your information, and help you get to where you need to go faster.'
+  image:
+  altText:   
+---
+
+<gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
+    Help and support
+</gcds-heading>
+
+<gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
+    <gcds-card
+    card-title="Get started with GC Sign in"
+    href="#"
+    card-title-tag="h3"
+    description="Learn how to create your account with GC Sign in. Learn about authentication options and account features.">
+    </gcds-card>
+    <gcds-card
+    card-title="Managing your GC Sign in account"
+    href="#"
+    card-title-tag="h3"
+    description="Change your account settings including your password, phone number, email and more.">
+    </gcds-card>
+    <gcds-card
+    card-title="Trouble signing up"
+    href="#"
+    card-title-tag="h3"
+    description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues.">
+    </gcds-card>
+  <gcds-card
+    card-title="Trouble signing in"
+    href="#"
+    card-title-tag="h3"
+    description="Forgot your password? Locked out of your account? We’ll help you resolve access issues.">
+    </gcds-card>
+</gcds-grid>
