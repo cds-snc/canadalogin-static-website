@@ -6,6 +6,7 @@ eleventyNavigation:
   key: usersEn
   title: Individuals and organisations
   locale: en
+  parent: home
   order: 1
   hideMain: false
 hero:
