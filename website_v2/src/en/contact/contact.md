@@ -9,11 +9,11 @@ eleventyNavigation:
   title: Contact us
   locale: en
   order: 2
-  hideMain: false
+  hideMain: true
 ---
 
 
-# Contact us
+# What is GC Sign in?
 
 ## Before you contact us
 
@@ -34,4 +34,7 @@ Before you contact us, read our guidance if you're having a problem with or want
 **TTY:** 1-800-926-9105  
 **From outside Canada:** Call 1-800-O-Canada from abroad
 
-**For information on call wait times, visit:** {% linkRef links.canada 'https://www.canada.ca/en/contact/contact-1-800-o-canada.html' 'canada.ca/en/contact/contact-1-800-o-canada.html' %}
+<!-- **For information on call wait times, visit:** {% linkRef links.canada 'https://www.canada.ca/en/contact/contact-1-800-o-canada.html' 'canada.ca/en/contact/contact-1-800-o-canada.html' %} -->
+**For information on call wait times, visit:** [canada.ca/en/contact/contact-1-800-o-canada.html](https://www.canada.ca/en/contact/contact-1-800-o-canada.html)
+
+Over time, more and more digital programs/services will be available through GC Sign in as the single front door to access federal government programs/services.
