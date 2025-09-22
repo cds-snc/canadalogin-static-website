@@ -6,6 +6,7 @@ eleventyNavigation:
   key: partnersEn
   title: Departments and agencies
   locale: en
+  parent: home
   order: 3
   hideMain: false
 hero:
