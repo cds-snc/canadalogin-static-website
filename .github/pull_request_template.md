@@ -16,6 +16,7 @@ _TODO: Fill in test instructions for the reviewer. Describe any steps needed to 
 # ✅ Author checklist | Liste de vérification de l'auteur
 
 - [ ] This PR does not break existing functionality. I have completely tested the functionality of these changes.
+- [ ] I have tested the English and French versions of the site and verified that all content is accurate and properly displayed in both languages.
 - [ ] I have tested these changes on Mobile.
 - [ ] I have tested these changes across multiple browsers.
 - [ ] I have checked accessiblity and ensured all accessiblity tests pass. :accessibility:
