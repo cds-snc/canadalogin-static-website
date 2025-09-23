@@ -4,6 +4,9 @@ layout: 'layouts/home.njk'
 permalink: /en/
 translationKey: 'index'
 redirect_from: /
+eleventyNavigation:
+  key: home
+  order: 1
 date: 'git Last Modified'
 hero:
   title: 'Welcome to GC Sign in'
