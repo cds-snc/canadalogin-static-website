@@ -6,7 +6,8 @@ eleventyNavigation:
   key: usersEn
   title: Individuals and organisations
   locale: en
-  order: 3
+  parent: home
+  order: 1
   hideMain: false
 hero:
   title: 'GC Sign in for individuals and organisations'
