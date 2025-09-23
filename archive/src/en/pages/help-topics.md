@@ -12,7 +12,7 @@ eleventyNavigation:
            {title: 'Managing your GC Sign account', url: '/en/manage-your-account/'}]
   locale: en
   order: 1
-  hideMain: true
+  hideMain: false
 ---
 
 # Help Topics

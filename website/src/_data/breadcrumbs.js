@@ -1,6 +1,6 @@
 module.exports = {
   en: {
-    linkText: 'GC Sign in Help Centre',
+    linkText: 'GC Sign in',
     url: '/en/',
     breadcrumb: 'breadcrumb',
   },

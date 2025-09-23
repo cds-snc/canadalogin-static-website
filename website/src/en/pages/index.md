@@ -1,26 +1,38 @@
 ---
-title: GC Sign in Help Centre
+title: Welcome to GC Sign in
 layout: 'layouts/home.njk'
 permalink: /en/
 translationKey: 'index'
 redirect_from: /
 date: 'git Last Modified'
+hero:
+  title: 'Welcome to GC Sign in'
+  summary: 'Accessing Government of Canada programs and services is now easier than ever. Use a single, secure sign-in to access all participating federal programs and services.'
+  image:
+  altText:
 ---
 
-# {{ homehero[locale].signIn }} Help Centre
+<!-- # {{ homehero[locale].signIn }} Help Centre -->
+<gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
+    Who is GC Sign in for?
+</gcds-heading>
 
-## Getting started with {{ homehero[locale].signIn }}
-How to create your account. Learn about authentication options and account features.
-
-{% link links.getstarted 'Get started →' %}     
-### How can we help?
-<section class="mb-1000">
-    <gcds-grid columns="repeat(auto-fit, minmax(200px, 450px))">
-        <p><gcds-card card-title="Trouble signing up" href="{{ links.troublesigningup }}" description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues." card-title-tag="h4"></gcds-card></p>
-        <p><gcds-card card-title="Trouble signing in" href="{{ links.troublesigningin }}" description="Forgot your password? Locked out of your account? We’ll help you resolve access issues." card-title-tag="h4"></gcds-card></p>
-        <p><gcds-card card-title="Managing your GC Sign in account" href="{{ links.manageyouraccount }}" description="Change your account settings including your password, phone number, email and more." card-title-tag="h4"></gcds-card></p>
-        <!--<p><gcds-card card-title="OpenID Connection Protocol" href="{{ links.openidconnectionprotocol }}" description="General information about OpenID Connection Protocol" card-title-tag="h4"></gcds-card></p>-->
+<!-- {% link links.getstarted 'Get started →' %} -->     
+<section>
+    <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
+        <li class="list-none">
+            <p><i class="fa-solid fa-people-group fa-4x"></i></p>
+            <h3 class="mt-0">Individuals and organisations</h3>
+            <p>Discover how GC Sign in works, what services it connects to, and how it helps simplify your access to Government of Canada programs and services.</p>
+            <!-- <p><gcds-link href="users/">Learn more</gcds-link></p> -->
+            <p>{% link links.users 'Learn more' %}</p>            
+        </li>
+        <li class="list-none">
+            <p><i class="fa-brands fa-canadian-maple-leaf fa-4x"></i></p>
+            <h3 class="mt-0">Departments and agencies</h3>
+            <p>Protect your users’ information with the highest standards of digital security and user experience. GC Sign in handles software development, security operations, and end-user support so you don’t have to.</p>
+            <!-- <p><gcds-link href="partners/">Become a partner</gcds-link></p> -->
+            <p>{% link links.partners 'Become a partner' %}</p>            
+        </li>
     </gcds-grid>
 </section>
-
-
