@@ -153,14 +153,10 @@ ul li ul li {
   max-width: 100%;
 }
 
-/* .hero {
+.hero {
   margin: calc(-1 * var(--gcds-spacing-150));
   background: url(../../images/common/home/home-hero.jpg) top center no-repeat;
   background-size: cover;
-} */
-.hero {
-  margin: calc(-1 * var(--gcds-spacing-150));
-  background-color: var(--gcds-color-blue-900);
 }
 .hero:before {
   display: block;

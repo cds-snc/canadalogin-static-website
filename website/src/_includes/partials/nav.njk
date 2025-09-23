@@ -1,4 +1,10 @@
-{% set navPages = collections.all | eleventyNavigation %}
+{% if page.url == "/en/" %}
+  {% set navPages = collections.all | eleventyNavigation("home") %}
+{% elseif page.url == "/en/individuals-and-organisations/" %}
+  {% set navPages = collections.all | eleventyNavigation("usersEn") %}
+{% else %}
+  {% set navPages = collections.all | eleventyNavigation %}
+{% endif %}
 
 {% macro renderNavListItem(entry) -%}
 {% if not entry.hideMain %}
