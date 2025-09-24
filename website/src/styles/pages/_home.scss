@@ -1,7 +1,8 @@
 .hero {
   margin: calc(-1 * var(--gcds-spacing-150));
-  background: url(../../images/common/home/home-hero.jpg) top center no-repeat;
-  background-size: cover;
+  /* background: url(../../images/common/home/home-hero.jpg) top center no-repeat;
+  background-size: cover; */
+  background-color: var(--gcds-color-blue-900);
 
   &:before {
     display: block;

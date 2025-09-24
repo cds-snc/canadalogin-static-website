@@ -1,13 +1,14 @@
 ---
-title: About GC Sign in
+title: About
 translationKey: aboutgcsignin
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: aboutgcsigninEN
-  title: About GC Sign in
+  title: About
+  parent: partnersEn
   locale: en
-  order: 4
-  hideMain: true
+  order: 1
+  hideMain: false
 ---
 
 # About GC Sign in

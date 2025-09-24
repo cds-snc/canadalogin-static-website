@@ -9,7 +9,7 @@ eleventyNavigation:
            {title: 'Available services', url: 'available-services'}]
   locale: en
   order: 3
-  hideMain: true
+  hideMain: false
 ---
 
 # About GC Sign in
