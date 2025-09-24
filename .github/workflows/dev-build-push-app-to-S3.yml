@@ -51,8 +51,8 @@ jobs:
 
       - name: Deploy App to S3
         run: |
-          aws s3 sync ${{ matrix.module }}/_site s3://${{ secrets.EN_S3_BUCKET }}
-          aws s3 sync ${{ matrix.module }}/_site s3://${{ secrets.FR_S3_BUCKET }}
+          aws s3 sync ${{ matrix.module }}/_site s3://${{ secrets.EN_S3_BUCKET }} --delete
+          aws s3 sync ${{ matrix.module }}/_site s3://${{ secrets.FR_S3_BUCKET }} --delete
 
       - name: Invalidate FRONTEND_APP_CLOUDFRONT_DISTRIBUTION cache
         run: |
