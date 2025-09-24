@@ -2,6 +2,8 @@
   {% set navPages = collections.all | eleventyNavigation("home") %}
 {% elseif page.url == "/en/individuals-and-organisations/" %}
   {% set navPages = collections.all | eleventyNavigation("usersEn") %}
+{% elseif page.url == "/en/departments-and-agencies/" %}
+  {% set navPages = collections.all | eleventyNavigation("partnersEn") %}
 {% else %}
   {% set navPages = collections.all | eleventyNavigation %}
 {% endif %}
