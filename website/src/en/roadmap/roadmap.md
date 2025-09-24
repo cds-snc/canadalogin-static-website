@@ -19,39 +19,40 @@ Below is the planned schedule for providing features and achieving milestones fo
 
 ### Preparing for pilot
 
-<gcds-details details-title="" class="hydrated">
-  <h4 id="product-deliverables">Preparing for pilot</h4>
-  <table>
-    <thead>
-      <tr>
-        <th>Deliverable</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Basic secure sign in and self-asserted core profile</td>
-        <td>🔄 In progress</td>
-      </tr>
-      <tr>
-        <td>Adoption readiness planning for partners using GCKey</td>
-        <td>🔄 In progress</td>
-      </tr>
-      <tr>
-        <td>Launch pilot test (Sept 30th, 2025)</td>
-        <td>📅 Planned</td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="product-deliverables">Services that are eligible to onboard</h4>
-  <table>
-    <tbody>
-      <tr>
-        <td>Pilot customer only (Geo.ca)</td>
-      </tr>
-    </tbody>
-  </table>
-</gcds-details>
+<h4 id="product-deliverables">Preparing for pilot</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Deliverable</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Basic secure sign in and self-asserted core profile</td>
+      <td>🔄 In progress</td>
+    </tr>
+    <tr>
+      <td>Adoption readiness planning for partners using GCKey</td>
+      <td>🔄 In progress</td>
+    </tr>
+    <tr>
+      <td>Launch pilot test (Sept 30th, 2025)</td>
+      <td>📅 Planned</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="product-deliverables">Services that are eligible to onboard</h4>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Pilot customer only (Geo.ca)</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Future plans
 
