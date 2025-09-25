@@ -13,7 +13,7 @@ hero:
   title: 'GC Sign in for individuals and organisations'
   summary: 'Say goodbye to multiple sign in methods and passwords. GC Sign in is designed to simplify your experience, protect your information, and help you get to where you need to go faster.'
   image: '/assets/images/common/users/users_home/user_home_gc_signin.svg'
-  altText: Test
+  altText: An illustration depicting a person looking at their GC Sign in profile with icons depicting a key and a check mark.
 ---
 
 <gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
