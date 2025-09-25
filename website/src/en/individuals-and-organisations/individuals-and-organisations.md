@@ -12,8 +12,8 @@ eleventyNavigation:
 hero:
   title: 'GC Sign in for individuals and organisations'
   summary: 'Say goodbye to multiple sign in methods and passwords. GC Sign in is designed to simplify your experience, protect your information, and help you get to where you need to go faster.'
-  image:
-  altText:   
+  image: '/assets/images/common/users/users_home/user_home_gc_signin.svg'
+  altText: Test
 ---
 
 <gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
