@@ -58,5 +58,3 @@ GC Sign in is developed by the Canadian Digital Service (CDS). CDS is part of [E
 Funded through [Budget 2024](https://www.budget.canada.ca/2024/home-accueil-en.html), GC Sign in was created to provide a single front door for federal government programs and services. 
 
 [Learn more about CDS](https://digital.canada.ca/about/)
-
-{% link links.contact 'Learn more about CDS' %}
