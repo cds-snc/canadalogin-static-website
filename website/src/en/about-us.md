@@ -15,19 +15,14 @@ eleventyNavigation:
 
 ## One account and password
 
-<gcds-grid 
-  columns-desktop="1fr 1fr" 
-  columns-tablet="1fr 1fr" 
-  columns="1fr"
-  equal-row-height>
-  <p>
-    <gcds-text></gcds-text>GC Sign in is a secure and easy way to sign in to Government of Canada programs and services online using just one account. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</gcds-text> 
-
-<gcds-text>Our goal is to make signing-in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</gcds-text>
-  </p>
-  <p>
-    <img src="" alt="">
-  </p>
+<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center" equal-row-height>
+  <div>
+    <p>GC Sign in is a secure and easy way to sign in to Government of Canada programs and services online using just one account. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p> 
+    <p>Our goal is to make signing-in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</p>
+  </div>
+  <div>
+    <img src="geo.png" alt="Geo logo">
+  </div>
 </gcds-grid>
 
 ## Services using GC Sign in
@@ -44,6 +39,14 @@ eleventyNavigation:
 </gcds-card>
 
 <gcds-text>Over time, more and more digital programs/services will be available through GC Sign in as the single front door to access federal government programs/services.</gcds-text> 
+
+## GC Sign in terms
+
+<gcds-text>GC Sign in has specific terms of use for individuals and organizations.</gcds-text> 
+
+<gcds-button value="Learn more">
+  Read the terms
+</gcds-button>
 
 ## About the GC Sign in team
 
