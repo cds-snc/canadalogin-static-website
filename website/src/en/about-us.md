@@ -31,7 +31,7 @@ eleventyNavigation:
 
 <gcds-card
   card-title="GEO.ca Geospatial Data Viewer"
-  href="geo.canada.ca"
+  href="https://geo.ca/home/"
   description="Natural resources Canada"
   img-src="/assets/images/common/users/about/users_geo_ca_logo.svg"
   img-alt=""
