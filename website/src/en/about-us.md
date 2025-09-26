@@ -21,7 +21,7 @@ eleventyNavigation:
     <p>Our goal is to make signing-in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</p>
   </div>
   <div>
-    <img src="geo.png" alt="Geo logo">
+    <img src="/assets/images/common/users/about/users_about_gc_signin.svg" alt="An illustration depicting a laptop and mobile showing GC sign in a secure way to access Canadian government services.">
   </div>
 </gcds-grid>
 
@@ -33,8 +33,8 @@ eleventyNavigation:
   card-title="GEO.ca Geospatial Data Viewer"
   href="geo.canada.ca"
   description="Natural resources Canada"
-  img-src="images/geo.png"
-  img-alt="Geo.canada logo"
+  img-src="/assets/images/common/users/about/users_geo_ca_logo.svg"
+  img-alt=""
 >
 </gcds-card>
 
