@@ -11,8 +11,8 @@ date: 'git Last Modified'
 hero:
   title: 'Welcome to GC Sign in'
   summary: 'Accessing Government of Canada programs and services is now easier than ever. Use a single, secure sign-in to access all participating federal programs and services.'
-  image:
-  altText:
+  image: '/assets/images/common/home/home_gc_signin.svg'
+  altText: 'An illustrated image depicting a person sitting on a cloud behind a laptop screen that shows it is secure.'
 ---
 
 <!-- # {{ homehero[locale].signIn }} Help Centre -->
@@ -21,21 +21,22 @@ hero:
 </gcds-heading>
 
 <!-- {% link links.getstarted 'Get started →' %} -->     
-<section>
-    <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
-        <li class="list-none">
-            <p><i class="fa-solid fa-people-group fa-4x"></i></p>
-            <h3 class="mt-0">Individuals and organisations</h3>
-            <p>Discover how GC Sign in works, what services it connects to, and how it helps simplify your access to Government of Canada programs and services.</p>
-            <!-- <p><gcds-link href="users/">Learn more</gcds-link></p> -->
-            <p>{% link links.users 'Learn more' %}</p>            
-        </li>
-        <li class="list-none">
-            <p><i class="fa-brands fa-canadian-maple-leaf fa-4x"></i></p>
-            <h3 class="mt-0">Departments and agencies</h3>
-            <p>Protect your users’ information with the highest standards of digital security and user experience. GC Sign in handles software development, security operations, and end-user support so you don’t have to.</p>
-            <!-- <p><gcds-link href="partners/">Become a partner</gcds-link></p> -->
-            <p>{% link links.partners 'Become a partner' %}</p>            
-        </li>
-    </gcds-grid>
-</section>
+<gcds-grid tag="div" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
+    <div>
+        <img src="/assets/images/common/home/home_users_icon2.svg" style="height: 120px; width: auto;" alt="An icon of 3 people.">
+        <gcds-heading tag="h3" margin-bottom="200" margin-top="200">
+            Individuals and organisations
+        </gcds-heading>
+        <gcds-text>Discover how GC Sign in works, what services it connects to, and how it helps simplify your access to Government of Canada programs and services.</gcds-text>
+        <gcds-text>{% link links.users 'Get user help' %}</gcds-text>            
+    </div>
+    <div>
+        <img src="/assets/images/common/home/home_partners_icon2.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf.">
+        <gcds-heading tag="h3" margin-bottom="200" margin-top="200">
+            Departments and agencies
+        </gcds-heading>
+        <gcds-text>Protect your users’ information with the highest standards of digital security and user experience. GC Sign in handles software development, security operations, and end-user support so you don’t have to.</gcds-text>
+        <gcds-text>{% link links.partners 'Become a partner' %}</gcds-text>
+        <p></p>
+    </div>
+</gcds-grid>
