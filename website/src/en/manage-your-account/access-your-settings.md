@@ -17,4 +17,4 @@ To access your GC Sign in settings, first you will need to be signed in to your 
 
 <br />
 
-Once you're signed in, open the menu at the top of the page or look for a linkin the menu bar that says "Manage your GC Sign in". Select this link. You will be sent to the GC Sign in settings portal, where you can manage your Security Settings and Personal Information.
+Once you're signed in, open the menu at the top of the page or look for a link in the menu bar that says "Manage your GC Sign in". Select this link. You will be sent to the GC Sign in settings portal, where you can manage your Security Settings and Personal Information.
