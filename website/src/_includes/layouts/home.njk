@@ -60,10 +60,20 @@
       </section>
     </main>
 
-    <gcds-footer display="compact" lang="{{ locale }}"
-      sub-links='{ "{{ footer[locale].sub.about }}": "{{ footer[locale].sub.abouturl }}",
-      "{{ footer[locale].sub.help }}": "{{ footer[locale].sub.helpurl }}",
-      "{{ footer[locale].sub.terms }}": "{{ footer[locale].sub.termsurl }}" }'></gcds-footer>
+    <gcds-footer 
+      display="full" 
+      contextual-heading="GC Sign in" 
+      contextual-links='{ 
+        "GC Sign in Users": "https://sign-in.canada.ca/individuals-and-organisations/", 
+        "About GC Sign in": "https://sign-in.canada.ca/about-gc-signin/", 
+        "Contact us": "https://sign-in.canada.ca/contact/" 
+      }'
+    sub-links='{ 
+      "About Canada.ca": "#", 
+      "Terms and conditions": "#", 
+      "Privacy": "#" 
+    }'>
+    </gcds-footer>
 
   </div>
 
