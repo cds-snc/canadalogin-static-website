@@ -71,15 +71,14 @@ To change the phone number GC Sign in and connected programs/services use to con
 1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
 2. Select "Personal information".
 3. Navigate to the "Contact information" section on the page. Select the "Edit" link in the "Contact phone number" section.
-4. Enter the new phone number you want to be contacted at.
-5. When prompted, confirm that your new phone number is correct and that you want to update it.
-6. Enter the code we sent to your phone number to verify it.
-
-   <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
+4. Enter the new phone number you want to be contacted at. Choose how you want to receive a verification code.
+5. Enter the code we sent to your phone number to verify it.
+ <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
      <gcds-text>{% linkRef links.issuesenterverifyemail '' 'Problems entering and verifying your phone number' %}</gcds-text>
    </gcds-notice>
 
-7. Success! There will be a message confirming that your contact phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email
+6. When prompted, confirm that your new phone number is correct and that you want to update it.
+7. Success! There will be a message confirming that your contact phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email.
 8. Update your contact phone number with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your contact phone number here only updates it with programs/services that are connected to your GC Sign in">
