@@ -22,5 +22,3 @@ GC Sign in before you can access the service.
 
    - {% link links.createaccount 'How to create a GC Sign in account' %}
    - {% link links.twostepverificationmethods 'What is 2-step verification?' %}
-
-      

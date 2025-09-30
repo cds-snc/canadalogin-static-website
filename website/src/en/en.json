@@ -2,9 +2,9 @@
   "locale": "en",
   "links": {
     "home": "/en/",
-    "getstarted": "/en/get-started/",
-    "createaccount": "/en/get-started/create-account/",
-    "twostepverificationmethods": "/en/get-started/two-step-verification-methods/",
+    "getstarted": "/en/individuals-and-organisations/get-started/",
+    "createaccount": "/en/individuals-and-organisations/get-started/create-account/",
+    "twostepverificationmethods": "/en/individuals-and-organisations/get-started/two-step-verification-methods/",
     "troublesigningup": "/en/trouble-signing-up/",
     "supportedcountries": "/en/trouble-signing-up/supported-countries/",
     "issuestwostepverification": "/en/trouble-signing-up/issues-2-step-verification/",

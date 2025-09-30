@@ -23,25 +23,25 @@ hero:
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
     <gcds-card
     card-title="Get started with GC Sign in"
-    href="#"
+    href="get-started"
     card-title-tag="h3"
     description="Learn how to create your account with GC Sign in. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
     card-title="Managing your GC Sign in account"
-    href="#"
+    href="manage-your-account"
     card-title-tag="h3"
     description="Change your account settings including your password, phone number, email and more.">
     </gcds-card>
     <gcds-card
     card-title="Trouble signing up"
-    href="#"
+    href="trouble-signing-up"
     card-title-tag="h3"
     description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues.">
     </gcds-card>
   <gcds-card
     card-title="Trouble signing in"
-    href="#"
+    href="trouble-signing-in"
     card-title-tag="h3"
     description="Forgot your password? Locked out of your account? We’ll help you resolve access issues.">
     </gcds-card>
