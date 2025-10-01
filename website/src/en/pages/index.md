@@ -6,6 +6,7 @@ translationKey: 'index'
 redirect_from: /
 eleventyNavigation:
   key: home
+  title: Home
   order: 1
 date: 'git Last Modified'
 hero:
