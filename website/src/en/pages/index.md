@@ -10,7 +10,7 @@ eleventyNavigation:
 date: 'git Last Modified'
 hero:
   title: 'Welcome to GC Sign in'
-  summary: 'Accessing Government of Canada programs and services will be easier than ever.'
+  summary: 'Accessing Government of Canada programs and services will be easier than ever. Use a single, secure sign-in to access all participating federal programs and services.'
   image: '/assets/images/common/home/home_gc_signin.svg'
   altText:
 ---
