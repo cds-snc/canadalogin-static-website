@@ -23,7 +23,7 @@ hero:
 <!-- {% link links.getstarted 'Get started →' %} -->     
 <gcds-grid tag="div" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
     <div>
-        <img src="/assets/images/common/home/home_users_icon2.svg" style="height: 120px; width: auto;" alt="An icon of 3 people.">
+        <img src="/assets/images/common/home/home_users_icon.svg" style="height: 120px; width: auto;" alt="An icon of 3 people.">
         <gcds-heading tag="h3" margin-bottom="200" margin-top="200">
             Individuals and organisations
         </gcds-heading>
@@ -31,7 +31,7 @@ hero:
         <gcds-text>{% link links.users 'Get user help' %}</gcds-text>            
     </div>
     <div>
-        <img src="/assets/images/common/home/home_partners_icon2.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf.">
+        <img src="/assets/images/common/home/home_partners_icon.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf.">
         <gcds-heading tag="h3" margin-bottom="200" margin-top="200">
             Departments and agencies
         </gcds-heading>
