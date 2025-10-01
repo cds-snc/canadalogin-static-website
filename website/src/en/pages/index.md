@@ -27,7 +27,7 @@ hero:
         <gcds-heading tag="h3" margin-bottom="200" margin-top="200">
             Individuals and organisations
         </gcds-heading>
-        <gcds-text>Discover how GC Sign in works, what services it <strong>will connect to, and get support with simplifying</strong> your access to Government of Canada programs and services.</gcds-text>
+        <gcds-text>Discover how GC Sign in works, what services it will connect to, and get support with simplifying your access to Government of Canada programs and services.</gcds-text>
         <gcds-text>{% link links.users 'Get user help' %}</gcds-text>            
     </div>
     <div>
