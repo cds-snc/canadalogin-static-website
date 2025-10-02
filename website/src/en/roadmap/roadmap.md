@@ -8,7 +8,7 @@ eleventyNavigation:
   locale: en
   parent: partnersEn
   order: 2
-  hideMain: false
+  hideMain: true
 ---
 
 # GC Sign in Roadmap
