@@ -44,8 +44,6 @@ From here you can:
 - [Change your 2-step verification phone number](#change-your-2step-verification-phone-number)
 - [Add a 2-step verification phone number](#add-a-2step-verification-phone-number)
 - [Delete a 2-step verification phone number](#delete-a-2step-verification-phone-number)
-- [Change your default 2-step verification number](#change-your-default-2step-verification-number)
-- [Change your default code delivery method](#change-your-default-code-delivery-method)
 
 ### Change your 2-step verification phone number
 
@@ -70,6 +68,7 @@ To change the phone number used for **two-step verification**, follow these step
    </gcds-notice>
 
 8. Success! There will be a message confirming you have added the phone number. You will also receive an email notifying you of the change you just made. You can ignore this email.
+9. You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step. 
 
 #### 2. Then, delete your existing phone number
 
@@ -107,6 +106,7 @@ To add 2-step verification phone number, follow these steps:
    </gcds-notice>
 
 8. Success! There will be a message confirming that a phone number has been added. You will also receive an email notifying you of the change you just made. You can ignore this email.
+9. You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step. 
 
 ### Delete a 2-step verification phone number
 
@@ -128,26 +128,3 @@ To delete a 2-step verification phone number, follow these steps:
 5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
 6. Confirm that you want to delete the phone number (make sure it's the right one).
 7. Success! There will be a message confirming that the phone number has been deleted. You will also receive an email notifying you of the change you just made. You can ignore this email.
-
-### Change your default 2-step verification number
-
-If you have multiple 2-step verification phone numbers registered to your account, and you want to change the phone number used by default when you sign in, follow these steps:
-
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
-2. Select "Security settings".
-3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
-4. Navigate to the number you want to set as your default and select "Set as default".
-5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
-6. Success! There will be a message confirming that your default phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email.
-
-### Change your default code delivery method
-
-To change the default method for how the verification code is sent to your 2-step verification phone numbers, follow these steps:
-
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
-2. Select "Security settings".
-3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
-4. Navigate to the number you want to change the delivery method for and select "Edit delivery method".
-5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
-6. Select the delivery method you want to use by default and select "Continue". For more information on each delivery method, refer to our guide on {% linkRef links.twostepverificationmethods '#phone-verification' 'phone verification' %}.
-7. Success! There will be a message confirming that your default delivery method has been changed. You will also receive an email notifying you of the change you just made. You can ignore this email.
