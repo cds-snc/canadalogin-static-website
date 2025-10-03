@@ -44,7 +44,7 @@ Below is the planned schedule for providing features and achieving milestones fo
 <table>
   <thead>
     <tr>
-      <th>Services that are eligible to onboard</th>
+      <th style="padding-top: 20px;">Services that are eligible to onboard</th>
     </tr>
   </thead>
   <tbody>
@@ -94,6 +94,7 @@ Below is the planned schedule for providing features and achieving milestones fo
       </tr>
     </tbody>
   </table>
+  &nbsp;
 </gcds-details>
 
 <gcds-details details-title="April 2026 to September 2026 (Fraud detection)" class="hydrated">
@@ -131,6 +132,7 @@ Below is the planned schedule for providing features and achieving milestones fo
       </tr>
     </tbody>
   </table>
+  &nbsp;
 </gcds-details>
 
 <gcds-details details-title="October 2026 to March 2027 (Identity and support for critical applications)" class="hydrated">
