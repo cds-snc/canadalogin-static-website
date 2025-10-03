@@ -19,8 +19,6 @@ Below is the planned schedule for providing features and achieving milestones fo
 
 ### Preparing for pilot
 
-<h4 id="product-deliverables">Preparing for pilot</h4>
-
 <table>
   <thead>
     <tr>
@@ -43,10 +41,12 @@ Below is the planned schedule for providing features and achieving milestones fo
     </tr>
   </tbody>
 </table>
-
-<h4 id="product-deliverables">Services that are eligible to onboard</h4>
-
 <table>
+  <thead>
+    <tr>
+      <th>Services that are eligible to onboard</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td>Pilot customer only (Geo.ca)</td>
