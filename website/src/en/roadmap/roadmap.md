@@ -177,5 +177,5 @@ Below is the planned schedule for providing features and achieving milestones fo
 Contact us to learn more about GC Sign in and how it could meet your service's needs.
 
 <gcds-button value="Contact us">
-  Contact us &gt;
+  Contact us <gcds-icon name="chevron-right">
 </gcds-button>
