@@ -4,11 +4,11 @@ translationKey: gcsigninroadmap
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: signinroadmapEN
-  title: GC Sign in roadmap
+  title: Roadmap
   locale: en
   parent: partnersEn
   order: 2
-  hideMain: true
+  hideMain: false
 ---
 
 # GC Sign in Roadmap
@@ -97,7 +97,7 @@ Below is the planned schedule for providing features and achieving milestones fo
   &nbsp;
 </gcds-details>
 
-<gcds-details details-title="April 2026 to September 2026 (Fraud detection)" class="hydrated">
+<gcds-details details-title="April 2026 to September 2026 (Fraud detection)" class="hydrated" margin-bottom="300" margin-top="500">
   <h4 id="product-deliverables">Fraud detection</h4>
   <table>
     <thead>
