@@ -97,7 +97,7 @@ Below is the planned schedule for providing features and achieving milestones fo
   &nbsp;
 </gcds-details>
 
-<gcds-details details-title="April 2026 to September 2026 (Fraud detection)" class="hydrated" margin-bottom="300" margin-top="500">
+<gcds-details details-title="April 2026 to September 2026 (Fraud detection)" class="hydrated">
   <h4 id="product-deliverables">Fraud detection</h4>
   <table>
     <thead>
@@ -180,4 +180,5 @@ Contact us to learn more about GC Sign in and how it could meet your service's n
 
 <gcds-button value="Contact us">
   Contact us <gcds-icon name="chevron-right">
+  </gcds-icon>
 </gcds-button>
