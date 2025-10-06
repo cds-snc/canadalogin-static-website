@@ -22,7 +22,7 @@ Below is the planned schedule for providing features and achieving milestones fo
 <table>
   <thead>
     <tr>
-      <th>Deliverable</th>
+      <th>Deliverables</th>
       <th>Status</th>
     </tr>
   </thead>
