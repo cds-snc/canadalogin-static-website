@@ -40,6 +40,9 @@ jobs:
     strategy:
       matrix:
         environment: [dev, test]
+        include:
+            - module: website
+    
     environment: ${{ matrix.environment }}
     steps:
       - name: Checkout repository
@@ -57,13 +60,18 @@ jobs:
           role-session-name: GHPushAppS3
           aws-region: ${{ env.AWS_REGION }}
 
+      - name: Install dependencies
+        working-directory: ${{matrix.module}}
+        run: |
+            npm install
+            npm run build
+
       - name: Environment Variables for build
         run: |
           echo "VITE_BACKEND_API_URL=${{ secrets.VITE_BACKEND_API_URL }}" >> $GITHUB_ENV
           echo "VITE_GOOGLE_ANALYTICS_ID=${{ secrets.VITE_GOOGLE_ANALYTICS_ID }}" >> $GITHUB_ENV
 
-    #TO-DO: FIX THIS for our directory
-      - name: Build application
+      - name: Install dependencies & Build Application
         working-directory: frontend
         run: |
           npm install
@@ -129,6 +137,7 @@ jobs:
             exit 1
           fi
 
+    #TO-DO: Ensure we are deploying the app to both EN/FR buckets to S3
       - name: Deploy build to app bucket
         run: |
           aws s3 sync \
@@ -137,4 +146,5 @@ jobs:
 
       - name: Invalidate FRONTEND_APP_CLOUDFRONT_DISTRIBUTION cache
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.FRONTEND_APP_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/index.html"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.EN_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/en/*" "/en/index.html"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.FR_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/fr/*" "/fr/index.html"
