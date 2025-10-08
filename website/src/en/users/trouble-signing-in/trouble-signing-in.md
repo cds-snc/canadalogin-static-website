@@ -18,6 +18,7 @@ Forgot your password? Locked out of your account? Get help accessing your accoun
 
 - {% linkRef links.howtosignin '' 'How to sign in to GC Sign in' %}
 - {% linkRef links.problemsenteringyouremailaddress '' 'Problems entering your email address' %}
+- {% linkRef links.forgotyouremail '' 'Forgot your email' %}
 - {% linkRef links.forgotyourpassword '' 'Forgot your password' %}
 - {% linkRef links.problemssigninginwith2stepverification '#cannot-access-your-phone' 'Cannot access your phone' %}
 - {% linkRef links.problemssigninginwith2stepverification '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}
