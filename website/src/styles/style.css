@@ -106,6 +106,10 @@ body {
   animation: fade 0.05s normal forwards ease-in-out;
 }
 
+main {
+  margin-bottom: var(--gcds-spacing-600);
+}
+
 .remove-empty-p p:empty {
   display: none;
 }
