@@ -24,6 +24,15 @@ Follow these steps to sign in to GC Sign in:
 
 4. Enter your password.
 
-5. Check your phone. You should have received a text message or a voice call with a 6-digit code. Enter the code into the webpage.
+5. If you have more than one verification method registered to your account, you will be prompted to choose one.
 
-6. Success! You have signed in. You will now be taken to the program or service you were trying to access.
+6. Check your phone. You should have received a text message or a voice call with a 6-digit code. Enter the code into the webpage.
+
+7. Success! You have signed in. You will now be taken to the program or service you were trying to access.
+
+<gcds-notice type="info" notice-title-tag="h2" notice-title="You may be prompted to finish setting up your GC Sign in">
+  <gcds-text>If you did not complete the sign up process already, you might be prompted to register a 2-step verification method. See our guide on {% linkRef links.problemssigninginwith2stepverification 'problems-signing-in-with-2-step-verification' 'problems registering text message/phone call verification' %} for help with this. 
+  </gcds-text>
+</gcds-notice>
+
+<br>
