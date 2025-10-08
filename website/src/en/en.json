@@ -33,6 +33,8 @@
     "about": "/en/users/about-us/",
     "contact": "/en/users/contact/",
     "users": "/en/users/",
-    "partners": "/en/partners/"
+    "partners": "/en/partners/",
+    "aboutgcsignin": "/en/partners/about-gc-sign-in/",
+    "signinroadmap": "/en/partners/roadmap/"
   }
 }
