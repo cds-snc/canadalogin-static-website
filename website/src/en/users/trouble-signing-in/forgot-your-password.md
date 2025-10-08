@@ -26,13 +26,28 @@ If you believe you are entering the correct password, but you are still getting 
 3. Enter the code into the webpage and select "continue".
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
     <gcds-text>{% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'What to do if you cannot find the email code in your inbox' %}</gcds-text>
+    <gcds-text>{% linkRef links.forgotyourpassword 'account-incomplete' 'What to do if it says your account is incomplete.' %}</gcds-text>
   </gcds-notice>
-4. Enter your new password.
+
+4. Complete 2-step verification.
+ <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
+    <gcds-text>{% linkRef links.problemssigninginwith2stepverification 'problems-signing-in-with-2-step-verification' 'Problems signing in with 2-step verification.' %}</gcds-text>
+  </gcds-notice>
+
+5. Enter your new password.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
     <gcds-text>{% linkRef links.issuespassword '' 'How to make a strong password' %}</gcds-text>
     <gcds-text>{% linkRef links.issuespassword '' 'Problems creating a password' %} </gcds-text>
   </gcds-notice>
 
-5. Select the "continue" button.
+6. Select the "continue" button.
 
-6. Success! You have reset your password and signed in. You will now be taken to the program or service you were trying to access. You will also receive an email notifying you of the change you just made. You can ignore this email.
+7. Success! You have reset your password and signed in. You will now be taken to the program or service you were trying to access. You will also receive an email notifying you of the change you just made. You can ignore this email.
+
+<a id="account-incomplete"></a>
+### What to do if it says your account is incomplete
+If you receive an error message saying your password cannot be reset because your account is incomplete, it means you did not finish setting up your account during sign up.
+
+At this time, we cannot reset passwords online for incomplete accounts. We apologize for the inconvenience. 
+
+We recommend creating a new account using a different email address.
