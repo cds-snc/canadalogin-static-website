@@ -23,21 +23,19 @@ eleventyNavigation:
   
 If you receive an error message telling you that your phone number is invalid, try the following troubleshooting steps:
 
-<br />
-
-1. <strong>Check that your phone number is correct</strong>
+#### 1. Check that your phone number is correct
    - Make sure you entered the correct number with no typos or missing digits. 
    - Make sure you selected the correct country code from the dropdown menu (e.g., +1 for Canada and the United States).
                    
-2. <strong>Check that your phone number works</strong>
+#### 2. Check that your phone number works
    - Verify that the phone number is active and capable of receiving SMS or voice calls.
                
-3. <strong>Check that your phone number is supported</strong>
+#### 3. Check that your phone number is supported
    - Due to technical limitations, our service currently only supports phone numbers from the countries found on this list: {% link links.supportedcountries 'Supported international phone numbers' %}.
    - If your phone number is from a country not on this list, signing in using Text Message or Voice is not possible. 
      You will not be able to create a GC Sign in account at this time, until more verification methods have been added.
 
-4. <strong>Try using a different phone number if possible</strong>  
+ #### 4. Try using a different phone number if possible
 <br />
 
 5. <strong>Contact Support</strong>
@@ -47,25 +45,23 @@ If you receive an error message telling you that your phone number is invalid, t
              
 If you’re not receiving your verification code via SMS (text) or phone call for GC Sign in, try these troubleshooting steps:
 
-<br />
-
-1. <strong>Check your phone number</strong>
+#### 1. Check your phone number
    - Make sure you entered the correct number with no typos or missing digits.
    - Make sure you selected the correct country code from the dropdown menu (e.g., +1 for Canada and the United States).
    
-2. <strong>Check your mobile signal</strong>
+#### 2. Check your mobile signal
    - Ensure you have a strong signal or switch to a different location.
    - Restart your phone to refresh the network connection.
 
-3. <strong>Verify your message or call settings</strong>
+#### 3. Verify your message or call settings
    - Check your phone settings to see if messages or calls from unknown numbers are blocked. Refer to the help content of your phone manufacturer for instructions on how to do this.
    - Look for messages in your spam or filtered messages folder.
    
-4. <strong>Wait a few minutes and try again</strong> 
+#### 4. Wait a few minutes and try again
    - Network delays can happen. If you requested multiple codes, use the most recent one. 
    - If the message or call doesn’t arrive, request a new code by selecting “Send the code again” under “Problems with the code?”. You may have to wait a few seconds for the link to appear.
                                        
-5. <strong>Contact Support</strong>
+#### 5. Contact Support
    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already. 
    
 ### It says your code is invalid                                  
@@ -74,13 +70,13 @@ If it says your one-time code is invalid, try these troubleshooting steps:
 
 <br />
 
-1. <strong>Make sure you have entered the code correctly</strong>
+#### 1. Make sure you have entered the code correctly
     - Codes are 6-digits, double check that you entered or copied it correctly.
                                        
-2. <strong>Make sure you have the right code</strong>
+#### 2. Make sure you have the right code
    - If you requested multiple codes, only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works. 
    - If you enter the code incorrectly too many times, you may be temporarily locked out. Wait 15 minutes and try again.
  
-3. <strong>Contact Support</strong>
+#### 3. Contact Support
    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
                                              
