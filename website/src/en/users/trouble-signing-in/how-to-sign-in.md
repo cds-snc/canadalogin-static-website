@@ -31,7 +31,7 @@ Follow these steps to sign in to GC Sign in:
 7. Success! You have signed in. You will now be taken to the program or service you were trying to access.
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title="You may be prompted to finish setting up your GC Sign in">
-  <gcds-text>If you did not complete the sign up process already, you might be prompted to register a 2-step verification method. See our guide on {% linkRef links.problemssigninginwith2stepverification 'problems-signing-in-with-2-step-verification' 'problems registering text message/phone call verification' %} for help with this. 
+  <gcds-text>If you did not complete the sign up process already, you might be prompted to register a 2-step verification method. See our guide on {% linkRef links.problemssigninginwith2stepverification 'not-receiving-verification-codes-to-your-phone' 'problems registering text message/phone call verification' %} for help with this. 
   </gcds-text>
 </gcds-notice>
 

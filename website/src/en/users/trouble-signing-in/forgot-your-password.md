@@ -26,7 +26,7 @@ If you believe you are entering the correct password, but you are still getting 
 3. Enter the code into the webpage and select "continue".
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
     <gcds-text>{% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'What to do if you cannot find the email code in your inbox' %}</gcds-text>
-    <gcds-text>{% linkRef links.forgotyourpassword 'account-incomplete' 'What to do if it says your account is incomplete.' %}</gcds-text>
+    <gcds-text>{% linkRef links.forgotyourpassword 'what-to-do-if-it-says-your-account-is-incomplete' 'What to do if it says your account is incomplete.' %}</gcds-text>
   </gcds-notice>
 
 4. Complete 2-step verification.
