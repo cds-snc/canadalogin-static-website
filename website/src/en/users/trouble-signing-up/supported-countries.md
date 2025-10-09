@@ -51,7 +51,7 @@ countries2:
   - Lithuania
   - Luxembourg
   - Macedonia
-  - Malasia
+  - Malaysia
   - Mexico
   - Morocco
   - Netherlands
