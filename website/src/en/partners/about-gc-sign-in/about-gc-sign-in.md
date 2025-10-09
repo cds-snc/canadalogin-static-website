@@ -24,16 +24,13 @@ Provides users with a simple, secure, single sign-in method for government servi
     </gcds-heading>
     <gcds-text>
       Users can authenticate via a one-time code sent through SMS or voice.
-  </gcds-text>
-  <gcds-text>
-    GC Sign in will eventually support various sign-up and sign-in methods, including passkeys and passwords with second factors (such as SMS, authenticator apps, and recovery codes).
-  </gcds-text>
-  <gcds-text>
-    Additionally, later versions may support signing in with external credential service providers such as provincial and territory digital identities.
-  </gcds-text>
-  <gcds-text>
-    Want to see what’s next? Explore the GC Sign in roadmap to learn about upcoming features and milestones.
-  </gcds-text>
+    </gcds-text>
+    <gcds-text>
+      GC Sign in will eventually support various sign-up and sign-in methods, including passkeys and passwords with second factors (such as SMS, authenticator apps, and recovery codes).
+    </gcds-text>
+    <gcds-text>
+      Additionally, later versions may support signing in with external credential service providers such as provincial and territory digital identities.
+    </gcds-text>
   </div>
   <div>
     <img class="mb-150" src="/assets/images/common/partners/about/partners_about_support.svg" alt="">     
@@ -96,7 +93,7 @@ Provides users with a simple, secure, single sign-in method for government servi
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="View the roadmap" href="https://canada.ca/">
+<gcds-button type="link" button-role="secondary" value="View the roadmap" href="/en/partners/roadmap">
   View the roadmap
 </gcds-button>
 
@@ -156,7 +153,7 @@ Provides users with a simple, secure, single sign-in method for government servi
     <gcds-text>
       Need more detailed specifications on how GC Sign in works for integration? Check out resources to learn more. 
     </gcds-text>
-    <gcds-button type="link" value="Coming soon" href="https://canada.ca/">
+    <gcds-button disabled value="Coming soon">
       Coming soon
     </gcds-button>
   </div>
