@@ -76,16 +76,16 @@ Provides users with a simple, secure, single sign-in method for government servi
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
   <div>
     <gcds-text>
-      <gcds-icon name="chevron-right"></gcds-icon> Credential assurance level 2 and 3
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Credential assurance level 3
     </gcds-text>
     <gcds-text>
-      <gcds-icon name="chevron-right"></gcds-icon> Identity assurance level 2
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Identity assurance level 2
     </gcds-text>
     <gcds-text>
-      <gcds-icon name="chevron-right"></gcds-icon> Access management
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Access management
     </gcds-text>
     <gcds-text>
-      <gcds-icon name="chevron-right"></gcds-icon> Enhanced fraud management
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Enhanced fraud management
     </gcds-text>
   </div>
   <div>
@@ -145,17 +145,6 @@ Provides users with a simple, secure, single sign-in method for government servi
     <gcds-text>
       Offers identity assurance level 1 and credential assurance level 2. This means you can safely provide your clients access to manage, submit, and store information rated at Protected B, Medium Integrity, Medium Availability (PBMM).
     </gcds-text>
-  </div>
-  <div>
-    <gcds-heading tag="h3">
-      Want to learn more?
-    </gcds-heading>
-    <gcds-text>
-      Need more detailed specifications on how GC Sign in works for integration? Check out resources to learn more. 
-    </gcds-text>
-    <gcds-button disabled value="Coming soon">
-      Coming soon
-    </gcds-button>
   </div>
 </gcds-grid>
 
