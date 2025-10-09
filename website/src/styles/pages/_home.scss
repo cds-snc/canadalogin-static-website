@@ -28,4 +28,24 @@
       background-color: var(--gcds-color-blue-900);
     }
   }
+
+  .hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem
+}
+
+.hero-image {
+  max-width: 40%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    display: none;
+  }
+}
 }
