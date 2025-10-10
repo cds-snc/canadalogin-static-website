@@ -1,6 +1,6 @@
 ---
 title: GC Sign in roadmap
-translationKey: gcsigninroadmap
+translationKey: signinroadmap
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: signinroadmapEN
