@@ -6,7 +6,7 @@
   "homepage": "",
   "main": "index.js",
   "scripts": {
-    "build:sass": "sass src/styles:src/styles",
+    "build:sass": "sass src/styles/style.scss:src/styles/style.css",
     "build:eleventy": "eleventy",
     "build": "npm-run-all build:sass --parallel build:*",
     "create-component-page": "node scripts/gen-component-page.js",
