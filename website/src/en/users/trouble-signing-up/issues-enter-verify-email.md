@@ -11,10 +11,11 @@ eleventyNavigation:
    hideMain: true
 ---
 
-# Issues with entering and verifying your email
+# Problems entering and verifying your email
 
 - {% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}
 - {% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}
+- {% link '#it-says-the-code-is-invalid' 'It says the code is invalid' %}
 - {% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}
 
 ##  It says your email address is invalid
@@ -53,8 +54,7 @@ If you cannot find the one-time code for GC Sign in your email inbox, try these 
    - If you use custom filters, the email might be in a different folder.
    - If you have an IT-managed email (work or school), check with your IT team to ensure the email isn't blocked.
 6. <strong>Try resending the code</strong>
-   -  Go back to the sign up page and request a new verification code by selecting the “Send the code again”
-      link under “Problems with the code?”. You may have to wait a few seconds for the resend link to appear.
+   - On the webpage, request a new verification code by selecting the “Request a new code” link under “Problems with the code?”. You may have to wait a few seconds for the resend link to appear.
 7. <strong>Contact support</strong>
    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
 
@@ -73,7 +73,7 @@ If it says your one-time code is invalid, try these troubleshooting steps:
 
 ## It says your email is already associated with a GC Sign in account
 
-If you have received an email message stating that your email is already associated with an account on
+If you have received an error message stating that your email is already associated with an account on
 GC Sign in, here’s what it means and what you can do.
 
 ###  What it means
@@ -86,6 +86,15 @@ an account, or because someone else used or is using your email in error.
 1. <strong>If you previously created this account, sign in:</strong>
    - Go to the sign-in page and sign in using the email address you used previously
    - If you’ve forgotten your password, use the “Forgot Password” option to reset it.
+<gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
+    <gcds-text>
+         {% linkRef links.forgotyourpassword '#forgot-your-password' 'Forgot your password' %} 
+    </gcds-text>
+    <gcds-text>
+         {% linkRef links.problemssigninginwith2stepverification '#Problems-signing-in-with2-step-verification' 'Problems signing in with 2-step verification' %} 
+     </gcds-text>
+</gcds-notice>
+
 2. <strong>If you were trying to create a new account:</strong>
    -  Email addresses can only be linked to one GC Sign in account. You will need to use a different
       email address to create a new account.
