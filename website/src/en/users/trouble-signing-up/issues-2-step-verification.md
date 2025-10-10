@@ -36,9 +36,8 @@ If you receive an error message telling you that your phone number is invalid, t
      You will not be able to create a GC Sign in account at this time, until more verification methods have been added.
 
  #### 4. Try using a different phone number if possible
-<br />
 
-5. <strong>Contact Support</strong>
+#### 5. Contact Support
    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
                      
 ### You did not receive the one-time code to your phone
@@ -68,10 +67,8 @@ If you’re not receiving your verification code via SMS (text) or phone call fo
 
 If it says your one-time code is invalid, try these troubleshooting steps:
 
-<br />
-
 #### 1. Make sure you have entered the code correctly
-    - Codes are 6-digits, double check that you entered or copied it correctly.
+   - Codes are 6-digits, double check that you entered or copied it correctly.
                                        
 #### 2. Make sure you have the right code
    - If you requested multiple codes, only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works. 
