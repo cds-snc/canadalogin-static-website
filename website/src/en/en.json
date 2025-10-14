@@ -25,6 +25,7 @@
     "howtokeepyouraccountsecure": "/en/users/manage-your-account/how-to-keep-your-account-secure/",
     "whattodowhenyoufindsuspiciousactivity": "/en/users/manage-your-account/what-to-do-when-you-find-suspicious-activity/",
     "howtosignout": "/en/users/manage-your-account/how-to-sign-out/",
+    "termsandprivacyusers": "/en/users/terms/",
     "openidconnectionprotocol": "/en/openid-connection-protocol/",
     "implementationofopenidconnect": "/en/openid-connection-protocol/implementation-of-openid-connect/",
     "sequencediagrams": "/en/openid-connection-protocol/sequence-diagrams/",
@@ -35,6 +36,8 @@
     "users": "/en/users/",
     "partners": "/en/partners/",
     "aboutgcsignin": "/en/partners/about-gc-sign-in/",
-    "signinroadmap": "/en/partners/roadmap/"
+    "signinroadmap": "/en/partners/roadmap/",
+    "termsandconditionspartners": "/en/partners/terms-and-conditions/",
+    "privacynoticepartners": "/en/partners/privacy/"
   }
 }
