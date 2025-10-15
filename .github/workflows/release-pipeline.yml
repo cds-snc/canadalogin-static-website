@@ -13,7 +13,6 @@ permissions:
 env:
   AWS_REGION: ca-central-1
   GITHUB_SHA: ${{ github.sha }}
-  SBOM_TAG_NAME: gc-signin-dev-backend-api
 
 name: Release Pipeline - Frontend & Backend API
 
@@ -40,8 +39,6 @@ jobs:
     strategy:
       matrix:
         environment: [dev, test]
-        include:
-            - module: website
     
     environment: ${{ matrix.environment }}
     steps:
@@ -56,15 +53,9 @@ jobs:
       - name: configure aws credentials using OIDC role
         uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
         with:
-          role-to-assume: arn:aws:iam::${{vars.AWS_ACCOUNT_ID}}:role/github_action_push_S3
+          role-to-assume: arn:aws:iam::${{vars.AWS_ACCOUNT_ID}}:role/github_action_push_S3-gc-signin-static-website
           role-session-name: GHPushAppS3
           aws-region: ${{ env.AWS_REGION }}
-
-      - name: Install dependencies
-        working-directory: ${{matrix.module}}
-        run: |
-            npm install
-            npm run build
 
       - name: Environment Variables for build
         run: |
@@ -72,14 +63,14 @@ jobs:
           echo "VITE_GOOGLE_ANALYTICS_ID=${{ secrets.VITE_GOOGLE_ANALYTICS_ID }}" >> $GITHUB_ENV
 
       - name: Install dependencies & Build Application
-        working-directory: frontend
+        working-directory: website
         run: |
           npm install
           npm run build
 
       - name: Upload build artifacts to S3
         run: |
-          aws s3 sync frontend/dist s3://${{ secrets.FRONTEND_APP_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}
+          aws s3 sync frontend/dist s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}
 
   
   # Deploys frontend application to necessary environments.
@@ -92,7 +83,7 @@ jobs:
         environment: [dev, test]
     environment: ${{ matrix.environment }}
     steps:
-      - run: echo "Deploying frontend to ${{ matrix.environment }} environment..."
+      - run: echo "Deploying static website to ${{ matrix.environment }} environment..."
 
       - name: Checkout repository
         uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
@@ -126,14 +117,14 @@ jobs:
       - name: configure aws credentials using OIDC role
         uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
         with:
-          role-to-assume: arn:aws:iam::${{vars.AWS_ACCOUNT_ID}}:role/github_action_push_S3
+          role-to-assume: arn:aws:iam::${{vars.AWS_ACCOUNT_ID}}:role/github_action_push_S3-gc-signin-static-website
           role-session-name: GHPushAppS3
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Ensure deployment build exists
         run: |
-          if ! aws s3 ls s3://${{ secrets.FRONTEND_APP_BUILD_ARTIFACTS_S3_BUCKET }}/${DEPLOYMENT_SHA}/ ; then
-            echo "No build artifacts found for SHA ${DEPLOYMENT_SHA} in bucket ${{ secrets.FRONTEND_APP_BUILD_ARTIFACTS_S3_BUCKET }}. Exiting."
+          if ! aws s3 ls s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${DEPLOYMENT_SHA}/ ; then
+            echo "No build artifacts found for SHA ${DEPLOYMENT_SHA} in bucket ${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}. Exiting."
             exit 1
           fi
 
@@ -141,8 +132,9 @@ jobs:
       - name: Deploy build to app bucket
         run: |
           aws s3 sync \
-            s3://${{ secrets.FRONTEND_APP_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
-            s3://${{ secrets.FRONTEND_APP_S3_BUCKET }}
+            s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
+            s3://${{ secrets.EN_S3_BUCKET }}
+            s3://${{ secrets.FR_S3_BUCKET }}
 
       - name: Invalidate FRONTEND_APP_CLOUDFRONT_DISTRIBUTION cache
         run: |
