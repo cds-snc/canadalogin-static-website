@@ -163,6 +163,11 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, '\t');
   });
 
+    eleventyConfig.addFilter('contains', function(str, substring) {
+    if (typeof str !== 'string') return false;
+    return str.includes(substring);
+  });
+  
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
