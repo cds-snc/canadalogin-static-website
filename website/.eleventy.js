@@ -163,9 +163,9 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, '\t');
   });
 
-    eleventyConfig.addFilter('contains', function(str, substring) {
+    eleventyConfig.addFilter('startsWith', function(str, prefix) {
     if (typeof str !== 'string') return false;
-    return str.includes(substring);
+    return str.startsWith(prefix);
   });
   
   /* Markdown Overrides */
