@@ -33,19 +33,19 @@ Below is the planned schedule for providing features and achieving milestones fo
     </tr>
     <tr>
       <td>Provide multi-channel authentication at credential assurance level 2 and 3</td>
-      <td>🔄 In progress</td>
+      <td>🔄&nbsp;In&nbsp;progress</td>
     </tr>
     <tr>
       <td>Users supported with basic phone and online support</td>
-      <td>🔄 In progress</td>
+      <td>🔄&nbsp;In&nbsp;progress</td>
     </tr>
     <tr>
       <td>Complete a Privacy Impact Assessment (PIA)</td>
-      <td>🔄 In progress</td>
+      <td>🔄&nbsp;In&nbsp;progress</td>
     </tr>
     <tr>
       <td>Obtain Authority to Operate (ATO) for a service that's assessed for Protected B / Medium integrity  / Medium availability (PBMM)​</td>
-      <td>🔄 In progress</td>
+      <td>🔄&nbsp;In&nbsp;progress</td>
     </tr>
     <tr>
       <td>Provided pilot testing environment</td>
@@ -53,7 +53,7 @@ Below is the planned schedule for providing features and achieving milestones fo
     </tr>
     <tr>
       <td>Adoption readiness planning for partners using GCKey</td>
-      <td>🔄 In progress</td>
+      <td>🔄&nbsp;In&nbsp;progress</td>
     </tr>
   </tbody>
 </table>
