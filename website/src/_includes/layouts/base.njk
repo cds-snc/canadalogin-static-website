@@ -47,9 +47,9 @@
 
 <body>
 
-  <div class="content-wrapper">
+  {% include "partials/header.njk" %}
 
-    {% include "partials/header.njk" %}
+  <div class="content-wrapper">
 
     <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225 general-layout" {% if not nocrawl
       %}data-pagefind-body{% endif %}>

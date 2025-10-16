@@ -163,6 +163,11 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, '\t');
   });
 
+    eleventyConfig.addFilter('startsWith', function(str, prefix) {
+    if (typeof str !== 'string') return false;
+    return str.startsWith(prefix);
+  });
+  
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
