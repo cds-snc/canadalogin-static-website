@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: partnersEn
   locale: en
   order: 1
-  hideMain: false
+  hideMain: true
 ---
 
 # Terms and Conditions
