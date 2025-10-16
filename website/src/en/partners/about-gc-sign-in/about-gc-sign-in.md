@@ -23,11 +23,10 @@ Provides users with a simple, secure, single sign-in method for government servi
       Sign-in authentication options
     </gcds-heading>
     <gcds-text>
-      Users can authenticate via a one-time code sent through SMS or voice.
+      Users can authenticate using a password and a one time code sent through SMS or voice (credential assurance level 2).
     </gcds-text>
     <gcds-text>
-      GC Sign in will eventually support various sign-up and sign-in methods, including passkeys and passwords with second factors (such as SMS, authenticator apps, and recovery codes).
-    </gcds-text>
+GC sign in will eventually support other multi-factor authentication options including passkeys, security keys and authenticator applications.    </gcds-text>
     <gcds-text>
       Additionally, later versions may support signing in with external credential service providers such as provincial and territory digital identities.
     </gcds-text>
