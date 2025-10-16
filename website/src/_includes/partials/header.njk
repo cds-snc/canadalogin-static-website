@@ -17,10 +17,12 @@
 {% endif %}
 {% endfor %}
 
-
-
-<gcds-header lang="{{ locale }}"'>
+<gcds-header 
+  lang="{{ locale }}"
+  lang-href="#"
+  skip-to-href="#"
+>
+  {% include "partials/search.njk" %}
   {% include "partials/nav.njk" %}
   {% include "partials/breadcrumbs.njk" %}
-
 </gcds-header>

@@ -1,7 +1,7 @@
 module.exports = {
   en: {
-    action: '/en/search',
-    placeholder: 'GC Design System'
+    action: 'https://www.canada.ca/en/sr/srb.html',
+    placeholder: 'Canada.ca'
   },
   fr: {
     action: '/fr/recherche',
