@@ -68,7 +68,7 @@ jobs:
           aws s3 sync website/_site s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}
 
   
-  # Deploys frontend application to necessary environments.
+  # Deploys website application to necessary environments.
   # We check the current SHA deployed to the environment to only deploy if necessary.
   deploy-website:
     needs: [release-please, build-website]
@@ -129,8 +129,10 @@ jobs:
           aws s3 sync \
             s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
             aws s3 sync website/_site s3://${{ secrets.EN_S3_BUCKET }} --delete
+           aws s3 sync \
+            s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
             aws s3 sync website/_site s3://${{ secrets.FR_S3_BUCKET }} --delete
-
+          
       - name: Invalidate EN/FR Cloudfront caches
         run: |
           aws cloudfront create-invalidation --distribution-id ${{ secrets.EN_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/en/*" "/en/index.html"
