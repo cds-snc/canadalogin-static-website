@@ -29,7 +29,7 @@ Below is the planned schedule for providing features and achieving milestones fo
   <tbody>
     <tr>
       <td>Basic secure sign in and self-asserted core profile</td>
-      <td>✅ Completed</td>
+      <td>✅&nbsp;Completed</td>
     </tr>
     <tr>
       <td>Provide multi-channel authentication at credential assurance level 2 and 3</td>
@@ -49,7 +49,7 @@ Below is the planned schedule for providing features and achieving milestones fo
     </tr>
     <tr>
       <td>Provided pilot testing environment</td>
-      <td>✅ Completed</td>
+      <td>✅&nbsp;Completed</td>
     </tr>
     <tr>
       <td>Adoption readiness planning for partners using GCKey</td>
