@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: partnersEn
   locale: en
   order: 4
-  hideMain: false
+  hideMain: true
 ---
 
 # Privacy notice statement
