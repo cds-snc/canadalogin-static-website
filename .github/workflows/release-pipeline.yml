@@ -65,7 +65,7 @@ jobs:
 
       - name: Upload build artifacts to S3
         run: |
-          aws s3 sync website/_site s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}
+          aws s3 sync website/_site s3://${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}
 
   
   # Deploys website application to necessary environments.
@@ -118,21 +118,21 @@ jobs:
 
       - name: Ensure deployment build exists
         run: |
-          if ! aws s3 ls s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${DEPLOYMENT_SHA}/ ; then
-            echo "No build artifacts found for SHA ${DEPLOYMENT_SHA} in bucket ${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}. Exiting."
+          if ! aws s3 ls s3://${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${DEPLOYMENT_SHA}/ ; then
+            echo "No build artifacts found for SHA ${DEPLOYMENT_SHA} in bucket ${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}. Exiting."
             exit 1
           fi
 
       - name: Deploy EN/FR build to app bucket
         run: |
           aws s3 sync \
-            s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
-            s3://${{ secrets.EN_S3_BUCKET }} --delete
+            s3://${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
+            s3://${{ vars.EN_S3_BUCKET }} --delete
           aws s3 sync \
-            s3://${{ secrets.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
-            s3://${{ secrets.FR_S3_BUCKET }} --delete
+            s3://${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/$DEPLOYMENT_SHA \
+            s3://${{ vars.FR_S3_BUCKET }} --delete
           
       - name: Invalidate EN/FR Cloudfront caches
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.EN_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/en/*" "/en/index.html"
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.FR_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/fr/*" "/fr/index.html"
+          aws cloudfront create-invalidation --distribution-id ${{ vars.EN_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/en/*" "/en/index.html"
+          aws cloudfront create-invalidation --distribution-id ${{ vars.FR_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*" "/fr/*" "/fr/index.html"
