@@ -2,9 +2,18 @@
     display="full" 
     contextual-heading="GC Sign in" 
     contextual-links='{ 
-    "GC Sign in Users": "{{ links.users }}", 
-    "About GC Sign in": "{{ links.aboutgcsignin }}", 
-    "Contact us": "{{ links.contact }}" 
+    {% if page.url == "/en/" %}
+        "GC Sign in Users": "{{ links.users }}",
+        "GC Sign in Partners": "{{ links.partners }}"
+    {% elif page.url | startsWith("/en/users/") %}
+        "GC Sign in Users": "{{ links.users }}",
+        "About GC Sign in": "{{ links.aboutgcsignin }}", 
+        "Contact us": "{{ links.contact }}"     
+    {% else %}
+        "GC Sign in Partners": "{{ links.partners }}",
+        "About GC Sign in": "{{ links.aboutgcsignin }}", 
+        "Contact us": "{{ links.contact }}"
+    {% endif %} 
     }'
 sub-links='{ 
     "About Canada.ca": "{{ links.aboutcanadaca }}", 
