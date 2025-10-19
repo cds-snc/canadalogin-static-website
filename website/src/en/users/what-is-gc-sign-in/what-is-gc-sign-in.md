@@ -1,5 +1,5 @@
 ---
-title: About
+title: What is GC Sign in
 translationKey: aboutus
 layout: 'layouts/base.njk'
 eleventyNavigation:
@@ -9,6 +9,7 @@ eleventyNavigation:
   parent: usersEn
   order: 4
   hideMain: false
+  date: 'Last Modified'
 ---
 
 # What is GC Sign in?
@@ -17,11 +18,11 @@ eleventyNavigation:
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
-    <p>GC Sign in is a secure and easy way to sign in to Government of Canada programs and services online using just one account. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p> 
-    <p>GC Sign in is a secure and easy way to sign in to Government of Canada programs and services online using <strong>just one account</strong>. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p>
+    <p>GC Sign in is a secure and easy way to sign in to Government of Canada programs and services online using <strong>just one account</strong>. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p> 
+    <p>Our goal is to make signing-in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</p>
   </div>
   <div>
-    <img src="/assets/images/common/users/about/users_about_gc_signin.svg" alt="An illustration depicting a laptop and mobile showing GC sign in a secure way to access Canadian government services.">
+    <img src="/assets/images/common/users/about/users_about_gc_signin.svg" alt="">
   </div>
 </gcds-grid>
 
