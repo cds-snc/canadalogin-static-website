@@ -13,11 +13,11 @@ eleventyNavigation:
 
 # GC Sign in Roadmap
 
-Below is the planned schedule for providing features and achieving milestones for the GC Sign in product, organized by fiscal quarter. Please note that due to GC Sign in’s iterative design, this roadmap is subject to change.
+Below is the planned timeline for providing features and achieving milestones for the GC Sign in product, organized by fiscal quarter. Please note that due to GC Sign in’s iterative design, this roadmap is subject to change.
 
 ## What we're working on now
 
-### Preparing for pilot
+### Initial release
 
 <table>
   <thead>
@@ -60,7 +60,7 @@ Below is the planned schedule for providing features and achieving milestones fo
 <table>
   <thead>
     <tr>
-      <th style="padding-top: 20px;">Services that are eligible to onboard</th>
+      <th style="padding-top: 40px;">Services that are eligible to onboard</th>
     </tr>
   </thead>
   <tbody>
@@ -101,7 +101,7 @@ Below is the planned schedule for providing features and achieving milestones fo
   <table>
     <thead>
       <tr>
-        <th>Services that can onboard</th>
+        <th style="padding-top: 20px;">Services that can onboard</th>
       </tr>
     </thead>
     <tbody>
@@ -139,7 +139,7 @@ Below is the planned schedule for providing features and achieving milestones fo
   <table>
     <thead>
       <tr>
-        <th>Services that can onboard</th>
+        <th style="padding-top: 20px;">Services that can onboard</th>
       </tr>
     </thead>
     <tbody>
@@ -157,9 +157,10 @@ Below is the planned schedule for providing features and achieving milestones fo
 </gcds-details>
 
 ## Want to learn more?
-Contact us to learn more about GC Sign in and how it could meet your service's needs.
+
+<gcds-text>Contact us to learn more about GC Sign in and how it could meet your service's needs.</gcds-text>
 
 <gcds-button value="Contact us">
-  Contact us <gcds-icon name="chevron-right">
+  Contact us&nbsp;<gcds-icon name="chevron-right">
   </gcds-icon>
 </gcds-button>
