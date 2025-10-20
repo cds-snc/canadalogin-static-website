@@ -56,27 +56,15 @@
 
       {% block content %}{{ content | safe }}{% endblock %}
 
+      <gcds-date-modified>
+        {{ page.date | dateLastModified }}
+      </gcds-date-modified>
+      
     </main>
 
-    <gcds-footer 
-      display="full" 
-      contextual-heading="GC Sign in" 
-      contextual-links='{ 
-        "GC Sign in Users": "https://sign-in.canada.ca/users/", 
-        "About GC Sign in": "https://sign-in.canada.ca/about-gc-signin/", 
-        "Contact us": "https://sign-in.canada.ca/contact/" 
-      }'
-    sub-links='{ 
-      "About Canada.ca": "#", 
-      "Terms and conditions": "#", 
-      "Privacy": "#" 
-    }'>
-    </gcds-footer>
+    {% include "partials/footer.njk" %}
 
   </div>
-
-<!-- <div class="footer-wrapper">
-    </div> -->
 
   {% initClipboardJS %}
 </body>
