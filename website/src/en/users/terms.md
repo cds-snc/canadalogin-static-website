@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: usersEn
   locale: en
   order: 4
-  hideMain: false
+  hideMain: true
 ---
 
 # Terms and Privacy
