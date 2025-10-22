@@ -38,7 +38,7 @@ hero:
   </li>
 </gcds-grid>
 
-<gcds-button value="Learn more">
+<gcds-button type="link" value="Learn more" href="about-gc-sign-in">
   Learn about GC Sign in&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 
@@ -66,7 +66,7 @@ hero:
   </div>
 </gcds-grid>
 
-<gcds-button button-role="secondary" value="GC Sign in Roadmap">
+<gcds-button type="link" button-role="secondary" value="GC Sign in Roadmap" href="roadmap">
   GC Sign in Roadmap
 </gcds-button>
 
@@ -91,7 +91,7 @@ hero:
       Connect with us to help your team evaluate readiness and transition strategies or answer any questions you may have.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="/en/contact-us">Technical resources</gcds-link>
+      <gcds-link href="/en/contact-us">Contact us</gcds-link>
     </gcds-text>    
   </div>
   <div>
@@ -103,7 +103,7 @@ hero:
       Find general information for the OpenID Connect protocol, including implementation information, sequence diagrams and relying party integration configurations in the help topics found on the resources page.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="/en/resources">Technical resources</gcds-link>
+      <gcds-text text-role="secondary">Coming soon</gcds-text>
     </gcds-text>
   </div>
 </gcds-grid>
@@ -114,6 +114,6 @@ hero:
   If you'd like to receive updates, sign up for our GC Sign in mailing list.
 </gcds-text>
 
-<gcds-button button-role="secondary" value="GC Sign in Roadmap">
+<gcds-button type="link" button-role="secondary" value="GC Sign in Roadmap">
   Sign up for communications&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
