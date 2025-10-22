@@ -38,8 +38,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment: [dev, test]
-    
+        environment: [dev, test, staging, production]
+        exclude:
+          - environment: staging    # Remove me to deploy to staging.
+          - environment: production # Remove me to deploy to production.
     environment: ${{ matrix.environment }}
     steps:
       - name: Checkout repository
@@ -75,7 +77,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment: [dev, test]
+        environment: [dev, test, staging, production]
+        exclude:
+          - environment: staging       # Remove me to deploy to staging.
+          - environment: production    # Remove me to deploy to production.
     environment: ${{ matrix.environment }}
     steps:
       - run: echo "Deploying static website to ${{ matrix.environment }} environment..."
