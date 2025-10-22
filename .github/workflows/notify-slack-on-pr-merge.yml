@@ -39,4 +39,4 @@ jobs:
                 }
               ]
             }')
-          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.GC_SIGNIN_OPS_SLACK_INFO_WEBHOOK }}
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.GC_SIGNIN_WEBSITE_OPS_SLACK_INFO_WEBHOOK }}
