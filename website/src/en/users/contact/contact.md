@@ -14,7 +14,7 @@ eleventyNavigation:
 ---
 
 
-# What is GC Sign in?
+# Contact us
 
 ## Before you contact us
 

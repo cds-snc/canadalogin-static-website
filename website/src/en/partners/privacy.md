@@ -1,5 +1,5 @@
 ---
-title: Privacy
+title: Privacy notice statement
 translationKey: privacynoticepartners
 layout: 'layouts/base.njk'
 eleventyNavigation:
