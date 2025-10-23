@@ -40,7 +40,6 @@ jobs:
       matrix:
         environment: [dev, test, staging, production]
         exclude:
-          - environment: staging    # Remove me to deploy to staging.
           - environment: production # Remove me to deploy to production.
     environment: ${{ matrix.environment }}
     steps:
@@ -79,7 +78,6 @@ jobs:
       matrix:
         environment: [dev, test, staging, production]
         exclude:
-          - environment: staging       # Remove me to deploy to staging.
           - environment: production    # Remove me to deploy to production.
     environment: ${{ matrix.environment }}
     steps:
