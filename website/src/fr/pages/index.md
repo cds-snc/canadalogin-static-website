@@ -1,9 +1,8 @@
 ---
 title: Welcome to GC Sign in
 layout: 'layouts/home.njk'
-permalink: /en/
+permalink: /fr/
 translationKey: 'index'
-redirect_from: /
 eleventyNavigation:
   key: home
   title: Home
