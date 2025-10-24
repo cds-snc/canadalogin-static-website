@@ -55,7 +55,7 @@ To change your preference for which official language GC Sign in and connected p
 7. Update your language preference with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your language preference here only updates it with programs/services that are connected to your GC Sign in">
-  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your language preference there as well. For a list of programs/services that currently use GC Sign in, navigate to our {% linkRef links.availableservices '' 'available services' %} page. To search for another GC Account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account directory</a>.</gcds-text>
+  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your language preference there as well. For a list of programs/services that currently use GC Sign in, navigate to our available services page. To search for another GC Account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account directory</a>.</gcds-text>
 </gcds-notice>
 
 **Note that all communications from GC Sign in are sent in a bilingual format.**

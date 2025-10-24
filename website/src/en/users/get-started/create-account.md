@@ -37,7 +37,7 @@ When you are ready to create your GC Sign in account, you’ll need to complete 
 If you are already on a service that’s asking you to use GC Sign in, you can skip this step.
 
 Otherwise, to create a GC Sign in account:
-1. Go to one of our {% link '#' 'active' %} services and select “Sign in with GC Sign in”. You will be redirected to the sign in page. 
+1. Go to one of our active services and select “Sign in with GC Sign in”. You will be redirected to the sign in page. 
 2. Navigate to the bottom of this page, and select “Sign up”. 
 3. Follow the steps below to create a GC Sign in account.
 
@@ -52,7 +52,7 @@ Enter your name. If you only have one name, enter it into the last name field.
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
-    <li><gcds-link href="#"> Problems with creating a profile </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-profile/"> Problems with creating a profile </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -69,9 +69,9 @@ We recommend you choose an email address that you’ll always be able to access.
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
-    <li><gcds-link href="#"> Problems entering and verifying your email </gcds-text> </li>
-    <li><gcds-link href="#"> Forgot your password </gcds-text></li>
-    <li><gcds-link href="#"> Problems signing in with 2-step verification </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-enter-verify-email/"> Problems entering and verifying your email </gcds-link> </li>
+    <li><gcds-link href="/en/users/trouble-signing-in/forgot-your-password/"> Forgot your password </gcds-link></li>
+    <li><gcds-link href="/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/"> Problems signing in with 2-step verification </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -98,7 +98,7 @@ Avoid easy-to-guess passwords like ones that use:
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
-    <li><gcds-link href="#"> Problems creating a password </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problems creating a password </gcds-text>
     </li>
   </ul>
 </gcds-notice>
@@ -124,9 +124,9 @@ To set up 2-step verification, follow these steps:
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
-    <li><gcds-link href="#"> Problems setting up 2-step verification </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/"> Problems setting up 2-step verification </gcds-link>
     </li>
-    <li><gcds-link href="#"> Supported international phone numbers </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Supported international phone numbers </gcds-text>
     </li>
   </ul>
 </gcds-notice>
