@@ -4,7 +4,7 @@ module.exports = {
     placeholder: 'Canada.ca'
   },
   fr: {
-    action: '/fr/recherche',
-    placeholder: 'Système de design GC'
+    action: 'https://www.canada.ca/fr/sr/srb.html',
+    placeholder: 'Canada.ca'
   },
 };

@@ -5,7 +5,7 @@ module.exports = {
     breadcrumb: 'breadcrumb',
   },
   fr: {
-    linkText: 'Système de design GC',
+    linkText: 'Connexion GC',
     url: '/fr',
     breadcrumb: "Fil d'Ariane",
   },
