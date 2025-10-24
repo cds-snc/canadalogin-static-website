@@ -1,25 +1,25 @@
 ---
-title: Services disponibles
+title: Available services
 translationKey: availableservices
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: availableservicesFR
-  title: Services disponibles
-  locale: fr
+  key: availableservicesEN
+  title: Available services
+  locale: en
   order: 5
   hideMain: true
 ---
 
-# Services disponibles
+# Available services
 
-Actuellement, vous pouvez utiliser Connexion GC pour accéder aux programmes et services suivants :
+Currently you can use GC Sign in to access the following programs/services:
 
-<gcds-card 
-  card-title="Visionneuse de données géospatiales GEO.ca" 
-  href="https://app.geo.ca" 
-  description="GEO.ca (Ressources naturelles Canada) est la source officielle d'information géospatiale ouverte au Canada."
+<gcds-card
+  card-title="GEO.ca Geospatial Data Viewer"
+  href="https://app.geo.ca"
+  description="GEO.ca (Natural Resources Canada) is the definitive source for Canada’s open geospatial information."
   img-src="https://geo.ca/wp-content/uploads/2023/02/geo-ca-logo.svg"
 >
 </gcds-card>
 
-À l'heure actuelle, il faut posséder des comptes distincts pour les nombreux programmes et services du gouvernement du Canada. Si ce n'est pas le programme ou service que vous recherchez, utilisez le <a href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du GC</a> pour trouver la page de connexion ou d'inscription pour le compte ou service dont vous avez besoin.
+At the moment, there are separate accounts for the many programs/services across the Government of Canada. If this isn't the program/service you are looking for, use the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account Directory</a> to find the sign-in/registration page for the account or service that you need.
