@@ -16,7 +16,7 @@ hero:
   altText: An illustration depicting a person looking at their GC Sign in profile with icons depicting a key and a check mark.
 ---
 
-<gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
+<gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
     Help and support
 </gcds-heading>
 
