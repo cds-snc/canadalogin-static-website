@@ -3,11 +3,11 @@ title: Change your email address
 translationKey: changeyouremailaddressFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: changeYourEmailAddressEn
+  key: changeYourEmailAddressFR
   title: Change your email address
   locale: fr
   order: 2
-  parent: manageYourAccountEn
+  parent: manageYourAccountFR
   hideMain: true
 ---
 

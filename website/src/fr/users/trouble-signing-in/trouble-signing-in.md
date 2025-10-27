@@ -3,7 +3,7 @@ title: Trouble signing in
 translationKey: troublesigninginFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: troubleSigningInEn
+  key: troubleSigningInFR
   title: Trouble signing in
   locale: fr
   order: 3

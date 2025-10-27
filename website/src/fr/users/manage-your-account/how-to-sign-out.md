@@ -3,11 +3,11 @@ title: How to sign out
 translationKey: howtosignoutFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: howToSignOutEn
+  key: howToSignOutFR
   title: How to sign out
   locale: fr
   order: 7
-  parent: manageYourAccountEn
+  parent: manageYourAccountFR
   hideMain: true
 ---
 

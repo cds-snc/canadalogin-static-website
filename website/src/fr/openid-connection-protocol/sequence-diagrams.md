@@ -3,11 +3,11 @@ title: Sequence diagrams
 translationKey: sequencediagramsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: sequenceiDiagramsEn
+  key: sequenceiDiagramsFR
   title: Sequence diagrams
   locale: fr
   order: 2
-  parent: openidConnectionProtocolEn
+  parent: openidConnectionProtocolFR
 ---
 
 # Sequence diagrams 

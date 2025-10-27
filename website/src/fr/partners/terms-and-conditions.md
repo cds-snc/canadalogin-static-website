@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: termsAndConditionsPartnersEN
   title: Terms and Conditions
-  parent: partnersEn
+  parent: partnersFR
   locale: fr
   order: 1
   hideMain: true

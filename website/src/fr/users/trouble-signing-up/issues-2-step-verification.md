@@ -3,11 +3,11 @@ title: Issues with setting up 2-step verification
 translationKey: issuesSettingUp2FaFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-   key: issuesSettingUp2FaEn
+   key: issuesSettingUp2FaFR
    title: 2-step verification
    locale: fr
    order: 2
-   parent: troubleSigningUpEn
+   parent: troubleSigningUpFR
    hideMain: true
 ---
 

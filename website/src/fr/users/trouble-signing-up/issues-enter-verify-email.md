@@ -3,11 +3,11 @@ title: Issues with entering and verifying your email
 translationKey: issuesWithEmailFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-   key: issuesWithEmailEn
+   key: issuesWithEmailFR
    title: Issues with entering and verifying your email
    locale: fr
    order: 2
-   parent: troubleSigningUpEn
+   parent: troubleSigningUpFR
    hideMain: true
 ---
 

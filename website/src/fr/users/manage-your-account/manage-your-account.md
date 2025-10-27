@@ -3,7 +3,7 @@ title: Manage your account
 translationKey: manageyouraccountFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: manageYourAccountEn
+  key: manageYourAccountFR
   title: Manage your account
   locale: fr
   order: 4

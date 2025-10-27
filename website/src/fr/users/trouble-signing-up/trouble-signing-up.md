@@ -3,7 +3,7 @@ title: Trouble signing up here
 translationKey: troublesigningupFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: troubleSigningUpEn
+  key: troubleSigningUpFR
   title: Trouble signing up
   locale: fr
   order: 2

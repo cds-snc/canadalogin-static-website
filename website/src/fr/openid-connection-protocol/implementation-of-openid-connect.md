@@ -3,11 +3,11 @@ title: Implementation of OpenID Connect
 translationKey: implementationofopenidconnectFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: implementationOfPpenIdConnectEn
+  key: implementationOfPpenIdConnectFR
   title: Implementation of OpenID Connect
   locale: fr
   order: 1
-  parent: openidConnectionProtocolEn
+  parent: openidConnectionProtocolFR
 ---
 
 # GC Sign-in Implementation of OpenID Connect

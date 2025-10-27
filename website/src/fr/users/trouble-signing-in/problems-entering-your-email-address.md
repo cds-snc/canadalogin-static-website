@@ -3,10 +3,10 @@ title: Problems entering your email address
 translationKey: problemsenteringyouremailaddressFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: problemsEnteringYourEmailAddressEn
+  key: problemsEnteringYourEmailAddressFR
   title: Problems entering your email address
   locale: fr
-  parent: troubleSigningInEn
+  parent: troubleSigningInFR
   order: 2
 ---
 

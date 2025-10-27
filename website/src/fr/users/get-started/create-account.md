@@ -3,11 +3,11 @@ title: How to create a GC Sign in account
 translationKey: createAccountFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: createAccountEn
+  key: createAccountFR
   title: How to create a GC Sign in account
   locale: fr
   order: 2
-  parent: getStartedEn
+  parent: getStartedFR
   hideMain: true
 ---
 

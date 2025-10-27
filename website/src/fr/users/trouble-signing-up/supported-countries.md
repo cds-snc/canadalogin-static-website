@@ -3,11 +3,11 @@ title: Supported international phone numbers
 translationKey: supportedPhoneNumbersFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: supportedPhoneNumbersEn
+  key: supportedPhoneNumbersFR
   title: Supported international phone numbers
   locale: fr
   order: 2
-  parent: issuesSettingUp2FaEn
+  parent: issuesSettingUp2FaFR
   hideMain: true
 countries1:
   - Argentina

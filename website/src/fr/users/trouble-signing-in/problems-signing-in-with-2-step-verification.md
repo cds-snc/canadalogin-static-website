@@ -3,10 +3,10 @@ title: Problems signing in with 2-step verification
 translationKey: problemssigninginwith2stepverificationFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: problemsSigningInWith2StepVerificationEn
+  key: problemsSigningInWith2StepVerificationFR
   title: Problems signing in with 2-step verification
   locale: fr
-  parent: troubleSigningInEn
+  parent: troubleSigningInFR
   order: 4
 ---
 

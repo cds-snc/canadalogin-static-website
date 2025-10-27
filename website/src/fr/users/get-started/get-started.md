@@ -3,7 +3,7 @@ title: Get started with GC Sign in
 translationKey: getstartedFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: getStartedEn
+  key: getStartedFR
   title: Get started with GC Sign in
   locale: fr
   hideMain: true

@@ -3,11 +3,11 @@ title: Manage how you sign in
 translationKey: managehowyousigninFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: manageHowYouSignInEn
+  key: manageHowYouSignInFR
   title: Manage how you sign in
   locale: fr
   order: 3
-  parent: manageYourAccountEn
+  parent: manageYourAccountFR
   hideMain: true
 ---
 

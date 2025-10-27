@@ -3,11 +3,11 @@ title: What is 2-step verification?
 translationKey: twostepverificationmethodsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: twoStepVerificationMethodsEn
+  key: twoStepVerificationMethodsFR
   title: What is 2-step verification?
   locale: fr
   order: 2
-  parent: getStartedEn
+  parent: getStartedFR
   hideMain: true
 ---
 

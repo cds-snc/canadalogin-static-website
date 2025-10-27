@@ -3,11 +3,11 @@ title: Access your settings
 translationKey: accessyoursettingsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: accessYourSettingsEn
+  key: accessYourSettingsFR
   title: Access your settings
   locale: fr
   order: 1
-  parent: manageYourAccountEn
+  parent: manageYourAccountFR
   hideMain: true
 ---
 

@@ -3,7 +3,7 @@ title: OpenID Connect protocol
 translationKey: openidconnectionprotocolFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: openidConnectionProtocolEn
+  key: openidConnectionProtocolFR
   title: OpenID Connect protocol
   locale: fr
   order: 4

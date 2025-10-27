@@ -3,11 +3,11 @@ title: How to keep your account secure
 translationKey: howtokeepyouraccountsecureFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: howToKeepYourAccountSecureEn
+  key: howToKeepYourAccountSecureFR
   title: How to keep your account secure
   locale: fr
   order: 5
-  parent: manageYourAccountEn
+  parent: manageYourAccountFR
   hideMain: true
 ---
 

@@ -3,10 +3,10 @@ title: I forgot my password
 translationKey: forgotpasswordFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: forgotPasswordEn
+  key: forgotPasswordFR
   title: I forgot my password
   locale: fr
-  parent: troubleSigningInEn
+  parent: troubleSigningInFR
   order: 1
 ---
 

@@ -3,11 +3,11 @@ title: Integrating your Relying Party
 translationKey: integrateyourrelyingpartyFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: integrateYourRelyingPartyEn
+  key: integrateYourRelyingPartyFR
   title: Integrating your Relying Party
   locale: fr
   order: 3
-  parent: openidConnectionProtocolEn
+  parent: openidConnectionProtocolFR
 ---
 
 # Integrating your Relying Party

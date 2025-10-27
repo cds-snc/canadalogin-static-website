@@ -3,11 +3,11 @@ title: Manage your personal information
 translationKey: manageyourpersonalinformationFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: manageYourPersonalInformationEn
+  key: manageYourPersonalInformationFR
   title: Manage your personal information
   locale: fr
   order: 4
-  parent: manageYourAccountEn
+  parent: manageYourAccountFR
   hideMain: true
 ---
 
