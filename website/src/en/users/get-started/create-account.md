@@ -98,7 +98,7 @@ Avoid easy-to-guess passwords like ones that use:
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problems creating a password </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problems creating a password </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -126,7 +126,7 @@ To set up 2-step verification, follow these steps:
   <ul>
     <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/"> Problems setting up 2-step verification </gcds-link>
     </li>
-    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Supported international phone numbers </gcds-text>
+    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Supported international phone numbers </gcds-link>
     </li>
   </ul>
 </gcds-notice>
