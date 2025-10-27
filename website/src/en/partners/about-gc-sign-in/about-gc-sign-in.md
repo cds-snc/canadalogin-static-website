@@ -70,21 +70,13 @@ GC sign in will eventually support other multi-factor authentication options inc
   </div>
 </gcds-grid>
 
-## What’s coming next
+## What’s coming in the future
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
   <div>
-    <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Credential assurance level 3
-    </gcds-text>
-    <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Identity assurance level 2
-    </gcds-text>
-    <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Access management
-    </gcds-text>
-    <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Enhanced fraud management
+    <li> Credential assurance level 3</li>
+    <li> Identity assurance level 2</li>
+    <li> Enhanced fraud management</li>
     </gcds-text>
   </div>
   <div>
