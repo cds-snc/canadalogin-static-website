@@ -6,7 +6,7 @@ eleventyNavigation:
   key: termsAndConditionsPartnersEN
   title: Terms and Conditions
   parent: partnersEn
-  locale: en
+  locale: fr
   order: 1
   hideMain: true
 ---

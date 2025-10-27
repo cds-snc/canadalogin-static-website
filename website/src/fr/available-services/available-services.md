@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: availableservicesEN
   title: Available services
-  locale: en
+  locale: fr
   order: 5
   hideMain: true
 ---

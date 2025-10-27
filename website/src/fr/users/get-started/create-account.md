@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: createAccountEn
   title: How to create a GC Sign in account
-  locale: en
+  locale: fr
   order: 2
   parent: getStartedEn
   hideMain: true

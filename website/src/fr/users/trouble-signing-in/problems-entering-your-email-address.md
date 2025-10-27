@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: problemsEnteringYourEmailAddressEn
   title: Problems entering your email address
-  locale: en
+  locale: fr
   parent: troubleSigningInEn
   order: 2
 ---

@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: integrateYourRelyingPartyEn
   title: Integrating your Relying Party
-  locale: en
+  locale: fr
   order: 3
   parent: openidConnectionProtocolEn
 ---

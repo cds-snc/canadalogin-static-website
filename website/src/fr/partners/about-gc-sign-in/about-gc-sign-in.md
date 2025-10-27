@@ -5,8 +5,8 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: aboutgcsigninEN
   title: About
-  parent: partnersEn
-  locale: en
+  parent: partnersFR
+  locale: fr
   order: 1
   hideMain: false
 ---

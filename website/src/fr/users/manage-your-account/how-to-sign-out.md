@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: howToSignOutEn
   title: How to sign out
-  locale: en
+  locale: fr
   order: 7
   parent: manageYourAccountEn
   hideMain: true

@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: getStartedEn
   title: Get started with GC Sign in
-  locale: en
+  locale: fr
   hideMain: true
 ---
 

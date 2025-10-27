@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: forgotPasswordEn
   title: I forgot my password
-  locale: en
+  locale: fr
   parent: troubleSigningInEn
   order: 1
 ---

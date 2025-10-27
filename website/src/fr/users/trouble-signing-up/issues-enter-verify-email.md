@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
    key: issuesWithEmailEn
    title: Issues with entering and verifying your email
-   locale: en
+   locale: fr
    order: 2
    parent: troubleSigningUpEn
    hideMain: true

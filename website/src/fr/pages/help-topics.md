@@ -1,18 +1,18 @@
 ---
 title: Help Topics
-translationKey: helptopicsFR
+translationKey: helpTopicsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: helpTopicsEn
+  key: helpTopicsFR
   title: Help Topics
-  parent: usersEn
+  parent: usersFR
   group: [ {title: 'Get started', url: 'users/get-started'},
            {title: 'Trouble signing up', url: 'users/trouble-signing-up'},
            {title: 'Trouble signing in', url: 'users/trouble-signing-in'},
            {title: 'Managing your account', url: 'users/manage-your-account'}]
-  locale: en
+  locale: fr
   order: 1
-  hideMain: false
+  hideMain: true
 ---
 
 # Help Topics

@@ -3,11 +3,11 @@ title: Issues with creating a profile
 translationKey: creatingprofileFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: creatingProfileEn
+  key: creatingProfileFR
   title: Issues with creating a profile
-  locale: en
+  locale: fr
   order: 2
-  parent: troubleSigningUpEn
+  parent: troubleSigningUpFR
   hideMain: true
 ---
 

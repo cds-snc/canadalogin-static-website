@@ -3,9 +3,9 @@ title: Departments and agencies
 translationKey: departmentsAgenciesFR
 layout: 'layouts/home.njk'
 eleventyNavigation:
-  key: partnersEn
+  key: partnersFR
   title: Become a partner
-  locale: en
+  locale: fr
   parent: homeFR
   order: 3
   hideMain: false

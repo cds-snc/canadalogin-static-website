@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: openidConnectionProtocolEn
   title: OpenID Connect protocol
-  locale: en
+  locale: fr
   order: 4
   hideMain: true
 ---

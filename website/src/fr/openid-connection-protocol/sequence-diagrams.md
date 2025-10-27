@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: sequenceiDiagramsEn
   title: Sequence diagrams
-  locale: en
+  locale: fr
   order: 2
   parent: openidConnectionProtocolEn
 ---

@@ -6,7 +6,7 @@ eleventyNavigation:
   key: privacyNoticePartnersEN
   title: Privacy Notice
   parent: partnersEn
-  locale: en
+  locale: fr
   order: 4
   hideMain: true
 ---

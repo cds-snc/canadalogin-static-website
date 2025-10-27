@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: supportedPhoneNumbersEn
   title: Supported international phone numbers
-  locale: en
+  locale: fr
   order: 2
   parent: issuesSettingUp2FaEn
   hideMain: true

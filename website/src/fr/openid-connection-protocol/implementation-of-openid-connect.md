@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: implementationOfPpenIdConnectEn
   title: Implementation of OpenID Connect
-  locale: en
+  locale: fr
   order: 1
   parent: openidConnectionProtocolEn
 ---

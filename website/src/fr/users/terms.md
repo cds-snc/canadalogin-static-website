@@ -6,7 +6,7 @@ eleventyNavigation:
   key: termsAndPrivacyUsersEN
   title: Terms
   parent: usersEn
-  locale: en
+  locale: fr
   order: 4
   hideMain: true
 ---

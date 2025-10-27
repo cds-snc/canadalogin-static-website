@@ -5,7 +5,7 @@ layout: 'layouts/home.njk'
 eleventyNavigation:
   key: usersFR
   title: Get user help
-  locale: en
+  locale: fr
   parent: homeFR
   order: 1
   hideMain: false

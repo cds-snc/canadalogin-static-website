@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
    key: issuesSettingUp2FaEn
    title: 2-step verification
-   locale: en
+   locale: fr
    order: 2
    parent: troubleSigningUpEn
    hideMain: true

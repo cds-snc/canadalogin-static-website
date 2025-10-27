@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: howToKeepYourAccountSecureEn
   title: How to keep your account secure
-  locale: en
+  locale: fr
   order: 5
   parent: manageYourAccountEn
   hideMain: true

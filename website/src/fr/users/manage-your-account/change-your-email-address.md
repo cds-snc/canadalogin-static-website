@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: changeYourEmailAddressEn
   title: Change your email address
-  locale: en
+  locale: fr
   order: 2
   parent: manageYourAccountEn
   hideMain: true

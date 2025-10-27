@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: whatToDoWhenYouFindSuspiciousActivityEn
   title: What to do when you find suspicious activity
-  locale: en
+  locale: fr
   order: 6
   parent: manageYourAccountEn
   hideMain: true

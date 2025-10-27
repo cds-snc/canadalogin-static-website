@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: manageYourAccountEn
   title: Manage your account
-  locale: en
+  locale: fr
   order: 4
   hideMain: true
 ---

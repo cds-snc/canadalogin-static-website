@@ -3,10 +3,10 @@ title: What is GC Sign in
 translationKey: aboutusFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: aboutusEN
+  key: aboutusFR
   title: About
-  locale: en
-  parent: usersEn
+  locale: fr
+  parent: usersFR
   order: 4
   hideMain: false
   date: 'Last Modified'

@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: accessibilityEN
   title: Accessibility
-  locale: en
+  locale: fr
   order: 4
   hideMain: true
 nocrawl: true

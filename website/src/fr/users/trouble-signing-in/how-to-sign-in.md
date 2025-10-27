@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: howToSignInEn
   title: How to sign in to GC Sign in
-  locale: en
+  locale: fr
   parent: troubleSigningInEn
   order: 1
 ---

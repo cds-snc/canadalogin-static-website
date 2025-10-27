@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: problemsSigningInWith2StepVerificationEn
   title: Problems signing in with 2-step verification
-  locale: en
+  locale: fr
   parent: troubleSigningInEn
   order: 4
 ---

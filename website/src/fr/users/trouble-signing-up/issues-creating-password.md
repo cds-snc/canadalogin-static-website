@@ -3,11 +3,11 @@ title: Issues creating a password
 translationKey: issuesPasswordFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-   key: issuesPasswordEn
+   key: issuesPasswordFR
    title: Issues creating a password
-   locale: en
+   locale: fr
    order: 2
-   parent: troubleSigningUpEn
+   parent: troubleSigningUpFR
    hideMain: true
 ---
 

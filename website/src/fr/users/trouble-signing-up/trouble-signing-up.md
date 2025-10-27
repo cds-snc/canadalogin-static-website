@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: troubleSigningUpEn
   title: Trouble signing up
-  locale: en
+  locale: fr
   order: 2
   hideMain: true
 ---

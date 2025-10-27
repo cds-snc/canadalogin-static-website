@@ -5,8 +5,8 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: signinroadmapEN
   title: Roadmap
-  locale: en
-  parent: partnersEn
+  locale: fr
+  parent: partnersFR
   order: 2
   hideMain: false
 ---
