@@ -16,7 +16,7 @@ hero:
   altText:
 ---
 
-<gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
+<gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
   What is GC Sign in
 </gcds-heading>
 
