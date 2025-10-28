@@ -79,9 +79,9 @@ GC sign in will eventually support other multi-factor authentication options inc
       <li> Identity assurance level 2</li>
       <li> Enhanced fraud management</li>
     </ul>
-  <gcds-button type="link" button-role="secondary" value="View the roadmap" href="/en/partners/roadmap">
-    View the roadmap
-  </gcds-button>
+    <gcds-button type="link" button-role="secondary" value="View the roadmap" href="/en/partners/roadmap">
+      View the roadmap
+    </gcds-button>
   </gcds-text>
   <div>
     <img class="mb-150" src="/assets/images/common/partners/about/partners_about_authentication.svg" alt="">
