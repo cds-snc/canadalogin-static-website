@@ -1,23 +1,46 @@
 <gcds-footer 
     display="full" 
-    contextual-heading="GC Sign in" 
+    lang="{{locale}}"
+    contextual-heading="{{ footer[locale].contextual.heading }}"
     contextual-links='{ 
-    {% if page.url == "/en/" %}
-        "GC Sign in Users": "{{ links.users }}",
-        "GC Sign in Partners": "{{ links.partners }}"
-    {% elif page.url | startsWith("/en/users/") %}
-        "GC Sign in Users": "{{ links.users }}",
-        "About GC Sign in": "{{ links.aboutgcsignin }}", 
-        "Contact us": "{{ links.contact }}"     
+    {# ------ Landing Page ------- #}    
+    {% if page.url == "/en/" or page.url == "/fr/" %}
+        {% if locale == "en" %}
+            "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
+            "GC Sign in Partners": "{{ footer[locale].contextual.partnerUrl }}"
+        {% else %}
+            "Aide à l’utilisation de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
+            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnerUrl }}"
+        {% endif %}
+
+    {# ------ Users Page ------- #}    
+    {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/users/")%}
+        {% if locale == "en" %}
+            "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
+            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
+            "Terms": "{{ footer[locale].contextual.termsUrl }}"     
+        {% else %}
+            "Aide à l’utilisation de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
+            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUrl }}",
+            "Avis": "{{ footer[locale].contextual.termsUrl }}"    
+        {% endif %}
+
+    {# ------ Partners Page ------- #}    
     {% else %}
-        "GC Sign in Partners": "{{ links.partners }}",
-        "About GC Sign in": "{{ links.aboutgcsignin }}", 
-        "Contact us": "{{ links.contact }}"
-    {% endif %} 
+        {% if locale == "en" %}
+            "GC Sign in Partners": "{{ footer[locale].contextual.partnerUrl }}",
+            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
+            "Terms and Conditions": "{{ footer[locale].contextual.termsPartnersUrl }}"
+        {% else %}
+            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnerUrl }}"
+            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
+            "Avis": "{{ footer[locale].contextual.termsPartnersUrl }}"
+        {% endif %} 
+    {% endif %}
     }'
 sub-links='{ 
-    "About Canada.ca": "{{ links.aboutcanadaca }}", 
-    "Terms and conditions": "{{ links.termsandconditionspartners }}", 
-    "Privacy": "{{ links.termsandprivacyusers }}" 
+    "{{ footer[locale].sub.about }}": "{{ footer[locale].sub.aboutUrl }}", 
+    "{{ footer[locale].sub.terms }}": "{{ footer[locale].sub.termsUrl }}",
+    "{{ footer[locale].sub.privacy }}": "{{ footer[locale].sub.privacyUrl  }}"
 }'>
 </gcds-footer>

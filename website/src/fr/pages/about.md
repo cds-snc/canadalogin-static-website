@@ -1,15 +1,18 @@
 ---
-title: À propos de Connexion GC
-translationKey: aboutTopics
+title: About GC Sign in
+translationKey: aboutTopicsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: aboutFr
-  title: À propos de Connexion GC
-  group: [ {title: 'À propos de Connexion GC', url: 'about-gc-sign-in'},
-           {title: 'Services disponibles', url: 'available-services'}]
+  key: aboutFR
+  parent: usersFR
+  title: About GC Sign in
+  group: [ {title: 'About GC Sign in', url: 'about-gc-sign-in'},
+           {title: 'Available services', url: 'available-services'}]
   locale: fr
   order: 3
-  hideMain: false
+  hideMain: true
 ---
 
-# À propos de Connexion GC
+# About GC Sign in
+
+

@@ -1,18 +1,20 @@
 ---
-title: Sujets d'aide
-translationKey: helptopics
+title: Help Topics
+translationKey: helpTopicsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: helpTopicsFr
-  title: Sujets d'aide
-  group: [ {title: "Aperçu de l'aide", url: ''},
-           {title: 'Se lancer', url: '/fr/get-started/'},
-           {title: "Problème lié à l'inscription", url: '/fr/trouble-signing-up/'},
-           {title: 'Problème lié à la connexion', url: '/fr/trouble-signing-in/'},
-           {title: 'Gestion de votre compte Connexion GC', url: '/fr/manage-your-account/'}]
+  key: helpTopicsFR
+  title: Help Topics
+  parent: usersFR
+  group: [ {title: 'Get started', url: 'users/get-started'},
+           {title: 'Trouble signing up', url: 'users/trouble-signing-up'},
+           {title: 'Trouble signing in', url: 'users/trouble-signing-in'},
+           {title: 'Managing your account', url: 'users/manage-your-account'}]
   locale: fr
   order: 1
-  hideMain: false
+  hideMain: true
 ---
 
-# Sujets d'aide
+# Help Topics
+
+
