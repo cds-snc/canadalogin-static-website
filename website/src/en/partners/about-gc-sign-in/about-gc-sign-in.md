@@ -73,20 +73,19 @@ GC sign in will eventually support other multi-factor authentication options inc
 ## What’s coming in the future
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
-<gcds-text>
-  <ul class="list-disc mb-300">
-    <li class="py-5"> Credential assurance level 3</li>
-    <li> Identity assurance level 2</li>
-    <li> Enhanced fraud management</li>
-  </ul>
+  <gcds-text>
+    <ul class="list-disc mb-300">
+      <li class="py-5"> Credential assurance level 3</li>
+      <li> Identity assurance level 2</li>
+      <li> Enhanced fraud management</li>
+    </ul>
   <gcds-button type="link" button-role="secondary" value="View the roadmap" href="/en/partners/roadmap">
-  View the roadmap
-</gcds-button>
-</gcds-text>
+    View the roadmap
+  </gcds-button>
+  </gcds-text>
   <div>
     <img class="mb-150" src="/assets/images/common/partners/about/partners_about_authentication.svg" alt="">
   </div>
-
 </gcds-grid>
 
 ## Technical specifications
