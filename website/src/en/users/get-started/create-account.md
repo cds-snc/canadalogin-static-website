@@ -81,6 +81,7 @@ We recommend you choose an email address that you’ll always be able to access.
 Passwords must be <strong>at least 12 characters</strong> and can be <strong>up to 65 characters</strong> long. 
 They should not be a commonly used password or phrase (e.g. “let me in” or “password”).
 
+
 #### How to make a strong password
 
 To help prevent your account and your personal information from being compromised, consider strengthening your password by using:

@@ -32,5 +32,5 @@ To change your email address, follow these steps:
 10. Update your email address with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h2" notice-title="Changing your email address here only updates it with programs/services that are connected to your GC Sign in">
-  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, GCKey, or another method), you will need to sign in to those programs/services and update your email address there as well. For a list of programs/services that currently use GC Sign in, navigate to our available services page. To search for another GC Account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account directory</a>.</gcds-text>
+  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, GCKey, or another method), you will need to sign in to those programs/services and update your email address there as well. To search for another GC Account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account directory</a>.</gcds-text>
 </gcds-notice>
