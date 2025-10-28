@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.0...v1.1.1) (2025-10-28)
+
+
+### Bug Fixes
+
+* **Partners:** Fix What's coming in the future section ([#308](https://github.com/cds-snc/gc-signin-static-website/issues/308)) ([0bcedab](https://github.com/cds-snc/gc-signin-static-website/commit/0bcedabeb889f76a95d2ab585cb4f96cb374b291))
+* **ux-cleanup:** Change some h1 headers to h2 headers and broken illustrations ([#309](https://github.com/cds-snc/gc-signin-static-website/issues/309)) ([b43519e](https://github.com/cds-snc/gc-signin-static-website/commit/b43519ea1ad4c8d737f9f410c2f43092f49e3b4d))
+
+
+### Code Refactoring
+
+* **FR:** Implement FR content parity (Part 1) ([#291](https://github.com/cds-snc/gc-signin-static-website/issues/291)) ([f05b833](https://github.com/cds-snc/gc-signin-static-website/commit/f05b8336987150889e2550d11d6f8fd26bdc2ab5))
+
 ## [1.1.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.0.1...v1.1.0) (2025-10-24)
 
 
