@@ -46,4 +46,5 @@ For issues setting up or using text message or phone verification, see our help 
 
 - {% link links.issuestwostepverification 'Problems with registering text message / phone call verification' %}
 - {% link '#' 'Problems with signing in with text message / phone call verification' %}
+- {% link links.problemssigninginwith2stepverification 'Problems with signing in with text message / phone call verification' %}
           
