@@ -1,11 +1,11 @@
 {
   "locale": "en",
   "links": {
-    "about": "/en/users/about-us/",
+    "whatisgcsignin": "/en/users/what-is-gc-sign-in/",
     "aboutcanadaca": "https://www.canada.ca/en/government/about.html",
     "aboutgcsignin": "/en/partners/about-gc-sign-in/",
     "accessyoursettings": "/en/users/manage-your-account/access-your-settings/",
-    "availableservices": "/en/available-services/",    
+    "availableservices": "/en/available-services/",
     "contact": "/en/users/contact/",
     "createaccount": "/en/users/get-started/create-account/",
     "changeyouremailaddress": "/en/users/manage-your-account/change-your-email-address/",
@@ -35,7 +35,7 @@
     "signinroadmap": "/en/partners/roadmap/",
     "troublesigningin": "/en/users/trouble-signing-in/",
     "twostepverificationmethods": "/en/users/get-started/two-step-verification-methods/",
-    "troublesigningup": "/en/users/trouble-signing-up/",    
+    "troublesigningup": "/en/users/trouble-signing-up/",
     "termsandprivacyusers": "/en/users/terms/",
     "termsandconditionspartners": "/en/partners/terms-and-conditions/",
     "users": "/en/users/",

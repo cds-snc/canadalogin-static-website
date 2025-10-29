@@ -36,7 +36,7 @@ If you believe you are entering the correct password, but you are still getting 
 
 5. Enter your new password.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-    <gcds-text>{% linkRef links.issuespassword '' 'How to make a strong password' %}</gcds-text>
+    <gcds-text>{% linkRef links.createaccount 'how-to-make-a-strong-password' 'How to make a strong password' %} </gcds-text>
     <gcds-text>{% linkRef links.issuespassword '' 'Problems creating a password' %} </gcds-text>
   </gcds-notice>
 

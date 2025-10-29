@@ -35,7 +35,7 @@ If you do not have multiple numbers registered to your account, you will need to
 5. You will need to verify your new phone number. Select how you want to receive the one-time verification code.
 6. Retrieve the one-time code from your text messages or by answering the call from GC Sign in.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
-    <gcds-text>{% linkRef links.problemssigninginwith2stepverification '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</gcds-text>
+    <gcds-text>{% link '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</gcds-text>
   </gcds-notice>
 7. Enter the code on the webpage.
 8. You will be prompted to set up a backup verification method. You can skip this step if you do not want to set one up.

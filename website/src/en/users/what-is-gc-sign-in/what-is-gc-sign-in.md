@@ -1,9 +1,9 @@
 ---
 title: What is GC Sign in
-translationKey: aboutus
+translationKey: whatisgcsignin
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: aboutusEN
+  key: whatisgcsigninEn
   title: About
   locale: en
   parent: usersEn
