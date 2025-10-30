@@ -22,7 +22,7 @@ eleventyNavigation:
 
 ### Problems with creating a password
 - {% linkRef links.issuespassword 'it-says-your-password-is-not-valid' 'It says your password is not valid' %}
-- {% linkRef links.issuespassword '#'  'How to make a strong password' %}
+- {% linkRef links.createaccount 'how-to-make-a-strong-password' 'How to make a strong password' %}
 
 ### Problems with setting up 2-step verification
 - {% link links.twostepverificationmethods 'What is 2-step verification?' %}

@@ -14,7 +14,7 @@ eleventyNavigation:
 # Problems creating a password
 
 - {% link '#it-says-your-password-is-not-valid' 'It says your password is not valid' %}
-- {% link '#' 'How to make a strong password' %}
+
 
 ## It says your password is not valid
 
@@ -37,7 +37,8 @@ If you're seeing a message that your password is not valid try the following tro
    
    If your password does not meet the above rules, try choosing a new one that follows the guidelines.  
 
-   You can follow these tips on {% linkRef links.createaccount 'steps-to-create-an-account' 'how to make a strong password' %}.
+   You can follow these tips on {% linkRef links.createaccount 'how-to-make-a-strong-password' 'how to make a strong password' %}. 
+   
 
 ### 3. Contact Support
     - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.

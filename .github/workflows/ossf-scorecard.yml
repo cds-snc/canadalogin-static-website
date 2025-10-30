@@ -1,3 +1,23 @@
+# Note that this workflow is authenticated via a PAT ${{ secrets.SCORECARD_TOKEN }} instead
+# of the standard automatically-provided GITHUB_TOKEN. This seems to be required to make the
+# action work in private repos.
+#
+# Context: https://github.com/ossf/scorecard-action/issues/856 and https://github.com/cds-snc/gc-signin-terraform/issues/83
+#
+# PATs have a maximum lifetime of 1 year. So one year from now, this workflow will break
+# and we'll need to regenerate the PAT. Follow the instructions below to do so.
+#
+# See the document here to learn how to create the PAT needed for this action:
+# https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md
+#
+# I needed to grant additional permissions to the PAT to make this work in a private repository.
+# The permissions granted are (all read-only):
+#
+# Actions, Administration, Code scanning alerts, Commit statuses, Contents, Deployments,
+# Environments, Issues, Metadata, Pull requests, Repository security advisories,
+# Webhooks, Workflows
+#
+
 name: Scorecards supply-chain security
 on:
   workflow_dispatch:
@@ -15,8 +35,12 @@ jobs:
     name: Scorecards analysis
     runs-on: ubuntu-latest
     permissions:
+      security-events: write
+      id-token: write
       actions: read
       contents: read
+      pull-requests: read
+      checks: read
 
     steps:
       - name: "Checkout code"
@@ -25,11 +49,12 @@ jobs:
           persist-credentials: false
 
       - name: "Run analysis"
-        uses: ossf/scorecard-action@e48dbb732fab761267783321dfa71e2a5c6e263d
+        uses: ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde # v2.4.2
         with:
           results_file: ossf-results.json
           results_format: json
           publish_results: false
+          repo_token: ${{ secrets.SCORECARD_TOKEN }}
 
       - name: "Add metadata"
         run: |

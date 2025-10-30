@@ -18,5 +18,6 @@ Les programmes et services participants utilisent Connexion GC pour aider à pro
 
 <br />
 
+   - {% link links.whatisgcsigninFR 'Qu’est-ce que Connexion GC?' %}
    - {% link links.createaccountFR 'Comment créer un compte Connexion GC' %}
    - {% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}
