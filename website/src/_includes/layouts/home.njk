@@ -2,14 +2,16 @@
 <html lang="{{ locale }}" dir="ltr">
 
 <head>
+  {% if WEBSITE_ENVIRONMENT != 'local' %}
   <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-5TBZBZVVK8"></script> -->
-  <!-- <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS_ID }}"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-5TBZBZVVK8');
-  </script> -->
+    gtag('config', '{{ GOOGLE_ANALYTICS_ID }}');
+  </script>
+  {% endif %}
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,14 +54,15 @@
 
   <div class="content-wrapper">
 
-    <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225 general-layout" {% if not nocrawl %}data-pagefind-body{% endif %}>
-      
+    <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225 general-layout" {% if not nocrawl
+      %}data-pagefind-body{% endif %}>
+
       {% block content %}{{ content | safe }}{% endblock %}
 
       <gcds-date-modified>
         {{ page.date | dateLastModified }}
       </gcds-date-modified>
-      
+
     </main>
 
     {% include "partials/footer.njk" %}
