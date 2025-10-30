@@ -233,7 +233,7 @@ module.exports = function (eleventyConfig) {
   const website_environment = process.env.WEBSITE_ENVIRONMENT || 'local';
   eleventyConfig.addGlobalData("WEBSITE_ENVIRONMENT", website_environment);
 
-  const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || 'G-XXXXXXX';
+  const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
   eleventyConfig.addGlobalData("GOOGLE_ANALYTICS_ID", google_analytics_id);
 
   eleventyConfig.addShortcode("link", function (url, text) {
