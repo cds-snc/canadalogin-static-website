@@ -1,20 +1,20 @@
 ---
-title: Manage your account
+title: Gérer votre compte Connexion GC
 translationKey: manageyouraccountFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: manageYourAccountFR
-  title: Manage your account
+  title: Gérer votre compte Connexion GC
   locale: fr
   order: 4
   hideMain: true
 ---
 
-# Manage your GC Sign in account
-- {% linkRef links.accessyoursettings '' 'Access your settings' %}
-- {% linkRef links.changeyouremailaddress '' 'Change your email address' %}
-- {% linkRef links.managehowyousignin '' 'Manage how you sign in' %}
-- {% linkRef links.manageyourpersonalinformation '' 'Manage your personal information' %}
-- {% linkRef links.howtokeepyouraccountsecure '' 'How to keep your account secure' %}
-- {% linkRef links.whattodowhenyoufindsuspiciousactivity '' 'What to do when you find suspicious activity' %}
-- {% linkRef links.howtosignout '' 'How to sign out' %}
+# Gérer votre compte Connexion GC
+- {% linkRef links.accessyoursettingsFR '' 'Accéder à vos paramètres' %}
+- {% linkRef links.changeyouremailaddressFR '' 'Modifier votre adresse courriel ' %}
+- {% linkRef links.managehowyousigninFR '' 'Gérer la manière dont vous vous connectez' %}
+- {% linkRef links.manageyourpersonalinformationFR '' 'Gérer vos renseignements personnels' %}
+- {% linkRef links.howtokeepyouraccountsecureFR '' 'Comment sécuriser votre compte' %}
+- {% linkRef links.whattodowhenyoufindsuspiciousactivityFR '' 'Que faire si vous détectez une activité suspecte' %}
+- {% linkRef links.howtosignoutFR '' 'Comment se déconnecter' %}
