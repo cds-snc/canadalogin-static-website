@@ -1,6 +1,6 @@
 ---
 title: What is GC Sign in
-translationKey: awhatisgcsigninFR
+translationKey: whatisgcsigninFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: whatisgcsigninFR
