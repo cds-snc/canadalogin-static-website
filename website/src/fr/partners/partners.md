@@ -4,7 +4,7 @@ translationKey: departmentsAgenciesFR
 layout: 'layouts/home.njk'
 eleventyNavigation:
   key: partnersFR
-  title: Become a partner
+  title: Partenaires
   locale: fr
   parent: homeFR
   order: 3

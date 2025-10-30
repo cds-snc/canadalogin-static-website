@@ -6,6 +6,7 @@ eleventyNavigation:
   key: getStartedFR
   title: Se lancer avec Connexion GC
   locale: fr
+  parent: usersFR
   hideMain: true
 ---
 

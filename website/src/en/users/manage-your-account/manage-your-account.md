@@ -6,6 +6,7 @@ eleventyNavigation:
   key: manageYourAccountEn
   title: Manage your account
   locale: en
+  parent: usersEn
   order: 4
   hideMain: true
 ---

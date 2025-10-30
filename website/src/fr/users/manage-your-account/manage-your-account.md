@@ -6,6 +6,7 @@ eleventyNavigation:
   key: manageYourAccountFR
   title: Gérer votre compte Connexion GC
   locale: fr
+  parent: usersFR
   order: 4
   hideMain: true
 ---

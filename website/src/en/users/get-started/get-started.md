@@ -6,6 +6,7 @@ eleventyNavigation:
   key: getStartedEn
   title: Get started with GC Sign in
   locale: en
+  parent: usersEn
   hideMain: true
 ---
 

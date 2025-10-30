@@ -6,6 +6,7 @@ eleventyNavigation:
   key: troubleSigningInEn
   title: Trouble signing in
   locale: en
+  parent: usersEn
   order: 3
   hideMain: true
 ---
