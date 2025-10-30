@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
   eleventyConfig.addPassthroughCopy('./src/styles/style.css');
   eleventyConfig.addPassthroughCopy('./src/styles/prism.css');
-  eleventyConfig.addPassthroughCopy({'./src/assets' : 'assets'});
+  eleventyConfig.addPassthroughCopy({ './src/assets': 'assets' });
   eleventyConfig.addPassthroughCopy('./src/scripts/code-showcase.js');
   eleventyConfig.addPassthroughCopy('./src/scripts/search.js');
   eleventyConfig.addPassthroughCopy('./src/scripts/code-copy.js');
@@ -163,11 +163,11 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, '\t');
   });
 
-    eleventyConfig.addFilter('startsWith', function(str, prefix) {
+  eleventyConfig.addFilter('startsWith', function (str, prefix) {
     if (typeof str !== 'string') return false;
     return str.startsWith(prefix);
   });
-  
+
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
@@ -230,12 +230,18 @@ module.exports = function (eleventyConfig) {
     return await getLatestCdnVersion();
   });
 
-  eleventyConfig.addShortcode("link", function(url, text){
-    return '<gcds-link href="'+url+'">'+text+'</gcds-link>';
+  const website_environment = process.env.WEBSITE_ENVIRONMENT || 'local';
+  eleventyConfig.addGlobalData("WEBSITE_ENVIRONMENT", website_environment);
+
+  const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
+  eleventyConfig.addGlobalData("GOOGLE_ANALYTICS_ID", google_analytics_id);
+
+  eleventyConfig.addShortcode("link", function (url, text) {
+    return '<gcds-link href="' + url + '">' + text + '</gcds-link>';
   })
 
-  eleventyConfig.addShortcode("linkRef", function(url, ref, text){
-    return '<gcds-link href="'+url+'#'+ref+'">'+text+'</gcds-link>';
+  eleventyConfig.addShortcode("linkRef", function (url, ref, text) {
+    return '<gcds-link href="' + url + '#' + ref + '">' + text + '</gcds-link>';
   })
 
   eleventyConfig.addPairedShortcode(
