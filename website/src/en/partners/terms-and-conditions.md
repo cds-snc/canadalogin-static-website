@@ -43,7 +43,7 @@ Some of the content on this site may be subject to the copyright of another part
 
 
 ### Trademark notice
-The official symbols of the Government of Canada, including the Canada Wordmark, the Arms of Canada, and the flag symbol may not be reproduced, whether for commercial or non-commercial purposes, without prior <gcds-link href="http://www.tbs-sct.gc.ca/fip-pcim/spec/T105-eng.asp">written authorization</gcds-link>.
+The official symbols of the Government of Canada, including the Canada Wordmark, the Arms of Canada, and the flag symbol may not be reproduced, whether for commercial or non-commercial purposes, without prior <gcds-link href="https://www.canada.ca/en/government/system/government-communications/federal-identity-requirements/legal-protection-official-symbols-government-canada.html">written authorization</gcds-link>.
 
 ## Our commitment to accessibility
 The Government of Canada is committed to achieving a high standard of accessibility as defined in the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601"> Standard on Web Accessibility </gcds-link> and the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27088">Standard on Optimizing Websites and Applications for Mobile Devices</gcds-link>. In the event of difficulty using our Web pages, applications or device-based mobile applications, please contact us for assistance or to obtain alternative formats such as regular print, Braille or another appropriate format.
