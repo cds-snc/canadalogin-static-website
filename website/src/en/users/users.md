@@ -1,6 +1,6 @@
 ---
 title: Individuals and organisations
-translationKey: individualsOrganisations
+translationKey: users
 layout: 'layouts/home.njk'
 eleventyNavigation:
   key: usersEn
