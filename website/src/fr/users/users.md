@@ -4,7 +4,7 @@ translationKey: individualsOrganisationsFR
 layout: 'layouts/home.njk'
 eleventyNavigation:
   key: usersFR
-  title: Get user help
+  title: Aide à l’utilisation
   locale: fr
   parent: homeFR
   order: 1
