@@ -1,25 +1,23 @@
 ---
-title: Get started with GC Sign in
+title: Se lancer avec Connexion GC
 translationKey: getstartedFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: getStartedFR
-  title: Get started with GC Sign in
+  title: Se lancer avec Connexion GC
   locale: fr
   hideMain: true
 ---
 
-# Get started with GC Sign in
+# Se lancer avec Connexion GC
 
 
-GC Sign in is a secure and easy way to access Government of Canada services online.
+Connexion GC est une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada.
 
-Participating programs and services use GC Sign in to help protect their users. 
-When you try to access a participating program or service you’ll be prompted to sign in or create an account with
-GC Sign in before you can access the service. 
+Les programmes et services participants utilisent Connexion GC pour aider à protéger leurs utilisateurs et utilisatrices. Lorsque vous tenterez d’accéder à un programme ou service participant, il vous sera demandé de vous connecter avec Connexion GC ou de créer un compte Connexion GC avant de pouvoir accéder au programme ou service en question.  
 
 <br />
 
-   - {% link links.whatisgcsignin 'What is GC Sign in?' %}
-   - {% link links.createaccount 'How to create a GC Sign in account' %}
-   - {% link links.twostepverificationmethods 'What is 2-step verification?' %}
+   - {% link links.whatisgcsigninFR 'Qu’est-ce que Connexion GC?' %}
+   - {% link links.createaccountFR 'Comment créer un compte Connexion GC' %}
+   - {% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}
