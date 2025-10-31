@@ -1,25 +1,25 @@
 ---
-title: Trouble signing in
+title: Problème de connexion
 translationKey: troublesigninginFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: troubleSigningInFR
-  title: Trouble signing in
+  title: Problème de connexion
   locale: fr
   parent: usersFR
   order: 3
   hideMain: true
 ---
 
-# Trouble signing in
+# Problème de connexion
 
-Forgot your password? Locked out of your account? Get help accessing your account.
+Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compte? Obtenez de l’aide pour accéder à votre compte.
 
-## Common Problems
+## Problèmes fréquents
 
-- {% linkRef links.howtosignin '' 'How to sign in to GC Sign in' %}
-- {% linkRef links.problemsenteringyouremailaddress '' 'Problems entering your email address' %}
-- {% linkRef links.forgotyouremail '' 'Forgot your email' %}
-- {% linkRef links.forgotyourpassword '' 'Forgot your password' %}
-- {% linkRef links.problemssigninginwith2stepverification '#cannot-access-your-phone' 'Cannot access your phone' %}
-- {% linkRef links.problemssigninginwith2stepverification '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}
+- {% linkRef links.howtosigninFR '' 'Comment se connecter à Connexion GC' %}
+- {% linkRef links.problemsenteringyouremailaddressFR '' 'Problèmes liés à la saisie de votre adresse courriel' %}
+- {% linkRef links.forgotyouremailFR '' 'Adresse courriel oubliée' %}
+- {% linkRef links.forgotyourpasswordFR '' 'Mot de passé oublié' %}
+- {% linkRef links.problemssigninginwith2stepverificationFR '#cannot-access-your-phone' 'Cannot access your phone' %}
+- {% linkRef links.problemssigninginwith2stepverificationFR '#not-receiving-verification-codes-to-your-phone' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}
