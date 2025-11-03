@@ -1,10 +1,10 @@
 ---
-title: How to create a GC Sign in account
+title: Comment créer un compte Connexion GC
 translationKey: createAccountFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: createAccountFR
-  title: How to create a GC Sign in account
+  title: Comment créer un compte Connexion GC
   locale: fr
   order: 2
   parent: getStartedFR
@@ -12,9 +12,9 @@ eleventyNavigation:
 ---
 
 
-# How to create a GC Sign in account
+# Comment créer un compte Connexion GC
 
-## On this page
+## Sur cette page
  
 - {% link '#before-you-start' 'Before you start' %}
 - {% link '#steps-to-create-an-account' 'Steps to create an account' %}    
