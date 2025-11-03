@@ -3,7 +3,7 @@ title: Terms and Conditions
 translationKey: termsandconditionspartnersFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: termsAndConditionsPartnersEN
+  key: termsAndConditionsPartnersFR
   title: Terms and Conditions
   parent: partnersFR
   locale: fr
