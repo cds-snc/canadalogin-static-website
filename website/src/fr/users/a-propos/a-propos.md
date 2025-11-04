@@ -10,7 +10,7 @@ eleventyNavigation:
   parent: usersFR
   order: 4
   hideMain: false
-  date: 'Last Modified'
+  date: 'git Last Modified'
 ---
 
 # Qu’est-ce que Connexion GC?
