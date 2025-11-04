@@ -13,10 +13,11 @@ eleventyNavigation:
 
 # Problèmes liés à la saisie et à la vérification de votre adresse courriel
 
-- {% link '#Un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}
-- {% link '#Vous-ne-trouvez-pas-le-code-à-usage-unique-dans-votre-boîte-de-réception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
-- {% link '#Un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
-- {% link '#Un-message-indique-que-votre-adresse-courriel-est-déjà-associée-à-un-compte-Connexion-GC' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
+- {% link '#un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}
+- {% link '#vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
+- {% link '#un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
+
+- {% link '#un-message-indique-que-votre-adresse-courriel-est-deja-associee-a-un-compte-connexion-gc' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
 
 ## Un message indique que votre adresse courriel est invalide
 
