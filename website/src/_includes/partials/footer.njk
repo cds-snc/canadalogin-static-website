@@ -7,34 +7,34 @@
     {% if page.url == "/en/" or page.url == "/fr/" %}
         {% if locale == "en" %}
             "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
-            "GC Sign in Partners": "{{ footer[locale].contextual.partnerUrl }}"
+            "GC Sign in Partners": "{{ footer[locale].contextual.partnersUrl }}"
         {% else %}
-            "Aide à l’utilisation de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
-            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnerUrl }}"
+            "Utilisateurs et utilisatrices de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
+            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnersUrl }}"
         {% endif %}
 
     {# ------ Users Page ------- #}    
     {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/users/")%}
         {% if locale == "en" %}
             "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
-            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
-            "Terms": "{{ footer[locale].contextual.termsUrl }}"     
+            "About GC Sign in": "{{ footer[locale].contextual.aboutUsersUrl }}",
+            "Terms": "{{ footer[locale].contextual.termsUsersUrl }}"     
         {% else %}
-            "Aide à l’utilisation de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
-            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUrl }}",
-            "Avis": "{{ footer[locale].contextual.termsUrl }}"    
+            "Utilisateurs et utilisatrices de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
+            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUsersUrl }}",
+            "Avis": "{{ footer[locale].contextual.termsUsersUrl }}"    
         {% endif %}
 
     {# ------ Partners Page ------- #}    
     {% else %}
         {% if locale == "en" %}
-            "GC Sign in Partners": "{{ footer[locale].contextual.partnerUrl }}",
-            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
-            "Terms and Conditions": "{{ footer[locale].contextual.termsPartnersUrl }}"
+            "GC Sign in Partners": "{{ footer[locale].contextual.partnersUrl }}",
+            "Terms and Conditions": "{{ footer[locale].contextual.termsPartnersUrl }}",
+            "Privacy":  "{{ footer[locale].contextual.privacyPartnersUrl }}"
         {% else %}
-            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnerUrl }}"
-            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
-            "Avis": "{{ footer[locale].contextual.termsPartnersUrl }}"
+            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnersUrl }}",
+            "Avis": "{{ footer[locale].contextual.termsPartnersUrl }}",
+            "Confidentialité":  "{{ footer[locale].contextual.privacyPartnersUrl }}"
         {% endif %} 
     {% endif %}
     }'
