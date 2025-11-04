@@ -21,7 +21,7 @@ module.exports = {
   fr: {
     contextual: {
       heading: 'Connexion GC',
-      aboutUrl: '/fr/partners/about-gc-sign-in/',
+      aboutUsersUrl: '/fr/users/what-is-gc-sign-in/',
       usersUrl: '/fr/users/',
       partnersUrl: '/fr/partners/',
       termsUsersUrl: '/fr/users/terms/',
