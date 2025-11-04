@@ -134,11 +134,11 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
 </gcds-notice>
 
 ### 7. Félicitations!
-- You have created your GC Sign in account.
-- You will now be taken to the government service you are trying to access.
-- You will be able to connect your GC Sign in account to other participating programs and services, when they become available.
-- You can add additional phone numbers, or update your information by selecting “Manage GC Sign in” in the menu bar once you’re signed in. 
-- You can find a link to this page in the menu of any service you have connected to your GC Sign in account.
+- Vous avez créé votre compte Connexion GC.
+- Votre redirection va être effectuée vers le service gouvernemental auquel vous cherchez à accéder.
+- Vous serez en mesure de connecter votre compte Connexion GC à d’autres programmes et services participants lorsque ces derniers deviendront disponibles.
+- Après votre connexion, vous pourrez ajouter d’autres numéros de téléphone ou mettre à vous vos renseignements en cliquant sur « Gérer Connexion GC » dans la barre de menu.
+- Vous trouverez un lien vers cette page dans le menu de chaque service que vous avez connecté à votre compte Connexion GC.
 
 ### Thèmes connexes
 <!--  Add the related topics section here-->
