@@ -142,3 +142,23 @@ To set up 2-step verification, follow these steps:
 ### Related topics
 <!--  Add the related topics section here-->
 
+<gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
+    <gcds-card
+    card-title="Manage your GC Sign in account"
+    href="manage-your-account"
+    card-title-tag="h3"
+    description="Change your account settings including your password, phone number, email and more.">
+    </gcds-card>
+    <gcds-card
+    card-title="trouble-signing-up"
+    href="Trouble signing up"
+    card-title-tag="h3"
+    description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues.">
+    </gcds-card>
+    <gcds-card
+    card-title="Trouble signing in"
+    href="trouble-signing-in"
+    card-title-tag="h3"
+    description="Forgot your password? Locked out of your account? We’ll help you resolve access issues.">
+    </gcds-card>
+</gcds-grid>

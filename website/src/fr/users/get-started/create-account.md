@@ -145,19 +145,19 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
     card-title="Gestion de votre compte Connexion GC"
-    href="Gestion de votre compte Connexion GC"
+    href="#"
     card-title-tag="h3"
     description="Nous vous aidons à modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"
-    href="problemes-lies-a-l-inscription"
+    href="#"
     card-title-tag="h3"
     description="Vous ne parvenez pas à vérifier votre adresse courriel? Vous avez besoin d’aide pour créer un mot de passe robuste? Nous vous aidons à résoudre les problèmes liés à la création de compte.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à la connexion"
-    href="problemes-lies-a-la-connexion"
+    href="#"
     card-title-tag="h3"
     description="Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compte? Nous vous aidons à résoudre les problèmes d’accès.">
     </gcds-card>
