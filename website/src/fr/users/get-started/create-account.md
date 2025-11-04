@@ -2,6 +2,7 @@
 title: Comment créer un compte Connexion GC
 translationKey: createAccountFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: createAccountFR
   title: Comment créer un compte Connexion GC

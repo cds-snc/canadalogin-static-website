@@ -2,6 +2,7 @@
 title: How to create a GC Sign in account
 translationKey: createAccount
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: createAccountEn
   title: How to create a GC Sign in account
