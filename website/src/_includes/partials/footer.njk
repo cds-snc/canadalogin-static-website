@@ -17,12 +17,12 @@
     {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/users/")%}
         {% if locale == "en" %}
             "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
-            "About GC Sign in": "{{ footer[locale].contextual.aboutUrl }}",
-            "Terms": "{{ footer[locale].contextual.termsUrl }}"     
+            "About GC Sign in": "{{ footer[locale].contextual.aboutUsersUrl }}",
+            "Terms": "{{ footer[locale].contextual.termsUsersUrl }}"     
         {% else %}
             "Utilisateurs et utilisatrices de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
-            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUrl }}",
-            "Avis": "{{ footer[locale].contextual.termsUrl }}"    
+            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUsersUrl }}",
+            "Avis": "{{ footer[locale].contextual.termsUsersUrl }}"    
         {% endif %}
 
     {# ------ Partners Page ------- #}    
