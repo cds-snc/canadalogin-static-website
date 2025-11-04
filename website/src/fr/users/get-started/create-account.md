@@ -16,49 +16,49 @@ eleventyNavigation:
 
 ## Sur cette page
  
-- {% link '#before-you-start' 'Before you start' %}
-- {% link '#steps-to-create-an-account' 'Steps to create an account' %}    
+- {% link '#before-you-start' 'Avant de vous lancer' %}
+- {% link '#steps-to-create-an-account' 'Étapes de la création de compte' %}    
 
-## Before you start 
-You will need the following items to create a GC Sign in account:
-- An active email address that you have access to 
-- An active phone number that you can receive texts or calls to on an ongoing basis
+## Avant de vous lancer 
+Pour créer un compte Connexion GC, vous aurez besoin des éléments suivants :
+- Une adresse courriel active à laquelle vous avez accès
+- Un numéro de téléphone actif auquel vous pouvez en permanence recevoir des messages texte et des appels
 
-We will also ask you for:
-- A password
-- Your full name 
-- Your preferred official language
+Nous vous demanderons également les éléments suivants : 
+- Un mot de passe
+- Votre nom complet
+- La langue officielle dans laquelle vous souhaitez communiquer
 
-## Steps to create an account
+## Étapes de la création de compte
 
-When you are ready to create your GC Sign in account, you’ll need to complete the following steps:
-### 1. Navigate to a service that’s using GC Sign in
+Au moment de créer un compte Connexion GC, vous devrez suivre ces étapes :
+### 1. Rendez-vous sur la page Web d’un service utilisant Connexion GC
 
-If you are already on a service that’s asking you to use GC Sign in, you can skip this step.
+Si vous êtes déjà sur la page Web d’un service vous demandant d’utiliser Connexion GC, vous pouvez ignorer cette étape.
 
-Otherwise, to create a GC Sign in account:
+Dans le cas contraire, pour commencer la création d’un compte Connexion GC, procédez comme suit : 
 <!-- Remove reference of other services in French until V2. -->
 a. Rendez-vous sur la page Web d’un de nos services actifs et cliquez sur « Connectez-vous avec Connexion GC ». Cela vous conduira à la page de connexion. 
-2. Navigate to the bottom of this page, and select “Sign up”. 
-3. Follow the steps below to create a GC Sign in account.
+2. Rendez-vous au bas de cette page et sélectionnez « Créer un compte ». 
+3. Suivez le reste des étapes ci-dessous pour créer un compte Connexion GC.
 
-### 2. Read through the privacy notice
+### 2. Lisez l’avis de confidentialité
           
-- This contains important information about how we use and store your personal information, and who we share it with.
-- Once you have read through the information, select “Continue”.
+- Celui-ci contient des renseignements importants. Il explique comment nous utilisons et conservons vos renseignements personnels et à qui nous les communiquons.
+- Une fois votre lecture terminée, cliquez sur « Continuer ».
 
-### 3. Enter your name
+### 3. Entrez votre nom
 
-Enter your name. If you only have one name, enter it into the last name field.
+Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un prénom, entrez-le dans le champ destiné au nom de famille.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-profile/"> Problems with creating a profile </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-profile/"> Problèmes liés à la création d’un profil </gcds-link>
     </li>
   </ul>
 </gcds-notice>
 
-### 4. Enter your email address and choose your language preference
+### 4. 4. Entrez votre adresse courriel et choisissez votre langue de communication
 
 We recommend you choose an email address that you’ll always be able to access.
 
