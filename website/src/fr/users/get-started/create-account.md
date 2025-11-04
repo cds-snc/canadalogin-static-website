@@ -38,7 +38,7 @@ Si vous êtes déjà sur la page Web d’un service vous demandant d’utiliser 
 
 Dans le cas contraire, pour commencer la création d’un compte Connexion GC, procédez comme suit : 
 <!-- Remove reference of other services in French until V2. -->
-a. Rendez-vous sur la page Web d’un de nos services actifs et cliquez sur « Connectez-vous avec Connexion GC ». Cela vous conduira à la page de connexion. 
+1. Rendez-vous sur la page Web d’un de nos services actifs et cliquez sur « Connectez-vous avec Connexion GC ». Cela vous conduira à la page de connexion. 
 2. Rendez-vous au bas de cette page et sélectionnez « Créer un compte ». 
 3. Suivez le reste des étapes ci-dessous pour créer un compte Connexion GC.
 
@@ -80,8 +80,7 @@ Mot de passe oublié </gcds-link> </li>
 
 ### 6. Créez votre mot de passe
 
-<!-- Do we need to bold this text to be consistent with EN? -->
-Les mots de passe doivent être composés de 12 caractères au minimum et de 65 caractères au maximum. Il ne doit pas s’agir d’un mot de passe couramment utilisé ou d’une phrase couramment utilisée (p. ex. « clé » ou « mot de passe »).
+Les mots de passe doivent être composés de <strong>12 caractères au minimum</strong> et de <strong>65 caractères au maximum</strong>. Il ne doit pas s’agir d’un mot de passe couramment utilisé ou d’une phrase couramment utilisée (p. ex. « clé » ou « mot de passe »).
 
 #### Comment créer un mot de passe robuste
 
@@ -95,7 +94,7 @@ Pour aider à éviter que votre compte et vos renseignements personnels soient c
 Évitez les mots de passe faciles à deviner, comme ceux qui utilisent :
 - Des phrases communes ou des caractères qui se répètent, comme « abc » ou « 111 ».
 - Des éléments de votre adresse courriel ou des dates qui vous sont personnelles, comme votre anniversaire.
-<!-- Missing translation? -->
+<!-- TO-DO: Missing translation? -->
 - Numbers and special characters 
 -Le même mot de passe que celui que vous utilisez pour d’autres comptes (compte bancaire, compte de courrier électronique) ou un mot de passe similaire.
 
@@ -117,7 +116,7 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
    - Si vous souhaitez obtenir plus d’informations pour déterminer quelle méthode d’envoi de code fonctionne le mieux pour vous, reportez-vous à notre {% linkRef links.twostepverificationmethods 'phone-verification' 'guide de la vérification par téléphone' %}.
 
 2. <strong>Entrez le code</strong>
-   <!-- Missing translation? -->
+   <!-- TO-DO: Missing translation? -->
    - You can receive codes via text message (SMS) or voice call
    - Vous devriez avoir reçu un code de vérification à six chiffres par message texte (SMS) ou par appel vocal. Entrez le code à six chiffres sur le site lorsque cela vous sera demandé.
 
@@ -142,6 +141,7 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
 
 ### Thèmes connexes
 
+  <!-- TO-DO: Fix links -->
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
     card-title="Gestion de votre compte Connexion GC"
