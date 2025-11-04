@@ -58,88 +58,88 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
   </ul>
 </gcds-notice>
 
-### 4. 4. Entrez votre adresse courriel et choisissez votre langue de communication
+### 4. Entrez votre adresse courriel et choisissez votre langue de communication
 
-We recommend you choose an email address that you’ll always be able to access.
+Nous vous recommandons de choisir une adresse courriel à laquelle vous aurez toujours accès.
 
 
-### 5. Check your email for a message from “GC Sign in”
+### 5. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ».
 
-- We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the GC Sign in webpage and enter the one-time code.
-- Emails can only be used for one account. If you attempt to use an email address that’s already registered to a GC Sign in account, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
+- Nous vous enverrons un courriel contenant un code à usage unique à six chiffres. Ce courriel peut mettre quelques minutes à vous parvenir. Revenez à la page Web de Connexion GC et entrez le code à usage unique.
+- Une adresse courriel ne peut être associée qu’à un seul compte. Si vous essayez d’utiliser une adresse courriel qui est déjà associée à un compte Connexion GC, au lieu de recevoir un code, vous recevrez un courriel à l’adresse en question vous informant de la situation. Si votre compte est verrouillé et que vous ne pouvez pas y accéder, vous pourriez devoir procéder à la récupération de votre compte. Si vous ne pouvez pas récupérer votre compte, vous devrez créer un autre compte en utilisant une adresse courriel différente.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-enter-verify-email/"> Problems entering and verifying your email </gcds-link> </li>
-    <li><gcds-link href="/en/users/trouble-signing-in/forgot-your-password/"> Forgot your password </gcds-text></li>
-    <li><gcds-link href="/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/"> Problems signing in with 2-step verification </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-enter-verify-email/"> Problèmes liés à la saisie et à la vérification de votre adresse courriel
+Mot de passe oublié </gcds-link> </li>
+    <li><gcds-link href="/en/users/trouble-signing-in/forgot-your-password/"> Mot de passe oublié </gcds-text></li>
+    <li><gcds-link href="/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/"> Problèmes liés à la vérification en deux étapes </gcds-link>
     </li>
   </ul>
 </gcds-notice>
 
-### 6. Create your password
-        
-Passwords must be <strong>at least 12 characters</strong> and can be <strong>up to 65 characters</strong> long. 
-They should not be a commonly used password or phrase (e.g. “let me in” or “password”).
+### 6. Créez votre mot de passe
 
+<!-- Do we need to bold this text to be consistent with EN? -->
+Les mots de passe doivent être composés de 12 caractères au minimum et de 65 caractères au maximum. Il ne doit pas s’agir d’un mot de passe couramment utilisé ou d’une phrase couramment utilisée (p. ex. « clé » ou « mot de passe »).
 
-#### How to make a strong password
+#### Comment créer un mot de passe robuste
 
-To help prevent your account and your personal information from being compromised, consider strengthening your password by using:
-- Unique phrases that only you recognize
-- A passphrase instead of a single word. For example, combine multiple words with spaces (e.g., “pillow moose dish”).
-- Numbers and special characters 
-- A longer password that you can still remember.
+Pour aider à éviter que votre compte et vos renseignements personnels soient compromis, envisagez de renforcer votre mot de passe en utilisant les éléments suivants : 
+- Des phrases uniques que vous êtes la seule personne à reconnaître.
+- Une phrase complète au lieu d’un seul mot. Vous pouvez par exemple combiner plusieurs mots en les séparant par une espace (p. ex. : « coussin orignal plat »).
+- Des chiffres et des caractères spéciaux.
+- Un mot de passe plus long qui reste possible à retenir pour vous.
                   
 
-Avoid easy-to-guess passwords like ones that use:
-- Common phrases or repeated characters, like abc or 111
-- Parts of your email address or personal dates, like your birthday
+Évitez les mots de passe faciles à deviner, comme ceux qui utilisent :
+- Des phrases communes ou des caractères qui se répètent, comme « abc » ou « 111 ».
+- Des éléments de votre adresse courriel ou des dates qui vous sont personnelles, comme votre anniversaire.
+<!-- Missing translation? -->
 - Numbers and special characters 
-- The same or similar password that you use for other accounts, such as your bank account or email
+-Le même mot de passe que celui que vous utilisez pour d’autres comptes (compte bancaire, compte de courrier électronique) ou un mot de passe similaire.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problems creating a password </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problèmes liés à la création d’un mot de passe </gcds-link>
     </li>
   </ul>
 </gcds-notice>
 
-### 7. Set up a 2-step verification method
+### 7. Configurez une méthode de vérification en deux étapes
 
-As an added layer of protection, GC Sign in requires you to set up a second authentication method to keep your account secure. 
-This is referred to as 2-step verification. If you want to know more about 2-step verification, see our
-{% link links.twostepverificationmethods 'information guide on 2-step verification.' %}
+Pour une protection supplémentaire de votre compte, Connexion GC exige que vous configuriez une deuxième méthode d’authentification. Cette méthode porte le nom de vérification en deux étapes. Si vous souhaitez en savoir plus sur ce qu’est la vérification en deux étapes, consultez notre {% link links.twostepverificationmethods 'guide d’information sur la vérification en deux étapes' %}.
            
-To set up 2-step verification, follow these steps:
+Pour configurer la vérification en deux étapes, procédez de la manière suivante :
 
-1. <strong>Enter your phone number and choose how you want to receive verification codes</strong>
-   - You can receive codes via text message (SMS) or voice call 
-   - If you want to know more about which code delivery method is right for you, see our {% linkRef links.twostepverificationmethods 'phone-verification' 'guide on phone verification.' %}
+1. <strong>Entrez votre numéro de téléphone et choisissez la manière dont vous souhaitez recevoir vos codes de vérification</strong>
+   - Vous pouvez choisir de recevoir vos codes par message texte (SMS) ou par appel vocal. 
+   - Si vous souhaitez obtenir plus d’informations pour déterminer quelle méthode d’envoi de code fonctionne le mieux pour vous, reportez-vous à notre {% linkRef links.twostepverificationmethods 'phone-verification' 'guide de la vérification par téléphone' %}.
 
-2. <strong>Enter the code</strong>
+2. <strong>Entrez le code</strong>
+   <!-- Missing translation? -->
    - You can receive codes via text message (SMS) or voice call
-   - You should have received either a text message (SMS) or phone call with a 6-digit verification code. Enter the 6-digit code into the site when prompted.
+   - Vous devriez avoir reçu un code de vérification à six chiffres par message texte (SMS) ou par appel vocal. Entrez le code à six chiffres sur le site lorsque cela vous sera demandé.
 
-3. <strong>Set up a backup verification method (Optional)</strong>
-   - You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step.
+3. <strong>Configurez une méthode de vérification de secours (facultatif)</strong>
+   - Il vous sera demandé de configurer une méthode de secours pour l’envoi de code. Si vous ne souhaitez pas en configurer, vous pouvez ignorer cette étape.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/"> Problems setting up 2-step verification </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/"> Problèmes liés à la configuration de la vérification en deux étapes </gcds-link>
     </li>
-    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Supported international phone numbers </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Numéros de téléphones internationaux pris en charge </gcds-link>
     </li>
   </ul>
 </gcds-notice>
 
-### 7. Success!
+### 7. Félicitations!
 - You have created your GC Sign in account.
 - You will now be taken to the government service you are trying to access.
 - You will be able to connect your GC Sign in account to other participating programs and services, when they become available.
 - You can add additional phone numbers, or update your information by selecting “Manage GC Sign in” in the menu bar once you’re signed in. 
 - You can find a link to this page in the menu of any service you have connected to your GC Sign in account.
 
-### Related topics
+### Thèmes connexes
 <!--  Add the related topics section here-->
 
