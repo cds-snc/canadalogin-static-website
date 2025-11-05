@@ -16,7 +16,7 @@ eleventyNavigation:
 
 Pour modifier votre adresse courriel, procédez comme suit :
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. Après {% linkRef links.howtosignin '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettings '' 'accédez à vos paramètres' %}.
 
 2. Sélectionnez « Renseignements personnels ».
 
@@ -31,7 +31,7 @@ Pour modifier votre adresse courriel, procédez comme suit :
 7. Entrez le code sur la page Web et sélectionnez « Continuer ».
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-     <gcds-text>{% linkRef links.issuesenterverifyemail '' 'Problèmes liés à la saisie et à la vérification de votre adresse courriel' %}</gcds-text>
+     <gcds-text>{% linkRef links.issuesenterverifyemailFR '' 'Problèmes liés à la saisie et à la vérification de votre adresse courriel' %}</gcds-text>
    </gcds-notice>
 
 8. Lorsque cela vous sera demandé, confirmez que votre nouvelle adresse courriel est correcte et que vous souhaitez procéder à la mise à jour.
@@ -42,7 +42,7 @@ Pour modifier votre adresse courriel, procédez comme suit :
 
 <gcds-notice type="warning" notice-title-tag="h2" notice-title="Cette modification de votre adresse courriel n’a d’effet que pour les programmes et services que vous avez connectés à votre compte Connexion GC">
 <!-- Remove reference of other services in French until V2. -->
-<gcds-text>
-  Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre adresse courriel auprès d’eux également. Pour une liste des programmes et services utilisant actuellement Connexion GC, rendez-vous sur la page Services disponibles. Pour rechercher un autre compte du GC, consultez le <a href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du GC</a>.
-</gcds-text>
+  <gcds-text>
+    Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre adresse courriel auprès d’eux également. Pour une liste des programmes et services utilisant actuellement Connexion GC, rendez-vous sur la page {% linkRef links.availableservicesFR '' 'Services disponibles' %}. Pour rechercher un autre compte du GC, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du GC</gcds-link>.
+  </gcds-text>
 </gcds-notice>
