@@ -2,6 +2,7 @@
 title: Gérer la manière dont vous vous connectez
 translationKey: managehowyousigninFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: manageHowYouSignInFR
   title: Gérer la manière dont vous vous connectez
@@ -120,9 +121,12 @@ Pour supprimer un numéro de téléphone pour la vérification en deux étapes, 
 2. Sélectionnez « Paramètres de sécurité ». 
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 4. Cherchez le numéro que vous souhaitez supprimer et sélectionnez « Supprimer ».
+'   <gcds-notice type="info" notice-title-tag="h2" notice-title="If the &quot;delete&quot; link doesn&apos;t appear, it&apos;s because you need to add another 2-step verification phone number to your account">
+     <gcds-text>All GC Sign in accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "delete" link will only appear if you have more than one number registered. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
+   </gcds-notice>
 
-   <gcds-notice type="info" notice-title-tag="h2" notice-title="If the &quot;delete&quot; link doesn&apos;t appear, it&apos;s because you need to add another 2-step verification phone number to your account">
-     <gcds-text>Si le lien « Supprimer » n’apparaît pas, c’est que <a href="#add-a-2step-verification-phone-number"> vous devez ajouter à votre compte un numéro de téléphone supplémentaire pour la vérification en deux étapes.</a>.</gcds-text>
+   <gcds-notice type="info" notice-title-tag="h2" notice-title="Si le lien « Supprimer » n’apparaît pas, c’est que vous devez ajouter à votre compte un numéro de téléphone supplémentaire pour la vérification en deux étapes.">
+     <gcds-text>Tous les comptes Connexion GC nécessitent une vérification en deux étapes, vous ne pouvez donc pas supprimer votre seul numéro de téléphone pour la vérification en deux étapes. Le lien « Supprimer » <strong>n’apparaît donc que si vous avez plus d’un numéro de téléphone enregistré.</strong> Pour supprimer votre numéro de téléphone actuel, <a href="#add-a-2step-verification-phone-number">commencez par ajouter un numéro de téléphone supplémentaire pour la vérification en deux étapes</a>.</gcds-text>
    </gcds-notice>
 
 5. Il se peut que l’on vous invite à vous authentifier une nouvelle fois en entrant votre mot de passe actuel et en procédant à la vérification en deux étapes.
