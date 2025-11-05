@@ -2,6 +2,7 @@
 title: How to create a GC Sign in account
 translationKey: createAccount
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: createAccountEn
   title: How to create a GC Sign in account
@@ -138,7 +139,3 @@ To set up 2-step verification, follow these steps:
 - You will be able to connect your GC Sign in account to other participating programs and services, when they become available.
 - You can add additional phone numbers, or update your information by selecting “Manage GC Sign in” in the menu bar once you’re signed in. 
 - You can find a link to this page in the menu of any service you have connected to your GC Sign in account.
-
-### Related topics
-<!--  Add the related topics section here-->
-
