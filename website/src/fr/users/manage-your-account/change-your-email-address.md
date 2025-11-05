@@ -1,37 +1,48 @@
 ---
-title: Change your email address
+title: Modifier votre adresse courriel
 translationKey: changeyouremailaddressFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: changeYourEmailAddressFR
-  title: Change your email address
+  title: Modifier votre adresse courriel
   locale: fr
   order: 2
   parent: manageYourAccountFR
   hideMain: true
 ---
 
-# Change your email address
+# Modifier votre adresse courriel
 
-To change your email address, follow these steps:
+Pour modifier votre adresse courriel, procédez comme suit :
 
 1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
-2. Select "Personal information".
-3. Navigate to the "Contact information" section on the page. Select the "edit" link in the "Email" section.
-4. You may be prompted to verify yourself again by typing in your password and completing 2-step verification.
-5. Enter the new email address you want to use to sign in and receive notifications.
-6. Check your email inbox for a message from GC Sign in. The email will contain a 6-digit one-time code.
-7. Enter the code on the webpage and select "continue".
 
-   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuesenterverifyemail '' 'Problems entering and verifying your email address' %}</gcds-text>
+2. Sélectionnez « Renseignements personnels ».
+
+3. Rendez-vous dans la section « Coordonnées ». Sélectionnez « Modifier » dans la section « Adresse courriel ».
+
+4. Il se peut que l’on vous invite à vous authentifier une nouvelle fois en entrant votre mot de passe et en procédant à la vérification en deux étapes. 
+
+5. Entrez l’adresse courriel que vous souhaitez utiliser pour vous connecter et à laquelle vous souhaitez recevoir des notifications.
+
+6. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ». Ce courriel contiendra un code à usage unique de six chiffres.
+
+7. Entrez le code sur la page Web et sélectionnez « Continuer ».
+
+   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
+     <gcds-text>{% linkRef links.issuesenterverifyemail '' 'Problèmes liés à la saisie et à la vérification de votre adresse courriel' %}</gcds-text>
    </gcds-notice>
 
-8. When prompted, confirm your new email address is correct and you want to update it.
-9. **Success!** There will be a message confirming the change. You will also receive an email notifying you of the change you just made. You can ignore this email.
-10. Update your email address with other Government of Canada accounts you use.
+8. Lorsque cela vous sera demandé, confirmez que votre nouvelle adresse courriel est correcte et que vous souhaitez procéder à la mise à jour.
 
-<gcds-notice type="warning" notice-title-tag="h2" notice-title="Changing your email address here only updates it with programs/services that are connected to your GC Sign in">
+9. **Félicitations!** Vous allez recevoir un message confirmant la modification. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
+
+10. Mettez à jour votre adresse courriel pour les autres comptes du gouvernement du Canada que vous utilisez. 
+
+<gcds-notice type="warning" notice-title-tag="h2" notice-title="Cette modification de votre adresse courriel n’a d’effet que pour les programmes et services que vous avez connectés à votre compte Connexion GC">
 <!-- Remove reference of other services in French until V2. -->
-<gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, GCKey, or another method), you will need to sign in to those programs/services and update your email address there as well. To search for another GC Account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account directory</a>.</gcds-text>
+<gcds-text>
+  Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre adresse courriel auprès d’eux également. Pour une liste des programmes et services utilisant actuellement Connexion GC, rendez-vous sur la page Services disponibles. Pour rechercher un autre compte du GC, consultez le <a href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du GC</a>.
+</gcds-text>
 </gcds-notice>
