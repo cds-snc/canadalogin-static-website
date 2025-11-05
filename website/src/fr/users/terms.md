@@ -14,7 +14,7 @@ eleventyNavigation:
 # Terms and Privacy
 
 ## About GC Sign in 
-GC Sign in is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about [GC Sign in](/en/users/what-is-gc-sign-in/) or [get help](/en/users/). 
+GC Sign in is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about [GC Sign in](/fr/users/a-propos/) or [get help](/fr/users/). 
 
 
 GC Sign in is managed by Canada Digital Service (CDS) / Employment and Social Development Canada (ESDC) for the Government of Canada. We do not use the personal information you provide for any purpose other than providing you with an account.  
