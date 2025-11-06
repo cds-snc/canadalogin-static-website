@@ -36,7 +36,7 @@ eleventyNavigation:
 </gcds-heading>
 
 If you did not complete the sign up process already, you might be prompted to register a 2-step verification method. See our guide on {% linkRef links.problemssigninginwith2stepverification 'not-receiving-verification-codes-to-your-phone' 'problems registering text message/phone call verification' %} for help with this. 
-
+<!--
 ## Related topics
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
@@ -59,3 +59,4 @@ If you did not complete the sign up process already, you might be prompted to re
     description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues.">
     </gcds-card>
 </gcds-grid>
+-->
