@@ -41,4 +41,4 @@ If you're seeing a message that your password is not valid try the following tro
    
 
 ### 3. Contact Support
-    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+    If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
