@@ -17,7 +17,7 @@ eleventyNavigation:
   Follow these steps to sign in to GC Sign in:
 </gcds-text>
 
-1. Go to a service or program already connected to your GC Sign in account. If you’re not sure which programs/services are using GC Sign in, go to our {% linkRef links.availableservices '' 'available services' %} page.
+1. Go to a service or program already connected to your GC Sign in account.
 
 2. Select "Sign in with GC Sign in". You will find this button in the navigation bar at the top, or within the menu in the navigation bar. This will take you to the sign in page.
 
