@@ -1,106 +1,108 @@
 ---
-title: Issues with entering and verifying your email
+title: Problèmes liés à la saisie et à la vérification de votre adresse courriel
 translationKey: issuesWithEmailFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
    key: issuesWithEmailFR
-   title: Issues with entering and verifying your email
+   title: Problèmes liés à la saisie et à la vérification de votre adresse courriel
    locale: fr
    order: 2
    parent: troubleSigningUpFR
    hideMain: true
 ---
 
-# Problems entering and verifying your email
+# Problèmes liés à la saisie et à la vérification de votre adresse courriel
 
-- {% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}
-- {% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}
-- {% link '#it-says-the-code-is-invalid' 'It says the code is invalid' %}
-- {% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}
+- {% link '#un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}
+- {% link '#vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
+- {% link '#un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
 
-##  It says your email address is invalid
+- {% link '#un-message-indique-que-votre-adresse-courriel-est-deja-associee-a-un-compte-connexion-gc' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
 
-If you're seeing an "invalid email" error, here are a few things to check:
+## Un message indique que votre adresse courriel est invalide
+
+Si vous recevez un message d’erreur indiquant que votre adresse courriel est invalide, voici quelques points à vérifier :
+<br />
+
+### 1. Guettez les éventuelles fautes de frappe
+   - Assurez-vous qu’il n’y a pas d’espaces en trop avant ou après votre adresse courriel.
+   - Assurez-vous d’avoir utilisé le bon format. Par exemple : nom@exemple.com
+
+### 2. Certains types d’adresses courriel peuvent ne pas être pris en charge
+   - Certains domaines (comme ceux d’adresses courriel temporaires) peuvent ne pas être autorisés.
+   - Essayez d’utiliser un autre fournisseur de services de courrier électronique, comme Gmail ou Outlook.
+### 3. Connexion GC rencontre peut-être des problèmes
+   - Si vous avez la certitude que votre adresse courriel est correcte, le problème pourrait venir de nous. Nous vous suggérons d’attendre 24 heures, puis de réessayer.
+### 4. Contactez l’équipe de soutien
+   - Si aucune de ces solutions ne fonctionne, contactez l’équipe de soutien à la clientèle en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+
+##  Vous ne trouvez pas le code à usage unique dans votre boîte de réception
+
+Si vous ne trouvez pas le code à usage unique Connexion GC dans votre boîte de réception, essayez ces étapes de dépannage :
 
 <br />
 
-1. <strong>Double-check for typos</strong>
-   - Make sure there are no extra spaces before or after your email address.
-   - Confirm that you’ve entered the correct format. For example:, name@example.com
-2. <strong>Some types of email addresses may not be supported</strong>
-   - Some domains (like temporary or disposable emails) may not be allowed.
-   - Try using a different email provider, such as Gmail or Outlook.
-3. <strong>GC Sign in might be experiencing issues</strong>
-   - If you’re sure your email is correct, the issue could be on our end. We suggest waiting 24 hours and then trying again.
-4. <strong>Contact Support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+### 1. Vérifiez votre adresse courriel.
+   - Assurez-vous d’avoir saisi la bonne adresse courriel, sans fautes de frappe.
+### 2. Consultez votre dossier de pourriels ou de messages indésirables.
+   - Il se peut que le courriel ait été signalé comme étant un pourriel. Recherchez des messages ayant pour expéditeur Connexion GC. 
+### 3. Faites une recherche dans votre boîte de réception
+   - Utilisez la fonction de recherche dans votre boîte de réception de courriels pour chercher les termes « code de vérification Connexion GC ».
+### 4. Attendez quelques minutes et vérifiez à nouveau
+   - Il peut arriver que la livraison du courriel soit retardée.
+   - Si vous demandez plusieurs codes, seul le code reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes jusqu’à ce que l’un d’entre eux fonctionne.
 
-##  You cannot find the one-time code in your email inbox
+### 5. Vérifiez les filtres et les réglages de votre boîte de réception
+   - Si vous utilisez des filtres personnalisés, il se peut que le courriel se trouve dans un autre dossier.
+   - Si votre boîte de réception est gérée par une équipe de TI (travail ou école), consultez cette équipe pour vous assurer que le courriel n’est pas bloqué.
+### 6. Essayez de demander un nouveau code
+   - Sur la page Web, demandez un nouveau code de vérification en cliquant sur le lien « Demander un nouveau code » sous « Des problèmes avec votre code? ». Il se peut que vous deviez attendre quelques secondes avant que le lien permettant de demander un nouveau code apparaisse.
+### 7. Contactez l’équipe de soutien
+   - Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
 
-If you cannot find the one-time code for GC Sign in your email inbox, try these troubleshooting steps:
+## Un message indique que le code est invalide
 
-<br />
-
-1. <strong>Check your email address</strong>
-   - Make sure you entered the correct email address with no typos.
-2. <strong>Check your spam or junk folder</strong>
-   - The email might have been flagged as spam. Search for messages from GC Sign in.
-3. <strong>Search your inbox</strong>
-   - Use search function in your email to look for "GC Sign in verification code".
-4. <strong>Wait a few minutes and check again</strong>
-   - Email delivery can sometimes be delayed.
-   - If you requested multiple codes, only the most recent one will work.
-5. <strong>Check your email filters and rules</strong>
-   - If you use custom filters, the email might be in a different folder.
-   - If you have an IT-managed email (work or school), check with your IT team to ensure the email isn't blocked.
-6. <strong>Try resending the code</strong>
-   - On the webpage, request a new verification code by selecting the “Request a new code” link under “Problems with the code?”. You may have to wait a few seconds for the resend link to appear.
-7. <strong>Contact support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
-
-## It says your code is invalid
-
-If it says your one-time code is invalid, try these troubleshooting steps:
+Si un message indique que le code à usage unique que vous avez entré est invalide, essayez ces étapes de dépannage :
 
 <br />
 
-1. <strong>Make sure you have entered the code correctly</strong>
-   - Codes are 6-digits, double check that you entered or copied it correctly.
-2. <strong>Make sure you have the right code</strong>
-   - If you requested multiple codes, only the newest one-time code you receive will work. If you request
-     and receive multiple messages at the same time, you may need to try more than one code until one works.
-   - If you enter the code incorrectly too many times, you may be temporarily locked out.
+### 1. Assurez-vous d’avoir entré le code correctement
+   - Les codes sont composés de six chiffres, vérifiez d’avoir entré ou copié votre code correctement.
+### 2. Assurez-vous d’avoir le bon code
+   - Si vous avez demandé plusieurs codes, seul le code que vous avez reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes jusqu’à ce que l’un d’entre eux fonctionne.
+   - Si vous entrez le mauvais code à de trop nombreuses reprises, il se peut que votre compte soit temporairement verrouillé.
 
-## It says your email is already associated with a GC Sign in account
+## Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC
 
-If you have received an error message stating that your email is already associated with an account on
-GC Sign in, here’s what it means and what you can do.
+Si vous avez reçu un message d’erreur indiquant que votre adresse courriel est déjà associée à un compte Connexion GC, voici ce que cela signifie et ce que vous pouvez faire.
 
-###  What it means
 
-Your email address is already linked to a GC Sign in account. This could be because you previously created
-an account, or because someone else used or is using your email in error.
+###  Ce que cela signifie
 
-### What you can do
+Votre adresse courriel est déjà liée à un compte Connexion GC. Cela pourrait être parce que vous avez créé un compte dans le passé ou parce qu’une autre personne a utilisé ou utilise actuellement votre adresse courriel par erreur.
 
-1. <strong>If you previously created this account, sign in:</strong>
-   - Go to the sign-in page and sign in using the email address you used previously
-   - If you’ve forgotten your password, use the “Forgot Password” option to reset it.
-<gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
+
+### Ce que vous pouvez faire
+
+#### 1. Si vous avez créé ce compte dans le passé, connectez-vous d’une des manières suivantes :
+   - Rendez-vous sur la page de connexion et connectez-vous en utilisant l’adresse courriel que vous avez précédemment utilisée.
+   - Si votre compte est verrouillé et que vous ne pouvez pas y accéder, il se peut que vous deviez procéder à la récupération de votre compte. Reportez-vous aux guides ci-dessous. 
+
+<gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
     <gcds-text>
-         {% linkRef links.forgotyourpassword '#forgot-your-password' 'Forgot your password' %} 
+         {% linkRef links.forgotyourpasswordFR '#Mot-de-passé-oublié' 'Mot de passé oublié' %} 
     </gcds-text>
     <gcds-text>
-         {% linkRef links.problemssigninginwith2stepverification '#Problems-signing-in-with2-step-verification' 'Problems signing in with 2-step verification' %} 
+         {% linkRef links.problemssigninginwith2stepverificationFR '#Problèmes-liés-à-la-connexion-avec-la-vérification-en-deux-étapes' 'Problèmes liés à la connexion avec la vérification en deux étapes' %} 
      </gcds-text>
 </gcds-notice>
 
-2. <strong>If you were trying to create a new account:</strong>
-   -  Email addresses can only be linked to one GC Sign in account. You will need to use a different
-      email address to create a new account.
-3. <strong>If you think someone may be trying to create an account with your email, we recommend:</strong>
-   - Changing the password on your email account to make sure it’s secure.
-   - Not leaving your email signed in on shared devices.
-4. <strong>Contact support</strong>
-   - If you have additional questions or need additional help, {% link links.contact 'contact customer support.' %}
+#### 2. Si vous essayiez de créer un nouveau compte :
+   -  Les adresses courriel ne peuvent être liées qu’à un seul compte Connexion GC. Vous devrez utiliser une adresse courriel différente pour créer un nouveau compte.
+
+#### 3. Si vous pensez que quelqu’un essaie de créer un compte avec votre adresse courriel, nous vous recommandons les actions suivantes :
+   - Changez le mot de passe de votre compte de courrier électronique pour en garantir la sécurité.
+   - Ne laissez pas votre compte de courrier électronique connecté sur des appareils en commun.
+#### 4. Contactez l’équipe de soutien
+   - Si vous avez d’autres questions ou si vous avez besoin d’aide supplémentaire, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %}.
    
