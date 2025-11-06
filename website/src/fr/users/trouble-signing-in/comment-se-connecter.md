@@ -15,7 +15,7 @@ eleventyNavigation:
 
 <gcds-text>Suivez les étapes suivantes pour vous connecter à Connexion GC :</gcds-text>
 
-1. Rendez-vous sur la page Web d’un service ou programme qui est déjà connecté à votre compte Connexion GC. Si vous ne savez pas quels programmes/services utilisent Connexion GC, rendez-vous sur notre page recensant les {% linkRef links.availableservicesFR '' 'services disponibles' %}.
+1. Rendez-vous sur la page Web d’un service ou programme qui est déjà connecté à votre compte Connexion GC.
 
 2. Cliquez sur « Connectez-vous avec Connexion GC ». Vous trouverez ce bouton dans la barre de navigation supérieure ou dans le menu de la barre de navigation. Cela vous conduira à la page de connexion.
 
