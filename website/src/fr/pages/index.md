@@ -28,7 +28,7 @@ hero:
             Individus et entreprises
         </gcds-heading>
         <gcds-text>Découvrez le fonctionnement de Connexion GC ainsi que les services auxquels l’outil donne accès et obtenez de l’aide pour accéder plus facilement aux programmes et services du gouvernement du Canada.</gcds-text>
-        <gcds-text>{% link links.users 'Obtenir une aide à l’utilisation' %}</gcds-text>            
+        <gcds-text>{% link links.usersFR 'Obtenir une aide à l’utilisation' %}</gcds-text>            
     </div>
     <div>
         <img src="/assets/images/common/home/home_partners_icon.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf.">
@@ -36,7 +36,7 @@ hero:
             Ministères et organismes
         </gcds-heading>
         <gcds-text>Découvrez comment Connexion GC protégera les renseignements de vos utilisateurs et utilisatrices grâce aux normes les plus rigoureuses en matière de sécurité numérique et d’expérience utilisateur. Connexion GC se chargera à votre place du développement logiciel, des opérations de sécurité et du soutien aux utilisateurs finaux et utilisatrices finales.</gcds-text>
-        <gcds-text>{% link links.partners 'Devenir partenaire' %}</gcds-text>
+        <gcds-text>{% link links.partnersFR 'Devenir partenaire' %}</gcds-text>
         <p></p>
     </div>
 </gcds-grid>
