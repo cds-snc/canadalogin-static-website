@@ -42,6 +42,8 @@ Cette méthode peut être utile si vous n’avez pas de téléphone mobile ou si
 
 Pour les problèmes relatifs à la configuration ou à l’utilisation de la vérification par message texte ou par appel téléphonique, reportez-vous aux pages d’aide suivantes :
 
+<br />
+
 - {% link links.issuestwostepverificationFR 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %}
 - {% link links.problemssigninginwith2stepverificationFR 'Problèmes liés à la connexion à l’aide de la vérification par message texte / appel vocal' %}
           
