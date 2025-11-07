@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 
 # Gérer vos renseignements personnels
-
+  <!-- TO-DO: Fix links once pages are renamed -->
 - [Modifier votre nom](#change-your-name)
 - [Modifier votre langue de communication](#change-your-language-preferences)
 - [Modifier votre numéro de téléphone](#change-your-contact-phone-number)
