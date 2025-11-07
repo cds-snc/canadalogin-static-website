@@ -1,10 +1,10 @@
 ---
-title: I forgot my email
+title: Forgot your email
 translationKey: forgotyouremail
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: forgotYourEmailEn
-  title: I forgot my email
+  title: Forgot your email
   locale: en
   parent: troubleSigningInEn
   order: 2
