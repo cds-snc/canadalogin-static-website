@@ -1,9 +1,19 @@
 {% if page.url == "/en/" %}
-  {% set navPages = collections.all | eleventyNavigation("home") %}
+  {% set navPages = collections.all | eleventyNavigation("landing") %}
 {% elif page.url | startsWith("/en/users/") %}
   {% set navPages = collections.all | eleventyNavigation("usersEn") %}
 {% elif page.url | startsWith("/en/partners/") %}
   {% set navPages = collections.all | eleventyNavigation("partnersEn") %}
+{% else %}
+  {% set navPages = collections.all | eleventyNavigation %}
+{% endif %}
+
+{% if page.url == "/fr/" %}
+  {% set navPages = collections.all | eleventyNavigation("landingFR") %}
+{% elif page.url | startsWith("/fr/users/") %}
+  {% set navPages = collections.all | eleventyNavigation("usersFR") %}
+{% elif page.url | startsWith("/fr/partners/") %}
+  {% set navPages = collections.all | eleventyNavigation("partnersFR") %}
 {% else %}
   {% set navPages = collections.all | eleventyNavigation %}
 {% endif %}
