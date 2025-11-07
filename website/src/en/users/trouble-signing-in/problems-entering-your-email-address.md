@@ -2,6 +2,7 @@
 title: Problems entering your email address
 translationKey: problemsenteringyouremailaddress
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: problemsEnteringYourEmailAddressEn
   title: Problems entering your email address

@@ -2,6 +2,7 @@
 title: Problèmes liés à la saisie de votre adresse courriel
 translationKey: problemsenteringyouremailaddressFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: problemsEnteringYourEmailAddressFR
   title: Problèmes liés à la saisie de votre adresse courriel
