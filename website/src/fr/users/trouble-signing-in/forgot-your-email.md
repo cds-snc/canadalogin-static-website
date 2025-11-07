@@ -1,21 +1,21 @@
 ---
-title: I forgot my email
+title: Adresse courriel oubliée
 translationKey: forgotyouremailFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: forgotYourEmailEn
-  title: I forgot my email
+  key: forgotYourEmailFR
+  title: Adresse courriel oubliée
   locale: fr
   parent: troubleSigningInEn
   order: 2
 ---
 
-# Forgot your email
+# Adresse courriel oubliée
 
-Follow these steps to figure out which email address is attached to your GC Sign in account:
+Suivez ces étapes pour déterminer quelle adresse courriel est associée à votre compte Connexion GC : 
 
-- Enter the email address you normally use.
-- On the password page when signing in, select the "Reset your password" link near the bottom of the page.
-- Check your email for a message from GC Sign in. If there is an account with that email, we will send a 6-digit code to it. If there is not an account with that email address, you will not receive an email. You should try these steps again with a different email that you normally use.
+- Entrez l’adresse courriel que vous utilisez normalement.
+- Au moment d’entrer votre mot de passe pour vous connecter, cliquez sur le lien « Réinitialiser le mot de passe » près du bas de la page.
+- Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ». Si l’adresse courriel saisie correspond à un compte, vous recevrez à cette adresse un code à six chiffres. Si l’adresse courriel saisie ne correspond à aucun compte, vous ne recevrez pas de courriel. Nous vous conseillons de suivre à nouveau ce processus avec une autre adresse courriel que vous avez l’habitude d’utiliser.
 
-If you can't remember what email you signed up with, you will not be able to access your account. {% linkRef links.createaccount '' 'Create a new account' %} to access the service.
+Si vous ne souvenez plus de l’adresse courriel avec laquelle vous avez créé votre compte, vous ne pourrez pas accéder à votre compte. {% linkRef links.createaccountFR '' 'Créez un nouveau compte' %} pour accéder au service. 
