@@ -1,42 +1,42 @@
 ---
-title: Issues creating a password
+title: Problèmes liés à la création d’un mot de passe
 translationKey: issuesPasswordFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
    key: issuesPasswordFR
-   title: Issues creating a password
+   title: Problèmes liés à la création d’un mot de passe
    locale: fr
    order: 2
    parent: troubleSigningUpFR
    hideMain: true
 ---
 
-# Problems creating a password
+# Problèmes liés à la création d’un mot de passe
 
-- {% link '#it-says-your-password-is-not-valid' 'It says your password is not valid' %}
+- {% link '#un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}
 
-## It says your password is not valid
+## Un message indique que votre mot de passe est invalide
 
-If you're seeing a message that your password is not valid try the following troubleshooting steps:
+Si vous recevez un message disant que votre mot de passe n’est pas valide, essayez les étapes de dépannage suivantes :
    
-### 1. Make sure your password meets all the requirements
+### 1. Assurez-vous que votre mot de passe répond à toutes les exigences.
    
-   GC Sign in passwords **must**:
+   Les mots de passe Connexion GC **doivent** remplir la condition suivante :
    
-   - Be between 12 and 65 characters long.  
+   - Comprendre entre 12 et 65 caractères.  
 
-   GC Sign in passwords **cannot**:
+   Les mots de passe Connexion GC **ne peuvent pas** se trouver dans un des cas suivants :
 
-   - Be common word or phrase, or a commonly used password (e.g., "password123").  
+   - Être un mot courant ou une phrase courante, ni être un mot de passe couramment utilisé (comme « motdepasse123 »). 
    
-   - Contain repeated characters (e.g., "111" or "aaa").
-   - Include parts of your email address.
+   - Contenir des caractères répétitifs (p. ex. : « 111 » ou « aaa »).
+   - Contenir des éléments de votre adresse courriel.
 
-### 2. Choose a different password and try again
+### 2. Choisissez un mot de passe différent et réessayez
    
-   If your password does not meet the above rules, try choosing a new one that follows the guidelines.  
+   Si votre mot de passe n’est pas conforme aux règles ci-dessus, essayez d’en choisir un nouveau qui respecte ces règles. 
    
-   You can follow these tips on {% linkRef links.createaccount 'how-to-make-a-strong-password' 'how to make a strong password' %}. 
+   Vous pouvez suivre notre guide « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} ». 
 
-### 3. Contact Support
-    - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+### 3. Contactez l’équipe de soutien
+    Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
