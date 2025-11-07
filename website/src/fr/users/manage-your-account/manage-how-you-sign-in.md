@@ -28,7 +28,7 @@ Pour modifier votre mot de passe, procédez comme suit :
      <gcds-text>{% linkRef links.issuespasswordFR '' 'Problèmes liés à la création d’un mot de passe' %}</gcds-text>
    </gcds-notice>
 
-6. Félicitations! Un message confirmera que votre mot de passe a été modifié. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
+6. **Félicitations!** Un message confirmera que votre mot de passe a été modifié. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
 
 ## Gérer la vérification en deux étapes
 
@@ -106,7 +106,7 @@ Pour ajouter un numéro de téléphone pour la vérification en deux étapes, pr
      <gcds-text>{% linkRef links.issuestwostepverificationFR '' 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %}</gcds-text>
    </gcds-notice>
 
-8. Félicitations! Un message confirmera qu’un numéro de téléphone a été ajouté. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
+8. **Félicitations!** Un message confirmera qu’un numéro de téléphone a été ajouté. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
 9. Il vous sera demandé de configurer une méthode d’envoi de secours pour les codes de vérification. Si vous ne souhaitez pas le faire, vous pouvez ignorer cette étape. 
 
 ### Supprimer un numéro de téléphone pour la vérification en deux étapes
