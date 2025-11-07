@@ -1,23 +1,25 @@
 ---
-title: Problems entering your email address
+title: Problèmes liés à la saisie de votre adresse courriel
 translationKey: problemsenteringyouremailaddressFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: problemsEnteringYourEmailAddressFR
-  title: Problems entering your email address
+  title: Problèmes liés à la saisie de votre adresse courriel
   locale: fr
   parent: troubleSigningInFR
   order: 2
 ---
 
-# Problems entering your email address
+# Problèmes liés à la saisie de votre adresse courriel
 
-If you get an error when entering your email address, try the following:
+Si vous recevez un message d’erreur lors de la saisie de votre adresse courriel, essayez la solution suivante : 
 
-1. Make sure your email address is formatted correctly. It should include an "@" symbol, followed by the name of the email server (e.g. "gmail"), and a top-level domain (e.g. ".com", ".ca", ".org").
+1. Assurez-vous que l’adresse courriel a le bon format. Elle devrait inclure un symbole « @ » suivi du nom d’un serveur de courrier électronique (comme « gmail ») puis d’un domaine de premier niveau (comme « .com », « .ca » ou encore « .org »). 
 
-   **Example:** "name@gmail.com"
+   **Exemple :** « exemple.nom@gmail.com »
 
-2. If you tried the step above and it still is not working or you're getting a system error, it might be an issue on our end. Wait a few hours and try again.
 
-3. If after a few hours it still is not working, {% link links.contact 'contact customer support' %} and tell them what the issue is and what you've tried.
+2. Si la méthode ci-dessus ne fonctionne pas pour vous ou si vous obtenez une erreur système, le problème pourrait venir de nous. Attendez quelques heures et réessayez. 
+
+3. Si la situation n’est pas réglée au bout de quelques heures, {% link links.contact 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
