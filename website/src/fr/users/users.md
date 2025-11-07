@@ -6,7 +6,7 @@ eleventyNavigation:
   key: usersFR
   title: Aide à l’utilisation
   locale: fr
-  parent: homeFR
+  parent: landingFR
   order: 1
   hideMain: false
 hero:

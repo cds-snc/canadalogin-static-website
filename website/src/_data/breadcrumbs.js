@@ -6,7 +6,7 @@ module.exports = {
   },
   fr: {
     linkText: 'Connexion GC',
-    url: '/fr',
+    url: '/fr/',
     breadcrumb: "Fil d'Ariane",
   },
 };

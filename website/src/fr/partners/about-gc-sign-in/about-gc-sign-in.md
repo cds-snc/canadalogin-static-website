@@ -1,17 +1,17 @@
 ---
-title: About GC Sign in
+title: À propos de Connexion GC
 translationKey: aboutgcsigninFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: aboutgcsigninEN
-  title: About
+  title: À propos de Connexion GC
   parent: partnersFR
   locale: fr
   order: 1
   hideMain: false
 ---
 
-# About GC Sign in
+# À propos de Connexion GC
 
 Provides users with a simple, secure, single sign-in method for government services.
 

@@ -6,7 +6,7 @@ eleventyNavigation:
   key: partnersFR
   title: Partenaires
   locale: fr
-  parent: homeFR
+  parent: landingFR
   order: 3
   hideMain: false
 hero:

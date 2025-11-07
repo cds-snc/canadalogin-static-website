@@ -5,8 +5,8 @@ permalink: /en/
 translationKey: index
 redirect_from: /
 eleventyNavigation:
-  key: home
-  title: Home
+  key: landing
+  title: GC Sign in
   order: 1
 date: 'git Last Modified'
 hero:
