@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 
 # Avis de confidentialité
-Connexion GC est un produit du <gcds-link href="https://digital.canada.ca/" external> Service numérique canadien (SNC), </gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/en/employment-social-development.html" external> Emploi et Développement social Canada (EDSC) </gcds-link>. Le <gcds-link href="https://digital.canada.ca/privacy/" external> site Web du SNC </gcds-link> comporte ses propres pratiques en matière de confidentialité.
+Connexion GC est un produit du <gcds-link href="https://numerique.canada.ca/" external> Service numérique canadien (SNC), </gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external> Emploi et Développement social Canada (EDSC) </gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external> site Web du SNC </gcds-link> comporte ses propres pratiques en matière de confidentialité.
 
 ## Votre organisme a l’obligation de protéger les renseignements personnels
 Lorsque vous accédez à Connexion GC, votre organisme a les responsabilités suivantes :
