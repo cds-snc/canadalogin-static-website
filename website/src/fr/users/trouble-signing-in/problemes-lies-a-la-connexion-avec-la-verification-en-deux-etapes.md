@@ -2,6 +2,7 @@
 title: Problèmes liés à la connexion avec la vérification en deux étapes
 translationKey: problemssigninginwith2stepverificationFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: problemsSigningInWith2StepVerificationFR
   title: Problèmes liés à la connexion avec la vérification en deux étapes
