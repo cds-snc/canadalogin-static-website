@@ -3,7 +3,7 @@ title: Departments and agencies
 translationKey: departmentsAgencies
 layout: 'layouts/home.njk'
 eleventyNavigation:
-  key: partnersEn
+  key: partnersEN
   title: Partners
   locale: en
   parent: home

@@ -6,7 +6,7 @@ eleventyNavigation:
   key: troubleSigningUpEn
   title: Trouble signing up
   locale: en
-  parent: usersEn
+  parent: usersEN
   order: 2
   hideMain: true
 ---

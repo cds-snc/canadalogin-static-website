@@ -12,7 +12,7 @@
     "forgotyourpassword": "/en/users/trouble-signing-in/forgot-your-password/",
     "forgotyouremail": "/en/users/trouble-signing-in/forgot-your-email/",
     "getstarted": "/en/users/get-started/",
-    "landing": "/en/",
+    "landingEN": "/en/",
     "howtosignin": "/en/users/trouble-signing-in/how-to-sign-in/",
     "howtosignout": "/en/users/manage-your-account/how-to-sign-out/",
     "howtokeepyouraccountsecure": "/en/users/manage-your-account/how-to-keep-your-account-secure/",
@@ -26,7 +26,7 @@
     "managehowyousignin": "/en/users/manage-your-account/manage-how-you-sign-in/",
     "manageyourpersonalinformation": "/en/users/manage-your-account/manage-your-personal-information/",
     "openidconnectionprotocol": "/en/openid-connection-protocol/",
-    "partners": "/en/partners/",
+    "partnersEN": "/en/partners/",
     "problemsenteringyouremailaddress": "/en/users/trouble-signing-in/problems-entering-your-email-address/",
     "problemssigninginwith2stepverification": "/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/",
     "privacynoticepartners": "/en/partners/privacy/",
@@ -38,7 +38,7 @@
     "troublesigningup": "/en/users/trouble-signing-up/",
     "termsandprivacyusers": "/en/users/terms/",
     "termsandconditionspartners": "/en/partners/terms-and-conditions/",
-    "users": "/en/users/",
+    "usersEN": "/en/users/",
     "whattodowhenyoufindsuspiciousactivity": "/en/users/manage-your-account/what-to-do-when-you-find-suspicious-activity/"
   }
 }

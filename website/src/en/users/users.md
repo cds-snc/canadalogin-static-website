@@ -3,7 +3,7 @@ title: Individuals and organisations
 translationKey: users
 layout: 'layouts/home.njk'
 eleventyNavigation:
-  key: usersEn
+  key: usersEN
   title: User help
   locale: en
   parent: landing

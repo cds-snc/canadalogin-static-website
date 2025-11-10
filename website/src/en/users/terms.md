@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: termsAndPrivacyUsersEN
   title: Terms
-  parent: usersEn
+  parent: usersEN
   locale: en
   order: 4
   hideMain: true

@@ -3,7 +3,7 @@ title: Privacy notice statement
 translationKey: privacynoticepartnersFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: privacyNoticePartnersFR
+  key: privacynoticepartnersFR
   title: Privacy Notice
   parent: partnersFR
   locale: fr

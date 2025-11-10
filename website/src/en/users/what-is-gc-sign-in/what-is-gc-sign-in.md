@@ -6,7 +6,7 @@ eleventyNavigation:
   key: whatisgcsigninEn
   title: About
   locale: en
-  parent: usersEn
+  parent: usersEN
   order: 4
   hideMain: false
   date: 'Last Modified'

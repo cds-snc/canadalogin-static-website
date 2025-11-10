@@ -6,7 +6,7 @@ eleventyNavigation:
   key: signinroadmapEN
   title: Roadmap
   locale: en
-  parent: partnersEn
+  parent: partnersEN
   order: 2
   hideMain: false
 ---

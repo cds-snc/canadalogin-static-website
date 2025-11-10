@@ -1,9 +1,9 @@
 {% if page.url == "/en/" %}
-  {% set navPages = collections.all | eleventyNavigation("landing") %}
+  {% set navPages = collections.all | eleventyNavigation("landingEN") %}
 {% elif page.url | startsWith("/en/users/") %}
-  {% set navPages = collections.all | eleventyNavigation("usersEn") %}
+  {% set navPages = collections.all | eleventyNavigation("usersEN") %}
 {% elif page.url | startsWith("/en/partners/") %}
-  {% set navPages = collections.all | eleventyNavigation("partnersEn") %}
+  {% set navPages = collections.all | eleventyNavigation("partnersEN") %}
 {% else %}
   {% set navPages = collections.all | eleventyNavigation %}
 {% endif %}
