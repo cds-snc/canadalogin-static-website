@@ -149,8 +149,4 @@ GC sign in will eventually support other multi-factor authentication options inc
   Funded through <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-en.html">Budget 2024</gcds-link>, GC Sign in was created to provide a single front door for federal government programs and services. 
 </gcds-text>
 
-<gcds-text>
-  <gcds-link href="https://digital.canada.ca/about/">
-    Learn more about CDS
-  </gcds-link>
-</gcds-text>
+<gcds-text>[Learn more about CDS](https://digital.canada.ca/about/)</gcds-text>

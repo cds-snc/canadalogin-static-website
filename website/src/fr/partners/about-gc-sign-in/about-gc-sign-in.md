@@ -159,8 +159,4 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
   Connexion GC est un projet financé par le <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-fr.html">budget de 2024</gcds-link>, visant à offrir une porte d’entrée unique pour les programmes et services du gouvernement fédéral.
 </gcds-text>
 
-<gcds-text>
-  <gcds-link href="https://numerique.canada.ca/a-propos/">
-    Learn more about CDS
-  </gcds-link>
-</gcds-text>
+<gcds-text>[Apprenez-en plus sur le SNC](https://numerique.canada.ca/a-propos/)</gcds-text>
