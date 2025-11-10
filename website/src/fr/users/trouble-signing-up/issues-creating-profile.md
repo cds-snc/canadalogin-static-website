@@ -1,27 +1,27 @@
 ---
-title: Issues with creating a profile
+title: Problèmes liés à la création d’un profil
 translationKey: creatingprofileFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: creatingProfileFR
-  title: Issues with creating a profile
+  title: Problèmes liés à la création d’un profil
   locale: fr
   order: 2
   parent: troubleSigningUpFR
   hideMain: true
 ---
 
-# Problems with creating a profile
+# Problèmes liés à la création d’un profil
 
-When signing up for GC Sign in, you’ll need to provide some basic information to create your profile, including your:
-- Name
+Pour créer votre profil lors de votre inscription à Connexion GC, vous devrez fournir quelques renseignements de base, y compris le renseignement suivant :
+- Nom
            
-If you’re having issues entering this information, see our troubleshooting topics below:
+Si vous avez des problèmes pour entrer ces renseignements, consultez nos guides de dépannage ci-dessous :
 
-### You are not sure what to enter for your name
+### Vous ne savez pas quoi entrer comme nom
     
-Try the following:
-- <strong>First name (optional)</strong>: You can choose to enter a first name or leave it blank.
-- <strong>Last name (required)</strong>: You must enter your last name. If you do not have a last name, write your legal name in this field.
+Essayez ce modèle :
+- <strong>Prénom (facultatif) </strong>: Vous pouvez choisir d’entrer un prénom ou de laisser le champ vide. 
+- <strong>Nom de famille (obligatoire) </strong>: Vous devez entrer un nom de famille. Si vous n’avez qu’un nom au lieu d’un nom et d’un prénom, écrivez votre nom légal dans ce champ.
  
-If you are still having issues {% link links.contact 'contact customer support' %} with your issue and tell them what you’ve tried.
+Si vous rencontrez encore des problèmes, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
