@@ -1,32 +1,32 @@
 ---
-title: About GC Sign in
+title: À propos de Connexion GC
 translationKey: aboutgcsigninFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: aboutgcsigninEN
-  title: About
+  title: À propos
   parent: partnersFR
   locale: fr
   order: 1
   hideMain: false
 ---
 
-# About GC Sign in
+# À propos de Connexion GC
 
-Provides users with a simple, secure, single sign-in method for government services.
+Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion unique simple et sécurisée pour accéder aux services gouvernementaux.
 
-## What you can expect
+## À quoi s’attendre
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
-      Sign-in authentication options
+      Options d’authentification pour la connexion
     </gcds-heading>
     <gcds-text>
-      Users can authenticate using a password and a one time code sent through SMS or voice (credential assurance level 2).
+      Les utilisateurs et utilisatrices peuvent s’authentifier à l’aide d’un mot de passe et d’un code à usage unique envoyé par SMS ou par appel vocal (niveau d’assurance 2 en matière de justificatifs).
     </gcds-text>
     <gcds-text>
-GC sign in will eventually support other multi-factor authentication options including passkeys, security keys and authenticator applications.    </gcds-text>
+À terme, Connexion GC prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.    </gcds-text>
     <gcds-text>
       Additionally, later versions may support signing in with external credential service providers such as provincial and territory digital identities.
     </gcds-text>
