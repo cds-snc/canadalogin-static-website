@@ -44,11 +44,3 @@ Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un mes
 6. Cliquez sur « Continuer ».
 
 7. Félicitations! Vous avez réinitialisé votre mot de passe et la connexion a réussi. Votre redirection va être effectuée vers le programme ou service auquel vous cherchiez à accéder. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
-
-<a id="account-incomplete"></a>
-### What to do if it says your account is incomplete
-If you receive an error message saying your password cannot be reset because your account is incomplete, it means you did not finish setting up your account during sign up.
-
-At this time, we cannot reset passwords online for incomplete accounts. We apologize for the inconvenience. 
-
-We recommend creating a new account using a different email address.
