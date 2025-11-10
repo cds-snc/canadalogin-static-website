@@ -37,15 +37,15 @@ Below is the planned timeline for providing features and achieving milestones fo
     </tr>
     <tr>
       <td>Users supported with basic phone and online support</td>
-      <td>🔄&nbsp;In&nbsp;progress</td>
+      <td>✅&nbsp;Completed</td>
     </tr>
     <tr>
       <td>Complete a Privacy Impact Assessment (PIA)</td>
-      <td>🔄&nbsp;In&nbsp;progress</td>
+      <td>✅&nbsp;Completed</td>
     </tr>
     <tr>
       <td>Obtain Authority to Operate (ATO) for a service that's assessed for Protected B / Medium integrity  / Medium availability (PBMM)​</td>
-      <td>🔄&nbsp;In&nbsp;progress</td>
+      <td>✅&nbsp;Completed</td>
     </tr>
     <tr>
       <td>Provided pilot testing environment</td>
