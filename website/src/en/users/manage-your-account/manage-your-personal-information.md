@@ -78,7 +78,7 @@ To change the phone number GC Sign in and connected programs/services use to con
    </gcds-notice>
 
 6. When prompted, confirm that your new phone number is correct and that you want to update it.
-7. Success! There will be a message confirming that your contact phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email.
+7. **Success!** There will be a message confirming that your contact phone number has been updated. You will also receive an email notifying you of the change you just made. You can ignore this email.
 8. Update your contact phone number with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your contact phone number here only updates it with programs/services that are connected to your GC Sign in">
