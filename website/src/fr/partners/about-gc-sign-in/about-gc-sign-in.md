@@ -3,7 +3,7 @@ title: À propos de Connexion GC
 translationKey: aboutgcsigninFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: aboutgcsigninEN
+  key: aboutgcsigninFR
   title: À propos
   parent: partnersFR
   locale: fr
@@ -26,9 +26,10 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Les utilisateurs et utilisatrices peuvent s’authentifier à l’aide d’un mot de passe et d’un code à usage unique envoyé par SMS ou par appel vocal (niveau d’assurance 2 en matière de justificatifs).
     </gcds-text>
     <gcds-text>
-À terme, Connexion GC prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.    </gcds-text>
+      À terme, Connexion GC prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.    
+    </gcds-text>
     <gcds-text>
-      Additionally, later versions may support signing in with external credential service providers such as provincial and territory digital identities.
+      De plus, les versions ultérieures pourraient prendre en charge la connexion avec des fournisseurs de justificatifs d’identité externes, tels que les identités numériques provinciales et territoriales.
     </gcds-text>
   </div>
   <div>
@@ -39,13 +40,13 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
-      Self-managed account recovery
+      Récupération de compte autogérée
     </gcds-heading>
     <gcds-text>
-      Users can reset a lost password by verifying with a code sent to their email and another sent to their phone. If they lose access to their phone number, they can recover it through a code sent to the user’s email and a backup verification method. 
+      Les utilisateurs et utilisatrices peuvent réinitialiser leur mot de passe en cas de perte. Pour ce faire, il leur faut procéder à une vérification à l’aide d’un code reçu par courriel et d’un autre reçu par téléphone. S’ils et elles perdent accès à leur numéro de téléphone, ils et elles peuvent récupérer leur compte grâce à un code envoyé à leur adresse courriel et à une méthode de vérification de secours.  
     </gcds-text>
     <gcds-text>
-      However, accounts cannot be recovered if the email address is forgotten.
+      Toutefois, il est impossible de récupérer un compte en cas d’oubli de l’adresse courriel qui y est associée.
     </gcds-text>
   </div>
   <div style="">
@@ -56,13 +57,13 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
-      User profile
+      Profil utilisateur
     </gcds-heading>
     <gcds-text>
-      A user’s profile includes basic information like their name, email, phone number, and language preference.
+      Un profil utilisateur comprend des renseignements de base comme le nom, l’adresse courriel, le numéro de téléphone et la langue de communication.
     </gcds-text>
     <gcds-text>
-      Users can manage their profile and authenticators by adding, editing, or removing them at any time. Any updates made will be shared with the service they’re signing into. Partners will need the authority to collect personal information.
+      Les utilisateurs et utilisatrices peuvent à tout moment gérer leur profil et leurs authentifiants en ajoutant, en modifiant ou en supprimant des éléments. Toute mise à jour réalisée sera communiquée au service auquel les utilisateurs et utilisatrices se connectent. Les partenaires devront avoir l’autorisation de recueillir des renseignements personnels.
     </gcds-text>
   </div>
   <div>
@@ -70,21 +71,21 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
   </div>
 </gcds-grid>
 
-## What’s coming next
+## Avancées à venir
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
   <div>
     <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Credential assurance level 3
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Niveaux d’assurance 3 en matière de justificatifs
     </gcds-text>
     <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Identity assurance level 2
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Niveau d’assurance 2 en matière d’identité
     </gcds-text>
     <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Access management
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Gestion des accès
     </gcds-text>
     <gcds-text>
-      <i class="fa-solid fa-arrow-right"></i> &nbsp; Enhanced fraud management
+      <i class="fa-solid fa-arrow-right"></i> &nbsp; Gestion améliorée de la fraude
     </gcds-text>
   </div>
   <div>
@@ -92,27 +93,27 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="View the roadmap" href="/en/partners/roadmap">
-  View the roadmap
+<gcds-button type="link" button-role="secondary" value="Voir la feuille de route" href="/fr/partners/roadmap">
+  Voir la feuille de route
 </gcds-button>
 
-## Technical specifications
+## Spécifications techniques
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
-      Availability
+      Disponibilité
     </gcds-heading>
     <gcds-text>
-      GC Sign in is committed to working collaboratively to provide timely resolution of issues including responding to support requests and inquiries during regular business hours (9am to 5pm Eastern Time).
+      Connexion GC s’engage à travailler de manière collaborative pour résoudre rapidement des problèmes, notamment en répondant aux questions et aux demandes de soutien durant les heures normales de travail (de 9 h à 17 h, heure de l’Est).
     </gcds-text>
   </div>
   <div>
     <gcds-heading tag="h3">
-      Capacity
+      Capacité
     </gcds-heading>
     <gcds-text>
-      The production environment currently has capacity to authenticate up to 12 users per second (43,200 per hour).
+      L’environnement de production a actuellement la capacité d’authentifier jusqu’à 12 utilisateurs ou utilisatrices par seconde (soit 43 200 par heure).
     </gcds-text>
   </div>
 </gcds-grid>
@@ -123,15 +124,15 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Performance
     </gcds-heading>
     <gcds-text>
-      The performance target for the production environment is to respond to 95% of HTTP requests within 200 milliseconds or less, and to respond to 99% of HTTP requests within 500 milliseconds or less.
+      L’objectif de performance pour l’environnement de production est de répondre à 95 % des requêtes HTTP dans un délai de 200 millisecondes ou moins et de répondre à 99 % des requêtes HTTP dans un délai de 500 millisecondes ou moins.
     </gcds-text>
   </div>
   <div>
     <gcds-heading tag="h3">
-      Data backup and recovery
+      Sauvegarde des données et récupération
     </gcds-heading>
     <gcds-text>
-      All user data and all configuration data of the service data is backed up once per hour, every hour to geographically redundant storage, with a durability of at least 99.9999% over a given year.
+      Toutes les données des utilisateurs et utilisatrices et toutes les données de configuration du service sont sauvegardées une fois par heure, toutes les heures, vers des installations de stockage géographiquement redondantes avec une durabilité d’au moins 99,9999 % sur une année donnée.
     </gcds-text>
   </div>
 </gcds-grid>
@@ -139,26 +140,27 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-heading tag="h3">
-      Security
+      Sécurité
     </gcds-heading>
     <gcds-text>
-      Offers identity assurance level 1 and credential assurance level 2. This means you can safely provide your clients access to manage, submit, and store information rated at Protected B, Medium Integrity, Medium Availability (PBMM).
+      Connexion GC offre un niveau d’assurance 1 en matière d’identité et un niveau d’assurance 2 en matière de justificatifs. Cela signifie que vous pouvez en toute sécurité fournir à votre clientèle un accès pour lui permettre de gérer, de soumettre et de conserver des renseignements classés au niveau PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne).
+      
     </gcds-text>
   </div>
 </gcds-grid>
 
-## About the GC Sign in team
+## À propos de l’équipe derrière Connexion GC
 
 <gcds-text>
-  GC Sign in is developed by the Canadian Digital Service (CDS). CDS is part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html">Employment and Social Development Canada (ESDC)</gcds-link>. We aim to advance the goals of the <gcds-link href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-operations-strategic-plans/canada-digital-ambition.html">Digital Ambition</gcds-link> and improve service experiences in the Government of Canada. We build digital products that solve common service problems for departments.
+  Connexion GC est un outil développé par le Service numérique canadien (SNC). Le SNC fait partie d’<gcds-link href="https://www.canada.ca/en/employment-social-development.html">Emploi et Développement social Canada (EDSC)</gcds-link>. l cherche à contribuer à la réalisation des objectifs de l’<gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ambition-numerique-canada/ambition-numerique-canada-2022-23.html">Ambition numérique</gcds-link> et à améliorer l’expérience d’utilisation des services du gouvernement du Canada. Nous créons des produits numériques répondant aux problèmes auxquels font généralement face les services ministériels. 
 </gcds-text>
 
 <gcds-text>
-  Funded through <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-en.html">Budget 2024</gcds-link>, GC Sign in was created to provide a single front door for federal government programs and services. 
+  Connexion GC est un projet financé par le <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-fr.html">budget de 2024</gcds-link>, visant à offrir une porte d’entrée unique pour les programmes et services du gouvernement fédéral.
 </gcds-text>
 
 <gcds-text>
-  <gcds-link href="https://digital.canada.ca/about/">
+  <gcds-link href="https://numerique.canada.ca/a-propos/">
     Learn more about CDS
   </gcds-link>
 </gcds-text>
