@@ -27,7 +27,6 @@ Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un mes
 3. Entrez le code sur la page Web et cliquez sur « Continuer ».
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
     <gcds-text>{% linkRef links.issuesenterverifyemailFR 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'Que faire si vous ne trouvez pas de courriel contenant le code dans votre boîte de réception' %}</gcds-text>
-    <gcds-text>{% linkRef links.forgotyourpassword 'what-to-do-if-it-says-your-account-is-incomplete' 'What to do if it says your account is incomplete.' %}</gcds-text>
   </gcds-notice>
 
 4. Complétez la vérification en deux étapes.
