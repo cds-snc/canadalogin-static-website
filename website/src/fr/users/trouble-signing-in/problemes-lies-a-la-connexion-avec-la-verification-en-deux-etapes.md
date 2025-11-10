@@ -54,7 +54,7 @@ Si vous ne recevez pas les codes de vérification sur votre téléphone, essayez
 - Si vous avez un téléphone mobile, assurez-vous que le mode avion est désactivé et que vous disposez d’une connexion cellulaire au service de votre fournisseur.
 
 - Il se peut que votre code ne vous parvienne pas immédiatement. Attendez jusqu’à 10 minutes ou cliquez sur « Demander un nouveau code » pour recevoir un nouveau code. Il se peut que vous deviez attendre quelques secondes avant que le lien permettant de demander un nouveau code apparaisse. Ce lien apparaîtra sous l’en-tête « Des problèmes avec votre code? », près du bas de la page.
-  - (I) Si vous demandez plusieurs codes, seul le code reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes. (I)
+  - Si vous demandez plusieurs codes, seul le code reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes.
 
 - Si vous avez préalablement enregistré un autre numéro de téléphone ou une autre méthode d’envoi, essayez d’utiliser ces options. Voici la marche à suivre :
   - Sur la page « Consultez votre téléphone », sélectionnez « Essayer d’une autre manière ».
