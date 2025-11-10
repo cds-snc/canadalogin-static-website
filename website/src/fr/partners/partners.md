@@ -1,5 +1,5 @@
 ---
-title: Departments and agencies
+title: Ministères et organismes
 translationKey: departmentsAgenciesFR
 layout: 'layouts/home.njk'
 eleventyNavigation:
@@ -10,55 +10,55 @@ eleventyNavigation:
   order: 3
   hideMain: false
 hero:
-  title: 'GC Sign in for departments and agencies'
-  summary: 'A secure and easy way to access Government of Canada programs and services online'
+  title: 'Connexion GC pour les ministères et organismes'
+  summary: 'Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada'
   image: '/assets/images/common/partners/partners_home_gc_signin.svg'
   altText:
 ---
 
 <gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
-  What is GC Sign in
+  Qu’est-ce que Connexion GC?
 </gcds-heading>
 
 <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="A lock in a shield icon.">
-    <h3 class="mt-0">Simplified sign-in</h3>
-    <p>Give users a consistent, convenient, and accessible way to securely access your service, supported by the latest standards and strong privacy protections (PBMM).</p>
+    <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant un cadenas sur un bouclier.">
+    <h3 class="mt-0">Une connexion simplifiée</h3>
+    <p>Permettez aux utilisateurs et utilisatrices d’accéder à votre service en toute sécurité grâce à une méthode cohérente, pratique et accessible s’appuyant sur les normes les plus récentes et sur de robustes protections de la confidentialité (niveau PBMM).</p>
   </li>
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Two speech bubbles with a question mark icon.">
-    <h3 class="mt-0">Enhanced security and fraud management</h3>
-    <p>Provide greater certainty and reduced fraud through identity assurance level 1 and credential assurance level 2, with multi-factor authentication options such as SMS or voice.</p>     
+    <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant deux bulles de dialogue et un point d’interrogation.">
+    <h3 class="mt-0">Sécurité et gestion de la fraude améliorées</h3>
+    <p>Alliez une certitude renforcée à une fraude réduite grâce à un niveau d’assurance 1 en matière d’identité et à un niveau d’assurance 2 en matière de justificatifs, avec des options multifacteur comme les SMS ou les appels vocaux.</p>     
   </li>
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="A gear and wrench icon">
-    <h3 class="mt-0">GC Sign in takes responsibility</h3>
-    <p>Rely on GC Sign in to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>     
+    <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant une roue dentée et une clé mécanique.">
+    <h3 class="mt-0">Connexion GC s’engage</h3>
+    <p>Vous pouvez compter sur Connexion GC pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>     
   </li>
 </gcds-grid>
 
-<gcds-button type="link" value="Learn more" href="about-gc-sign-in">
-  Learn about GC Sign in&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
+<gcds-button type="link" value="Découvrez Connexion GC" href="about-gc-sign-in">
+  Découvrez Connexion GC&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 
 <gcds-heading tag="h2">
-  GC Sign in is set to become the single sign in solution for all Government of Canada services
+  L’outil Connexion GC est voué à devenir la solution de connexion unique pour l’ensemble des services du gouvernement du Canada
 </gcds-heading>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-text>
-    Designed with users in mind, GC Sign in will offer an intuitive, inclusive experience that makes accessing government programs easier than ever. 
+    Connexion GC est le fruit d’une conception centrée sur l’utilisateur. L’outil offrira une expérience inclusive et intuitive et simplifiera plus que jamais l’accès aux programmes gouvernementaux. 
   </gcds-text>
   <gcds-text>
-    For service providers, it streamlines adoption and reduces overhead by eliminating the need for custom authentication systems. This centralized approach supports a more efficient, secure, and scaleable digital ecosystem across departments. 
+    Pour les fournisseurs de services, l’outil simplifie l’adoption et réduit les frais généraux en éliminant la nécessité de systèmes d’authentification sur mesure. Cette approche centralisée participe à la mise en place d’un écosystème numérique plus efficace, sécurisé et évolutif à l’échelle des ministères. 
   </gcds-text>
   <gcds-text>
-    Endorsed as an enterprise solution by the Government of Canada’s Enterprise Architecture Review Board, GC Sign in will also help departments meet requirements under the Policy on Government Security and the Directive on Identity Management. 
+    L’outil Connexion GC a été approuvé comme solution d’entreprise par le Conseil d’examen de l’architecture intégrée du gouvernement du Canada. Il aidera également les ministères à répondre aux exigences de la Politique sur la sécurité du gouvernement et de la Directive sur la gestion de l’identité.
   </gcds-text>
   <gcds-text>
-    Want to see what’s next? Explore the GC Sign in roadmap to learn about upcoming features and milestones.
+    Vous souhaitez connaître les prochaines étapes? Découvrez la feuille de route de Connexion GC pour en savoir plus sur les fonctionnalités et étapes à venir.
   </gcds-text>
   </div>
   <div>
@@ -66,29 +66,29 @@ hero:
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="GC Sign in Roadmap" href="roadmap">
-  GC Sign in Roadmap
+<gcds-button type="link" button-role="secondary" value="Feuille de route de Connexion GC" href="roadmap">
+  Feuille de route de Connexion GC
 </gcds-button>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-heading tag="h2">
-      Is GC Sign in right for you?
+      Connexion GC est-il fait pour vous?
     </gcds-heading>
     <gcds-text>
-    While GC Sign in is still being developed, we want our partners to be ready for what's ahead. GC Sign in is right for you if: 
+    Connexion GC est encore en cours de développement. Toutefois, nous voulons que nos partenaires puissent d’ores et déjà se préparer à l’adopter. L’outil Connexion GC est fait pour vous si vous remplissez les critères suivants :  
     </gcds-text>
     <gcds-text>
       <ul class="list-disc mb-300">
-        <li>You’re part of a federal department or agency</li>
-        <li>You want to securely authenticate users to your application(s)</li>
-        <li>You want to protect your users’ accounts with strong multi-factor authentication (MFA)</li>
-        <li>You want to protect your users' privacy through encryption</li>
-        <li>Your application(s) can integrate with OpenID Connect (OIDC) web-based identity protocol</li>
+        <li>Vous faites partie d’un ministère ou d’un organisme gouvernemental.</li>
+        <li>Vous souhaitez permettre à vos utilisateurs et utilisatrices de s’authentifier de manière sécurisée dans le cadre de vos applications. </li>
+        <li>Vous souhaitez protéger les comptes de vos utilisateurs et utilisatrices grâce à une authentification multifacteur robuste.</li>
+        <li>Vous souhaitez protéger la vie privée de vos utilisateurs et utilisatrices par le biais du chiffrement.</li>
+        <li>Vos applications peuvent s’intégrer avec le protocole d’identité Web OpenID Connect (OIDC).</li>
       </ul>
     </gcds-text>
     <gcds-text>
-      Connect with us to help your team evaluate readiness and transition strategies or answer any questions you may have.
+      Contactez-nous si vous avez des questions ou si vous souhaitez que nous aidions votre équipe à évaluer sa préparation et ses stratégies de transition.
     </gcds-text>
     <gcds-text>
       <gcds-link href="/en/contact-us">Contact us</gcds-link>
@@ -96,24 +96,24 @@ hero:
   </div>
   <div>
     <gcds-heading tag="h2">
-      Looking for technical resources? 
+      En quête de ressources techniques? 
     </gcds-heading>
     <img class="mb-150" src="/assets/images/common/partners/partners_architecture.svg" alt="A database architecture icon">     
     <gcds-text>
-      Find general information for the OpenID Connect protocol, including implementation information, sequence diagrams and relying party integration configurations in the help topics found on the resources page.
+      Explorez les différents sujets d’aide de la page des ressources. Vous y trouverez des renseignements généraux sur le protocole OpenID Connect, y compris de l’information en matière de mise en œuvre, des diagrammes de séquences et des configurations pour l’intégration de parties utilisatrices.
     </gcds-text>
     <gcds-text>
-      <gcds-text text-role="secondary">Coming soon</gcds-text>
+      <gcds-text text-role="secondary">Prochainement</gcds-text>
     </gcds-text>
   </div>
 </gcds-grid>
 
-<gcds-heading tag="h2">Receive communications from GC Sign in</gcds-heading>
+<gcds-heading tag="h2">Recevoir des communications de Connexion GC</gcds-heading>
 
 <gcds-text>
-  If you'd like to receive updates, sign up for our GC Sign in mailing list.
+Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de Connexion GC. 
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="GC Sign in Roadmap">
-  Sign up for communications&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
+<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications">
+  Abonnez-vous aux communications&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
