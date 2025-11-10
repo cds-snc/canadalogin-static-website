@@ -1,92 +1,93 @@
 ---
-title: Privacy notice statement
+title: Avis de confidentialité
 translationKey: privacynoticepartnersFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: privacyNoticePartnersFR
-  title: Privacy Notice
+  title: Confidentialité
   parent: partnersFR
   locale: fr
   order: 4
   hideMain: true
 ---
 
-# Privacy notice statement
-GC Sign in is a product of the <gcds-link href="https://digital.canada.ca/" external> Canadian Digital Service (CDS) </gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external> Employment and Social Development Canada </gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external> CDS website </gcds-link> has its own privacy practices.
+# Avis de confidentialité
+Connexion GC est un produit du <gcds-link href="https://digital.canada.ca/" external> Service numérique canadien (SNC), </gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/en/employment-social-development.html" external> Emploi et Développement social Canada (EDSC) </gcds-link>. Le <gcds-link href="https://digital.canada.ca/privacy/" external> site Web du SNC </gcds-link> comporte ses propres pratiques en matière de confidentialité.
 
-## Your organization must protect personal information
-When you access GC Sign in, your organization is responsible for:
-- Protecting the personal information in the Core Profile.
-- Complying with the laws and policies of your department or agency. 
+## Votre organisme a l’obligation de protéger les renseignements personnels
+Lorsque vous accédez à Connexion GC, votre organisme a les responsabilités suivantes :
+- Protéger les renseignements personnels du profil central.
+- Respecter les lois et les politiques de votre ministère ou organisme.
 
-To learn more, contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+Pour en savoir plus, contactez-nous par courriel à l’adresse [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
 
-## We provide privacy information directly to people creating accounts.
-We display a privacy notice statement when people are creating or using the GC Sign in account. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
+## Nous fournissons des renseignements en matière de confidentialité directement aux personnes qui créent des comptes
+Nous affichons un avis de confidentialité lorsque les gens créent ou utilisent un compte Connexion GC. Nous communiquons des renseignements sur notre conservation et notre élimination (stockage et suppression) de leurs renseignements personnels dans nos bases de données, ainsi que sur les fonctionnalités permettant de protéger la sécurité des sites Web du gouvernement du Canada. 
 
-## We collect your personal information
-Your personal information includes: name and contact information, department or agency,  as well as the feedback you provide or question that you ask. We use your information to communicate with you, improve the product, and report on its impact. 
+## Nous recueillons vos renseignements personnels
+Vos renseignements personnels comprennent les éléments suivants : votre nom et vos coordonnées, votre ministère ou organisme et les commentaires que vous fournissez ou les questions que vous posez. Nous utilisons vos renseignements pour communiquer avec vous, pour améliorer le produit et pour faire des rapports sur son incidence. 
 
-The <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/h-5.7/FullText.html"> Department of Employment and Social Development Act </gcds-link> Section 5.1 allows CDS to collect this information. You can read more about this authority in the Standard Personal Information Bank <gcds-link href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu915"> PSU 915 </gcds-link>. 
+L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html"> Loi sur le ministère de l’Emploi et du Développement social </gcds-link> autorise le SNC a recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915"> POU 915 </gcds-link>. 
 
-## We use web analytics
-<gcds-text> Analytics show how people use our websites. By studying how people navigate, we can improve GC Sign in. </gcds-text>
+## Nous utilisons l’analytique Web
+<gcds-text> L’analytique Web révèle comment les gens utilisent nos pages Web. L’étude de ce comportement nous permet d’améliorer Connexion GC.
+ </gcds-text>
 
-We use Google Analytics for information about:
-- Pages people visit, links they select, and documents they download.
-- Types of operating systems that visit GC Sign in.
-- Browsers that visit GC Sign in.
-- Approximate location, if enabled on the browser.
-- Date and time of visits.
+Nous utilisons Google Analytics pour obtenir les informations suivantes :
+- Les pages visitées, les liens utilisés et les documents téléchargés.
+- Les systèmes d’exploitation utilisés pour accéder à Connexion GC.
+- Les navigateurs Web utilisés pour accéder à Connexion GC.
+- L’emplacement approximatif, si cette option est activée sur le navigateur.
+- La date et l’heure des visites.
 
-We do not use analytics to collect information that could identify you or your specific location.
+Nous n’utilisons pas l’analytique Web pour collecter des renseignements susceptibles de vous identifier ou de vous localiser.
 
-## We monitor and log some information 
+## Nous réalisons un suivi et journalisons certains renseignements
 
-Software programs are used to: 
-- Monitor network traffic; and  
-- Identify unauthorized attempts to upload or change information or otherwise cause damage.  
+Des programmes logiciels sont utilisés aux fins suivantes : 
+- Surveiller le trafic réseau.
+- Détecter les tentatives non autorisées de téléverser ou de modifier des données, ou de causer d’autres dommages.  
 
-<gcds-text> When you visit our website, these software programs automatically receive and temporarily store information from your browser in our web server logs for 12 months. </gcds-text>
+<gcds-text> Lorsque vous visitez notre site Web, ces logiciels reçoivent automatiquement les données fournies par votre navigateur et les stockent temporairement dans les journaux de notre serveur Web pendant 12 (douze) mois. </gcds-text>
 
-Some of the information automatically collected by our server when you browse our website includes the: 
-- Network location and the IP address of the computer and other devices you used to contact our website. 
-- Name of the domain you used to access the internet (.com, .org, .net, .ca, etc.). 
-- Type of browser you used (Google Chrome, Microsoft Edge, etc.). 
-- Type of operating system you used (Windows, macOS, etc.). 
-- Date and time you accessed the site. 
-- Pages you have accessed and the documents you have downloaded. 
-- Internet address of the website you visited to get to our site.  
+Parmi les données automatiquement recueillies par notre serveur lorsque vous naviguez sur notre site Web figurent les éléments suivants : 
+- L’emplacement du réseau et l’adresse du protocole Internet (IP) de l’ordinateur et des autres appareils que vous avez utilisés pour contacter notre site Web. 
+- Le nom du domaine que vous avez utilisé pour accéder à Internet (.com, .org, .net, .ca, etc.). 
+- Le type de navigateur que vous avez utilisé (Google Chrome, Microsoft Edge, etc.). 
+- Le type de système d’exploitation que vous avez utilisé (Windows, Mac OS, etc.). 
+- La date et l’heure auxquelles vous avez accédé au site. 
+- Les pages auxquelles vous avez accédé et les documents que vous avez téléchargés. 
+- L’adresse Internet du site Web que vous avez visité pour accéder à notre site.  
  
 
-This is statistical data and does not directly identify you. We do not try to link this data, nor the IP addresses of devices that have contacted our website, with the identity of individuals visiting our site, unless an attempt to damage the site has been detected. The software programs never gather specific personal information such as your name, your phone number, or your email address. 
+Il s’agit là de données statistiques qui ne permettent pas de vous identifier directement. Nous ne tentons pas de relier ces données, ni les adresses IP des appareils qui ont contacté notre site Web, à l’identité des personnes qui visitent notre site, à moins qu’une tentative d’endommager le site n’ait été détectée. Les programmes logiciels ne sont jamais utilisés pour recueillir des renseignements personnels particuliers tels que votre nom, votre numéro de téléphone ou votre adresse électronique. 
 
-### Investigations
-When a threat to the website or computer systems of the Government of Canada is detected, information is collected and used  pursuant to section 161 of the <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/f-11/"> Financial Administration Act </gcds-link>. The information may be shared with appropriate law enforcement authorities if suspected criminal activities are detected. Such information may be used for network security related statistical purposes, audit, evaluation, research, planning, and reporting, and is described in <gcds-link href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu939">Personal Information Bank Security Incidents and Privacy Breaches (PSU 939) </gcds-link>. 
+### Enquêtes
+Lorsqu’une menace pour le site Web ou les systèmes informatiques du gouvernement du Canada est détectée, des données sont recueillies conformément à l’article 161 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/f-11/"> Loi sur la gestion des finances publiques </gcds-link>. Si des activités suspectées d’être criminelles sont détectées, ces données peuvent être communiquées aux autorités compétentes chargées de l’application de la loi. De tels renseignements peuvent être utilisés pour établir des statistiques sur la sécurité du réseau ainsi qu’à des fins d’audit, d’évaluation, de recherche, de planification et d’établissement de rapports, et figurent dans le <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou939">fichier de renseignements personnels POU 939 Incidents de sécurité et atteintes à la vie privée</gcds-link>. 
 
-### Vulnerability disclosure
-<gcds-link href="https://www.canada.ca/en/employment-social-development.html"> Employment and Social Development Canada </gcds-link> is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, let us know so we can fix it as soon as possible. Please visit the <gcds-link href="https://digital.canada.ca/security-notice/"> Security Notice </gcds-link> to learn more about that process. 
+### Divulgation de vulnérabilité 
+<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html"> Emploi et Développement social Canada </gcds-link> est un défenseur de la divulgation responsable des vulnérabilités. Si vous avez repéré une vulnérabilité, veuillez nous en informer afin que nous puissions la corriger le plus rapidement possible. Veuillez consulter l’<gcds-link href="https://numerique.canada.ca/avis-de-securite/"> Avis de sécurité </gcds-link> pour en savoir plus.
 
-## We share some information
-If you use other CDS products, we may share information with those teams internally to improve your experience.
+## Nous communiquons certains renseignements
+Si vous utilisez d’autres produits du SNC, il est possible que nous communiquions des renseignements aux équipes de ces produits pour améliorer votre expérience. 
 
-We use technology and services from other organizations. For example, to prevent digital attacks, we share information with the <gcds-link href="https://www.cyber.gc.ca/en"> Canadian Centre for Cyber Security (CCCS) </gcds-link> about when and how you use GC Sign in.
+Nous utilisons des technologies et des services d’autres organismes. Par exemple, pour prévenir les attaques numériques, nous transmettons des renseignements au <gcds-link href="https://www.cyber.gc.ca/fr"> Centre canadien pour la cybersécurité (CCC) </gcds-link> concernant l’heure où vous avez utilisé Connexion GC et la manière dont vous l’avez fait.
 
-We do not:
-- Authorize other services to use your information for anything unrelated to GC Sign in.
-- Sell or rent your personal information.
+Nous ne réalisons pas les actions suivantes :
+- Autorisation d’autres services à se servir de vos renseignements à des fins sans lien avec Connexion GC.
+- Vente ou location de vos renseignements personnels.
 
-We may share information with law enforcement by court order.
+Il est toutefois possible que nous soyons contraints par une ordonnance de communiquer ces renseignements aux autorités compétentes.
 
-## We protect your privacy 
-We handle your information under the <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/h-5.7/FullText.html">Department of Employment and Social Development Act </gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/a-1/page-1.html">Access to Information Act</gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/f-11/">Financial Administration Act</gcds-link>,  <gcds-link href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html">Privacy Act</gcds-link>, and <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/">Public Servants Disclosure Protection Act</gcds-link>.
+## Nous veillons à la protection de votre vie privée
+Nous traitons vos renseignements en vertu de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html">Loi sur le ministère de l’Emploi et du Développement social</gcds-link>, de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/a-1/page-1.html">Loi sur l’accès à l’information</gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/f-11/">Loi sur la gestion des finances publiques</gcds-link>,  <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html">Loi sur la protection des renseignements personnels</gcds-link>, and <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-31.9/">Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</gcds-link>.
 
-## You have privacy rights
-The law requires that we protect your privacy. You have the right to access and review your personal information. 
+## Votre droit à la vie privée
+En vertu de la Loi, nous devons protéger votre vie privée. Vous avez le droit d’accéder à vos renseignements personnels et de les examiner. 
 
-You also have the right to raise concerns about how we handle your personal information. Send complaints about how your personal information has been handled to the <gcds-link href="https://www.priv.gc.ca/en/"> Office of the Privacy Commissioner of Canada </gcds-link>:
+Vous avez également le droit de soulever des questions sur la façon dont nous traitons vos renseignements personnels. En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/"> Commissariat à la protection de la vie privée du Canada </gcds-link>:
 - info@priv.gc.ca
 - 1-800-282-1376
 
-## Questions
-Contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca)..
+## Des questions?
+Contactez-nous par courriel à l’adresse [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
