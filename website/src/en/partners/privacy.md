@@ -89,4 +89,4 @@ You also have the right to raise concerns about how we handle your personal info
 - 1-800-282-1376
 
 ## Questions
-Contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca)..
+Contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
