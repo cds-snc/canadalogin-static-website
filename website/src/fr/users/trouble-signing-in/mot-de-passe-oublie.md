@@ -30,14 +30,14 @@ Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un mes
     <gcds-text>{% linkRef links.forgotyourpassword 'what-to-do-if-it-says-your-account-is-incomplete' 'What to do if it says your account is incomplete.' %}</gcds-text>
   </gcds-notice>
 
-4. Complete 2-step verification.
- <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-    <gcds-text>{% linkRef links.problemssigninginwith2stepverification 'problems-signing-in-with-2-step-verification' 'Problems signing in with 2-step verification.' %}</gcds-text>
+4. Complétez la vérification en deux étapes.
+ <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
+    <gcds-text>{% linkRef links.problemssigninginwith2stepverificationFR 'problems-signing-in-with-2-step-verification' 'Problèmes liés à la connexion avec la vérification en deux étapes.' %}</gcds-text>
   </gcds-notice>
 
-5. Enter your new password.
-  <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-    <gcds-text>{% linkRef links.createaccount 'how-to-make-a-strong-password' 'How to make a strong password' %} </gcds-text>
+5. Entrez votre nouveau mot de passe.
+  <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
+    <gcds-text>{% linkRef links.createaccountFR 'how-to-make-a-strong-password' 'Comment créer un mot de passe robuste' %}</gcds-text>
     <gcds-text>{% linkRef links.issuespasswordFR '' 'Problèmes liés à la création d’un mot de passe' %} </gcds-text>
   </gcds-notice>
 
