@@ -2,11 +2,11 @@
 title: Welcome to GC Sign in
 layout: 'layouts/home.njk'
 permalink: /en/
-translationKey: index
+translationKey: landingEN
 redirect_from: /
 eleventyNavigation:
-  key: home
-  title: Home
+  key: landingEN
+  title: GC Sign in
   order: 1
 date: 'git Last Modified'
 hero:

@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: privacyNoticePartnersEN
   title: Privacy Notice
-  parent: partnersEn
+  parent: partnersEN
   locale: en
   order: 4
   hideMain: true

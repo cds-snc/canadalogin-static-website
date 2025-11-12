@@ -2,10 +2,10 @@
 title: Bienvenue sur Connexion GC
 layout: 'layouts/home.njk'
 permalink: /fr/
-translationKey: indexFR
+translationKey: landingFR
 eleventyNavigation:
-  key: homeFR
-  title: Home
+  key: landingFR
+  title: Connexion GC
   order: 1
 date: 'git Last Modified'
 hero:

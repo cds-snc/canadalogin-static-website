@@ -4,15 +4,15 @@ translationKey: helpTopicsFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: helpTopicsFR
-  title: Help Topics
+  title: Sections d’aide
   parent: usersFR
-  group: [ {title: 'Get started', url: 'users/get-started'},
-           {title: 'Trouble signing up', url: 'users/trouble-signing-up'},
-           {title: 'Trouble signing in', url: 'users/trouble-signing-in'},
-           {title: 'Managing your account', url: 'users/manage-your-account'}]
+  group: [ {title: 'Se lancer avec Connexion GC', url: 'users/get-started'},
+           {title: 'Problème lié à l’inscription', url: 'users/trouble-signing-up'},
+           {title: 'Problème de connexion', url: 'users/trouble-signing-in'},
+           {title: 'Gérer votre compte Connexion GC', url: 'users/manage-your-account'}]
   locale: fr
   order: 1
-  hideMain: true
+  hideMain: false
 ---
 
 # Help Topics

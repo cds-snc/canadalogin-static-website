@@ -7,7 +7,7 @@ date: 'git Last Modified'
 eleventyNavigation:
   key: contactEn
   title: Contact us
-  parent: usersEn
+  parent: usersEN
   locale: en
   order: 2
   hideMain: false

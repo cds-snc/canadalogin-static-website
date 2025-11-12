@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: helpTopicsEn
   title: Help Topics
-  parent: usersEn
+  parent: usersEN
   group: [ {title: 'Get started', url: 'users/get-started'},
            {title: 'Trouble signing up', url: 'users/trouble-signing-up'},
            {title: 'Trouble signing in', url: 'users/trouble-signing-in'},

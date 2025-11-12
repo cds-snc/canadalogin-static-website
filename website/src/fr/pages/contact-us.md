@@ -1,10 +1,10 @@
 ---
-title: Contact us
+title: Nous contacter
 translationKey: contactPartnersFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: contactFR
-  title: Contact us
+  title: Nous Contacter
   url: https://forms-formulaires.alpha.canada.ca/en/form-builder/cmfmxu3xh0000x401zperejwc/preview
   parent: partnersFR
   locale: fr
@@ -13,4 +13,4 @@ eleventyNavigation:
 permalink: false
 ---
 
-# Contact us
+# Nous contacter
