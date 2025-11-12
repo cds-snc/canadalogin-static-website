@@ -12,14 +12,12 @@ eleventyNavigation:
 ---
 
 # Avis
-Connexion GC est un produit du <gcds-link href="https://numerique.canada.ca/" external> Service numérique canadien (SNC)</gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external> Emploi et Développement social Canada (EDSC) </gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external> site Web du SNC </gcds-link> a ses propres conditions énoncées dans son avis.
+Connexion GC est un produit du <gcds-link href="https://numerique.canada.ca/" external> Service numérique canadien (SNC)</gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external> Emploi et Développement social Canada (EDSC) </gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external> site Web du SNC </gcds-link> a ses propres conditions énoncées dans son <gcds-link href="https://numerique.canada.ca/avis/" external>avis</gcds-link>.
 
 ## Emploi de fichiers situés sur des serveurs autres que ceux du gouvernement du Canada
 Afin d’améliorer la fonctionnalité du site Web Connexion GC, certains fichiers (tels que les bibliothèques à code source ouvert, les images et les scripts) peuvent être téléchargés automatiquement vers votre navigateur à l’aide d’un serveur tiers ou d’un réseau de diffusion de contenu de confiance. La diffusion de ces fichiers vise à offrir une expérience utilisateur fluide en diminuant les temps de réponse et en évitant le téléchargement de ces fichiers par chaque visiteur ou visiteuse. Le cas échéant, des avis de confidentialité particuliers concernant ces fichiers sont inclus dans notre <gcds-link href="/fr/partners/privacy">avis de confidentialité</gcds-link>.
 
 ## Offre de contenu dans les langues officielles du Canada
-La <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/o-3.01/"> Loi sur les langues officielles </gcds-link>, le Règlement sur les langues officielles — communications avec le public et prestation des services et les exigences de la politique du Conseil du Trésor prévoient les cas dans lesquels nous utilisons le français et de l’anglais pour fournir des services aux membres du public ainsi que pour communiquer avec elles et eux. Lorsqu’il n’y a pas d’obligation de fournir du contenu dans les deux langues officielles, le contenu peut être proposé dans une seule langue officielle. Les renseignements fournis par des organismes non assujettis à la Loi sur les langues officielles sont dans la ou les langues fournies. Les renseignements fournis dans une langue autre que le français ou l’anglais le sont uniquement par souci de commodité.
-
 La <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/o-3.01/"> Loi sur les langues officielles </gcds-link>, le <gcds-link href="https://laws.justice.gc.ca/fra/reglements/DORS-92-48/index.html"> Règlement sur les langues officielles — communications avec le public et prestation des services </gcds-link>et les exigences de la politique du Conseil du Trésor prévoient les cas dans lesquels nous utilisons le français et de l’anglais pour fournir des services aux membres du public ainsi que pour communiquer avec elles et eux. Lorsqu’il n’y a pas d’obligation de fournir du contenu dans les deux langues officielles, le contenu peut être proposé dans une seule langue officielle. Les renseignements fournis par des organismes non assujettis à la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/o-3.01/"> Loi sur les langues officielles </gcds-link> sont dans la ou les langues fournies. Les renseignements fournis dans une langue autre que le français ou l’anglais le sont uniquement par souci de commodité.
 
 ## Hyperliens vers des sites Web autres que ceux du gouvernement du Canada
@@ -52,7 +50,7 @@ Le gouvernement du Canada s’engage à assurer un haut niveau d’accessibilit�
 ## Médias sociaux
 Cet avis a été rédigé pour expliquer la manière dont le Service numérique canadien interagit avec le public sur les plateformes de médias sociaux.
 
-### CContenu et fréquence
+### Contenu et fréquence
 Les comptes de médias sociaux du Service numérique canadien sont un autre moyen de diffuser le contenu affiché sur son site Web et d’échanger avec les parties prenantes. En suivant les comptes du Service numérique canadien sur les médias sociaux (en « vous abonnant » ou encore en « aimant »), vous pouvez vous attendre à voir des renseignements relatifs aux programmes et services de l’organisme.
 
 Étant donné que les serveurs des plateformes de médias sociaux sont gérés par un tiers, les comptes de médias sociaux sont sujets à des interruptions de service qui échappent au contrôle du gouvernement du Canada. Le gouvernement du Canada n’assume donc aucune responsabilité en cas de non-disponibilité des plateformes.
