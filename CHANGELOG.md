@@ -1,5 +1,59 @@
 # Changelog
 
+## [1.1.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.1...v1.1.2) (2025-11-12)
+
+
+### Bug Fixes
+
+* [Users subpage] Manage how you sign in (/en/users/manage-your-account/manage-how-you-sign-in/) ([#381](https://github.com/cds-snc/gc-signin-static-website/issues/381)) ([aabee0c](https://github.com/cds-snc/gc-signin-static-website/commit/aabee0ccdb73e2846d3a3b3d345517292e1bec1e))
+* Add FR translations to 'What is 2-step verification?' (/en/users/get-started/two-step-verification-methods/) ([#382](https://github.com/cds-snc/gc-signin-static-website/issues/382)) ([a68b772](https://github.com/cds-snc/gc-signin-static-website/commit/a68b772c1c76ec704acb92656fe6bf2e7ac946b4))
+* Add FR translations to Manage your personal information (/en/users/manage-your-account/manage-your-personal-information/) ([#386](https://github.com/cds-snc/gc-signin-static-website/issues/386)) ([ebb4383](https://github.com/cds-snc/gc-signin-static-website/commit/ebb43835edd7286439ad76134b15350df8a9f7b4))
+* add GA tag to the home layout ([#341](https://github.com/cds-snc/gc-signin-static-website/issues/341)) ([525d05b](https://github.com/cds-snc/gc-signin-static-website/commit/525d05b3851c5261fad9ebc19ba366a28a02e503))
+* Added french translations to get started page - need to rebase ([#323](https://github.com/cds-snc/gc-signin-static-website/issues/323)) ([23d91b7](https://github.com/cds-snc/gc-signin-static-website/commit/23d91b7ee682f2a2e76e3aea04028abec4879703))
+* Added french translations to the issues 2step verification page ([#390](https://github.com/cds-snc/gc-signin-static-website/issues/390)) ([0938fae](https://github.com/cds-snc/gc-signin-static-website/commit/0938faeac5e28e929926926fe4e60ecc4c27c45c))
+* Added french translations to the issues creating a password page ([#383](https://github.com/cds-snc/gc-signin-static-website/issues/383)) ([4fe5538](https://github.com/cds-snc/gc-signin-static-website/commit/4fe55389d7e6662af356a8181eb3866bb757da6b))
+* Added french translations to the issues enter verify email page ([#372](https://github.com/cds-snc/gc-signin-static-website/issues/372)) ([c145afd](https://github.com/cds-snc/gc-signin-static-website/commit/c145afd051ef0712192da5b635ac10af83ca891f))
+* Added translation content ([#384](https://github.com/cds-snc/gc-signin-static-website/issues/384)) ([504500a](https://github.com/cds-snc/gc-signin-static-website/commit/504500a066c2cfe66a1e2ff383f6b8172916e7bf))
+* **breadcrumb:** Fix multiple breadcrumb changes ([#335](https://github.com/cds-snc/gc-signin-static-website/issues/335)) ([27cf908](https://github.com/cds-snc/gc-signin-static-website/commit/27cf908b4b3f2b75b9e4588fa018fc3593f2e877))
+* Fix broken links and references to available services in FR content ([#325](https://github.com/cds-snc/gc-signin-static-website/issues/325)) ([3fc498e](https://github.com/cds-snc/gc-signin-static-website/commit/3fc498e8381e3ca49a3b2d15e5fbcfd4eeebe012))
+* Fix broken OSSF scorecard action ([#337](https://github.com/cds-snc/gc-signin-static-website/issues/337)) ([a9f14f1](https://github.com/cds-snc/gc-signin-static-website/commit/a9f14f1bfa2eb0d232db9883b8fcb0501c6bc648))
+* **translations:** Add FR to Forgot your password (/en/users/trouble-signing-in/forgot-your-password/) ([#411](https://github.com/cds-snc/gc-signin-static-website/issues/411)) ([7afb20a](https://github.com/cds-snc/gc-signin-static-website/commit/7afb20a596e4dc9ac5fa19155152b88c6a46c0bb))
+* **translations:** Add FR translation to Problems signing in with 2 step verification (/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/) ([#401](https://github.com/cds-snc/gc-signin-static-website/issues/401)) ([86b49fb](https://github.com/cds-snc/gc-signin-static-website/commit/86b49fb81d404c720a56d1efaa6c68f66302975e))
+* **translations:** Add FR translations to About GC Sign in (/en/partners/about-gc-sign-in) ([#409](https://github.com/cds-snc/gc-signin-static-website/issues/409)) ([804702a](https://github.com/cds-snc/gc-signin-static-website/commit/804702a1161e9da86d46555a3c9daeee287b0a05))
+* **translations:** Add FR translations to Forgot your email (/en/users/trouble-signing-in/forgot-your-email/) ([#391](https://github.com/cds-snc/gc-signin-static-website/issues/391)) ([a11d4cd](https://github.com/cds-snc/gc-signin-static-website/commit/a11d4cdbbb7bf3bfa87e326c3b2034744651a119))
+* **translations:** Add FR translations to Partners landing page (/en/partners/) ([#404](https://github.com/cds-snc/gc-signin-static-website/issues/404)) ([917bbc6](https://github.com/cds-snc/gc-signin-static-website/commit/917bbc6f5ecc1e0e984bd489a4e4a1f5625f9b64))
+* **translations:** Add FR translations to Privacy (en/partners/privacy) ([#408](https://github.com/cds-snc/gc-signin-static-website/issues/408)) ([a3698b3](https://github.com/cds-snc/gc-signin-static-website/commit/a3698b3ee07c850531285bf4eb30bbdb72edfb2a))
+* **translations:** Add FR translations to Problems entering your email address (/en/users/trouble-signing-in/problems-entering-your-email-address/) ([#392](https://github.com/cds-snc/gc-signin-static-website/issues/392)) ([c1f6613](https://github.com/cds-snc/gc-signin-static-website/commit/c1f6613e5c5a48b9dd64d83c62911e6c8c68d626))
+* **translations:** Add FR translations to Problems with creating a profile (/en/users/trouble-signing-up/issues-creating-profile/) ([#405](https://github.com/cds-snc/gc-signin-static-website/issues/405)) ([b13856d](https://github.com/cds-snc/gc-signin-static-website/commit/b13856d74e5bd03da4c7a2293b88f8bae6b42353))
+* Update access your settings ([#371](https://github.com/cds-snc/gc-signin-static-website/issues/371)) ([84ff8bb](https://github.com/cds-snc/gc-signin-static-website/commit/84ff8bb368e2d11ec4834e37d5ab4429acdbecd1))
+* Update change your email address ([#377](https://github.com/cds-snc/gc-signin-static-website/issues/377)) ([8ef80de](https://github.com/cds-snc/gc-signin-static-website/commit/8ef80def7d248fb79507ea5195a35516d95a2147))
+* Update Footer nav items for Users and Partners, and landing page ([#369](https://github.com/cds-snc/gc-signin-static-website/issues/369)) ([c4dcd68](https://github.com/cds-snc/gc-signin-static-website/commit/c4dcd680da05a8d042521a591e63558eef7409bc))
+* Update how to keep your account secure ([#379](https://github.com/cds-snc/gc-signin-static-website/issues/379)) ([b7657c8](https://github.com/cds-snc/gc-signin-static-website/commit/b7657c813247591b3e12eec4ea951aeb45f4a842))
+* Update how to sign in french page ([#374](https://github.com/cds-snc/gc-signin-static-website/issues/374)) ([358f7dd](https://github.com/cds-snc/gc-signin-static-website/commit/358f7dd0e454fdf57b1636593ce5508351c9d3e4))
+* Update How to sign out ([#380](https://github.com/cds-snc/gc-signin-static-website/issues/380)) ([c303fd2](https://github.com/cds-snc/gc-signin-static-website/commit/c303fd29d0746ac706ce9c0800ae1e8c75e1e028))
+* Update links on landing page ([#388](https://github.com/cds-snc/gc-signin-static-website/issues/388)) ([c273808](https://github.com/cds-snc/gc-signin-static-website/commit/c2738080a08b10aa737c907281c3f0e3402dcdb8))
+* update partner's roadmap with french translations ([#402](https://github.com/cds-snc/gc-signin-static-website/issues/402)) ([25c6a46](https://github.com/cds-snc/gc-signin-static-website/commit/25c6a467c5970551ee268b0562899353fce1a9e7))
+* Update the How to create a GC Sign in account (/en/users/get-started/create-account/) ([#370](https://github.com/cds-snc/gc-signin-static-website/issues/370)) ([c9d0244](https://github.com/cds-snc/gc-signin-static-website/commit/c9d0244a96f8af3437033e5877c4c1f470c616a1))
+* Update the What is GC Sign in? (/en/users/what-is-gc-sign-in/) in FR ([#376](https://github.com/cds-snc/gc-signin-static-website/issues/376)) ([8627b47](https://github.com/cds-snc/gc-signin-static-website/commit/8627b47a764648403da66ae83fd886d4ecac9c76))
+* updated english partner roadmap status ([#406](https://github.com/cds-snc/gc-signin-static-website/issues/406)) ([9306807](https://github.com/cds-snc/gc-signin-static-website/commit/930680775d4582b060cca466fe1984b853b272ac))
+* Updated the manage your account page with French. ([#324](https://github.com/cds-snc/gc-signin-static-website/issues/324)) ([c8bb8b3](https://github.com/cds-snc/gc-signin-static-website/commit/c8bb8b321319a698638a1a09dd1fabe2afcdaa78))
+* updated the trademark notice link in the partners T&C in both en and fr ([#339](https://github.com/cds-snc/gc-signin-static-website/issues/339)) ([7eb9905](https://github.com/cds-snc/gc-signin-static-website/commit/7eb990529c2f17830632e3d7a06f33244b31ed72))
+* Updated user's trouble signin up page with french translation ([a6bc514](https://github.com/cds-snc/gc-signin-static-website/commit/a6bc514331fc90f21e7dd028690fba4402509153))
+* Updated user's trouble signing in page with french translation ([#346](https://github.com/cds-snc/gc-signin-static-website/issues/346)) ([2b48671](https://github.com/cds-snc/gc-signin-static-website/commit/2b48671882f61e8ee354dcd2cdfe188e6cf77593))
+* Updated user's trouble signing up page with french translation ([#343](https://github.com/cds-snc/gc-signin-static-website/issues/343)) ([a6bc514](https://github.com/cds-snc/gc-signin-static-website/commit/a6bc514331fc90f21e7dd028690fba4402509153))
+* **users:** Add FR translations to Users landing page ([#342](https://github.com/cds-snc/gc-signin-static-website/issues/342)) ([44c4a5c](https://github.com/cds-snc/gc-signin-static-website/commit/44c4a5c9756ba7f122d2bfb7c640472ab062de84))
+
+
+### Code Refactoring
+
+* **cleanup:** Delete old /archive folder to avoid duplicated and unused code ([#321](https://github.com/cds-snc/gc-signin-static-website/issues/321)) ([f2b7a42](https://github.com/cds-snc/gc-signin-static-website/commit/f2b7a42426dcb1e26429c39db1c2e11a461e3982))
+* **FR:** Implement French content parity (prepare pages for FR translations) ([#306](https://github.com/cds-snc/gc-signin-static-website/issues/306)) ([ce6d688](https://github.com/cds-snc/gc-signin-static-website/commit/ce6d68833fa2adf3df3a28641b7c882a415c473f))
+
+
+### Miscellaneous Chores
+
+* enabled Google Analytics and a environment variable ([#338](https://github.com/cds-snc/gc-signin-static-website/issues/338)) ([1b4ebd3](https://github.com/cds-snc/gc-signin-static-website/commit/1b4ebd307d3e94a5c993b73a69a2760bce24115a))
+
 ## [1.1.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.0...v1.1.1) (2025-10-28)
 
 
