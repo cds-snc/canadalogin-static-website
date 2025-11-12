@@ -62,7 +62,7 @@ Les comptes de médias sociaux peuvent publier ou afficher des liens ou des publ
 Les plateformes de médias sociaux sont gérées par des fournisseurs de service tiers et ne sont pas tenues d’être conformes aux normes du gouvernement du Canada en matière d’accessibilité du Web. 
 
 ### Droit d’auteur
-Le contenu publié par le gouvernement du Canada est assujetti à la <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/C-42/index.html">Loi sur le droit d’auteur</gcds-link>.
+Le contenu publié par le gouvernement du Canada est assujetti à la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/c-42/index.html">Loi sur le droit d’auteur</gcds-link>.
 
 ### Confidentialité
 Les comptes de médias sociaux du Service numérique canadien ne sont pas des sites Web du gouvernement du Canada et représentent uniquement la présence du SNC sur les plateformes de fournisseurs de services tiers.
