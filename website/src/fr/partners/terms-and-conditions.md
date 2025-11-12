@@ -45,7 +45,7 @@ Une partie du contenu de ce site pourrait faire l’objet du droit d’auteur d�
 La reproduction des symboles officiels du gouvernement du Canada, y compris le mot-symbole « Canada », les armoiries du Canada et le symbole du drapeau, à des fins commerciales ou non commerciales, est interdite sans <gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/communications-gouvernementales/exigences-image-marque/protection-juridique-symboles-officiels-gouvernement-canada.html">autorisation écrite</gcds-link> au préalable.
 
 ## Notre engagement à l’égard de l’accessibilité
-Le gouvernement du Canada s’engage à assurer un haut niveau d’accessibilité tel que défini dans la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=23601"> Norme sur l’accessibilité des sites Web </gcds-link> et la <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27088"> Norme sur l’optimisation des sites Web et des applications pour appareils mobiles </gcds-link>. En cas de difficulté liée à l’utilisation de nos pages Web, applications ou applications mobiles axées sur un appareil, veuillez nous contacter pour obtenir de l’aide ou des formats alternatifs comme un format imprimé, du braille ou un autre format approprié.
+Le gouvernement du Canada s’engage à assurer un haut niveau d’accessibilité tel que défini dans la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=23601"> Norme sur l’accessibilité des sites Web </gcds-link> et la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=27088"> Norme sur l’optimisation des sites Web et des applications pour appareils mobiles </gcds-link>. En cas de difficulté liée à l’utilisation de nos pages Web, applications ou applications mobiles axées sur un appareil, veuillez nous contacter pour obtenir de l’aide ou des formats alternatifs comme un format imprimé, du braille ou un autre format approprié.
 
 ## Médias sociaux
 Cet avis a été rédigé pour expliquer la manière dont le Service numérique canadien interagit avec le public sur les plateformes de médias sociaux.
@@ -66,7 +66,7 @@ Le contenu publié par le gouvernement du Canada est assujetti à la <gcds-link 
 
 ### Confidentialité
 Les comptes de médias sociaux du Service numérique canadien ne sont pas des sites Web du gouvernement du Canada et représentent uniquement la présence du SNC sur les plateformes de fournisseurs de services tiers.
-Pour en savoir plus, veuillez consulter notre <gcds-link href="/en/partners/privacy"> avis de confidentialité </gcds-link> concernant les médias sociaux de tierces parties.
+Pour en savoir plus, veuillez consulter notre <gcds-link href="/fr/partners/privacy"> avis de confidentialité </gcds-link> concernant les médias sociaux de tierces parties.
 
 ### Langues officielles
 Bon nombre de plateformes de médias sociaux offrent plusieurs choix de langues et donnent des instructions pour définir des préférences. Le gouvernement du Canada respecte la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/c-42/index.html"> Loi sur les langues officielles </gcds-link> et est déterminé à prendre les mesures nécessaires pour que son contenu soit disponible en français et en anglais et pour que la qualité soit égale dans les deux versions.
