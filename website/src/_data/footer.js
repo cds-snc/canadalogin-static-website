@@ -21,12 +21,12 @@ module.exports = {
   fr: {
     contextual: {
       heading: 'Connexion GC',
-      aboutUsersUrl: '/fr/users/a-propos/',
-      usersUrl: '/fr/users/',
-      partnersUrl: '/fr/partners/',
-      termsUsersUrl: '/fr/users/terms/',
-      termsPartnersUrl: '/fr/partners/terms-and-conditions/',
-      privacyPartnersUrl: '/fr/partners/privacy/',
+      aboutUsersUrl: '/fr/utilisateurs/a-propos/',
+      usersUrl: '/fr/utilisateurs/',
+      partnersUrl: '/fr/partenaires/',
+      termsUsersUrl: '/fr/utilisateurs/avis/',
+      termsPartnersUrl: '/fr/partenaires/avis/',
+      privacyPartnersUrl: '/fr/partenaires/confidentialite/',
     },
     sub: {
       about: 'À propos de Canada.ca',
