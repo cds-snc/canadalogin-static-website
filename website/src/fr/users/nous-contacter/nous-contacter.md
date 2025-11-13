@@ -1,11 +1,11 @@
 ---
 title: Nous contacter
 layout: 'layouts/base.njk'
-translationKey: contactusFR
+translationKey: contactUsersFR
 contactForm: fr
 date: 'git Last Modified'
 eleventyNavigation:
-  key: contactFR
+  key: contactUsersFR
   title: Nous contacter
   parent: usersFR
   locale: fr

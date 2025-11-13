@@ -3,7 +3,7 @@ title: Terms
 translationKey: termsandprivacyusersFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: termsAndPrivacyUsersEN
+  key: termsAndPrivacyUsersFR
   title: Terms
   parent: usersFR
   locale: fr
