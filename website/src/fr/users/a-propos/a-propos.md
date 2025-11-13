@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: whatisgcsigninFR
-  title: Qu’est-ce que Connexion GC?
+  title: À propos
   locale: fr
   parent: usersFR
   order: 4

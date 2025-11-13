@@ -10,7 +10,7 @@
 
       {% set navPages = collections.all | eleventyNavigationBreadcrumb(key) %}
       {% for item in navPages %}
-        {% if item.url and item.key != "home"  %}
+        {% if item.url and item.key not in ["landingEN", "landingFR"] %}
           <gcds-breadcrumbs-item href={{ item.url | url }}>
             {{ item.title }}
           </gcds-breadcrumbs-item>

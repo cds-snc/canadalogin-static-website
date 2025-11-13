@@ -1,12 +1,25 @@
-{% if page.url == "/en/" %}
-  {% set navPages = collections.all | eleventyNavigation("home") %}
-{% elif page.url | startsWith("/en/users/") %}
-  {% set navPages = collections.all | eleventyNavigation("usersEn") %}
-{% elif page.url | startsWith("/en/partners/") %}
-  {% set navPages = collections.all | eleventyNavigation("partnersEn") %}
-{% else %}
-  {% set navPages = collections.all | eleventyNavigation %}
+{% if page.url | startsWith("/en") %}
+  {% if page.url == "/en/" or page.url == "/en" %}
+    {% set navPages = collections.all | eleventyNavigation("landingEN") %}
+  {% elif page.url | startsWith("/en/users/") %}
+    {% set navPages = collections.all | eleventyNavigation("usersEN") %}
+  {% elif page.url | startsWith("/en/partners/") %}
+    {% set navPages = collections.all | eleventyNavigation("partnersEN") %}
+  {% else %}
+    {% set navPages = collections.all | eleventyNavigation("landingEN") %}
+  {% endif %}
+{% elif page.url | startsWith("/fr") %}
+  {% if page.url == "/fr/" or page.url == "/fr" %}
+    {% set navPages = collections.all | eleventyNavigation("landingFR") %}
+  {% elif page.url | startsWith("/fr/users/") %}
+    {% set navPages = collections.all | eleventyNavigation("usersFR") %}
+  {% elif page.url | startsWith("/fr/partners/") %}
+    {% set navPages = collections.all | eleventyNavigation("partnersFR") %}
+  {% else %}
+    {% set navPages = collections.all | eleventyNavigation("landingFR") %}
+  {% endif %}
 {% endif %}
+
 
 {% macro renderNavListItem(entry) -%}
 {% if not entry.hideMain %}

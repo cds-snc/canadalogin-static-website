@@ -2,11 +2,11 @@
 title: Welcome to GC Sign in
 layout: 'layouts/home.njk'
 permalink: /en/
-translationKey: index
+translationKey: landingEN
 redirect_from: /
 eleventyNavigation:
-  key: home
-  title: Home
+  key: landingEN
+  title: GC Sign in
   order: 1
 date: 'git Last Modified'
 hero:
@@ -29,7 +29,7 @@ hero:
             Individuals and organisations
         </gcds-heading>
         <gcds-text>Discover how GC Sign in works, what services it will connect to, and get support with simplifying your access to Government of Canada programs and services.</gcds-text>
-        <gcds-text>{% link links.users 'Get user help' %}</gcds-text>            
+        <gcds-text>{% link links.usersEN 'Get user help' %}</gcds-text>            
     </div>
     <div>
         <img src="/assets/images/common/home/home_partners_icon.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf.">
@@ -37,7 +37,7 @@ hero:
             Departments and agencies
         </gcds-heading>
         <gcds-text>Learn how GC Sign in will protect your users’ information with the highest standards of digital security and user experience. GC Sign in will handle software development, security operations, and end-user support so you don’t have to.</gcds-text>
-        <gcds-text>{% link links.partners 'Become a partner' %}</gcds-text>
+        <gcds-text>{% link links.partnersEN 'Become a partner' %}</gcds-text>
         <p></p>
     </div>
 </gcds-grid>
