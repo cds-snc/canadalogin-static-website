@@ -38,7 +38,7 @@ hero:
   </li>
 </gcds-grid>
 
-<gcds-button type="link" value="Découvrez Connexion GC" href="about-gc-sign-in">
+<gcds-button type="link" value="Découvrez Connexion GC" href="a-propos-connexion-gc">
   Découvrez Connexion GC&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 

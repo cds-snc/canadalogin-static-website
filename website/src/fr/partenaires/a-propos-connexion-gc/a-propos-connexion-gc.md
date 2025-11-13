@@ -93,7 +93,7 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="Voir la feuille de route" href="/fr/partners/roadmap">
+<gcds-button type="link" button-role="secondary" value="Voir la feuille de route" href="/fr/partenaires/feuille-route">
   Voir la feuille de route
 </gcds-button>
 
