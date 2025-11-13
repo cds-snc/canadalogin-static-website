@@ -20,12 +20,12 @@ GC Sign in is a secure and easy way to access Government of Canada programs and 
 GC Sign in is managed by Canada Digital Service (CDS) / Employment and Social Development Canada (ESDC) for the Government of Canada. We do not use the personal information you provide for any purpose other than providing you with an account.  
 
 ### Agreement to these terms 
-By creating, accessing or using a GC Sign in account, you agree to these Terms. If you do not agree, do not register for or use GC Sign in.  
+By creating, accessing or using a GC Sign in account, you agree to these Terms. GC Sign In is not mandatory, therefore, if you do not agree to these Terms, do not register for or use GC Sign in.  
 
-If you do not want to create a GC Sign in account, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.  
+If you do not want to create or are unable to create a GC Sign in account, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.    
 
 ### What GC Sign in provides
-Your account is a credential service that enables you to access programs and services. Your personal information is encrypted and stored in a secure database. Sharing does not happen automatically. Your personal information is only shared when you use GC Sign in to access a program or service. 
+Your account is a credential service that enables you to access Government of Canada programs and services. Your personal information is encrypted and stored in a secure database. Your personal information is not shared by default. Your personal information is only shared when you use GC Sign in to access a program or service. 
 
 ### Your responsibilities when using GC Sign in
 
@@ -40,21 +40,32 @@ You must not:
 - allow someone else to use your account
 - attempt to bypass, disrupt, or test the security of this service
 - use GC Sign in to attempt fraud or unauthorized access
+- use GC Sign for any other purpose other than the purpose for which it is offered
+
 
 **Your access may be suspended or removed if it is determined that you have not complied with these Terms.**
+
+### Disclaimers
+- You understand and agree that CDS/ESDC provide GC Sign in “as is” and “as available”. This means we do our best to keep GC Sign in reliable, secure and up to date, but we cannot guarantee that it will always work perfectly and be available at all times.  We may update or change GC Sign in at any time. 
+- You also understand and agree that CDS/ESDC is not responsible for any loss, damage or inconvenience that may happen because of: 
+  - Things outside of our control, such as internet, network or power problems that affect GC Sign in or related services
+  - Other websites that you visit through links from GC Sign in 
+  - Information you send to CDS/ESDC through GC Sign in 
+  - Information you submit that is not accepted or processed 
+  - Your breach of Terms 
+
 
 ### Certification of information you provide
 By using GC Sign-in, you certify that the information you provide through this account belongs to you and is submitted by you.
 
 ### Privacy 
-When you create an account or sign in, your personal information is stored in a secure database for up to 2 years. It is shared with programs and services and protected according to their policies and processes. 
-<gcds-text>
-</gcds-text>
-The Government of Canada follows the Privacy Act when handling your personal information. The department or agency responsible for the program or service you are accessing may follow other laws. You may need to return to the program or service's website to learn about these.
-<gcds-text>
-</gcds-text>
+When you create an account or sign in, your personal information is stored in a secure database for up to 2 years. It is shared with Government of Canada programs and services and protected according to their respective policies and processes. 
 
-GC Sign in is managed by CDS/ESDC. The Department of Employment and Social Development Act authorizes ESDC to collect and use your personal information and establish obligations to protect it. 
+<gcds-text>
+</gcds-text>
+ GC Sign in is managed by CDS/ESDC. Your personal information is administered in accordance with the Department of Employment and Social Development Act, Privacy Act and other applicable laws.  The department or agency responsible for the program or service you are accessing may be subject to additional legal requirements. You may need to return to the program or service's website to learn about these requirements.
+<gcds-text>
+</gcds-text>
 
 <gcds-text>
 </gcds-text>
@@ -65,7 +76,7 @@ You have the right to the protection, access, and correction of your personal in
 We take measures to safeguard our websites and your account information. 
 
 ### Notifications 
-We will send you emails about changes to your account. If you notice suspicious activity, it is recommended that you follow instructions promptly. We will always direct you to the help page. We will never send you a link to enter your phone number, password, or email address. These emails will always have high resolution images of the Government of Canada logo. You can update your email address in settings.
+We will send you emails about changes to your account. If you notice suspicious activity, it is recommended that you follow instructions promptly. We will always direct you to the help page. We will never send you a link to enter your phone number, password, or email address. These emails will always have high resolution images of the Government of Canada logo. 
 
 ### Logging and monitoring 
 Software programs are used to:
@@ -99,14 +110,16 @@ For more general information related to the Government of Canada’s web presenc
 - Linking to non-Government of Canada websites.
 - Ownership and usage of content provided on this site.
 
-### We use an identity and access management solution 
+### Third-party service providers
+
+#### We use an identity and access management solution 
 GC Sign in has a contract with a third-party service provider, IBM Canada. Their solution enables you to use a single account to access multiple services and programs (single sign-on). Your account information: email, phone number, and other personal information you share are securely stored in an IBM Canada database. 
 <gcds-text>
 </gcds-text>
 Our contract prevents them from using or disclosing your personal information for any other purpose. IBM Canada is not involved in any decision-making about you. The contract includes strong security and privacy provisions, including encryption, to ensure your account information is handled appropriately. 
 <gcds-text>
 </gcds-text>
-IBM Canada is headquartered in Markham, Ontario and its parent company, IBM, is headquartered in Armonk, New York. As such, the solution may transmit your account information through the United States of America (USA) and may be subject to the USA’s laws, including the USA PATRIOT ACT.
+IBM Canada is headquartered in Markham, Ontario and its parent company, IBM, is headquartered in Armonk, New York and may be subject to the US laws.
 
 ### We use web analytics to help improve your experience  
 GC Sign in uses a third-party service provider, Google Inc. (Google Analytics). The analytics collected do not include information that could identify you or your location, such as your Internet Protocol (IP) address.
@@ -119,3 +132,6 @@ Google Inc. is headquartered in Mountain View, California. As such, the solution
 </gcds-text>
 ### Changes to these Terms
 These Terms may be updated at any time. Updated Terms take effect once posted online. You will be required to accept updated Terms to continue using GC Sign in.
+<gcds-text>
+</gcds-text>
+These Terms are governed, interpreted and construed by the laws of Canada and the province of Ontario without reference to conflict of law rules.
