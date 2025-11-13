@@ -29,15 +29,15 @@
     "partnersFR": "/fr/partenaires/",
     "problemsenteringyouremailaddressFR": "/fr/utilisateurs/problemes-connexion/problems-entering-your-email-address/",
     "problemssigninginwith2stepverificationFR": "/fr/utilisateurs/problemes-connexion/problems-signing-in-with-2-step-verification/",
-    "privacynoticepartnersFR": "/fr/partenaires/privacy/",
+    "privacynoticepartnersFR": "/fr/partenaires/confidentialite/",
     "supportedcountriesFR": "/fr/utilisateurs/problemes-inscription/supported-countries/",
     "sequencediagramsFR": "/fr/openid-connection-protocol/sequence-diagrams/",
     "signinroadmapFR": "/fr/partenaires/feuille-route/",
     "troublesigninginFR": "/fr/utilisateurs/problemes-connexion/",
     "twostepverificationmethodsFR": "/fr/utilisateurs/se-lancer-connexion-gc/two-step-verification-methods/",
     "troublesigningupFR": "/fr/utilisateurs/problemes-inscription/",    
-    "termsandprivacyusersFR": "/fr/utilisateurs/terms/",
-    "termsandconditionspartnersFR": "/fr/partenaires/terms-and-conditions/",
+    "termsandprivacyusersFR": "/fr/utilisateurs/avis/",
+    "termsandconditionspartnersFR": "/fr/partenaires/avis/",
     "usersFR": "/fr/utilisateurs/",
     "whattodowhenyoufindsuspiciousactivityFR": "/fr/utilisateurs/gerer-compte/what-to-do-when-you-find-suspicious-activity/"
   }
