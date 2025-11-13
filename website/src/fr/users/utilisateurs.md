@@ -1,7 +1,8 @@
 ---
-title: Individuals and organisations
+title: Aide à l’utilisation
 translationKey: usersFR
 layout: 'layouts/home.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: usersFR
   title: Aide à l’utilisation
