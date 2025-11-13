@@ -1,10 +1,11 @@
 ---
-title: Supported international phone numbers
+title: Numéros de téléphones internationaux pris en charge
 translationKey: supportedPhoneNumbersFR
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: supportedPhoneNumbersFR
-  title: Supported international phone numbers
+  title: Numéros de téléphones internationaux pris en charge
   locale: fr
   order: 2
   parent: issuesSettingUp2FaFR
@@ -92,7 +93,7 @@ countries3:
   - Vietnam
 ---
 
-# Supported international phone numbers
+# Numéros de téléphones internationaux pris en charge
 
 The following is a list of countries that GC Sign in currently supports phone numbers from:
 
