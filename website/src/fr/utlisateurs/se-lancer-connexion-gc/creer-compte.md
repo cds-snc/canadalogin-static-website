@@ -54,7 +54,7 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-profile/"> Problèmes liés à la création d’un profil </gcds-link>
+    <li><gcds-link href="/fr/utilisateur/problemes-inscription/problemes-creation-profil/"> Problèmes liés à la création d’un profil </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -71,10 +71,10 @@ Nous vous recommandons de choisir une adresse courriel à laquelle vous aurez to
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-enter-verify-email/"> Problèmes liés à la saisie et à la vérification de votre adresse courriel
+    <li><gcds-link href="/fr/utilisateurs/problemes-inscription/problemes-saisie-verification-adresse-courriel/"> Problèmes liés à la saisie et à la vérification de votre adresse courriel
 Mot de passe oublié </gcds-link> </li>
-    <li><gcds-link href="/en/users/trouble-signing-in/forgot-your-password/"> Mot de passe oublié </gcds-text></li>
-    <li><gcds-link href="/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/"> Problèmes liés à la vérification en deux étapes </gcds-link>
+    <li><gcds-link href="/fr/utilisateurs/problemes-connexion/mot-de-passe-oublie/"> Mot de passe oublié </gcds-text></li>
+    <li><gcds-link href="/fr/utilisateurs/problemes-connexion/problemes-connexion-verification-deux-etapes/"> Problèmes liés à la vérification en deux étapes </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -101,7 +101,7 @@ Pour aider à éviter que votre compte et vos renseignements personnels soient c
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problèmes liés à la création d’un mot de passe </gcds-link>
+    <li><gcds-link href="/fr/utilisateurs/problemes-inscription/problemes-creation-mot-de-passe/"> Problèmes liés à la création d’un mot de passe </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -126,9 +126,9 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/"> Problèmes liés à la configuration de la vérification en deux étapes </gcds-link>
+    <li><gcds-link href="/fr/utilisateurs/problemes-inscription/problemes-configuration-verification-deux-etapes/"> Problèmes liés à la configuration de la vérification en deux étapes </gcds-link>
     </li>
-    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Numéros de téléphones internationaux pris en charge </gcds-link>
+    <li><gcds-link href="/fr/utilisateurs/problemes-inscription/numeros-internationaux-pris-en-charge/"> Numéros de téléphones internationaux pris en charge </gcds-link>
     </li>
   </ul>
 </gcds-notice>
