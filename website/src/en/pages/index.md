@@ -2,7 +2,7 @@
 title: Welcome to GC Sign in
 layout: 'layouts/home.njk'
 permalink: /en/
-translationKey: landingEN
+translationKey: landing
 redirect_from: /
 eleventyNavigation:
   key: landingEN
