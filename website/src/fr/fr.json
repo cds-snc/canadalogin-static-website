@@ -15,7 +15,7 @@
     "landingFR": "/fr/",
     "howtosigninFR": "/fr/utilisateurs/problemes-connexion/comment-se-connecter/",
     "howtosignoutFR": "/fr/utilisateurs/gerer-compte/comment-se-deconnecter/",
-    "howtokeepyouraccountsecureFR": "/fr/utilisateurs/gerer-compte/how-to-keep-your-account-secure/",
+    "howtokeepyouraccountsecureFR": "/fr/utilisateurs/gerer-compte/comment-securiser-compte/",
     "issuestwostepverificationFR": "/fr/utilisateurs/problemes-inscription/problemes-configuration-verification-deux-etapes/",
     "issuesenterverifyemailFR": "/fr/utilisateurs/problemes-inscription/problemes-saisie-verification-adresse-courriel/",
     "issuespasswordFR": "/fr/utilisateurs/problemes-inscription/problemes-creation-mot-de-passe/",
@@ -34,11 +34,11 @@
     "sequencediagramsFR": "/fr/openid-connection-protocol/sequence-diagrams/",
     "signinroadmapFR": "/fr/partenaires/feuille-route/",
     "troublesigninginFR": "/fr/utilisateurs/problemes-connexion/",
-    "twostepverificationmethodsFR": "/fr/utilisateurs/se-lancer-connexion-gc/two-step-verification-methods/",
+    "twostepverificationmethodsFR": "/fr/utilisateurs/se-lancer-connexion-gc/verification-deux-etapes/",
     "troublesigningupFR": "/fr/utilisateurs/problemes-inscription/",    
     "termsandprivacyusersFR": "/fr/utilisateurs/avis/",
     "termsandconditionspartnersFR": "/fr/partenaires/avis/",
     "usersFR": "/fr/utilisateurs/",
-    "whattodowhenyoufindsuspiciousactivityFR": "/fr/utilisateurs/gerer-compte/what-to-do-when-you-find-suspicious-activity/"
+    "whattodowhenyoufindsuspiciousactivityFR": "/fr/utilisateurs/gerer-compte/que-faire-activite-suspecte/"
   }
 }
