@@ -69,7 +69,7 @@ When you create an account or sign in, your personal information is stored in a 
 
 <gcds-text>
 </gcds-text>
-You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to manage settings and security settings. It is your responsibility to update your personal information, including your email and phone number, in your account. 
+You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to manage settings and security settings. It is your responsibility to update your personal information.  
 
 ### Security 
 
@@ -83,7 +83,8 @@ Software programs are used to:
 - Monitor network traffic; and 
 - Identify unauthorized attempts to upload or change information or otherwise cause damage. 
 
-When you visit an [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html) website, these software programs automatically receive and temporarily store information from your browser in our web server logs for 12 months. Some of the information automatically collected by our server when you browse our website includes the:
+When you visit a [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html) website, these software programs automatically receive and temporarily store information from your browser in our web server logs for 12 months. Some of the information automatically collected by our server when you browse our website includes the:
+
 - Network location and the IP address of the computer and other devices you used to contact our website.
 - Name of the domain you used to access the internet (.com, .org, .net, .ca, etc.).
 - Type of browser you used (Google Chrome, Microsoft Edge, etc.).
@@ -102,7 +103,7 @@ When a threat to the website or computer systems of the Government of Canada is 
 
 
 ## Visiting and using Canada.ca 
-For more general information related to the Government of Canada’s web presence, please visit Canada.ca’s terms and conditions. This has information about:
+For more general information related to the Government of Canada’s web presence, please visit [Canada.ca’s terms and conditions](https://www.canada.ca/en/transparency/terms.html). This has information about:
 - Accessibility.
 - Official languages.
 - Interacting with us on social media.
