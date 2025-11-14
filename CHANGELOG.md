@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.3...v1.1.4) (2025-11-14)
+
+
+### Bug Fixes
+
+* Fixed En/Fr language toggle ([#428](https://github.com/cds-snc/gc-signin-static-website/issues/428)) ([478c77f](https://github.com/cds-snc/gc-signin-static-website/commit/478c77ff6a8f642a978286b9eaed9fc375618b9c))
+
 ## [1.1.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.2...v1.1.3) (2025-11-14)
 
 
