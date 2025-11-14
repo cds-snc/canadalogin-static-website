@@ -31,13 +31,13 @@ Si vous n’avez qu’un seul numéro enregistré sur votre compte, vous devez s
 
 3. Entrez le code sur la page Web et sélectionnez « Continuer ».
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-    <gcds-text>{% linkRef links.issuesenterverifyemailFR 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}</gcds-text>
+    <gcds-text>{% linkRef links.issuesenterverifyemailFR 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}</gcds-text>
   </gcds-notice>
 4. Entrez votre nouveau numéro de téléphone.
 5. Vous devrez vérifier votre nouveau numéro de téléphone. Sélectionnez la manière dont vous souhaitez recevoir le code de vérification à usage unique.
 6. Récupérez le code à usage unique, qui vous sera envoyé par le biais d’un message texte ou d’un appel vocal provenant de Connexion GC.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-    <gcds-text>{% link '#not-receiving-verification-codes-to-your-phone' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}</gcds-text>
+    <gcds-text>{% link '#vous-ne-recevez-pas-les-codes-de-verification-sur-votre-telephone' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}</gcds-text>
   </gcds-notice>
 7. Entrez le code sur la page Web.
 8. Il vous sera demandé de configurer une méthode de vérification de secours. Si vous ne souhaitez pas le faire, vous pouvez ignorer cette étape.

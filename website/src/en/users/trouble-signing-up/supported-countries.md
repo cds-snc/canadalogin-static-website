@@ -1,9 +1,9 @@
 ---
 title: Supported international phone numbers
-translationKey: supportedPhoneNumbers
+translationKey: supportedcountries
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: supportedPhoneNumbersEn
+  key: supportedcountries
   title: Supported international phone numbers
   locale: en
   order: 2

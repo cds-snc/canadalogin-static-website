@@ -40,19 +40,19 @@ Si vous n’avez pas encore terminé le processus d’inscription, il se peut qu
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
     card-title="Gestion de votre compte Connexion GC"
-    href="gestion-de-votre-compte"
+    href="gerer-compte"
     card-title-tag="h3"
     description="Nous vous aidons à modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
     </gcds-card>
     <gcds-card
     card-title="Se lancer avec Connexion GC"
-    href="se-lancer-avec-connexion-gc"
+    href="se-lancer-connexion-gc"
     card-title-tag="h3"
     description="Apprenez comment créer votre compte Connexion GC. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"
-    href="problemes-lies-a-l-inscription"
+    href="problemes-inscription"
     card-title-tag="h3"
     description="Vous ne parvenez pas à vérifier votre adresse courriel? Vous avez besoin d’aide pour créer un mot de passe robuste? Nous vous aidons à résoudre les problèmes liés à la création de compte.">
     </gcds-card>

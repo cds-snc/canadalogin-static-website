@@ -3,7 +3,7 @@ title: Feuille de route de Connexion GC
 translationKey: signinroadmapFR
 layout: 'layouts/base.njk'
 eleventyNavigation:
-  key: signinroadmapEN
+  key: signinroadmapFR
   title: Feuille de route
   locale: fr
   parent: partnersFR

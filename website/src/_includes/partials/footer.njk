@@ -14,7 +14,7 @@
         {% endif %}
 
     {# ------ Users Page ------- #}    
-    {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/users/")%}
+    {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/utilisateurs/")%}
         {% if locale == "en" %}
             "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
             "About GC Sign in": "{{ footer[locale].contextual.aboutUsersUrl }}",
