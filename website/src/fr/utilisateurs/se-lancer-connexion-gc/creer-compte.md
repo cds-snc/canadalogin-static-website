@@ -17,8 +17,8 @@ eleventyNavigation:
 
 ## Sur cette page
  
-- {% link '#before-you-start' 'Avant de vous lancer' %}
-- {% link '#steps-to-create-an-account' 'Étapes de la création de compte' %}    
+- {% link '#avant-de-vous-lancer' 'Avant de vous lancer' %}
+- {% link '#etapes-de-la-creation-de-compte' 'Étapes de la création de compte' %}    
 
 ## Avant de vous lancer 
 Pour créer un compte Connexion GC, vous aurez besoin des éléments suivants :

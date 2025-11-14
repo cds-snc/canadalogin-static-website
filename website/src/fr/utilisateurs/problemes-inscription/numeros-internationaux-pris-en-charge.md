@@ -1,10 +1,10 @@
 ---
 title: Numéros de téléphones internationaux pris en charge
-translationKey: supportedPhoneNumbersFR
+translationKey: supportedcountriesFR
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: supportedPhoneNumbersFR
+  key: supportedcountriesFR
   title: Numéros de téléphones internationaux pris en charge
   locale: fr
   order: 2
