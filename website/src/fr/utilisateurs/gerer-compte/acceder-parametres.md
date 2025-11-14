@@ -20,6 +20,7 @@ Pour accéder à vos paramètres Connexion GC, vous devez d’abord vous connec
 
 Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la barre de menu un lien intitulé « Gérer votre compte Connexion GC ». Sélectionnez ce lien. Cela vous conduira vers le portail des paramètres de Connexion GC, où vous pourrez gérer vos paramètres de sécurité ainsi que vos renseignements personnels.
 
+<!-- 
 ## Thèmes connexes
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
@@ -41,4 +42,5 @@ Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la ba
     card-title-tag="h3"
     description="Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compte? Nous vous aidons à résoudre les problèmes d’accès.">
     </gcds-card>
-</gcds-grid>
+</gcds-grid> 
+-->
