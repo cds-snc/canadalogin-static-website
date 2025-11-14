@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.2...v1.1.3) (2025-11-14)
+
+
+### Bug Fixes
+
+* fixed the missing french translation on the toruble signing in page ([#413](https://github.com/cds-snc/gc-signin-static-website/issues/413)) ([1dd9e8c](https://github.com/cds-snc/gc-signin-static-website/commit/1dd9e8c06f2a79f8fb271eb4e5a52b0083427317))
+* Renamed subfolders and filenames under users ([#418](https://github.com/cds-snc/gc-signin-static-website/issues/418)) ([dc1b9a5](https://github.com/cds-snc/gc-signin-static-website/commit/dc1b9a57e70a5b17d421376dde247d977dd075a5))
+* **translations:** Add FR translations to Terms and Conditions (en/partners/terms-and-conditions) ([#414](https://github.com/cds-snc/gc-signin-static-website/issues/414)) ([aef40dd](https://github.com/cds-snc/gc-signin-static-website/commit/aef40dd91f8c98625e62dd2ac3a20f1ac36e6bae))
+* updated user terms page with reviewed legal content ([#410](https://github.com/cds-snc/gc-signin-static-website/issues/410)) ([3c2d34d](https://github.com/cds-snc/gc-signin-static-website/commit/3c2d34d466636d680dd36c9e7e50eb63601885a0))
+* **users:** Comment out Related Topics on access-your-settings / acceder-parametres ([#425](https://github.com/cds-snc/gc-signin-static-website/issues/425)) ([2b82355](https://github.com/cds-snc/gc-signin-static-website/commit/2b82355a134ffbc0dbefec09b871cd813bd8996c))
+* **users:** Remove 'What to do if it says your account is incomplete' section and link ([#412](https://github.com/cds-snc/gc-signin-static-website/issues/412)) ([5d21a7b](https://github.com/cds-snc/gc-signin-static-website/commit/5d21a7bb20c1cbf406315db9974e7cf63782a2eb))
+
 ## [1.1.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.1...v1.1.2) (2025-11-12)
 
 
