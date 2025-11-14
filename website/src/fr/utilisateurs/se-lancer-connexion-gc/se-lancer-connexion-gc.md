@@ -1,7 +1,8 @@
 ---
 title: Se lancer avec Connexion GC
-translationKey: getstartedFR
+translationKey: getstarted
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: getStartedFR
   title: Se lancer avec Connexion GC

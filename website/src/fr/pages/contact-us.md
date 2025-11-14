@@ -1,6 +1,6 @@
 ---
 title: Nous contacter
-translationKey: contactPartnersFR
+translationKey: contactPartners
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: contactFR

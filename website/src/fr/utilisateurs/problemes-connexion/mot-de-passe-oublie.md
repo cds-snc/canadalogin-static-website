@@ -1,6 +1,6 @@
 ---
 title: Mot de passé oublié
-translationKey: forgotpasswordFR
+translationKey: forgotpassword
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:

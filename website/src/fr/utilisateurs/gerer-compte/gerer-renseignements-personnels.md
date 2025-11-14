@@ -1,7 +1,8 @@
 ---
 title: Gérer vos renseignements personnels
-translationKey: manageyourpersonalinformationFR
+translationKey: manageyourpersonalinformation
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: manageYourPersonalInformationFR
   title: Gérer vos renseignements personnels

@@ -1,6 +1,6 @@
 ---
 title: Comment se connecter à Connexion GC
-translationKey: howtosigninFR
+translationKey: howtosignin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:

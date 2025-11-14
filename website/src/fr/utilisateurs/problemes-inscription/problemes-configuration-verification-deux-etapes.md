@@ -1,7 +1,8 @@
 ---
 title: Problèmes liés à la configuration de la vérification en deux étapes
-translationKey: issuesSettingUp2FaFR
+translationKey: issuesSettingUp2Fa
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
    key: issuesSettingUp2FaFR
    title: Problèmes liés à la configuration de la vérification en deux étapes

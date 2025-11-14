@@ -1,6 +1,6 @@
 ---
 title: About GC Sign in
-translationKey: aboutTopicsFR
+translationKey: aboutTopics
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: aboutFR

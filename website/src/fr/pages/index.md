@@ -2,7 +2,7 @@
 title: Bienvenue sur Connexion GC
 layout: 'layouts/home.njk'
 permalink: /fr/
-translationKey: landingFR
+translationKey: landing
 eleventyNavigation:
   key: landingFR
   title: Connexion GC

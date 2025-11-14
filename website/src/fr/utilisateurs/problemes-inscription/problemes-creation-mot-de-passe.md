@@ -1,7 +1,8 @@
 ---
 title: Problèmes liés à la création d’un mot de passe
-translationKey: issuesPasswordFR
+translationKey: issuesPassword
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
    key: issuesPasswordFR
    title: Problèmes liés à la création d’un mot de passe

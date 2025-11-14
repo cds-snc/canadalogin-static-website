@@ -1,6 +1,6 @@
 ---
 title: Modifier votre adresse courriel
-translationKey: changeyouremailaddressFR
+translationKey: changeyouremailaddress
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:

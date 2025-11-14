@@ -1,7 +1,8 @@
 ---
 title: Avis
-translationKey: termsandprivacyusersFR
+translationKey: termsandprivacyusers
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: termsAndPrivacyUsersFR
   title: Avis

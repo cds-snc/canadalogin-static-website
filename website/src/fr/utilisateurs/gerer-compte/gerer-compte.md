@@ -1,7 +1,8 @@
 ---
 title: Gérer votre compte Connexion GC
-translationKey: manageyouraccountFR
+translationKey: manageyouraccount
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: manageYourAccountFR
   title: Gérer votre compte Connexion GC

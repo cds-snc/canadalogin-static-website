@@ -1,6 +1,6 @@
 ---
 title: Accéder à vos paramètres
-translationKey: accessyoursettingsFR
+translationKey: accessyoursettings
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:

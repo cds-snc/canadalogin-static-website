@@ -1,7 +1,8 @@
 ---
 title: Feuille de route de Connexion GC
-translationKey: signinroadmapFR
+translationKey: signinroadmap
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: signinroadmapFR
   title: Feuille de route

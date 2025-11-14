@@ -1,6 +1,6 @@
 ---
 title: Qu’est-ce que Connexion GC?
-translationKey: whatisgcsigninFR
+translationKey: whatisgcsignin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
@@ -10,7 +10,6 @@ eleventyNavigation:
   parent: usersFR
   order: 4
   hideMain: false
-  date: 'git Last Modified'
 ---
 
 # Qu’est-ce que Connexion GC?

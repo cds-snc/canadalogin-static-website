@@ -1,7 +1,8 @@
 ---
 title: Avis de confidentialité
-translationKey: privacynoticepartnersFR
+translationKey: privacynoticepartners
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: privacyNoticePartnersFR
   title: Confidentialité
