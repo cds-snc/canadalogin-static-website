@@ -17,20 +17,20 @@ eleventyNavigation:
 ## Problèmes fréquents
 
 ### Problèmes liés à la saisie et à la vérification de votre adresse courriel
-- {% linkRef links.issuesenterverifyemailFR 'it-says-your-email-address-is-invalid' 'Un message indique que votre adresse courriel est invalide' %}
-- {% linkRef links.issuesenterverifyemailFR 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
-- {% linkRef links.issuesenterverifyemailFR 'it-says-the-code-is-invalid' 'Un message indique que le code est invalide' %}
-- {% linkRef links.issuesenterverifyemailFR 'it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
+- {% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}
+- {% linkRef links.issuesenterverifyemailFR 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
+- {% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
+- {% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
 
 ### Problèmes liés à la création d’un mot de passe
-- {% linkRef links.issuespasswordFR 'it-says-your-password-is-not-valid' 'Un message indique que votre mot de passe est invalide' %}
-- {% linkRef links.createaccountFR 'how-to-make-a-strong-password' 'Comment créer un mot de passe robuste' %}
+- {% linkRef links.issuespasswordFR 'un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}
+- {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}
 
 ### Problèmes liés à la configuration de la vérification en deux étapes
 - {% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}
-- {% linkRef links.issuestwostepverificationFR 'it-says-your-phone-number-is-invalid' 'Un message indique que votre numéro de téléphone est invalide' %}
-- {% linkRef links.issuestwostepverificationFR 'you-are-not-receiving-codes-to-your-phone' 'Vous n’avez pas reçu de code à usage unique sur votre téléphone' %}
-- {% linkRef links.issuestwostepverificationFR 'it-says-the-code-is-invalid' 'Un message indique que le code est invalide' %}
+- {% linkRef links.issuestwostepverificationFR 'un-message-indique-que-votre-numero-de-telephone-est-invalide' 'Un message indique que votre numéro de téléphone est invalide' %}
+- {% linkRef links.issuestwostepverificationFR 'vous-navez-pas-recu-de-code-a-usage-unique-sur-votre-telephone' 'Vous n’avez pas reçu de code à usage unique sur votre téléphone' %}
+- {% linkRef links.issuestwostepverificationFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
 
 ### Problèmes liés à la création d’un profil
 - {% link links.issuesprofileFR 'Problèmes liés à la création d’un profil' %}
