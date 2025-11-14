@@ -1,7 +1,8 @@
 ---
 title: Qu’est-ce que la vérification en deux étapes?
-translationKey: twostepverificationmethodsFR
+translationKey: twostepverificationmethods
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: twoStepVerificationMethodsFR
   title: Qu’est-ce que la vérification en deux étapes?

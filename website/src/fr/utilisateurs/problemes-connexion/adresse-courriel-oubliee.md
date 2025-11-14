@@ -1,7 +1,8 @@
 ---
 title: Adresse courriel oubliée
-translationKey: forgotyouremailFR
+translationKey: forgotyouremail
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: forgotYourEmailFR
   title: Adresse courriel oubliée

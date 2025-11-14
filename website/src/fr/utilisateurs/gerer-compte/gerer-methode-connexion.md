@@ -1,6 +1,6 @@
 ---
 title: Gérer la manière dont vous vous connectez
-translationKey: managehowyousigninFR
+translationKey: managehowyousignin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:

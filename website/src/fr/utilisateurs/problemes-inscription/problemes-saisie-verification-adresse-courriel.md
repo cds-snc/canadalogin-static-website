@@ -1,7 +1,8 @@
 ---
 title: Problèmes liés à la saisie et à la vérification de votre adresse courriel
-translationKey: issuesWithEmailFR
+translationKey: issuesWithEmail
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
    key: issuesWithEmailFR
    title: Problèmes liés à la saisie et à la vérification de votre adresse courriel

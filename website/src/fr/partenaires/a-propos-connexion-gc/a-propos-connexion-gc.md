@@ -1,7 +1,8 @@
 ---
 title: À propos de Connexion GC
-translationKey: aboutgcsigninFR
+translationKey: aboutgcsignin
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: aboutgcsigninFR
   title: À propos

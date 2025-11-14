@@ -1,7 +1,8 @@
 ---
 title: Problème de connexion
-translationKey: troublesigninginFR
+translationKey: troublesigningin
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: troubleSigningInFR
   title: Problème de connexion

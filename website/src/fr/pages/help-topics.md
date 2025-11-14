@@ -1,6 +1,6 @@
 ---
 title: Sections d’aide
-translationKey: helpTopicsFR
+translationKey: helpTopics
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: helpTopicsFR

@@ -1,6 +1,6 @@
 ---
 title: Comment se déconnecter
-translationKey: howtosignoutFR
+translationKey: howtosignout
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:

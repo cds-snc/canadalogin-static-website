@@ -1,7 +1,8 @@
 ---
 title: Problème lié à l’inscription
-translationKey: troublesigningupFR
+translationKey: troublesigningup
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: troubleSigningUpFR
   title: Problème lié à l’inscription

@@ -1,6 +1,6 @@
 ---
 title: Comment sécuriser votre compte
-translationKey: howtokeepyouraccountsecureFR
+translationKey: howtokeepyouraccountsecure
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
