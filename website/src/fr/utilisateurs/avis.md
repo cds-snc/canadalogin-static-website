@@ -129,7 +129,7 @@ Notre contrat les empêche d’utiliser ou de divulguer vos renseignements perso
 </gcds-text>
 IBM Canada a son siège social à Markham, Ontario et sa société mère, IBM, se a son siège social à Armonk, dans l’État de New York et peut être assujettie aux lois des États-Unis. 
 
-### WNous utilisons l’analytique Web pour améliorer votre expérience   
+### Nous utilisons l’analytique Web pour améliorer votre expérience   
 Connexion GC a recours à un fournisseur de services tiers, Google Inc. (Google Analytics). Les données analytiques recueillies ne comprennent pas de renseignements susceptibles de vous identifier ou vous localiser, comme votre adresse de protocole Internet (IP)  
 <gcds-text>
 </gcds-text>
