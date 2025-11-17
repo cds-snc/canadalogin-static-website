@@ -44,7 +44,7 @@ Si vous n’avez qu’un seul numéro enregistré sur votre compte, vous devez s
 9. Félicitations! Vous avez à nouveau accès à votre vérification en deux étapes et la connexion a réussi. Votre redirection va être effectuée vers le programme ou service auquel vous cherchiez à accéder. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
 
 <gcds-notice type="warning" notice-title-tag="h2" notice-title="Cette action ne remplace aucun des numéros existants sur votre compte">
-  <gcds-text>Pour supprimer des numéros de téléphone que vous ne voulez plus associer à votre compte, suivez notre guide « {% linkRef links.managehowyousigninFR '##delete-a-2-step-verification-phone-number' 'Supprimer un numéro de téléphone pour la vérification en deux étapes' %} ».</gcds-text>
+  <gcds-text>Pour supprimer des numéros de téléphone que vous ne voulez plus associer à votre compte, suivez notre guide « {% linkRef links.managehowyousigninFR '#supprimer-un-numero-de-telephone-pour-la-verification-en-deux-etapes' 'Supprimer un numéro de téléphone pour la vérification en deux étapes' %} ».</gcds-text>
 </gcds-notice>
 
 ## Vous ne recevez pas les codes de vérification sur votre téléphone
@@ -60,4 +60,4 @@ Si vous ne recevez pas les codes de vérification sur votre téléphone, essayez
   - Sur la page « Consultez votre téléphone », sélectionnez « Essayer d’une autre manière ».
   - Sélectionnez un autre numéro de téléphone ou une autre méthode de vérification.
 
-- Si vous ne recevez toujours pas de code et que vous n’avez aucun autre numéro de téléphone enregistré sur votre compte que vous pouvez utiliser pour la connexion, vous pourriez avoir à {% linkRef links.problemssigninginwith2stepverificationFR '#how-to-recover-your-phone-number' 'récupérer votre numéro de téléphone' %}.
+- Si vous ne recevez toujours pas de code et que vous n’avez aucun autre numéro de téléphone enregistré sur votre compte que vous pouvez utiliser pour la connexion, vous pourriez avoir à {% linkRef links.problemssigninginwith2stepverificationFR '#comment-acceder-a-nouveau-a-votre-verification-en-deux-etapes' 'récupérer votre numéro de téléphone' %}.

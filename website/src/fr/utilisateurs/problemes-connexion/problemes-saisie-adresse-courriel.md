@@ -22,4 +22,4 @@ Si vous recevez un message d’erreur lors de la saisie de votre adresse courrie
 
 2. Si la méthode ci-dessus ne fonctionne pas pour vous ou si vous obtenez une erreur système, le problème pourrait venir de nous. Attendez quelques heures et réessayez. 
 
-3. Si la situation n’est pas réglée au bout de quelques heures, {% link links.contact 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+3. Si la situation n’est pas réglée au bout de quelques heures, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.

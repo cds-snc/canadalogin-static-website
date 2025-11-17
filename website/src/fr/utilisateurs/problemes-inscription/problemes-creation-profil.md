@@ -25,4 +25,4 @@ Essayez ce modèle :
 - <strong>Prénom (facultatif) </strong>: Vous pouvez choisir d’entrer un prénom ou de laisser le champ vide. 
 - <strong>Nom de famille (obligatoire) </strong>: Vous devez entrer un nom de famille. Si vous n’avez qu’un nom au lieu d’un nom et d’un prénom, écrivez votre nom légal dans ce champ.
  
-Si vous rencontrez encore des problèmes, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+Si vous rencontrez encore des problèmes, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.

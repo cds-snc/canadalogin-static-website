@@ -33,7 +33,7 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Protégez le téléphone que vous utilisez pour la vérification en deux étapes
 
-- Pour vous assurer de ne jamais perdre accès à votre compte, nous vous recommandons d’y ajouter plusieurs numéros de téléphone pour la vérification en deux étapes. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% linkRef links.managehowyousigninFR 'add-a-2step-verification-phone-number' 'Ajouter un numéro de téléphone pour la vérification en deux étapes' %} ».
+- Pour vous assurer de ne jamais perdre accès à votre compte, nous vous recommandons d’y ajouter plusieurs numéros de téléphone pour la vérification en deux étapes. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% linkRef links.managehowyousigninFR 'ajouter-un-numero-de-telephone-pour-la-verification-en-deux-etapes' 'Ajouter un numéro de téléphone pour la vérification en deux étapes' %} ».
 
 - Vous aurez besoin d’un numéro de téléphone pour accéder à votre compte. Assurez-vous donc qu’il s’agit d’un numéro sécurisé auquel vous aurez toujours accès à l’avenir.
 
@@ -49,4 +49,4 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Guettez toute activité suspecte
 
-- Faites attention aux notifications que nous vous envoyons par courriel indiquant qu’une modification a été apportée à votre compte. Si vous n’êtes pas à l’origine du changement en question, suivez {% linkRef links.whattodowhenyoufindsuspiciousactivityFR 'secure-your-gc-sign-in-account' 'ces étapes pour protéger votre compte' %}.
+- Faites attention aux notifications que nous vous envoyons par courriel indiquant qu’une modification a été apportée à votre compte. Si vous n’êtes pas à l’origine du changement en question, suivez {% linkRef links.whattodowhenyoufindsuspiciousactivityFR 'securisez-votre-compte-connexion-gc' 'ces étapes pour protéger votre compte' %}.

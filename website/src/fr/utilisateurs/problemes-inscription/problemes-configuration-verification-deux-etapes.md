@@ -39,7 +39,7 @@ Si vous recevez un message d’erreur indiquant que votre numéro de téléphone
 
 #### 5. Contactez l’équipe de soutien
    
-   - Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+   - Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
                      
 ### Vous n’avez pas reçu de code à usage unique sur votre téléphone
              
@@ -62,7 +62,7 @@ Si vous n’avez pas reçu votre code de vérification Connexion GC par message 
    - Si le message ou appel ne vous parvient pas, demandez un nouveau code en cliquant sur « Demander un nouveau code » sous « Des problèmes avec votre code? ». Il se peut que vous deviez attendre quelques secondes avant que le lien permettant de demander un nouveau code apparaisse.
                                        
 #### 5. Contactez l’équipe de soutien
-   - Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+   - Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
    
 ### Un message indique que le code est invalide                                  
 
@@ -76,5 +76,5 @@ Si un message indique que le code à usage unique que vous avez entré est inval
    - Si vous entrez le mauvais code à de trop nombreuses reprises, il se peut que votre compte soit temporairement verrouillé. Attendez 15 minutes et réessayez.
  
 #### 3. Contactez l’équipe de soutien
-   - Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+   - Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
                                              
