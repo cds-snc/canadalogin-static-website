@@ -20,7 +20,7 @@ hero:
     Qui utilise Connexion GC?
 </gcds-heading>
 
-<!-- {% link links.getstarted 'Get started →' %} -->     
+<!-- {% link links.getstartedFR 'Get started →' %} -->     
 <gcds-grid tag="div" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
     <div>
         <img src="/assets/images/common/home/home_users_icon.svg" style="height: 120px; width: auto;" alt="An icon of 3 people.">

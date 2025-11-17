@@ -40,4 +40,4 @@ Si vous recevez un message disant que votre mot de passe n’est pas valide, ess
    Vous pouvez suivre notre guide « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} ». 
 
 ### 3. Contactez l’équipe de soutien
-    Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+    Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.

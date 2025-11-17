@@ -59,7 +59,7 @@ Si vous ne trouvez pas le code à usage unique Connexion GC dans votre boîte de
 ### 6. Essayez de demander un nouveau code
    - Sur la page Web, demandez un nouveau code de vérification en cliquant sur le lien « Demander un nouveau code » sous « Des problèmes avec votre code? ». Il se peut que vous deviez attendre quelques secondes avant que le lien permettant de demander un nouveau code apparaisse.
 ### 7. Contactez l’équipe de soutien
-   - Si aucune de ces solutions ne fonctionne, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+   - Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
 
 ## Un message indique que le code est invalide
 
@@ -104,6 +104,8 @@ Votre adresse courriel est déjà liée à un compte Connexion GC. Cela pourrait
 #### 3. Si vous pensez que quelqu’un essaie de créer un compte avec votre adresse courriel, nous vous recommandons les actions suivantes :
    - Changez le mot de passe de votre compte de courrier électronique pour en garantir la sécurité.
    - Ne laissez pas votre compte de courrier électronique connecté sur des appareils en commun.
+
+  <!-- TO-DO: Fix contact link once we add  customer service number and section -->
 #### 4. Contactez l’équipe de soutien
-   - Si vous avez d’autres questions ou si vous avez besoin d’aide supplémentaire, {% link links.contactFR 'contactez l’équipe de soutien à la clientèle' %}.
+   - Si vous avez d’autres questions ou si vous avez besoin d’aide supplémentaire, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %}.
    

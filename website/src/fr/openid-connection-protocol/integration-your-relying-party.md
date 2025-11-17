@@ -69,6 +69,6 @@ Here are the user info claims available during the GC Sign-in pilot:
 
 ## Reference the following links for GC Sign-in envrionment links and endpoints
 
-{% link links.implementationofopenidconnect 'GC Sign-in Implementation of OpenID Connect' %}    
+{% link links.implementationofopenidconnectFR 'GC Sign-in Implementation of OpenID Connect' %}    
 
 

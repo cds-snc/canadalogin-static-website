@@ -13,8 +13,8 @@ eleventyNavigation:
 # OpenID Connect protocol
 
 {% link links.implementationofopenidconnect 'GC Sign-in Implementation of OpenID Connect' %}     
-{% link links.sequencediagrams 'Sequece diagrams' %}  
-{% link links.integrateyourrelyingparty 'Integration your relying party' %}  
+{% link links.sequencediagramsFR 'Sequece diagrams' %}  
+{% link links.integrateyourrelyingpartyFR 'Integration your relying party' %}  
 
 ## What is the OpenID Connect protocol?
 

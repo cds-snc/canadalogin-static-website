@@ -33,7 +33,7 @@ If you're seeing an "invalid email" error, here are a few things to check:
 3. <strong>GC Sign in might be experiencing issues</strong>
    - If you’re sure your email is correct, the issue could be on our end. We suggest waiting 24 hours and then trying again.
 4. <strong>Contact Support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+   - If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
 
 ##  You cannot find the one-time code in your email inbox
 
@@ -56,7 +56,7 @@ If you cannot find the one-time code for GC Sign in your email inbox, try these 
 6. <strong>Try resending the code</strong>
    - On the webpage, request a new verification code by selecting the “Request a new code” link under “Problems with the code?”. You may have to wait a few seconds for the resend link to appear.
 7. <strong>Contact support</strong>
-   - If none of these steps work, {% link links.contact 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+   - If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
 
 ## It says your code is invalid
 
@@ -102,5 +102,5 @@ an account, or because someone else used or is using your email in error.
    - Changing the password on your email account to make sure it’s secure.
    - Not leaving your email signed in on shared devices.
 4. <strong>Contact support</strong>
-   - If you have additional questions or need additional help, {% link links.contact 'contact customer support.' %}
+   - If you have additional questions or need additional help, {% link links.contactUsers 'contact customer support.' %}
    

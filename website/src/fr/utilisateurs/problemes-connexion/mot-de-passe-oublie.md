@@ -16,7 +16,7 @@ eleventyNavigation:
 Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un message d’erreur indiquant que le courriel et le mot de passe ne correspondent pas, essayez la méthode suivante :
 
 - Assurez-vous que l’adresse courriel que vous avez entrée est celle que vous avez utilisée pour créer votre compte Connexion GC. 
-- Si vous ne savez pas quelle adresse courriel vous avez utilisée, consultez notre guide sur la marche à suivre en cas d’{% linkRef links.forgotyouremail '' 'adresse courriel oubliée' %} pour déterminer l’adresse associée à votre compte Connexion GC.
+- Si vous ne savez pas quelle adresse courriel vous avez utilisée, consultez notre guide sur la marche à suivre en cas d’{% linkRef links.forgotyouremailFR '' 'adresse courriel oubliée' %} pour déterminer l’adresse associée à votre compte Connexion GC.
 
 ## Si vous avez oublié votre mot de passe, suivez ces étapes pour le réinitialiser : 
 
@@ -26,17 +26,17 @@ Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un mes
 
 3. Entrez le code sur la page Web et cliquez sur « Continuer ».
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-    <gcds-text>{% linkRef links.issuesenterverifyemailFR 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'Que faire si vous ne trouvez pas de courriel contenant le code dans votre boîte de réception' %}</gcds-text>
+    <gcds-text>{% linkRef links.issuesenterverifyemailFR 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Que faire si vous ne trouvez pas de courriel contenant le code dans votre boîte de réception' %}</gcds-text>
   </gcds-notice>
 
 4. Complétez la vérification en deux étapes.
  <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-    <gcds-text>{% linkRef links.problemssigninginwith2stepverificationFR 'problems-signing-in-with-2-step-verification' 'Problèmes liés à la connexion avec la vérification en deux étapes.' %}</gcds-text>
+    <gcds-text>{% linkRef links.problemssigninginwith2stepverificationFR '' 'Problèmes liés à la connexion avec la vérification en deux étapes' %}</gcds-text>
   </gcds-notice>
 
 5. Entrez votre nouveau mot de passe.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-    <gcds-text>{% linkRef links.createaccountFR 'how-to-make-a-strong-password' 'Comment créer un mot de passe robuste' %}</gcds-text>
+    <gcds-text>{% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}</gcds-text>
     <gcds-text>{% linkRef links.issuespasswordFR '' 'Problèmes liés à la création d’un mot de passe' %} </gcds-text>
   </gcds-notice>
 
