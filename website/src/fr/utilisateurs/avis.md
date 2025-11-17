@@ -14,109 +14,133 @@ eleventyNavigation:
 
 # Avis
 
-## About GC Sign in 
-GC Sign in is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about [GC Sign in](/fr/utilisateurs/a-propos/) or [get help](/fr/utilisateurs/). 
-
-
-GC Sign in is managed by Canada Digital Service (CDS) / Employment and Social Development Canada (ESDC) for the Government of Canada. We do not use the personal information you provide for any purpose other than providing you with an account.  
-
-### Agreement to these terms 
-By creating, accessing or using a GC Sign in account, you agree to these Terms. If you do not agree, do not register for or use GC Sign in.  
-
-If you do not want to create a GC Sign in account, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.  
-
-### What GC Sign in provides
-Your account is a credential service that enables you to access programs and services. Your personal information is encrypted and stored in a secure database. Sharing does not happen automatically. Your personal information is only shared when you use GC Sign in to access a program or service. 
-
-### Your responsibilities when using GC Sign in
-
-You must:
-- use GC Sign in only for lawful and authorized purposes
-- keep your credentials confidential
-- access GC Sign in only on your own behalf
-- update your account information when it changes
-
-You must not:
-- share your credentials or create an account for someone else
-- allow someone else to use your account
-- attempt to bypass, disrupt, or test the security of this service
-- use GC Sign in to attempt fraud or unauthorized access
-
-**Your access may be suspended or removed if it is determined that you have not complied with these Terms.**
-
-### Certification of information you provide
-By using GC Sign-in, you certify that the information you provide through this account belongs to you and is submitted by you.
-
-### Privacy 
-When you create an account or sign in, your personal information is stored in a secure database for up to 2 years. It is shared with programs and services and protected according to their policies and processes. 
-<gcds-text>
-</gcds-text>
-The Government of Canada follows the Privacy Act when handling your personal information. The department or agency responsible for the program or service you are accessing may follow other laws. You may need to return to the program or service's website to learn about these.
-<gcds-text>
-</gcds-text>
-
-GC Sign in is managed by CDS/ESDC. The Department of Employment and Social Development Act authorizes ESDC to collect and use your personal information and establish obligations to protect it. 
+## À propos de Connexion GC  
+Connexion GC est une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada. Cet outil vous permet d’utiliser un seul et même ensemble d’identifiants pour vous connecter à plusieurs services. Apprenez-en plus sur [Connexion GC](/fr/utilisateurs/a-propos/) ou [obtenez de l’aide](/fr/utilisateurs/).  
 
 <gcds-text>
 </gcds-text>
-You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to manage settings and security settings. It is your responsibility to update your personal information, including your email and phone number, in your account. 
+ 
+Connexion GC est un outil géré par le Service numérique canadien (« SNC »)/Emploi et Développement social Canada (« EDSC ») pour le gouvernement du Canada. Nous n’utilisons pas les renseignements personnels que vous fournissez à d’autres fins que celle de vous fournir un compte.   
 
-### Security 
 
-We take measures to safeguard our websites and your account information. 
+### Acceptation du présent avis  
+En créant un compte Connexion GC, en y accédant ou en l’utilisant, vous acceptez les conditions du présent avis. L’utilisation de Connexion GC n’est pas obligatoire. Aussi, si vous n’acceptez pas les conditions du présent avis, ne créez pas de compte Connexion GC et n’utilisez pas cet outil.   
+ 
+<gcds-text>
+</gcds-text>
+
+Si vous ne souhaitez pas créer de compte Connexion GC ou si vous n’y parvenez pas, il se peut que vous ayez d’autres options pour accéder à un programme ou service. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces options.   
+
+### Ce que fournit Connexion GC
+Votre compte est un service d’identifiant qui vous permet d’accéder aux programmes et services du gouvernement du Canada. Vos renseignements personnels sont chiffrés et conservés dans une base de données sécurisée. Par défaut, vos renseignements personnels ne sont pas transmis. Vos renseignements personnels sont uniquement transmis lorsque vous utilisez Connexion GC pour accéder à un programme ou service.
+
+### Vos responsabilités lorsque vous utilisez Connexion GC 
+
+Vous avez les obligations suivantes :
+- Utiliser Connexion GC uniquement à des fins légales et autorisées. 
+- Veiller à la confidentialité de vos identifiants. 
+- Accéder à Connexion GC uniquement pour votre propre compte. 
+- Mettre à jour les renseignements de votre compte si ceux-ci changent
+
+
+Il vous est interdit de réaliser les actions suivantes : 
+- Communiquer vos identifiants à une tierce personne ou créer un compte pour une tierce personne. 
+- Permettre à une tierce personne d’utiliser votre compte. 
+- Tenter de contourner, de perturber ou de tester la sécurité de ce service. 
+- Utiliser Connexion GC dans le cadre d’une tentative de fraude ou d’accès non autorisé. 
+- Utiliser Connexion GC pour toute autre fin que celle pour laquelle le service est fourni. 
+
+
+**S’il est déterminé que vous n’avez pas respecté les conditions du présent avis, il se peut que votre accès soit suspendu ou supprimé.**
+
+### Avis de non-responsabilité 
+- Vous comprenez et acceptez que le SNC/EDSC fournit l’outil Connexion GC « tel quel » et « selon la disponibilité ». Cela signifie que nous faisons de notre mieux pour veiller à ce que l’outil Connexion GC soit fiable, sécurisé et à jour, mais que nous ne pouvons pas garantir qu’il fonctionnera toujours parfaitement et qu’il sera disponible en tout temps. Connexion GC peut faire l’objet de mises à jour ou de modifications à tout moment.  
+- Vous comprenez également et acceptez le fait que le SNC/EDSC n’est responsable d’aucune perte, d’aucun dommage ou d’aucun désagrément pouvant survenir en raison d’éléments suivants :   
+  - Aspects échappant à notre contrôle, comme des problèmes liés à Internet, au réseau ou au courant ayant une incidence sur Connexion GC ou des services connexes.
+  - Autres sites que vous visitez par le biais de liens provenant de Connexion GC.   
+  - Renseignements que vous envoyez au SNC/à EDSC par le biais de Connexion GC.
+  - Renseignements que vous fournissez qui ne sont pas acceptés ou traités.  
+  - Votre violation des conditions de l’avis.  
+
+
+### Certification des renseignements que vous fournissez 
+En utilisant Connexion GC, vous certifiez que les renseignements que vous fournissez par le biais de ce compte vous appartiennent et que c’est bien vous qui les fournissez. 
+
+### Confidentialité 
+Lorsque vous créez un compte ou que vous vous connectez, vos renseignements personnels sont conservés dans une base de données sécurisée pour une durée maximale de deux ans. Ils sont transmis aux programmes et services du gouvernement du Canada et protégés en vertu des politiques et processus respectifs de ces derniers.  
+<gcds-text>
+</gcds-text>
+  Connexion GC est un outil géré par le SNC/EDSC. Vos renseignements personnels sont traités conformément à la Loi sur le ministère de l’Emploi et du Développement social, à la Loi sur la protection des renseignements personnels et à d’autres lois applicables. Le ministère ou l’organisme responsable du programme ou service auquel vous essayez d’accéder peut être soumis à des exigences légales supplémentaires. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces exigences. 
+<gcds-text>
+</gcds-text>
+
+Vous avez droit à la protection de vos renseignements personnels, à leur accès et à leur correction. Pour accéder à vos renseignements personnels dans votre compte et les corriger, rendez-vous dans « Gérer Connexion GC » puis dans « Paramètres de sécurité ». Il est de votre responsabilité de mettre à jour vos renseignements personnels.   
+
+### Sécurité 
+
+Nous prenons des mesures pour protéger nos sites Web et les renseignements de votre compte.  
 
 ### Notifications 
-We will send you emails about changes to your account. If you notice suspicious activity, it is recommended that you follow instructions promptly. We will always direct you to the help page. We will never send you a link to enter your phone number, password, or email address. These emails will always have high resolution images of the Government of Canada logo. You can update your email address in settings.
+Nous vous enverrons des courriels concernant les modifications apportées à votre compte. Si vous remarquez des activités suspectes, nous vous recommandons de suivre rapidement les instructions. Nous vous dirigerons toujours vers la section d’aide. Nous ne vous enverrons jamais de lien vous invitant à saisir votre numéro de téléphone, votre mot de passe ou votre adresse courriel. Ces courriels comprendront toujours des images haute résolution du logo du gouvernement du Canada.  
 
-### Logging and monitoring 
-Software programs are used to:
-- Monitor network traffic; and 
-- Identify unauthorized attempts to upload or change information or otherwise cause damage. 
+### Journalisation et suivi  
+Des programmes logiciels sont utilisés aux fins suivantes : 
+- Surveiller le trafic réseau.  
+- Détecter les tentatives non autorisées de téléverser ou de modifier des données, ou de causer d’autres dommages.  
 
-When you visit an [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html) website, these software programs automatically receive and temporarily store information from your browser in our web server logs for 12 months. Some of the information automatically collected by our server when you browse our website includes the:
-- Network location and the IP address of the computer and other devices you used to contact our website.
-- Name of the domain you used to access the internet (.com, .org, .net, .ca, etc.).
-- Type of browser you used (Google Chrome, Microsoft Edge, etc.).
-- Type of operating system you used (Windows, macOS, etc.).
-- Date and time you accessed the site.
-- Pages you have accessed and the documents you have downloaded.
-- Internet address of the website you visited to get to our site. 
+Lorsque vous visitez un site Web d’[Emploi et Développement social Canada](https://www.canada.ca/fr/emploi-developpement-social.html), ces logiciels reçoivent automatiquement les données fournies par votre navigateur et les stockent temporairement dans les journaux de notre serveur Web pendant 12 (douze) mois. Parmi les données automatiquement recueillies par notre serveur lorsque vous naviguez sur notre site Web figurent les éléments suivants : 
+- L’emplacement du réseau et l’adresse du protocole Internet (IP) de l’ordinateur et des autres appareils que vous avez utilisés pour contacter notre site Web. 
+- Le nom du domaine que vous avez utilisé pour accéder à Internet (.com, .org, .net, .ca, etc.). 
+- Le type de navigateur que vous avez utilisé (Google Chrome, Microsoft Edge, etc.). 
+- Le type de système d’exploitation que vous avez utilisé (Windows, MacOS, etc.). 
+- La date et l’heure auxquelles vous avez accédé au site. 
+- Les pages auxquelles vous avez accédé et les documents que vous avez téléchargés. 
+- L’adresse Internet du site Web que vous avez visité pour accéder à notre site.  
 
-This is statistical data and does not directly identify you. We do not try to link this data, nor the IP addresses of devices that have contacted our website, with the identity of individuals visiting our site, unless an attempt to damage the site has been detected. The software programs never gather specific personal information such as your name, your phone number, or your email address.
+ 
+Il s’agit là de données statistiques qui ne permettent pas de vous identifier directement. Nous ne tentons pas de relier ces données, ni les adresses IP des appareils qui ont contacté notre site Web, à l’identité des personnes qui visitent notre site, à moins qu’une tentative d’endommager le site n’ait été détectée. Les programmes logiciels ne sont jamais utilisés pour recueillir des renseignements personnels particuliers tels que votre nom, votre numéro de téléphone ou votre adresse électronique. 
 
 ### Investigations 
-When a threat to the website or computer systems of the Government of Canada is detected, information is collected pursuant to section 161 of the [Financial Administration Act](https://laws-lois.justice.gc.ca/eng/acts/f-11/). The information may be shared with appropriate law enforcement authorities if suspected criminal activities are detected. Such information may be used for network security related statistical purposes, audit, evaluation, research, planning, and reporting, and is described in [Personal Information Bank Security Incidents and Privacy Breaches (PSU 939)](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu939).
+Lorsqu’une menace pour le site Web ou les systèmes informatiques du gouvernement du Canada est détectée, des données sont recueillies conformément à l’article 161 de la [Loi sur la gestion des finances publiques](https://laws-lois.justice.gc.ca/fra/lois/f-11/). Si des activités suspectées d’être criminelles sont détectées, ces données peuvent être communiquées aux autorités compétentes chargées de l’application de la loi. De tels renseignements peuvent être utilisés pour établir des statistiques sur la sécurité du réseau ainsi qu’à des fins d’audit, d’évaluation, de recherche, de planification et d’établissement de rapports, et figurent dans le [fichier de renseignements personnels POU 939 Incidents de sécurité et atteintes à la vie privée](https://laws-lois.justice.gc.ca/fra/lois/f-11/).
 
-### Vulnerability disclosure 
-[Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html) is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, let us know so we can fix it as soon as possible. Please visit the [Security Notice](https://digital.canada.ca/security-notice/) to learn more about that process. 
+### Divulgation de vulnérabilité  
+[Emploi et Développement social Canada](https://www.canada.ca/fr/emploi-developpement-social.html) est un défenseur de la divulgation responsable des vulnérabilités. Si vous avez repéré une vulnérabilité, veuillez nous en informer afin que nous puissions la corriger le plus rapidement possible. Veuillez consulter l’[Avis de sécurité](https://numerique.canada.ca/avis-de-securite/) pour en savoir plus.  
 
 
-## Visiting and using Canada.ca 
-For more general information related to the Government of Canada’s web presence, please visit Canada.ca’s terms and conditions. This has information about:
-- Accessibility.
-- Official languages.
-- Interacting with us on social media.
-- Using files located on non-Government of Canada servers.
-- Linking to non-Government of Canada websites.
-- Ownership and usage of content provided on this site.
+## Visite et utilisation de Canada.ca
+Pour obtenir davantage de renseignements généraux sur la présence Web du gouvernement du Canada, consultez l’[avis de Canada.ca](https://www.canada.ca/fr/transparence/avis.html). Celui-ci comprend des renseignements sur les points suivants : 
 
-### We use an identity and access management solution 
-GC Sign in has a contract with a third-party service provider, IBM Canada. Their solution enables you to use a single account to access multiple services and programs (single sign-on). Your account information: email, phone number, and other personal information you share are securely stored in an IBM Canada database. 
+- Accessibilité. 
+- Langues officielles. 
+- Échanger avec nous sur les médias sociaux. 
+- Emploi de fichiers situés sur des serveurs autres que ceux du gouvernement du Canada. 
+- Hyperliens vers des sites Web autres que ceux du gouvernement du Canada. 
+- Propriété et utilisation du contenu offert sur ce site. 
+
+
+### Fournisseurs de services tiers
+
+#### Nous utilisons une solution de gestion des identités et des accès  
+Connexion GC a un contrat avec un fournisseur de services tiers, IBM Canada. Leur solution vous permet d’utiliser un compte unique pour accéder à plusieurs services et programmes (connexion unique). Les renseignements relatifs à votre compte (adresse courriel, numéro de téléphone et autres renseignements personnels) que vous transmettez sont conservés de manière sécurisée dans une base de données d’IBM Canada.  
+ 
 <gcds-text>
 </gcds-text>
-Our contract prevents them from using or disclosing your personal information for any other purpose. IBM Canada is not involved in any decision-making about you. The contract includes strong security and privacy provisions, including encryption, to ensure your account information is handled appropriately. 
+Notre contrat les empêche d’utiliser ou de divulguer vos renseignements personnels à toute autre fin. IBM Canada ne participe à aucune prise de décision vous concernant. Ce contrat comprend des provisions robustes en matière de sécurité et de protection des renseignements personnels, y compris le chiffrage, pour veiller à ce que les renseignements relatifs à votre compte soient traités de manière appropriée
 <gcds-text>
 </gcds-text>
-IBM Canada is headquartered in Markham, Ontario and its parent company, IBM, is headquartered in Armonk, New York. As such, the solution may transmit your account information through the United States of America (USA) and may be subject to the USA’s laws, including the USA PATRIOT ACT.
+IBM Canada a son siège social à Markham, Ontario et sa société mère, IBM, se a son siège social à Armonk, dans l’État de New York et peut être assujettie aux lois des États-Unis. 
 
-### We use web analytics to help improve your experience  
-GC Sign in uses a third-party service provider, Google Inc. (Google Analytics). The analytics collected do not include information that could identify you or your location, such as your Internet Protocol (IP) address.
+### Nous utilisons l’analytique Web pour améliorer votre expérience   
+Connexion GC a recours à un fournisseur de services tiers, Google Inc. (Google Analytics). Les données analytiques recueillies ne comprennent pas de renseignements susceptibles de vous identifier ou vous localiser, comme votre adresse de protocole Internet (IP)  
 <gcds-text>
 </gcds-text>
-Web analytics show us measures such as the type of browser used to visit the website, the pages visited, and the links clicked. This information helps us learn how our website is being used and allows us to improve your experience.
+L’analytique Web nous renseigne sur des données telles que le type de navigateur utilisé pour visiter le site Web, les pages visitées et les liens suivis. Ces renseignements nous aident à savoir comment est utilisé notre site Web ainsi qu’à améliorer votre expérience. 
+<gcds-text>
+</gcds-text>
+Le siège social de Google Inc. se trouve à Mountain View, dans l’État de Californie. De ce fait, il se peut que la solution transmette les renseignements relatifs à l’analytique par le biais des États-Unis d’Amérique et que ces renseignements soient soumis aux lois des États-Unis d’Amérique, y compris la USA Patriot Act. 
 
-Google Inc. is headquartered in Mountain View, California. As such, the solution may transmit analytics information through the USA and may be subject to the USA’s laws, including the USA PATRIOT ACT.
-<gcds-text>
-</gcds-text>
-### Changes to these Terms
-These Terms may be updated at any time. Updated Terms take effect once posted online. You will be required to accept updated Terms to continue using GC Sign in.
+### Modifications du présent avis 
+Le présent avis est susceptible d’être mis à jour à tout moment. L’avis mis à jour prend effet dès sa publication en ligne. Vous devrez accepter les conditions de l’avis mis à jour pour continuer à utiliser Connexion GC. 
+ 
+Le présent avis est régi et interprété conformément aux lois du Canada et de la province de l’Ontario sans égard aux règles de conflit de lois. 
+
