@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # Accéder à vos paramètres
 
-Pour accéder à vos paramètres Connexion GC, vous devez d’abord vous connecter à votre compte. Si vous ne savez pas comment vous y prendre, consultez notre guide « {% linkRef links.howtosignin '' 'Comment se connecter' %} ».
+Pour accéder à vos paramètres Connexion GC, vous devez d’abord vous connecter à votre compte. Si vous ne savez pas comment vous y prendre, consultez notre guide « {% linkRef links.howtosigninFR '' 'Comment se connecter' %} ».
 
 <br />
 

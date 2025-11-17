@@ -33,7 +33,7 @@ eleventyNavigation:
   Il se peut que l’on vous demande de terminer la configuration de votre compte Connexion GC.
 </gcds-heading>
 
-Si vous n’avez pas encore terminé le processus d’inscription, il se peut que l’on vous demande d’enregistrer une méthode de vérification en deux étapes. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% linkRef links.problemssigninginwith2stepverification 'not-receiving-verification-codes-to-your-phone' 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %} ».  
+Si vous n’avez pas encore terminé le processus d’inscription, il se peut que l’on vous demande d’enregistrer une méthode de vérification en deux étapes. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% linkRef links.problemssigninginwith2stepverification 'vous-ne-recevez-pas-les-codes-de-verification-sur-votre-telephone' 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %} ».  
 <!--
 ## Thèmes connexes
 

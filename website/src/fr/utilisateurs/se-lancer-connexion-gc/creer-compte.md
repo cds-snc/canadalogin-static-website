@@ -54,7 +54,7 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
-    <li><gcds-link href="/fr/utilisateur/problemes-inscription/problemes-creation-profil/"> Problèmes liés à la création d’un profil </gcds-link>
+    <li><gcds-link href="/fr/utilisateurs/problemes-inscription/problemes-creation-profil/"> Problèmes liés à la création d’un profil </gcds-link>
     </li>
   </ul>
 </gcds-notice>
@@ -108,13 +108,13 @@ Pour aider à éviter que votre compte et vos renseignements personnels soient c
 
 ### 7. Configurez une méthode de vérification en deux étapes
 
-Pour une protection supplémentaire de votre compte, Connexion GC exige que vous configuriez une deuxième méthode d’authentification. Cette méthode porte le nom de vérification en deux étapes. Si vous souhaitez en savoir plus sur ce qu’est la vérification en deux étapes, consultez notre {% link links.twostepverificationmethods 'guide d’information sur la vérification en deux étapes' %}.
+Pour une protection supplémentaire de votre compte, Connexion GC exige que vous configuriez une deuxième méthode d’authentification. Cette méthode porte le nom de vérification en deux étapes. Si vous souhaitez en savoir plus sur ce qu’est la vérification en deux étapes, consultez notre {% link links.twostepverificationmethodsFR 'guide d’information sur la vérification en deux étapes' %}.
            
 Pour configurer la vérification en deux étapes, procédez de la manière suivante :
 
 1. <strong>Entrez votre numéro de téléphone et choisissez la manière dont vous souhaitez recevoir vos codes de vérification</strong>
    - Vous pouvez choisir de recevoir vos codes par message texte (SMS) ou par appel vocal. 
-   - Si vous souhaitez obtenir plus d’informations pour déterminer quelle méthode d’envoi de code fonctionne le mieux pour vous, reportez-vous à notre {% linkRef links.twostepverificationmethods 'phone-verification' 'guide de la vérification par téléphone' %}.
+   - Si vous souhaitez obtenir plus d’informations pour déterminer quelle méthode d’envoi de code fonctionne le mieux pour vous, reportez-vous à notre {% linkRef links.twostepverificationmethodsFR 'verification-par-telephone' 'guide de la vérification par téléphone' %}.
 
 2. <strong>Entrez le code</strong>
    <!-- TO-DO: Missing translation? -->
