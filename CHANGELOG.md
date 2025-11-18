@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.4...v1.1.5) (2025-11-18)
+
+
+### Bug Fixes
+
+* **cleanup:** Delete unused page (accessibility) and rename section-aides file ([#427](https://github.com/cds-snc/gc-signin-static-website/issues/427)) ([1cbc896](https://github.com/cds-snc/gc-signin-static-website/commit/1cbc89684fd08dfa8583b9039fa4bd9f12e9ab2f))
+* Implement correct anchor tags for all subpages in FR ([#423](https://github.com/cds-snc/gc-signin-static-website/issues/423)) ([3f8acb9](https://github.com/cds-snc/gc-signin-static-website/commit/3f8acb9ee9221d33298e23ad6f5defb91fd8d0dc))
+* include the website path for renovate.json ([#434](https://github.com/cds-snc/gc-signin-static-website/issues/434)) ([b7720c6](https://github.com/cds-snc/gc-signin-static-website/commit/b7720c65bd2ab2a53f333645af317bce8f987040))
+* updated the french user terms and added a missing link in the english terms ([#431](https://github.com/cds-snc/gc-signin-static-website/issues/431)) ([9fbb095](https://github.com/cds-snc/gc-signin-static-website/commit/9fbb095c4adc76e4e8274dea7f75e7fc7229ea17))
+
 ## [1.1.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.3...v1.1.4) (2025-11-14)
 
 
