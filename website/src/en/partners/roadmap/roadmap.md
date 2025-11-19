@@ -160,7 +160,6 @@ Below is the planned timeline for providing features and achieving milestones fo
 
 <gcds-text>Contact us to learn more about GC Sign in and how it could meet your service's needs.</gcds-text>
 
-<gcds-button value="Contact us">
+<gcds-button type="link" value="Contact us" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc">
   Contact us&nbsp;<gcds-icon name="chevron-right">
-  </gcds-icon>
 </gcds-button>
