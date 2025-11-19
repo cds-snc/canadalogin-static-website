@@ -164,3 +164,7 @@ Below is the planned timeline for providing features and achieving milestones fo
   Contact us&nbsp;<gcds-icon name="chevron-right">
   </gcds-icon>
 </gcds-button>
+
+<gcds-button type="link" value="Contact us" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc">
+  Contact us&nbsp;<gcds-icon name="chevron-right">
+</gcds-button>

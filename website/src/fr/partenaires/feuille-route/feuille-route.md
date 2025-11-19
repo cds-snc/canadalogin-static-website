@@ -167,3 +167,7 @@ par téléphone et en ligne</td>
   Nous contacter&nbsp;<gcds-icon name="chevron-right">
   </gcds-icon>
 </gcds-button>
+
+<gcds-button type="link" value="Contact us" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfmxu3xh0000x401zperejwc">
+  Nous contacter&nbsp;<gcds-icon name="chevron-right">
+</gcds-button>
