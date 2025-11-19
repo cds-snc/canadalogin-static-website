@@ -9,12 +9,11 @@ eleventyNavigation:
   parent: landingEN
   order: 1
   hideMain: false
-hero:
-  title: 'GC Sign in for individuals and organisations'
-  summary: 'Say goodbye to multiple sign in methods and passwords. GC Sign in is designed to simplify your experience, protect your information, and help you get to where you need to go faster.'
-  image: '/assets/images/common/users/users_home/user_home_gc_signin.svg'
-  altText: An illustration depicting a person looking at their GC Sign in profile with icons depicting a key and a check mark.
 ---
+
+# GC Sign in for individuals and organisations
+
+Accessing government services is now simpler and more secure with clear step-by-step guides and resources to help you get where you need to go.
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
     Help and support

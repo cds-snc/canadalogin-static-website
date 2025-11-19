@@ -10,12 +10,11 @@ eleventyNavigation:
   parent: landingFR
   order: 1
   hideMain: false
-hero:
-  title: 'Connexion GC pour les individus et les entreprises'
-  summary: 'Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L’outil Connexion GC est conçu pour simplifier votre expérience, protéger vos renseignements et vous permettre d’accéder plus rapidement à ce dont vous avez besoin.'
-  image: '/assets/images/common/users/users_home/user_home_gc_signin.svg'
-  altText: An illustration depicting a person looking at their GC Sign in profile with icons depicting a key and a check mark.
 ---
+
+# Connexion GC pour les individus et les entreprises
+
+Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L’outil Connexion GC est conçu pour simplifier votre expérience, protéger vos renseignements et vous permettre d’accéder plus rapidement à ce dont vous avez besoin.
 
 <gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
     Aide et soutien technique
