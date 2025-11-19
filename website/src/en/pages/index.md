@@ -9,12 +9,11 @@ eleventyNavigation:
   title: GC Sign in
   order: 1
 date: 'git Last Modified'
-hero:
-  title: 'Welcome to GC Sign in'
-  summary: 'Accessing Government of Canada programs and services will be easier than ever. Use a single, secure sign-in to access all participating federal programs and services.'
-  image: '/assets/images/common/home/home_gc_signin.svg'
-  altText: 'An illustrated image depicting a person sitting on a cloud behind a laptop screen that shows it is secure.'
 ---
+
+# Welcome to GC Sign in
+
+Accessing Government of Canada programs and services will be easier than ever. Use a single, secure sign-in to access all participating federal programs and services.
 
 <!-- # {{ homehero[locale].signIn }} Help Centre -->
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">

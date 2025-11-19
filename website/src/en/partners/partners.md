@@ -9,12 +9,10 @@ eleventyNavigation:
   parent: landingEN
   order: 3
   hideMain: false
-hero:
-  title: 'GC Sign in for departments and agencies'
-  summary: 'A secure and easy way to access Government of Canada programs and services online'
-  image: '/assets/images/common/partners/partners_home_gc_signin.svg'
-  altText:
 ---
+# GC Sign in for departments and agencies
+
+A secure and easy way to access Government of Canada programs and services online
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
   What is GC Sign in
