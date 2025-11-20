@@ -92,7 +92,7 @@ hero:
       Contactez-nous si vous avez des questions ou si vous souhaitez que nous aidions votre équipe à évaluer sa préparation et ses stratégies de transition.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfmxu3xh0000x401zperejwc">Contact us</gcds-link>
+      <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfmxu3xh0000x401zperejwc">Nous contacter</gcds-link>
     </gcds-text>    
   </div>
   <div>
