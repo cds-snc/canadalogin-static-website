@@ -67,7 +67,7 @@ hero:
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="Feuille de route de Connexion GC" href="roadmap">
+<gcds-button type="link" button-role="secondary" value="Feuille de route de Connexion GC" href="feuille-route">
   Feuille de route de Connexion GC
 </gcds-button>
 
