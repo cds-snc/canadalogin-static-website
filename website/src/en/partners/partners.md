@@ -89,7 +89,7 @@ A secure and easy way to access Government of Canada programs and services onlin
       Connect with us to help your team evaluate readiness and transition strategies or answer any questions you may have.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="/en/contact-us">Contact us</gcds-link>
+      <gcds-link href="https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc">Contact us</gcds-link>
     </gcds-text>    
   </div>
   <div>
