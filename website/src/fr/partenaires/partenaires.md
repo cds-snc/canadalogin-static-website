@@ -16,8 +16,11 @@ hero:
   image: '/assets/images/common/partners/partners_home_gc_signin.svg'
   altText:
 ---
+# Connexion GC pour les ministères et organismes
 
-<gcds-heading tag="h1" character-limit="false" margin-bottom="300" margin-top="500">
+Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada
+
+<gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
   Qu’est-ce que Connexion GC?
 </gcds-heading>
 

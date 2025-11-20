@@ -8,12 +8,10 @@ eleventyNavigation:
   title: Connexion GC
   order: 1
 date: 'git Last Modified'
-hero:
-  title: 'Bienvenue sur Connexion GC'
-  summary: 'Il n’aura jamais été aussi facile d’accéder aux programmes et services du gouvernement du Canada. Accédez à tous les programmes et services fédéraux participants par le biais d’une connexion unique sécurisée.'
-  image: '/assets/images/common/home/home_gc_signin.svg'
-  altText: 'An illustrated image depicting a person sitting on a cloud behind a laptop screen that shows it is secure.'
 ---
+# Bienvenue sur Connexion GC
+
+Il n’aura jamais été aussi facile d’accéder aux programmes et services du gouvernement du Canada. Accédez à tous les programmes et services fédéraux participants par le biais d’une connexion unique sécurisée.
 
 <!-- # {{ homehero[locale].signIn }} Help Centre -->
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
