@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 # GC Sign in for departments and agencies
 
-A secure and easy way to access Government of Canada programs and services online
+A secure and easy way to access Government of Canada programs and services online.
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
   What is GC Sign in
