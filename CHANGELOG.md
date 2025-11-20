@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.5...v1.2.0) (2025-11-19)
+
+
+### Features
+
+* **CI/CD:** Update static website release pipeline for prod ([#443](https://github.com/cds-snc/gc-signin-static-website/issues/443)) ([32e4482](https://github.com/cds-snc/gc-signin-static-website/commit/32e4482917d13ebaa1d289c0ac887c914e058103))
+
+
+### Bug Fixes
+
+* Skip prod for now until infra is ready ([#444](https://github.com/cds-snc/gc-signin-static-website/issues/444)) ([006b549](https://github.com/cds-snc/gc-signin-static-website/commit/006b549becd5f38acf0f2014f472d61f9ebf61d6))
+* Update links to forms ([#440](https://github.com/cds-snc/gc-signin-static-website/issues/440)) ([77170ad](https://github.com/cds-snc/gc-signin-static-website/commit/77170ad71020e8db688410b5fec24093e95fed37))
+
 ## [1.1.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.4...v1.1.5) (2025-11-18)
 
 
