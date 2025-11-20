@@ -1,18 +1,18 @@
 ---
-title: Problème de connexion
+title: Problèmes liés à la connexion
 translationKey: troublesigningin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: troubleSigningInFR
-  title: Problème de connexion
+  title: Problèmes liés à la connexion
   locale: fr
   parent: usersFR
   order: 3
   hideMain: true
 ---
 
-# Problème de connexion
+# Problèmes liés à la connexion
 
 Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compte? Obtenez de l’aide pour accéder à votre compte.
 
