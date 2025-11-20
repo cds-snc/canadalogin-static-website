@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.0...v1.2.1) (2025-11-20)
+
+
+### Bug Fixes
+
+* Add missing title and description to 'partenaires' & 'utlisateurs' pages ([#447](https://github.com/cds-snc/gc-signin-static-website/issues/447)) ([450779b](https://github.com/cds-snc/gc-signin-static-website/commit/450779ba273de086ecd973e3c269919f444b285f))
+* Updated links on partners landing page ([#446](https://github.com/cds-snc/gc-signin-static-website/issues/446)) ([d1f5eb7](https://github.com/cds-snc/gc-signin-static-website/commit/d1f5eb7ef9cfa4e49d9450f9206cf70ff51f1ce3))
+
 ## [1.2.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.1.5...v1.2.0) (2025-11-19)
 
 
