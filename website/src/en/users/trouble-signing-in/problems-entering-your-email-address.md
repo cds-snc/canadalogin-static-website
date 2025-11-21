@@ -21,4 +21,4 @@ If you get an error when entering your email address, try the following:
 
 2. If you tried the step above and it still is not working or you're getting a system error, it might be an issue on our end. Wait a few hours and try again.
 
-3. If after a few hours it still is not working, {% link links.contact 'contact customer support' %} and tell them what the issue is and what you've tried.
+3. If after a few hours it still is not working, {% link links.contactUsers 'contact customer support' %} and tell them what the issue is and what you've tried.

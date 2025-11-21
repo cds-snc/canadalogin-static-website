@@ -24,4 +24,4 @@ Try the following:
 - <strong>First name (optional)</strong>: You can choose to enter a first name or leave it blank.
 - <strong>Last name (required)</strong>: You must enter your last name. If you do not have a last name, write your legal name in this field.
  
-If you are still having issues {% link links.contact 'contact customer support' %} with your issue and tell them what you’ve tried.
+If you are still having issues {% link links.contactUsers 'contact customer support' %} with your issue and tell them what you’ve tried.

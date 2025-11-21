@@ -15,7 +15,7 @@ eleventyNavigation:
 A secure and easy way to access Government of Canada programs and services online.
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
-  What is GC Sign in
+  What is GC Sign in?
 </gcds-heading>
 
 <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
