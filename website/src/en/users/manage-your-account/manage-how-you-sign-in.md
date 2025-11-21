@@ -88,7 +88,7 @@ To change the phone number used for **two-step verification**, follow these step
 ### Add a 2-step verification phone number
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title=" ">
-  <gcds-text>Adding a 2-step verification phone number <strong>does not</strong> change the contact phone number GC Sign in and your connected programs/services use to communicate with you. For instructions on how to do this, navigate to our guide on {% linkRef links.manageyourpersonalinformation '#change-your-contact-phone-number' 'changing your contact phone number' %}.</gcds-text>
+  <gcds-text>Adding a 2-step verification phone number <strong>does not</strong> change the contact phone number GC Sign in and your connected programs/services use to communicate with you. For instructions on how to do this, navigate to our guide on {% linkRef links.manageyourpersonalinformation 'change-your-contact-phone-number' 'changing your contact phone number' %}.</gcds-text>
 </gcds-notice>
 
 To add 2-step verification phone number, follow these steps:
@@ -111,7 +111,7 @@ To add 2-step verification phone number, follow these steps:
 ### Delete a 2-step verification phone number
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title=" ">
-  <gcds-text>Deleting a 2-step verification phone number <strong>does not</strong> change the contact phone number GC Sign in and your connected programs/services use to communicate with you. For instructions on how to do this, navigate to our guide on {% linkRef links.manageyourpersonalinformation '#change-your-contact-phone-number' 'changing your contact phone number' %}.</gcds-text>
+  <gcds-text>Deleting a 2-step verification phone number <strong>does not</strong> change the contact phone number GC Sign in and your connected programs/services use to communicate with you. For instructions on how to do this, navigate to our guide on {% linkRef links.manageyourpersonalinformation 'change-your-contact-phone-number' 'changing your contact phone number' %}.</gcds-text>
 </gcds-notice>
 
 To delete a 2-step verification phone number, follow these steps:
