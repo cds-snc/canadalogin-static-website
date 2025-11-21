@@ -18,7 +18,7 @@ eleventyNavigation:
 ### Problems with entering and verifying your email
 - {% linkRef links.issuesenterverifyemail 'it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}
 - {% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}
-- {% linkRef links.issuesenterverifyemail 'it-says-the-code-is-invalid' 'It says the code is invalid' %}
+- {% linkRef links.issuesenterverifyemail 'it-says-your-code-is-invalid' 'It says the code is invalid' %}
 - {% linkRef links.issuesenterverifyemail 'it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}
 
 ### Problems with creating a password
@@ -29,7 +29,7 @@ eleventyNavigation:
 - {% link links.twostepverificationmethods 'What is 2-step verification?' %}
 - {% linkRef links.issuestwostepverification 'it-says-your-phone-number-is-invalid' 'It says your phone number is invalid' %}
 - {% linkRef links.issuestwostepverification 'you-are-not-receiving-codes-to-your-phone' 'You did not receive the one-time code to your phone' %}
-- {% linkRef links.issuestwostepverification 'it-says-the-code-is-invalid' 'It says the code is invalid' %}
+- {% linkRef links.issuestwostepverification 'it-says-your-code-is-invalid' 'It says the code is invalid' %}
 
 ### Problems with profile creation
 - {% link links.issuesprofile 'Problems with creating your profile' %}
