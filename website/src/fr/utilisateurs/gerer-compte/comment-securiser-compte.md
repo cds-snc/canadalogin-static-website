@@ -27,7 +27,7 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Protégez votre mot de passe Connexion GC
 
-- Créez un mot de passe robuste pour votre compte Connexion GC. Pour obtenir des conseils sur la manière de vous y prendre, consultez notre guide « {% linkRef links.issuespasswordFR '' 'Comment créer un mot de passe robuste' %} ». 
+- Créez un mot de passe robuste pour votre compte Connexion GC. Pour obtenir des conseils sur la manière de vous y prendre, consultez notre guide « {% link links.issuespasswordFR 'Comment créer un mot de passe robuste' %} ». 
 - Si vous avez du mal à vous souvenir de votre mot de passe, nous vous recommandons d’utiliser un gestionnaire de mots de passe.
 - Ne communiquez votre mot de passe à personne.
 
@@ -39,7 +39,7 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Faites attention aux appareils depuis lesquels vous vous connectez
 
-- Si vous vous connectez sur un appareil en commun l’appareil d’un ou d’une membre de votre famille ou d’un ami ou d’une amie, ou encore sur un ordinateur public, assurez-vous toujours de vous déconnecter complètement avant de cesser d’utiliser l’appareil. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% linkRef links.howtosignoutFR '' 'Comment se déconnecter' %} ».
+- Si vous vous connectez sur un appareil en commun l’appareil d’un ou d’une membre de votre famille ou d’un ami ou d’une amie, ou encore sur un ordinateur public, assurez-vous toujours de vous déconnecter complètement avant de cesser d’utiliser l’appareil. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% link links.howtosignoutFR 'Comment se déconnecter' %} ».
 - Essayez d'éviter d'utiliser vos propres appareils sur le WiFi public, si vous le pouvez. 
   
   <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">

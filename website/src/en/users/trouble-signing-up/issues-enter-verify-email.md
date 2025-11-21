@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - {% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}
 - {% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}
-- {% link '#it-says-the-code-is-invalid' 'It says the code is invalid' %}
+- {% link '#it-says-your-code-is-invalid' 'It says the code is invalid' %}
 - {% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}
 
 ##  It says your email address is invalid

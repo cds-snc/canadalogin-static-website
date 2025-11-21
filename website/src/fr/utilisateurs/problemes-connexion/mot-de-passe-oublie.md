@@ -16,7 +16,7 @@ eleventyNavigation:
 Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un message d’erreur indiquant que le courriel et le mot de passe ne correspondent pas, essayez la méthode suivante :
 
 - Assurez-vous que l’adresse courriel que vous avez entrée est celle que vous avez utilisée pour créer votre compte Connexion GC. 
-- Si vous ne savez pas quelle adresse courriel vous avez utilisée, consultez notre guide sur la marche à suivre en cas d’{% linkRef links.forgotyouremailFR '' 'adresse courriel oubliée' %} pour déterminer l’adresse associée à votre compte Connexion GC.
+- Si vous ne savez pas quelle adresse courriel vous avez utilisée, consultez notre guide sur la marche à suivre en cas d’{% link links.forgotyouremailFR 'adresse courriel oubliée' %} pour déterminer l’adresse associée à votre compte Connexion GC.
 
 ## Si vous avez oublié votre mot de passe, suivez ces étapes pour le réinitialiser : 
 
@@ -31,13 +31,13 @@ Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un mes
 
 4. Complétez la vérification en deux étapes.
  <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-    <gcds-text>{% linkRef links.problemssigninginwith2stepverificationFR '' 'Problèmes liés à la connexion avec la vérification en deux étapes' %}</gcds-text>
+    <gcds-text>{% link links.problemssigninginwith2stepverificationFR 'Problèmes liés à la connexion avec la vérification en deux étapes' %}</gcds-text>
   </gcds-notice>
 
 5. Entrez votre nouveau mot de passe.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
     <gcds-text>{% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}</gcds-text>
-    <gcds-text>{% linkRef links.issuespasswordFR '' 'Problèmes liés à la création d’un mot de passe' %} </gcds-text>
+    <gcds-text>{% link links.issuespasswordFR 'Problèmes liés à la création d’un mot de passe' %} </gcds-text>
   </gcds-notice>
 
 6. Cliquez sur « Continuer ».

@@ -15,7 +15,7 @@ eleventyNavigation:
 If you believe you are entering the correct password, but you are still getting an error that says "The email and password combination do not match", try the following:
 
 - Make sure the email address you entered is the one you used to create a GC Sign in account.
-- If you're not sure which email you used, refer to our guide on what to do if you {% linkRef links.forgotyouremail '' 'forgot your email' %} to figure out which email address is attached to your GC Sign in account.
+- If you're not sure which email you used, refer to our guide on what to do if you {% link links.forgotyouremail 'forgot your email' %} to figure out which email address is attached to your GC Sign in account.
 
 ## If you forgot your password, follow these steps to reset it:
 
@@ -36,7 +36,7 @@ If you believe you are entering the correct password, but you are still getting 
 5. Enter your new password.
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
     <gcds-text>{% linkRef links.createaccount 'how-to-make-a-strong-password' 'How to make a strong password' %} </gcds-text>
-    <gcds-text>{% linkRef links.issuespassword '' 'Problems creating a password' %} </gcds-text>
+    <gcds-text>{% link links.issuespassword 'Problems creating a password' %} </gcds-text>
   </gcds-notice>
 
 6. Select the "continue" button.

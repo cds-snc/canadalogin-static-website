@@ -17,25 +17,25 @@ eleventyNavigation:
 
 To change your password, follow these steps:
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
 3. Navigate to the password section on the page. Select the "Change" link.
 4. To keep your account secure and ensure that only you are able to make changes to your password, you may be prompted to enter your current password and complete 2-step verification.
 5. Enter your new password.
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuespassword '' 'Problems creating a password' %}</gcds-text>
+     <gcds-text>{% link links.issuespassword 'Problems creating a password' %}</gcds-text>
    </gcds-notice>
 
 6. Success! There will be a message confirming your password has been changed. You will also receive an email notifying you of the change you just made. You can ignore this email.
 
 ## Manage your 2-step verification
 
-To learn more about 2-step verification, go to our {% linkRef links.twostepverificationmethods '' 'What is 2-step verification?' %} guide.
+To learn more about 2-step verification, go to our {% link links.twostepverificationmethods 'What is 2-step verification?' %} guide.
 
 To manage your 2-step verification, follow these steps:
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
 3. Navigate to the 2-step verification section on the page. Select the "Manage" link.
 
@@ -55,7 +55,7 @@ To change the phone number used for **two-step verification**, follow these step
 
 #### 1. First, add a new phone number
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the "Phones" section on the page. Select the "Add a phone number" link.
@@ -64,7 +64,7 @@ To change the phone number used for **two-step verification**, follow these step
 7. Retrieve the one-time code from your text messages or by answering the call from GC Sign in.
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuestwostepverification '' 'Problems registering text message / phone call verification' %}</gcds-text>
+     <gcds-text>{% link links.issuestwostepverification 'Problems registering text message / phone call verification' %}</gcds-text>
    </gcds-notice>
 
 8. Success! There will be a message confirming you have added the phone number. You will also receive an email notifying you of the change you just made. You can ignore this email.
@@ -72,7 +72,7 @@ To change the phone number used for **two-step verification**, follow these step
 
 #### 2. Then, delete your existing phone number
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "manage" link.
 4. Navigate to the number you want to delete and select "Delete".
@@ -93,7 +93,7 @@ To change the phone number used for **two-step verification**, follow these step
 
 To add 2-step verification phone number, follow these steps:
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "manage" link.
 4. Navigate to the "Phones" section on the page. Select "Add a phone number".
@@ -102,7 +102,7 @@ To add 2-step verification phone number, follow these steps:
 7. Retrieve the one-time code from your text messages or by answering the call from GC Sign in.
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuestwostepverification '' 'Problems registering text message / phone call verification' %}</gcds-text>
+     <gcds-text>{% link links.issuestwostepverification 'Problems registering text message / phone call verification' %}</gcds-text>
    </gcds-notice>
 
 8. Success! There will be a message confirming that a phone number has been added. You will also receive an email notifying you of the change you just made. You can ignore this email.
@@ -116,7 +116,7 @@ To add 2-step verification phone number, follow these steps:
 
 To delete a 2-step verification phone number, follow these steps:
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the number you want to delete and select "Delete".
