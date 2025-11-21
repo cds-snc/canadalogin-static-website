@@ -48,7 +48,7 @@ From here you can:
 ### Change your 2-step verification phone number
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title=" ">
-  <gcds-text>Changing your 2-step verification phone number <strong>does not</strong> change the contact phone number GC Sign in and your connected programs/services use to communicate with you. For instructions on how to do this, go to our guide on how to {% linkRef links.manageyourpersonalinformation '#change-your-contact-phone-number' 'change your contact phone number' %}.</gcds-text>
+  <gcds-text>Changing your 2-step verification phone number <strong>does not</strong> change the contact phone number GC Sign in and your connected programs/services use to communicate with you. For instructions on how to do this, go to our guide on how to {% linkRef links.manageyourpersonalinformation 'change-your-contact-phone-number' 'change your contact phone number' %}.</gcds-text>
 </gcds-notice>
 
 To change the phone number used for **two-step verification**, follow these steps:
