@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.1...v1.2.2) (2025-11-21)
+
+
+### Bug Fixes
+
+* Fix contact us hyperlink and a few other issues ([1707e0f](https://github.com/cds-snc/gc-signin-static-website/commit/1707e0ffa9d71da40f16a062b8130b40dd23ad2d))
+* Fix contact us hyperlink and a few other issues (from QA test) ([#451](https://github.com/cds-snc/gc-signin-static-website/issues/451)) ([1707e0f](https://github.com/cds-snc/gc-signin-static-website/commit/1707e0ffa9d71da40f16a062b8130b40dd23ad2d))
+* **users:** Fix title on problemes-connexion page (FR) ([#449](https://github.com/cds-snc/gc-signin-static-website/issues/449)) ([9bc98e7](https://github.com/cds-snc/gc-signin-static-website/commit/9bc98e72559c00762955cacabc2e14c04c73bc41))
+
 ## [1.2.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.0...v1.2.1) (2025-11-20)
 
 
