@@ -60,7 +60,7 @@ par téléphone et en ligne</td>
     </tr>
   </tbody>
 </table>
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th style="padding-top: 40px;">Services admissibles à l’intégration</th>
@@ -71,13 +71,13 @@ par téléphone et en ligne</td>
       <td>Partenaire de phase pilote (Geo.ca)</td>
     </tr>
     <tr>
-      <td>Partenaires de la phase de test bêta (premiers utilisateurs présentant un volume d’utilisateurs faible et des portails non cruciaux et n’impliquant pas de nécessité de migration de justificatifs existants ni de vérification d’identité).</td>
+      <td>Partenaires de la phase de bêta (premiers utilisateurs présentant un volume d’utilisateurs faible et des portails non cruciaux et n’impliquant pas de nécessité de migration de justificatifs existants ni de vérification d’identité).</td>
     </tr>
     <tr>
       <td>Portails Authenti-Canada (AC)</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 ## Projets
 
@@ -101,7 +101,7 @@ par téléphone et en ligne</td>
       </tr>
     </tbody>
   </table>
-  <table>
+  <!-- <table>
     <thead>
       <tr>
         <th style="padding-top: 20px;">Services pouvant être intégrés</th>
@@ -115,7 +115,7 @@ par téléphone et en ligne</td>
         <td>Portails avec service de groupeurs de la FJGC</td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
   &nbsp;
 </gcds-details>
 
@@ -129,7 +129,7 @@ par téléphone et en ligne</td>
     </thead>
     <tbody>
       <tr>
-        <td>Offre de la vérification de l’identité au niveau d’assurance 2 en matière d’identité, et ce, à l’aide de la numérisation de documents, du service en personne et des services d’identité provinciaux et territoriaux de l’Alberta, de la Colombie-Britannique, du Québec, de Terre-Neuve-et-Labrador et du Yukon</td>
+        <td>Offre de la vérification de l’identité au niveau d’assurance 2 en matière d’identité, et ce, à l’aide de la numérisation de documents, du service en personne et des services d’identité provinciaux et territoriaux de l’Alberta, de la Colombie-Britannique</td>
       </tr>
       <tr>
         <td>Prise en charge du protocole SAML</td>
@@ -139,7 +139,7 @@ par téléphone et en ligne</td>
       </tr>
     </tbody>
   </table>
-  <table>
+  <!-- <table>
     <thead>
       <tr>
         <th style="padding-top: 20px;">Services pouvant être intégrés</th>
@@ -156,7 +156,7 @@ par téléphone et en ligne</td>
         <td>Autres portails de GJE</td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
 </gcds-details>
 
 ## Vous souhaitez en savoir plus?
