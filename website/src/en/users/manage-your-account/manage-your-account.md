@@ -12,10 +12,10 @@ eleventyNavigation:
 ---
 
 # Manage your GC Sign in account
-- {% linkRef links.accessyoursettings '' 'Access your settings' %}
-- {% linkRef links.changeyouremailaddress '' 'Change your email address' %}
-- {% linkRef links.managehowyousignin '' 'Manage how you sign in' %}
-- {% linkRef links.manageyourpersonalinformation '' 'Manage your personal information' %}
-- {% linkRef links.howtokeepyouraccountsecure '' 'How to keep your account secure' %}
-- {% linkRef links.whattodowhenyoufindsuspiciousactivity '' 'What to do when you find suspicious activity' %}
-- {% linkRef links.howtosignout '' 'How to sign out' %}
+- {% link links.accessyoursettings 'Access your settings' %}
+- {% link links.changeyouremailaddress 'Change your email address' %}
+- {% link links.managehowyousignin 'Manage how you sign in' %}
+- {% link links.manageyourpersonalinformation 'Manage your personal information' %}
+- {% link links.howtokeepyouraccountsecure 'How to keep your account secure' %}
+- {% link links.whattodowhenyoufindsuspiciousactivity 'What to do when you find suspicious activity' %}
+- {% link links.howtosignout 'How to sign out' %}
