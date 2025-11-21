@@ -127,7 +127,7 @@ Below is the planned timeline for providing features and achieving milestones fo
     </thead>
     <tbody>
       <tr>
-        <td>Provide identity proofing at identity assurance level 2 using document scanning, in-person service, and provincial/territorial IDs from AB, BC</td>
+        <td>Provide identity proofing at identity assurance level 2 using document scanning, in-person service, and provincial/territorial IDs from Alberta and British Columbia</td>
       </tr>
       <tr>
         <td>SAML support</td>
