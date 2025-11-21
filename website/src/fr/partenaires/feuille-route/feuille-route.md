@@ -129,7 +129,7 @@ par téléphone et en ligne</td>
     </thead>
     <tbody>
       <tr>
-        <td>Offre de la vérification de l’identité au niveau d’assurance 2 en matière d’identité, et ce, à l’aide de la numérisation de documents, du service en personne et des services d’identité provinciaux et territoriaux de l’Alberta, de la Colombie-Britannique</td>
+        <td>Offre de la vérification de l’identité au niveau d’assurance 2 en matière d’identité, et ce, à l’aide de la numérisation de documents, du service en personne et des services d’identité provinciaux et territoriaux de l’Alberta et de la Colombie-Britannique</td>
       </tr>
       <tr>
         <td>Prise en charge du protocole SAML</td>
