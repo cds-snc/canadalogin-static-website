@@ -2,6 +2,7 @@
 title: GC Sign in roadmap
 translationKey: signinroadmap
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: signinroadmapEN
   title: Roadmap
@@ -57,7 +58,7 @@ Below is the planned timeline for providing features and achieving milestones fo
     </tr>
   </tbody>
 </table>
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th style="padding-top: 40px;">Services that are eligible to onboard</th>
@@ -68,13 +69,13 @@ Below is the planned timeline for providing features and achieving milestones fo
       <td>Pilot partner (Geo.ca)</td>
     </tr>
     <tr>
-      <td>Beta Test partners (Small cohort of early adopters with low volume, non-critical portals, and no need to migrate legacy credentials or have identity proofing)</td>
+      <td>Beta partners (Small cohort of early adopters with low volume, non-critical portals, and no need to migrate legacy credentials or have identity proofing)</td>
     </tr>
     <tr>
       <td>Sign in Canada (SIC) portals</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 ## Future plans
 
@@ -98,7 +99,7 @@ Below is the planned timeline for providing features and achieving milestones fo
       </tr>
     </tbody>
   </table>
-  <table>
+<!-- <table>
     <thead>
       <tr>
         <th style="padding-top: 20px;">Services that can onboard</th>
@@ -112,7 +113,7 @@ Below is the planned timeline for providing features and achieving milestones fo
         <td>GCCF Consolidator portals</td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
   &nbsp;
 </gcds-details>
 
@@ -126,7 +127,7 @@ Below is the planned timeline for providing features and achieving milestones fo
     </thead>
     <tbody>
       <tr>
-        <td>Provide identity proofing at identity assurance level 2 using document scanning, in-person service, and provincial/territorial IDs from AB, BC, QC, NL, YK</td>
+        <td>Provide identity proofing at identity assurance level 2 using document scanning, in-person service, and provincial/territorial IDs from Alberta and British Columbia</td>
       </tr>
       <tr>
         <td>SAML support</td>
@@ -136,7 +137,7 @@ Below is the planned timeline for providing features and achieving milestones fo
       </tr>
     </tbody>
   </table>
-  <table>
+  <!-- <table>
     <thead>
       <tr>
         <th style="padding-top: 20px;">Services that can onboard</th>
@@ -153,7 +154,7 @@ Below is the planned timeline for providing features and achieving milestones fo
         <td>Other ECM portals</td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
 </gcds-details>
 
 ## Want to learn more?
