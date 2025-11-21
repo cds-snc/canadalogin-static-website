@@ -30,7 +30,7 @@ Accessing government services is now simpler and more secure with clear step-by-
     card-title="Managing your GC Sign in account"
     href="manage-your-account"
     card-title-tag="h3"
-    description="Change your account settings including your password, phone number, email and more.">
+    description="You will be able to change your account settings including your password, phone number, email, and more here.">
     </gcds-card>
     <gcds-card
     card-title="Trouble signing up"
