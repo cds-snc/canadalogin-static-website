@@ -16,7 +16,7 @@ eleventyNavigation:
 
 Pour modifier votre adresse courriel, procédez comme suit :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 
 2. Sélectionnez « Renseignements personnels ».
 
@@ -31,7 +31,7 @@ Pour modifier votre adresse courriel, procédez comme suit :
 7. Entrez le code sur la page Web et sélectionnez « Continuer ».
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-     <gcds-text>{% linkRef links.issuesenterverifyemailFR '' 'Problèmes liés à la saisie et à la vérification de votre adresse courriel' %}</gcds-text>
+     <gcds-text>{% link links.issuesenterverifyemailFR 'Problèmes liés à la saisie et à la vérification de votre adresse courriel' %}</gcds-text>
    </gcds-notice>
 
 8. Lorsque cela vous sera demandé, confirmez que votre nouvelle adresse courriel est correcte et que vous souhaitez procéder à la mise à jour.

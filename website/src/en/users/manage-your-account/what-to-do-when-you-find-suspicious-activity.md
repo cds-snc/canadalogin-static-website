@@ -23,7 +23,7 @@ Always monitor for suspicious activity on your account. Pay attention to email n
 
 If you think someone changed your account info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
 
-- {% linkRef links.forgotyourpassword '' 'Reset your password' %}
+- {% link links.forgotyourpassword 'Reset your password' %}
 - {% linkRef links.problemssigninginwith2stepverification 'cannot-access-your-phone' 'Recover your 2-step verification' %}
 
 ### 2. Review your settings and revert any changes that were made to your account information

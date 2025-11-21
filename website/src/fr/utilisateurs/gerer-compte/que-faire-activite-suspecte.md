@@ -24,7 +24,7 @@ Guettez toujours les activités suspectes sur votre compte. Faites attention aux
 
 Si vous pensez qu’une personne a modifié les renseignements relatifs à votre compte, comme votre mot de passe ou votre numéro de téléphone pour la vérification en deux étapes, ou si vous ne pouvez pas vous connecter pour toute autre raison, essayez les options suivantes pour vous connecter :
 
-- {% linkRef links.forgotyourpasswordFR '' 'Réinitialisez votre mot de passe' %}
+- {% link links.forgotyourpasswordFR 'Réinitialisez votre mot de passe' %}
 - {% linkRef links.problemssigninginwith2stepverificationFR 'vous-navez-pas-acces-au-telephone-que-vous-utilisez-pour-la-verification-en-deux-etapes' 'Récupérez votre vérification en deux étapes' %}
 
 ### 2. Examinez vos paramètres et annulez toute modification qui aurait été apportée à vos renseignements

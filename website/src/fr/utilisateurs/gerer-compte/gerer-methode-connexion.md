@@ -18,25 +18,25 @@ eleventyNavigation:
 
 Pour modifier votre mot de passe, procédez comme suit :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ».
 3. Rendez-vous dans la section « Mot de passe ». Sélectionnez « Modifier ».
 4. Pour la sécurité de votre compte et pour garantir que personne à part vous ne puisse modifier votre mot de passe, il se peut que nous vous demandions d’entrer votre mot de passe actuel et de procéder à la vérification en deux étapes.
 5. Entrez votre nouveau mot de passe.
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-     <gcds-text>{% linkRef links.issuespasswordFR '' 'Problèmes liés à la création d’un mot de passe' %}</gcds-text>
+     <gcds-text>{% link links.issuespasswordFR 'Problèmes liés à la création d’un mot de passe' %}</gcds-text>
    </gcds-notice>
 
 6. **Félicitations!** Un message confirmera que votre mot de passe a été modifié. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
 
 ## Gérer la vérification en deux étapes
 
-Pour en savoir plus sur la vérification en deux étapes, consultez notre guide « {% linkRef links.twostepverificationmethodsFR '' 'Qu’est-ce que la vérification en deux étapes?' %} ».
+Pour en savoir plus sur la vérification en deux étapes, consultez notre guide « {% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %} ».
 
 Pour gérer la vérification en deux étapes, suivez les étapes suivantes :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ». 
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 
@@ -56,7 +56,7 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 
 #### 1. Pour commencer, ajoutez un nouveau numéro de téléphone
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ». 
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ». 
 4. Rendez-vous dans la section « Numéros de téléphone ». Cliquez sur le lien « Ajouter un numéro de téléphone ».
@@ -65,7 +65,7 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 7. Récupérez le code à usage unique, qui vous sera envoyé par le biais d’un message texte ou d’un appel vocal provenant de Connexion GC.
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-     <gcds-text>{% linkRef links.issuestwostepverificationFR '' 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %}</gcds-text>
+     <gcds-text>{% link links.issuestwostepverificationFR 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %}</gcds-text>
    </gcds-notice>
 
 8. **Félicitations!** Un message confirmera que le numéro de téléphone a été ajouté. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
@@ -73,7 +73,7 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 
 #### 2. Ensuite, supprimez votre numéro de téléphone existant
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Select "Security settings".
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ». 
 4. Cherchez le numéro que vous souhaitez supprimer et sélectionnez « Supprimer ».
@@ -94,7 +94,7 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 
 Pour ajouter un numéro de téléphone pour la vérification en deux étapes, procédez comme suit :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ». 
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ». 
 4. Rendez-vous dans la section « Numéros de téléphone ». Sélectionnez « Ajouter un numéro de téléphone ». 
@@ -103,7 +103,7 @@ Pour ajouter un numéro de téléphone pour la vérification en deux étapes, pr
 7. Récupérez le code à usage unique, qui vous sera envoyé par le biais d’un message texte ou d’un appel vocal provenant de Connexion GC. 
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Guides connexes">
-     <gcds-text>{% linkRef links.issuestwostepverificationFR '' 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %}</gcds-text>
+     <gcds-text>{% link links.issuestwostepverificationFR 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %}</gcds-text>
    </gcds-notice>
 
 8. **Félicitations!** Un message confirmera qu’un numéro de téléphone a été ajouté. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
@@ -117,7 +117,7 @@ Pour ajouter un numéro de téléphone pour la vérification en deux étapes, pr
 
 Pour supprimer un numéro de téléphone pour la vérification en deux étapes, procédez comme suit :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ». 
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 4. Cherchez le numéro que vous souhaitez supprimer et sélectionnez « Supprimer ».
