@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.2...v1.2.3) (2025-11-21)
+
+
+### Bug Fixes
+
+* Fix empty anchor links to use 'link' not 'linkRef' ([#465](https://github.com/cds-snc/gc-signin-static-website/issues/465)) ([0db5dff](https://github.com/cds-snc/gc-signin-static-website/commit/0db5dff7b94371e1c47a2687db9ba031c8d29b33))
+* Remove empty anchor tags/links ([#460](https://github.com/cds-snc/gc-signin-static-website/issues/460)) ([52be81a](https://github.com/cds-snc/gc-signin-static-website/commit/52be81afaa2f7221128beee7b81aec45fded5ea3))
+* Remove parts of roadmap ([#457](https://github.com/cds-snc/gc-signin-static-website/issues/457)) ([cd9518c](https://github.com/cds-snc/gc-signin-static-website/commit/cd9518c3493b1c5b69ef782145dbed9a58f16e3a))
+* Update description text on "Managing your GC Sign in account" card (from QA test) ([#455](https://github.com/cds-snc/gc-signin-static-website/issues/455)) ([e4e9ed1](https://github.com/cds-snc/gc-signin-static-website/commit/e4e9ed1c1ee1c3bf92d07a64a1c4f9eafd03bdac))
+
 ## [1.2.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.1...v1.2.2) (2025-11-21)
 
 
