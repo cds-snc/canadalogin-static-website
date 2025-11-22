@@ -60,4 +60,4 @@ Si vous ne recevez pas les codes de vérification sur votre téléphone, essayez
   - Sur la page « Consultez votre téléphone », sélectionnez « Essayer d’une autre manière ».
   - Sélectionnez un autre numéro de téléphone ou une autre méthode de vérification.
 
-- Si vous ne recevez toujours pas de code et que vous n’avez aucun autre numéro de téléphone enregistré sur votre compte que vous pouvez utiliser pour la connexion, vous pourriez avoir à {% linkRef links.problemssigninginwith2stepverificationFR '#comment-acceder-a-nouveau-a-votre-verification-en-deux-etapes' 'récupérer votre numéro de téléphone' %}.
+- Si vous ne recevez toujours pas de code et que vous n’avez aucun autre numéro de téléphone enregistré sur votre compte que vous pouvez utiliser pour la connexion, vous pourriez avoir à {% link links.problemssigninginwith2stepverificationFR 'récupérer votre numéro de téléphone' %}.
