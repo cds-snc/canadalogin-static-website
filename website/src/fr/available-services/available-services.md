@@ -22,4 +22,4 @@ Currently you can use GC Sign in to access the following programs/services:
 >
 </gcds-card>
 
-At the moment, there are separate accounts for the many programs/services across the Government of Canada. If this isn't the program/service you are looking for, use the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">GC Account Directory</a> to find the sign-in/registration page for the account or service that you need.
+At the moment, there are separate accounts for the many programs/services across the Government of Canada. If this isn't the program/service you are looking for, use the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">Government of Canada account Directory</a> to find the sign-in/registration page for the account or service that you need.
