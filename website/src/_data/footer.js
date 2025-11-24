@@ -12,7 +12,7 @@ module.exports = {
     sub: {
       about: 'About Canada.ca',
       aboutUrl: 'https://www.canada.ca/en/government/about-canada-ca.html',
-      terms: 'Terms and Conditions',
+      terms: 'Terms and conditions',
       termsUrl: 'https://www.canada.ca/en/transparency/terms.html',
       privacy: 'Privacy',
       privacyUrl: 'https://www.canada.ca/en/transparency/privacy.html'
