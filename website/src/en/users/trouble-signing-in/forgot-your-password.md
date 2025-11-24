@@ -39,6 +39,6 @@ If you believe you are entering the correct password, but you are still getting 
     <gcds-text>{% link links.issuespassword 'Problems creating a password' %} </gcds-text>
   </gcds-notice>
 
-6. Select the "continue" button.
+6. Select the "Continue" button.
 
 7. Success! You have reset your password and signed in. You will now be taken to the program or service you were trying to access. You will also receive an email notifying you of the change you just made. You can ignore this email.

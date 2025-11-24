@@ -17,7 +17,7 @@ To change your email address, follow these steps:
 
 1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Personal information".
-3. Navigate to the "Contact information" section on the page. Select the "edit" link in the "Email" section.
+3. Navigate to the "Contact information" section on the page. Select the "Edit" link in the "Email" section.
 4. You may be prompted to verify yourself again by typing in your password and completing 2-step verification.
 5. Enter the new email address you want to use to sign in and receive notifications.
 6. Check your email inbox for a message from GC Sign in. The email will contain a 6-digit one-time code.
