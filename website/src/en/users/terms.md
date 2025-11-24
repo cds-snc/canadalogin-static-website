@@ -61,14 +61,8 @@ By using GC Sign-in, you certify that the information you provide through this a
 ### Privacy 
 When you create an account or sign in, your personal information is stored in a secure database for up to 2 years. It is shared with Government of Canada programs and services and protected according to their respective policies and processes. 
 
-<gcds-text>
-</gcds-text>
- GC Sign in is managed by CDS/ESDC. Your personal information is administered in accordance with the Department of Employment and Social Development Act, Privacy Act and other applicable laws.  The department or agency responsible for the program or service you are accessing may be subject to additional legal requirements. You may need to return to the program or service's website to learn about these requirements.
-<gcds-text>
-</gcds-text>
+GC Sign in is managed by CDS/ESDC. Your personal information is administered in accordance with the Department of Employment and Social Development Act, Privacy Act and other applicable laws.  The department or agency responsible for the program or service you are accessing may be subject to additional legal requirements. You may need to return to the program or service's website to learn about these requirements.
 
-<gcds-text>
-</gcds-text>
 You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to manage settings and security settings. It is your responsibility to update your personal information.  
 
 ### Security 
@@ -115,24 +109,19 @@ For more general information related to the Government of Canada’s web presenc
 
 #### We use an identity and access management solution 
 GC Sign in has a contract with a third-party service provider, IBM Canada. Their solution enables you to use a single account to access multiple services and programs (single sign-on). Your account information: email, phone number, and other personal information you share are securely stored in an IBM Canada database. 
-<gcds-text>
-</gcds-text>
+
 Our contract prevents them from using or disclosing your personal information for any other purpose. IBM Canada is not involved in any decision-making about you. The contract includes strong security and privacy provisions, including encryption, to ensure your account information is handled appropriately. 
-<gcds-text>
-</gcds-text>
+
 IBM Canada is headquartered in Markham, Ontario and its parent company, IBM, is headquartered in Armonk, New York and may be subject to the US laws.
 
 ### We use web analytics to help improve your experience  
 GC Sign in uses a third-party service provider, Google Inc. (Google Analytics). The analytics collected do not include information that could identify you or your location, such as your Internet Protocol (IP) address.
-<gcds-text>
-</gcds-text>
+
 Web analytics show us measures such as the type of browser used to visit the website, the pages visited, and the links clicked. This information helps us learn how our website is being used and allows us to improve your experience.
 
 Google Inc. is headquartered in Mountain View, California. As such, the solution may transmit analytics information through the USA and may be subject to the USA’s laws, including the USA PATRIOT ACT.
-<gcds-text>
-</gcds-text>
+
 ### Changes to these Terms
 These Terms may be updated at any time. Updated Terms take effect once posted online. You will be required to accept updated Terms to continue using GC Sign in.
-<gcds-text>
-</gcds-text>
+
 These Terms are governed, interpreted and construed by the laws of Canada and the province of Ontario without reference to conflict of law rules.
