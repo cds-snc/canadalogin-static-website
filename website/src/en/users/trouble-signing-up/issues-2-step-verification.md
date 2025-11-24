@@ -37,7 +37,7 @@ If you receive an error message telling you that your phone number is invalid, t
 
  #### 4. Try using a different phone number if possible
 
-#### 5. Contact Support
+#### 5. Contact support
    - If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
                      
 ### You did not receive the one-time code to your phone
@@ -60,7 +60,7 @@ If you’re not receiving your verification code via SMS (text) or phone call fo
    - Network delays can happen. If you requested multiple codes, use the most recent one. 
    - If the message or call doesn’t arrive, request a new code by selecting “Send the code again” under “Problems with the code?”. You may have to wait a few seconds for the link to appear.
                                        
-#### 5. Contact Support
+#### 5. Contact support
    - If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already. 
    
 ### It says your code is invalid                                  
@@ -74,6 +74,6 @@ If it says your one-time code is invalid, try these troubleshooting steps:
    - If you requested multiple codes, only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works. 
    - If you enter the code incorrectly too many times, you may be temporarily locked out. Wait 15 minutes and try again.
  
-#### 3. Contact Support
+#### 3. Contact support
    - If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
                                              
