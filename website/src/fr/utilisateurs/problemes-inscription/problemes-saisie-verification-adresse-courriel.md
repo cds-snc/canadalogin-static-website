@@ -41,11 +41,9 @@ Si vous recevez un message d’erreur indiquant que votre adresse courriel est i
 
 Si vous ne trouvez pas le code à usage unique Connexion GC dans votre boîte de réception, essayez ces étapes de dépannage :
 
-<br />
-
-### 1. Vérifiez votre adresse courriel.
+### 1. Vérifiez votre adresse courriel
    - Assurez-vous d’avoir saisi la bonne adresse courriel, sans fautes de frappe.
-### 2. Consultez votre dossier de pourriels ou de messages indésirables.
+### 2. Consultez votre dossier de pourriels ou de messages indésirables
    - Il se peut que le courriel ait été signalé comme étant un pourriel. Recherchez des messages ayant pour expéditeur Connexion GC. 
 ### 3. Faites une recherche dans votre boîte de réception
    - Utilisez la fonction de recherche dans votre boîte de réception de courriels pour chercher les termes « code de vérification Connexion GC ».
