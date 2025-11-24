@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Forgot your password? Locked out of your account? Get help accessing your account.
 
-## Common Problems
+## Common problems
 
 - {% link links.howtosignin 'How to sign in to GC Sign in' %}
 - {% link links.problemsenteringyouremailaddress 'Problems entering your email address' %}

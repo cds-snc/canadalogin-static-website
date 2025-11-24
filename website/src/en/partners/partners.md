@@ -64,8 +64,8 @@ A secure and easy way to access Government of Canada programs and services onlin
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="GC Sign in Roadmap" href="roadmap">
-  GC Sign in Roadmap
+<gcds-button type="link" button-role="secondary" value="GC Sign in roadmap" href="roadmap">
+  GC Sign in roadmap
 </gcds-button>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
@@ -112,6 +112,6 @@ A secure and easy way to access Government of Canada programs and services onlin
   If you'd like to receive updates, sign up for our GC Sign in mailing list.
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="GC Sign in Roadmap" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfn8nghu00d6yj01l0ce9hxw">
+<gcds-button type="link" button-role="secondary" value="GC Sign in roadmap" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfn8nghu00d6yj01l0ce9hxw">
   Sign up for communications&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>

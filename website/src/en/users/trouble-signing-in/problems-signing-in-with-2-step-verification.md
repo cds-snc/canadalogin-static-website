@@ -27,7 +27,7 @@ If you do not have multiple numbers registered to your account, you will need to
 
 2. Check your email for a message from GC Sign in. The email will contain a 6-digit one-time code.
 
-3. Enter the code on the webpage and select "continue".
+3. Enter the code on the web page and select "continue".
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
     <gcds-text>{% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}</gcds-text>
   </gcds-notice>
@@ -37,7 +37,7 @@ If you do not have multiple numbers registered to your account, you will need to
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
     <gcds-text>{% link '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</gcds-text>
   </gcds-notice>
-7. Enter the code on the webpage.
+7. Enter the code on the web page.
 8. You will be prompted to set up a backup verification method. You can skip this step if you do not want to set one up.
 9. Success! You have recovered your 2-step verification and signed in. You will now be taken to the program or service you were trying to access. You will also receive an email notifying you of the change you just made. You can ignore this email.
 

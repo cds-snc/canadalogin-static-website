@@ -12,7 +12,7 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# GC Sign in Roadmap
+# GC Sign in roadmap
 
 Below is the planned timeline for providing features and achieving milestones for the GC Sign in product, organized by fiscal quarter. Please note that due to GC Sign in’s iterative design, this roadmap is subject to change.
 

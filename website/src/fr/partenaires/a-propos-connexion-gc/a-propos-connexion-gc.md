@@ -153,7 +153,7 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
 ## À propos de l’équipe derrière Connexion GC
 
 <gcds-text>
-  Connexion GC est un outil développé par le Service numérique canadien (SNC). Le SNC fait partie d’<gcds-link href="https://www.canada.ca/en/employment-social-development.html">Emploi et Développement social Canada (EDSC)</gcds-link>. l cherche à contribuer à la réalisation des objectifs de l’<gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ambition-numerique-canada/ambition-numerique-canada-2022-23.html">Ambition numérique</gcds-link> et à améliorer l’expérience d’utilisation des services du gouvernement du Canada. Nous créons des produits numériques répondant aux problèmes auxquels font généralement face les services ministériels. 
+  Connexion GC est un outil développé par le Service numérique canadien (SNC). Le SNC fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html">Emploi et Développement social Canada (EDSC)</gcds-link>. Il cherche à contribuer à la réalisation des objectifs de l’<gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ambition-numerique-canada/ambition-numerique-canada-2022-23.html">Ambition numérique</gcds-link> et à améliorer l’expérience d’utilisation des services du gouvernement du Canada. Nous créons des produits numériques répondant aux problèmes auxquels font généralement face les services ministériels. 
 </gcds-text>
 
 <gcds-text>
