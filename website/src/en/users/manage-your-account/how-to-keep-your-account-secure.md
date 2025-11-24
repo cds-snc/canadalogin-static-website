@@ -26,7 +26,7 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Keep your GC Sign in password safe
 
-- Create a strong password for your GC Sign in account. For tips on how to do this navigate to our guide on {% linkRef links.issuespassword '' 'how to make a strong password' %}.
+- Create a strong password for your GC Sign in account. For tips on how to do this navigate to our guide on {% link links.issuespassword 'how to make a strong password' %}.
 - If you have trouble remembering your password, we recommend using a password manager.
 - Do not share your password with anyone.
 
@@ -37,7 +37,7 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Be careful where you sign in from
 
-- If you sign in on a shared device, the device of a family member or friend, or on a public computer, always make sure you are fully signed out before you stop using the device. For help with this, navigate to our guide on {% linkRef links.howtosignout '' 'how to sign out' %}.
+- If you sign in on a shared device, the device of a family member or friend, or on a public computer, always make sure you are fully signed out before you stop using the device. For help with this, navigate to our guide on {% link links.howtosignout 'how to sign out' %}.
 - Try to avoid using your own devices on public wifi, if you can.
   
   <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">

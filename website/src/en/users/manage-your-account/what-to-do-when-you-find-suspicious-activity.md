@@ -23,7 +23,7 @@ Always monitor for suspicious activity on your account. Pay attention to email n
 
 If you think someone changed your account info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
 
-- {% linkRef links.forgotyourpassword '' 'Reset your password' %}
+- {% link links.forgotyourpassword 'Reset your password' %}
 - {% linkRef links.problemssigninginwith2stepverification 'cannot-access-your-phone' 'Recover your 2-step verification' %}
 
 ### 2. Review your settings and revert any changes that were made to your account information
@@ -36,7 +36,7 @@ If you think someone changed your account info, like your password or 2-step ver
 
 ### 3. Ensure you are following safety practices for good account security
 
-- Have backup 2-step verification phone numbers on your GC Sign account. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.
+- Have backup 2-step verification phone numbers on your GC Sign in account. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.
 - {% linkRef links.createaccount 'how-to-make-a-strong-password' 'Use a strong password' %} 
 - Don't use the same password you use on other accounts.
 - Make sure your email password is also unique, since it's used to recover your GC Sign in account.

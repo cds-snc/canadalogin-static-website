@@ -15,7 +15,7 @@ eleventyNavigation:
 
 To change your email address, follow these steps:
 
-1. After {% linkRef links.howtosignin '' 'signing into your GC Sign in account' %}, {% linkRef links.accessyoursettings '' 'access your GC Sign in settings' %}.
+1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Personal information".
 3. Navigate to the "Contact information" section on the page. Select the "edit" link in the "Email" section.
 4. You may be prompted to verify yourself again by typing in your password and completing 2-step verification.
@@ -24,7 +24,7 @@ To change your email address, follow these steps:
 7. Enter the code on the webpage and select "continue".
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuesenterverifyemail '' 'Problems entering and verifying your email address' %}</gcds-text>
+     <gcds-text>{% link links.issuesenterverifyemail 'Problems entering and verifying your email address' %}</gcds-text>
    </gcds-notice>
 
 8. When prompted, confirm your new email address is correct and you want to update it.

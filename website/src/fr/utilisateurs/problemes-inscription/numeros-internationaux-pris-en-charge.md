@@ -95,7 +95,7 @@ countries3:
 
 # Numéros de téléphones internationaux pris en charge
 
-The following is a list of countries that GC Sign in currently supports phone numbers from:
+En raison de limitations techniques, Connexion GC ne prend pas actuellement en charge les numéros de téléphone de tous les pays. Voici une liste des pays dont Connexion GC prend actuellement en charge les numéros de téléphone :
 
 <br />
 

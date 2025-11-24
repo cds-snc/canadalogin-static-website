@@ -1,10 +1,10 @@
 ---
-title: Help Topics
+title: Help topics
 translationKey: helptopics
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: helpTopicsEn
-  title: Help Topics
+  title: Help topics
   parent: usersEN
   group: [ {title: 'Get started', url: 'users/get-started'},
            {title: 'Trouble signing up', url: 'users/trouble-signing-up'},
@@ -15,6 +15,6 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# Help Topics
+# Help topics
 
 

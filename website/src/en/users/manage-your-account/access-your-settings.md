@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # Access your settings
 
-To access your GC Sign in settings, first you will need to be signed in to your account. Refer to our guide on {% linkRef links.howtosignin '' 'how to sign in' %} if you're not sure how to do this.
+To access your GC Sign in settings, first you will need to be signed in to your account. Refer to our guide on {% link links.howtosignin 'how to sign in' %} if you're not sure how to do this.
 
 <br />
 

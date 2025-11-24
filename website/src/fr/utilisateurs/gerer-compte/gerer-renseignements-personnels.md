@@ -25,13 +25,13 @@ eleventyNavigation:
 
 Pour changer votre nom pour votre compte Connexion GC, procédez comme suit :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Renseignements personnels ».
 3. Rendez-vous dans la section « Renseignements de base ». Sélectionnez « Modifier » dans la section « Nom ».
 4. Entrez le nouveau nom que vous souhaitez utiliser. 
 
    <gcds-notice type="info" notice-title-tag="h3" notice-title="Guides connexes">
-     <gcds-text>{% linkRef links.issuesprofileFR '' 'Problèmes liés à la création d’un profil' %}</gcds-text>
+     <gcds-text>{% link links.issuesprofileFR 'Problèmes liés à la création d’un profil' %}</gcds-text>
    </gcds-notice>
 
 5. Lorsque cela vous sera demandé, confirmez que votre nom est correct et que vous souhaitez procéder à la mise à jour.
@@ -47,7 +47,7 @@ Pour changer votre nom pour votre compte Connexion GC, procédez comme suit :
 
 Pour changer la langue officielle dans laquelle vous souhaitez que Connexion GC et les programmes/services connexes utilisent pour communiquer avec vous, procédez comme suit :
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Renseignements personnels ».
 3. Rendez-vous dans la section « Communication ». Cliquez sur « Modifier » dans la section « Langue de communication ». 
 4. Sélectionnez votre nouvelle langue de communication. 
@@ -70,13 +70,13 @@ Pour changer la langue officielle dans laquelle vous souhaitez que Connexion GC 
 
 Pour modifier le numéro de téléphone que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour vous contacter, procédez comme suit : 
 
-1. Après {% linkRef links.howtosigninFR '' 'votre connexion à votre compte Connexion GC' %}, {% linkRef links.accessyoursettingsFR '' 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre compte Connexion GC' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Renseignements personnels ». 
 3. Rendez-vous dans la section « Coordonnées ». Dans la section « Numéro de téléphone de communication », sélectionnez « Modifier ». 
 4. Entrez le nouveau numéro de téléphone auquel vous souhaitez recevoir vos communications. Choisissez de quelle manière vous souhaitez recevoir votre code de vérification. 
 5. Saisissez le code que vous avez reçu sur votre téléphone pour vérifier votre nouveau numéro de téléphone.
  <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuesenterverifyemailFR '' 'Problèmes liés à la saisie et à la vérification de votre numéro de téléphone' %}</gcds-text>
+     <gcds-text>{% linkRef links.issuesenterverifyemailFR 'Problèmes liés à la saisie et à la vérification de votre numéro de téléphone' %}</gcds-text>
    </gcds-notice>
 
 6. Lorsque cela vous sera demandé, confirmez que votre nouveau numéro de téléphone est correct et que vous souhaitez procéder à la mise à jour.
