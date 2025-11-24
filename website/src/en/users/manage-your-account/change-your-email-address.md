@@ -21,7 +21,7 @@ To change your email address, follow these steps:
 4. You may be prompted to verify yourself again by typing in your password and completing 2-step verification.
 5. Enter the new email address you want to use to sign in and receive notifications.
 6. Check your email inbox for a message from GC Sign in. The email will contain a 6-digit one-time code.
-7. Enter the code on the webpage and select "continue".
+7. Enter the code on the webpage and select "Continue".
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
      <gcds-text>{% link links.issuesenterverifyemail 'Problems entering and verifying your email address' %}</gcds-text>

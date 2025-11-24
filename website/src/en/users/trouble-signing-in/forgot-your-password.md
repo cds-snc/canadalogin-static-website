@@ -23,14 +23,14 @@ If you believe you are entering the correct password, but you are still getting 
 
 2. Check your email for a message from GC Sign in. The email will contain a 6-digit one-time code.
 
-3. Enter the code into the webpage and select "continue".
+3. Enter the code into the webpage and select "Continue".
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
     <gcds-text>{% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'What to do if you cannot find the email code in your inbox' %}</gcds-text>
   </gcds-notice>
 
 4. Complete 2-step verification.
  <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
-    <gcds-text>{% linkRef links.problemssigninginwith2stepverification 'problems-signing-in-with-2-step-verification' 'Problems signing in with 2-step verification.' %}</gcds-text>
+    <gcds-text>{% linkRef links.problemssigninginwith2stepverification 'problems-signing-in-with-2-step-verification' 'Problems signing in with 2-step verification' %}</gcds-text>
   </gcds-notice>
 
 5. Enter your new password.

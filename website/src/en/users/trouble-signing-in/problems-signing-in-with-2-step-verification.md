@@ -27,7 +27,7 @@ If you do not have multiple numbers registered to your account, you will need to
 
 2. Check your email for a message from GC Sign in. The email will contain a 6-digit one-time code.
 
-3. Enter the code on the web page and select "continue".
+3. Enter the code on the web page and select "Continue".
   <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guide">
     <gcds-text>{% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}</gcds-text>
   </gcds-notice>
