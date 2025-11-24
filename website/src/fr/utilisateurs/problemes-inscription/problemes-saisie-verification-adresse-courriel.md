@@ -27,7 +27,7 @@ Si vous recevez un message d’erreur indiquant que votre adresse courriel est i
 
 ### 1. Guettez les éventuelles fautes de frappe
    - Assurez-vous qu’il n’y a pas d’espaces en trop avant ou après votre adresse courriel.
-   - Assurez-vous d’avoir utilisé le bon format. Par exemple : nom@exemple.com
+   - Assurez-vous d’avoir utilisé le bon format. Par exemple : nom@exemple.com.
 
 ### 2. Certains types d’adresses courriel peuvent ne pas être pris en charge
    - Certains domaines (comme ceux d’adresses courriel temporaires) peuvent ne pas être autorisés.
