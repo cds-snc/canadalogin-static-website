@@ -19,10 +19,10 @@ To keep your account secure, we recommend the following safety practices:
 
 Your email address is used for recovering your account if you get locked out, so you need to make sure no one else can access it by following these tips:
 
-- Make sure the password you use to sign in to your email is unique — do not use the same password you use on other websites (e.g. your bank, social media etc.)
+- Make sure the password you use to sign in to your email is unique — do not use the same password you use on other websites (e.g. your bank, social media)
 - Do not share your email password with anyone.
 - Enable 2-step verification on your email account — for more information on how to do this, refer to the help centre of your email provider.
-- Do not leave your email account signed in on devices you do not own (e.g. a shared device, devices of your family or friends, public computers etc.)
+- Do not leave your email account signed in on devices you do not own (e.g. a shared device, devices of your family or friends, public computers)
 
 ## Keep your GC Sign in password safe
 
