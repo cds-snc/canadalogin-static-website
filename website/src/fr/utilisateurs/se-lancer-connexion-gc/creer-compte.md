@@ -95,9 +95,8 @@ Pour aider à éviter que votre compte et vos renseignements personnels soient c
 Évitez les mots de passe faciles à deviner, comme ceux qui utilisent :
 - Des phrases communes ou des caractères qui se répètent, comme « abc » ou « 111 ».
 - Des éléments de votre adresse courriel ou des dates qui vous sont personnelles, comme votre anniversaire.
-<!-- TO-DO: Missing translation? -->
-- Numbers and special characters 
--Le même mot de passe que celui que vous utilisez pour d’autres comptes (compte bancaire, compte de courrier électronique) ou un mot de passe similaire.
+- Des chiffres et des caractères spéciaux.
+- Le même mot de passe que celui que vous utilisez pour d’autres comptes (compte bancaire, compte de courrier électronique) ou un mot de passe similaire.
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">
   <ul>
@@ -117,8 +116,8 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
    - Si vous souhaitez obtenir plus d’informations pour déterminer quelle méthode d’envoi de code fonctionne le mieux pour vous, reportez-vous à notre {% linkRef links.twostepverificationmethodsFR 'verification-par-telephone' 'guide de la vérification par téléphone' %}.
 
 2. <strong>Entrez le code</strong>
-   <!-- TO-DO: Missing translation? -->
-   - You can receive codes via text message (SMS) or voice call
+   - Vous pouvez choisir de recevoir vos codes par message texte (SMS) ou par appel
+vocal.
    - Vous devriez avoir reçu un code de vérification à six chiffres par message texte (SMS) ou par appel vocal. Entrez le code à six chiffres sur le site lorsque cela vous sera demandé.
 
 3. <strong>Configurez une méthode de vérification de secours (facultatif)</strong>
