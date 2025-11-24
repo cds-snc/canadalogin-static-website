@@ -75,8 +75,6 @@ jobs:
     strategy:
       matrix:
         environment: [dev, test, staging, production]
-        exclude:
-          - environment: production
     needs: notify-slack-about-deploy
     environment: ${{ matrix.environment }}
     steps:
