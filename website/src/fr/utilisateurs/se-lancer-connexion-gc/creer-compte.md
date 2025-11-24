@@ -12,7 +12,6 @@ eleventyNavigation:
   hideMain: true
 ---
 
-
 # Comment créer un compte Connexion GC
 
 ## Sur cette page
@@ -63,7 +62,6 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
 
 Nous vous recommandons de choisir une adresse courriel à laquelle vous aurez toujours accès.
 
-
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ».
 
 - Nous vous enverrons un courriel contenant un code à usage unique à six chiffres. Ce courriel peut mettre quelques minutes à vous parvenir. Revenez à la page Web de Connexion GC et entrez le code à usage unique.
@@ -81,7 +79,7 @@ Mot de passe oublié </gcds-link> </li>
 
 ### 6. Créez votre mot de passe
 
-Les mots de passe doivent être composés de <strong>12 caractères au minimum</strong> et de <strong>65 caractères au maximum</strong>. Il ne doit pas s’agir d’un mot de passe couramment utilisé ou d’une phrase couramment utilisée (p. ex. « clé » ou « mot de passe »).
+Les mots de passe doivent être composés de **12 caractères au minimum*** et de **65 caractères au maximum**. Il ne doit pas s’agir d’un mot de passe couramment utilisé ou d’une phrase couramment utilisée (p. ex. « clé » ou « mot de passe »).
 
 #### Comment créer un mot de passe robuste
 
@@ -90,7 +88,6 @@ Pour aider à éviter que votre compte et vos renseignements personnels soient c
 - Une phrase complète au lieu d’un seul mot. Vous pouvez par exemple combiner plusieurs mots en les séparant par une espace (p. ex. : « coussin orignal plat »).
 - Des chiffres et des caractères spéciaux.
 - Un mot de passe plus long qui reste possible à retenir pour vous.
-                  
 
 Évitez les mots de passe faciles à deviner, comme ceux qui utilisent :
 - Des phrases communes ou des caractères qui se répètent, comme « abc » ou « 111 ».
@@ -111,16 +108,16 @@ Pour une protection supplémentaire de votre compte, Connexion GC exige que vou
            
 Pour configurer la vérification en deux étapes, procédez de la manière suivante :
 
-1. <strong>Entrez votre numéro de téléphone et choisissez la manière dont vous souhaitez recevoir vos codes de vérification</strong>
+1. **Entrez votre numéro de téléphone et choisissez la manière dont vous souhaitez recevoir vos codes de vérification**
    - Vous pouvez choisir de recevoir vos codes par message texte (SMS) ou par appel vocal. 
    - Si vous souhaitez obtenir plus d’informations pour déterminer quelle méthode d’envoi de code fonctionne le mieux pour vous, reportez-vous à notre {% linkRef links.twostepverificationmethodsFR 'verification-par-telephone' 'guide de la vérification par téléphone' %}.
 
-2. <strong>Entrez le code</strong>
+2. **Entrez le code**
    - Vous pouvez choisir de recevoir vos codes par message texte (SMS) ou par appel
 vocal.
    - Vous devriez avoir reçu un code de vérification à six chiffres par message texte (SMS) ou par appel vocal. Entrez le code à six chiffres sur le site lorsque cela vous sera demandé.
 
-3. <strong>Configurez une méthode de vérification de secours (facultatif)</strong>
+3. **Configurez une méthode de vérification de secours (facultatif)**
    - Il vous sera demandé de configurer une méthode de secours pour l’envoi de code. Si vous ne souhaitez pas en configurer, vous pouvez ignorer cette étape.
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Guides connexes">

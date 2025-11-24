@@ -12,7 +12,6 @@ eleventyNavigation:
   hideMain: true
 ---
 
-
 # How to create a GC Sign in account
 
 ## On this page
@@ -33,6 +32,7 @@ We will also ask you for:
 ## Steps to create an account
 
 When you are ready to create your GC Sign in account, you’ll need to complete the following steps:
+
 ### 1. Navigate to a service that’s using GC Sign in
 
 If you are already on a service that’s asking you to use GC Sign in, you can skip this step.
@@ -62,7 +62,6 @@ Enter your name. If you only have one name, enter it into the last name field.
 
 We recommend you choose an email address that you’ll always be able to access.
 
-
 ### 5. Check your email for a message from “GC Sign in”
 
 - We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the GC Sign in webpage and enter the one-time code.
@@ -79,9 +78,8 @@ We recommend you choose an email address that you’ll always be able to access.
 
 ### 6. Create your password
         
-Passwords must be <strong>at least 12 characters</strong> and can be <strong>up to 65 characters</strong> long. 
+Passwords must be **at least 12 characters** and can be **up to 65 characters** long. 
 They should not be a commonly used password or phrase (e.g. “let me in” or “password”).
-
 
 #### How to make a strong password
 
@@ -91,7 +89,6 @@ To help prevent your account and your personal information from being compromise
 - Numbers and special characters 
 - A longer password that you can still remember.
                   
-
 Avoid easy-to-guess passwords like ones that use:
 - Common phrases or repeated characters, like abc or 111
 - Parts of your email address or personal dates, like your birthday
@@ -108,27 +105,28 @@ Avoid easy-to-guess passwords like ones that use:
 ### 7. Set up a 2-step verification method
 
 As an added layer of protection, GC Sign in requires you to set up a second authentication method to keep your account secure. 
+
 This is referred to as 2-step verification. If you want to know more about 2-step verification, see our
 {% link links.twostepverificationmethods 'information guide on 2-step verification.' %}
            
 To set up 2-step verification, follow these steps:
 
-1. <strong>Enter your phone number and choose how you want to receive verification codes</strong>
+1. **Enter your phone number and choose how you want to receive verification codes**
    - You can receive codes via text message (SMS) or voice call 
    - If you want to know more about which code delivery method is right for you, see our {% linkRef links.twostepverificationmethods 'phone-verification' 'guide on phone verification.' %}
 
-2. <strong>Enter the code</strong>
+2. **Enter the code**
    - You can receive codes via text message (SMS) or voice call
    - You should have received either a text message (SMS) or phone call with a 6-digit verification code. Enter the 6-digit code into the site when prompted.
 
-3. <strong>Set up a backup verification method (Optional)</strong>
+3. **Set up a backup verification method (Optional)**
    - You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step.
 
 <gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
-    <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/"> Problems setting up 2-step verification </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/">Problems setting up 2-step verification</gcds-link>
     </li>
-    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/"> Supported international phone numbers </gcds-link>
+    <li><gcds-link href="/en/users/trouble-signing-up/supported-countries/">Supported international phone numbers</gcds-link>
     </li>
   </ul>
 </gcds-notice>
