@@ -40,5 +40,5 @@ If you're seeing a message that your password is not valid try the following tro
    You can follow these tips on {% linkRef links.createaccount 'how-to-make-a-strong-password' 'how to make a strong password' %}. 
    
 
-### 3. Contact Support
+### 3. Contact support
     If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
