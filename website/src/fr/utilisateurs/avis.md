@@ -16,18 +16,11 @@ eleventyNavigation:
 
 ## À propos de Connexion GC  
 Connexion GC est une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada. Cet outil vous permet d’utiliser un seul et même ensemble d’identifiants pour vous connecter à plusieurs services. Apprenez-en plus sur [Connexion GC](/fr/utilisateurs/a-propos/) ou [obtenez de l’aide](/fr/utilisateurs/).  
-
-<gcds-text>
-</gcds-text>
  
 Connexion GC est un outil géré par le Service numérique canadien (« SNC »)/Emploi et Développement social Canada (« EDSC ») pour le gouvernement du Canada. Nous n’utilisons pas les renseignements personnels que vous fournissez à d’autres fins que celle de vous fournir un compte.   
 
-
 ### Acceptation du présent avis  
 En créant un compte Connexion GC, en y accédant ou en l’utilisant, vous acceptez les conditions du présent avis. L’utilisation de Connexion GC n’est pas obligatoire. Aussi, si vous n’acceptez pas les conditions du présent avis, ne créez pas de compte Connexion GC et n’utilisez pas cet outil.   
- 
-<gcds-text>
-</gcds-text>
 
 Si vous ne souhaitez pas créer de compte Connexion GC ou si vous n’y parvenez pas, il se peut que vous ayez d’autres options pour accéder à un programme ou service. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces options.   
 
@@ -68,11 +61,8 @@ En utilisant Connexion GC, vous certifiez que les renseignements que vous fourni
 
 ### Confidentialité 
 Lorsque vous créez un compte ou que vous vous connectez, vos renseignements personnels sont conservés dans une base de données sécurisée pour une durée maximale de deux ans. Ils sont transmis aux programmes et services du gouvernement du Canada et protégés en vertu des politiques et processus respectifs de ces derniers.  
-<gcds-text>
-</gcds-text>
-  Connexion GC est un outil géré par le SNC/EDSC. Vos renseignements personnels sont traités conformément à la Loi sur le ministère de l’Emploi et du Développement social, à la Loi sur la protection des renseignements personnels et à d’autres lois applicables. Le ministère ou l’organisme responsable du programme ou service auquel vous essayez d’accéder peut être soumis à des exigences légales supplémentaires. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces exigences. 
-<gcds-text>
-</gcds-text>
+
+Connexion GC est un outil géré par le SNC/EDSC. Vos renseignements personnels sont traités conformément à la Loi sur le ministère de l’Emploi et du Développement social, à la Loi sur la protection des renseignements personnels et à d’autres lois applicables. Le ministère ou l’organisme responsable du programme ou service auquel vous essayez d’accéder peut être soumis à des exigences légales supplémentaires. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces exigences. 
 
 Vous avez droit à la protection de vos renseignements personnels, à leur accès et à leur correction. Pour accéder à vos renseignements personnels dans votre compte et les corriger, rendez-vous dans « Gérer Connexion GC » puis dans « Paramètres de sécurité ». Il est de votre responsabilité de mettre à jour vos renseignements personnels.   
 
@@ -122,25 +112,19 @@ Pour obtenir davantage de renseignements généraux sur la présence Web du gouv
 
 #### Nous utilisons une solution de gestion des identités et des accès  
 Connexion GC a un contrat avec un fournisseur de services tiers, IBM Canada. Leur solution vous permet d’utiliser un compte unique pour accéder à plusieurs services et programmes (connexion unique). Les renseignements relatifs à votre compte (adresse courriel, numéro de téléphone et autres renseignements personnels) que vous transmettez sont conservés de manière sécurisée dans une base de données d’IBM Canada.  
- 
-<gcds-text>
-</gcds-text>
+
 Notre contrat les empêche d’utiliser ou de divulguer vos renseignements personnels à toute autre fin. IBM Canada ne participe à aucune prise de décision vous concernant. Ce contrat comprend des provisions robustes en matière de sécurité et de protection des renseignements personnels, y compris le chiffrage, pour veiller à ce que les renseignements relatifs à votre compte soient traités de manière appropriée
-<gcds-text>
-</gcds-text>
+
 IBM Canada a son siège social à Markham, Ontario et sa société mère, IBM, se a son siège social à Armonk, dans l’État de New York et peut être assujettie aux lois des États-Unis. 
 
 ### Nous utilisons l’analytique Web pour améliorer votre expérience   
 Connexion GC a recours à un fournisseur de services tiers, Google Inc. (Google Analytics). Les données analytiques recueillies ne comprennent pas de renseignements susceptibles de vous identifier ou vous localiser, comme votre adresse de protocole Internet (IP)  
-<gcds-text>
-</gcds-text>
+
 L’analytique Web nous renseigne sur des données telles que le type de navigateur utilisé pour visiter le site Web, les pages visitées et les liens suivis. Ces renseignements nous aident à savoir comment est utilisé notre site Web ainsi qu’à améliorer votre expérience. 
-<gcds-text>
-</gcds-text>
+
 Le siège social de Google Inc. se trouve à Mountain View, dans l’État de Californie. De ce fait, il se peut que la solution transmette les renseignements relatifs à l’analytique par le biais des États-Unis d’Amérique et que ces renseignements soient soumis aux lois des États-Unis d’Amérique, y compris la USA Patriot Act. 
 
 ### Modifications du présent avis 
 Le présent avis est susceptible d’être mis à jour à tout moment. L’avis mis à jour prend effet dès sa publication en ligne. Vous devrez accepter les conditions de l’avis mis à jour pour continuer à utiliser Connexion GC. 
  
 Le présent avis est régi et interprété conformément aux lois du Canada et de la province de l’Ontario sans égard aux règles de conflit de lois. 
-
