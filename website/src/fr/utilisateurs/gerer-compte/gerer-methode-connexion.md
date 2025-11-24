@@ -49,7 +49,7 @@ Dans cette section, vous pouvez :
 ### Modifier votre numéro de téléphone pour la vérification en deux étapes
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title=" ">
-  <gcds-text>La modification d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR '#modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
+  <gcds-text>La modification d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
 </gcds-notice>
 
 Pour modifier le numéro de téléphone utilisé pour la **vérification en deux étapes**, procédez comme suit : 
@@ -89,7 +89,7 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 ### Ajouter un numéro de téléphone pour la vérification en deux étapes
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title=" ">
-  <gcds-text>L’ajout d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR '#modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
+  <gcds-text>L’ajout d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
 </gcds-notice>
 
 Pour ajouter un numéro de téléphone pour la vérification en deux étapes, procédez comme suit :
@@ -112,7 +112,7 @@ Pour ajouter un numéro de téléphone pour la vérification en deux étapes, pr
 ### Supprimer un numéro de téléphone pour la vérification en deux étapes
 
 <gcds-notice type="info" notice-title-tag="h2" notice-title=" ">
-  <gcds-text>La suppression d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide «  {% linkRef links.manageyourpersonalinformationFR '#modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
+  <gcds-text>La suppression d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que Connexion GC et les programmes et services connectés à votre compte Connexion GC utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide «  {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
 </gcds-notice>
 
 Pour supprimer un numéro de téléphone pour la vérification en deux étapes, procédez comme suit :
