@@ -137,7 +137,7 @@ Connexion GC a recours à un fournisseur de services tiers, Google Inc. (Google 
 L’analytique Web nous renseigne sur des données telles que le type de navigateur utilisé pour visiter le site Web, les pages visitées et les liens suivis. Ces renseignements nous aident à savoir comment est utilisé notre site Web ainsi qu’à améliorer votre expérience. 
 <gcds-text>
 </gcds-text>
-Le siège social de Google Inc. se trouve à Mountain View, dans l’État de Californie. De ce fait, il se peut que la solution transmette les renseignements relatifs à l’analytique par le biais des États-Unis d’Amérique et que ces renseignements soient soumis aux lois des États-Unis d’Amérique, y compris la USA Patriot Act. 
+Le siège social de Google Inc. se trouve à Mountain View, dans l’État de Californie. De ce fait, il se peut que la solution transmette les renseignements relatifs à l’analytique par le biais des États-Unis et que ces renseignements soient soumis aux lois des États-Unis. 
 
 ### Modifications du présent avis 
 Le présent avis est susceptible d’être mis à jour à tout moment. L’avis mis à jour prend effet dès sa publication en ligne. Vous devrez accepter les conditions de l’avis mis à jour pour continuer à utiliser Connexion GC. 

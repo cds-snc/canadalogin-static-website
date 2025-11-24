@@ -128,7 +128,7 @@ GC Sign in uses a third-party service provider, Google Inc. (Google Analytics). 
 </gcds-text>
 Web analytics show us measures such as the type of browser used to visit the website, the pages visited, and the links clicked. This information helps us learn how our website is being used and allows us to improve your experience.
 
-Google Inc. is headquartered in Mountain View, California. As such, the solution may transmit analytics information through the USA and may be subject to the USA’s laws, including the USA PATRIOT ACT.
+Google Inc. is headquartered in Mountain View, California. As such, the solution may transmit analytics information through the United States (U.S.) and may be subject to U.S. laws.
 <gcds-text>
 </gcds-text>
 ### Changes to these Terms
