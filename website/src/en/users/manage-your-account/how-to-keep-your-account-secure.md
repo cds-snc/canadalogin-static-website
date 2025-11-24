@@ -38,10 +38,10 @@ Your email address is used for recovering your account if you get locked out, so
 ## Be careful where you sign in from
 
 - If you sign in on a shared device, the device of a family member or friend, or on a public computer, always make sure you are fully signed out before you stop using the device. For help with this, navigate to our guide on {% link links.howtosignout 'how to sign out' %}.
-- Try to avoid using your own devices on public wifi, if you can.
+- Try to avoid using your own devices on public Wi-Fi, if you can.
   
   <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public wifi</a>.</gcds-text>
+    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public Wi-Fi</a>.</gcds-text>
   </gcds-notice>
 
 ## Monitor for suspicious activity
