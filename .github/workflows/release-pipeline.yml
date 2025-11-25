@@ -117,8 +117,6 @@ jobs:
     strategy:
       matrix:
         environment: [dev, test, staging, prod]
-        exclude:
-          - environment: prod
     environment: ${{ matrix.environment }}
     steps:
       - run: echo "Deploying static website to ${{ matrix.environment }} environment..."
