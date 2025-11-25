@@ -26,7 +26,7 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Keep your GC Sign in password safe
 
-- Create a strong password for your GC Sign in account. For tips on how to do this navigate to our guide on {% link links.issuespassword 'how to make a strong password' %}.
+- Create a strong password for your GC Sign in account. For tips on how to do this navigate to our guide on {% linkRef links.createaccount 'how-to-make-a-strong-password' 'how to make a strong password' %}.
 - If you have trouble remembering your password, we recommend using a password manager.
 - Do not share your password with anyone.
 
