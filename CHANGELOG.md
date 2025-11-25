@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.2.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.3...v1.2.4) (2025-11-25)
+
+
+### Bug Fixes
+
+* Added missing translation ([#474](https://github.com/cds-snc/gc-signin-static-website/issues/474)) ([236a4f5](https://github.com/cds-snc/gc-signin-static-website/commit/236a4f500fa34dfb1dd6e928dd7bb5582e2e0624))
+* Address small issues or minor typos [QA Test] ([#466](https://github.com/cds-snc/gc-signin-static-website/issues/466)) ([26b1a95](https://github.com/cds-snc/gc-signin-static-website/commit/26b1a955f3c3ee3eb3e8132ecb8eab98c8be778e))
+* Fix links on trouble signing in and manage your account ([#467](https://github.com/cds-snc/gc-signin-static-website/issues/467)) ([7d5bad6](https://github.com/cds-snc/gc-signin-static-website/commit/7d5bad6f47066018bddf3187689d88632702d66d))
+* Fix numerous text changes [QA Test] ([#476](https://github.com/cds-snc/gc-signin-static-website/issues/476)) ([9ec91cb](https://github.com/cds-snc/gc-signin-static-website/commit/9ec91cb11bf598280b942a9004801f419f8543f0))
+* Fix small styling issues ([#475](https://github.com/cds-snc/gc-signin-static-website/issues/475)) ([afa5d1e](https://github.com/cds-snc/gc-signin-static-website/commit/afa5d1ed74a2b7e0d8bbe48ef6704c7fbf2ac6c4))
+* Our IAM roles expect the env to be called prod, not production ([a8e08e2](https://github.com/cds-snc/gc-signin-static-website/commit/a8e08e23415a851849421285e4a034f4de1a5669))
+* Rename the production environment to prod ([#471](https://github.com/cds-snc/gc-signin-static-website/issues/471)) ([a8e08e2](https://github.com/cds-snc/gc-signin-static-website/commit/a8e08e23415a851849421285e4a034f4de1a5669))
+* Replaced strong tags with markdown ([#477](https://github.com/cds-snc/gc-signin-static-website/issues/477)) ([f1b2c60](https://github.com/cds-snc/gc-signin-static-website/commit/f1b2c60277c558045c17a5d60c078cfbdac7af4a))
+* **terms:** Small update to user Terms ([#473](https://github.com/cds-snc/gc-signin-static-website/issues/473)) ([6a352fc](https://github.com/cds-snc/gc-signin-static-website/commit/6a352fcd27f5eb790c7570f25c0ae6b8d1a07d48))
+
+
+### Continuous Integration
+
+* Build and store artifacts in production ([#470](https://github.com/cds-snc/gc-signin-static-website/issues/470)) ([7eada00](https://github.com/cds-snc/gc-signin-static-website/commit/7eada00827d1e19d265617941803a23dbe241f7e))
+
 ## [1.2.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.2...v1.2.3) (2025-11-21)
 
 
