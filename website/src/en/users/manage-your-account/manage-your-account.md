@@ -13,7 +13,6 @@ eleventyNavigation:
 
 # Manage your GC Sign in account
 - {% link links.accessyoursettings 'Access your settings' %}
-- {% link links.changeyouremailaddress 'Change your email address' %}
 - {% link links.managehowyousignin 'Manage how you sign in' %}
 - {% link links.manageyourpersonalinformation 'Manage your personal information' %}
 - {% link links.howtokeepyouraccountsecure 'How to keep your account secure' %}

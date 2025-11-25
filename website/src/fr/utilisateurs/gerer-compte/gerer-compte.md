@@ -14,7 +14,6 @@ eleventyNavigation:
 
 # Gérer votre compte Connexion GC
 - {% link links.accessyoursettingsFR 'Accéder à vos paramètres' %}
-- {% link links.changeyouremailaddressFR 'Modifier votre adresse courriel ' %}
 - {% link links.managehowyousigninFR 'Gérer la manière dont vous vous connectez' %}
 - {% link links.manageyourpersonalinformationFR 'Gérer vos renseignements personnels' %}
 - {% link links.howtokeepyouraccountsecureFR 'Comment sécuriser votre compte' %}
