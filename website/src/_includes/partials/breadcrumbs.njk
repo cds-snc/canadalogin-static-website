@@ -1,14 +1,15 @@
 
 
-  <gcds-breadcrumbs lang="{{ locale }}" slot="breadcrumb" hide-canada-link="true">
+  <gcds-breadcrumbs lang="{{ locale }}" slot="breadcrumb" hide-canada-link="false">
+    
     {% if eleventyNavigation or tags %}
-      <gcds-breadcrumbs-item href={{ breadcrumbs[locale].url | url }}>
-        {{ breadcrumbs[locale].linkText }}
-      </gcds-breadcrumbs-item>
-
       {% set key = eleventyNavigation.key if eleventyNavigation else tags[0] %}
-
       {% set navPages = collections.all | eleventyNavigationBreadcrumb(key) %}
+      {% if key not in ["landingEN", "landingFR"] %}
+        <gcds-breadcrumbs-item href={{ breadcrumbs[locale].url | url }}>
+          {{ breadcrumbs[locale].linkText }}
+        </gcds-breadcrumbs-item>
+      {% endif %}
       {% for item in navPages %}
         {% if item.url and item.key not in ["landingEN", "landingFR"] %}
           <gcds-breadcrumbs-item href={{ item.url | url }}>
