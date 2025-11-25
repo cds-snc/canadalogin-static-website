@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.4...v1.2.5) (2025-11-25)
+
+
+### Bug Fixes
+
+* Enable 'Canada.ca' first link breadcrumb on all pages and remove 'GC Sign in` breadcrumb on landing page ([#488](https://github.com/cds-snc/gc-signin-static-website/issues/488)) ([77b7719](https://github.com/cds-snc/gc-signin-static-website/commit/77b7719b7ff248c0a7645bbd31e25f907814d7d0))
+* Fix anchor link and text 'You did not receive the one-time code to your phone' ([#485](https://github.com/cds-snc/gc-signin-static-website/issues/485)) ([a0d9068](https://github.com/cds-snc/gc-signin-static-website/commit/a0d906885ba02b2e3e152f0b732aa839db294cd4))
+* Fix link How to make a strong password link ([#486](https://github.com/cds-snc/gc-signin-static-website/issues/486)) ([17bfb8a](https://github.com/cds-snc/gc-signin-static-website/commit/17bfb8a9a3092cb953b24ef21eab41ea4026c0ae))
+* Remove Change your email address page and reference ([#490](https://github.com/cds-snc/gc-signin-static-website/issues/490)) ([42cbe62](https://github.com/cds-snc/gc-signin-static-website/commit/42cbe627e92c8822dd448f2b82dc22bbf98ae226))
+
 ## [1.2.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.3...v1.2.4) (2025-11-25)
 
 
