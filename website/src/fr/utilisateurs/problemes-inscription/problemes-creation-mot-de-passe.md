@@ -20,7 +20,7 @@ eleventyNavigation:
 
 Si vous recevez un message disant que votre mot de passe n’est pas valide, essayez les étapes de dépannage suivantes :
    
-### 1. Assurez-vous que votre mot de passe répond à toutes les exigences.
+### 1. Assurez-vous que votre mot de passe répond à toutes les exigences
    
    Les mots de passe Connexion GC **doivent** remplir la condition suivante :
    

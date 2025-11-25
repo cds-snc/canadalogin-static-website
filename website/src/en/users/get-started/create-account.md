@@ -85,9 +85,9 @@ They should not be a commonly used password or phrase (e.g. “let me in” or �
 
 To help prevent your account and your personal information from being compromised, consider strengthening your password by using:
 - Unique phrases that only you recognize
-- A passphrase instead of a single word. For example, combine multiple words with spaces (e.g., “pillow moose dish”).
+- A passphrase instead of a single word. For example, combine multiple words with spaces (e.g., “pillow moose dish”)
 - Numbers and special characters 
-- A longer password that you can still remember.
+- A longer password that you can still remember
                   
 Avoid easy-to-guess passwords like ones that use:
 - Common phrases or repeated characters, like abc or 111

@@ -11,8 +11,8 @@ module.exports = {
     },
     sub: {
       about: 'About Canada.ca',
-      aboutUrl: 'https://design.canada.ca/about/',
-      terms: 'Terms and Conditions',
+      aboutUrl: 'https://www.canada.ca/en/government/about-canada-ca.html',
+      terms: 'Terms and conditions',
       termsUrl: 'https://www.canada.ca/en/transparency/terms.html',
       privacy: 'Privacy',
       privacyUrl: 'https://www.canada.ca/en/transparency/privacy.html'
@@ -30,7 +30,7 @@ module.exports = {
     },
     sub: {
       about: 'À propos de Canada.ca',
-      aboutUrl: 'https://conception.canada.ca/a-propos/',
+      aboutUrl: 'https://www.canada.ca/fr/gouvernement/a-propos-canada-ca.html',
       terms: 'Avis', 
       termsUrl: 'https://www.canada.ca/fr/transparence/avis.html',
       privacy: 'Confidentialité',

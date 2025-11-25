@@ -26,13 +26,13 @@ If you're seeing an "invalid email" error, here are a few things to check:
 
 1. <strong>Double-check for typos</strong>
    - Make sure there are no extra spaces before or after your email address.
-   - Confirm that you’ve entered the correct format. For example:, name@example.com
+   - Confirm that you’ve entered the correct format. For example: name@example.com.
 2. <strong>Some types of email addresses may not be supported</strong>
    - Some domains (like temporary or disposable emails) may not be allowed.
    - Try using a different email provider, such as Gmail or Outlook.
 3. <strong>GC Sign in might be experiencing issues</strong>
    - If you’re sure your email is correct, the issue could be on our end. We suggest waiting 24 hours and then trying again.
-4. <strong>Contact Support</strong>
+4. <strong>Contact support</strong>
    - If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
 
 ##  You cannot find the one-time code in your email inbox

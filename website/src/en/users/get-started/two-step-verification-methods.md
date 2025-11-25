@@ -33,7 +33,7 @@ When you use text message or SMS (short message service) as a verification metho
 
 To use this method, you need a working mobile phone connection to a cellular network and the ability to receive texts when you want to sign in. For example, if you’re out of the country you might not be able to receive texts. It may also cost money, if you pay per text, or have limits on the amount of texts you can receive.
 
-#### Phone Call
+#### Phone call
 
 <strong>Requires:</strong> A landline <strong>or</strong> mobile phone that can receive phone calls.
 

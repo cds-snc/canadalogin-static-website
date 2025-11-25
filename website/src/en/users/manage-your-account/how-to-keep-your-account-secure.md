@@ -19,10 +19,10 @@ To keep your account secure, we recommend the following safety practices:
 
 Your email address is used for recovering your account if you get locked out, so you need to make sure no one else can access it by following these tips:
 
-- Make sure the password you use to sign in to your email is unique — do not use the same password you use on other websites (e.g. your bank, social media etc.)
+- Make sure the password you use to sign in to your email is unique — do not use the same password you use on other websites (e.g. your bank, social media)
 - Do not share your email password with anyone.
 - Enable 2-step verification on your email account — for more information on how to do this, refer to the help centre of your email provider.
-- Do not leave your email account signed in on devices you do not own (e.g. a shared device, devices of your family or friends, public computers etc.)
+- Do not leave your email account signed in on devices you do not own (e.g. a shared device, devices of your family or friends, public computers)
 
 ## Keep your GC Sign in password safe
 
@@ -38,10 +38,10 @@ Your email address is used for recovering your account if you get locked out, so
 ## Be careful where you sign in from
 
 - If you sign in on a shared device, the device of a family member or friend, or on a public computer, always make sure you are fully signed out before you stop using the device. For help with this, navigate to our guide on {% link links.howtosignout 'how to sign out' %}.
-- Try to avoid using your own devices on public wifi, if you can.
+- Try to avoid using your own devices on public Wi-Fi, if you can.
   
   <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public wifi</a>.</gcds-text>
+    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public Wi-Fi</a>.</gcds-text>
   </gcds-notice>
 
 ## Monitor for suspicious activity

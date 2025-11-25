@@ -74,11 +74,11 @@ To change the phone number used for **two-step verification**, follow these step
 
 1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
-3. Navigate to the "2-step verification" section on the page. Select the "manage" link.
+3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the number you want to delete and select "Delete".
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="If the &quot;delete&quot; link doesn&apos;t appear, it&apos;s because you need to add another 2-step verification phone number to your account">
-     <gcds-text>All GC Sign in accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "delete" link <strong>will only appear if you have more than one number registered</strong>. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
+     <gcds-text>All GC Sign in accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "Delete" link <strong>will only appear if you have more than one number registered</strong>. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
    </gcds-notice>
 
 5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
@@ -95,7 +95,7 @@ To add 2-step verification phone number, follow these steps:
 
 1. After {% link links.howtosignin 'signing into your GC Sign in account' %}, {% link links.accessyoursettings 'access your GC Sign in settings' %}.
 2. Select "Security settings".
-3. Navigate to the "2-step verification" section on the page. Select the "manage" link.
+3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the "Phones" section on the page. Select "Add a phone number".
 5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
 6. Enter the new phone number you want to add. You will need to verify your phone number. Select how you want to receive the one-time verification code and select "Continue".
@@ -122,7 +122,7 @@ To delete a 2-step verification phone number, follow these steps:
 4. Navigate to the number you want to delete and select "Delete".
 
    <gcds-notice type="info" notice-title-tag="h2" notice-title="If the &quot;delete&quot; link doesn&apos;t appear, it&apos;s because you need to add another 2-step verification phone number to your account">
-     <gcds-text>All GC Sign in accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "delete" link will only appear if you have more than one number registered. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
+     <gcds-text>All GC Sign in accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "Delete" link will only appear if you have more than one number registered. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
    </gcds-notice>
 
 5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
