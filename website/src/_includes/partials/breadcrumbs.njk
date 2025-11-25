@@ -1,6 +1,6 @@
 
 
-  <gcds-breadcrumbs lang="{{ locale }}" slot="breadcrumb" hide-canada-link="true">
+  <gcds-breadcrumbs lang="{{ locale }}" slot="breadcrumb" hide-canada-link="false">
     {% if eleventyNavigation or tags %}
       <gcds-breadcrumbs-item href={{ breadcrumbs[locale].url | url }}>
         {{ breadcrumbs[locale].linkText }}
