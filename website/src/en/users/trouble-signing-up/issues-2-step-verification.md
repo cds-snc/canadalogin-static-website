@@ -14,7 +14,7 @@ eleventyNavigation:
 # Problems setting up 2-step verification
 
 - {% link '#it-says-your-phone-number-is-invalid' 'It says your phone number is invalid' %}
-- {% link '#you-are-not-receiving-codes-to-your-phone' 'You are not receiving codes to your phone' %}
+- {% link '#you-did-not-receive-the-onetime-code-to-your-phone' 'You did not receive the one-time code to your phone' %}
 - {% link '#it-says-your-code-is-invalid' 'It says your code is invalid' %}
 
 ## Problems registering text message/phone call verification
