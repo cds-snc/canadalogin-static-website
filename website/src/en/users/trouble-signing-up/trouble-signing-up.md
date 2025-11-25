@@ -28,7 +28,7 @@ eleventyNavigation:
 ### Problems with setting up 2-step verification
 - {% link links.twostepverificationmethods 'What is 2-step verification?' %}
 - {% linkRef links.issuestwostepverification 'it-says-your-phone-number-is-invalid' 'It says your phone number is invalid' %}
-- {% linkRef links.issuestwostepverification 'you-are-not-receiving-codes-to-your-phone' 'You did not receive the one-time code to your phone' %}
+- {% linkRef links.issuestwostepverification 'you-did-not-receive-the-onetime-code-to-your-phone' 'You did not receive the one-time code to your phone' %}
 - {% linkRef links.issuestwostepverification 'it-says-your-code-is-invalid' 'It says the code is invalid' %}
 
 ### Problems with profile creation
