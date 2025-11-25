@@ -5,7 +5,7 @@
     {% if eleventyNavigation or tags %}
       {% set key = eleventyNavigation.key if eleventyNavigation else tags[0] %}
       {% set navPages = collections.all | eleventyNavigationBreadcrumb(key) %}
-      {% if key != 'landingEN' and key != 'landingFR' %}
+      {% if key not in ["landingEN", "landingFR"] %}
         <gcds-breadcrumbs-item href={{ breadcrumbs[locale].url | url }}>
           {{ breadcrumbs[locale].linkText }}
         </gcds-breadcrumbs-item>
