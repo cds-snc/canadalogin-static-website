@@ -45,7 +45,7 @@ If you cannot find the one-time code for GC Sign in your email inbox, try these 
    - The email might have been flagged as spam. Search for messages from GC Sign in.
 #### 3. Search your inbox
    - Use search function in your email to look for "GC Sign in verification code".
-#### 4. Wait a few minutes and check again<
+#### 4. Wait a few minutes and check again
    - Email delivery can sometimes be delayed.
    - If you requested multiple codes, only the most recent one will work.
 #### 5. Check your email filters and rules
