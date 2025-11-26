@@ -22,8 +22,6 @@ eleventyNavigation:
 
 If you're seeing an "invalid email" error, here are a few things to check:
 
-<br />
-
 #### 1. Double-check for typos
    - Make sure there are no extra spaces before or after your email address.
    - Confirm that you’ve entered the correct format. For example: name@example.com.
