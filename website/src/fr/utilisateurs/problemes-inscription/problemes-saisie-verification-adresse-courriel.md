@@ -43,10 +43,13 @@ Si vous ne trouvez pas le code à usage unique Connexion GC dans votre boîte de
 
 #### 1. Vérifiez votre adresse courriel
    - Assurez-vous d’avoir saisi la bonne adresse courriel, sans fautes de frappe.
+
 #### 2. Consultez votre dossier de pourriels ou de messages indésirables
    - Il se peut que le courriel ait été signalé comme étant un pourriel. Recherchez des messages ayant pour expéditeur Connexion GC. 
+
 #### 3. Faites une recherche dans votre boîte de réception
    - Utilisez la fonction de recherche dans votre boîte de réception de courriels pour chercher les termes « code de vérification Connexion GC ».
+
 #### 4. Attendez quelques minutes et vérifiez à nouveau
    - Il peut arriver que la livraison du courriel soit retardée.
    - Si vous demandez plusieurs codes, seul le code reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes jusqu’à ce que l’un d’entre eux fonctionne.
@@ -54,8 +57,10 @@ Si vous ne trouvez pas le code à usage unique Connexion GC dans votre boîte de
 #### 5. Vérifiez les filtres et les réglages de votre boîte de réception
    - Si vous utilisez des filtres personnalisés, il se peut que le courriel se trouve dans un autre dossier.
    - Si votre boîte de réception est gérée par une équipe de TI (travail ou école), consultez cette équipe pour vous assurer que le courriel n’est pas bloqué.
+   
 #### 6. Essayez de demander un nouveau code
    - Sur la page Web, demandez un nouveau code de vérification en cliquant sur le lien « Demander un nouveau code » sous « Des problèmes avec votre code? ». Il se peut que vous deviez attendre quelques secondes avant que le lien permettant de demander un nouveau code apparaisse.
+
 #### 7. Contactez l’équipe de soutien
    - Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
 

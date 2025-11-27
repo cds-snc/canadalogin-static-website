@@ -91,6 +91,7 @@ an account, or because someone else used or is using your email in error.
 #### 1. If you previously created this account, sign in:
    - Go to the sign-in page and sign in using the email address you used previously
    - If you’ve forgotten your password, use the “Forgot Password” option to reset it.
+   
 <gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
     <gcds-text>
          {% linkRef links.forgotyourpassword '#forgot-your-password' 'Forgot your password' %} 
