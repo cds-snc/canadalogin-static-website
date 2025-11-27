@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.6](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.5...v1.2.6) (2025-11-27)
+
+
+### Bug Fixes
+
+* Replace strong tags with markdown ([#497](https://github.com/cds-snc/gc-signin-static-website/issues/497)) ([1fe8780](https://github.com/cds-snc/gc-signin-static-website/commit/1fe8780a2b719c212a4841dfd389352e73aba4da))
+* Update strong tags to H4 on the user's 'Problems entering and verifying your email' and 'Problèmes liés à la saisie et à la vérification de votre adresse courriel' ([#496](https://github.com/cds-snc/gc-signin-static-website/issues/496)) ([6d2d5a0](https://github.com/cds-snc/gc-signin-static-website/commit/6d2d5a04d1ecfffa7845b22d34ce65a2b89ff7ee))
+* Update strong tags to H4 on the user's 'Problems entering and verifying your email' page ([#493](https://github.com/cds-snc/gc-signin-static-website/issues/493)) ([54784ba](https://github.com/cds-snc/gc-signin-static-website/commit/54784ba1fd914decb72cb2eada04bc6946bce9ed))
+
+
+### Continuous Integration
+
+* Deploy 1.2.5 to prod ([#491](https://github.com/cds-snc/gc-signin-static-website/issues/491)) ([bf83655](https://github.com/cds-snc/gc-signin-static-website/commit/bf83655fb4c00438ef586eea3a5a3dcc1db66129))
+
 ## [1.2.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.4...v1.2.5) (2025-11-25)
 
 
