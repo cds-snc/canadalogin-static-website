@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.7](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.6...v1.2.7) (2025-12-01)
+
+
+### Bug Fixes
+
+* Remove endorsement sentence in Partners page (FR/EN) ([#504](https://github.com/cds-snc/gc-signin-static-website/issues/504)) ([b7116c7](https://github.com/cds-snc/gc-signin-static-website/commit/b7116c7de9b49c96ea99156fea91bd20f273cffa))
+* Remove endorsment sentence in Partners page (FR/EN) ([b7116c7](https://github.com/cds-snc/gc-signin-static-website/commit/b7116c7de9b49c96ea99156fea91bd20f273cffa))
+
+
+### Continuous Integration
+
+* Deploy 1.2.6 to prod ([#498](https://github.com/cds-snc/gc-signin-static-website/issues/498)) ([f49491d](https://github.com/cds-snc/gc-signin-static-website/commit/f49491d2674940b47c910ab9406c6fbfd20f0da5))
+
 ## [1.2.6](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.5...v1.2.6) (2025-11-27)
 
 
