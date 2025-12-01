@@ -53,7 +53,7 @@ A secure and easy way to access Government of Canada programs and services onlin
     For service providers, it streamlines adoption and reduces overhead by eliminating the need for custom authentication systems. This centralized approach supports a more efficient, secure, and scaleable digital ecosystem across departments. 
   </gcds-text>
   <gcds-text>
-    GC Sign in will also help departments meet requirements under the Policy on Government Security and the Directive on Identity Management. 
+    GC Sign in will also help departments meet requirements under the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578">Policy on Government Security</gcds-link> and the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16577">Directive on Identity Management</gcds-link>. 
   </gcds-text>
   <gcds-text>
     Want to see what’s next? Explore the GC Sign in roadmap to learn about upcoming features and milestones.
