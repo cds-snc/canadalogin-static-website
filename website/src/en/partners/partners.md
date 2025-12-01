@@ -53,7 +53,7 @@ A secure and easy way to access Government of Canada programs and services onlin
     For service providers, it streamlines adoption and reduces overhead by eliminating the need for custom authentication systems. This centralized approach supports a more efficient, secure, and scaleable digital ecosystem across departments. 
   </gcds-text>
   <gcds-text>
-    Endorsed as an enterprise solution by the Government of Canada’s Enterprise Architecture Review Board, GC Sign in will also help departments meet requirements under the Policy on Government Security and the Directive on Identity Management. 
+    GC Sign in will also help departments meet requirements under the Policy on Government Security and the Directive on Identity Management. 
   </gcds-text>
   <gcds-text>
     Want to see what’s next? Explore the GC Sign in roadmap to learn about upcoming features and milestones.

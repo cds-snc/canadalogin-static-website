@@ -59,7 +59,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
     Pour les fournisseurs de services, l’outil simplifie l’adoption et réduit les frais généraux en éliminant la nécessité de systèmes d’authentification sur mesure. Cette approche centralisée participe à la mise en place d’un écosystème numérique plus efficace, sécurisé et évolutif à l’échelle des ministères. 
   </gcds-text>
   <gcds-text>
-    L’outil Connexion GC a été approuvé comme solution d’entreprise par le Conseil d’examen de l’architecture intégrée du gouvernement du Canada. Il aidera également les ministères à répondre aux exigences de la Politique sur la sécurité du gouvernement et de la Directive sur la gestion de l’identité.
+   Il aidera également les ministères à répondre aux exigences de la Politique sur la sécurité du gouvernement et de la Directive sur la gestion de l’identité.
   </gcds-text>
   <gcds-text>
     Vous souhaitez connaître les prochaines étapes? Découvrez la feuille de route de Connexion GC pour en savoir plus sur les fonctionnalités et étapes à venir.
