@@ -41,7 +41,7 @@ Your email address is used for recovering your account if you get locked out, so
 - Try to avoid using your own devices on public Wi-Fi, if you can.
   
   <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <a href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi">guide on public Wi-Fi</a>.</gcds-text>
+    <gcds-text>For more information on why this is important, and how to keep your information safe, refer to our <gcds-link href="https://www.getcybersafe.gc.ca/en/secure-your-connections/public-wi-fi" external>guide on public Wi-Fi</gcds-link>.</gcds-text>
   </gcds-notice>
 
 ## Monitor for suspicious activity

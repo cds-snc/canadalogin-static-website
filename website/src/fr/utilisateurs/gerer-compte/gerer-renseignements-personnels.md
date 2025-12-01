@@ -40,8 +40,7 @@ Pour changer votre nom pour votre compte Connexion GC, procédez comme suit :
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette modification de votre nom n’a d’effet que pour les programmes et services que vous avez connectés à votre compte Connexion GC">
 <!-- Remove reference of other services in French until V2. -->
-  <gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre nom auprès d’eux également. Pour rechercher un autre compte du gouvernement du Canada, consultez le <a href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du gouvernement du Canada
-</a>.</gcds-text>
+  <gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre nom auprès d’eux également. Pour rechercher un autre compte du gouvernement du Canada, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html" external>répertoire des comptes du gouvernement du Canada</gcds-link>.</gcds-text>
 </gcds-notice>
 
 ## Modifier votre langue de communication
@@ -58,7 +57,7 @@ Pour changer la langue officielle dans laquelle vous souhaitez que Connexion GC 
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette modification de votre langue de communication n’a d’effet que pour les programmes et services que vous avez connectés à votre compte Connexion GC">
 <!-- Remove reference of other services in French until V2. -->
-  <gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre langue de communication auprès d’eux également. Pour une liste des programmes et services utilisant actuellement Connexion GC, rendez-vous sur la page Services disponibles. Pour rechercher un autre compte du gouvernement du Canada, consultez le <a href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du gouvernement du Canada</a>.</gcds-text>
+  <gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre langue de communication auprès d’eux également. Pour une liste des programmes et services utilisant actuellement Connexion GC, rendez-vous sur la page Services disponibles. Pour rechercher un autre compte du gouvernement du Canada, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html" external>répertoire des comptes du gouvernement du Canada</gcds-link>.</gcds-text>
 </gcds-notice>
 
 **Veuillez noter que les communications provenant de Connexion GC sont envoyées dans un format bilingue.**
@@ -87,5 +86,5 @@ Pour modifier le numéro de téléphone que Connexion GC et les programmes et se
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette modification de votre numéro de téléphone de communication n’a d’effet que pour les programmes et services que vous avez connectés à votre compte Connexion GC">
 
 <!-- Remove reference of other services in French until V2. -->
-<gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre numéro de téléphone de communication auprès d’eux également. Pour rechercher un autre compte du gouvernement du Canada, consultez le <a href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html">répertoire des comptes du gouvernement du Canada</a>.</gcds-text>
+<gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas Connexion GC pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre numéro de téléphone de communication auprès d’eux également. Pour rechercher un autre compte du gouvernement du Canada, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html" external>répertoire des comptes du gouvernement du Canada</gcds-link>.</gcds-text>
 </gcds-notice>
