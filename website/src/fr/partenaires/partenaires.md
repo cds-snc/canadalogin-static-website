@@ -118,6 +118,4 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
 Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de Connexion GC. 
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">
-  Abonnez-vous aux communications
-</gcds-button>
+<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">Abonnez-vous aux communications</gcds-button>

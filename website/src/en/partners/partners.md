@@ -112,6 +112,4 @@ A secure and easy way to access Government of Canada programs and services onlin
   If you'd like to receive updates, sign up for our GC Sign in mailing list.
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="Sign up for communications" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">
-  Sign up for communications
-</gcds-button>
+<gcds-button type="link" button-role="secondary" value="Sign up for communications" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">Sign up for communications</gcds-button>
