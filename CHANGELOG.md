@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.8](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.7...v1.2.8) (2025-12-05)
+
+
+### Bug Fixes
+
+* Added external on all external links ([#511](https://github.com/cds-snc/gc-signin-static-website/issues/511)) ([68cabab](https://github.com/cds-snc/gc-signin-static-website/commit/68cababf2b193ad652581c79b8d11b14e3e7c5e6))
+* Enabled Contact us and Sign up forms to open in new tab ([#514](https://github.com/cds-snc/gc-signin-static-website/issues/514)) ([db7b17a](https://github.com/cds-snc/gc-signin-static-website/commit/db7b17aaa787cc9e5053ca315726a48fb771f575))
+* Update list of supported country names in French ([#516](https://github.com/cds-snc/gc-signin-static-website/issues/516)) ([e31ee1d](https://github.com/cds-snc/gc-signin-static-website/commit/e31ee1d619f0d9df003f3570d0c84dbdcce500a0))
+
+
+### Continuous Integration
+
+* Deploy 1.2.7 to prod ([#509](https://github.com/cds-snc/gc-signin-static-website/issues/509)) ([2b720f1](https://github.com/cds-snc/gc-signin-static-website/commit/2b720f1526cab1b60c12f3cf6d94036cea038af8))
+
 ## [1.2.7](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.6...v1.2.7) (2025-12-01)
 
 
