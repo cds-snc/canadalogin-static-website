@@ -2,7 +2,6 @@
 title: Terms
 translationKey: termsandprivacyusers
 layout: 'layouts/base.njk'
-date: 'git Last Modified'
 eleventyNavigation:
   key: termsAndPrivacyUsersEN
   title: Terms
@@ -86,7 +85,7 @@ Software programs are used to:
 - Monitor network traffic; and 
 - Identify unauthorized attempts to upload or change information or otherwise cause damage. 
 
-When you visit a <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link> website, these software programs automatically receive and temporarily store information from your browser in our web server logs for 12 months. Some of the information automatically collected by our server when you browse our website includes the:
+When you visit a [Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html) website, these software programs automatically receive and temporarily store information from your browser in our web server logs for 12 months. Some of the information automatically collected by our server when you browse our website includes the:
 
 - Network location and the IP address of the computer and other devices you used to contact our website.
 - Name of the domain you used to access the internet (.com, .org, .net, .ca, etc.).
@@ -99,14 +98,14 @@ When you visit a <gcds-link href="https://www.canada.ca/en/employment-social-dev
 This is statistical data and does not directly identify you. We do not try to link this data, nor the IP addresses of devices that have contacted our website, with the identity of individuals visiting our site, unless an attempt to damage the site has been detected. The software programs never gather specific personal information such as your name, your phone number, or your email address.
 
 ### Investigations 
-When a threat to the website or computer systems of the Government of Canada is detected, information is collected pursuant to section 161 of the <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/f-11/" external>Financial Administration Act</gcds-link>. The information may be shared with appropriate law enforcement authorities if suspected criminal activities are detected. Such information may be used for network security related statistical purposes, audit, evaluation, research, planning, and reporting, and is described in <gcds-link href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu939" external>Personal Information Bank Security Incidents and Privacy Breaches (PSU 939).</gcds-link>
+When a threat to the website or computer systems of the Government of Canada is detected, information is collected pursuant to section 161 of the [Financial Administration Act](https://laws-lois.justice.gc.ca/eng/acts/f-11/). The information may be shared with appropriate law enforcement authorities if suspected criminal activities are detected. Such information may be used for network security related statistical purposes, audit, evaluation, research, planning, and reporting, and is described in [Personal Information Bank Security Incidents and Privacy Breaches (PSU 939)](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu939).
 
 ### Vulnerability disclosure 
-<gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link> is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, let us know so we can fix it as soon as possible. Please visit the <gcds-link href="https://digital.canada.ca/security-notice/" external>Security Notice</gcds-link> to learn more about that process. 
+[Employment and Social Development Canada](https://www.canada.ca/en/employment-social-development.html) is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, let us know so we can fix it as soon as possible. Please visit the [Security Notice](https://digital.canada.ca/security-notice/) to learn more about that process. 
 
 
 ## Visiting and using Canada.ca 
-For more general information related to the Government of Canada’s web presence, please visit <gcds-link href="https://www.canada.ca/en/transparency/terms.html" external>Canada.ca’s terms and conditions</gcds-link>. This has information about:
+For more general information related to the Government of Canada’s web presence, please visit [Canada.ca’s terms and conditions](https://www.canada.ca/en/transparency/terms.html). This has information about:
 - Accessibility.
 - Official languages.
 - Interacting with us on social media.

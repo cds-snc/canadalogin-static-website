@@ -43,7 +43,7 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 - Essayez d'éviter d'utiliser vos propres appareils sur le WiFi public, si vous le pouvez. 
   
   <gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-    <gcds-text>Pour savoir en quoi cela est important et comment protéger vos renseignements, consultez notre <gcds-link href="https://www.pensezcybersecurite.gc.ca/fr/securisez-vos-connexions/reseaux-wi-fi-publics" external>guide sur le WiFi public</gcds-link>.
+    <gcds-text>Pour savoir en quoi cela est important et comment protéger vos renseignements, consultez notre <a href="https://www.pensezcybersecurite.gc.ca/fr/securisez-vos-connexions/reseaux-wi-fi-publics">guide sur le WiFi public</a>.
     </gcds-text>
   </gcds-notice>
 

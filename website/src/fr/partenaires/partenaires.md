@@ -59,7 +59,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
     Pour les fournisseurs de services, l’outil simplifie l’adoption et réduit les frais généraux en éliminant la nécessité de systèmes d’authentification sur mesure. Cette approche centralisée participe à la mise en place d’un écosystème numérique plus efficace, sécurisé et évolutif à l’échelle des ministères. 
   </gcds-text>
   <gcds-text>
-   Il aidera également les ministères à répondre aux exigences de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16578" external>Politique sur la sécurité du gouvernement</gcds-link> et de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16577" external>Directive sur la gestion de l’identité</gcds-link>.
+   Il aidera également les ministères à répondre aux exigences de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16578">Politique sur la sécurité du gouvernement</gcds-link> et de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16577">Directive sur la gestion de l’identité</gcds-link>.
   </gcds-text>
   <gcds-text>
     Vous souhaitez connaître les prochaines étapes? Découvrez la feuille de route de Connexion GC pour en savoir plus sur les fonctionnalités et étapes à venir.

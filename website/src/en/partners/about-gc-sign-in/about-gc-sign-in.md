@@ -142,11 +142,11 @@ GC sign in will eventually support other multi-factor authentication options inc
 ## About the GC Sign in team
 
 <gcds-text>
-  GC Sign in is developed by the Canadian Digital Service (CDS). CDS is part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada (ESDC)</gcds-link>. We aim to advance the goals of the <gcds-link href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-operations-strategic-plans/canada-digital-ambition.html" external>Digital Ambition</gcds-link> and improve service experiences in the Government of Canada. We build digital products that solve common service problems for departments.
+  GC Sign in is developed by the Canadian Digital Service (CDS). CDS is part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html">Employment and Social Development Canada (ESDC)</gcds-link>. We aim to advance the goals of the <gcds-link href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-operations-strategic-plans/canada-digital-ambition.html">Digital Ambition</gcds-link> and improve service experiences in the Government of Canada. We build digital products that solve common service problems for departments.
 </gcds-text>
 
 <gcds-text>
-  Funded through <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-en.html" external>Budget 2024</gcds-link>, GC Sign in was created to provide a single front door for federal government programs and services. 
+  Funded through <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-en.html">Budget 2024</gcds-link>, GC Sign in was created to provide a single front door for federal government programs and services. 
 </gcds-text>
 
-<gcds-text><gcds-link href="https://digital.canada.ca/about/" external>Learn more about CDS</gcds-link></gcds-text>
+<gcds-text>[Learn more about CDS](https://digital.canada.ca/about/)</gcds-text>
