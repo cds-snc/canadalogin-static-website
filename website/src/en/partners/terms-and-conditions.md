@@ -43,10 +43,10 @@ Some of the content on this site may be subject to the copyright of another part
 
 
 ### Trademark notice
-The official symbols of the Government of Canada, including the Canada Wordmark, the Arms of Canada, and the flag symbol may not be reproduced, whether for commercial or non-commercial purposes, without prior <gcds-link href="https://www.canada.ca/en/government/system/government-communications/federal-identity-requirements/legal-protection-official-symbols-government-canada.html">written authorization</gcds-link>.
+The official symbols of the Government of Canada, including the Canada Wordmark, the Arms of Canada, and the flag symbol may not be reproduced, whether for commercial or non-commercial purposes, without prior <gcds-link href="https://www.canada.ca/en/government/system/government-communications/federal-identity-requirements/legal-protection-official-symbols-government-canada.html" external>written authorization</gcds-link>.
 
 ## Our commitment to accessibility
-The Government of Canada is committed to achieving a high standard of accessibility as defined in the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601"> Standard on Web Accessibility </gcds-link> and the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27088">Standard on Optimizing Websites and Applications for Mobile Devices</gcds-link>. In the event of difficulty using our Web pages, applications or device-based mobile applications, please contact us for assistance or to obtain alternative formats such as regular print, Braille or another appropriate format.
+The Government of Canada is committed to achieving a high standard of accessibility as defined in the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601" external> Standard on Web Accessibility </gcds-link> and the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27088" external>Standard on Optimizing Websites and Applications for Mobile Devices</gcds-link>. In the event of difficulty using our Web pages, applications or device-based mobile applications, please contact us for assistance or to obtain alternative formats such as regular print, Braille or another appropriate format.
 
 ## Social media
 This notice has been written to explain how the Canadian Digital Service interacts with the public on social media platforms.
@@ -63,11 +63,11 @@ Social media accounts may post or display links or ads for websites that are not
 Social media platforms are third-party service providers and are not bound by Government of Canada standards for Web accessibility.
 
 ### Copyright
-Information posted by the Government of Canada is subject to the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/C-42/index.html">Copyright Act </gcds-link>.
+Information posted by the Government of Canada is subject to the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/C-42/index.html" external>Copyright Act </gcds-link>.
 
 ### Privacy
 Social media accounts of the Canadian Digital Service are not Government of Canada websites and represent only its presence on third-party service providers.
 For more information, please refer to our <gcds-link href="/en/partners/privacy"> Privacy Notice </gcds-link> regarding third-party social media.
 
 ### Official languages
-Many social media platforms have multiple language options and provide instructions on how to set your preferences. The Government of Canada respects the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/index.html"> Official Languages Act </gcds-link> and is committed to ensuring that our information is available in both French and English and that both versions are of equal quality.
+Many social media platforms have multiple language options and provide instructions on how to set your preferences. The Government of Canada respects the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/index.html" external> Official Languages Act </gcds-link> and is committed to ensuring that our information is available in both French and English and that both versions are of equal quality.

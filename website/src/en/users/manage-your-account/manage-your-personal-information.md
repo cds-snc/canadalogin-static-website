@@ -39,7 +39,7 @@ To change your name on GC Sign in, follow these steps:
 7. Update your name with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your name here only updates it with programs/services that are connected to your GC Sign in">
-  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your name there as well. To search for another Government of Canada account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">Government of Canada account directory</a>.</gcds-text>
+  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your name there as well. To search for another Government of Canada account, visit the <gcds-link href="https://www.canada.ca/en/government/sign-in-online-account.html" external>Government of Canada account directory</gcds-link>.</gcds-text>
 </gcds-notice>
 
 ## Change your language preferences
@@ -55,7 +55,7 @@ To change your preference for which official language GC Sign in and connected p
 7. Update your language preference with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your language preference here only updates it with programs/services that are connected to your GC Sign in">
-  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your language preference there as well. To search for another Government of Canada account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">Government of Canada account directory</a>.</gcds-text>
+  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your language preference there as well. To search for another Government of Canada account, visit the <gcds-link href="https://www.canada.ca/en/government/sign-in-online-account.html" external>Government of Canada account directory</gcds-link>.</gcds-text>
 </gcds-notice>
 
 **Note that all communications from GC Sign in are sent in a bilingual format.**
@@ -82,5 +82,5 @@ To change the phone number GC Sign in and connected programs/services use to con
 8. Update your contact phone number with other Government of Canada accounts you use.
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="Changing your contact phone number here only updates it with programs/services that are connected to your GC Sign in">
-  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your contact phone number there as well. To search for another Government of Canada account, visit the <a href="https://www.canada.ca/en/government/sign-in-online-account.html">Government of Canada account directory</a>.</gcds-text>
+  <gcds-text>If you sign in to other government programs/services that don't use GC Sign in for authentication (e.g. you sign in using your bank, or GCKey, or another method), you will have to sign in to those programs/services and update your contact phone number there as well. To search for another Government of Canada account, visit the <gcds-link href="https://www.canada.ca/en/government/sign-in-online-account.html" external>Government of Canada account directory</gcds-link>.</gcds-text>
 </gcds-notice>
