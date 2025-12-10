@@ -45,7 +45,7 @@ Below is the planned timeline for providing features and achieving milestones fo
       <td>✅&nbsp;Completed</td>
     </tr>
     <tr>
-      <td>Obtain Authority to Operate (ATO) for a service that's assessed for Protected B / Medium integrity  / Medium availability (PBMM)​</td>
+      <td>Obtain Authority to Operate (ATO) for a service that's assessed for <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>Protected B / Medium integrity  / Medium availability (PBMM)​</gcds-link></td>
       <td>✅&nbsp;Completed</td>
     </tr>
     <tr>

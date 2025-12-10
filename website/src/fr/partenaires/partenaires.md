@@ -28,7 +28,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   <li class="list-none">
     <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant un cadenas sur un bouclier.">
     <h3 class="mt-0">Une connexion simplifiée</h3>
-    <p>Permettez aux utilisateurs et utilisatrices d’accéder à votre service en toute sécurité grâce à une méthode cohérente, pratique et accessible s’appuyant sur les normes les plus récentes et sur de robustes protections de la confidentialité (niveau PBMM).</p>
+    <p>Permettez aux utilisateurs et utilisatrices d’accéder à votre service en toute sécurité grâce à une méthode cohérente, pratique et accessible s’appuyant sur les normes les plus récentes et sur de robustes protections de la confidentialité (niveau <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>PBMM</gcds-link>).</p>
   </li>
   <li class="list-none">
     <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant deux bulles de dialogue et un point d’interrogation.">

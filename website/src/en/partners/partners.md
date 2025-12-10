@@ -2,6 +2,7 @@
 title: Departments and agencies
 translationKey: departmentsAgencies
 layout: 'layouts/home.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: partnersEN
   title: Partners
@@ -22,7 +23,7 @@ A secure and easy way to access Government of Canada programs and services onlin
   <li class="list-none">
     <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="A lock in a shield icon.">
     <h3 class="mt-0">Simplified sign-in</h3>
-    <p>Give users a consistent, convenient, and accessible way to securely access your service, supported by the latest standards and strong privacy protections (PBMM).</p>
+    <p>Give users a consistent, convenient, and accessible way to securely access your service, supported by the latest standards and strong privacy protections (<gcds-link href="https://www.cyber.gc.ca/en/guidance/annex-4a-profile-1-protected-b-medium-integrity-medium-availability-itsg-33" external>PBMM</gcds-link>).</p>
   </li>
   <li class="list-none">
     <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Two speech bubbles with a question mark icon.">
