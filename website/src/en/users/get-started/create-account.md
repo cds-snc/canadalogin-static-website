@@ -51,7 +51,7 @@ Otherwise, to create a GC Sign in account:
 
 Enter your name. If you only have one name, enter it into the last name field.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
     <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-profile/"> Problems with creating a profile </gcds-link>
     </li>
@@ -67,7 +67,7 @@ We recommend you choose an email address that you’ll always be able to access.
 - We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the GC Sign in webpage and enter the one-time code.
 - Emails can only be used for one account. If you attempt to use an email address that’s already registered to a GC Sign in account, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
     <li><gcds-link href="/en/users/trouble-signing-up/issues-enter-verify-email/"> Problems entering and verifying your email </gcds-link> </li>
     <li><gcds-link href="/en/users/trouble-signing-in/forgot-your-password/"> Forgot your password </gcds-link></li>
@@ -95,7 +95,7 @@ Avoid easy-to-guess passwords like ones that use:
 - Numbers and special characters 
 - The same or similar password that you use for other accounts, such as your bank account or email
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
     <li><gcds-link href="/en/users/trouble-signing-up/issues-creating-password/"> Problems creating a password </gcds-link>
     </li>
@@ -122,7 +122,7 @@ To set up 2-step verification, follow these steps:
 3. **Set up a backup verification method (Optional)**
    - You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step.
 
-<gcds-notice type="success" notice-title-tag="h2" notice-title="Related help guides">
+<gcds-notice type="info" notice-title-tag="h2" notice-title="Related help guides">
   <ul>
     <li><gcds-link href="/en/users/trouble-signing-up/issues-2-step-verification/">Problems setting up 2-step verification</gcds-link>
     </li>
