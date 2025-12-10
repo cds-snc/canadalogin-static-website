@@ -2,6 +2,7 @@
 title: About GC Sign in
 translationKey: aboutgcsignin
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: aboutgcsigninEN
   title: About
