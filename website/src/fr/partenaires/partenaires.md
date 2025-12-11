@@ -26,17 +26,17 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
 
 <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant un cadenas sur un bouclier.">
+    <!-- <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant un cadenas sur un bouclier."> -->
     <h3 class="mt-0">Une connexion simplifiée</h3>
     <p>Permettez aux utilisateurs et utilisatrices d’accéder à votre service en toute sécurité grâce à une méthode cohérente, pratique et accessible s’appuyant sur les normes les plus récentes et sur de robustes protections de la confidentialité (niveau PBMM).</p>
   </li>
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant deux bulles de dialogue et un point d’interrogation.">
+    <!-- <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant deux bulles de dialogue et un point d’interrogation."> -->
     <h3 class="mt-0">Sécurité et gestion de la fraude améliorées</h3>
     <p>Alliez une certitude renforcée à une fraude réduite grâce à un niveau d’assurance 1 en matière d’identité et à un niveau d’assurance 2 en matière de justificatifs, avec des options multifacteur comme les SMS ou les appels vocaux.</p>     
   </li>
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant une roue dentée et une clé mécanique.">
+    <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant une roue dentée et une clé mécanique."> -->
     <h3 class="mt-0">Connexion GC s’engage</h3>
     <p>Vous pouvez compter sur Connexion GC pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>     
   </li>
