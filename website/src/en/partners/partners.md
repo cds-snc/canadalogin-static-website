@@ -20,17 +20,17 @@ A secure and easy way to access Government of Canada programs and services onlin
 
 <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="A lock in a shield icon.">
+    <!-- <img class="mb-150" src="/assets/images/common/partners/partners_signin_icon.svg" style="height: 120px; width: auto;" alt="A lock in a shield icon."> -->
     <h3 class="mt-0">Simplified sign-in</h3>
     <p>Give users a consistent, convenient, and accessible way to securely access your service, supported by the latest standards and strong privacy protections (PBMM).</p>
   </li>
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Two speech bubbles with a question mark icon.">
+    <!-- <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Two speech bubbles with a question mark icon."> -->
     <h3 class="mt-0">Enhanced security and fraud management</h3>
     <p>Provide greater certainty and reduced fraud through identity assurance level 1 and credential assurance level 2, with multi-factor authentication options such as SMS or voice.</p>     
   </li>
   <li class="list-none">
-    <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="A gear and wrench icon">
+    <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="A gear and wrench icon"> -->
     <h3 class="mt-0">GC Sign in takes responsibility</h3>
     <p>Rely on GC Sign in to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>     
   </li>
