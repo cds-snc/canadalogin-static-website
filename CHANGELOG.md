@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.2.9](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.8...v1.2.9) (2025-12-12)
+
+
+### Bug Fixes
+
+* Added link to PBMM ([#535](https://github.com/cds-snc/gc-signin-static-website/issues/535)) ([faf145d](https://github.com/cds-snc/gc-signin-static-website/commit/faf145d40b77f437cb1b927c1dbd6356424a0553))
+* Added space between the grid and button elements ([#540](https://github.com/cds-snc/gc-signin-static-website/issues/540)) ([10903c9](https://github.com/cds-snc/gc-signin-static-website/commit/10903c9fb2eae072a05e2fb6bac6acc92c130f82))
+* Changed notices to type info ([#529](https://github.com/cds-snc/gc-signin-static-website/issues/529)) ([85d4608](https://github.com/cds-snc/gc-signin-static-website/commit/85d46082f2cf567d1a1440ed76710a4d33a5b3f3))
+* Removed icons on landing and partner home page ([#538](https://github.com/cds-snc/gc-signin-static-website/issues/538)) ([d595b5b](https://github.com/cds-snc/gc-signin-static-website/commit/d595b5bf055bc13ddc9c720c8567ffffc145ada6))
+
+
+### Miscellaneous Chores
+
+* Remove package-lock.json from .gitignore ([#523](https://github.com/cds-snc/gc-signin-static-website/issues/523)) ([81eefde](https://github.com/cds-snc/gc-signin-static-website/commit/81eefde0d9d43442ad3786dbb3b7e92b275dc1af))
+
+
+### Continuous Integration
+
+* Deploy 1.2.8 to prod ([#524](https://github.com/cds-snc/gc-signin-static-website/issues/524)) ([06c6a79](https://github.com/cds-snc/gc-signin-static-website/commit/06c6a795565f806e7d1b75e119841f73db60354d))
+
 ## [1.2.8](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.7...v1.2.8) (2025-12-05)
 
 
