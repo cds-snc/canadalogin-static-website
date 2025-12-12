@@ -47,7 +47,7 @@ par téléphone et en ligne</td>
       <td>✅&nbsp;Terminé</td>
     </tr>
     <tr>
-      <td>Obtention de l’Autorisation d’exploitation (AE) pour un service évalué pour un profil de sécurité PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne)​</td>
+      <td>Obtention de l’Autorisation d’exploitation (AE) pour un service évalué pour un profil de sécurité <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne)​</gcds-link></td>
       <td>✅&nbsp;Terminé</td>
     </tr>
     <tr>

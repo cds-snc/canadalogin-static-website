@@ -2,6 +2,7 @@
 title: About GC Sign in
 translationKey: aboutgcsignin
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: aboutgcsigninEN
   title: About
@@ -134,7 +135,7 @@ GC sign in will eventually support other multi-factor authentication options inc
       Security
     </gcds-heading>
     <gcds-text>
-      Offers identity assurance level 1 and credential assurance level 2. This means you can safely provide your clients access to manage, submit, and store information rated at Protected B, Medium Integrity, Medium Availability (PBMM).
+      Offers identity assurance level 1 and credential assurance level 2. This means you can safely provide your clients access to manage, submit, and store information rated at <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>Protected B, Medium Integrity, Medium Availability (PBMM).</gcds-link>
     </gcds-text>
   </div>
 </gcds-grid>
