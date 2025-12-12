@@ -42,6 +42,8 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </li>
 </gcds-grid>
 
+<br>
+
 <gcds-button type="link" value="Découvrez Connexion GC" href="a-propos-connexion-gc">
   Découvrez Connexion GC&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>

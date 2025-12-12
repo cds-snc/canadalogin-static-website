@@ -2,6 +2,7 @@
 title: Departments and agencies
 translationKey: departmentsAgencies
 layout: 'layouts/home.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: partnersEN
   title: Partners
@@ -35,6 +36,8 @@ A secure and easy way to access Government of Canada programs and services onlin
     <p>Rely on GC Sign in to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>     
   </li>
 </gcds-grid>
+
+<br>
 
 <gcds-button type="link" value="Learn more" href="about-gc-sign-in">
   Learn about GC Sign in&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
