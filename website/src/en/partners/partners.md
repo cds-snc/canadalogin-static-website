@@ -2,7 +2,7 @@
 title: Departments and agencies
 translationKey: departmentsAgencies
 layout: 'layouts/home.njk'
-date: 'git Last Modifid'
+date: 'git Last Modified'
 eleventyNavigation:
   key: partnersEN
   title: Partners
