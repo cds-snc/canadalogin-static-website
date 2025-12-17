@@ -37,7 +37,7 @@ GC Sign in uses an identity and access management solution from IBM Canada. GC S
 The personal information you provide to register for GC Sign in is administered, collected, used and disclosed in accordance with the Privacy Act, the Department of Employment and Social Development Act (DESDA), and other applicable laws. 
 </gcds-text>
 <gcds-text>
-CDS/ESDC may use or share the information you provide for policy analysis, research, and evaluation purposes. This information will be used to help CDS/ESDC improve its products and services. The information CDS/ESDC uses for these purposes will never be used to make an administrative decision that directly impacts.  
+CDS/ESDC may use or share the information you provide for policy analysis, research, and evaluation purposes. This information will be used to help CDS/ESDC improve its products and services. The information CDS/ESDC uses for these purposes will never be used to make an administrative decision that directly impacts you.  
 </gcds-text>
 <gcds-text>
 You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to {% link links.accessyoursettings 'personal information settings and security settings' %}. It is your responsibility to update your personal information, including your email and phone number, in your account. 
