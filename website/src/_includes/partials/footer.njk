@@ -48,13 +48,13 @@ sub-links='{
     {# ------ Users Page ------- #}    
     {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/utilisateurs/")%}
         "{{ footer[locale].sub.about }}": "{{ footer[locale].sub.aboutUrl }}", 
-        "{{ footer[locale].sub.terms }}": "{{ footer[locale].sub.termsUrl }}",
+        "{{ footer[locale].sub.termsUsers }}": "{{ footer[locale].sub.termsUsersUrl }}",
         "{{ footer[locale].sub.privacyUsers }}": "{{ footer[locale].sub.privacyUsersUrl }}"
 
     {# ------ Partners Page ------- #}    
     {% else %}
         "{{ footer[locale].sub.about }}": "{{ footer[locale].sub.aboutUrl }}", 
-        "{{ footer[locale].sub.terms }}": "{{ footer[locale].sub.termsUrl }}",
+        "{{ footer[locale].sub.termsPartners }}": "{{ footer[locale].sub.termsPartnersUrl }}",
         "{{ footer[locale].sub.privacyPartners }}": "{{ footer[locale].sub.privacyPartnersUrl }}"
     {% endif %}
 }'>
