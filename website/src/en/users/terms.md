@@ -12,7 +12,7 @@ eleventyNavigation:
   hideMain: true
 ---
 
-# Terms and Privacy
+# Terms
 
 ## About GC Sign in 
 
@@ -73,6 +73,8 @@ GC Sign in is managed by CDS/ESDC. Your personal information is administered in 
 <gcds-text>
 You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to manage settings and security settings. It is your responsibility to update your personal information.
 </gcds-text>  
+
+{% link links.privacynoticeusers 'Read our full Privacy Notice Statement' %}.
 
 ### Security 
 
