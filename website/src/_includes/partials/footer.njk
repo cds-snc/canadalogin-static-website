@@ -18,23 +18,23 @@
         {% if locale == "en" %}
             "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
             "About GC Sign in": "{{ footer[locale].contextual.aboutUsersUrl }}",
-            "Terms": "{{ footer[locale].contextual.termsUsersUrl }}"     
+            "Contact us": "{{ footer[locale].contextual.contactUsersUrl }}"     
         {% else %}
             "Utilisateurs et utilisatrices de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
             "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUsersUrl }}",
-            "Avis": "{{ footer[locale].contextual.termsUsersUrl }}"    
+            "Nous contacter": "{{ footer[locale].contextual.contactUsersUrl }}"    
         {% endif %}
 
     {# ------ Partners Page ------- #}    
     {% else %}
         {% if locale == "en" %}
             "GC Sign in Partners": "{{ footer[locale].contextual.partnersUrl }}",
-            "Terms and Conditions": "{{ footer[locale].contextual.termsPartnersUrl }}",
-            "Privacy":  "{{ footer[locale].contextual.privacyPartnersUrl }}"
+            "About GC Sign in": "{{ footer[locale].contextual.aboutPartnersUrl }}",
+            "Contact us":  "{{ footer[locale].contextual.contactPartnersUrl }}"
         {% else %}
             "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnersUrl }}",
-            "Avis": "{{ footer[locale].contextual.termsPartnersUrl }}",
-            "Confidentialité":  "{{ footer[locale].contextual.privacyPartnersUrl }}"
+            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutPartnersUrl }}",
+            "Nous contacter":  "{{ footer[locale].contextual.contactPartnersUrl }}"
         {% endif %} 
     {% endif %}
     }'
