@@ -73,6 +73,8 @@ Connexion GC est un outil géré par le SNC/EDSC. Vos renseignements personnels 
 Vous avez droit à la protection de vos renseignements personnels, à leur accès et à leur correction. Pour accéder à vos renseignements personnels dans votre compte et les corriger, rendez-vous dans « Gérer Connexion GC » puis dans « Paramètres de sécurité ». Il est de votre responsabilité de mettre à jour vos renseignements personnels.   
 </gcds-text>
 
+{% link links.privacynoticeusersFR 'Lire l’intégralité de l’avis de confidentialité' %}.
+
 ### Sécurité 
 
 Nous prenons des mesures pour protéger nos sites Web et les renseignements de votre compte.  
