@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.10](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.9...v1.2.10) (2025-12-19)
+
+
+### Continuous Integration
+
+* Deploy 1.2.9 to prod ([#541](https://github.com/cds-snc/gc-signin-static-website/issues/541)) ([21bbd56](https://github.com/cds-snc/gc-signin-static-website/commit/21bbd565adfc483fd0f9bb9158c928048c99b013))
+
 ## [1.2.9](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.8...v1.2.9) (2025-12-12)
 
 
