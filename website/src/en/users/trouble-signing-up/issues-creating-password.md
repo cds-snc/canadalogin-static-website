@@ -14,6 +14,7 @@ eleventyNavigation:
 # Problems creating a password
 
 - {% link '#it-says-your-password-is-not-valid' 'It says your password is not valid' %}
+- {% link '#it-says-your-password-is-too-easy-to-guess' 'It says your password is too easy to guess' %}
 
 
 ## It says your password is not valid
@@ -42,3 +43,19 @@ If you're seeing a message that your password is not valid try the following tro
 
 ### 3. Contact support
     If none of these steps work, {% link links.contactUsers 'contact customer support' %} with your issue and tell them what steps you’ve tried already.
+
+
+## It says your password is too easy to guess
+<gcds-text> 
+This means the password you have chosen is either too simple or too commonly used. 
+</gcds-text> 
+<gcds-text> 
+When creating your password, we recommend following these guidelines on {% linkRef links.createaccount 'how-to-make-a-strong-password' 'how to make a strong password' %}.
+</gcds-text> 
+<gcds-text> 
+If you use the easy to guess password for any other account, we recommend updating it to a stronger password.
+</gcds-text> 
+
+### It says your password could not be validated
+
+This means there is something going on on our end. Please wait a few minutes, then try logging in again. 

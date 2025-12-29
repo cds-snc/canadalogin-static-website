@@ -15,6 +15,8 @@ eleventyNavigation:
 # Problèmes liés à la création d’un mot de passe
 
 - {% link '#un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}
+- {% link '#un-message-indique-que-votre-mot-de-passe-est-trop-facile-a-deviner' 'Un message indique que votre mot de passe est trop facile à deviner' %}
+
 
 ## Un message indique que votre mot de passe est invalide
 
@@ -41,3 +43,17 @@ Si vous recevez un message disant que votre mot de passe n’est pas valide, ess
 
 ### 3. Contactez l’équipe de soutien
     Si aucune de ces solutions ne fonctionne, {% link links.contactUsersFR 'contactez l’équipe de soutien à la clientèle' %} en lui indiquant quel est votre problème et quelles solutions vous avez déjà essayées.
+
+
+## Un message indique que votre mot de passe est trop facile à deviner
+
+Cela signifie que le mot de passe que vous avez choisi est trop simple ou qu’il est trop communément utilisé. 
+
+Nous vous recommandons de suivre les lignes directrices « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} » au moment de créer votre mot de passe.
+
+Si vous utilisez ce même mot de passe facile à deviner pour un autre compte, nous vous recommandons de le remplacer par un mot de passe plus robuste.
+
+### Un message indique que votre mot de passe n’a pas pu être validé
+
+Cela signifie qu’il se passe quelque chose de notre côté. Veuillez attendre quelques minutes, puis réessayer de vous connecter. 
+
