@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # Feuille de route de Connexion GC
 
-Vous trouverez ci-dessous l’échéancier visé pour la fourniture des fonctionnalités et le franchissement des différentes étapes pour le produit Connexion GC, le tout, organisé par trimestre d’exercice. Veuillez noter qu’en raison de la conception itérative de Connexion GC, cette feuille de route est susceptible d’être modifiée. 
+Vous trouverez ci-dessous l’échéancier visé pour la fourniture des fonctionnalités et le franchissement des différentes étapes pour le produit Connexion GC, le tout, organisé par trimestre d’exercice. Veuillez noter qu’en raison de la conception itérative de Connexion GC, cette feuille de route est susceptible d’être modifiée.
 
 ## Nos travaux actuels
 
@@ -82,7 +82,7 @@ par téléphone et en ligne</td>
 ## Projets
 
 <gcds-details details-title="Avril 2026 à septembre 2026 (détection de la fraude)" class="hydrated">
-  <h4 id="product-deliverables">Détection de la fraude</h4>
+  <h3 id="product-deliverables">Détection de la fraude</h3>
   <table>
     <thead>
       <tr>
@@ -120,7 +120,7 @@ par téléphone et en ligne</td>
 </gcds-details>
 
 <gcds-details details-title="Octobre 2026 à mars 2027 (vérification de l’identité et soutien pour les applications cruciales) " class="hydrated">
-  <h4 id="product-deliverables">Vérification de l’identité et soutien pour les applications cruciales</h4>
+  <h3 id="product-deliverables">Vérification de l’identité et soutien pour les applications cruciales</h3>
   <table>
     <thead>
       <tr>

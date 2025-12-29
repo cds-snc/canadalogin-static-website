@@ -20,53 +20,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noarchive">
 
-  <!-- Utility framework -->
-  <link rel="stylesheet"
-    href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.5.0/dist/gcds-utility.min.css" />
+  <link rel="icon" type="image/x-icon" sizes="96x96" href="{{ '/favicon.ico' | url }}">
+
+  <!-- GCDS CSS Shortcuts -->
+  <link rel="stylesheet" href="{{ '/gcds-css-shortcuts.min.css' | url }}" />
 
   <link rel="stylesheet" href="{{ '/styles/prism.css' | url }}">
   <link rel="stylesheet" href="{{ '/styles/style.css' | url }}">
-  <script src="{{ '/scripts/code-showcase.js' | url }}"></script>
-  <script src="{{ '/scripts/code-copy.js' | url }}"></script>
-  <script src="{{ '/scripts/component-preview.js' | url }}"></script>
-  <link rel="icon" type="image/x-icon" sizes="96x96" href="{{ '/favicon.ico' | url }}">
-
-  <!-- Icons Font Awesome (to access icons, import Font Awesome) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    crossorigin="anonymous">
 
   <!-- GC Design System  Components-->
-  <link rel="stylesheet"
-    href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.30.0/dist/gcds/gcds.css">
+  <link rel="stylesheet" href="{{ '/components/dist/gcds/gcds.css' | url }}">
   <script type="module" src="/components/dist/gcds/gcds.esm.js"></script>
-  <script nomodule=""
-    src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.30.0/dist/gcds/gcds.js"></script>
 
   <!-- Pagefind -->
   <script src="/pagefind/pagefind.js" type="module"></script>
   <script src="{{ '/scripts/search.js' | url }}" type="module"></script>
-
 </head>
 
 <body>
-
   {% include "partials/header.njk" %}
 
-  <div class="content-wrapper">
-    <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225 general-layout" {% if not nocrawl
-      %}data-pagefind-body{% endif %}>
+  <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225" {% if not nocrawl
+    %}data-pagefind-body{% endif %}>
 
-      {% block content %}{{ content | safe }}{% endblock %}
+    {% block content %}{{ content | safe }}{% endblock %}
 
-      <gcds-date-modified>
-        {{ page.date | dateLastModified }}
-      </gcds-date-modified>
+    <gcds-date-modified>
+      {{ page.date | dateLastModified }}
+    </gcds-date-modified>
+  </main>
 
-    </main>
-
-    {% include "partials/footer.njk" %}
-
-  </div>
+  {% include "partials/footer.njk" %}
 
   {% initClipboardJS %}
 </body>
