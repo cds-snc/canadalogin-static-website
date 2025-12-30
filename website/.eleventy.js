@@ -22,19 +22,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/styles/style.css');
   eleventyConfig.addPassthroughCopy('./src/styles/prism.css');
   eleventyConfig.addPassthroughCopy({ './src/assets': 'assets' });
-  eleventyConfig.addPassthroughCopy('./src/scripts/code-showcase.js');
   eleventyConfig.addPassthroughCopy('./src/scripts/search.js');
-  eleventyConfig.addPassthroughCopy('./src/scripts/code-copy.js');
-  eleventyConfig.addPassthroughCopy('./src/scripts/component-preview.js');
-  eleventyConfig.addPassthroughCopy('./src/scripts/component-preview-iframe.js');
   eleventyConfig.addPassthroughCopy('./src/favicon.ico');
   eleventyConfig.addPassthroughCopy({ './src/variables/': 'variables' });
   eleventyConfig.addPassthroughCopy({
     './node_modules/@cdssnc/gcds-components/': 'components',
   });
   eleventyConfig.addPassthroughCopy({
-    './node_modules/@cdssnc/gcds-utility/dist/gcds-utility.min.css':
-      'gcds-utility.min.css',
+    './node_modules/@gcds-core/css-shortcuts/dist/gcds-css-shortcuts.min.css':
+      'gcds-css-shortcuts.min.css',
   });
   // Add copy fo a11y testing
   eleventyConfig.addPassthroughCopy('./.pa11yci.json');
@@ -231,18 +227,18 @@ module.exports = function (eleventyConfig) {
   });
 
   const website_environment = process.env.WEBSITE_ENVIRONMENT || 'local';
-  eleventyConfig.addGlobalData("WEBSITE_ENVIRONMENT", website_environment);
+  eleventyConfig.addGlobalData('WEBSITE_ENVIRONMENT', website_environment);
 
   const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
-  eleventyConfig.addGlobalData("GOOGLE_ANALYTICS_ID", google_analytics_id);
+  eleventyConfig.addGlobalData('GOOGLE_ANALYTICS_ID', google_analytics_id);
 
-  eleventyConfig.addShortcode("link", function (url, text) {
+  eleventyConfig.addShortcode('link', function (url, text) {
     return '<gcds-link href="' + url + '">' + text + '</gcds-link>';
-  })
+  });
 
-  eleventyConfig.addShortcode("linkRef", function (url, ref, text) {
+  eleventyConfig.addShortcode('linkRef', function (url, ref, text) {
     return '<gcds-link href="' + url + '#' + ref + '">' + text + '</gcds-link>';
-  })
+  });
 
   eleventyConfig.addPairedShortcode(
     'componentPreview',
@@ -285,7 +281,6 @@ module.exports = function (eleventyConfig) {
     },
   );
 
-
   /*
    * Convert 24 hour time to 12 hour time
    */
@@ -323,7 +318,6 @@ module.exports = function (eleventyConfig) {
       };
     });
   });
-
 
   return {
     pathPrefix: process.env.PATH_PREFIX || '/',

@@ -18,7 +18,7 @@ Provides users with a simple, secure, single sign-in method for government servi
 
 ## What you can expect
 
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
+<gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
       Sign-in authentication options
@@ -27,23 +27,24 @@ Provides users with a simple, secure, single sign-in method for government servi
       Users can authenticate using a password and a one time code sent through SMS or voice (credential assurance level 2).
     </gcds-text>
     <gcds-text>
-GC sign in will eventually support other multi-factor authentication options including passkeys, security keys and authenticator applications.    </gcds-text>
+      GC sign in will eventually support other multi-factor authentication options including passkeys, security keys and authenticator applications.
+    </gcds-text>
     <gcds-text>
       Additionally, later versions may support signing in with external credential service providers such as provincial and territory digital identities.
     </gcds-text>
   </div>
   <div>
-    <img class="mb-150" src="/assets/images/common/partners/about/partners_about_support.svg" alt="">     
+    <img class="mb-150" src="/assets/images/common/partners/about/partners_about_support.svg" alt="">
   </div>
 </gcds-grid>
 
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
+<gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
       Self-managed account recovery
     </gcds-heading>
     <gcds-text>
-      Users can reset a lost password by verifying with a code sent to their email and another sent to their phone. If they lose access to their phone number, they can recover it through a code sent to the user’s email and a backup verification method. 
+      Users can reset a lost password by verifying with a code sent to their email and another sent to their phone. If they lose access to their phone number, they can recover it through a code sent to the user’s email and a backup verification method.
     </gcds-text>
     <gcds-text>
       However, accounts cannot be recovered if the email address is forgotten.
@@ -54,7 +55,7 @@ GC sign in will eventually support other multi-factor authentication options inc
   </div>
 </gcds-grid>
 
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
+<gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
       User profile
@@ -73,17 +74,17 @@ GC sign in will eventually support other multi-factor authentication options inc
 
 ## What’s coming in the future
 
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
-  <gcds-text>
+<gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
+  <div>
     <ul class="list-disc mb-300">
-      <li class="py-5"> Credential assurance level 3</li>
-      <li> Identity assurance level 2</li>
-      <li> Enhanced fraud management</li>
+      <li>Credential assurance level 3</li>
+      <li>Identity assurance level 2</li>
+      <li>Enhanced fraud management</li>
     </ul>
     <gcds-button type="link" button-role="secondary" value="View the roadmap" href="/en/partners/roadmap">
       View the roadmap
     </gcds-button>
-  </gcds-text>
+  </div>
   <div>
     <img class="mb-150" src="/assets/images/common/partners/about/partners_about_authentication.svg" alt="">
   </div>
@@ -91,9 +92,9 @@ GC sign in will eventually support other multi-factor authentication options inc
 
 ## Technical specifications
 
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
+<gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
-    <gcds-heading tag="h3">
+    <gcds-heading margin-top="0" tag="h3">
       Availability
     </gcds-heading>
     <gcds-text>
@@ -101,18 +102,15 @@ GC sign in will eventually support other multi-factor authentication options inc
     </gcds-text>
   </div>
   <div>
-    <gcds-heading tag="h3">
+    <gcds-heading margin-top="0" tag="h3">
       Capacity
     </gcds-heading>
     <gcds-text>
       The production environment currently has capacity to authenticate up to 12 users per second (43,200 per hour).
     </gcds-text>
   </div>
-</gcds-grid>
-
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
-    <gcds-heading tag="h3">
+    <gcds-heading margin-top="0" tag="h3">
       Performance
     </gcds-heading>
     <gcds-text>
@@ -120,18 +118,15 @@ GC sign in will eventually support other multi-factor authentication options inc
     </gcds-text>
   </div>
   <div>
-    <gcds-heading tag="h3">
+    <gcds-heading margin-top="0" tag="h3">
       Data backup and recovery
     </gcds-heading>
     <gcds-text>
       All user data and all configuration data of the service data is backed up once per hour, every hour to geographically redundant storage, with a durability of at least 99.9999% over a given year.
     </gcds-text>
   </div>
-</gcds-grid>
-
-<gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
-    <gcds-heading tag="h3">
+    <gcds-heading margin-top="0" tag="h3">
       Security
     </gcds-heading>
     <gcds-text>
@@ -147,7 +142,9 @@ GC sign in will eventually support other multi-factor authentication options inc
 </gcds-text>
 
 <gcds-text>
-  Funded through <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-en.html" external>Budget 2024</gcds-link>, GC Sign in was created to provide a single front door for federal government programs and services. 
+  Funded through <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-en.html" external>Budget 2024</gcds-link>, GC Sign in was created to provide a single front door for federal government programs and services.
 </gcds-text>
 
-<gcds-text><gcds-link href="https://digital.canada.ca/about/" external>Learn more about CDS</gcds-link></gcds-text>
+<gcds-link display="block" href="https://digital.canada.ca/about/" external>
+  Learn more about CDS
+</gcds-link>

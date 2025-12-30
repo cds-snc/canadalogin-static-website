@@ -1,7 +1,7 @@
 ---
 title: Aide à l’utilisation
 translationKey: users
-layout: 'layouts/home.njk'
+layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: usersFR

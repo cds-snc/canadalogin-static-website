@@ -1,6 +1,6 @@
 ---
 title: Welcome to GC Sign in
-layout: 'layouts/home.njk'
+layout: 'layouts/base.njk'
 permalink: /en/
 translationKey: landing
 redirect_from: /
@@ -18,20 +18,20 @@ Accessing Government of Canada programs and services will be easier than ever. U
 </gcds-text>
 
 <!-- # {{ homehero[locale].signIn }} Help Centre -->
-<!-- 
+<!--
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
     Who is GC Sign in for?
 </gcds-heading>
 -->
-<!-- {% link links.getstarted 'Get started →' %} -->     
-<gcds-grid tag="div" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
+<!-- {% link links.getstarted 'Get started →' %} -->
+<gcds-grid columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
     <div>
         <!-- <img src="/assets/images/common/home/home_users_icon.svg" style="height: 120px; width: auto;" alt="An icon of 3 people."> -->
         <gcds-heading tag="h2" margin-bottom="200" margin-top="200">
             Individuals and organisations
         </gcds-heading>
         <gcds-text>Discover how GC Sign in works, what services it will connect to, and get support with simplifying your access to Government of Canada programs and services.</gcds-text>
-        <gcds-text>{% link links.usersEN 'Get user help' %}</gcds-text>            
+        <gcds-text>{% link links.usersEN 'Get user help' %}</gcds-text>
     </div>
     <div>
         <!-- <img src="/assets/images/common/home/home_partners_icon.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf."> -->

@@ -1,7 +1,7 @@
 ---
 title: Individuals and organisations
 translationKey: users
-layout: 'layouts/home.njk'
+layout: 'layouts/base.njk'
 eleventyNavigation:
   key: usersEN
   title: User help
