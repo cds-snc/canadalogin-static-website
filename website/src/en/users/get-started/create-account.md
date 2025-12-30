@@ -142,7 +142,7 @@ To set up 2-step verification, follow these steps:
   </ul>
 </gcds-notice>
 
-### 7. Success!
+### 8. Success!
 - You have created your GC Sign in account.
 - You will now be taken to the government service you are trying to access.
 - You will be able to connect your GC Sign in account to other participating programs and services, when they become available.

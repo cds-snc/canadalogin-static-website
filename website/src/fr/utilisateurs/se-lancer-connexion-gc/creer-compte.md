@@ -140,7 +140,7 @@ vocal.
   </ul>
 </gcds-notice>
 
-### 7. Félicitations!
+### 8. Félicitations!
 - Vous avez créé votre compte Connexion GC.
 - Votre redirection va être effectuée vers le service gouvernemental auquel vous cherchez à accéder.
 - Vous serez en mesure de connecter votre compte Connexion GC à d’autres programmes et services participants lorsque ces derniers deviendront disponibles.
