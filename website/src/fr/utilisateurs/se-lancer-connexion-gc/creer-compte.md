@@ -59,8 +59,19 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
 </gcds-notice>
 
 ### 4. Entrez votre adresse courriel et choisissez votre langue de communication
-
+<gcds-text>
 Nous vous recommandons de choisir une adresse courriel à laquelle vous aurez toujours accès.
+</gcds-text>
+<gcds-text>
+Si vous accédez à un service pour votre utilisation personnelle, nous vous recommandons d’utiliser une adresse courriel personnelle à laquelle vous avez accès. 
+</gcds-text>
+<gcds-text>
+Si vous accédez à un service pour le compte d’une entreprise, nous vous recommandons d’utiliser une adresse courriel professionnelle à laquelle vous avez accès. 
+</gcds-text>
+<gcds-text>
+Il est possible de posséder plusieurs comptes Connexion GC (un compte personnel et un compte d’entreprise, par exemple).
+</gcds-text>
+<gcds-text>
 
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ».
 
@@ -129,7 +140,7 @@ vocal.
   </ul>
 </gcds-notice>
 
-### 7. Félicitations!
+### 8. Félicitations!
 - Vous avez créé votre compte Connexion GC.
 - Votre redirection va être effectuée vers le service gouvernemental auquel vous cherchez à accéder.
 - Vous serez en mesure de connecter votre compte Connexion GC à d’autres programmes et services participants lorsque ces derniers deviendront disponibles.
