@@ -71,7 +71,6 @@ Si vous accédez à un service pour le compte d’une entreprise, nous vous reco
 <gcds-text>
 Il est possible de posséder plusieurs comptes Connexion GC (un compte personnel et un compte d’entreprise, par exemple).
 </gcds-text>
-<gcds-text>
 
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ».
 

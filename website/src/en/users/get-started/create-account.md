@@ -71,7 +71,6 @@ If you are accessing a service on behalf of a business, we recommend using a bus
 <gcds-text>
 It is acceptable to have more than one GC Sign in account (e.g. a personal and a business account).
 </gcds-text>
-<gcds-text>
 
 ### 5. Check your email for a message from “GC Sign in”
 
