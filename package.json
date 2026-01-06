@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@cdssnc/gcds-components": "^0.46.0",
-    "@cdssnc/gcds-components-react": "^0.46.0"
-  }
-}
