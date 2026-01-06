@@ -79,7 +79,6 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
     <ul class="list-disc mb-300">
       <li>Niveaux d’assurance 3 en matière de justificatifs</li>
       <li>Niveau d’assurance 2 en matière d’identité</li>
-      <li>Gestion des accès</li>
       <li>Gestion améliorée de la fraude</li>
     </ul>
     <gcds-button type="link" button-role="secondary" value="Voir la feuille de route" href="/fr/partenaires/feuille-route">
