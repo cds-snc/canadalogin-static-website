@@ -66,8 +66,18 @@ Enter your name. If you only have one name, enter it into the last name field.
 </gcds-notice>
 
 ### 4. Enter your email address and choose your language preference
-
+<gcds-text>
 We recommend you choose an email address that you’ll always be able to access.
+</gcds-text>
+<gcds-text>
+If you are accessing a service for personal use, we recommend using a personal email address that you have access to. 
+</gcds-text>
+<gcds-text>
+If you are accessing a service on behalf of a business, we recommend using a business email that you have access to. 
+</gcds-text>
+<gcds-text>
+It is acceptable to have more than one GC Sign in account (e.g. a personal and a business account).
+</gcds-text>
 
 ### 5. Check your email for a message from “GC Sign in”
 

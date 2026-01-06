@@ -43,3 +43,12 @@ Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un mes
 6. Cliquez sur « Continuer ».
 
 7. Félicitations! Vous avez réinitialisé votre mot de passe et la connexion a réussi. Votre redirection va être effectuée vers le programme ou service auquel vous cherchiez à accéder. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
+
+## Un message indique que votre compte est incomplet
+
+<gcds-text>
+En essayant de réinitialiser votre mot de passe, vous pourriez obteniez le message d’erreur suivant : « Ce compte est incomplet. Nous ne pouvons pas réinitialiser votre mot de passe. » Cela signifie qu’au moment de configurer votre compte, vous n’avez pas configuré la {% link links.twostepverificationmethodsFR 'vérification en deux étapes' %}. Si vous vous souvenez de votre mot de passe, vous pouvez vous connecter en entrant votre nom d’utilisateur et votre mot de passe, puis suivre le processus de configuration de la vérification en deux étapes.
+</gcds-text>
+<gcds-text>
+Si vous avez oublié votre mot de passe et que vous n’avez pas configuré la vérification en deux étapes, il n’existe actuellement aucune manière de réinitialiser votre mot de passe. Veuillez {% link links.getstartedFR 'créer un nouveau compte' %} en utilisant une adresse courriel différente. 
+</gcds-text>
