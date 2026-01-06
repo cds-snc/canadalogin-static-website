@@ -24,7 +24,7 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Options d’authentification pour la connexion
     </gcds-heading>
     <gcds-text>
-      Les utilisateurs et utilisatrices peuvent s’authentifier à l’aide d’un mot de passe et d’un code à usage unique envoyé par SMS ou par appel vocal (niveau d’assurance 2 en matière de justificatifs).
+      Les utilisateurs et utilisatrices peuvent s’authentifier à l’aide d’un mot de passe et d’un code à usage unique envoyé par SMS ou par appel vocal (<gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32612" external>niveau d’assurance 2 en matière de justificatifs</gcds-link>).
     </gcds-text>
     <gcds-text>
       À terme, Connexion GC prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.
