@@ -1,7 +1,7 @@
 ---
 title: Ministères et organismes
 translationKey: departmentsAgencies
-layout: 'layouts/home.njk'
+layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: partnersFR
@@ -16,6 +16,7 @@ hero:
   image: '/assets/images/common/partners/partners_home_gc_signin.svg'
   altText:
 ---
+
 # Connexion GC pour les ministères et organismes
 
 Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada
@@ -33,16 +34,14 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant deux bulles de dialogue et un point d’interrogation."> -->
     <h3 class="mt-0">Sécurité et gestion de la fraude améliorées</h3>
-    <p>Alliez une certitude renforcée à une fraude réduite grâce à un niveau d’assurance 1 en matière d’identité et à un niveau d’assurance 2 en matière de justificatifs, avec des options multifacteur comme les SMS ou les appels vocaux.</p>     
+    <p>Alliez une certitude renforcée à une fraude réduite grâce à un niveau d’assurance 1 en matière d’identité et à un niveau d’assurance 2 en matière de justificatifs, avec des options multifacteur comme les SMS ou les appels vocaux.</p>
   </li>
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant une roue dentée et une clé mécanique."> -->
     <h3 class="mt-0">Connexion GC s’engage</h3>
-    <p>Vous pouvez compter sur Connexion GC pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>     
+    <p>Vous pouvez compter sur Connexion GC pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>
   </li>
 </gcds-grid>
-
-<br>
 
 <gcds-button type="link" value="Découvrez Connexion GC" href="a-propos-connexion-gc">
   Découvrez Connexion GC&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
@@ -55,10 +54,10 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-text>
-    Connexion GC est le fruit d’une conception centrée sur l’utilisateur. L’outil offrira une expérience inclusive et intuitive et simplifiera plus que jamais l’accès aux programmes gouvernementaux. 
+    Connexion GC est le fruit d’une conception centrée sur l’utilisateur. L’outil offrira une expérience inclusive et intuitive et simplifiera plus que jamais l’accès aux programmes gouvernementaux.
   </gcds-text>
   <gcds-text>
-    Pour les fournisseurs de services, l’outil simplifie l’adoption et réduit les frais généraux en éliminant la nécessité de systèmes d’authentification sur mesure. Cette approche centralisée participe à la mise en place d’un écosystème numérique plus efficace, sécurisé et évolutif à l’échelle des ministères. 
+    Pour les fournisseurs de services, l’outil simplifie l’adoption et réduit les frais généraux en éliminant la nécessité de systèmes d’authentification sur mesure. Cette approche centralisée participe à la mise en place d’un écosystème numérique plus efficace, sécurisé et évolutif à l’échelle des ministères.
   </gcds-text>
   <gcds-text>
    Il aidera également les ministères à répondre aux exigences de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16578" external>Politique sur la sécurité du gouvernement</gcds-link> et de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16577" external>Directive sur la gestion de l’identité</gcds-link>.
@@ -68,7 +67,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </gcds-text>
   </div>
   <div>
-    <img class="mb-150" src="/assets/images/common/partners/partners_monitoring.svg" alt="A graph icon">     
+    <img class="mb-150" src="/assets/images/common/partners/partners_monitoring.svg" alt="A graph icon">
   </div>
 </gcds-grid>
 
@@ -82,7 +81,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
       Connexion GC est-il fait pour vous?
     </gcds-heading>
     <gcds-text>
-    Connexion GC est encore en cours de développement. Toutefois, nous voulons que nos partenaires puissent d’ores et déjà se préparer à l’adopter. L’outil Connexion GC est fait pour vous si vous remplissez les critères suivants :  
+    Connexion GC est encore en cours de développement. Toutefois, nous voulons que nos partenaires puissent d’ores et déjà se préparer à l’adopter. L’outil Connexion GC est fait pour vous si vous remplissez les critères suivants :
     </gcds-text>
     <gcds-text>
       <ul class="list-disc mb-300">
@@ -98,13 +97,13 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
     </gcds-text>
     <gcds-text>
       <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfmxu3xh0000x401zperejwc" external>Nous contacter</gcds-link>
-    </gcds-text>    
+    </gcds-text>
   </div>
   <div>
     <gcds-heading tag="h2">
-      En quête de ressources techniques? 
+      En quête de ressources techniques?
     </gcds-heading>
-    <img class="mb-150" src="/assets/images/common/partners/partners_architecture.svg" alt="A database architecture icon">     
+    <img class="mb-150" src="/assets/images/common/partners/partners_architecture.svg" alt="A database architecture icon">
     <gcds-text>
       Explorez les différents sujets d’aide de la page des ressources. Vous y trouverez des renseignements généraux sur le protocole OpenID Connect, y compris de l’information en matière de mise en œuvre, des diagrammes de séquences et des configurations pour l’intégration de parties utilisatrices.
     </gcds-text>
@@ -117,7 +116,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
 <gcds-heading tag="h2">Recevoir des communications de Connexion GC</gcds-heading>
 
 <gcds-text>
-Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de Connexion GC. 
+Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de Connexion GC.
 </gcds-text>
 
 <gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">Abonnez-vous aux communications</gcds-button>

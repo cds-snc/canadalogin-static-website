@@ -1,7 +1,7 @@
 ---
 title: Departments and agencies
 translationKey: departmentsAgencies
-layout: 'layouts/home.njk'
+layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: partnersEN
@@ -11,6 +11,7 @@ eleventyNavigation:
   order: 3
   hideMain: false
 ---
+
 # GC Sign in for departments and agencies
 
 A secure and easy way to access Government of Canada programs and services online.
@@ -28,16 +29,14 @@ A secure and easy way to access Government of Canada programs and services onlin
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_mfa_icon.svg" style="height: 120px; width: auto;" alt="Two speech bubbles with a question mark icon."> -->
     <h3 class="mt-0">Enhanced security and fraud management</h3>
-    <p>Provide greater certainty and reduced fraud through identity assurance level 1 and credential assurance level 2, with multi-factor authentication options such as SMS or voice.</p>     
+    <p>Provide greater certainty and reduced fraud through identity assurance level 1 and credential assurance level 2, with multi-factor authentication options such as SMS or voice.</p>
   </li>
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="A gear and wrench icon"> -->
     <h3 class="mt-0">GC Sign in takes responsibility</h3>
-    <p>Rely on GC Sign in to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>     
+    <p>Rely on GC Sign in to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>
   </li>
 </gcds-grid>
-
-<br>
 
 <gcds-button type="link" value="Learn more" href="about-gc-sign-in">
   Learn about GC Sign in&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
@@ -50,20 +49,20 @@ A secure and easy way to access Government of Canada programs and services onlin
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-text>
-    Designed with users in mind, GC Sign in will offer an intuitive, inclusive experience that makes accessing government programs easier than ever. 
+    Designed with users in mind, GC Sign in will offer an intuitive, inclusive experience that makes accessing government programs easier than ever.
   </gcds-text>
   <gcds-text>
-    For service providers, it streamlines adoption and reduces overhead by eliminating the need for custom authentication systems. This centralized approach supports a more efficient, secure, and scaleable digital ecosystem across departments. 
+    For service providers, it streamlines adoption and reduces overhead by eliminating the need for custom authentication systems. This centralized approach supports a more efficient, secure, and scaleable digital ecosystem across departments.
   </gcds-text>
   <gcds-text>
-    GC Sign in will also help departments meet requirements under the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578" external>Policy on Government Security</gcds-link> and the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16577" external>Directive on Identity Management</gcds-link>. 
+    GC Sign in will also help departments meet requirements under the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578" external>Policy on Government Security</gcds-link> and the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16577" external>Directive on Identity Management</gcds-link>.
   </gcds-text>
   <gcds-text>
     Want to see what’s next? Explore the GC Sign in roadmap to learn about upcoming features and milestones.
   </gcds-text>
   </div>
   <div>
-    <img class="mb-150" src="/assets/images/common/partners/partners_monitoring.svg" alt="A graph icon">     
+    <img class="mb-150" src="/assets/images/common/partners/partners_monitoring.svg" alt="A graph icon">
   </div>
 </gcds-grid>
 
@@ -77,7 +76,7 @@ A secure and easy way to access Government of Canada programs and services onlin
       Is GC Sign in right for you?
     </gcds-heading>
     <gcds-text>
-    While GC Sign in is still being developed, we want our partners to be ready for what's ahead. GC Sign in is right for you if: 
+    While GC Sign in is still being developed, we want our partners to be ready for what's ahead. GC Sign in is right for you if:
     </gcds-text>
     <gcds-text>
       <ul class="list-disc mb-300">
@@ -93,13 +92,13 @@ A secure and easy way to access Government of Canada programs and services onlin
     </gcds-text>
     <gcds-text>
       <gcds-link href="https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc" external>Contact us</gcds-link>
-    </gcds-text>    
+    </gcds-text>
   </div>
   <div>
     <gcds-heading tag="h2">
-      Looking for technical resources? 
+      Looking for technical resources?
     </gcds-heading>
-    <img class="mb-150" src="/assets/images/common/partners/partners_architecture.svg" alt="A database architecture icon">     
+    <img class="mb-150" src="/assets/images/common/partners/partners_architecture.svg" alt="A database architecture icon">
     <gcds-text>
       Find general information for the OpenID Connect protocol, including implementation information, sequence diagrams and relying party integration configurations in the help topics found on the resources page.
     </gcds-text>

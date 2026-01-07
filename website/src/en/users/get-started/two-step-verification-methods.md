@@ -26,10 +26,10 @@ GC Sign in is unable to grant you access to your account if you lose all of your
 
 ## Phone verification
 
-As a second step, you can receive one-time verification codes to your phone. You can receive the codes either 
-via text message (SMS) or a phone call. There is more information on each of these delivery methods below. 
+As a second step, you can receive one-time verification codes to your phone. You can receive the codes either
+via text message (SMS) or a phone call. There is more information on each of these delivery methods below.
 
-#### Text message
+### Text message
 
 **Requires:** A mobile device that can receive SMS text messages.
 
@@ -40,7 +40,7 @@ When you use text message or SMS (short message service) as a verification metho
 To use this method, you need a working mobile phone connection to a cellular network and the ability to receive texts when you want to sign in. For example, if you’re out of the country you might not be able to receive texts. It may also cost money, if you pay per text, or have limits on the amount of texts you can receive.
 </gcds-text>
 
-#### Phone call
+### Phone call
 
 **Requires:** A landline **or** mobile phone that can receive phone calls.
 

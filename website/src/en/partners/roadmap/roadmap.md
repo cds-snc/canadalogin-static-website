@@ -80,7 +80,7 @@ Below is the planned timeline for providing features and achieving milestones fo
 ## Future plans
 
 <gcds-details details-title="April 2026 to September 2026 (Fraud detection)" class="hydrated">
-  <h4 id="product-deliverables">Fraud detection</h4>
+  <h3 id="product-deliverables">Fraud detection</h3>
   <table>
     <thead>
       <tr>
@@ -118,7 +118,7 @@ Below is the planned timeline for providing features and achieving milestones fo
 </gcds-details>
 
 <gcds-details details-title="October 2026 to March 2027 (Identity proofing and support for critical applications)" class="hydrated">
-  <h4 id="product-deliverables">Identity and support for critical applications</h4>
+  <h3 id="product-deliverables">Identity and support for critical applications</h3>
   <table>
     <thead>
       <tr>

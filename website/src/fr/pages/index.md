@@ -1,6 +1,6 @@
 ---
 title: Bienvenue sur Connexion GC
-layout: 'layouts/home.njk'
+layout: 'layouts/base.njk'
 permalink: /fr/
 translationKey: landing
 eleventyNavigation:
@@ -9,26 +9,27 @@ eleventyNavigation:
   order: 1
 date: 'git Last Modified'
 ---
+
 # Bienvenue sur Connexion GC
 
 <gcds-text margin-bottom="400">
 Il n’aura jamais été aussi facile d’accéder aux programmes et services du gouvernement du Canada. Accédez à tous les programmes et services fédéraux participants par le biais d’une connexion unique sécurisée.
 </gcds-text>
 <!-- # {{ homehero[locale].signIn }} Help Centre -->
-<!-- 
+<!--
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
     Qui utilise Connexion GC?
 </gcds-heading>
 -->
-<!-- {% link links.getstartedFR 'Get started →' %} -->     
-<gcds-grid tag="div" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
+<!-- {% link links.getstartedFR 'Get started →' %} -->
+<gcds-grid columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr">
     <div>
         <!-- <img src="/assets/images/common/home/home_users_icon.svg" style="height: 120px; width: auto;" alt="An icon of 3 people."> -->
         <gcds-heading tag="h2" margin-bottom="200" margin-top="200">
             Individus et entreprises
         </gcds-heading>
         <gcds-text>Découvrez le fonctionnement de Connexion GC ainsi que les services auxquels l’outil donne accès et obtenez de l’aide pour accéder plus facilement aux programmes et services du gouvernement du Canada.</gcds-text>
-        <gcds-text>{% link links.usersFR 'Obtenir une aide à l’utilisation' %}</gcds-text>            
+        <gcds-text>{% link links.usersFR 'Obtenir une aide à l’utilisation' %}</gcds-text>
     </div>
     <div>
         <!-- <img src="/assets/images/common/home/home_partners_icon.svg"  style="height: 120px; width: auto;" alt="An icon showing a hand holding 2 flags and a maple leaf."> -->

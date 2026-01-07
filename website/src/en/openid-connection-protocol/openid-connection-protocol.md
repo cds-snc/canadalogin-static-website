@@ -12,13 +12,19 @@ eleventyNavigation:
 
 # OpenID Connect protocol
 
-{% link links.implementationofopenidconnect 'GC Sign-in Implementation of OpenID Connect' %}     
-{% link links.sequencediagrams 'Sequece diagrams' %}  
-{% link links.integrateyourrelyingparty 'Integration your relying party' %}  
+<gcds-link display="block" href="{{ links.implementationofopenidconnect }}">
+  GC Sign-in Implementation of OpenID Connect
+</gcds-link>
+<gcds-link display="block" href="{{ links.sequencediagrams }}">
+  Sequece diagrams
+</gcds-link>
+<gcds-link display="block" href="{{ links.integrateyourrelyingparty }}">
+  Integration your relying party
+</gcds-link>
 
 ## What is the OpenID Connect protocol?
 
-The OpenID Connect protocol is at the heart of GC Sign-in's operation. It is an identification layer based on the OAuth 2.0 protocol. It allows Clients to access Users ' identities through an Authorization Server .
+The OpenID Connect protocol is at the heart of GC Sign-in's operation. It is an identification layer based on the OAuth 2.0 protocol. It allows Clients to access Users' identities through an Authorization Server.
 
 The protocol specification can be found at http://openid.net/connect/ .
 
@@ -30,21 +36,21 @@ OAuth 2.0 is a protocol for delegating access to resources. Its purpose is to de
 
 This protocol involves four actors:
 
-* Resource owner : this is the person who owns the resources, most often it is the user;
-* Resource server : this is the server that hosts the resources of the Resource owner ;
-* Client : This is the application or service that wants to access the resources;
-* Authorization Server : This is the server that collects permissions from resource owners and generates the authorization token that is used to access the resources.
+- Resource owner : this is the person who owns the resources, most often it is the user;
+- Resource server : this is the server that hosts the resources of the Resource owner;
+- Client : This is the application or service that wants to access the resources;
+- Authorization Server : This is the server that collects permissions from resource owners and generates the authorization token that is used to access the resources.
 
 The authorization server manages two types of tokens:
 
-* access token : token that validates access to a resource. The validity period of this token is limited and generally of the order of a few minutes;
-* Refresh token : A token that allows you to renew your authorization without requesting it again from the resource owner. It allows you to retrieve a new access token . This token is generally valid for several days or even months. This token must be stored securely by the client.
+- access token : token that validates access to a resource. The validity period of this token is limited and generally of the order of a few minutes;
+- Refresh token : A token that allows you to renew your authorization without requesting it again from the resource owner. It allows you to retrieve a new access token. This token is generally valid for several days or even months. This token must be stored securely by the client.
 
 Clients must be registered with the authorization server. The information to be provided by the client is:
 
-* the name of the application
-* the list of redirection URLs: these are the URLs to which users will be redirected by the authorization server, once authorization has been granted.
-* the types of authorization that can be used by the client
+- the name of the application
+- the list of redirection URLs: these are the URLs to which users will be redirected by the authorization server, once authorization has been granted.
+- the types of authorization that can be used by the client
 
 Once declared, the authorization server provides the client with a client_id / client_secret pair which will allow the client to be authenticated to the authorization server.
 
@@ -54,15 +60,15 @@ The sequence diagram generally represents the integrations in an OAuth 2.0 kinem
 
 1. The client requests access to a resource from the resource owner, specifying the scope of the request using scopes. The client identifies itself using its client_id and indicates the type of authorization requested.
 
-1. If the resource owner agrees to grant access to these resources, an access authorization is issued to the client
+2. If the resource owner agrees to grant access to these resources, an access authorization is issued to the client
 
-1. The client requests an access token from the authorization server by authenticating itself and providing the access authorization received in the previous step.
+3. The client requests an access token from the authorization server by authenticating itself and providing the access authorization received in the previous step.
 
-1. The authorization server provides an access token after authenticating the client and verifying the validity of the access authorization.
+4. The authorization server provides an access token after authenticating the client and verifying the validity of the access authorization.
 
-1. The client requests resources from the resource server by providing the access token provided by the authorization server.
+5. The client requests resources from the resource server by providing the access token provided by the authorization server.
 
-1. The resource server returns the requested resources after first checking the validity of the access token.
+6. The resource server returns the requested resources after first checking the validity of the access token.
 
 OAuth 2.0 offers the following authorization types: authorization code, implicit, resource owner credentials, client credentials.
 
@@ -72,12 +78,12 @@ It should be noted that the OAuth 2.0 protocol does not handle user authenticati
 
 The OpenID Connect protocol builds on OAuth 2.0 by adding additional features:
 
-* Authentication information management
-* adding an ID Token
-* managing SSO and logout
-* an API to retrieve user information (/userinfo)
-* a standard on user information
-* an information discovery service from the OpenID server.
+- Authentication information management
+- adding an ID Token
+- managing SSO and logout
+- an API to retrieve user information (/userinfo)
+- a standard on user information
+- an information discovery service from the OpenID server.
 
 ## Who are the stakeholders involved in OpenID Connect?
 
@@ -85,55 +91,49 @@ OpenId Connect involves 3 players:
 
 <div style="width: 50%;">
 
-<table style="border-collapse: collapse; width: 100%;">
+<table style="width: 100%;">
   <thead>
-    <tr style="background-color: #d9e1f2;">
-      <th style="border: 1px solid #000; padding: 8px;">OpenID Connect Actor</th>
-      <th style="border: 1px solid #000; padding: 8px;">Similar actor in OAuth 2.0</th>
+    <tr style="background-color: var(--gcds-color-blue-100);">
+      <th class="b-sm">OpenID Connect Actor</th>
+      <th class="b-sm">Similar actor in OAuth 2.0</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;">User</td>
-      <td style="border: 1px solid #000; padding: 8px;">Resource Owner</td>
+      <td class="b-sm">User</td>
+      <td class="b-sm">Resource Owner</td>
     </tr>
-    <tr style="background-color: #f2f2f2;">
-      <td style="border: 1px solid #000; padding: 8px;">Relying Party</td>
-      <td style="border: 1px solid #000; padding: 8px;">Client (often called Customer)</td>
+    <tr class="bg-light">
+      <td class="b-sm">Relying Party</td>
+      <td class="b-sm">Client (often called Customer)</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #000; padding: 8px;">OpenID Provider</td>
-      <td style="border: 1px solid #000; padding: 8px;">Authorization Server</td>
+      <td class="b-sm">OpenID Provider</td>
+      <td class="b-sm">Authorization Server</td>
     </tr>
   </tbody>
 </table>
 
 </div>
 
-
 ## What is the ID Token?
 
-The ID token is a JWT format token that is provided along with the access token , it contains
+The ID token is a JWT format token that is provided along with the access token, it contains
 
-* information on authentication
-  * expiration, authentication, creation dates
-  * means of control to validate the ID Token and the Access Token
-* attributes (claims) on the user, which can be:
-  * standard: profile, email, address, phone, ...
-  * personalized by the OpenId Connect server.
+- information on authentication
+  - expiration, authentication, creation dates
+  - means of control to validate the ID Token and the Access Token
+- attributes (claims) on the user, which can be:
+  - standard: profile, email, address, phone, ...
+  - personalized by the OpenId Connect server.
 
 ### Example of ID Token:
 
 ```json
 {
   "acr": "urn:ibm:security:policy:id:1",
-  "amr": [
-    "password",
-    "smsotp"
-    ],
-  "aud": [
-    "b5c1c2f7-bed0-4120-874c-c5faac5c7f8a"
-  ],
+  "amr": ["password", "smsotp"],
+  "aud": ["b5c1c2f7-bed0-4120-874c-c5faac5c7f8a"],
   "auth_time": 1755016606,
   "displayName": "John Smith",
   "email": "John.Smith@example.com",
@@ -141,9 +141,7 @@ The ID token is a JWT format token that is provided along with the access token 
   "exp": 1755026125,
   "family_name": "Smith",
   "given_name": "John",
-  "groupIds": [
-    "allUsers"
-  ],
+  "groupIds": ["allUsers"],
   "iat": 1755018925,
   "iss": "https://cds-gcsignin-dev.verify.ibm.com/oauth2",
   "jti": "94cff036-701c-48fd-886c-f90c32d934b1",
@@ -166,18 +164,17 @@ The ID token is a JWT format token that is provided along with the access token 
 
 The OpenID Connect protocol offers the following endpoints:
 
-* authorization : allows you to request user authentication
-* token : allows you to request a token ( access token , refresh token , id token )
-* userinfo : allows you to retrieve information about the user
-* revocation : allows you to revoke a token ( access token , refresh token )
-* introspection : allows you to validate a token ( access token , refresh token )
-* discovery : allows you to retrieve information from the OpenId Connect server
+- authorization : allows you to request user authentication
+- token : allows you to request a token ( access token , refresh token , id token )
+- userinfo : allows you to retrieve information about the user
+- revocation : allows you to revoke a token ( access token , refresh token )
+- introspection : allows you to validate a token ( access token , refresh token )
+- discovery : allows you to retrieve information from the OpenId Connect server
 
 ## How to retrieve the tokens?
 
 OpenID Connect mainly offers three types of flows that allow tokens to be retrieved:
 
-* Authorization code flow : The call to the authorization endpoint allows you to retrieve an authorization code that is used to retrieve the tokens.
-* Implicit flow : the call to the authorization endpoint allows you to retrieve the tokens directly, the refresh token cannot be retrieved.
-* Hybrid flow : This is a mix between the two.
-
+- Authorization code flow : The call to the authorization endpoint allows you to retrieve an authorization code that is used to retrieve the tokens.
+- Implicit flow : the call to the authorization endpoint allows you to retrieve the tokens directly, the refresh token cannot be retrieved.
+- Hybrid flow : This is a mix between the two.
