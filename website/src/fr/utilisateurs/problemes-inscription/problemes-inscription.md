@@ -17,20 +17,32 @@ eleventyNavigation:
 ## Problèmes fréquents
 
 ### Problèmes liés à la saisie et à la vérification de votre adresse courriel
-- {% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}
-- {% linkRef links.issuesenterverifyemailFR 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}
-- {% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
-- {% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}
+
+<ul class="list-disc mb-300">
+  <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}</li>
+  <li>{% linkRef links.issuesenterverifyemailFR 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}</li>
+  <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}</li>
+  <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}</li>
+</ul>
 
 ### Problèmes liés à la création d’un mot de passe
-- {% linkRef links.issuespasswordFR 'un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}
-- {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}
+
+<ul class="list-disc mb-300">
+  <li>{% linkRef links.issuespasswordFR 'un-message-indique-que-votre-mot-de-passe-est-invalide' 'Un message indique que votre mot de passe est invalide' %}</li>
+  <li>{% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %}</li>
+</ul>
 
 ### Problèmes liés à la configuration de la vérification en deux étapes
-- {% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}
-- {% linkRef links.issuestwostepverificationFR 'un-message-indique-que-votre-numero-de-telephone-est-invalide' 'Un message indique que votre numéro de téléphone est invalide' %}
-- {% linkRef links.issuestwostepverificationFR 'vous-navez-pas-recu-de-code-a-usage-unique-sur-votre-telephone' 'Vous n’avez pas reçu de code à usage unique sur votre téléphone' %}
-- {% linkRef links.issuestwostepverificationFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}
+
+<ul class="list-disc mb-300">
+  <li>{% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}</li>
+  <li>{% linkRef links.issuestwostepverificationFR 'un-message-indique-que-votre-numero-de-telephone-est-invalide' 'Un message indique que votre numéro de téléphone est invalide' %}</li>
+  <li>{% linkRef links.issuestwostepverificationFR 'vous-navez-pas-recu-de-code-a-usage-unique-sur-votre-telephone' 'Vous n’avez pas reçu de code à usage unique sur votre téléphone' %}</li>
+  <li>{% linkRef links.issuestwostepverificationFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}</li>
+</ul>
 
 ### Problèmes liés à la création d’un profil
-- {% link links.issuesprofileFR 'Problèmes liés à la création d’un profil' %}
+
+<ul class="list-disc mb-300">
+  <li>{% link links.issuesprofileFR 'Problèmes liés à la création d’un profil' %}</li>
+</ul>
