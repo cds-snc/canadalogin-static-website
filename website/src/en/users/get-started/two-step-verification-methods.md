@@ -51,5 +51,7 @@ When you choose this option, you receive an automated call that says a unique 6-
 For issues setting up or using text message or phone verification, see our help pages:
 </gcds-text>
 
-- {% link links.issuestwostepverification 'Problems with registering text message / phone call verification' %}
-- {% link links.problemssigninginwith2stepverification 'Problems with signing in with text message / phone call verification' %}
+<ul class="list-disc mb-300">
+  <li>{% link links.issuestwostepverification 'Problems with registering text message / phone call verification' %}</li>
+  <li>{% link links.problemssigninginwith2stepverification 'Problems with signing in with text message / phone call verification' %}</li>
+</ul>
