@@ -24,7 +24,7 @@ Provides users with a simple, secure, single sign-in method for government servi
       Sign-in authentication options
     </gcds-heading>
     <gcds-text>
-      Users can authenticate using a password and a one time code sent through SMS or voice (credential assurance level 2).
+      Users can authenticate using a password and a one time code sent through SMS or voice (<gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32612" external>credential assurance level 2</gcds-link>).
     </gcds-text>
     <gcds-text>
       GC sign in will eventually support other multi-factor authentication options including passkeys, security keys and authenticator applications.
