@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.11](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.10...v1.2.11) (2026-01-09)
+
+
+### Bug Fixes
+
+* Added link to credential assurance on partner about page and removed … ([#577](https://github.com/cds-snc/gc-signin-static-website/issues/577)) ([1ec2593](https://github.com/cds-snc/gc-signin-static-website/commit/1ec2593820a9f48a396565399a97ec485fd4e07a))
+* Fixed unordered markdown lists with 11ty links display ([#580](https://github.com/cds-snc/gc-signin-static-website/issues/580)) ([fb390d2](https://github.com/cds-snc/gc-signin-static-website/commit/fb390d2578a6954a4b37d6c5b0456b2b33b1dfdb))
+* for unordered list link display ([#578](https://github.com/cds-snc/gc-signin-static-website/issues/578)) ([251d60b](https://github.com/cds-snc/gc-signin-static-website/commit/251d60bdf0acb2639da2bc8cc7f86f03728c967a))
+* Removed blank spaces between hyoerlinked text ([#582](https://github.com/cds-snc/gc-signin-static-website/issues/582)) ([da511f5](https://github.com/cds-snc/gc-signin-static-website/commit/da511f56b53db1d773a389b2329be6847a772524))
+* update gcds packages + small adjustments ([#574](https://github.com/cds-snc/gc-signin-static-website/issues/574)) ([876b757](https://github.com/cds-snc/gc-signin-static-website/commit/876b7573968856879cf1344e43ecde9b8be23145))
+* updated the eng and fr forgot your password with updated content ([#571](https://github.com/cds-snc/gc-signin-static-website/issues/571)) ([3fcc8d7](https://github.com/cds-snc/gc-signin-static-website/commit/3fcc8d70c9d1633dcab556996111d18de6619a5c))
+* updated the problems creating a password page in eng and fr ([#573](https://github.com/cds-snc/gc-signin-static-website/issues/573)) ([ea935cb](https://github.com/cds-snc/gc-signin-static-website/commit/ea935cbac5f9b1ee2d27e2a305c15dcd268c87a7))
+
+
+### Continuous Integration
+
+* Deploy 1.2.10 to prod ([#564](https://github.com/cds-snc/gc-signin-static-website/issues/564)) ([a26a240](https://github.com/cds-snc/gc-signin-static-website/commit/a26a240cb97aed83e946c6a3d80cbb3c481d637a))
+
 ## [1.2.10](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.9...v1.2.10) (2025-12-19)
 
 
