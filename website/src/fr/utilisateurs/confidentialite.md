@@ -47,10 +47,10 @@ Vous avez droit à la protection de vos renseignements personnels, à leur accè
 ## Questions ou plaintes
 
 <gcds-text>
-Si vous avez des questions pour Emploi et Développement social Canada concernant vos renseignements personnels, <gcds-link href="https://contact-esdc-edsc.service.canada.ca/fr/contact/index.html?id=esdc_access_info" external>contactez notre coordonnateur ou coordonnatrice de l’accès à l’information et de la protection des renseignements personnels.</gcds-link>
+Si vous avez des questions pour Emploi et Développement social Canada concernant vos renseignements personnels, <gcds-link href="https://contact-esdc-edsc.service.canada.ca/fr/contact/index.html?id=esdc_access_info" external>contactez notre coordonnateur ou coordonnatrice de l’accès à l’information et de la protection des renseignements personnels</gcds-link>.
 </gcds-text>
 <gcds-text>
-En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external> Commissariat à la protection de la vie privée du Canada</gcds-link> :
+En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external>Commissariat à la protection de la vie privée du Canada</gcds-link> :
 </gcds-text>
 
 - Adresse courriel : info@priv.gc.ca
@@ -68,7 +68,7 @@ La collecte, l’utilisation et la divulgation de vos renseignements personnels 
 En vertu de la Loi sur la protection des renseignements personnels, vous avez droit à la protection, à l’accès et à la correction de vos renseignements personnels, comme cela est décrit dans le fichier de renseignements personnels [PIB à venir].
 </gcds-text>
 <gcds-text>
-Vous trouverez des instructions pour la soumission de requêtes concernant vos renseignements personnels dans la publication gouvernementale intitulée Info Source, accessible sur le site Web suivant : <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source.html" external> www.infosource.gc.ca.</gcds-link>
+Vous trouverez des instructions pour la soumission de requêtes concernant vos renseignements personnels dans la publication gouvernementale intitulée Info Source, accessible sur le site Web suivant : <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source.html" external>www.infosource.gc.ca</gcds-link>.
 </gcds-text>
 <gcds-text>
 Il est également possible d’accéder à Info Source en ligne à tout centre Service Canada.
