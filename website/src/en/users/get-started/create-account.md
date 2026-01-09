@@ -155,7 +155,8 @@ To set up 2-step verification, follow these steps:
    - You should have received either a text message (SMS) or phone call with a 6-digit verification code. Enter the 6-digit code into the site when prompted.
 
 3. **Set up a backup verification method (Optional)**
-   - You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step.
+
+  - You will be prompted to set up a backup code delivery method. If you do not want to set one up, you can skip this step.
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Related help guides">
   <ul>
@@ -172,7 +173,7 @@ To set up 2-step verification, follow these steps:
   </ul>
 </gcds-notice>
 
-### 7. Success!
+### 8. Success!
 
 - You have created your GC Sign in account.
 - You will now be taken to the government service you are trying to access.
