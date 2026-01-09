@@ -130,7 +130,7 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Sécurité
     </gcds-heading>
     <gcds-text>
-      Connexion GC offre un niveau d’assurance 1 en matière d’identité et un niveau d’assurance 2 en matière de justificatifs. Cela signifie que vous pouvez en toute sécurité fournir à votre clientèle un accès pour lui permettre de gérer, de soumettre et de conserver des renseignements classés au niveau <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne).</gcds-link>
+      Connexion GC offre un niveau d’assurance 1 en matière d’identité et un niveau d’assurance 2 en matière de justificatifs. Cela signifie que vous pouvez en toute sécurité fournir à votre clientèle un accès pour lui permettre de gérer, de soumettre et de conserver des renseignements classés au niveau <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne)</gcds-link>.
     </gcds-text>
   </div>
 </gcds-grid>
@@ -145,6 +145,4 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
   Connexion GC est un projet financé par le <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-fr.html" external>budget de 2024</gcds-link>, visant à offrir une porte d’entrée unique pour les programmes et services du gouvernement fédéral.
 </gcds-text>
 
-<gcds-link display="block" href="https://numerique.canada.ca/a-propos/" external>
-  Apprenez-en plus sur le SNC
-</gcds-link>
+<gcds-link display="block" href="https://numerique.canada.ca/a-propos/" external>Apprenez-en plus sur le SNC</gcds-link>

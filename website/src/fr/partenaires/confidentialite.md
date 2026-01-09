@@ -13,7 +13,7 @@ eleventyNavigation:
 ---
 
 # Avis de confidentialité
-Connexion GC est un produit du <gcds-link href="https://numerique.canada.ca/" external> Service numérique canadien (SNC), </gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external> Emploi et Développement social Canada (EDSC) </gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external> site Web du SNC </gcds-link> comporte ses propres pratiques en matière de confidentialité.
+Connexion GC est un produit du <gcds-link href="https://numerique.canada.ca/" external>Service numérique canadien (SNC)</gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada (EDSC)</gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external>site Web du SNC</gcds-link> comporte ses propres pratiques en matière de confidentialité.
 
 ## Votre organisme a l’obligation de protéger les renseignements personnels
 Lorsque vous accédez à Connexion GC, votre organisme a les responsabilités suivantes :
@@ -28,7 +28,7 @@ Nous affichons un avis de confidentialité lorsque les gens créent ou utilisent
 ## Nous recueillons vos renseignements personnels
 Vos renseignements personnels comprennent les éléments suivants : votre nom et vos coordonnées, votre ministère ou organisme et les commentaires que vous fournissez ou les questions que vous posez. Nous utilisons vos renseignements pour communiquer avec vous, pour améliorer le produit et pour faire des rapports sur son incidence. 
 
-L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external> Loi sur le ministère de l’Emploi et du Développement social </gcds-link> autorise le SNC a recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915" external> POU 915 </gcds-link>. 
+L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social</gcds-link> autorise le SNC a recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915" external>POU 915</gcds-link>. 
 
 ## Nous utilisons l’analytique Web
 <gcds-text> L’analytique Web révèle comment les gens utilisent nos pages Web. L’étude de ce comportement nous permet d’améliorer Connexion GC.
@@ -64,15 +64,15 @@ Parmi les données automatiquement recueillies par notre serveur lorsque vous na
 Il s’agit là de données statistiques qui ne permettent pas de vous identifier directement. Nous ne tentons pas de relier ces données, ni les adresses IP des appareils qui ont contacté notre site Web, à l’identité des personnes qui visitent notre site, à moins qu’une tentative d’endommager le site n’ait été détectée. Les programmes logiciels ne sont jamais utilisés pour recueillir des renseignements personnels particuliers tels que votre nom, votre numéro de téléphone ou votre adresse électronique. 
 
 ### Enquêtes
-Lorsqu’une menace pour le site Web ou les systèmes informatiques du gouvernement du Canada est détectée, des données sont recueillies conformément à l’article 161 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/f-11/" external> Loi sur la gestion des finances publiques </gcds-link>. Si des activités suspectées d’être criminelles sont détectées, ces données peuvent être communiquées aux autorités compétentes chargées de l’application de la loi. De tels renseignements peuvent être utilisés pour établir des statistiques sur la sécurité du réseau ainsi qu’à des fins d’audit, d’évaluation, de recherche, de planification et d’établissement de rapports, et figurent dans le <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou939" external>fichier de renseignements personnels POU 939 Incidents de sécurité et atteintes à la vie privée</gcds-link>. 
+Lorsqu’une menace pour le site Web ou les systèmes informatiques du gouvernement du Canada est détectée, des données sont recueillies conformément à l’article 161 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/f-11/" external>Loi sur la gestion des finances publiques</gcds-link>. Si des activités suspectées d’être criminelles sont détectées, ces données peuvent être communiquées aux autorités compétentes chargées de l’application de la loi. De tels renseignements peuvent être utilisés pour établir des statistiques sur la sécurité du réseau ainsi qu’à des fins d’audit, d’évaluation, de recherche, de planification et d’établissement de rapports, et figurent dans le <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou939" external>fichier de renseignements personnels POU 939 Incidents de sécurité et atteintes à la vie privée</gcds-link>. 
 
 ### Divulgation de vulnérabilité 
-<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external> Emploi et Développement social Canada </gcds-link> est un défenseur de la divulgation responsable des vulnérabilités. Si vous avez repéré une vulnérabilité, veuillez nous en informer afin que nous puissions la corriger le plus rapidement possible. Veuillez consulter l’<gcds-link href="https://numerique.canada.ca/avis-de-securite/" external> Avis de sécurité </gcds-link> pour en savoir plus.
+<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada</gcds-link> est un défenseur de la divulgation responsable des vulnérabilités. Si vous avez repéré une vulnérabilité, veuillez nous en informer afin que nous puissions la corriger le plus rapidement possible. Veuillez consulter l’<gcds-link href="https://numerique.canada.ca/avis-de-securite/" external>Avis de sécurité</gcds-link> pour en savoir plus.
 
 ## Nous communiquons certains renseignements
 Si vous utilisez d’autres produits du SNC, il est possible que nous communiquions des renseignements aux équipes de ces produits pour améliorer votre expérience. 
 
-Nous utilisons des technologies et des services d’autres organismes. Par exemple, pour prévenir les attaques numériques, nous transmettons des renseignements au <gcds-link href="https://www.cyber.gc.ca/fr" external> Centre canadien pour la cybersécurité (CCC) </gcds-link> concernant l’heure où vous avez utilisé Connexion GC et la manière dont vous l’avez fait.
+Nous utilisons des technologies et des services d’autres organismes. Par exemple, pour prévenir les attaques numériques, nous transmettons des renseignements au <gcds-link href="https://www.cyber.gc.ca/fr" external>Centre canadien pour la cybersécurité (CCC)</gcds-link> concernant l’heure où vous avez utilisé Connexion GC et la manière dont vous l’avez fait.
 
 Nous ne réalisons pas les actions suivantes :
 - Autorisation d’autres services à se servir de vos renseignements à des fins sans lien avec Connexion GC.
@@ -86,7 +86,7 @@ Nous traitons vos renseignements en vertu de la <gcds-link href="https://laws-lo
 ## Votre droit à la vie privée
 En vertu de la Loi, nous devons protéger votre vie privée. Vous avez le droit d’accéder à vos renseignements personnels et de les examiner. 
 
-Vous avez également le droit de soulever des questions sur la façon dont nous traitons vos renseignements personnels. En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external> Commissariat à la protection de la vie privée du Canada </gcds-link>:
+Vous avez également le droit de soulever des questions sur la façon dont nous traitons vos renseignements personnels. En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external>Commissariat à la protection de la vie privée du Canada</gcds-link>:
 - info@priv.gc.ca
 - 1-800-282-1376
 

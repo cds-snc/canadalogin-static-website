@@ -47,7 +47,7 @@ You have the right to the protection, access, and correction of your personal in
 ## Questions or complaints
 
 <gcds-text>
-To send questions about your personal information to Employment and Social Development Canada contact our <gcds-link href="https://contact-esdc-edsc.service.canada.ca/en/contact/index.html?id=esdc_access_info" external> Access to Information and Privacy Coordinator </gcds-link>.
+To send questions about your personal information to Employment and Social Development Canada contact our <gcds-link href="https://contact-esdc-edsc.service.canada.ca/en/contact/index.html?id=esdc_access_info" external>Access to Information and Privacy Coordinator</gcds-link>.
 </gcds-text>
 <gcds-text>
 Send complaints about how your personal information has been handled to the <gcds-link href="https://www.priv.gc.ca/en/" external>Office of the Privacy Commissioner of Canada</gcds-link>:  
@@ -71,7 +71,7 @@ The information you provide will be administered in accordance with DESDA, the P
 Under the Privacy Act, you have the right to the protection of, access to, and correction of your personal information, which is described in Personal Information Bank [PIB forthcoming].  
 </gcds-text>
 <gcds-text>
-Instructions for making formal requests about your personal information are outlined in the government publication entitled Info Source, which is available at the following web site: <gcds-link href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source.html" external> www.infosource.gc.ca.</gcds-link> Info Source may also be accessed on-line at any Service Canada Centre. 
+Instructions for making formal requests about your personal information are outlined in the government publication entitled Info Source, which is available at the following web site: <gcds-link href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source.html" external>www.infosource.gc.ca</gcds-link>. Info Source may also be accessed on-line at any Service Canada Centre. 
 </gcds-text>
 <gcds-text>
 The department and agency responsible for the program and service you are trying to access may be subject to additional legal requirements. You may need to return to a previous web page to learn about these requirements.  

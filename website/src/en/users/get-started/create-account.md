@@ -142,14 +142,14 @@ Avoid easy-to-guess passwords like ones that use:
 As an added layer of protection, GC Sign in requires you to set up a second authentication method to keep your account secure.
 
 This is referred to as 2-step verification. If you want to know more about 2-step verification, see our
-{% link links.twostepverificationmethods 'information guide on 2-step verification.' %}
+{% link links.twostepverificationmethods 'information guide on 2-step verification' %}.
 
 To set up 2-step verification, follow these steps:
 
 1. **Enter your phone number and choose how you want to receive verification codes**
 
    - You can receive codes via text message (SMS) or voice call
-   - If you want to know more about which code delivery method is right for you, see our {% linkRef links.twostepverificationmethods 'phone-verification' 'guide on phone verification.' %}
+   - If you want to know more about which code delivery method is right for you, see our {% linkRef links.twostepverificationmethods 'phone-verification' 'guide on phone verification' %}.
 
 2. **Enter the code**
 
