@@ -13,10 +13,12 @@ eleventyNavigation:
 
 # Problems entering and verifying your email
 
-- {% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}
-- {% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}
-- {% link '#it-says-your-code-is-invalid' 'It says the code is invalid' %}
-- {% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}
+<ul class="list-disc mb-300">
+  <li>{% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}</li>
+  <li>{% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}</li>
+  <li>{% link '#it-says-your-code-is-invalid' 'It says the code is invalid' %}</li>
+  <li>{% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}</li>
+</ul>
 
 ## It says your email address is invalid
 

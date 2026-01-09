@@ -13,9 +13,12 @@ eleventyNavigation:
 ---
 
 # Gérer votre compte Connexion GC
-- {% link links.accessyoursettingsFR 'Accéder à vos paramètres' %}
-- {% link links.managehowyousigninFR 'Gérer la manière dont vous vous connectez' %}
-- {% link links.manageyourpersonalinformationFR 'Gérer vos renseignements personnels' %}
-- {% link links.howtokeepyouraccountsecureFR 'Comment sécuriser votre compte' %}
-- {% link links.whattodowhenyoufindsuspiciousactivityFR 'Que faire si vous détectez une activité suspecte' %}
-- {% link links.howtosignoutFR 'Comment se déconnecter' %}
+
+<ul class="list-disc mb-300">
+  <li>{% link links.accessyoursettingsFR 'Accéder à vos paramètres' %}</li>
+  <li>{% link links.managehowyousigninFR 'Gérer la manière dont vous vous connectez' %}</li>
+  <li>{% link links.manageyourpersonalinformationFR 'Gérer vos renseignements personnels' %}</li>
+  <li>{% link links.howtokeepyouraccountsecureFR 'Comment sécuriser votre compte' %}</li>
+  <li>{% link links.whattodowhenyoufindsuspiciousactivityFR 'Que faire si vous détectez une activité suspecte' %}</li>
+  <li>{% link links.howtosignoutFR 'Comment se déconnecter' %}</li>
+</ul>

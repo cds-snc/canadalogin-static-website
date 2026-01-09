@@ -17,9 +17,11 @@ Forgot your password? Locked out of your account? Get help accessing your accoun
 
 ## Common problems
 
-- {% link links.howtosignin 'How to sign in to GC Sign in' %}
-- {% link links.problemsenteringyouremailaddress 'Problems entering your email address' %}
-- {% link links.forgotyouremail 'Forgot your email' %}
-- {% link links.forgotyourpassword 'Forgot your password' %}
-- {% linkRef links.problemssigninginwith2stepverification '#cannot-access-your-phone' 'Cannot access your phone' %}
-- {% linkRef links.problemssigninginwith2stepverification '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}
+<ul class="list-disc mb-300">
+  <li>{% link links.howtosignin 'How to sign in to GC Sign in' %}</li>
+  <li>{% link links.problemsenteringyouremailaddress 'Problems entering your email address' %}</li>
+  <li>{% link links.forgotyouremail 'Forgot your email' %}</li>
+  <li>{% link links.forgotyourpassword 'Forgot your password' %}</li>
+  <li>{% linkRef links.problemssigninginwith2stepverification '#cannot-access-your-phone' 'Cannot access your phone' %}</li>
+  <li>{% linkRef links.problemssigninginwith2stepverification '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</li>
+</ul>

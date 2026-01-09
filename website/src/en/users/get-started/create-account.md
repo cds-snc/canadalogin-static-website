@@ -16,8 +16,10 @@ eleventyNavigation:
 
 ## On this page
 
-- {% link '#before-you-start' 'Before you start' %}
-- {% link '#steps-to-create-an-account' 'Steps to create an account' %}
+<ul class="list-disc mb-300">
+  <li>{% link '#before-you-start' 'Before you start' %}</li>
+  <li>{% link '#steps-to-create-an-account' 'Steps to create an account' %}</li>
+</ul>
 
 ## Before you start
 
