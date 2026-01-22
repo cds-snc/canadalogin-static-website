@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.12](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.11...v1.2.12) (2026-01-22)
+
+
+### Bug Fixes
+
+* **partners:** Fix PBMM link on Roadmap and About GC Sign in page to be English URL ([#586](https://github.com/cds-snc/gc-signin-static-website/issues/586)) ([41fc301](https://github.com/cds-snc/gc-signin-static-website/commit/41fc3010ae82a35eb188a05bdc4df3157f9a29f8))
+
+
+### Continuous Integration
+
+* Deploy 1.2.11 to prod ([#583](https://github.com/cds-snc/gc-signin-static-website/issues/583)) ([2e27f97](https://github.com/cds-snc/gc-signin-static-website/commit/2e27f97cec1d25a4db9c8e557d25ccc76fed8d62))
+
 ## [1.2.11](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.10...v1.2.11) (2026-01-09)
 
 
