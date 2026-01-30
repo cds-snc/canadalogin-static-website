@@ -28,7 +28,7 @@ Pour modifier votre mot de passe, procédez comme suit :
      <gcds-text>{% link links.issuespasswordFR 'Problèmes liés à la création d’un mot de passe' %}</gcds-text>
    </gcds-notice>
 
-6. **Félicitations!** Un message confirmera que votre mot de passe a été modifié. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
+6. Opération réussie! Un message va vous confirmer la modification de votre mot de passe et vous demander de vous connecter à nouveau à l’aide de votre nouveau mot de passe. Vous allez également recevoir un courriel vous notifiant de la modification que vous venez d’effectuer. Vous pouvez ignorer ce courriel.
 
 ## Gérer la vérification en deux étapes
 

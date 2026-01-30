@@ -27,7 +27,7 @@ To change your password, follow these steps:
      <gcds-text>{% link links.issuespassword 'Problems creating a password' %}</gcds-text>
    </gcds-notice>
 
-6. Success! There will be a message confirming your password has been changed. You will also receive an email notifying you of the change you just made. You can ignore this email.
+6. Success! There will be a message confirming your password has been changed. It will prompt you to sign in again using your new password. You will also receive an email notifying you of the change you just made. You can ignore that email.
 
 ## Manage your 2-step verification
 
