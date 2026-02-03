@@ -14,9 +14,9 @@ eleventyNavigation:
 
 # Accéder à vos paramètres
 
-Pour accéder à vos paramètres Connexion GC, vous devez d’abord vous connecter à votre compte. Si vous ne savez pas comment vous y prendre, consultez notre guide « {% link links.howtosigninFR 'Comment se connecter' %} ».
+Pour accéder à vos paramètres ConnexionCanada, vous devez d’abord vous connecter à votre compte. Si vous ne savez pas comment vous y prendre, consultez notre guide « {% link links.howtosigninFR 'Comment se connecter' %} ».
 
-Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la barre de menu un lien intitulé « Gérer votre compte Connexion GC ». Sélectionnez ce lien. Cela vous conduira vers le portail des paramètres de Connexion GC, où vous pourrez gérer vos paramètres de sécurité ainsi que vos renseignements personnels.
+Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la barre de menu un lien intitulé « Gérer votre compte ConnexionCanada ». Sélectionnez ce lien. Cela vous conduira vers le portail des paramètres de ConnexionCanada, où vous pourrez gérer vos paramètres de sécurité ainsi que vos renseignements personnels.
 
 <!--
 ## Thèmes connexes
@@ -26,7 +26,7 @@ Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la ba
     card-title="Se lancer avec ConnexionCanada"
     href="Se lancer avec ConnexionCanada"
     card-title-tag="h3"
-    description="Apprenez comment créer votre compte Connexion GC. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Apprenez comment créer votre compte ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"

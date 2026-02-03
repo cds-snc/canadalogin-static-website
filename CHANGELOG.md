@@ -18,7 +18,7 @@
 
 ### Bug Fixes
 
-* **partners:** Fix PBMM link on Roadmap and About GC Sign in page to be English URL ([#586](https://github.com/cds-snc/gc-signin-static-website/issues/586)) ([41fc301](https://github.com/cds-snc/gc-signin-static-website/commit/41fc3010ae82a35eb188a05bdc4df3157f9a29f8))
+* **partners:** Fix PBMM link on Roadmap and About CanadaLogin page to be English URL ([#586](https://github.com/cds-snc/gc-signin-static-website/issues/586)) ([41fc301](https://github.com/cds-snc/gc-signin-static-website/commit/41fc3010ae82a35eb188a05bdc4df3157f9a29f8))
 
 
 ### Continuous Integration

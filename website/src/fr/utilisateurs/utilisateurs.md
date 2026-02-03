@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # ConnexionCanada pour les individus et les entreprises
 
-Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L’outil Connexion GC est conçu pour simplifier votre expérience, protéger vos renseignements et vous permettre d’accéder plus rapidement à ce dont vous avez besoin.
+Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L’outil ConnexionCanada est conçu pour simplifier votre expérience, protéger vos renseignements et vous permettre d’accéder plus rapidement à ce dont vous avez besoin.
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
     Aide et soutien technique
@@ -25,7 +25,7 @@ Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L�
     card-title="Se lancer avec ConnexionCanada"
     href="se-lancer-connexion-gc"
     card-title-tag="h3"
-    description="Découvrez comment vous pourrez créer votre compte Connexion GC. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Découvrez comment vous pourrez créer votre compte ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
     <gcds-card
     card-title="Gestion de votre compte ConnexionCanada"

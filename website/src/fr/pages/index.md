@@ -1,5 +1,5 @@
 ---
-title: Bienvenue sur Connexion GC
+title: Bienvenue sur ConnexionCanada
 layout: 'layouts/base.njk'
 permalink: /fr/
 translationKey: landing
@@ -10,7 +10,7 @@ eleventyNavigation:
 date: 'git Last Modified'
 ---
 
-# Bienvenue sur Connexion GC
+# Bienvenue sur ConnexionCanada
 
 <gcds-text margin-bottom="400">
 Il n’aura jamais été aussi facile d’accéder aux programmes et services du gouvernement du Canada. Accédez à tous les programmes et services fédéraux participants par le biais d’une connexion unique sécurisée.
@@ -28,7 +28,7 @@ Il n’aura jamais été aussi facile d’accéder aux programmes et services du
         <gcds-heading tag="h2" margin-bottom="200" margin-top="200">
             Individus et entreprises
         </gcds-heading>
-        <gcds-text>Découvrez le fonctionnement de Connexion GC ainsi que les services auxquels l’outil donne accès et obtenez de l’aide pour accéder plus facilement aux programmes et services du gouvernement du Canada.</gcds-text>
+        <gcds-text>Découvrez le fonctionnement de ConnexionCanada ainsi que les services auxquels l’outil donne accès et obtenez de l’aide pour accéder plus facilement aux programmes et services du gouvernement du Canada.</gcds-text>
         <gcds-text>{% link links.usersFR 'Obtenir une aide à l’utilisation' %}</gcds-text>
     </div>
     <div>
@@ -36,7 +36,7 @@ Il n’aura jamais été aussi facile d’accéder aux programmes et services du
         <gcds-heading tag="h2" margin-bottom="200" margin-top="200">
             Ministères et organismes
         </gcds-heading>
-        <gcds-text>Découvrez comment Connexion GC protégera les renseignements de vos utilisateurs et utilisatrices grâce aux normes les plus rigoureuses en matière de sécurité numérique et d’expérience utilisateur. Connexion GC se chargera à votre place du développement logiciel, des opérations de sécurité et du soutien aux utilisateurs finaux et utilisatrices finales.</gcds-text>
+        <gcds-text>Découvrez comment ConnexionCanada protégera les renseignements de vos utilisateurs et utilisatrices grâce aux normes les plus rigoureuses en matière de sécurité numérique et d’expérience utilisateur. ConnexionCanada se chargera à votre place du développement logiciel, des opérations de sécurité et du soutien aux utilisateurs finaux et utilisatrices finales.</gcds-text>
         <gcds-text>{% link links.partnersFR 'Devenir partenaire' %}</gcds-text>
         <p></p>
     </div>
