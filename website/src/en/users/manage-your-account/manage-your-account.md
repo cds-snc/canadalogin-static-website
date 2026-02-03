@@ -11,7 +11,7 @@ eleventyNavigation:
   hideMain: true
 ---
 
-# Manage your GC Sign in account
+# Manage your CanadaLogin account
 
 <ul class="list-disc mb-300">
   <li>{% link links.accessyoursettings 'Access your settings' %}</li>

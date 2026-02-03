@@ -94,7 +94,7 @@ countries3:
 
 # Supported international phone numbers
 
-The following is a list of countries that GC Sign in currently supports phone numbers from:
+The following is a list of countries that CanadaLogin currently supports phone numbers from:
 
 <br />
 

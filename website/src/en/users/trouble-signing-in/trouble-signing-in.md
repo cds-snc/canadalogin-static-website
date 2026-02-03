@@ -18,7 +18,7 @@ Forgot your password? Locked out of your account? Get help accessing your accoun
 ## Common problems
 
 <ul class="list-disc mb-300">
-  <li>{% link links.howtosignin 'How to sign in to GC Sign in' %}</li>
+  <li>{% link links.howtosignin 'How to sign in to CanadaLogin' %}</li>
   <li>{% link links.problemsenteringyouremailaddress 'Problems entering your email address' %}</li>
   <li>{% link links.forgotyouremail 'Forgot your email' %}</li>
   <li>{% link links.forgotyourpassword 'Forgot your password' %}</li>

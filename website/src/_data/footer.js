@@ -1,7 +1,7 @@
 module.exports = {
   en: {
     contextual: {
-      heading: 'GC Sign in',
+      heading: 'CanadaLogin',
       aboutUsersUrl: '/en/users/what-is-gc-sign-in/',
       aboutPartnersUrl: '/en/partners/about-gc-sign-in/',
       usersUrl: '/en/users/',
@@ -31,7 +31,7 @@ module.exports = {
   },
   fr: {
     contextual: {
-      heading: 'Connexion GC',
+      heading: 'ConnexionCanada',
       aboutUsersUrl: '/fr/utilisateurs/a-propos/',
       aboutPartnersUrl: '/fr/partenaires/a-propos-de-connexion-gc/',
       usersUrl: '/fr/utilisateurs/',

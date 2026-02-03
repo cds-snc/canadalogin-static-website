@@ -1,25 +1,25 @@
 ---
-title: How to sign in to GC Sign in
+title: How to sign in to CanadaLogin
 translationKey: howtosignin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: howToSignInEn
-  title: How to sign in to GC Sign in
+  title: How to sign in to CanadaLogin
   locale: en
   parent: troubleSigningInEn
   order: 1
 ---
 
-# How to sign in to GC Sign in
+# How to sign in to CanadaLogin
 
 <gcds-text>
-  Follow these steps to sign in to GC Sign in:
+  Follow these steps to sign in to CanadaLogin:
 </gcds-text>
 
-1. Go to a service or program already connected to your GC Sign in account.
+1. Go to a service or program already connected to your CanadaLogin account.
 
-2. Select "Sign in with GC Sign in". You will find this button in the navigation bar at the top, or within the menu in the navigation bar. This will take you to the sign in page.
+2. Select "Sign in with CanadaLogin". You will find this button in the navigation bar at the top, or within the menu in the navigation bar. This will take you to the sign in page.
 
 3. Enter your email address when prompted.
 
@@ -32,7 +32,7 @@ eleventyNavigation:
 7. Success! You have signed in. You will now be taken to the program or service you were trying to access.
 
 <gcds-heading tag="h3" character-limit="false">
-  You may be prompted to finish setting up your GC Sign in
+  You may be prompted to finish setting up your CanadaLogin
 </gcds-heading>
 
 If you did not complete the sign up process already, you might be prompted to register a 2-step verification method. See our guide on {% linkRef links.problemssigninginwith2stepverification 'not-receiving-verification-codes-to-your-phone' 'problems registering text message/phone call verification' %} for help with this. 
@@ -41,16 +41,16 @@ If you did not complete the sign up process already, you might be prompted to re
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
-    card-title="Manage your GC Sign in account"
+    card-title="Manage your CanadaLogin account"
     href="manage-your-gc-sign-in-accouÍnt"
     card-title-tag="h3"
     description="Change your account settings including your password, phone number, email and more.">
     </gcds-card>
     <gcds-card
-    card-title="Get started with GC Sign in"
+    card-title="Get started with CanadaLogin"
     href="get-started-with-gc-sign-in"
     card-title-tag="h3"
-    description="Learn how to create your account with GC Sign in. Learn about authentication options and account features.">
+    description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
     card-title="Trouble signing up"

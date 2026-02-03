@@ -116,7 +116,7 @@
 
 ### Bug Fixes
 
-* Enable 'Canada.ca' first link breadcrumb on all pages and remove 'GC Sign in` breadcrumb on landing page ([#488](https://github.com/cds-snc/gc-signin-static-website/issues/488)) ([77b7719](https://github.com/cds-snc/gc-signin-static-website/commit/77b7719b7ff248c0a7645bbd31e25f907814d7d0))
+* Enable 'Canada.ca' first link breadcrumb on all pages and remove 'CanadaLogin` breadcrumb on landing page ([#488](https://github.com/cds-snc/gc-signin-static-website/issues/488)) ([77b7719](https://github.com/cds-snc/gc-signin-static-website/commit/77b7719b7ff248c0a7645bbd31e25f907814d7d0))
 * Fix anchor link and text 'You did not receive the one-time code to your phone' ([#485](https://github.com/cds-snc/gc-signin-static-website/issues/485)) ([a0d9068](https://github.com/cds-snc/gc-signin-static-website/commit/a0d906885ba02b2e3e152f0b732aa839db294cd4))
 * Fix link How to make a strong password link ([#486](https://github.com/cds-snc/gc-signin-static-website/issues/486)) ([17bfb8a](https://github.com/cds-snc/gc-signin-static-website/commit/17bfb8a9a3092cb953b24ef21eab41ea4026c0ae))
 * Remove Change your email address page and reference ([#490](https://github.com/cds-snc/gc-signin-static-website/issues/490)) ([42cbe62](https://github.com/cds-snc/gc-signin-static-website/commit/42cbe627e92c8822dd448f2b82dc22bbf98ae226))
@@ -149,7 +149,7 @@
 * Fix empty anchor links to use 'link' not 'linkRef' ([#465](https://github.com/cds-snc/gc-signin-static-website/issues/465)) ([0db5dff](https://github.com/cds-snc/gc-signin-static-website/commit/0db5dff7b94371e1c47a2687db9ba031c8d29b33))
 * Remove empty anchor tags/links ([#460](https://github.com/cds-snc/gc-signin-static-website/issues/460)) ([52be81a](https://github.com/cds-snc/gc-signin-static-website/commit/52be81afaa2f7221128beee7b81aec45fded5ea3))
 * Remove parts of roadmap ([#457](https://github.com/cds-snc/gc-signin-static-website/issues/457)) ([cd9518c](https://github.com/cds-snc/gc-signin-static-website/commit/cd9518c3493b1c5b69ef782145dbed9a58f16e3a))
-* Update description text on "Managing your GC Sign in account" card (from QA test) ([#455](https://github.com/cds-snc/gc-signin-static-website/issues/455)) ([e4e9ed1](https://github.com/cds-snc/gc-signin-static-website/commit/e4e9ed1c1ee1c3bf92d07a64a1c4f9eafd03bdac))
+* Update description text on "Managing your CanadaLogin account" card (from QA test) ([#455](https://github.com/cds-snc/gc-signin-static-website/issues/455)) ([e4e9ed1](https://github.com/cds-snc/gc-signin-static-website/commit/e4e9ed1c1ee1c3bf92d07a64a1c4f9eafd03bdac))
 
 ## [1.2.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.1...v1.2.2) (2025-11-21)
 
@@ -229,7 +229,7 @@
 * Fix broken OSSF scorecard action ([#337](https://github.com/cds-snc/gc-signin-static-website/issues/337)) ([a9f14f1](https://github.com/cds-snc/gc-signin-static-website/commit/a9f14f1bfa2eb0d232db9883b8fcb0501c6bc648))
 * **translations:** Add FR to Forgot your password (/en/users/trouble-signing-in/forgot-your-password/) ([#411](https://github.com/cds-snc/gc-signin-static-website/issues/411)) ([7afb20a](https://github.com/cds-snc/gc-signin-static-website/commit/7afb20a596e4dc9ac5fa19155152b88c6a46c0bb))
 * **translations:** Add FR translation to Problems signing in with 2 step verification (/en/users/trouble-signing-in/problems-signing-in-with-2-step-verification/) ([#401](https://github.com/cds-snc/gc-signin-static-website/issues/401)) ([86b49fb](https://github.com/cds-snc/gc-signin-static-website/commit/86b49fb81d404c720a56d1efaa6c68f66302975e))
-* **translations:** Add FR translations to About GC Sign in (/en/partners/about-gc-sign-in) ([#409](https://github.com/cds-snc/gc-signin-static-website/issues/409)) ([804702a](https://github.com/cds-snc/gc-signin-static-website/commit/804702a1161e9da86d46555a3c9daeee287b0a05))
+* **translations:** Add FR translations to About CanadaLogin (/en/partners/about-gc-sign-in) ([#409](https://github.com/cds-snc/gc-signin-static-website/issues/409)) ([804702a](https://github.com/cds-snc/gc-signin-static-website/commit/804702a1161e9da86d46555a3c9daeee287b0a05))
 * **translations:** Add FR translations to Forgot your email (/en/users/trouble-signing-in/forgot-your-email/) ([#391](https://github.com/cds-snc/gc-signin-static-website/issues/391)) ([a11d4cd](https://github.com/cds-snc/gc-signin-static-website/commit/a11d4cdbbb7bf3bfa87e326c3b2034744651a119))
 * **translations:** Add FR translations to Partners landing page (/en/partners/) ([#404](https://github.com/cds-snc/gc-signin-static-website/issues/404)) ([917bbc6](https://github.com/cds-snc/gc-signin-static-website/commit/917bbc6f5ecc1e0e984bd489a4e4a1f5625f9b64))
 * **translations:** Add FR translations to Privacy (en/partners/privacy) ([#408](https://github.com/cds-snc/gc-signin-static-website/issues/408)) ([a3698b3](https://github.com/cds-snc/gc-signin-static-website/commit/a3698b3ee07c850531285bf4eb30bbdb72edfb2a))
@@ -243,8 +243,8 @@
 * Update How to sign out ([#380](https://github.com/cds-snc/gc-signin-static-website/issues/380)) ([c303fd2](https://github.com/cds-snc/gc-signin-static-website/commit/c303fd29d0746ac706ce9c0800ae1e8c75e1e028))
 * Update links on landing page ([#388](https://github.com/cds-snc/gc-signin-static-website/issues/388)) ([c273808](https://github.com/cds-snc/gc-signin-static-website/commit/c2738080a08b10aa737c907281c3f0e3402dcdb8))
 * update partner's roadmap with french translations ([#402](https://github.com/cds-snc/gc-signin-static-website/issues/402)) ([25c6a46](https://github.com/cds-snc/gc-signin-static-website/commit/25c6a467c5970551ee268b0562899353fce1a9e7))
-* Update the How to create a GC Sign in account (/en/users/get-started/create-account/) ([#370](https://github.com/cds-snc/gc-signin-static-website/issues/370)) ([c9d0244](https://github.com/cds-snc/gc-signin-static-website/commit/c9d0244a96f8af3437033e5877c4c1f470c616a1))
-* Update the What is GC Sign in? (/en/users/what-is-gc-sign-in/) in FR ([#376](https://github.com/cds-snc/gc-signin-static-website/issues/376)) ([8627b47](https://github.com/cds-snc/gc-signin-static-website/commit/8627b47a764648403da66ae83fd886d4ecac9c76))
+* Update the How to create a CanadaLogin account (/en/users/get-started/create-account/) ([#370](https://github.com/cds-snc/gc-signin-static-website/issues/370)) ([c9d0244](https://github.com/cds-snc/gc-signin-static-website/commit/c9d0244a96f8af3437033e5877c4c1f470c616a1))
+* Update the What is CanadaLogin? (/en/users/what-is-gc-sign-in/) in FR ([#376](https://github.com/cds-snc/gc-signin-static-website/issues/376)) ([8627b47](https://github.com/cds-snc/gc-signin-static-website/commit/8627b47a764648403da66ae83fd886d4ecac9c76))
 * updated english partner roadmap status ([#406](https://github.com/cds-snc/gc-signin-static-website/issues/406)) ([9306807](https://github.com/cds-snc/gc-signin-static-website/commit/930680775d4582b060cca466fe1984b853b272ac))
 * Updated the manage your account page with French. ([#324](https://github.com/cds-snc/gc-signin-static-website/issues/324)) ([c8bb8b3](https://github.com/cds-snc/gc-signin-static-website/commit/c8bb8b321319a698638a1a09dd1fabe2afcdaa78))
 * updated the trademark notice link in the partners T&C in both en and fr ([#339](https://github.com/cds-snc/gc-signin-static-website/issues/339)) ([7eb9905](https://github.com/cds-snc/gc-signin-static-website/commit/7eb990529c2f17830632e3d7a06f33244b31ed72))

@@ -24,11 +24,11 @@ Si vous recevez un message disant que votre mot de passe n’est pas valide, ess
    
 ### 1. Assurez-vous que votre mot de passe répond à toutes les exigences
    
-   Les mots de passe Connexion GC **doivent** remplir la condition suivante :
+   Les mots de passe ConnexionCanada **doivent** remplir la condition suivante :
    
    - Comprendre entre 12 et 65 caractères.  
 
-   Les mots de passe Connexion GC **ne peuvent pas** se trouver dans un des cas suivants :
+   Les mots de passe ConnexionCanada **ne peuvent pas** se trouver dans un des cas suivants :
 
    - Être un mot courant ou une phrase courante, ni être un mot de passe couramment utilisé (comme « motdepasse123 »). 
    

@@ -80,7 +80,7 @@ Si vous accédez à un service pour votre utilisation personnelle, nous vous rec
 Si vous accédez à un service pour le compte d’une entreprise, nous vous recommandons d’utiliser une adresse courriel professionnelle à laquelle vous avez accès. 
 </gcds-text>
 <gcds-text>
-Il est possible de posséder plusieurs comptes Connexion GC (un compte personnel et un compte d’entreprise, par exemple).
+Il est possible de posséder plusieurs comptes ConnexionCanada (un compte personnel et un compte d’entreprise, par exemple).
 </gcds-text>
 
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ».

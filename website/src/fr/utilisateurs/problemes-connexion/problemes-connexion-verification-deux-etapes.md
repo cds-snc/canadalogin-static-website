@@ -26,7 +26,7 @@ Si vous n’avez qu’un seul numéro enregistré sur votre compte, vous devez s
 
 1. Lors de la connexion, sur la page « Procédez à la vérification en deux étapes » ou « Consultez votre téléphone », cliquez sur « Je n’ai pas accès à mon téléphone ».
 
-2. Cherchez dans votre boîte de réception un courriel envoyé par « Connexion GC ». Ce courriel contiendra un code à usage unique de six chiffres.
+2. Cherchez dans votre boîte de réception un courriel envoyé par « ConnexionCanada ». Ce courriel contiendra un code à usage unique de six chiffres.
 
 3. Entrez le code sur la page Web et sélectionnez « Continuer ».
    <gcds-notice type="info" notice-title-tag="h4" notice-title="Guides connexes">
@@ -34,7 +34,7 @@ Si vous n’avez qu’un seul numéro enregistré sur votre compte, vous devez s
    </gcds-notice>
 4. Entrez votre nouveau numéro de téléphone.
 5. Vous devrez vérifier votre nouveau numéro de téléphone. Sélectionnez la manière dont vous souhaitez recevoir le code de vérification à usage unique.
-6. Récupérez le code à usage unique, qui vous sera envoyé par le biais d’un message texte ou d’un appel vocal provenant de Connexion GC.
+6. Récupérez le code à usage unique, qui vous sera envoyé par le biais d’un message texte ou d’un appel vocal provenant de ConnexionCanada.
    <gcds-notice type="info" notice-title-tag="h4" notice-title="Guides connexes">
    <gcds-text>{% link '#vous-ne-recevez-pas-les-codes-de-verification-sur-votre-telephone' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}</gcds-text>
    </gcds-notice>

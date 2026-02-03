@@ -12,12 +12,12 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# GC Sign in for departments and agencies
+# CanadaLogin for departments and agencies
 
 A secure and easy way to access Government of Canada programs and services online.
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
-  What is GC Sign in?
+  What is CanadaLogin?
 </gcds-heading>
 
 <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
@@ -33,32 +33,32 @@ A secure and easy way to access Government of Canada programs and services onlin
   </li>
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="A gear and wrench icon"> -->
-    <h3 class="mt-0">GC Sign in takes responsibility</h3>
-    <p>Rely on GC Sign in to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>
+    <h3 class="mt-0">CanadaLogin takes responsibility</h3>
+    <p>Rely on CanadaLogin to maintain authentication, fraud management, and identity proofing; ensuring a reliable experience for users and reducing overhead for service providers.</p>
   </li>
 </gcds-grid>
 
 <gcds-button type="link" value="Learn more" href="about-gc-sign-in">
-  Learn about GC Sign in&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
+  Learn about CanadaLogin&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 
 <gcds-heading tag="h2">
-  GC Sign in is set to become the single sign in solution for all Government of Canada services
+  CanadaLogin is set to become the single sign in solution for all Government of Canada services
 </gcds-heading>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-text>
-    Designed with users in mind, GC Sign in will offer an intuitive, inclusive experience that makes accessing government programs easier than ever.
+    Designed with users in mind, CanadaLogin will offer an intuitive, inclusive experience that makes accessing government programs easier than ever.
   </gcds-text>
   <gcds-text>
     For service providers, it streamlines adoption and reduces overhead by eliminating the need for custom authentication systems. This centralized approach supports a more efficient, secure, and scaleable digital ecosystem across departments.
   </gcds-text>
   <gcds-text>
-    GC Sign in will also help departments meet requirements under the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578" external>Policy on Government Security</gcds-link> and the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16577" external>Directive on Identity Management</gcds-link>.
+    CanadaLogin will also help departments meet requirements under the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16578" external>Policy on Government Security</gcds-link> and the <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=16577" external>Directive on Identity Management</gcds-link>.
   </gcds-text>
   <gcds-text>
-    Want to see what’s next? Explore the GC Sign in roadmap to learn about upcoming features and milestones.
+    Want to see what’s next? Explore the CanadaLogin roadmap to learn about upcoming features and milestones.
   </gcds-text>
   </div>
   <div>
@@ -66,17 +66,17 @@ A secure and easy way to access Government of Canada programs and services onlin
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="GC Sign in roadmap" href="roadmap">
-  GC Sign in roadmap
+<gcds-button type="link" button-role="secondary" value="CanadaLogin roadmap" href="roadmap">
+  CanadaLogin roadmap
 </gcds-button>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-heading tag="h2">
-      Is GC Sign in right for you?
+      Is CanadaLogin right for you?
     </gcds-heading>
     <gcds-text>
-    While GC Sign in is still being developed, we want our partners to be ready for what's ahead. GC Sign in is right for you if:
+    While CanadaLogin is still being developed, we want our partners to be ready for what's ahead. CanadaLogin is right for you if:
     </gcds-text>
     <gcds-text>
       <ul class="list-disc mb-300">
@@ -111,7 +111,7 @@ A secure and easy way to access Government of Canada programs and services onlin
 <gcds-heading tag="h2">Receive communications from GC Sign in</gcds-heading>
 
 <gcds-text>
-  If you'd like to receive updates, sign up for our GC Sign in mailing list.
+  If you'd like to receive updates, sign up for our CanadaLogin mailing list.
 </gcds-text>
 
 <gcds-button type="link" button-role="secondary" value="Sign up for communications" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">Sign up for communications</gcds-button>

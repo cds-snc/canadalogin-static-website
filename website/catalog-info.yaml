@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: gc-signin
   description: >-
-    GC Sign in informational page
+    CanadaLogin informational page
   labels:
     license: MIT
 spec:

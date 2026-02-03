@@ -23,8 +23,8 @@ Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la ba
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
-    card-title="Se lancer avec Connexion GC"
-    href="Se lancer avec Connexion GC"
+    card-title="Se lancer avec ConnexionCanada"
+    href="Se lancer avec ConnexionCanada"
     card-title-tag="h3"
     description="Apprenez comment créer votre compte Connexion GC. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>

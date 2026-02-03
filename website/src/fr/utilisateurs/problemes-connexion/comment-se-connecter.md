@@ -45,10 +45,10 @@ Si vous n’avez pas encore terminé le processus d’inscription, il se peut qu
     description="Nous vous aidons à modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
     </gcds-card>
     <gcds-card
-    card-title="Se lancer avec Connexion GC"
+    card-title="Se lancer avec ConnexionCanada"
     href="se-lancer-connexion-gc"
     card-title-tag="h3"
-    description="Apprenez comment créer votre compte Connexion GC. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Apprenez comment créer votre compte ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"

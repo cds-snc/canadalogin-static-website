@@ -11,7 +11,7 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# GC Sign in for individuals and organisations
+# CanadaLogin for individuals and organisations
 
 Accessing government services is now simpler and more secure with clear step-by-step guides and resources to help you get where you need to go.
 
@@ -21,13 +21,13 @@ Accessing government services is now simpler and more secure with clear step-by-
 
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
     <gcds-card
-    card-title="Get started with GC Sign in"
+    card-title="Get started with CanadaLogin"
     href="get-started"
     card-title-tag="h3"
-    description="Learn how to create your account with GC Sign in. Learn about authentication options and account features.">
+    description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
-    card-title="Managing your GC Sign in account"
+    card-title="Managing your CanadaLogin account"
     href="manage-your-account"
     card-title-tag="h3"
     description="You will be able to change your account settings including your password, phone number, email, and more here.">

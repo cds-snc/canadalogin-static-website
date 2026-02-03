@@ -11,13 +11,13 @@ eleventyNavigation:
   order: 3
   hideMain: false
 hero:
-  title: 'Connexion GC pour les ministères et organismes'
+  title: 'ConnexionCanada pour les ministères et organismes'
   summary: 'Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada'
   image: '/assets/images/common/partners/partners_home_gc_signin.svg'
   altText:
 ---
 
-# Connexion GC pour les ministères et organismes
+# ConnexionCanada pour les ministères et organismes
 
 Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada
 
@@ -38,7 +38,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </li>
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant une roue dentée et une clé mécanique."> -->
-    <h3 class="mt-0">Connexion GC s’engage</h3>
+    <h3 class="mt-0">ConnexionCanada s’engage</h3>
     <p>Vous pouvez compter sur Connexion GC pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>
   </li>
 </gcds-grid>

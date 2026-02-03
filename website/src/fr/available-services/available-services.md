@@ -12,7 +12,7 @@ eleventyNavigation:
 
 # Available services
 
-Currently you can use GC Sign in to access the following programs/services:
+Currently you can use CanadaLogin to access the following programs/services:
 
 <gcds-card
   card-title="GEO.ca Geospatial Data Viewer"

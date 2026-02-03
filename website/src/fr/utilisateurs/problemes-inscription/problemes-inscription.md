@@ -22,7 +22,7 @@ eleventyNavigation:
   <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}</li>
   <li>{% linkRef links.issuesenterverifyemailFR 'vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}</li>
   <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}</li>
-  <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que votre adresse courriel est déjà associée à un compte Connexion GC' %}</li>
+  <li>{% linkRef links.issuesenterverifyemailFR 'un-message-indique-que-le-code-est-invalide' 'Un message indique que votre adresse courriel est déjà associée à un compte ConnexionCanada' %}</li>
 </ul>
 
 ### Problèmes liés à la création d’un mot de passe

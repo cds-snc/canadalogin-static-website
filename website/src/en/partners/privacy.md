@@ -12,17 +12,17 @@ eleventyNavigation:
 ---
 
 # Privacy notice statement
-GC Sign in is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own privacy practices.
+CanadaLogin is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own privacy practices.
 
 ## Your organization must protect personal information
-When you access GC Sign in, your organization is responsible for:
+When you access CanadaLogin, your organization is responsible for:
 - Protecting the personal information in the Core Profile.
 - Complying with the laws and policies of your department or agency. 
 
 To learn more, contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
 
 ## We provide privacy information directly to people creating accounts.
-We display a privacy notice statement when people are creating or using the GC Sign in account. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
+We display a privacy notice statement when people are creating or using the CanadaLogin account. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
 
 ## We collect your personal information
 Your personal information includes: name and contact information, department or agency,  as well as the feedback you provide or question that you ask. We use your information to communicate with you, improve the product, and report on its impact. 
@@ -31,13 +31,13 @@ The <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/h-5.7/FullText.htm
 
 ## We use web analytics
 <gcds-text>
-Analytics show how people use our websites. By studying how people navigate, we can improve GC Sign in.
+Analytics show how people use our websites. By studying how people navigate, we can improve CanadaLogin.
 </gcds-text>
 
 We use Google Analytics for information about:
 - Pages people visit, links they select, and documents they download.
-- Types of operating systems that visit GC Sign in.
-- Browsers that visit GC Sign in.
+- Types of operating systems that visit CanadaLogin.
+- Browsers that visit CanadaLogin.
 - Approximate location, if enabled on the browser.
 - Date and time of visits.
 
@@ -72,10 +72,10 @@ When a threat to the website or computer systems of the Government of Canada is 
 ## We share some information
 If you use other CDS products, we may share information with those teams internally to improve your experience.
 
-We use technology and services from other organizations. For example, to prevent digital attacks, we share information with the <gcds-link href="https://www.cyber.gc.ca/en" external>Canadian Centre for Cyber Security (CCCS)</gcds-link> about when and how you use GC Sign in.
+We use technology and services from other organizations. For example, to prevent digital attacks, we share information with the <gcds-link href="https://www.cyber.gc.ca/en" external>Canadian Centre for Cyber Security (CCCS)</gcds-link> about when and how you use CanadaLogin.
 
 We do not:
-- Authorize other services to use your information for anything unrelated to GC Sign in.
+- Authorize other services to use your information for anything unrelated to CanadaLogin.
 - Sell or rent your personal information.
 
 We may share information with law enforcement by court order.

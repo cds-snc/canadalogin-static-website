@@ -12,10 +12,10 @@ eleventyNavigation:
 ---
 
 # Terms and Conditions
-GC Sign in is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own terms.
+CanadaLogin is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own terms.
 
 ## Using files located on non-Government of Canada servers
-To improve the functionality of the GC Sign in website, certain files (such as open source libraries, images, and scripts) may be delivered automatically to your browser via a trusted third-party server or content delivery network. The delivery of these files is intended to provide a seamless user experience by speeding response times and avoiding the need for each visitor to download these files. Where applicable, specific privacy statements covering these files are included in our <gcds-link href="/en/partners/privacy">Privacy Notice</gcds-link>.
+To improve the functionality of the CanadaLogin website, certain files (such as open source libraries, images, and scripts) may be delivered automatically to your browser via a trusted third-party server or content delivery network. The delivery of these files is intended to provide a seamless user experience by speeding response times and avoiding the need for each visitor to download these files. Where applicable, specific privacy statements covering these files are included in our <gcds-link href="/en/partners/privacy">Privacy Notice</gcds-link>.
 
 ## Providing content in Canada's official languages
 The <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/">Official Languages Act</gcds-link>, the <gcds-link href="http://laws.justice.gc.ca/eng/regulations/SOR-92-48/index.html">Official Languages (Communications with and Services to the Public) Regulations</gcds-link>, and Treasury Board policy requirements establish when we use both English and French to provide services to or communicate with members of the public. When there is no obligation to provide information in both official languages, content may be available in one official language only. Information provided by organizations not subject to the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/">Official Languages Act</gcds-link> is in the language(s) provided. Information provided in a language other than English or French is only for the convenience of our visitors.
@@ -26,7 +26,7 @@ Links to websites not under the control of the Government of Canada, including l
 Visitors should also be aware that information offered by non-Government of Canada sites to which this website links is not subject to the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/P-21/index.html">Privacy Act</gcds-link> or the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/">Official Languages Act</gcds-link> and may not be accessible to persons with disabilities. The information offered may be available only in the language(s) used by the sites in question. With respect to privacy, visitors should research the privacy policies of these non-government websites before providing personal information.
 
 ## Ownership and usage of content provided on this site
-Materials on this website were produced and/or compiled for the purpose of providing departments and agencies with access to information about GC Sign in. You may use and reproduce the materials as follows:
+Materials on this website were produced and/or compiled for the purpose of providing departments and agencies with access to information about CanadaLogin. You may use and reproduce the materials as follows:
 
 ### Non-commercial reproduction
 Unless otherwise specified, you may reproduce the materials in whole or in part for non-commercial purposes, and in any format, without charge or further permission, provided you do the following:

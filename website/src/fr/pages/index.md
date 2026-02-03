@@ -5,7 +5,7 @@ permalink: /fr/
 translationKey: landing
 eleventyNavigation:
   key: landingFR
-  title: Connexion GC
+  title: ConnexionCanada
   order: 1
 date: 'git Last Modified'
 ---
@@ -18,7 +18,7 @@ Il n’aura jamais été aussi facile d’accéder aux programmes et services du
 <!-- # {{ homehero[locale].signIn }} Help Centre -->
 <!--
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
-    Qui utilise Connexion GC?
+    Qui utilise ConnexionCanada?
 </gcds-heading>
 -->
 <!-- {% link links.getstartedFR 'Get started →' %} -->
