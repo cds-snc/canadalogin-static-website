@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.13](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.12...v1.2.13) (2026-02-23)
+
+
+### Bug Fixes
+
+* made small content update to the change your password section ([#589](https://github.com/cds-snc/gc-signin-static-website/issues/589)) ([7b742d7](https://github.com/cds-snc/gc-signin-static-website/commit/7b742d7bb25fd57e8734c886669eba9618bd59d3))
+
+
+### Continuous Integration
+
+* bumped the test environment version and also updated the release … ([#605](https://github.com/cds-snc/gc-signin-static-website/issues/605)) ([124a021](https://github.com/cds-snc/gc-signin-static-website/commit/124a021c5772ca67a8bf5a8060d7c4c6ba6f351b))
+* bumped the test environment version and also updated the release to deploy to test and staging environments ([124a021](https://github.com/cds-snc/gc-signin-static-website/commit/124a021c5772ca67a8bf5a8060d7c4c6ba6f351b))
+
 ## [1.2.12](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.11...v1.2.12) (2026-01-22)
 
 
