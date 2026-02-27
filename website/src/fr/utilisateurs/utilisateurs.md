@@ -25,10 +25,10 @@ Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L�
     card-title="Se lancer avec ConnexionCanada"
     href="se-lancer-connexion-gc"
     card-title-tag="h3"
-    description="Découvrez comment vous pourrez créer votre compte ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Découvrez comment vous pourrez créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
     <gcds-card
-    card-title="Gestion de votre compte ConnexionCanada"
+    card-title="Gestion de votre identifiant ConnexionCanada"
     href="gerer-compte"
     card-title-tag="h3"
     description="Vous trouverez ici la marche à suivre pour modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">

@@ -15,8 +15,8 @@ eleventyNavigation:
 
 Si vous pensez entrez le bon mot de passe, mais que vous obtenez toujours un message d’erreur indiquant que le courriel et le mot de passe ne correspondent pas, essayez la méthode suivante :
 
-- Assurez-vous que l’adresse courriel que vous avez entrée est celle que vous avez utilisée pour créer votre compte ConnexionCanada.
-- Si vous ne savez pas quelle adresse courriel vous avez utilisée, consultez notre guide sur la marche à suivre en cas d’{% link links.forgotyouremailFR 'adresse courriel oubliée' %} pour déterminer l’adresse associée à votre compte ConnexionCanada.
+- Assurez-vous que l’adresse courriel que vous avez entrée est celle que vous avez utilisée pour créer votre identifiant ConnexionCanada.
+- Si vous ne savez pas quelle adresse courriel vous avez utilisée, consultez notre guide sur la marche à suivre en cas d’{% link links.forgotyouremailFR 'adresse courriel oubliée' %} pour déterminer l’adresse associée à votre identifiant ConnexionCanada.
 
 ## Si vous avez oublié votre mot de passe, suivez ces étapes pour le réinitialiser :
 

@@ -18,7 +18,7 @@ eleventyNavigation:
 
 Pour modifier votre mot de passe, procédez comme suit :
 
-1. Après {% link links.howtosigninFR 'votre connexion à votre compte ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ».
 3. Rendez-vous dans la section « Mot de passe ». Sélectionnez « Modifier ».
 4. Pour la sécurité de votre compte et pour garantir que personne à part vous ne puisse modifier votre mot de passe, il se peut que nous vous demandions d’entrer votre mot de passe actuel et de procéder à la vérification en deux étapes.
@@ -36,7 +36,7 @@ Pour en savoir plus sur la vérification en deux étapes, consultez notre guide 
 
 Pour gérer la vérification en deux étapes, suivez les étapes suivantes :
 
-1. Après {% link links.howtosigninFR 'votre connexion à votre compte ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ».
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 
@@ -49,14 +49,14 @@ Dans cette section, vous pouvez :
 ### Modifier votre numéro de téléphone pour la vérification en deux étapes
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title=" ">
-  <gcds-text>La modification d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que ConnexionCanada et les programmes et services connectés à votre compte ConnexionCanada utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
+  <gcds-text>La modification d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que ConnexionCanada et les programmes et services connectés à votre identifiant ConnexionCanada utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
 </gcds-notice>
 
 Pour modifier le numéro de téléphone utilisé pour la **vérification en deux étapes**, procédez comme suit :
 
 #### 1. Pour commencer, ajoutez un nouveau numéro de téléphone
 
-1. Après {% link links.howtosigninFR 'votre connexion à votre compte ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ».
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 4. Rendez-vous dans la section « Numéros de téléphone ». Cliquez sur le lien « Ajouter un numéro de téléphone ».
@@ -73,7 +73,7 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 
 #### 2. Ensuite, supprimez votre numéro de téléphone existant
 
-1. Après {% link links.howtosigninFR 'votre connexion à votre compte ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Select "Security settings".
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 4. Cherchez le numéro que vous souhaitez supprimer et sélectionnez « Supprimer ».
@@ -89,12 +89,12 @@ Pour modifier le numéro de téléphone utilisé pour la **vérification en deux
 ### Ajouter un numéro de téléphone pour la vérification en deux étapes
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title=" ">
-  <gcds-text>L’ajout d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que ConnexionCanada et les programmes et services connectés à votre compte ConnexionCanada utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
+  <gcds-text>L’ajout d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que ConnexionCanada et les programmes et services connectés à votre identifiant ConnexionCanada utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide « {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
 </gcds-notice>
 
 Pour ajouter un numéro de téléphone pour la vérification en deux étapes, procédez comme suit :
 
-1. Après {% link links.howtosigninFR 'votre connexion à votre compte ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ».
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 4. Rendez-vous dans la section « Numéros de téléphone ». Sélectionnez « Ajouter un numéro de téléphone ».
@@ -112,12 +112,12 @@ Pour ajouter un numéro de téléphone pour la vérification en deux étapes, pr
 ### Supprimer un numéro de téléphone pour la vérification en deux étapes
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title=" ">
-  <gcds-text>La suppression d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que ConnexionCanada et les programmes et services connectés à votre compte ConnexionCanada utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide «  {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
+  <gcds-text>La suppression d’un numéro de téléphone pour la vérification en deux étapes <strong>ne modifie pas</strong> le numéro de téléphone de communication que ConnexionCanada et les programmes et services connectés à votre identifiant ConnexionCanada utilisent pour communiquer avec vous. Pour savoir comment modifier ce numéro, consultez notre guide «  {% linkRef links.manageyourpersonalinformationFR 'modifier-votre-numero-de-telephone-de-communication' 'Modifier votre numéro de téléphone de communication' %} ».</gcds-text>
 </gcds-notice>
 
 Pour supprimer un numéro de téléphone pour la vérification en deux étapes, procédez comme suit :
 
-1. Après {% link links.howtosigninFR 'votre connexion à votre compte ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
+1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
 2. Sélectionnez « Paramètres de sécurité ».
 3. Rendez-vous dans la section « Vérification en deux étapes ». Sélectionnez « Gérer ».
 4. Cherchez le numéro que vous souhaitez supprimer et sélectionnez « Supprimer ».

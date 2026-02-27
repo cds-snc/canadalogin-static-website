@@ -15,7 +15,7 @@ eleventyNavigation:
 
 <gcds-text>Suivez les étapes suivantes pour vous connecter à ConnexionCanada :</gcds-text>
 
-1. Rendez-vous sur la page Web d’un service ou programme qui est déjà connecté à votre compte ConnexionCanada.
+1. Rendez-vous sur la page Web d’un service ou programme qui est déjà connecté à votre identifiant ConnexionCanada.
 
 2. Cliquez sur « Connectez-vous avec ConnexionCanada ». Vous trouverez ce bouton dans la barre de navigation supérieure ou dans le menu de la barre de navigation. Cela vous conduira à la page de connexion.
 
@@ -30,7 +30,7 @@ eleventyNavigation:
 7. Félicitations! La connexion a réussi. Votre redirection va être effectuée vers le programme ou service auquel vous cherchiez à accéder.
  
 <gcds-heading tag="h3" character-limit="false">
-  Il se peut que l’on vous demande de terminer la configuration de votre compte ConnexionCanada.
+  Il se peut que l’on vous demande de terminer la configuration de votre identifiant ConnexionCanada.
 </gcds-heading>
 
 Si vous n’avez pas encore terminé le processus d’inscription, il se peut que l’on vous demande d’enregistrer une méthode de vérification en deux étapes. Pour obtenir de l’aide à ce sujet, consultez notre guide « {% linkRef links.problemssigninginwith2stepverificationFR 'vous-ne-recevez-pas-les-codes-de-verification-sur-votre-telephone' 'Problèmes liés à l’enregistrement de la vérification par message texte / appel vocal' %} ».  
@@ -39,7 +39,7 @@ Si vous n’avez pas encore terminé le processus d’inscription, il se peut qu
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
-    card-title="Gestion de votre compte ConnexionCanada"
+    card-title="Gestion de votre identifiant ConnexionCanada"
     href="gerer-compte"
     card-title-tag="h3"
     description="Nous vous aidons à modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
@@ -48,7 +48,7 @@ Si vous n’avez pas encore terminé le processus d’inscription, il se peut qu
     card-title="Se lancer avec ConnexionCanada"
     href="se-lancer-connexion-gc"
     card-title-tag="h3"
-    description="Apprenez comment créer votre compte ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Apprenez comment créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"

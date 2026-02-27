@@ -1,18 +1,18 @@
 ---
-title: Gérer votre compte ConnexionCanada
+title: Gérer votre identifiant ConnexionCanada
 translationKey: manageyouraccount
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: manageYourAccountFR
-  title: Gérer votre compte ConnexionCanada
+  title: Gérer votre identifiant ConnexionCanada
   locale: fr
   parent: usersFR
   order: 4
   hideMain: true
 ---
 
-# Gérer votre compte ConnexionCanada
+# Gérer votre identifiant ConnexionCanada
 
 <ul class="list-disc mb-300">
   <li>{% link links.accessyoursettingsFR 'Accéder à vos paramètres' %}</li>

@@ -33,7 +33,7 @@ Si vous recevez un message d’erreur indiquant que votre numéro de téléphone
                
 #### 3. Vérifiez que votre numéro de téléphone est pris en charge
    - En raison de limitations techniques, notre service ne prend actuellement en charge que les numéros de téléphone des pays figurant sur cette liste : {% link links.supportedcountriesFR 'Numéros de téléphone internationaux pris en charge'%}.
-   - Si votre numéro de téléphone correspond à un pays n’apparaissant pas dans la liste, vous ne pouvez pas vous connecter à l’aide de la vérification par message texte ou par appel vocal. Vous ne serez pas en mesure de créer un compte ConnexionCanada à l’heure actuelle et devrez attendre que d’autres méthodes de vérification soient ajoutées.
+   - Si votre numéro de téléphone correspond à un pays n’apparaissant pas dans la liste, vous ne pouvez pas vous connecter à l’aide de la vérification par message texte ou par appel vocal. Vous ne serez pas en mesure de créer un identifiant ConnexionCanada à l’heure actuelle et devrez attendre que d’autres méthodes de vérification soient ajoutées.
 
  #### 4. Essayez d’utiliser un autre numéro de téléphone si cela est possible
 

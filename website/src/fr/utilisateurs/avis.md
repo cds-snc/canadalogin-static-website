@@ -24,10 +24,10 @@ ConnexionCanada est un outil géré par le Service numérique canadien (« SNC �
 
 ### Acceptation du présent avis  
 <gcds-text>
-En créant un compte ConnexionCanada, en y accédant ou en l’utilisant, vous acceptez les conditions du présent avis. L’utilisation de ConnexionCanada n’est pas obligatoire. Aussi, si vous n’acceptez pas les conditions du présent avis, ne créez pas de compte ConnexionCanada et n’utilisez pas cet outil.   
+En créant un identifiant ConnexionCanada, en y accédant ou en l’utilisant, vous acceptez les conditions du présent avis. L’utilisation de ConnexionCanada n’est pas obligatoire. Aussi, si vous n’acceptez pas les conditions du présent avis, ne créez pas d’identifiant ConnexionCanada et n’utilisez pas cet outil.   
 </gcds-text>
 <gcds-text>
-Si vous ne souhaitez pas créer de compte ConnexionCanada ou si vous n’y parvenez pas, il se peut que vous ayez d’autres options pour accéder à un programme ou service. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces options.   
+Si vous ne souhaitez pas créer d’identifiant ConnexionCanada ou si vous n’y parvenez pas, il se peut que vous ayez d’autres options pour accéder à un programme ou service. Il se peut que vous deviez retourner au site Web du programme ou service pour obtenir des renseignements sur ces options.   
 </gcds-text>
 
 ### Ce que fournit ConnexionCanada

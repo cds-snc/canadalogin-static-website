@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # Adresse courriel oubliée
 
-Suivez ces étapes pour déterminer quelle adresse courriel est associée à votre compte ConnexionCanada : 
+Suivez ces étapes pour déterminer quelle adresse courriel est associée à votre identifiant ConnexionCanada : 
 
 - Entrez l’adresse courriel que vous utilisez normalement.
 - Au moment d’entrer votre mot de passe pour vous connecter, cliquez sur le lien « Réinitialiser le mot de passe » près du bas de la page.

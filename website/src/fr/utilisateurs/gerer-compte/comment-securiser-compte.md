@@ -27,7 +27,7 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Protégez votre mot de passe ConnexionCanada
 
-- Créez un mot de passe robuste pour votre compte ConnexionCanada. Pour obtenir des conseils sur la manière de vous y prendre, consultez notre guide « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} ». 
+- Créez un mot de passe robuste pour votre identifiant ConnexionCanada. Pour obtenir des conseils sur la manière de vous y prendre, consultez notre guide « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} ». 
 - Si vous avez du mal à vous souvenir de votre mot de passe, nous vous recommandons d’utiliser un gestionnaire de mots de passe.
 - Ne communiquez votre mot de passe à personne.
 

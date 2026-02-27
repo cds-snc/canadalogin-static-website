@@ -1,18 +1,18 @@
 ---
-title: Comment créer un compte ConnexionCanada
+title: Comment créer un identifiant ConnexionCanada
 translationKey: createAccount
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: createAccountFR
-  title: Comment créer un compte ConnexionCanada
+  title: Comment créer un identifiant ConnexionCanada
   locale: fr
   order: 2
   parent: getStartedFR
   hideMain: true
 ---
 
-# Comment créer un compte ConnexionCanada
+# Comment créer un identifiant ConnexionCanada
 
 ## Sur cette page
 
@@ -23,7 +23,7 @@ eleventyNavigation:
 
 ## Avant de vous lancer
 
-Pour créer un compte ConnexionCanada, vous aurez besoin des éléments suivants :
+Pour créer un identifiant ConnexionCanada, vous aurez besoin des éléments suivants :
 
 - Une adresse courriel active à laquelle vous avez accès
 - Un numéro de téléphone actif auquel vous pouvez en permanence recevoir des messages texte et des appels
@@ -36,19 +36,19 @@ Nous vous demanderons également les éléments suivants :
 
 ## Étapes de la création de compte
 
-Au moment de créer un compte ConnexionCanada, vous devrez suivre ces étapes :
+Au moment de créer un identifiant ConnexionCanada, vous devrez suivre ces étapes :
 
 ### 1. Rendez-vous sur la page Web d’un service utilisant ConnexionCanada
 
 Si vous êtes déjà sur la page Web d’un service vous demandant d’utiliser ConnexionCanada, vous pouvez ignorer cette étape.
 
-Dans le cas contraire, pour commencer la création d’un compte ConnexionCanada, procédez comme suit : 
+Dans le cas contraire, pour commencer la création d’un identifiant ConnexionCanada, procédez comme suit : 
 
 <!-- Remove reference of other services in French until V2. -->
 
 1. Rendez-vous sur la page Web d’un de nos services actifs et cliquez sur « Connectez-vous avec ConnexionCanada ». Cela vous conduira à la page de connexion. 
 2. Rendez-vous au bas de cette page et sélectionnez « Créer un compte ». 
-3. Suivez le reste des étapes ci-dessous pour créer un compte ConnexionCanada.
+3. Suivez le reste des étapes ci-dessous pour créer un identifiant ConnexionCanada.
 
 ### 2. Lisez l’avis de confidentialité
 
@@ -86,7 +86,7 @@ Il est possible de posséder plusieurs comptes ConnexionCanada (un compte person
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « ConnexionCanada ».
 
 - Nous vous enverrons un courriel contenant un code à usage unique à six chiffres. Ce courriel peut mettre quelques minutes à vous parvenir. Revenez à la page Web de ConnexionCanada et entrez le code à usage unique.
-- Une adresse courriel ne peut être associée qu’à un seul compte. Si vous essayez d’utiliser une adresse courriel qui est déjà associée à un compte ConnexionCanada, au lieu de recevoir un code, vous recevrez un courriel à l’adresse en question vous informant de la situation. Si votre compte est verrouillé et que vous ne pouvez pas y accéder, vous pourriez devoir procéder à la récupération de votre compte. Si vous ne pouvez pas récupérer votre compte, vous devrez créer un autre compte en utilisant une adresse courriel différente.
+- Une adresse courriel ne peut être associée qu’à un seul compte. Si vous essayez d’utiliser une adresse courriel qui est déjà associée à un identifiant ConnexionCanada, au lieu de recevoir un code, vous recevrez un courriel à l’adresse en question vous informant de la situation. Si votre compte est verrouillé et que vous ne pouvez pas y accéder, vous pourriez devoir procéder à la récupération de votre compte. Si vous ne pouvez pas récupérer votre compte, vous devrez créer un autre compte en utilisant une adresse courriel différente.
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Guides connexes">
   <ul>
@@ -175,8 +175,8 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
 </gcds-notice>
 
 ### 8. Félicitations!
-- Vous avez créé votre compte ConnexionCanada.
+- Vous avez créé votre identifiant ConnexionCanada.
 - Votre redirection va être effectuée vers le service gouvernemental auquel vous cherchez à accéder.
-- Vous serez en mesure de connecter votre compte ConnexionCanada à d’autres programmes et services participants lorsque ces derniers deviendront disponibles.
+- Vous serez en mesure de connecter votre identifiant ConnexionCanada à d’autres programmes et services participants lorsque ces derniers deviendront disponibles.
 - Après votre connexion, vous pourrez ajouter d’autres numéros de téléphone ou mettre à vous vos renseignements en cliquant sur « Gérer ConnexionCanada » dans la barre de menu.
-- Vous trouverez un lien vers cette page dans le menu de chaque service que vous avez connecté à votre compte ConnexionCanada.
+- Vous trouverez un lien vers cette page dans le menu de chaque service que vous avez connecté à votre identifiant ConnexionCanada.

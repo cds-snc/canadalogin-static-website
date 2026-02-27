@@ -18,7 +18,7 @@ eleventyNavigation:
   <li>{% link '#un-message-indique-que-votre-adresse-courriel-est-invalide' 'Un message indique que votre adresse courriel est invalide' %}</li>
   <li>{% link '#vous-ne-trouvez-pas-le-code-a-usage-unique-dans-votre-boite-de-reception' 'Vous ne trouvez pas le code à usage unique dans votre boîte de réception' %}</li>
   <li>{% link '#un-message-indique-que-le-code-est-invalide' 'Un message indique que le code est invalide' %}</li>
-  <li>{% link '#un-message-indique-que-votre-adresse-courriel-est-deja-associee-a-un-compte-connexion-gc' 'Un message indique que votre adresse courriel est déjà associée à un compte ConnexionCanada' %}</li>
+  <li>{% link '#un-message-indique-que-votre-adresse-courriel-est-deja-associee-a-un-compte-connexion-gc' 'Un message indique que votre adresse courriel est déjà associée à un identifiant ConnexionCanada' %}</li>
 </ul>
 
 ## Un message indique que votre adresse courriel est invalide
@@ -90,13 +90,13 @@ Si un message indique que le code à usage unique que vous avez entré est inval
 - Si vous avez demandé plusieurs codes, seul le code que vous avez reçu en dernier fonctionnera. Si vous demandez plusieurs codes et recevez plusieurs messages au même moment, il se peut que vous deviez essayer différents codes jusqu’à ce que l’un d’entre eux fonctionne.
 - Si vous entrez le mauvais code à de trop nombreuses reprises, il se peut que votre compte soit temporairement verrouillé.
 
-## Un message indique que votre adresse courriel est déjà associée à un compte ConnexionCanada
+## Un message indique que votre adresse courriel est déjà associée à un identifiant ConnexionCanada
 
-Si vous avez reçu un message d’erreur indiquant que votre adresse courriel est déjà associée à un compte ConnexionCanada, voici ce que cela signifie et ce que vous pouvez faire.
+Si vous avez reçu un message d’erreur indiquant que votre adresse courriel est déjà associée à un identifiant ConnexionCanada, voici ce que cela signifie et ce que vous pouvez faire.
 
 ### Ce que cela signifie
 
-Votre adresse courriel est déjà liée à un compte ConnexionCanada. Cela pourrait être parce que vous avez créé un compte dans le passé ou parce qu’une autre personne a utilisé ou utilise actuellement votre adresse courriel par erreur.
+Votre adresse courriel est déjà liée à un identifiant ConnexionCanada. Cela pourrait être parce que vous avez créé un compte dans le passé ou parce qu’une autre personne a utilisé ou utilise actuellement votre adresse courriel par erreur.
 
 ### Ce que vous pouvez faire
 
@@ -116,7 +116,7 @@ Votre adresse courriel est déjà liée à un compte ConnexionCanada. Cela pourr
 
 #### 2. Si vous essayiez de créer un nouveau compte :
 
-- Les adresses courriel ne peuvent être liées qu’à un seul compte ConnexionCanada. Vous devrez utiliser une adresse courriel différente pour créer un nouveau compte.
+- Les adresses courriel ne peuvent être liées qu’à un seul identifiant ConnexionCanada. Vous devrez utiliser une adresse courriel différente pour créer un nouveau compte.
 
 #### 3. Si vous pensez que quelqu’un essaie de créer un compte avec votre adresse courriel, nous vous recommandons les actions suivantes :
 
