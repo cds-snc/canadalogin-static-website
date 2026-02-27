@@ -17,7 +17,7 @@ eleventyNavigation:
 
 To change your password, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Security settings".
 3. Navigate to the password section on the page. Select the "Change" link.
 4. To keep your account secure and ensure that only you are able to make changes to your password, you may be prompted to enter your current password and complete 2-step verification.
@@ -35,7 +35,7 @@ To learn more about 2-step verification, go to our {% link links.twostepverifica
 
 To manage your 2-step verification, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Security settings".
 3. Navigate to the 2-step verification section on the page. Select the "Manage" link.
 
@@ -55,7 +55,7 @@ To change the phone number used for **two-step verification**, follow these step
 
 #### 1. First, add a new phone number
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the "Phones" section on the page. Select the "Add a phone number" link.
@@ -72,7 +72,7 @@ To change the phone number used for **two-step verification**, follow these step
 
 #### 2. Then, delete your existing phone number
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the number you want to delete and select "Delete".
@@ -93,7 +93,7 @@ To change the phone number used for **two-step verification**, follow these step
 
 To add 2-step verification phone number, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the "Phones" section on the page. Select "Add a phone number".
@@ -116,7 +116,7 @@ To add 2-step verification phone number, follow these steps:
 
 To delete a 2-step verification phone number, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Security settings".
 3. Navigate to the "2-step verification" section on the page. Select the "Manage" link.
 4. Navigate to the number you want to delete and select "Delete".

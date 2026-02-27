@@ -12,7 +12,7 @@ eleventyNavigation:
 
 # Forgot your email
 
-Follow these steps to figure out which email address is attached to your CanadaLogin account:
+Follow these steps to figure out which email address is attached to your CanadaLogin:
 
 - Enter the email address you normally use.
 - On the password page when signing in, select the "Reset your password" link near the bottom of the page.

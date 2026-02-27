@@ -15,9 +15,9 @@ eleventyNavigation:
 
 Always monitor for suspicious activity on your account. Pay attention to email notifications you may receive from us saying that a change has been made to your account. If you receive an email stating a change was made, but you did not make the change, we recommend you take the following steps:
 
-## Secure your CanadaLogin account
+## Secure your CanadaLogin
 
-### 1. Sign in to your CanadaLogin account
+### 1. Sign in to your CanadaLogin
 
 #### If you can't sign in
 
@@ -39,11 +39,11 @@ If you think someone changed your account info, like your password or 2-step ver
 ### 3. Ensure you are following safety practices for good account security
 
 <ul class="list-disc mb-300">
-  <li>Have backup 2-step verification phone numbers on your CanadaLogin account. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.</li>
+  <li>Have backup 2-step verification phone numbers on your CanadaLogin. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.</li>
   <li>{% linkRef links.createaccount 'how-to-make-a-strong-password' 'Use a strong password' %} </li>
   <li>Don't use the same password you use on other accounts.</li>
-  <li>Make sure your email password is also unique, since it's used to recover your CanadaLogin account.</li>
-  <li>Make sure you have a 2-step verification method on your email account, since it's used to recover your CanadaLogin account. For instructions on how to do this, refer to your email provider's help content.</li>
+  <li>Make sure your email password is also unique, since it's used to recover your CanadaLogin.</li>
+  <li>Make sure you have a 2-step verification method on your email account, since it's used to recover your CanadaLogin. For instructions on how to do this, refer to your email provider's help content.</li>
 </ul>
 
 ## Secure your other accounts

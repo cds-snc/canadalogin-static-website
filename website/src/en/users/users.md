@@ -27,7 +27,7 @@ Accessing government services is now simpler and more secure with clear step-by-
     description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
-    card-title="Managing your CanadaLogin account"
+    card-title="Managing your CanadaLogin"
     href="manage-your-account"
     card-title-tag="h3"
     description="You will be able to change your account settings including your password, phone number, email, and more here.">

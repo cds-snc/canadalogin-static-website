@@ -17,7 +17,7 @@ eleventyNavigation:
   Follow these steps to sign in to CanadaLogin:
 </gcds-text>
 
-1. Go to a service or program already connected to your CanadaLogin account.
+1. Go to a service or program already connected to your CanadaLogin.
 
 2. Select "Sign in with CanadaLogin". You will find this button in the navigation bar at the top, or within the menu in the navigation bar. This will take you to the sign in page.
 
@@ -41,7 +41,7 @@ If you did not complete the sign up process already, you might be prompted to re
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
-    card-title="Manage your CanadaLogin account"
+    card-title="Manage your CanadaLogin"
     href="manage-your-gc-sign-in-accouÍnt"
     card-title-tag="h3"
     description="Change your account settings including your password, phone number, email and more.">

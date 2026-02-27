@@ -36,7 +36,7 @@ We will also ask you for:
 
 ## Steps to create an account
 
-When you are ready to create your CanadaLogin account, you’ll need to complete the following steps:
+When you are ready to create your CanadaLogin, you’ll need to complete the following steps:
 
 ### 1. Navigate to a service that’s using CanadaLogin
 
@@ -177,8 +177,8 @@ To set up 2-step verification, follow these steps:
 
 ### 8. Success!
 
-- You have created your CanadaLogin account.
+- You have created your CanadaLogin.
 - You will now be taken to the government service you are trying to access.
-- You will be able to connect your CanadaLogin account to other participating programs and services, when they become available.
+- You will be able to connect your CanadaLogin to other participating programs and services, when they become available.
 - You can add additional phone numbers, or update your information by selecting “Manage CanadaLogin” in the menu bar once you’re signed in.
-- You can find a link to this page in the menu of any service you have connected to your CanadaLogin account.
+- You can find a link to this page in the menu of any service you have connected to your CanadaLogin.

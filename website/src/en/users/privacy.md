@@ -25,7 +25,7 @@ When you set up your account, CanadaLogin will ask you to provide basic personal
 - contact you about the security of your account. 
 
 <gcds-text>
-Your personal information is also shared with programs and services that you connect to and is stored according to their own policies and processes. Your personal information is not shared with programs or services unless you connect them to your CanadaLogin account. 
+Your personal information is also shared with programs and services that you connect to and is stored according to their own policies and processes. Your personal information is not shared with programs or services unless you connect them to your CanadaLogin. 
 </gcds-text>
 
 ## How your personal information is stored and protected

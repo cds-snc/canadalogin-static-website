@@ -11,7 +11,7 @@ eleventyNavigation:
   hideMain: true
 ---
 
-# Manage your CanadaLogin account
+# Manage your CanadaLogin
 
 <ul class="list-disc mb-300">
   <li>{% link links.accessyoursettings 'Access your settings' %}</li>

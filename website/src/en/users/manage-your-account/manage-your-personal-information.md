@@ -20,12 +20,12 @@ eleventyNavigation:
 ## Change your name
 
 <gcds-notice type="warning" notice-title-tag="h3" notice-title="This does not legally change your name">
-  <gcds-text>The name you use with your CanadaLogin account is shared with programs and services you have connected to your account. However, updating your name with CanadaLogin <strong>does not legally change your name</strong>. It also does not change your name everywhere, only with programs/services connected to your CanadaLogin.</gcds-text>
+  <gcds-text>The name you use with your CanadaLogin is shared with programs and services you have connected to your account. However, updating your name with CanadaLogin <strong>does not legally change your name</strong>. It also does not change your name everywhere, only with programs/services connected to your CanadaLogin.</gcds-text>
 </gcds-notice>
 
 To change your name on CanadaLogin, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Personal information".
 3. Navigate to the "Basic information" section on the page. Select the "Edit" link in the "Name" section.
 4. Enter your updated name.
@@ -46,7 +46,7 @@ To change your name on CanadaLogin, follow these steps:
 
 To change your preference for which official language CanadaLogin and connected programs/services use to communicate with you, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Personal information".
 3. Navigate to the "Communication" section on the page. Select the "Edit" link in the "Language preference" section.
 4. Select your new language preference.
@@ -68,7 +68,7 @@ To change your preference for which official language CanadaLogin and connected 
 
 To change the phone number CanadaLogin and connected programs/services use to contact you, follow these steps:
 
-1. After {% link links.howtosignin 'signing into your CanadaLogin account' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
+1. After {% link links.howtosignin 'signing into your CanadaLogin' %}, {% link links.accessyoursettings 'access your CanadaLogin settings' %}.
 2. Select "Personal information".
 3. Navigate to the "Contact information" section on the page. Select the "Edit" link in the "Contact phone number" section.
 4. Enter the new phone number you want to be contacted at. Choose how you want to receive a verification code.
