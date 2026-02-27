@@ -17,7 +17,7 @@ eleventyNavigation:
   <li>{% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}</li>
   <li>{% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}</li>
   <li>{% link '#it-says-your-code-is-invalid' 'It says the code is invalid' %}</li>
-  <li>{% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a CanadaLogin account' %}</li>
+  <li>{% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a CanadaLogin' %}</li>
 </ul>
 
 ## It says your email address is invalid
@@ -90,14 +90,14 @@ If it says your one-time code is invalid, try these troubleshooting steps:
   and receive multiple messages at the same time, you may need to try more than one code until one works.
 - If you enter the code incorrectly too many times, you may be temporarily locked out.
 
-## It says your email is already associated with a CanadaLogin account
+## It says your email is already associated with a CanadaLogin
 
 If you have received an error message stating that your email is already associated with an account on
 CanadaLogin, here’s what it means and what you can do.
 
 ### What it means
 
-Your email address is already linked to a CanadaLogin account. This could be because you previously created
+Your email address is already linked to a CanadaLogin. This could be because you previously created
 an account, or because someone else used or is using your email in error.
 
 ### What you can do

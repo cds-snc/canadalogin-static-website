@@ -22,7 +22,7 @@ When you access CanadaLogin, your organization is responsible for:
 To learn more, contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
 
 ## We provide privacy information directly to people creating accounts.
-We display a privacy notice statement when people are creating or using the CanadaLogin account. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
+We display a privacy notice statement when people are creating or using a CanadaLogin. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
 
 ## We collect your personal information
 Your personal information includes: name and contact information, department or agency,  as well as the feedback you provide or question that you ask. We use your information to communicate with you, improve the product, and report on its impact. 

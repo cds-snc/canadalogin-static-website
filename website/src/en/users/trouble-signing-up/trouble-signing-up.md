@@ -21,7 +21,7 @@ eleventyNavigation:
   <li>{% linkRef links.issuesenterverifyemail 'it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}</li>
   <li>{% linkRef links.issuesenterverifyemail 'you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}</li>
   <li>{% linkRef links.issuesenterverifyemail 'it-says-your-code-is-invalid' 'It says the code is invalid' %}</li>
-  <li>{% linkRef links.issuesenterverifyemail 'it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a CanadaLogin account' %}</li>
+  <li>{% linkRef links.issuesenterverifyemail 'it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a CanadaLogin' %}</li>
 </ul>
 
 ### Problems with creating a password

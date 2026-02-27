@@ -1,18 +1,18 @@
 ---
-title: How to create a CanadaLogin account
+title: How to create a CanadaLogin
 translationKey: createAccount
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: createAccountEn
-  title: How to create a CanadaLogin account
+  title: How to create a CanadaLogin
   locale: en
   order: 2
   parent: getStartedEn
   hideMain: true
 ---
 
-# How to create a CanadaLogin account
+# How to create a CanadaLogin
 
 ## On this page
 
@@ -23,7 +23,7 @@ eleventyNavigation:
 
 ## Before you start
 
-You will need the following items to create a CanadaLogin account:
+You will need the following items to create a CanadaLogin:
 
 - An active email address that you have access to
 - An active phone number that you can receive texts or calls to on an ongoing basis
@@ -42,11 +42,11 @@ When you are ready to create your CanadaLogin account, you’ll need to complete
 
 If you are already on a service that’s asking you to use CanadaLogin, you can skip this step.
 
-Otherwise, to create a CanadaLogin account:
+Otherwise, to create a CanadaLogin:
 
 1. Go to one of our active services and select “Sign in with CanadaLogin”. You will be redirected to the sign in page.
 2. Navigate to the bottom of this page, and select “Sign up”.
-3. Follow the steps below to create a CanadaLogin account.
+3. Follow the steps below to create a CanadaLogin.
 
 ### 2. Read through the privacy notice
 
@@ -84,7 +84,7 @@ It is acceptable to have more than one CanadaLogin account (e.g. a personal and 
 ### 5. Check your email for a message from “CanadaLogin”
 
 - We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the CanadaLogin webpage and enter the one-time code.
-- Emails can only be used for one account. If you attempt to use an email address that’s already registered to a CanadaLogin account, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
+- Emails can only be used for one account. If you attempt to use an email address that’s already registered to a CanadaLogin, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Related help guides">
   <ul>

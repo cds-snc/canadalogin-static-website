@@ -25,10 +25,10 @@ CanadaLogin is managed by Canada Digital Service (CDS) / Employment and Social D
 
 ### Agreement to these terms 
 <gcds-text>
-By creating, accessing or using a CanadaLogin account, you agree to these Terms. CanadaLogin is not mandatory, therefore, if you do not agree to these Terms, do not register for or use CanadaLogin.  
+By creating, accessing or using a CanadaLogin, you agree to these Terms. CanadaLogin is not mandatory, therefore, if you do not agree to these Terms, do not register for or use CanadaLogin.  
 </gcds-text>
 <gcds-text>
-If you do not want to create or are unable to create a CanadaLogin account, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.
+If you do not want to create or are unable to create a CanadaLogin, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.
 </gcds-text>
 
 ### What CanadaLogin provides

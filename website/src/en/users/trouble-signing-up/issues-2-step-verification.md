@@ -33,7 +33,7 @@ If you receive an error message telling you that your phone number is invalid, t
 #### 3. Check that your phone number is supported
    - Due to technical limitations, our service currently only supports phone numbers from the countries found on this list: {% link links.supportedcountries 'Supported international phone numbers' %}.
    - If your phone number is from a country not on this list, signing in using Text Message or Voice is not possible. 
-     You will not be able to create a CanadaLogin account at this time, until more verification methods have been added.
+     You will not be able to create a CanadaLogin at this time, until more verification methods have been added.
 
  #### 4. Try using a different phone number if possible
 

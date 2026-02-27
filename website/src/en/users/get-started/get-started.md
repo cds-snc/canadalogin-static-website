@@ -20,6 +20,6 @@ CanadaLogin before you can access the service.
 
 <ul class="list-disc mb-300">
   <li>{% link links.whatisgcsignin 'What is CanadaLogin?' %}</li>
-  <li>{% link links.createaccount 'How to create a CanadaLogin account' %}</li>
+  <li>{% link links.createaccount 'How to create a CanadaLogin' %}</li>
   <li>{% link links.twostepverificationmethods 'What is 2-step verification?' %}</li>
 </ul>
