@@ -118,7 +118,7 @@ an account, or because someone else used or is using your email in error.
 
 #### 2. If you were trying to create a new account:
 
-- Email addresses can only be linked to one CanadaLogin account. You will need to use a different
+- Email addresses can only be linked to one CanadaLogin. You will need to use a different
   email address to create a new account.
 
 #### 3. If you think someone may be trying to create an account with your email, we recommend:

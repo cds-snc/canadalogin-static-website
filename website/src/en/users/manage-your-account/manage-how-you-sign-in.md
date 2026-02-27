@@ -78,7 +78,7 @@ To change the phone number used for **two-step verification**, follow these step
 4. Navigate to the number you want to delete and select "Delete".
 
    <gcds-notice type="info" notice-title-tag="h5" notice-title="If the &quot;delete&quot; link doesn&apos;t appear, it&apos;s because you need to add another 2-step verification phone number to your account">
-     <gcds-text>All CanadaLogin accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "Delete" link <strong>will only appear if you have more than one number registered</strong>. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
+     <gcds-text>All CanadaLogins require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "Delete" link <strong>will only appear if you have more than one number registered</strong>. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
    </gcds-notice>
 
 5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.
@@ -122,7 +122,7 @@ To delete a 2-step verification phone number, follow these steps:
 4. Navigate to the number you want to delete and select "Delete".
 
    <gcds-notice type="info" notice-title-tag="h4" notice-title="If the &quot;delete&quot; link doesn&apos;t appear, it&apos;s because you need to add another 2-step verification phone number to your account">
-     <gcds-text>All CanadaLogin accounts require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "Delete" link will only appear if you have more than one number registered. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
+     <gcds-text>All CanadaLogins require 2-step verification, so you cannot delete your only 2-step verification phone number. For this reason, the "Delete" link will only appear if you have more than one number registered. To delete your current number, <a href="#add-a-2step-verification-phone-number">add a 2-step verification phone number first</a>.</gcds-text>
    </gcds-notice>
 
 5. You may be prompted to verify yourself again by typing in your current password and completing 2-step verification.

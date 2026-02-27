@@ -78,7 +78,7 @@ If you are accessing a service for personal use, we recommend using a personal e
 If you are accessing a service on behalf of a business, we recommend using a business email that you have access to. 
 </gcds-text>
 <gcds-text>
-It is acceptable to have more than one CanadaLogin account (e.g. a personal and a business account).
+It is acceptable to have more than one CanadaLogin (e.g. a personal and a business account).
 </gcds-text>
 
 ### 5. Check your email for a message from “CanadaLogin”
