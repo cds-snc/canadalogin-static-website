@@ -17,7 +17,7 @@ eleventyNavigation:
   <li>{% link '#it-says-your-email-address-is-invalid' 'It says your email address is invalid' %}</li>
   <li>{% link '#you-cannot-find-the-onetime-code-in-your-email-inbox' 'You cannot find the one-time code in your email inbox' %}</li>
   <li>{% link '#it-says-your-code-is-invalid' 'It says the code is invalid' %}</li>
-  <li>{% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a GC Sign in account' %}</li>
+  <li>{% link '#it-says-your-email-is-already-associated-with-a-gc-sign-in-account' 'It says your email address is already associated with a CanadaLogin' %}</li>
 </ul>
 
 ## It says your email address is invalid
@@ -34,7 +34,7 @@ If you're seeing an "invalid email" error, here are a few things to check:
 - Some domains (like temporary or disposable emails) may not be allowed.
 - Try using a different email provider, such as Gmail or Outlook.
 
-### 3. GC Sign in might be experiencing issues
+### 3. CanadaLogin might be experiencing issues
 
 - If you’re sure your email is correct, the issue could be on our end. We suggest waiting 24 hours and then trying again.
 
@@ -44,7 +44,7 @@ If you're seeing an "invalid email" error, here are a few things to check:
 
 ## You cannot find the one-time code in your email inbox
 
-If you cannot find the one-time code for GC Sign in your email inbox, try these troubleshooting steps:
+If you cannot find the one-time code for CanadaLogin your email inbox, try these troubleshooting steps:
 
 ### 1. Check your email address
 
@@ -52,11 +52,11 @@ If you cannot find the one-time code for GC Sign in your email inbox, try these 
 
 ### 2. Check your spam or junk folder
 
-- The email might have been flagged as spam. Search for messages from GC Sign in.
+- The email might have been flagged as spam. Search for messages from CanadaLogin.
 
 ### 3. Search your inbox
 
-- Use search function in your email to look for "GC Sign in verification code".
+- Use search function in your email to look for "CanadaLogin verification code".
 
 ### 4. Wait a few minutes and check again
 
@@ -90,14 +90,14 @@ If it says your one-time code is invalid, try these troubleshooting steps:
   and receive multiple messages at the same time, you may need to try more than one code until one works.
 - If you enter the code incorrectly too many times, you may be temporarily locked out.
 
-## It says your email is already associated with a GC Sign in account
+## It says your email is already associated with a CanadaLogin
 
 If you have received an error message stating that your email is already associated with an account on
-GC Sign in, here’s what it means and what you can do.
+CanadaLogin, here’s what it means and what you can do.
 
 ### What it means
 
-Your email address is already linked to a GC Sign in account. This could be because you previously created
+Your email address is already linked to a CanadaLogin. This could be because you previously created
 an account, or because someone else used or is using your email in error.
 
 ### What you can do
@@ -118,7 +118,7 @@ an account, or because someone else used or is using your email in error.
 
 #### 2. If you were trying to create a new account:
 
-- Email addresses can only be linked to one GC Sign in account. You will need to use a different
+- Email addresses can only be linked to one CanadaLogin. You will need to use a different
   email address to create a new account.
 
 #### 3. If you think someone may be trying to create an account with your email, we recommend:

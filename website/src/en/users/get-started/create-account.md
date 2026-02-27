@@ -1,18 +1,18 @@
 ---
-title: How to create a GC Sign in account
+title: How to create a CanadaLogin
 translationKey: createAccount
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: createAccountEn
-  title: How to create a GC Sign in account
+  title: How to create a CanadaLogin
   locale: en
   order: 2
   parent: getStartedEn
   hideMain: true
 ---
 
-# How to create a GC Sign in account
+# How to create a CanadaLogin
 
 ## On this page
 
@@ -23,7 +23,7 @@ eleventyNavigation:
 
 ## Before you start
 
-You will need the following items to create a GC Sign in account:
+You will need the following items to create a CanadaLogin:
 
 - An active email address that you have access to
 - An active phone number that you can receive texts or calls to on an ongoing basis
@@ -36,17 +36,17 @@ We will also ask you for:
 
 ## Steps to create an account
 
-When you are ready to create your GC Sign in account, you’ll need to complete the following steps:
+When you are ready to create your CanadaLogin, you’ll need to complete the following steps:
 
-### 1. Navigate to a service that’s using GC Sign in
+### 1. Navigate to a service that’s using CanadaLogin
 
-If you are already on a service that’s asking you to use GC Sign in, you can skip this step.
+If you are already on a service that’s asking you to use CanadaLogin, you can skip this step.
 
-Otherwise, to create a GC Sign in account:
+Otherwise, to create a CanadaLogin:
 
-1. Go to one of our active services and select “Sign in with GC Sign in”. You will be redirected to the sign in page.
+1. Go to one of our active services and select “Sign in with CanadaLogin”. You will be redirected to the sign in page.
 2. Navigate to the bottom of this page, and select “Sign up”.
-3. Follow the steps below to create a GC Sign in account.
+3. Follow the steps below to create a CanadaLogin.
 
 ### 2. Read through the privacy notice
 
@@ -78,13 +78,13 @@ If you are accessing a service for personal use, we recommend using a personal e
 If you are accessing a service on behalf of a business, we recommend using a business email that you have access to. 
 </gcds-text>
 <gcds-text>
-It is acceptable to have more than one GC Sign in account (e.g. a personal and a business account).
+It is acceptable to have more than one CanadaLogin (e.g. a personal and a business account).
 </gcds-text>
 
-### 5. Check your email for a message from “GC Sign in”
+### 5. Check your email for a message from “CanadaLogin”
 
-- We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the GC Sign in webpage and enter the one-time code.
-- Emails can only be used for one account. If you attempt to use an email address that’s already registered to a GC Sign in account, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
+- We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the CanadaLogin webpage and enter the one-time code.
+- Emails can only be used for one account. If you attempt to use an email address that’s already registered to a CanadaLogin, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Related help guides">
   <ul>
@@ -139,7 +139,7 @@ Avoid easy-to-guess passwords like ones that use:
 
 ### 7. Set up a 2-step verification method
 
-As an added layer of protection, GC Sign in requires you to set up a second authentication method to keep your account secure.
+As an added layer of protection, CanadaLogin requires you to set up a second authentication method to keep your account secure.
 
 This is referred to as 2-step verification. If you want to know more about 2-step verification, see our
 {% link links.twostepverificationmethods 'information guide on 2-step verification' %}.
@@ -177,8 +177,8 @@ To set up 2-step verification, follow these steps:
 
 ### 8. Success!
 
-- You have created your GC Sign in account.
+- You have created your CanadaLogin.
 - You will now be taken to the government service you are trying to access.
-- You will be able to connect your GC Sign in account to other participating programs and services, when they become available.
-- You can add additional phone numbers, or update your information by selecting “Manage GC Sign in” in the menu bar once you’re signed in.
-- You can find a link to this page in the menu of any service you have connected to your GC Sign in account.
+- You will be able to connect your CanadaLogin to other participating programs and services, when they become available.
+- You can add additional phone numbers, or update your information by selecting “Manage CanadaLogin” in the menu bar once you’re signed in.
+- You can find a link to this page in the menu of any service you have connected to your CanadaLogin.

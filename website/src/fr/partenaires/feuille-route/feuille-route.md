@@ -1,5 +1,5 @@
 ---
-title: Feuille de route de Connexion GC
+title: Feuille de route de ConnexionCanada
 translationKey: signinroadmap
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
@@ -12,9 +12,9 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# Feuille de route de Connexion GC
+# Feuille de route de ConnexionCanada
 
-Vous trouverez ci-dessous l’échéancier visé pour la fourniture des fonctionnalités et le franchissement des différentes étapes pour le produit Connexion GC, le tout, organisé par trimestre d’exercice. Veuillez noter qu’en raison de la conception itérative de Connexion GC, cette feuille de route est susceptible d’être modifiée.
+Vous trouverez ci-dessous l’échéancier visé pour la fourniture des fonctionnalités et le franchissement des différentes étapes pour le produit ConnexionCanada, le tout, organisé par trimestre d’exercice. Veuillez noter qu’en raison de la conception itérative de ConnexionCanada, cette feuille de route est susceptible d’être modifiée.
 
 ## Nos travaux actuels
 
@@ -161,6 +161,6 @@ par téléphone et en ligne</td>
 
 ## Vous souhaitez en savoir plus?
 
-<gcds-text>Contactez-nous pour en savoir plus sur Connexion GC et sur la manière dont l’outil pourrait répondre aux besoins de votre service.</gcds-text>
+<gcds-text>Contactez-nous pour en savoir plus sur ConnexionCanada et sur la manière dont l’outil pourrait répondre aux besoins de votre service.</gcds-text>
 
 <gcds-button type="link" value="Nous contacter" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfmxu3xh0000x401zperejwc" target="_blank">Nous contacter</gcds-button>

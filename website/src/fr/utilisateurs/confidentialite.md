@@ -15,27 +15,27 @@ eleventyNavigation:
 # Avis de confidentialité
 
 <gcds-text>
-Connexion GC est un outil géré par le Service numérique canadien («&nbsp;SNC&nbsp;»)/Emploi et Développement social Canada (EDSC) pour le gouvernement du Canada.
+ConnexionCanada est un outil géré par le Service numérique canadien («&nbsp;SNC&nbsp;»)/Emploi et Développement social Canada (EDSC) pour le gouvernement du Canada.
 </gcds-text>
 <gcds-text>
-Lorsque vous configurez votre compte, Connexion GC vous demande de fournir des renseignements personnels de base. Nous recueillons ces renseignements pour pouvoir réaliser les actions suivantes :
+Lorsque vous configurez votre compte, ConnexionCanada vous demande de fournir des renseignements personnels de base. Nous recueillons ces renseignements pour pouvoir réaliser les actions suivantes :
 </gcds-text>
 
 - Vous permettre d’accéder plus rapidement aux services.
 - Vous contacter concernant la sécurité de votre compte.
 
 <gcds-text>
-Vos renseignements personnels sont également transmis aux programmes et services auxquels vous vous connectez et sont conservés conformément aux politiques et processus de ces programmes et services. Vos renseignements personnels ne sont pas transmis à des programmes ou services à moins que vous ne les connectiez à votre compte Connexion GC.
+Vos renseignements personnels sont également transmis aux programmes et services auxquels vous vous connectez et sont conservés conformément aux politiques et processus de ces programmes et services. Vos renseignements personnels ne sont pas transmis à des programmes ou services à moins que vous ne les connectiez à votre identifiant ConnexionCanada.
 </gcds-text>
 
 ## Comment vos renseignements personnels sont conservés et protégés
 
 <gcds-text>
 Vos renseignements personnels sont chiffrés et conservés dans une base de données sécurisée.
-Connexion GC utilise une solution de gestion des identités et des accès d’IBM Canada. Connexion GC utilise l’analytique Web de Google Inc. Consultez notre {% link links.termsandprivacyusersFR 'Avis' %} pour en savoir plus.
+ConnexionCanada utilise une solution de gestion des identités et des accès d’IBM Canada. ConnexionCanada utilise l’analytique Web de Google Inc. Consultez notre {% link links.termsandprivacyusersFR 'Avis' %} pour en savoir plus.
 </gcds-text>
 <gcds-text>
-Les renseignements que vous fournissez pour créer un compte Connexion GC sont administrés, recueillis, utilisés et divulgués conformément à la Loi sur la protection des renseignements personnels, à la Loi sur le ministère de l’Emploi et du Développement social (LMEDS) et à d’autres lois applicables.
+Les renseignements que vous fournissez pour créer un identifiant ConnexionCanada sont administrés, recueillis, utilisés et divulgués conformément à la Loi sur la protection des renseignements personnels, à la Loi sur le ministère de l’Emploi et du Développement social (LMEDS) et à d’autres lois applicables.
 </gcds-text>
 <gcds-text>
 Il se peut que le SNC/EDSC utilise les renseignements que vous fournissez à des fins d’analyse politique, de recherche et d’évaluation. Ces renseignements seront utilisés pour aider le SNC/EDSC à améliorer ses produits et services. Les renseignements utilisés par le SNC/EDSC à ces fins ne seront jamais utilisés pour la prise de décisions administratives ayant une incidence directe sur vous.

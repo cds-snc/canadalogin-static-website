@@ -15,27 +15,27 @@ eleventyNavigation:
 # Privacy Notice Statement
 
 <gcds-text>
-GC Sign in is managed by Canada Digital Service (“CDS”) / Employment and Social Development Canada (ESDC) for the Government of Canada. 
+CanadaLogin is managed by Canada Digital Service (“CDS”) / Employment and Social Development Canada (ESDC) for the Government of Canada. 
 </gcds-text>
 <gcds-text>
-When you set up your account, GC Sign in will ask you to provide basic personal information. We collect this information to: 
+When you set up your account, CanadaLogin will ask you to provide basic personal information. We collect this information to: 
 </gcds-text>
 
 - make it faster for you to access services, and 
 - contact you about the security of your account. 
 
 <gcds-text>
-Your personal information is also shared with programs and services that you connect to and is stored according to their own policies and processes. Your personal information is not shared with programs or services unless you connect them to your GC Sign in account. 
+Your personal information is also shared with programs and services that you connect to and is stored according to their own policies and processes. Your personal information is not shared with programs or services unless you connect them to your CanadaLogin. 
 </gcds-text>
 
 ## How your personal information is stored and protected
 
 <gcds-text>
 Your personal information is encrypted and stored in a secure database.  
-GC Sign in uses an identity and access management solution from IBM Canada. GC Sign in uses web analytics from Google Inc. Visit our {% link links.termsandprivacyusers 'Terms' %} to learn more. 
+CanadaLogin uses an identity and access management solution from IBM Canada. CanadaLogin uses web analytics from Google Inc. Visit our {% link links.termsandprivacyusers 'Terms' %} to learn more. 
 </gcds-text>
 <gcds-text>
-The personal information you provide to register for GC Sign in is administered, collected, used and disclosed in accordance with the Privacy Act, the Department of Employment and Social Development Act (DESDA), and other applicable laws. 
+The personal information you provide to register for CanadaLogin is administered, collected, used and disclosed in accordance with the Privacy Act, the Department of Employment and Social Development Act (DESDA), and other applicable laws. 
 </gcds-text>
 <gcds-text>
 CDS/ESDC may use or share the information you provide for policy analysis, research, and evaluation purposes. This information will be used to help CDS/ESDC improve its products and services. The information CDS/ESDC uses for these purposes will never be used to make an administrative decision that directly impacts you.  

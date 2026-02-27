@@ -11,18 +11,18 @@ eleventyNavigation:
   order: 3
   hideMain: false
 hero:
-  title: 'Connexion GC pour les ministères et organismes'
+  title: 'ConnexionCanada pour les ministères et organismes'
   summary: 'Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada'
   image: '/assets/images/common/partners/partners_home_gc_signin.svg'
   altText:
 ---
 
-# Connexion GC pour les ministères et organismes
+# ConnexionCanada pour les ministères et organismes
 
 Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
-  Qu’est-ce que Connexion GC?
+  Qu’est-ce que ConnexionCanada?
 </gcds-heading>
 
 <gcds-grid tag="ul" columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
@@ -38,23 +38,23 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </li>
   <li class="list-none">
     <!-- <img class="mb-150" src="/assets/images/common/partners/partners_developers_icon.svg" style="height: 120px; width: auto;" alt="Une icône représentant une roue dentée et une clé mécanique."> -->
-    <h3 class="mt-0">Connexion GC s’engage</h3>
-    <p>Vous pouvez compter sur Connexion GC pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>
+    <h3 class="mt-0">ConnexionCanada s’engage</h3>
+    <p>Vous pouvez compter sur ConnexionCanada pour assurer le maintien de l’authentification, de la gestion de fraude et de la vérification d’identité. Cela garantit une expérience fiable pour les utilisateurs et utilisatrices tout en réduisant les frais généraux pour les fournisseurs de service.</p>
   </li>
 </gcds-grid>
 
-<gcds-button type="link" value="Découvrez Connexion GC" href="a-propos-connexion-gc">
-  Découvrez Connexion GC&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
+<gcds-button type="link" value="Découvrez ConnexionCanada" href="a-propos-connexion-gc">
+  Découvrez ConnexionCanada&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 
 <gcds-heading tag="h2">
-  L’outil Connexion GC est voué à devenir la solution de connexion unique pour l’ensemble des services du gouvernement du Canada
+  L’outil ConnexionCanada est voué à devenir la solution de connexion unique pour l’ensemble des services du gouvernement du Canada
 </gcds-heading>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-text>
-    Connexion GC est le fruit d’une conception centrée sur l’utilisateur. L’outil offrira une expérience inclusive et intuitive et simplifiera plus que jamais l’accès aux programmes gouvernementaux.
+    ConnexionCanada est le fruit d’une conception centrée sur l’utilisateur. L’outil offrira une expérience inclusive et intuitive et simplifiera plus que jamais l’accès aux programmes gouvernementaux.
   </gcds-text>
   <gcds-text>
     Pour les fournisseurs de services, l’outil simplifie l’adoption et réduit les frais généraux en éliminant la nécessité de systèmes d’authentification sur mesure. Cette approche centralisée participe à la mise en place d’un écosystème numérique plus efficace, sécurisé et évolutif à l’échelle des ministères.
@@ -63,7 +63,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
    Il aidera également les ministères à répondre aux exigences de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16578" external>Politique sur la sécurité du gouvernement</gcds-link> et de la <gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=16577" external>Directive sur la gestion de l’identité</gcds-link>.
   </gcds-text>
   <gcds-text>
-    Vous souhaitez connaître les prochaines étapes? Découvrez la feuille de route de Connexion GC pour en savoir plus sur les fonctionnalités et étapes à venir.
+    Vous souhaitez connaître les prochaines étapes? Découvrez la feuille de route de ConnexionCanada pour en savoir plus sur les fonctionnalités et étapes à venir.
   </gcds-text>
   </div>
   <div>
@@ -71,17 +71,17 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </div>
 </gcds-grid>
 
-<gcds-button type="link" button-role="secondary" value="Feuille de route de Connexion GC" href="feuille-route">
-  Feuille de route de Connexion GC
+<gcds-button type="link" button-role="secondary" value="Feuille de route de ConnexionCanada" href="feuille-route">
+  Feuille de route de ConnexionCanada
 </gcds-button>
 
 <gcds-grid tag="div" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <gcds-heading tag="h2">
-      Connexion GC est-il fait pour vous?
+      ConnexionCanada est-il fait pour vous?
     </gcds-heading>
     <gcds-text>
-    Connexion GC est encore en cours de développement. Toutefois, nous voulons que nos partenaires puissent d’ores et déjà se préparer à l’adopter. L’outil Connexion GC est fait pour vous si vous remplissez les critères suivants :
+    ConnexionCanada est encore en cours de développement. Toutefois, nous voulons que nos partenaires puissent d’ores et déjà se préparer à l’adopter. L’outil ConnexionCanada est fait pour vous si vous remplissez les critères suivants :
     </gcds-text>
     <gcds-text>
       <ul class="list-disc mb-300">
@@ -113,10 +113,10 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </div>
 </gcds-grid>
 
-<gcds-heading tag="h2">Recevoir des communications de Connexion GC</gcds-heading>
+<gcds-heading tag="h2">Recevoir des communications de ConnexionCanada</gcds-heading>
 
 <gcds-text>
-Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de Connexion GC.
+Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de ConnexionCanada.
 </gcds-text>
 
 <gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmfn8nghu00d6yj01l0ce9hxw" target="_blank">Abonnez-vous aux communications</gcds-button>

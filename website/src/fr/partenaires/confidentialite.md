@@ -13,17 +13,17 @@ eleventyNavigation:
 ---
 
 # Avis de confidentialité
-Connexion GC est un produit du <gcds-link href="https://numerique.canada.ca/" external>Service numérique canadien (SNC)</gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada (EDSC)</gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external>site Web du SNC</gcds-link> comporte ses propres pratiques en matière de confidentialité.
+ConnexionCanada est un produit du <gcds-link href="https://numerique.canada.ca/" external>Service numérique canadien (SNC)</gcds-link>, qui fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada (EDSC)</gcds-link>. Le <gcds-link href="https://numerique.canada.ca/confidentialite/" external>site Web du SNC</gcds-link> comporte ses propres pratiques en matière de confidentialité.
 
 ## Votre organisme a l’obligation de protéger les renseignements personnels
-Lorsque vous accédez à Connexion GC, votre organisme a les responsabilités suivantes :
+Lorsque vous accédez à ConnexionCanada, votre organisme a les responsabilités suivantes :
 - Protéger les renseignements personnels du profil central.
 - Respecter les lois et les politiques de votre ministère ou organisme.
 
 Pour en savoir plus, contactez-nous par courriel à l’adresse [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
 
 ## Nous fournissons des renseignements en matière de confidentialité directement aux personnes qui créent des comptes
-Nous affichons un avis de confidentialité lorsque les gens créent ou utilisent un compte Connexion GC. Nous communiquons des renseignements sur notre conservation et notre élimination (stockage et suppression) de leurs renseignements personnels dans nos bases de données, ainsi que sur les fonctionnalités permettant de protéger la sécurité des sites Web du gouvernement du Canada. 
+Nous affichons un avis de confidentialité lorsque les gens créent ou utilisent un identifiant ConnexionCanada. Nous communiquons des renseignements sur notre conservation et notre élimination (stockage et suppression) de leurs renseignements personnels dans nos bases de données, ainsi que sur les fonctionnalités permettant de protéger la sécurité des sites Web du gouvernement du Canada. 
 
 ## Nous recueillons vos renseignements personnels
 Vos renseignements personnels comprennent les éléments suivants : votre nom et vos coordonnées, votre ministère ou organisme et les commentaires que vous fournissez ou les questions que vous posez. Nous utilisons vos renseignements pour communiquer avec vous, pour améliorer le produit et pour faire des rapports sur son incidence. 
@@ -31,13 +31,13 @@ Vos renseignements personnels comprennent les éléments suivants : votre nom e
 L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social</gcds-link> autorise le SNC a recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915" external>POU 915</gcds-link>. 
 
 ## Nous utilisons l’analytique Web
-<gcds-text> L’analytique Web révèle comment les gens utilisent nos pages Web. L’étude de ce comportement nous permet d’améliorer Connexion GC.
+<gcds-text> L’analytique Web révèle comment les gens utilisent nos pages Web. L’étude de ce comportement nous permet d’améliorer ConnexionCanada.
  </gcds-text>
 
 Nous utilisons Google Analytics pour obtenir les informations suivantes :
 - Les pages visitées, les liens utilisés et les documents téléchargés.
-- Les systèmes d’exploitation utilisés pour accéder à Connexion GC.
-- Les navigateurs Web utilisés pour accéder à Connexion GC.
+- Les systèmes d’exploitation utilisés pour accéder à ConnexionCanada.
+- Les navigateurs Web utilisés pour accéder à ConnexionCanada.
 - L’emplacement approximatif, si cette option est activée sur le navigateur.
 - La date et l’heure des visites.
 
@@ -72,10 +72,10 @@ Lorsqu’une menace pour le site Web ou les systèmes informatiques du gouvernem
 ## Nous communiquons certains renseignements
 Si vous utilisez d’autres produits du SNC, il est possible que nous communiquions des renseignements aux équipes de ces produits pour améliorer votre expérience. 
 
-Nous utilisons des technologies et des services d’autres organismes. Par exemple, pour prévenir les attaques numériques, nous transmettons des renseignements au <gcds-link href="https://www.cyber.gc.ca/fr" external>Centre canadien pour la cybersécurité (CCC)</gcds-link> concernant l’heure où vous avez utilisé Connexion GC et la manière dont vous l’avez fait.
+Nous utilisons des technologies et des services d’autres organismes. Par exemple, pour prévenir les attaques numériques, nous transmettons des renseignements au <gcds-link href="https://www.cyber.gc.ca/fr" external>Centre canadien pour la cybersécurité (CCC)</gcds-link> concernant l’heure où vous avez utilisé ConnexionCanada et la manière dont vous l’avez fait.
 
 Nous ne réalisons pas les actions suivantes :
-- Autorisation d’autres services à se servir de vos renseignements à des fins sans lien avec Connexion GC.
+- Autorisation d’autres services à se servir de vos renseignements à des fins sans lien avec ConnexionCanada.
 - Vente ou location de vos renseignements personnels.
 
 Il est toutefois possible que nous soyons contraints par une ordonnance de communiquer ces renseignements aux autorités compétentes.

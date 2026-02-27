@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: gc-signin-static-website
   title: GC Sign Static Website
-  description: Landing page and central source of information for potential clients that are interested in GC Sign in
+  description: Landing page and central source of information for potential clients that are interested in CanadaLogin
   labels:
     license: MIT
 spec:

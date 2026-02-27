@@ -25,7 +25,7 @@ If you do not have multiple numbers registered to your account, you will need to
 
 1. On the “Complete 2-step verification” page or the “Check your phone” page when signing in, select “I cannot access my phone”.
 
-2. Check your email for a message from GC Sign in. The email will contain a 6-digit one-time code.
+2. Check your email for a message from CanadaLogin. The email will contain a 6-digit one-time code.
 
 3. Enter the code on the web page and select "Continue".
    <gcds-notice type="info" notice-title-tag="h4" notice-title="Related help guide">
@@ -33,7 +33,7 @@ If you do not have multiple numbers registered to your account, you will need to
    </gcds-notice>
 4. Enter your new phone number.
 5. You will need to verify your new phone number. Select how you want to receive the one-time verification code.
-6. Retrieve the one-time code from your text messages or by answering the call from GC Sign in.
+6. Retrieve the one-time code from your text messages or by answering the call from CanadaLogin.
    <gcds-notice type="info" notice-title-tag="h4" notice-title="Related help guide">
    <gcds-text>{% link '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</gcds-text>
    </gcds-notice>

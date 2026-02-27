@@ -19,7 +19,7 @@ Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compt
 ## Problèmes fréquents
 
 <ul class="list-disc mb-300">
-  <li>{% link links.howtosigninFR 'Comment se connecter à Connexion GC' %}</li>
+  <li>{% link links.howtosigninFR 'Comment se connecter à ConnexionCanada' %}</li>
   <li>{% link links.problemsenteringyouremailaddressFR 'Problèmes liés à la saisie de votre adresse courriel' %}</li>
   <li>{% link links.forgotyouremailFR 'Adresse courriel oubliée' %}</li>
   <li>{% link links.forgotyourpasswordFR 'Mot de passé oublié' %}</li>

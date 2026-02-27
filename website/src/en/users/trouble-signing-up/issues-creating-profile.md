@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # Problems with creating a profile
 
-When signing up for GC Sign in, you’ll need to provide some basic information to create your profile, including your:
+When signing up for CanadaLogin, you’ll need to provide some basic information to create your profile, including your:
 
 - Name
 
