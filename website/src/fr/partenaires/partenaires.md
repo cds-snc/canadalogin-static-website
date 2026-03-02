@@ -96,7 +96,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
       Contactez-nous si vous avez des questions ou si vous souhaitez que nous aidions votre équipe à évaluer sa préparation et ses stratégies de transition.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cml71f785007vyk013atpufvt" external>Nous contacter</gcds-link>
+      <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9f6wbk01j2x30100mzljyl" external>Nous contacter</gcds-link>
     </gcds-text>
   </div>
   <div>
@@ -119,4 +119,4 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
 Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de ConnexionCanada.
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cml6zxjux006yyk01e75whvkl" target="_blank">Abonnez-vous aux communications</gcds-button>
+<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9f7vcg01hvyl01he15442d" target="_blank">Abonnez-vous aux communications</gcds-button>

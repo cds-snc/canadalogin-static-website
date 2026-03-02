@@ -163,4 +163,4 @@ par téléphone et en ligne</td>
 
 <gcds-text>Contactez-nous pour en savoir plus sur ConnexionCanada et sur la manière dont l’outil pourrait répondre aux besoins de votre service.</gcds-text>
 
-<gcds-button type="link" value="Nous contacter" href="https://forms-formulaires.alpha.canada.ca/fr/id/cml71f785007vyk013atpufvt" target="_blank">Nous contacter</gcds-button>
+<gcds-button type="link" value="Nous contacter" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9f6wbk01j2x30100mzljyl" target="_blank">Nous contacter</gcds-button>

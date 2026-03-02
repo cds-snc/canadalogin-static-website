@@ -91,7 +91,7 @@ A secure and easy way to access Government of Canada programs and services onlin
       Connect with us to help your team evaluate readiness and transition strategies or answer any questions you may have.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="https://forms-formulaires.alpha.canada.ca/en/id/cml71f785007vyk013atpufvt" external>Contact us</gcds-link>
+      <gcds-link href="https://forms-formulaires.alpha.canada.ca/en/id/cmm9f6wbk01j2x30100mzljyl" external>Contact us</gcds-link>
     </gcds-text>
   </div>
   <div>
@@ -114,4 +114,4 @@ A secure and easy way to access Government of Canada programs and services onlin
   If you'd like to receive updates, sign up for our CanadaLogin mailing list.
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="Sign up for communications" href="https://forms-formulaires.alpha.canada.ca/en/id/cml6zxjux006yyk01e75whvkl" target="_blank">Sign up for communications</gcds-button>
+<gcds-button type="link" button-role="secondary" value="Sign up for communications" href="https://forms-formulaires.alpha.canada.ca/en/id/cmm9f7vcg01hvyl01he15442d" target="_blank">Sign up for communications</gcds-button>
