@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.14](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.13...v1.2.14) (2026-03-03)
+
+
+### Bug Fixes
+
+* Recreate gc forms to reflect CanadaLogin/ConnexionCanada name change ([#612](https://github.com/cds-snc/gc-signin-static-website/issues/612)) ([6b0180b](https://github.com/cds-snc/gc-signin-static-website/commit/6b0180be2463b15d5a68a7ff16554c2c4dcd3943))
+* Refactor website to reflect new CanadaLogin/ConnexionCanada external-facing name ([#592](https://github.com/cds-snc/gc-signin-static-website/issues/592)) ([46fe6fb](https://github.com/cds-snc/gc-signin-static-website/commit/46fe6fb51ee2c5237a6b47f13a44eb11ff01515b))
+
 ## [1.2.13](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.12...v1.2.13) (2026-02-23)
 
 
