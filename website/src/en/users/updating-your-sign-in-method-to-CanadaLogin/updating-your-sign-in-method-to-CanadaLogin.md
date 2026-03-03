@@ -1,6 +1,6 @@
 ---
 title: Trouble signing up here
-translationKey: troublesigningup
+translationKey: updating-your-sign-in-method-to-canadalogin
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: updating-your-sign-in-method-to-canadalogin
