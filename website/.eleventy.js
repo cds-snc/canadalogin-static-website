@@ -339,25 +339,6 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addTransform("gcdsAlertTransform", function (content) {
-    if (this.outputPath && this.outputPath.endsWith(".html")) {
-
-      const alertPattern = /<details class="alert alert-([^"]+)" open>\s*<summary class="h3"><h3>([^<]+)<\/h3><\/summary>([\s\S]+?)<\/details>/g;
-
-      return content.replace(alertPattern, (match, type, title, body) => {
-        return `
-        <section class="mt-300 mb-300">
-          <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
-          <gcds-text>${body.trim()}</gcds-text>
-          </gcds-notice>
-        </section>
-        `;
-      });
-
-    }
-    return content;
-  });
-
   eleventyConfig.addTransform("listClassTransform", function (content) {
     if (!this.outputPath || !this.outputPath.endsWith(".html")) {
       return content;
