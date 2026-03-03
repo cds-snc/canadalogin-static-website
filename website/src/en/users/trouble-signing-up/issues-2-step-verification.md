@@ -33,7 +33,7 @@ If you receive an error message telling you that your phone number is invalid, t
 #### 3. Check that your phone number is supported
    - Due to technical limitations, our service currently only supports phone numbers from the countries found on this list: {% link links.supportedcountries 'Supported international phone numbers' %}.
    - If your phone number is from a country not on this list, signing in using Text Message or Voice is not possible. 
-     You will not be able to create a GC Sign in account at this time, until more verification methods have been added.
+     You will not be able to create a CanadaLogin at this time, until more verification methods have been added.
 
  #### 4. Try using a different phone number if possible
 
@@ -42,7 +42,7 @@ If you receive an error message telling you that your phone number is invalid, t
                      
 ### You did not receive the one-time code to your phone
              
-If you’re not receiving your verification code via SMS (text) or phone call for GC Sign in, try these troubleshooting steps:
+If you’re not receiving your verification code via SMS (text) or phone call for CanadaLogin, try these troubleshooting steps:
 
 #### 1. Check your phone number
    - Make sure you entered the correct number with no typos or missing digits.

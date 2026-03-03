@@ -1,5 +1,5 @@
 ---
-title: GC Sign in roadmap
+title: CanadaLogin roadmap
 translationKey: signinroadmap
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
@@ -12,9 +12,9 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# GC Sign in roadmap
+# CanadaLogin roadmap
 
-Below is the planned timeline for providing features and achieving milestones for the GC Sign in product, organized by fiscal quarter. Please note that due to GC Sign in’s iterative design, this roadmap is subject to change.
+Below is the planned timeline for providing features and achieving milestones for the CanadaLogin product, organized by fiscal quarter. Please note that due to CanadaLogin’s iterative design, this roadmap is subject to change.
 
 ## What we're working on now
 
@@ -159,6 +159,6 @@ Below is the planned timeline for providing features and achieving milestones fo
 
 ## Want to learn more?
 
-<gcds-text>Contact us to learn more about GC Sign in and how it could meet your service's needs.</gcds-text>
+<gcds-text>Contact us to learn more about CanadaLogin and how it could meet your service's needs.</gcds-text>
 
-<gcds-button type="link" value="Contact us" href="https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc" target="_blank">Contact us</gcds-button>
+<gcds-button type="link" value="Contact us" href="https://forms-formulaires.alpha.canada.ca/en/id/cmm9j3y9p01ioyl01zqcnmkz5" target="_blank">Contact us</gcds-button>

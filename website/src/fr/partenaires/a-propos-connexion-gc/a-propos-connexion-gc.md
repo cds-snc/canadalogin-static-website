@@ -1,5 +1,5 @@
 ---
-title: À propos de Connexion GC
+title: À propos de ConnexionCanada
 translationKey: aboutgcsignin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
@@ -12,9 +12,9 @@ eleventyNavigation:
   hideMain: false
 ---
 
-# À propos de Connexion GC
+# À propos de ConnexionCanada
 
-Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion unique simple et sécurisée pour accéder aux services gouvernementaux.
+ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexion unique simple et sécurisée pour accéder aux services gouvernementaux.
 
 ## À quoi s’attendre
 
@@ -27,7 +27,7 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Les utilisateurs et utilisatrices peuvent s’authentifier à l’aide d’un mot de passe et d’un code à usage unique envoyé par SMS ou par appel vocal (<gcds-link href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32612" external>niveau d’assurance 2 en matière de justificatifs</gcds-link>).
     </gcds-text>
     <gcds-text>
-      À terme, Connexion GC prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.
+      À terme, ConnexionCanada prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.
     </gcds-text>
     <gcds-text>
       De plus, les versions ultérieures pourraient prendre en charge la connexion avec des fournisseurs de justificatifs d’identité externes, tels que les identités numériques provinciales et territoriales.
@@ -98,7 +98,7 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Disponibilité
     </gcds-heading>
     <gcds-text>
-      Connexion GC s’engage à travailler de manière collaborative pour résoudre rapidement des problèmes, notamment en répondant aux questions et aux demandes de soutien durant les heures normales de travail (de 9 h à 17 h, heure de l’Est).
+      ConnexionCanada s’engage à travailler de manière collaborative pour résoudre rapidement des problèmes, notamment en répondant aux questions et aux demandes de soutien durant les heures normales de travail (de 9 h à 17 h, heure de l’Est).
     </gcds-text>
   </div>
   <div>
@@ -130,19 +130,19 @@ Connexion GC offre aux utilisateurs et utilisatrices une méthode de connexion 
       Sécurité
     </gcds-heading>
     <gcds-text>
-      Connexion GC offre un niveau d’assurance 1 en matière d’identité et un niveau d’assurance 2 en matière de justificatifs. Cela signifie que vous pouvez en toute sécurité fournir à votre clientèle un accès pour lui permettre de gérer, de soumettre et de conserver des renseignements classés au niveau <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne)</gcds-link>.
+      ConnexionCanada offre un niveau d’assurance 1 en matière d’identité et un niveau d’assurance 2 en matière de justificatifs. Cela signifie que vous pouvez en toute sécurité fournir à votre clientèle un accès pour lui permettre de gérer, de soumettre et de conserver des renseignements classés au niveau <gcds-link href="https://www.cyber.gc.ca/fr/orientation/annexe-4a-profil-1-protege-b-integrite-moyenne-disponibilite-moyenne-itsg-33" external>PBMM (Protégé B, Intégrité moyenne, Disponibilité moyenne)</gcds-link>.
     </gcds-text>
   </div>
 </gcds-grid>
 
-## À propos de l’équipe derrière Connexion GC
+## À propos de l’équipe derrière ConnexionCanada
 
 <gcds-text>
-  Connexion GC est un outil développé par le Service numérique canadien (SNC). Le SNC fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada (EDSC)</gcds-link>. Il cherche à contribuer à la réalisation des objectifs de l’<gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ambition-numerique-canada/ambition-numerique-canada-2022-23.html" external>Ambition numérique</gcds-link> et à améliorer l’expérience d’utilisation des services du gouvernement du Canada. Nous créons des produits numériques répondant aux problèmes auxquels font généralement face les services ministériels.
+  ConnexionCanada est un outil développé par le Service numérique canadien (SNC). Le SNC fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada (EDSC)</gcds-link>. Il cherche à contribuer à la réalisation des objectifs de l’<gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ambition-numerique-canada/ambition-numerique-canada-2022-23.html" external>Ambition numérique</gcds-link> et à améliorer l’expérience d’utilisation des services du gouvernement du Canada. Nous créons des produits numériques répondant aux problèmes auxquels font généralement face les services ministériels.
 </gcds-text>
 
 <gcds-text>
-  Connexion GC est un projet financé par le <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-fr.html" external>budget de 2024</gcds-link>, visant à offrir une porte d’entrée unique pour les programmes et services du gouvernement fédéral.
+  ConnexionCanada est un projet financé par le <gcds-link href="https://www.budget.canada.ca/2024/home-accueil-fr.html" external>budget de 2024</gcds-link>, visant à offrir une porte d’entrée unique pour les programmes et services du gouvernement fédéral.
 </gcds-text>
 
 <gcds-link display="block" href="https://numerique.canada.ca/a-propos/" external>Apprenez-en plus sur le SNC</gcds-link>

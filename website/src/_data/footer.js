@@ -1,7 +1,7 @@
 module.exports = {
   en: {
     contextual: {
-      heading: 'GC Sign in',
+      heading: 'CanadaLogin',
       aboutUsersUrl: '/en/users/what-is-gc-sign-in/',
       aboutPartnersUrl: '/en/partners/about-gc-sign-in/',
       usersUrl: '/en/users/',
@@ -10,7 +10,7 @@ module.exports = {
       termsPartnersUrl: '/en/partners/terms-and-conditions/',
       privacyPartnersUrl: '/en/partners/privacy/',
       contactUsersUrl: '/en/users/contact-us/',
-      contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc'
+      contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/en/id/cmm9j3y9p01ioyl01zqcnmkz5'
     },
     sub: {
       about: 'About Canada.ca',
@@ -31,7 +31,7 @@ module.exports = {
   },
   fr: {
     contextual: {
-      heading: 'Connexion GC',
+      heading: 'ConnexionCanada',
       aboutUsersUrl: '/fr/utilisateurs/a-propos/',
       aboutPartnersUrl: '/fr/partenaires/a-propos-de-connexion-gc/',
       usersUrl: '/fr/utilisateurs/',
@@ -40,7 +40,7 @@ module.exports = {
       termsPartnersUrl: '/fr/partenaires/avis/',
       privacyPartnersUrl: '/fr/partenaires/confidentialite/',
       contactUsersUrl: '/fr/utilisateurs/contactez-nous/',
-      contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/fr/id/cmfmxu3xh0000x401zperejwc'
+      contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j3y9p01ioyl01zqcnmkz5'
     },  
     sub: {
       about: 'À propos de Canada.ca',

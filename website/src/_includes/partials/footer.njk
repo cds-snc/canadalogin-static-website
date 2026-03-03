@@ -6,34 +6,34 @@
     {# ------ Landing Page ------- #}    
     {% if page.url == "/en/" or page.url == "/fr/" %}
         {% if locale == "en" %}
-            "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
-            "GC Sign in Partners": "{{ footer[locale].contextual.partnersUrl }}"
+            "CanadaLogin Users": "{{ footer[locale].contextual.usersUrl }}",
+            "CanadaLogin Partners": "{{ footer[locale].contextual.partnersUrl }}"
         {% else %}
-            "Utilisateurs et utilisatrices de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
-            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnersUrl }}"
+            "Utilisateurs et utilisatrices de ConnexionCanada": "{{ footer[locale].contextual.usersUrl }}",
+            "Partenaires de ConnexionCanada": "{{ footer[locale].contextual.partnersUrl }}"
         {% endif %}
 
     {# ------ Users Page ------- #}    
     {% elif page.url | startsWith("/en/users/") or page.url | startsWith("/fr/utilisateurs/")%}
         {% if locale == "en" %}
-            "GC Sign in Users": "{{ footer[locale].contextual.usersUrl }}",
-            "About GC Sign in": "{{ footer[locale].contextual.aboutUsersUrl }}",
+            "CanadaLogin Users": "{{ footer[locale].contextual.usersUrl }}",
+            "About CanadaLogin": "{{ footer[locale].contextual.aboutUsersUrl }}",
             "Contact us": "{{ footer[locale].contextual.contactUsersUrl }}"     
         {% else %}
-            "Utilisateurs et utilisatrices de Connexion GC": "{{ footer[locale].contextual.usersUrl }}",
-            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutUsersUrl }}",
+            "Utilisateurs et utilisatrices de ConnexionCanada": "{{ footer[locale].contextual.usersUrl }}",
+            "À propos de ConnexionCanada": "{{ footer[locale].contextual.aboutUsersUrl }}",
             "Nous contacter": "{{ footer[locale].contextual.contactUsersUrl }}"    
         {% endif %}
 
     {# ------ Partners Page ------- #}    
     {% else %}
         {% if locale == "en" %}
-            "GC Sign in Partners": "{{ footer[locale].contextual.partnersUrl }}",
-            "About GC Sign in": "{{ footer[locale].contextual.aboutPartnersUrl }}",
+            "CanadaLogin Partners": "{{ footer[locale].contextual.partnersUrl }}",
+            "About CanadaLogin": "{{ footer[locale].contextual.aboutPartnersUrl }}",
             "Contact us":  "{{ footer[locale].contextual.contactPartnersUrl }}"
         {% else %}
-            "Partenaires de Connexion GC": "{{ footer[locale].contextual.partnersUrl }}",
-            "À propos de Connexion GC": "{{ footer[locale].contextual.aboutPartnersUrl }}",
+            "Partenaires de ConnexionCanada": "{{ footer[locale].contextual.partnersUrl }}",
+            "À propos de ConnexionCanada": "{{ footer[locale].contextual.aboutPartnersUrl }}",
             "Nous contacter":  "{{ footer[locale].contextual.contactPartnersUrl }}"
         {% endif %} 
     {% endif %}

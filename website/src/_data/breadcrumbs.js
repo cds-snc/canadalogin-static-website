@@ -1,11 +1,11 @@
 module.exports = {
   en: {
-    linkText: 'GC Sign in',
+    linkText: 'CanadaLogin',
     url: '/en/',
     breadcrumb: 'breadcrumb',
   },
   fr: {
-    linkText: 'Connexion GC',
+    linkText: 'ConnexionCanada',
     url: '/fr',
     breadcrumb: "Fil d'Ariane",
   },

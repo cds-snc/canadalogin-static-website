@@ -5,7 +5,7 @@ layout: 'layouts/base.njk'
 eleventyNavigation:
   key: contactPartners
   title: Contact us
-  url: https://forms-formulaires.alpha.canada.ca/en/id/cmfmxu3xh0000x401zperejwc
+  url: https://forms-formulaires.alpha.canada.ca/en/id/cmm9j3y9p01ioyl01zqcnmkz5
   parent: partnersEN
   locale: en
   order: 3

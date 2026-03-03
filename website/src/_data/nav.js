@@ -1,11 +1,11 @@
 module.exports = {
   en: {
-    title: 'GC Sign in',
+    title: 'CanadaLogin',
     url: '/en',
     label: 'Main menu',
   },
   fr: {
-    title: 'Connexion GC',
+    title: 'ConnexionCanada',
     url: '/fr',
     label: 'Menu principal',
   },

@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # Problèmes liés à la création d’un profil
 
-Pour créer votre profil lors de votre inscription à Connexion GC, vous devrez fournir quelques renseignements de base, y compris le renseignement suivant&nbsp;:
+Pour créer votre profil lors de votre inscription à ConnexionCanada, vous devrez fournir quelques renseignements de base, y compris le renseignement suivant&nbsp;:
 
 - Nom
 

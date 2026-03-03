@@ -14,19 +14,19 @@ eleventyNavigation:
 
 # Access your settings
 
-To access your GC Sign in settings, first you will need to be signed in to your account. Refer to our guide on {% link links.howtosignin 'how to sign in' %} if you're not sure how to do this.
+To access your CanadaLogin settings, first you will need to be signed in to your account. Refer to our guide on {% link links.howtosignin 'how to sign in' %} if you're not sure how to do this.
 
-Once you're signed in, open the menu at the top of the page or look for a link in the menu bar that says "Manage your GC Sign in". Select this link. You will be sent to the GC Sign in settings portal, where you can manage your Security Settings and Personal Information.
+Once you're signed in, open the menu at the top of the page or look for a link in the menu bar that says "Manage your CanadaLogin". Select this link. You will be sent to the CanadaLogin settings portal, where you can manage your Security Settings and Personal Information.
 
 <!--
 ## Related topics
 
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
-    card-title="Get started with GC Sign in"
+    card-title="Get started with CanadaLogin"
     href="get-started-with-gc-sign-in"
     card-title-tag="h3"
-    description="Learn how to create your account with GC Sign in. Learn about authentication options and account features.">
+    description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
     card-title="Trouble signing up"

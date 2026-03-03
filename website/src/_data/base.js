@@ -1,10 +1,10 @@
 module.exports = {
   en: {
     skipTo: 'Skip to main content',
-    gcds: 'GC Sign in',
+    gcds: 'CanadaLogin',
   },
   fr: {
     skipTo: 'Passer au contenu principal',
-    gcds: 'Connexion GC',
+    gcds: 'ConnexionCanada',
   },
 };

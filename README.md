@@ -1,6 +1,6 @@
-# GC Sign in
+# CanadaLogin
 
-Landing page and central source of information for potential clients that are interested in GC Sign in.
+Landing page and central source of information for potential clients that are interested in CanadaLogin.
 
 
 ### Quick Start

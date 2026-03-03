@@ -20,9 +20,9 @@ eleventyNavigation:
 
 Before you contact us, read our guidance if you're having a problem with or want to learn more about:
 
-* {% link links.getstarted 'Get started with GC Sign in' %}
+* {% link links.getstarted 'Get started with CanadaLogin' %}
 * {% link links.troublesigningup 'Trouble signing up' %}
 * {% link links.troublesigningin 'Trouble signing in' %}
-* {% link links.manageyouraccount 'Managing your GC Sign in account' %}
+* {% link links.manageyouraccount 'Managing your CanadaLogin' %}
 * {% link links.howtokeepyouraccountsecure 'How to keep your account secure' %}
 * {% link links.whattodowhenyoufindsuspiciousactivity 'What to do when you find suspicious activity' %}

@@ -23,11 +23,11 @@ If you're seeing a message that your password is not valid try the following tro
    
 ### 1. Make sure your password meets all the requirements
    
-   GC Sign in passwords **must**:
+   CanadaLogin passwords **must**:
    
    - Be between 12 and 65 characters long.  
 
-   GC Sign in passwords **cannot**:
+   CanadaLogin passwords **cannot**:
 
    - Be common word or phrase, or a commonly used password (e.g., "password123").  
    

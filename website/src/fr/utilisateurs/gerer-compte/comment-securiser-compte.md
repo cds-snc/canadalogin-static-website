@@ -25,9 +25,9 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 - Activez la vérification en deux étapes pour votre compte de courrier électronique. Pour plus de renseignements sur la marche à suivre, consultez le centre d’aide de votre fournisseur de service de courrier électronique.
 - Ne laissez pas votre compte de courrier électronique connecté sur des appareils qui ne vous appartiennent pas (appareil en commun, l’appareil d’un ou d’une membre de votre famille, d’un ami ou d’une amie, ordinateurs publics, etc.).
 
-## Protégez votre mot de passe Connexion GC
+## Protégez votre mot de passe ConnexionCanada
 
-- Créez un mot de passe robuste pour votre compte Connexion GC. Pour obtenir des conseils sur la manière de vous y prendre, consultez notre guide « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} ». 
+- Créez un mot de passe robuste pour votre identifiant ConnexionCanada. Pour obtenir des conseils sur la manière de vous y prendre, consultez notre guide « {% linkRef links.createaccountFR 'comment-creer-un-mot-de-passe-robuste' 'Comment créer un mot de passe robuste' %} ». 
 - Si vous avez du mal à vous souvenir de votre mot de passe, nous vous recommandons d’utiliser un gestionnaire de mots de passe.
 - Ne communiquez votre mot de passe à personne.
 

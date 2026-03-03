@@ -14,49 +14,49 @@ eleventyNavigation:
 
 # Terms
 
-## About GC Sign in 
+## About CanadaLogin 
 
 <gcds-text>
-GC Sign in is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about {% link links.whatisgcsignin 'GC Sign in' %} or {% link links.usersEN 'get help' %}.
+CanadaLogin is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about {% link links.whatisgcsignin 'CanadaLogin' %} or {% link links.usersEN 'get help' %}.
 </gcds-text>
 <gcds-text>
-GC Sign in is managed by Canada Digital Service (CDS) / Employment and Social Development Canada (ESDC) for the Government of Canada. We do not use the personal information you provide for any purpose other than providing you with an account.
+CanadaLogin is managed by Canada Digital Service (CDS) / Employment and Social Development Canada (ESDC) for the Government of Canada. We do not use the personal information you provide for any purpose other than providing you with an account.
 </gcds-text>
 
 ### Agreement to these terms 
 <gcds-text>
-By creating, accessing or using a GC Sign in account, you agree to these Terms. GC Sign In is not mandatory, therefore, if you do not agree to these Terms, do not register for or use GC Sign in.  
+By creating, accessing or using a CanadaLogin, you agree to these Terms. CanadaLogin is not mandatory, therefore, if you do not agree to these Terms, do not register for or use CanadaLogin.  
 </gcds-text>
 <gcds-text>
-If you do not want to create or are unable to create a GC Sign in account, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.
+If you do not want to create or are unable to create a CanadaLogin, there may be other options to access a program or service. You may need to return to the program or service’s website to learn about these options.
 </gcds-text>
 
-### What GC Sign in provides
-Your account is a credential service that enables you to access Government of Canada programs and services. Your personal information is encrypted and stored in a secure database. Your personal information is not shared by default. Your personal information is only shared when you use GC Sign in to access a program or service. 
+### What CanadaLogin provides
+Your account is a credential service that enables you to access Government of Canada programs and services. Your personal information is encrypted and stored in a secure database. Your personal information is not shared by default. Your personal information is only shared when you use CanadaLogin to access a program or service. 
 
-### Your responsibilities when using GC Sign in
+### Your responsibilities when using CanadaLogin
 
 You must:
-- use GC Sign in only for lawful and authorized purposes
+- use CanadaLogin only for lawful and authorized purposes
 - keep your credentials confidential
-- access GC Sign in only on your own behalf
+- access CanadaLogin only on your own behalf
 - update your account information when it changes
 
 You must not:
 - share your credentials or create an account for someone else
 - allow someone else to use your account
 - attempt to bypass, disrupt, or test the security of this service
-- use GC Sign in to attempt fraud or unauthorized access
+- use CanadaLogin to attempt fraud or unauthorized access
 - use GC Sign for any other purpose other than the purpose for which it is offered
 
 **Your access may be suspended or removed if it is determined that you have not complied with these Terms.**
 
 ### Disclaimers
-- You understand and agree that CDS/ESDC provide GC Sign in “as is” and “as available”. This means we do our best to keep GC Sign in reliable, secure and up to date, but we cannot guarantee that it will always work perfectly and be available at all times.  We may update or change GC Sign in at any time. 
+- You understand and agree that CDS/ESDC provide CanadaLogin “as is” and “as available”. This means we do our best to keep CanadaLogin reliable, secure and up to date, but we cannot guarantee that it will always work perfectly and be available at all times.  We may update or change CanadaLogin at any time. 
 - You also understand and agree that CDS/ESDC is not responsible for any loss, damage or inconvenience that may happen because of: 
-  - Things outside of our control, such as internet, network or power problems that affect GC Sign in or related services
-  - Other websites that you visit through links from GC Sign in 
-  - Information you send to CDS/ESDC through GC Sign in 
+  - Things outside of our control, such as internet, network or power problems that affect CanadaLogin or related services
+  - Other websites that you visit through links from CanadaLogin 
+  - Information you send to CDS/ESDC through CanadaLogin 
   - Information you submit that is not accepted or processed 
   - Your breach of Terms 
 
@@ -68,7 +68,7 @@ By using GC Sign-in, you certify that the information you provide through this a
 When you create an account or sign in, your personal information is stored in a secure database for up to 2 years. It is shared with Government of Canada programs and services and protected according to their respective policies and processes.
 </gcds-text>
 <gcds-text>
-GC Sign in is managed by CDS/ESDC. Your personal information is administered in accordance with the Department of Employment and Social Development Act, Privacy Act and other applicable laws.  The department or agency responsible for the program or service you are accessing may be subject to additional legal requirements. You may need to return to the program or service's website to learn about these requirements.
+CanadaLogin is managed by CDS/ESDC. Your personal information is administered in accordance with the Department of Employment and Social Development Act, Privacy Act and other applicable laws.  The department or agency responsible for the program or service you are accessing may be subject to additional legal requirements. You may need to return to the program or service's website to learn about these requirements.
 </gcds-text>
 <gcds-text>
 You have the right to the protection, access, and correction of your personal information. To access and correct your personal information in your account, go to manage settings and security settings. It is your responsibility to update your personal information.
@@ -120,7 +120,7 @@ For more general information related to the Government of Canada’s web presenc
 
 #### We use an identity and access management solution 
 <gcds-text>
-GC Sign in has a contract with a third-party service provider, IBM Canada. Their solution enables you to use a single account to access multiple services and programs (single sign-on). Your account information: email, phone number, and other personal information you share are securely stored in an IBM Canada database. 
+CanadaLogin has a contract with a third-party service provider, IBM Canada. Their solution enables you to use a single account to access multiple services and programs (single sign-on). Your account information: email, phone number, and other personal information you share are securely stored in an IBM Canada database. 
 </gcds-text>
 <gcds-text>
 Our contract prevents them from using or disclosing your personal information for any other purpose. IBM Canada is not involved in any decision-making about you. The contract includes strong security and privacy provisions, including encryption, to ensure your account information is handled appropriately.
@@ -131,7 +131,7 @@ IBM Canada is headquartered in Markham, Ontario and its parent company, IBM, is 
 
 ### We use web analytics to help improve your experience  
 <gcds-text>
-GC Sign in uses a third-party service provider, Google Inc. (Google Analytics). The analytics collected do not include information that could identify you or your location, such as your Internet Protocol (IP) address.
+CanadaLogin uses a third-party service provider, Google Inc. (Google Analytics). The analytics collected do not include information that could identify you or your location, such as your Internet Protocol (IP) address.
 </gcds-text>
 <gcds-text>
 Web analytics show us measures such as the type of browser used to visit the website, the pages visited, and the links clicked. This information helps us learn how our website is being used and allows us to improve your experience.
@@ -142,7 +142,7 @@ Google Inc. is headquartered in Mountain View, California. As such, the solution
 
 ### Changes to these Terms
 <gcds-text>
-These Terms may be updated at any time. Updated Terms take effect once posted online. You will be required to accept updated Terms to continue using GC Sign in.
+These Terms may be updated at any time. Updated Terms take effect once posted online. You will be required to accept updated Terms to continue using CanadaLogin.
 </gcds-text>
 <gcds-text>
 These Terms are governed, interpreted and construed by the laws of Canada and the province of Ontario without reference to conflict of law rules.
