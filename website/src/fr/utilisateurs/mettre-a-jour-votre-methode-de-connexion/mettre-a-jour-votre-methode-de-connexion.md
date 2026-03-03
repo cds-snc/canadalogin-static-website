@@ -12,7 +12,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_en['updating-your-sign-in-method-to-canadalogin'] %}
+{% set wpPage = articles_fr['mettre-a-jour-votre-methode-de-connexion'] %}
 
 {% if wpPage %}
   <h1>{{ wpPage.title.rendered | safe }}</h1>
