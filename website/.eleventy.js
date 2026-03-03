@@ -8,6 +8,7 @@ const svgContents = require('eleventy-plugin-svg-contents');
 const codeClipboard = require('eleventy-plugin-code-clipboard');
 const { getLatestCdnVersion } = require('./utils/cdn-info');
 const { DateTime } = require('luxon');
+const cheerio = require('cheerio');
 
 const contextMenu = require('./utils/context-menu');
 const markdownAnchor = require('./utils/anchor');
@@ -317,6 +318,66 @@ module.exports = function (eleventyConfig) {
         date: item.date,
       };
     });
+  });
+
+  eleventyConfig.addTransform("gcdsAlertTransform", function (content) {
+    if (this.outputPath && this.outputPath.endsWith(".html")) {
+
+      const alertPattern = /<details class="alert alert-([^"]+)" open>\s*<summary class="h3"><h3>([^<]+)<\/h3><\/summary>([\s\S]+?)<\/details>/g;
+
+      return content.replace(alertPattern, (match, type, title, body) => {
+        return `
+        <section class="mt-300 mb-300">
+          <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
+          <gcds-text>${body.trim()}</gcds-text>
+          </gcds-notice>
+        </section>
+        `;
+      });
+
+    }
+    return content;
+  });
+
+  eleventyConfig.addTransform("gcdsAlertTransform", function (content) {
+    if (this.outputPath && this.outputPath.endsWith(".html")) {
+
+      const alertPattern = /<details class="alert alert-([^"]+)" open>\s*<summary class="h3"><h3>([^<]+)<\/h3><\/summary>([\s\S]+?)<\/details>/g;
+
+      return content.replace(alertPattern, (match, type, title, body) => {
+        return `
+        <section class="mt-300 mb-300">
+          <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
+          <gcds-text>${body.trim()}</gcds-text>
+          </gcds-notice>
+        </section>
+        `;
+      });
+
+    }
+    return content;
+  });
+
+  eleventyConfig.addTransform("listClassTransform", function (content) {
+    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    const dom = cheerio.load(content);
+
+    dom("ul.wp-block-list").each(function () {
+      dom(this)
+        .removeClass("wp-block-list")
+        .addClass("list-disc");
+    });
+
+    dom("ol.wp-block-list").each(function () {
+      dom(this)
+        .removeClass("wp-block-list")
+        .addClass("list-decimal");
+    });
+
+    return dom.html();
   });
 
   return {
