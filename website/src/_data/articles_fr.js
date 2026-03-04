@@ -10,8 +10,8 @@ module.exports = async function () {
     pages.forEach(page => {
         bySlug[page.slug] = page;
     });
-    console.log(`Fetched ${pages.length} articles from Articles API.`);
-    console.log("Articles by slug:", Object.keys(bySlug));
-    console.log("Articles by slug:", bySlug);
+    // console.log(`Fetched ${pages.length} articles from Articles API.`);
+    console.log("French Articles by slug:", Object.keys(bySlug));
+
     return bySlug;
 };

@@ -361,6 +361,38 @@ module.exports = function (eleventyConfig) {
     return dom.html();
   });
 
+  eleventyConfig.addTransform("wpColumnsToGcdsGrid", function (content) {
+
+    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    const dom = cheerio.load(content);
+
+    dom(".wp-block-columns").each(function () {
+
+      const grid = dom("<gcds-grid></gcds-grid>");
+
+      grid.attr("columns-desktop", "1fr 1fr");
+      grid.attr("columns-tablet", "1fr 1fr");
+      grid.attr("columns", "1fr");
+
+      dom(this)
+        .find(".wp-block-column")
+        .each(function () {
+
+          const columnContent = dom(this).html();
+          const column = dom("<div></div>").html(columnContent);
+
+          grid.append(column);
+        });
+
+      dom(this).replaceWith(grid);
+    });
+
+    return dom.html();
+  });
+
   return {
     pathPrefix: process.env.PATH_PREFIX || '/',
     dir: {
