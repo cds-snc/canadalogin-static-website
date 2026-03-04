@@ -16,8 +16,8 @@ eleventyNavigation:
 ## On this page
 
 <ul class="list-disc mb-300">
-  <li>{% link '#before-you-start' 'Limitations of old sign-in methods' %}</li>
-  <li>{% link '#steps-to-create-an-account' 'Benefits of using CanadaLogin' %}</li>
+  <li>{% link '#limitations-of-existing-signin-methods' 'Limitations of old sign-in methods' %}</li>
+  <li>{% link '#benefits-of-using-canadalogin' 'Benefits of using CanadaLogin' %}</li>
 </ul>
 
 ## Limitations of existing sign-in methods
