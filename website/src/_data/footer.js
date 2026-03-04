@@ -33,7 +33,7 @@ module.exports = {
     contextual: {
       heading: 'ConnexionCanada',
       aboutUsersUrl: '/fr/utilisateurs/a-propos/',
-      aboutPartnersUrl: '/fr/partenaires/a-propos-de-connexion-gc/',
+      aboutPartnersUrl: '/fr/partenaires/a-propos-de-connexioncanada/',
       usersUrl: '/fr/utilisateurs/',
       partnersUrl: '/fr/partenaires/',
       termsUsersUrl: '/fr/utilisateurs/avis/',

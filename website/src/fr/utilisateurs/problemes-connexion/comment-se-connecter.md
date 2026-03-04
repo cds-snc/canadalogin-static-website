@@ -46,7 +46,7 @@ Si vous n’avez pas encore terminé le processus d’inscription, il se peut qu
     </gcds-card>
     <gcds-card
     card-title="Se lancer avec ConnexionCanada"
-    href="se-lancer-connexion-gc"
+    href="se-lancer-connexioncanada"
     card-title-tag="h3"
     description="Apprenez comment créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
     </gcds-card>
