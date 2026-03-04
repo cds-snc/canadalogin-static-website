@@ -27,22 +27,13 @@ Some services will start using CanadaLogin before others. Until every service us
 
 ## How to update your sign-in method to CanadaLogin
 
-- Sign in to a migrating service.
-- Select the sign-in method you used the last time you signed in to the service. You’ll see instructions to update your sign-in method. Follow the steps:
-Create a CanadaLogin or use your existing CanadaLogin.
-Sign in with GCKey or Interac sign-in. Select the method you used the last time you signed in to this account. 
-If there was only 1 old sign-in method, you may not have to choose. 
-You may have to complete GCKey’s or the Interac sign-in partner’s multi-factor authentication.
-You can now use CanadaLogin to access your account. You can use the same CanadaLogin to accessing other participating services.
-
 <ul class="list-disc mb-300">
   <li>Sign in to a migrating service.</li>
   <li>Select the sign-in method you used the last time you signed in to the service. You’ll see instructions to update your sign-in method. Follow the steps:</li>
-  <ol>
+  <ol type="1">
   <li>Create a CanadaLogin or use your existing CanadaLogin.</li>
-    <li>Sign in with GCKey or Interac sign-in. Select the method you used the last time you signed in to this account.</li>
-    <li>{% link links.whattodowhenyoufindsuspiciousactivity 'What to do when you find suspicious activity' %}</li>
-    <ul>
+  <li>Sign in with GCKey or Interac sign-in. Select the method you used the last time you signed in to this account.</li>
+    <ul class="list-disc">
       <li>If there was only 1 old sign-in method, you may not have to choose.</li>
       <li>You may have to complete GCKey’s or the Interac sign-in partner’s multi-factor authentication.</li>
     </ul>
