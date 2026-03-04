@@ -29,7 +29,7 @@ Sign-in methods like GCKey offer limited security. It cannot prove that you are 
 While Interac sign-in partners are an existing sign-in method, it will be temporarily deactivated while partners transition over to CanadaLogin. However, Interac sign-in partners will continue to be a sign-in method for users.
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
-    <gcds-text>{% link links.issuespassword 'How to update your sign-in method' %}</gcds-text>
+    <gcds-text>{% link links.updatingyoursigninmethods 'How to update your sign-in method' %}</gcds-text>
 </gcds-notice>
 
 ## Benefits of using CanadaLogin
