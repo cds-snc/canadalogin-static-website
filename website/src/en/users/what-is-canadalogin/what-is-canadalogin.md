@@ -1,10 +1,10 @@
 ---
 title: What is CanadaLogin
-translationKey: whatisgcsignin
+translationKey: whatiscanadalogin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: whatisgcsigninEn
+  key: whatiscanadaloginEn
   title: About
   locale: en
   parent: usersEN

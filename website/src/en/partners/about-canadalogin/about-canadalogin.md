@@ -1,10 +1,10 @@
 ---
 title: About CanadaLogin
-translationKey: aboutgcsignin
+translationKey: aboutcanadalogin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: aboutgcsigninEN
+  key: aboutcanadaloginEN
   title: About
   parent: partnersEN
   locale: en

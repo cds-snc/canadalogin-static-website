@@ -43,7 +43,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </li>
 </gcds-grid>
 
-<gcds-button type="link" value="Découvrez ConnexionCanada" href="a-propos-connexion-gc">
+<gcds-button type="link" value="Découvrez ConnexionCanada" href="a-propos-connexioncanada">
   Découvrez ConnexionCanada&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 

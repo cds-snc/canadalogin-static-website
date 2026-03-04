@@ -2,8 +2,8 @@ module.exports = {
   en: {
     contextual: {
       heading: 'CanadaLogin',
-      aboutUsersUrl: '/en/users/what-is-gc-sign-in/',
-      aboutPartnersUrl: '/en/partners/about-gc-sign-in/',
+      aboutUsersUrl: '/en/users/what-is-canadalogin/',
+      aboutPartnersUrl: '/en/partners/about-canadalogin/',
       usersUrl: '/en/users/',
       partnersUrl: '/en/partners/',
       termsUsersUrl: '/en/users/terms/',
@@ -33,7 +33,7 @@ module.exports = {
     contextual: {
       heading: 'ConnexionCanada',
       aboutUsersUrl: '/fr/utilisateurs/a-propos/',
-      aboutPartnersUrl: '/fr/partenaires/a-propos-de-connexion-gc/',
+      aboutPartnersUrl: '/fr/partenaires/a-propos-de-connexioncanada/',
       usersUrl: '/fr/utilisateurs/',
       partnersUrl: '/fr/partenaires/',
       termsUsersUrl: '/fr/utilisateurs/avis/',
