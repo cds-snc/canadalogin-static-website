@@ -18,7 +18,7 @@ eleventyNavigation:
 
 <ul class="list-disc mb-300">
   <li>{% link '#avant-de-vous-lancer' 'Avant de vous lancer' %}</li>
-  <li>{% link '#etapes-de-la-creation-de-compte' 'Étapes de la création de compte' %}</li>
+  <li>{% link '#etapes-de-la-creation-de-compte' 'Étapes de la création d’identifiant' %}</li>
 </ul>
 
 ## Avant de vous lancer
@@ -34,7 +34,7 @@ Nous vous demanderons également les éléments suivants :
 - Votre nom complet
 - La langue officielle dans laquelle vous souhaitez communiquer
 
-## Étapes de la création de compte
+## Étapes de la création d’identifiant
 
 Au moment de créer un identifiant ConnexionCanada, vous devrez suivre ces étapes :
 
@@ -47,7 +47,7 @@ Dans le cas contraire, pour commencer la création d’un identifiant ConnexionC
 <!-- Remove reference of other services in French until V2. -->
 
 1. Rendez-vous sur la page Web d’un de nos services actifs et cliquez sur « Connectez-vous avec ConnexionCanada ». Cela vous conduira à la page de connexion. 
-2. Rendez-vous au bas de cette page et sélectionnez « Créer un compte ». 
+2. Rendez-vous au bas de cette page et sélectionnez « Créer un identifiant ». 
 3. Suivez le reste des étapes ci-dessous pour créer un identifiant ConnexionCanada.
 
 ### 2. Lisez l’avis de confidentialité
@@ -71,22 +71,11 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
 
 ### 4. Entrez votre adresse courriel et choisissez votre langue de communication
 <gcds-text>
-Nous vous recommandons de choisir une adresse courriel à laquelle vous aurez toujours accès.
-</gcds-text>
-<gcds-text>
-Si vous accédez à un service pour votre utilisation personnelle, nous vous recommandons d’utiliser une adresse courriel personnelle à laquelle vous avez accès. 
-</gcds-text>
-<gcds-text>
-Si vous accédez à un service pour le compte d’une entreprise, nous vous recommandons d’utiliser une adresse courriel professionnelle à laquelle vous avez accès. 
-</gcds-text>
-<gcds-text>
-Il est possible de posséder plusieurs comptes ConnexionCanada (un compte personnel et un compte d’entreprise, par exemple).
-</gcds-text>
-
+NHe said
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « ConnexionCanada ».
 
 - Nous vous enverrons un courriel contenant un code à usage unique à six chiffres. Ce courriel peut mettre quelques minutes à vous parvenir. Revenez à la page Web de ConnexionCanada et entrez le code à usage unique.
-- Une adresse courriel ne peut être associée qu’à un seul compte. Si vous essayez d’utiliser une adresse courriel qui est déjà associée à un identifiant ConnexionCanada, au lieu de recevoir un code, vous recevrez un courriel à l’adresse en question vous informant de la situation. Si votre compte est verrouillé et que vous ne pouvez pas y accéder, vous pourriez devoir procéder à la récupération de votre compte. Si vous ne pouvez pas récupérer votre compte, vous devrez créer un autre compte en utilisant une adresse courriel différente.
+- Une adresse courriel ne peut être associée qu’à un seul identifiant. Si vous essayez d’utiliser une adresse courriel qui est déjà associée à un identifiant ConnexionCanada, au lieu de recevoir un code, vous recevrez un courriel à l’adresse en question vous informant de la situation. Si votre identifiant est verrouillé et que vous ne pouvez pas y accéder, vous pourriez devoir procéder à la récupération de votre identifiant. Si vous ne pouvez pas récupérer votre identifiant, vous devrez créer un autre identifiant en utilisant une adresse courriel différente.
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Guides connexes">
   <ul>
