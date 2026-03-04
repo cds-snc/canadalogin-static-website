@@ -1,9 +1,9 @@
 {
   "locale": "fr",
   "links": {
-    "whatisgcsigninFR": "/fr/utilisateurs/a-propos/",
+    "whatiscanadaloginFR": "/fr/utilisateurs/a-propos/",
     "aboutcanadacaFR": "https://conception.canada.ca/a-propos/",
-    "aboutgcsigninFR": "/fr/partenaires/a-propos-connexion-gc/",
+    "aboutcanadaloginFR": "/fr/partenaires/a-propos-connexion-gc/",
     "accessyoursettingsFR": "/fr/utilisateurs/gerer-compte/acceder-parametres/",
     "availableservicesFR": "/fr/available-services/",    
     "contactUsersFR": "/fr/utilisateurs/nous-contacter/",

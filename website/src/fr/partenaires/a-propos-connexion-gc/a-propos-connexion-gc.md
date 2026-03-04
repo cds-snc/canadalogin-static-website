@@ -1,10 +1,10 @@
 ---
 title: À propos de ConnexionCanada
-translationKey: aboutgcsignin
+translationKey: aboutcanadalogin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: aboutgcsigninFR
+  key: aboutcanadaloginFR
   title: À propos
   parent: partnersFR
   locale: fr

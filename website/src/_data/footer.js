@@ -2,8 +2,8 @@ module.exports = {
   en: {
     contextual: {
       heading: 'CanadaLogin',
-      aboutUsersUrl: '/en/users/what-is-gc-sign-in/',
-      aboutPartnersUrl: '/en/partners/about-gc-sign-in/',
+      aboutUsersUrl: '/en/users/what-is-canadalogin/',
+      aboutPartnersUrl: '/en/partners/about-canadalogin/',
       usersUrl: '/en/users/',
       partnersUrl: '/en/partners/',
       termsUsersUrl: '/en/users/terms/',

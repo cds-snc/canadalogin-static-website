@@ -19,7 +19,7 @@ When you try to access a participating program or service you’ll be prompted t
 CanadaLogin before you can access the service.
 
 <ul class="list-disc mb-300">
-  <li>{% link links.whatisgcsignin 'What is CanadaLogin?' %}</li>
+  <li>{% link links.whatiscanadalogin 'What is CanadaLogin?' %}</li>
   <li>{% link links.createaccount 'How to create a CanadaLogin' %}</li>
   <li>{% link links.twostepverificationmethods 'What is 2-step verification?' %}</li>
 </ul>
