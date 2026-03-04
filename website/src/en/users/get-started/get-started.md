@@ -17,8 +17,8 @@ CanadaLogin is a secure and easy way to access Government of Canada services onl
 Participating programs and services will be able to use CanadaLogin to help protect their users. When you try to access a participating program or service you’ll be prompted to sign in or create an account with CanadaLogin before you can access the service.
 
 <ul class="list-disc mb-300">
-  <li>{% link links.createaccount 'How to create a CanadaLogin' %}</li>
+  <li>{% link links.createaccount 'How to create a CanadaLogin account' %}</li>
   <li>{% link links.twostepverificationmethods 'What is 2-step verification?' %}</li>
-  <li>{% link links.whatisgcsignin 'Updating your sign-in method to CanadaLogin' %}</li>
-  <li>{% link links.whatisgcsignin 'How to set up multiple CanadaLogin' %}</li>
+  <li>{% link links.updatingyoursigninmethod 'Updating your sign-in method to CanadaLogin' %}</li>
+  <li>{% link links.howtosetupmultiplecanadalogin 'How to set up multiple CanadaLogin' %}</li>
 </ul>
