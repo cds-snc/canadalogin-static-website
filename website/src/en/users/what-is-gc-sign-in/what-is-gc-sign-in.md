@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # What is CanadaLogin?
 
-## One account and password
+## One username and password
 
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>

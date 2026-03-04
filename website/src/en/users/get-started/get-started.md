@@ -15,7 +15,7 @@ eleventyNavigation:
 CanadaLogin is a secure and easy way to access Government of Canada services online.
 
 Participating programs and services use CanadaLogin to help protect their users.
-When you try to access a participating program or service you’ll be prompted to sign in or create an account with
+When you try to access a participating program or service you’ll be prompted to sign in or create a
 CanadaLogin before you can access the service.
 
 <ul class="list-disc mb-300">
