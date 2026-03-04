@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.15](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.14...v1.2.15) (2026-03-04)
+
+
+### Bug Fixes
+
+* Fix URL paths to CanadaLogin ([#622](https://github.com/cds-snc/gc-signin-static-website/issues/622)) ([a9bd8d7](https://github.com/cds-snc/gc-signin-static-website/commit/a9bd8d79599211c7850c4a1856167aecbdcb9af7))
+
 ## [1.2.14](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.13...v1.2.14) (2026-03-03)
 
 
