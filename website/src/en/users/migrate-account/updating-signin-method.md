@@ -30,7 +30,7 @@ Some services will start using CanadaLogin before others. Until every service us
 <ul class="list-disc mb-300">
   <li>Sign in to a migrating service.</li>
   <li>Select the sign-in method you used the last time you signed in to the service. You’ll see instructions to update your sign-in method. Follow the steps:</li>
-  <ol type="1">
+  <ol class="list-decimal">
   <li>Create a CanadaLogin or use your existing CanadaLogin.</li>
   <li>Sign in with GCKey or Interac sign-in. Select the method you used the last time you signed in to this account.</li>
     <ul class="list-disc">
