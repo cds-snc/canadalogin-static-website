@@ -17,7 +17,7 @@ eleventyNavigation:
 ## On this page
 
 <ul class="list-disc mb-300">
-  <li>{% link '#before-you-start' 'Using CanadaLogin for personal use and professional use' %}</li>
+  <li>{% link '#using-canadalogin-for-personal-and-professional-use' 'Using CanadaLogin for personal use and professional use' %}</li>
   <li>{% link '#steps-to-create-an-account' 'Using multiple CanadaLogins to access role-based accounts' %}</li>
 </ul>
 
