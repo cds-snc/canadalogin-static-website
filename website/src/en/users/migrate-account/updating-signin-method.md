@@ -18,7 +18,7 @@ CanadaLogin is replacing the following sign-in methods:
 - Interac sign-in partners (banks and credit unions)
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
-  <gcds-text>{% link links.issuespassword 'Why CanadaLogin is replacing GCKey and Interac sign-in partners' %}</gcds-text>
+  <gcds-text>{% link links.whycanadaloginisreplacingpartners 'Why CanadaLogin is replacing GCKey and Interac sign-in partners' %}</gcds-text>
 </gcds-notice>
 
 Some services will start using CanadaLogin before others. Until every service uses CanadaLogin, you may need to continue using other sign-in methods.
@@ -45,7 +45,7 @@ Some services will start using CanadaLogin before others. Until every service us
 
 You can now access your existing account on the service. You’ll only use CanadaLogin to access the service going forward.
 
-## Issues with updating your sign-in method to CanadaLogin
+## Issues with updating your sign&#8209;in method to CanadaLogin
 
 ### If your account is not found
 
@@ -57,7 +57,7 @@ If you have previously signed in to this service, and you migrated the wrong acc
 
 It is possible that you may not have an account with this program or service, or the account is expired. If that is the case, you will need to create a new account with the program or service you are trying to access.
 
-### If your old sign-in method has expired
+### If your old sign&#8209;in method has expired
 
 If you have not signed in with your Interac sign-in partner in over a year, your sign-in method may have expired.
 
