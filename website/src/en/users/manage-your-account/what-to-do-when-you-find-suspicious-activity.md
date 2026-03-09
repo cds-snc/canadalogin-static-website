@@ -28,7 +28,7 @@ If you think someone changed your CanadaLogin info, like your password or 2-step
   <li>{% linkRef links.problemssigninginwith2stepverification 'cannot-access-your-phone' 'Recover your 2-step verification' %}</li>
 </ul>
 
-### 2. Review your settings and revert any changes that were made to your account information
+### 2. Review your settings and revert any changes that were made to your CanadaLogin information
   1. Correct the setting immediately if you find unfamiliar changes to your CanadaLogin:
       - Email address
       - Password
@@ -36,7 +36,7 @@ If you think someone changed your CanadaLogin info, like your password or 2-step
 
   2. Review the programs/services you use CanadaLogin on to correct any changes that were made to your information
 
-### 3. Ensure you are following safety practices for good account security
+### 3. Ensure you are following safety practices for good CanadaLogin security
 
 <ul class="list-disc mb-300">
   <li>Have backup 2-step verification phone numbers on your CanadaLogin. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.</li>
@@ -50,7 +50,7 @@ If you think someone changed your CanadaLogin info, like your password or 2-step
 
 ### 1. Secure your email
 
-Your email address is used to help recover your account, so it's very important to keep it secure. We recommend taking the following steps on your **email account** to keep your CanadaLogin safe:
+Your email address is used to help recover your CanadaLogin, so it's very important to keep it secure. We recommend taking the following steps on your **email account** to keep your CanadaLogin safe:
 
 - Change your password.
 - Add a 2-step verification method if you do not have one currently.

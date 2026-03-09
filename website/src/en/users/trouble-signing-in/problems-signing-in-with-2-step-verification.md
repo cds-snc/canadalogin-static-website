@@ -61,4 +61,4 @@ If you're not receiving verification codes to your phone, try the following:
   - On the “check your phone” page, select the “Try another way” link.
   - Select a different phone number or verification method.
 
-- If you still are not receiving codes and you do not have an alternative number set up in your account that you can use to sign in, you might need to {% link links.problemssigninginwith2stepverification 'recover your phone number' %}.
+- If you still are not receiving codes and you do not have an alternative number set up in your CanadaLogin that you can use to sign in, you might need to {% link links.problemssigninginwith2stepverification 'recover your phone number' %}.
