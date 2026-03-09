@@ -24,7 +24,7 @@ Once you're signed in, open the menu at the top of the page or look for a link i
 <gcds-grid columns-desktop="1fr 1fr 1fr" columns-tablet="1fr 1fr 1fr" columns="1fr">
     <gcds-card
     card-title="Get started with CanadaLogin"
-    href="get-started-with-gc-sign-in"
+    href="get-started-with-canadalogin"
     card-title-tag="h3"
     description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>

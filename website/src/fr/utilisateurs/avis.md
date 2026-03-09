@@ -16,7 +16,7 @@ eleventyNavigation:
 
 ## À propos de ConnexionCanada  
 <gcds-text>
-ConnexionCanada est une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada. Cet outil vous permet d’utiliser un seul et même ensemble d’identifiants pour vous connecter à plusieurs services. Apprenez-en plus sur {% link links.whatisgcsigninFR 'ConnexionCanada' %} ou {% link links.usersFR 'obtenez de l’aide' %}.  
+ConnexionCanada est une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada. Cet outil vous permet d’utiliser un seul et même ensemble d’identifiants pour vous connecter à plusieurs services. Apprenez-en plus sur {% link links.whatiscanadaloginFR 'ConnexionCanada' %} ou {% link links.usersFR 'obtenez de l’aide' %}.  
 </gcds-text>
 <gcds-text>
 ConnexionCanada est un outil géré par le Service numérique canadien (« SNC »)/Emploi et Développement social Canada (« EDSC ») pour le gouvernement du Canada. Nous n’utilisons pas les renseignements personnels que vous fournissez à d’autres fins que celle de vous fournir un compte.   

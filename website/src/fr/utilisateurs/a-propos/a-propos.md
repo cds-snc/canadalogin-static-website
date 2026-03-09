@@ -1,10 +1,10 @@
 ---
 title: Qu’est-ce que ConnexionCanada?
-translationKey: whatisgcsignin
+translationKey: whatiscanadalogin
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: whatisgcsigninFR
+  key: whatiscanadaloginFR
   title: À propos
   locale: fr
   parent: usersFR

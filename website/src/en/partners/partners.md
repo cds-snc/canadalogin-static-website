@@ -38,7 +38,7 @@ A secure and easy way to access Government of Canada programs and services onlin
   </li>
 </gcds-grid>
 
-<gcds-button type="link" value="Learn more" href="about-gc-sign-in">
+<gcds-button type="link" value="Learn more" href="about-canadalogin">
   Learn about CanadaLogin&nbsp;<gcds-icon name="chevron-right"></gcds-icon>
 </gcds-button>
 

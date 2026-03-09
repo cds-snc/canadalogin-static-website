@@ -46,4 +46,4 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Monitor for suspicious activity
 
-- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity 'secure-your-gc-sign-in-account' 'these steps to secure your account' %}.
+- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity 'secure-your-canadalogin' 'these steps to secure your account' %}.

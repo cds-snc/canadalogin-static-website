@@ -48,7 +48,7 @@ If you did not complete the sign up process already, you might be prompted to re
     </gcds-card>
     <gcds-card
     card-title="Get started with CanadaLogin"
-    href="get-started-with-gc-sign-in"
+    href="get-started-with-canadalogin"
     card-title-tag="h3"
     description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
