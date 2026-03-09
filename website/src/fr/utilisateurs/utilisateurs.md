@@ -23,7 +23,7 @@ Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L�
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr">
     <gcds-card
     card-title="Se lancer avec ConnexionCanada"
-    href="se-lancer-connexion-gc"
+    href="se-lancer-connexioncanada"
     card-title-tag="h3"
     description="Découvrez comment vous pourrez créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des identifiants.">
     </gcds-card>
