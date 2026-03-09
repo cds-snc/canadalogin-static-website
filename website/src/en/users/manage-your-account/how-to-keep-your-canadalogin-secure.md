@@ -17,7 +17,7 @@ To keep your CanadaLogin secure, we recommend the following safety practices:
 
 ## Keep your email account safe
 
-Your email address is used for recovering your account if you get locked out, so you need to make sure no one else can access it by following these tips:
+Your email address is used for recovering your CanadaLogin if you get locked out, so you need to make sure no one else can access it by following these tips:
 
 - Make sure the password you use to sign in to your email is unique — do not use the same password you use on other websites (e.g. your bank, social media)
 - Do not share your email password with anyone.
@@ -32,8 +32,8 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Keep the phone you use for 2-step verification secure
 
-- To make sure you never get locked out, we recommend adding multiple 2-step verification phone numbers to your account. For help with this, refer to our guide on how to {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'add a 2-step verification phone number' %}.
-- You will need this phone number to get into your account, so make sure it's a number that's secure, and that you will be able to access in the future.
+- To make sure you never get locked out, we recommend adding multiple 2-step verification phone numbers to your CanadaLogin. For help with this, refer to our guide on how to {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'add a 2-step verification phone number' %}.
+- You will need this phone number to get into your CanadaLogin, so make sure it's a number that's secure, and that you will be able to access in the future.
 
 ## Be careful where you sign in from
 
@@ -46,4 +46,4 @@ Your email address is used for recovering your account if you get locked out, so
 
 ## Monitor for suspicious activity
 
-- Pay attention to email notifications you may receive from us saying that a change has been made to your account — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity 'secure-your-canadalogin' 'these steps to secure your account' %}.
+- Pay attention to email notifications you may receive from us saying that a change has been made to your CanadaLogin — if you did not make the change, follow {% linkRef links.whattodowhenyoufindsuspiciousactivity 'secure-your-canadalogin' 'these steps to secure your CanadaLogin' %}.
