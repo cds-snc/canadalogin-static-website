@@ -25,7 +25,7 @@ eleventyNavigation:
 
 4. Enter your password.
 
-5. If you have more than one verification method registered to your account, you will be prompted to choose one.
+5. If you have more than one verification method registered to your CanadaLogin, you will be prompted to choose one.
 
 6. Check your phone. You should have received a text message or a voice call with a 6-digit code. Enter the code into the webpage.
 
@@ -56,7 +56,7 @@ If you did not complete the sign up process already, you might be prompted to re
     card-title="Trouble signing up"
     href="trouble-signing-up"
     card-title-tag="h3"
-    description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues.">
+    description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve CanadaLogin-creation issues.">
     </gcds-card>
 </gcds-grid>
 -->

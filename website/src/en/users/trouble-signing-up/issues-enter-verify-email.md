@@ -56,7 +56,7 @@ If you cannot find the one-time code for CanadaLogin your email inbox, try these
 
 ### 3. Search your inbox
 
-- Use search function in your email to look for "CanadaLogin verification code".
+- Use the search function in your email to look for "CanadaLogin verification code".
 
 ### 4. Wait a few minutes and check again
 
@@ -92,17 +92,17 @@ If it says your one-time code is invalid, try these troubleshooting steps:
 
 ## It says your email is already associated with a CanadaLogin
 
-If you have received an error message stating that your email is already associated with an account on
+If you have received an error message stating that your email is already associated with a CanadaLogin on
 CanadaLogin, here’s what it means and what you can do.
 
 ### What it means
 
 Your email address is already linked to a CanadaLogin. This could be because you previously created
-an account, or because someone else used or is using your email in error.
+a CanadaLogin, or because someone else used or is using your email in error.
 
 ### What you can do
 
-#### 1. If you previously created this account, sign in:
+#### 1. If you previously created a CanadaLogin, sign in:
 
 - Go to the sign-in page and sign in using the email address you used previously
 - If you’ve forgotten your password, use the “Forgot Password” option to reset it.
@@ -119,9 +119,9 @@ an account, or because someone else used or is using your email in error.
 #### 2. If you were trying to create a new account:
 
 - Email addresses can only be linked to one CanadaLogin. You will need to use a different
-  email address to create a new account.
+  email address to create a new CanadaLogin.
 
-#### 3. If you think someone may be trying to create an account with your email, we recommend:
+#### 3. If you think someone may be trying to create a CanadaLogin with your email, we recommend:
 
 - Changing the password on your email account to make sure it’s secure.
 - Not leaving your email signed in on shared devices.

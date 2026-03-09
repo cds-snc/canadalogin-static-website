@@ -36,12 +36,12 @@ Accessing government services is now simpler and more secure with clear step-by-
     card-title="Trouble signing up"
     href="trouble-signing-up"
     card-title-tag="h3"
-    description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve account-creation issues.">
+    description="Can’t verify your email? Not sure what makes a strong password? We’ll help you resolve CanadaLogin-creation issues.">
     </gcds-card>
   <gcds-card
     card-title="Trouble signing in"
     href="trouble-signing-in"
     card-title-tag="h3"
-    description="Forgot your password? Locked out of your account? We’ll help you resolve access issues.">
+    description="Forgot your password? Locked out of your CanadaLogin? We’ll help you resolve access issues.">
     </gcds-card>
 </gcds-grid>
