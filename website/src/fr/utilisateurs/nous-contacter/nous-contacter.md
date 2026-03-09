@@ -24,5 +24,5 @@ Avant de nous contacter, reportez-vous à nos guides si vous avez un problème a
 * {% link links.troublesigningupFR 'Problèmes liés à l’inscription' %}
 * {% link links.troublesigninginFR 'Problèmes liés à la connexion' %}
 * {% link links.manageyouraccountFR 'Gestion de votre identifiant ConnexionCanada ' %}
-* {% link links.howtokeepyouraccountsecureFR 'Comment sécuriser votre compte' %}
+* {% link links.howtokeepyouraccountsecureFR 'Comment sécuriser votre identifiant' %}
 * {% link links.whattodowhenyoufindsuspiciousactivityFR 'Que faire si vous détectez une activité suspecte' %}

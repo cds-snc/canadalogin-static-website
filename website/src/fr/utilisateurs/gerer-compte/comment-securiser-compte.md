@@ -1,18 +1,18 @@
 ---
-title: Comment sécuriser votre compte
+title: Comment sécuriser votre identifiant
 translationKey: howtokeepyouraccountsecure
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: howToKeepYourAccountSecureFR
-  title: Comment sécuriser votre compte
+  title: Comment sécuriser votre identifiant
   locale: fr
   order: 5
   parent: manageYourAccountFR
   hideMain: true
 ---
 
-# Comment sécuriser votre compte
+# Comment sécuriser votre identifiant
 
 Pour protéger votre compte, nous vous recommandons les pratiques de sécurité suivantes :
 

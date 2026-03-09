@@ -130,7 +130,7 @@ Pour aider à éviter que votre compte et vos renseignements personnels soient c
 
 ### 7. Configurez une méthode de vérification en deux étapes
 
-Pour une protection supplémentaire de votre compte, ConnexionCanada exige que vous configuriez une deuxième méthode d’authentification. Cette méthode porte le nom de vérification en deux étapes. Si vous souhaitez en savoir plus sur ce qu’est la vérification en deux étapes, consultez notre {% link links.twostepverificationmethodsFR 'guide d’information sur la vérification en deux étapes' %}.
+Pour une protection supplémentaire de votre identifiant, ConnexionCanada exige que vous configuriez une deuxième méthode d’authentification. Cette méthode porte le nom de vérification en deux étapes. Si vous souhaitez en savoir plus sur ce qu’est la vérification en deux étapes, consultez notre {% link links.twostepverificationmethodsFR 'guide d’information sur la vérification en deux étapes' %}.
 
 Pour configurer la vérification en deux étapes, procédez de la manière suivante :
 
