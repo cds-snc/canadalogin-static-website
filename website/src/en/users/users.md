@@ -24,13 +24,13 @@ Accessing government services is now simpler and more secure with clear step-by-
     card-title="Get started with CanadaLogin"
     href="get-started"
     card-title-tag="h3"
-    description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
+    description="Learn how to create your CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
     card-title="Managing your CanadaLogin"
     href="manage-your-account"
     card-title-tag="h3"
-    description="You will be able to change your account settings including your password, phone number, email, and more here.">
+    description="You will be able to change your CanadaLogin settings including your password, phone number, email, and more here.">
     </gcds-card>
     <gcds-card
     card-title="Trouble signing up"

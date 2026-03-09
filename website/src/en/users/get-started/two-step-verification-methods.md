@@ -15,7 +15,7 @@ eleventyNavigation:
 # What is 2-step verification?
 
 <gcds-text>
-2-step verification is a way of signing in where you are asked to verify yourself two different ways to make sure it’s really you. In addition to your password (first step), CanadaLogin requires that you set up at least one other way of signing in (second step), to keep your account secure.
+2-step verification is a way of signing in where you are asked to verify yourself two different ways to make sure it’s really you. In addition to your password (first step), CanadaLogin requires that you set up at least one other way of signing in (second step), to keep your CanadaLogin secure.
 </gcds-text>
 <gcds-text>
 We encourage you to add multiple “second steps” to your CanadaLogin so that when you do 2-step verification, you have multiple verification options to choose from. Doing this means that if you lose access to one of your second steps (e.g. your phone), you’ll have a backup option to get access to your CanadaLogin.
