@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # Access your settings
 
-To access your CanadaLogin settings, first you will need to be signed in to your account. Refer to our guide on {% link links.howtosignin 'how to sign in' %} if you're not sure how to do this.
+To access your CanadaLogin settings, first you will need to be signed in to your CanadaLogin. Refer to our guide on {% link links.howtosignin 'how to sign in' %} if you're not sure how to do this.
 
 Once you're signed in, open the menu at the top of the page or look for a link in the menu bar that says "Manage your CanadaLogin". Select this link. You will be sent to the CanadaLogin settings portal, where you can manage your Security Settings and Personal Information.
 

@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # What to do when you find suspicious activity
 
-Always monitor for suspicious activity on your account. Pay attention to email notifications you may receive from us saying that a change has been made to your account. If you receive an email stating a change was made, but you did not make the change, we recommend you take the following steps:
+Always monitor for suspicious activity on your CanadaLogin. Pay attention to email notifications you may receive from us saying that a change has been made to your CanadaLogin. If you receive an email stating a change was made, but you did not make the change, we recommend you take the following steps:
 
 ## Secure your CanadaLogin
 
@@ -21,7 +21,7 @@ Always monitor for suspicious activity on your account. Pay attention to email n
 
 #### If you can't sign in
 
-If you think someone changed your account info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
+If you think someone changed your CanadaLogin info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
 
 <ul class="list-disc mb-300">
   <li>{% link links.forgotyourpassword 'Reset your password' %}</li>
