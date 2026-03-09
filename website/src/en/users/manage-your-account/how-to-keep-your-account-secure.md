@@ -1,19 +1,19 @@
 ---
-title: How to keep your account secure
+title: How to keep your CanadaLogin secure
 translationKey: howtokeepyouraccountsecure
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: howToKeepYourAccountSecureEn
-  title: How to keep your account secure
+  title: How to keep your CanadaLogin secure
   locale: en
   order: 5
   parent: manageYourAccountEn
   hideMain: true
 ---
 
-# How to keep your account secure
+# How to keep your CanadaLogin secure
 
-To keep your account secure, we recommend the following safety practices:
+To keep your CanadaLogin secure, we recommend the following safety practices:
 
 ## Keep your email account safe
 
