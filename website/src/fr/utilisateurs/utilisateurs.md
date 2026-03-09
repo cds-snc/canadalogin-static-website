@@ -31,7 +31,7 @@ Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L�
     card-title="Gestion de votre identifiant ConnexionCanada"
     href="gerer-compte"
     card-title-tag="h3"
-    description="Vous trouverez ici la marche à suivre pour modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
+    description="Vous trouverez ici la marche à suivre pour modifier les paramètres de votre identifiant, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"
