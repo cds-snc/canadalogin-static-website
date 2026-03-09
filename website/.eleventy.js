@@ -1,3 +1,8 @@
+if (!process.env.GITHUB_ACTIONS) {
+  // Load environment variables from .env file in local development
+  require('dotenv').config();
+}
+
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const sitemap = require('@quasibit/eleventy-plugin-sitemap');

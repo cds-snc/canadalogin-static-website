@@ -1,18 +1,29 @@
 module.exports = async function () {
-    const res = await fetch(
-        "https://articles.alpha.canada.ca/canadalogin-connexioncanada/wp-json/wp/v2/pages?per_page=100&lang=en"
-    );
-    console.log("Fetching articles from Articles API...");
-    const pages = await res.json();
+    try {
+        const ARTICLES_API_URL = process.env.ARTICLES_API;
+        console.log("ARTICLES_API_URL", ARTICLES_API_URL);
+        console.log("Fetching EN articles from Articles API");
 
-    const bySlug = {};
+        const res = await fetch(
+            `${ARTICLES_API_URL}/wp-json/wp/v2/pages?per_page=100&lang=en`
+        );
 
-    pages.forEach(page => {
-        bySlug[page.slug] = page;
-    });
-    // console.log(`Fetched ${pages.length} articles from Articles API.`);
-    // console.log("Articles by slug:", bySlug);
-    console.log("English Articles by slug:", Object.keys(bySlug));
-    // console.log("Articles by slug:", bySlug.slug_fr);
-    return bySlug;
+        if (!res.ok) {
+            throw new Error(`Articles EN API error: ${res.status}`);
+        }
+        const pages = await res.json();
+
+        const bySlug = {};
+
+        pages.forEach(page => {
+            bySlug[page.slug] = page;
+        });
+        console.log("English Articles by slug:", Object.keys(bySlug));
+        return bySlug;
+
+    } catch (error) {
+        console.error("Error fetching English articles:", error);
+        throw error;
+    }
+
 };

@@ -39,6 +39,7 @@
     "npm-run-all2": "^5.0.0"
   },
   "devDependencies": {
+    "dotenv": "^17.3.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@cdssnc/gcds-components": "^0.46.0",
     "@cdssnc/gcds-tokens": "^2.13.1",
