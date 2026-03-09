@@ -34,7 +34,7 @@ We will also ask you for:
 - Your full name
 - Your preferred official language
 
-## Steps to create an account
+## Steps to create a CanadaLogin
 
 When you are ready to create your CanadaLogin, you’ll need to complete the following steps:
 
@@ -78,13 +78,13 @@ If you are accessing a service for personal use, we recommend using a personal e
 If you are accessing a service on behalf of a business, we recommend using a business email that you have access to. 
 </gcds-text>
 <gcds-text>
-It is acceptable to have more than one CanadaLogin (e.g. a personal and a business account).
+It is acceptable to have more than one CanadaLogin (e.g. a personal and a business CanadaLogin).
 </gcds-text>
 
 ### 5. Check your email for a message from “CanadaLogin”
 
 - We’ll send a 6-digit one-time code to your email. It may take a few minutes to arrive. Return to the CanadaLogin webpage and enter the one-time code.
-- Emails can only be used for one account. If you attempt to use an email address that’s already registered to a CanadaLogin, instead of a code we’ll send an email to that address to let you know. If you are locked out of your account, you may need to recover your account. If you cannot recover your account, you will need to create another account using a new email address.
+- Emails can only be used for one CanadaLogin. If you attempt to use an email address that’s already registered to a CanadaLogin, instead of a code we’ll send an email to that address to let you know. If you are locked out of your CanadaLogin, you may need to recover your CanadaLogin. If you cannot recover your CanadaLogin, you will need to create another CanadaLogin using a new email address.
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Related help guides">
   <ul>
