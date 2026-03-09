@@ -113,7 +113,7 @@ They should not be a commonly used password or phrase (e.g. “let me in” or �
 
 #### How to make a strong password
 
-To help prevent your account and your personal information from being compromised, consider strengthening your password by using:
+To help prevent your CanadaLogin and your personal information from being compromised, consider strengthening your password by using:
 
 - Unique phrases that only you recognize
 - A passphrase instead of a single word. For example, combine multiple words with spaces (e.g., “pillow moose dish”)
@@ -139,7 +139,7 @@ Avoid easy-to-guess passwords like ones that use:
 
 ### 7. Set up a 2-step verification method
 
-As an added layer of protection, CanadaLogin requires you to set up a second authentication method to keep your account secure.
+As an added layer of protection, CanadaLogin requires you to set up a second authentication method to keep your CanadaLogin secure.
 
 This is referred to as 2-step verification. If you want to know more about 2-step verification, see our
 {% link links.twostepverificationmethods 'information guide on 2-step verification' %}.

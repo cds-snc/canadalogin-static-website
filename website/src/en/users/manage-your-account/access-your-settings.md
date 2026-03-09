@@ -26,7 +26,7 @@ Once you're signed in, open the menu at the top of the page or look for a link i
     card-title="Get started with CanadaLogin"
     href="get-started-with-canadalogin"
     card-title-tag="h3"
-    description="Learn how to create your account with CanadaLogin. Learn about authentication options and account features.">
+    description="Learn how to create your CanadaLogin. Learn about authentication options and account features.">
     </gcds-card>
     <gcds-card
     card-title="Trouble signing up"
