@@ -1,7 +1,6 @@
 {
   "locale": "en",
   "links": {
-    "whatiscanadalogin": "/en/users/what-is-canadalogin/",
     "aboutcanadaca": "https://www.canada.ca/en/government/about.html",
     "aboutcanadalogin": "/en/partners/about-canadalogin/",
     "accessyoursettings": "/en/users/manage-your-account/access-your-settings/",
@@ -12,16 +11,17 @@
     "forgotyourpassword": "/en/users/trouble-signing-in/forgot-your-password/",
     "forgotyouremail": "/en/users/trouble-signing-in/forgot-your-email/",
     "getstarted": "/en/users/get-started/",
-    "landingEN": "/en/",
     "howtosignin": "/en/users/trouble-signing-in/how-to-sign-in/",
     "howtosignout": "/en/users/manage-your-account/how-to-sign-out/",
     "howtokeepyouraccountsecure": "/en/users/manage-your-account/how-to-keep-your-account-secure/",
+    "howtosetupmultiplecanadalogin": "/en/users/get-started/managing-multiple-canadalogins/",
     "issuestwostepverification": "/en/users/trouble-signing-up/issues-2-step-verification/",
     "issuesenterverifyemail": "/en/users/trouble-signing-up/issues-enter-verify-email/",
     "issuespassword": "/en/users/trouble-signing-up/issues-creating-password/",
     "implementationofopenidconnect": "/en/openid-connection-protocol/implementation-of-openid-connect/",
     "integrateyourrelyingparty": "/en/openid-connection-protocol/integration-your-relying-party/",
     "issuesprofile": "/en/users/trouble-signing-up/issues-creating-profile/",
+    "landingEN": "/en/",
     "manageyouraccount": "/en/users/manage-your-account/",
     "managehowyousignin": "/en/users/manage-your-account/manage-how-you-sign-in/",
     "manageyourpersonalinformation": "/en/users/manage-your-account/manage-your-personal-information/",
@@ -39,8 +39,10 @@
     "troublesigningup": "/en/users/trouble-signing-up/",
     "termsandprivacyusers": "/en/users/terms/",
     "termsandconditionspartners": "/en/partners/terms-and-conditions/",
-    "updatingyoursigninmethods": "/en/users/manage-your-account/updating-your-sign-in-methods/",
+    "updatingyoursigninmethods": "/en/users/migrate-account/updating-signin-method/",
     "usersEN": "/en/users/",
-    "whattodowhenyoufindsuspiciousactivity": "/en/users/manage-your-account/what-to-do-when-you-find-suspicious-activity/"
+    "whatiscanadalogin": "/en/users/what-is-canadalogin/",
+    "whattodowhenyoufindsuspiciousactivity": "/en/users/manage-your-account/what-to-do-when-you-find-suspicious-activity/",
+    "whycanadaloginisreplacingpartners": "/en/users/replacing-existing-signin-methods/"
   }
 }
