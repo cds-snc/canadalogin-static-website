@@ -17,7 +17,7 @@ eleventyNavigation:
 ## About CanadaLogin 
 
 <gcds-text>
-CanadaLogin is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about {% link links.whatisgcsignin 'CanadaLogin' %} or {% link links.usersEN 'get help' %}.
+CanadaLogin is a secure and easy way to access Government of Canada programs and services online. It allows you to use one set of credentials to sign in to multiple services. Learn more about {% link links.whatiscanadalogin 'CanadaLogin' %} or {% link links.usersEN 'get help' %}.
 </gcds-text>
 <gcds-text>
 CanadaLogin is managed by Canada Digital Service (CDS) / Employment and Social Development Canada (ESDC) for the Government of Canada. We do not use the personal information you provide for any purpose other than providing you with an account.
