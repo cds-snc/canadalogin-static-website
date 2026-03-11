@@ -339,7 +339,30 @@ module.exports = function (eleventyConfig) {
         </section>
         `;
       });
+    }
 
+    return content;
+  });
+
+  eleventyConfig.addTransform("gcdsLinkTransform", function (content) {
+    if (this.outputPath && this.outputPath.endsWith(".html")) {
+      const linkPattern = /<a\b([^>]*)href="([^"]*)"([^>]*)>(.*?)<\/a>/gi;
+      const articles_api_url = process.env.ARTICLES_API
+
+      return content.replace(linkPattern, (match, beforeHref, href, afterHref, innerHTML) => {
+        const attrs = beforeHref + afterHref;
+        let displayHref = href;
+        const isExternal = /class=["'][^"']*\bexternal\b[^"']*["']/.test(attrs);
+
+        const isArticleLink = displayHref.startsWith(articles_api_url);
+        if (isArticleLink) {
+          console.log(`Is article link: ${isArticleLink} - ${articles_api_url}`);
+          displayHref = href.replace(articles_api_url, "");
+          console.log(`Removed Articles URL and replaced with: ${displayHref}`);
+        }
+
+        return `<gcds-link href="${displayHref}"${isExternal ? " external" : ""}>${innerHTML}</gcds-link>`;
+      });
     }
     return content;
   });
