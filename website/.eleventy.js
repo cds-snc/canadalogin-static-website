@@ -367,6 +367,51 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addTransform("gcdsLinkTransform", function (content) {
+    if (this.outputPath && this.outputPath.endsWith(".html")) {
+
+      const articlesApiUrl = process.env.ARTICLES_API;
+
+      function normalizeHref(href) {
+        // Check if the href starts with the Articles API URL and remove it for display
+        if (href?.startsWith(articlesApiUrl)) {
+          return href.replace(articlesApiUrl, "");
+        }
+        return href;
+      }
+
+      function isExternal(attrs) {
+        // Check if the link has the "external" class to determine if it should be marked as external to display the icon
+        return /class=["'][^"']*\bexternal\b[^"']*["']/.test(attrs);
+      }
+
+      // Convert Gutenberg button links
+      const buttonPattern =
+        /<div class="wp-block-button[^"]*">\s*<a\b([^>]*)href="([^"]*)"([^>]*)>(.*?)<\/a>\s*<\/div>/gis;
+
+      content = content.replace(buttonPattern, (match, before, href, after, innerHTML) => {
+        const attrs = before + after;
+        const displayHref = normalizeHref(href); // Check if the href starts with the Articles API URL and remove it for display
+
+        const targetMatch = attrs.match(/target="([^"]*)"/);
+        const target = targetMatch ? targetMatch[1] : "_self";
+
+        return `<gcds-button type="link" value="${innerHTML}" href="${displayHref}" target="${target}">${innerHTML}</gcds-button>`;
+      });
+
+      // Convert regular anchor links
+      const linkPattern = /<a\b([^>]*)href="([^"]*)"([^>]*)>(.*?)<\/a>/gi;
+
+      content = content.replace(linkPattern, (match, before, href, after, innerHTML) => {
+        const attrs = before + after;
+        const displayHref = normalizeHref(href); // Check if the href starts with the Articles API URL and remove it for display
+
+        return `<gcds-link href="${displayHref}"${isExternal(attrs) ? " external" : ""}>${innerHTML}</gcds-link>`;
+      });
+    }
+    return content;
+  });
+
   eleventyConfig.addTransform("listClassTransform", function (content) {
     if (!this.outputPath || !this.outputPath.endsWith(".html")) {
       return content;
