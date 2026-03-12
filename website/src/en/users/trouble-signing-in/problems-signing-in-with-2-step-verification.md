@@ -14,11 +14,11 @@ eleventyNavigation:
 
 ## Cannot access your 2-step verification phone
 
-If you do not have multiple numbers registered to your account, you will need to follow these steps to recover your 2-step verification:
+If you do not have multiple numbers registered to your CanadaLogin, you will need to follow these steps to recover your 2-step verification:
 
 ### Before you start
 
-- You will need access to a different phone number than the one that's currently on your account.
+- You will need access to a different phone number than the one that's currently on your CanadaLogin.
 - This **will not** replace your existing phone number. To delete an existing phone number, you will have to navigate to your security settings once you have signed in. There are instructions on how to do this at the end of the "How to recover your phone number" section.
 
 ### How to recover your 2-step verification
@@ -41,8 +41,8 @@ If you do not have multiple numbers registered to your account, you will need to
 8. You will be prompted to set up a backup verification method. You can skip this step if you do not want to set one up.
 9. Success! You have recovered your 2-step verification and signed in. You will now be taken to the program or service you were trying to access. You will also receive an email notifying you of the change you just made. You can ignore this email.
 
-<gcds-notice type="warning" notice-title-tag="h2" notice-title="This does not replace any of the existing numbers on your account">
-  <gcds-text>To delete numbers you do not want on your account anymore, follow our guide
+<gcds-notice type="warning" notice-title-tag="h2" notice-title="This does not replace any of the existing numbers on your CanadaLogin">
+  <gcds-text>To delete numbers you do not want on your CanadaLogin anymore, follow our guide
 on how to {% linkRef links.managehowyousignin '##delete-a-2-step-verification-phone-number' 'delete a 2-step verification phone number' %}.</gcds-text>
 </gcds-notice>
 
