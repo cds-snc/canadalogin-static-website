@@ -12,7 +12,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_en['problems-entering-and-verifying-your-email'] %}
+{% set wpPage = articles_en['issues-enter-verify-email'] %}
 
 {% if wpPage %}
     <h2>Articles content </h2>

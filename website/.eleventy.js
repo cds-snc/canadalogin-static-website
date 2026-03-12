@@ -341,7 +341,9 @@ module.exports = function (eleventyConfig) {
     }
 
     function isExternalElement(element) {
-      return dom(element).hasClass("external");
+      const el = dom(element);
+      const rel = (el.attr("rel") || "").split(/\s+/);
+      return rel.includes("noreferrer") || rel.includes("noopener");
     }
 
     // Convert details.alert blocks to gcds-notice
@@ -373,8 +375,11 @@ module.exports = function (eleventyConfig) {
     });
 
     // Convert Gutenberg button blocks to gcds-button (must run before anchor transform)
+    const BUTTON_ROLES = ["secondary", "start", "danger"];
+
     dom(".wp-block-button").each(function () {
-      const anchor = dom(this).find("a.wp-block-button__link");
+      const wrapper = dom(this);
+      const anchor = wrapper.find("a.wp-block-button__link");
 
       if (!anchor.length) return;
 
@@ -383,14 +388,28 @@ module.exports = function (eleventyConfig) {
       const label = anchor.html();
       const displayHref = normalizeHref(href);
 
+      const wrapperClasses = (wrapper.attr("class") || "").split(/\s+/);
+      const anchorClasses = (anchor.attr("class") || "").split(/\s+/);
+      const allClasses = [...wrapperClasses, ...anchorClasses];
+      const buttonRole = allClasses.find((cls) => BUTTON_ROLES.includes(cls));
+      const hasChevron = allClasses.includes("chevron-right");
+
+      const buttonLabel = hasChevron
+        ? `${label}&nbsp;<gcds-icon name="chevron-right"></gcds-icon>`
+        : label;
+
       const gcdsButton = dom("<gcds-button></gcds-button>")
         .attr("type", "link")
         .attr("value", label)
         .attr("href", displayHref)
         .attr("target", target)
-        .html(label);
+        .html(buttonLabel);
 
-      dom(this).replaceWith(gcdsButton);
+      if (buttonRole) {
+        gcdsButton.attr("button-role", buttonRole);
+      }
+
+      wrapper.replaceWith(gcdsButton);
     });
 
     // Convert remaining anchor links to gcds-link
@@ -410,6 +429,7 @@ module.exports = function (eleventyConfig) {
 
       if (isExternalElement(anchor)) {
         gcdsLink.attr("external", "");
+        gcdsLink.attr("target", "_blank");
       }
 
       anchor.replaceWith(gcdsLink);
