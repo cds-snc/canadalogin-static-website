@@ -325,142 +325,125 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addTransform("gcdsAlertTransform", function (content) {
-    if (this.outputPath && this.outputPath.endsWith(".html")) {
-
-      const alertPattern = /<details class="alert alert-([^"]+)" open>\s*<summary class="h3"><h3>([^<]+)<\/h3><\/summary>([\s\S]+?)<\/details>/g;
-
-      return content.replace(alertPattern, (match, type, title, body) => {
-        return `
-        <section class="mt-300 mb-300">
-          <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
-          <gcds-text>${body.trim()}</gcds-text>
-          </gcds-notice>
-        </section>
-        `;
-      });
-    }
-
-    return content;
-  });
-
-  eleventyConfig.addTransform("gcdsLinkTransform", function (content) {
-    if (this.outputPath && this.outputPath.endsWith(".html")) {
-      const linkPattern = /<a\b([^>]*)href="([^"]*)"([^>]*)>(.*?)<\/a>/gi;
-      const articles_api_url = process.env.ARTICLES_API
-
-      return content.replace(linkPattern, (match, beforeHref, href, afterHref, innerHTML) => {
-        const attrs = beforeHref + afterHref;
-        let displayHref = href;
-        const isExternal = /class=["'][^"']*\bexternal\b[^"']*["']/.test(attrs);
-
-        const isArticleLink = displayHref.startsWith(articles_api_url);
-        if (isArticleLink) {
-          console.log(`Is article link: ${isArticleLink} - ${articles_api_url}`);
-          displayHref = href.replace(articles_api_url, "");
-          console.log(`Removed Articles URL and replaced with: ${displayHref}`);
-        }
-
-        return `<gcds-link href="${displayHref}"${isExternal ? " external" : ""}>${innerHTML}</gcds-link>`;
-      });
-    }
-    return content;
-  });
-
-  eleventyConfig.addTransform("gcdsLinkTransform", function (content) {
-    if (this.outputPath && this.outputPath.endsWith(".html")) {
-
-      const articlesApiUrl = process.env.ARTICLES_API;
-
-      function normalizeHref(href) {
-        // Check if the href starts with the Articles API URL and remove it for display
-        if (href?.startsWith(articlesApiUrl)) {
-          return href.replace(articlesApiUrl, "");
-        }
-        return href;
-      }
-
-      function isExternal(attrs) {
-        // Check if the link has the "external" class to determine if it should be marked as external to display the icon
-        return /class=["'][^"']*\bexternal\b[^"']*["']/.test(attrs);
-      }
-
-      // Convert Gutenberg button links
-      const buttonPattern =
-        /<div class="wp-block-button[^"]*">\s*<a\b([^>]*)href="([^"]*)"([^>]*)>(.*?)<\/a>\s*<\/div>/gis;
-
-      content = content.replace(buttonPattern, (match, before, href, after, innerHTML) => {
-        const attrs = before + after;
-        const displayHref = normalizeHref(href); // Check if the href starts with the Articles API URL and remove it for display
-
-        const targetMatch = attrs.match(/target="([^"]*)"/);
-        const target = targetMatch ? targetMatch[1] : "_self";
-
-        return `<gcds-button type="link" value="${innerHTML}" href="${displayHref}" target="${target}">${innerHTML}</gcds-button>`;
-      });
-
-      // Convert regular anchor links
-      const linkPattern = /<a\b([^>]*)href="([^"]*)"([^>]*)>(.*?)<\/a>/gi;
-
-      content = content.replace(linkPattern, (match, before, href, after, innerHTML) => {
-        const attrs = before + after;
-        const displayHref = normalizeHref(href); // Check if the href starts with the Articles API URL and remove it for display
-
-        return `<gcds-link href="${displayHref}"${isExternal(attrs) ? " external" : ""}>${innerHTML}</gcds-link>`;
-      });
-    }
-    return content;
-  });
-
-  eleventyConfig.addTransform("listClassTransform", function (content) {
+  eleventyConfig.addTransform("gcdsTransform", function (content) {
     if (!this.outputPath || !this.outputPath.endsWith(".html")) {
       return content;
     }
 
+    const articlesApiUrl = process.env.ARTICLES_API;
     const dom = cheerio.load(content);
 
+    function normalizeHref(href) {
+      if (articlesApiUrl && href?.startsWith(articlesApiUrl)) {
+        return href.replace(articlesApiUrl, "");
+      }
+      return href;
+    }
+
+    function isExternalElement(element) {
+      return dom(element).hasClass("external");
+    }
+
+    // Convert details.alert blocks to gcds-notice
+    dom("details.alert").each(function () {
+      const details = dom(this);
+
+      const classes = details.attr("class") || "";
+      const typeMatch = classes.match(/alert-([^\s]+)/);
+      const type = encode(typeMatch ? typeMatch[1] : "info");
+      const title = encode(details.find("summary h3").text().trim());
+
+      const bodyContent = details
+        .clone()
+        .children("summary")
+        .remove()
+        .end()
+        .html()
+        .trim();
+
+      const notice = dom(`
+      <section class="mt-300 mb-300">
+        <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
+          <gcds-text>${bodyContent}</gcds-text>
+        </gcds-notice>
+      </section>
+    `);
+
+      details.replaceWith(notice);
+    });
+
+    // Convert Gutenberg button blocks to gcds-button (must run before anchor transform)
+    dom(".wp-block-button").each(function () {
+      const anchor = dom(this).find("a.wp-block-button__link");
+
+      if (!anchor.length) return;
+
+      const href = anchor.attr("href");
+      const target = anchor.attr("target") || "_self";
+      const label = anchor.html();
+      const displayHref = normalizeHref(href);
+
+      const gcdsButton = dom("<gcds-button></gcds-button>")
+        .attr("type", "link")
+        .attr("value", label)
+        .attr("href", displayHref)
+        .attr("target", target)
+        .html(label);
+
+      dom(this).replaceWith(gcdsButton);
+    });
+
+    // Convert remaining anchor links to gcds-link
+    dom("a").each(function () {
+      const anchor = dom(this);
+
+      // Skip anchors already inside gcds components
+      if (anchor.closest("gcds-button").length) return;
+
+      const href = anchor.attr("href");
+      const displayHref = normalizeHref(href);
+      const label = anchor.html();
+
+      const gcdsLink = dom("<gcds-link></gcds-link>")
+        .attr("href", displayHref)
+        .html(label);
+
+      if (isExternalElement(anchor)) {
+        gcdsLink.attr("external", "");
+      }
+
+      anchor.replaceWith(gcdsLink);
+    });
+
+    // Convert wp-block-list classes to utility classes
     dom("ul.wp-block-list").each(function () {
-      dom(this)
-        .removeClass("wp-block-list")
-        .addClass("list-disc");
+      dom(this).removeClass("wp-block-list").addClass("list-disc");
     });
 
     dom("ol.wp-block-list").each(function () {
-      dom(this)
-        .removeClass("wp-block-list")
-        .addClass("list-decimal");
+      dom(this).removeClass("wp-block-list").addClass("list-decimal");
     });
 
-    return dom.html();
-  });
+    // Convert wp-block-columns to gcds-grid
+    dom(".wp-block-columns").each((_, columnsBlock) => {
+      const columns = dom(columnsBlock).find(".wp-block-column");
+      const columnCount = columns.length;
 
-  eleventyConfig.addTransform("wpColumnsToGcdsGrid", function (content) {
+      const desktopColumns = Array(columnCount).fill("1fr").join(" ");
+      const tabletColumns = columnCount > 2 ? "1fr 1fr" : desktopColumns;
 
-    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
-      return content;
-    }
+      const grid = dom("<gcds-grid></gcds-grid>")
+        .attr("columns-desktop", desktopColumns)
+        .attr("columns-tablet", tabletColumns)
+        .attr("columns", "1fr");
 
-    const dom = cheerio.load(content);
+      columns.each((_, column) => {
+        const columnContent = dom(column).html();
+        const gridColumn = dom("<div></div>").html(columnContent);
+        grid.append(gridColumn);
+      });
 
-    dom(".wp-block-columns").each(function () {
-
-      const grid = dom("<gcds-grid></gcds-grid>");
-
-      grid.attr("columns-desktop", "1fr 1fr");
-      grid.attr("columns-tablet", "1fr 1fr");
-      grid.attr("columns", "1fr");
-
-      dom(this)
-        .find(".wp-block-column")
-        .each(function () {
-
-          const columnContent = dom(this).html();
-          const column = dom("<div></div>").html(columnContent);
-
-          grid.append(column);
-        });
-
-      dom(this).replaceWith(grid);
+      dom(columnsBlock).replaceWith(grid);
     });
 
     return dom.html();
