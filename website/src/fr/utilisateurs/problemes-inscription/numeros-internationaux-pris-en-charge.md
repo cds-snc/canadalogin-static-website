@@ -98,7 +98,7 @@ countries3:
 
 # Numéros de téléphones internationaux pris en charge
 
-En raison de limitations techniques, ConnexionCanada ne prend pas actuellement en charge les numéros de téléphone de tous les pays. Voici une liste des pays dont ConnexionCanada prend actuellement en charge les numéros de téléphone :
+Voici une liste des pays dont ConnexionCanada prend actuellement en charge les numéros de téléphone :
 
 <br />
 
