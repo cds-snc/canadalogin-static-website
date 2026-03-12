@@ -18,7 +18,7 @@ eleventyNavigation:
 
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
-    <p>CanadaLogin is a secure and easy way to sign in to Government of Canada programs and services online using. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p> 
+    <p>CanadaLogin is a secure and easy way to sign in to Government of Canada programs and services online. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p> 
     <p>Our goal is to make signing-in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</p>
   </div>
   <div>
