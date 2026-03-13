@@ -26,7 +26,7 @@ Après votre connexion, ouvrez le menu en haut de la page ou cherchez dans la ba
     card-title="Se lancer avec ConnexionCanada"
     href="Se lancer avec ConnexionCanada"
     card-title-tag="h3"
-    description="Apprenez comment créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Découvrez comment vous pourrez créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des identifiants.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"

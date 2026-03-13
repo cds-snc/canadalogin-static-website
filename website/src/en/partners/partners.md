@@ -82,7 +82,7 @@ A secure and easy way to access Government of Canada programs and services onlin
       <ul class="list-disc mb-300">
         <li>You’re part of a federal department or agency</li>
         <li>You want to securely authenticate users to your application(s)</li>
-        <li>You want to protect your users’ accounts with strong multi-factor authentication (MFA)</li>
+        <li>You want to protect your users’ CanadaLogins with strong multi-factor authentication (MFA)</li>
         <li>You want to protect your users' privacy through encryption</li>
         <li>Your application(s) can integrate with OpenID Connect (OIDC) web-based identity protocol</li>
       </ul>
