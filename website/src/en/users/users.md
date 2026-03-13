@@ -28,7 +28,7 @@ Accessing government services is now simpler and more secure with clear step-by-
     </gcds-card>
     <gcds-card
     card-title="Managing your CanadaLogin"
-    href="manage-your-account"
+    href="manage-your-canadalogin"
     card-title-tag="h3"
     description="You will be able to change your CanadaLogin settings including your password, phone number, email, and more here.">
     </gcds-card>
