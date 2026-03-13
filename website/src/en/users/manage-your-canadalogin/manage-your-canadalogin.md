@@ -1,10 +1,10 @@
 ---
-title: Manage your account
+title: Manage your CanadaLogin
 translationKey: manageyouraccount
 layout: 'layouts/base.njk'
 eleventyNavigation:
   key: manageYourAccountEn
-  title: Manage your account
+  title: Manage your CanadaLogin
   locale: en
   parent: usersEN
   order: 4
