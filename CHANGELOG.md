@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.18](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.17...v1.2.18) (2026-03-13)
+
+
+### Bug Fixes
+
+* **Rebrand:** Refactor "manage your account" to "manage your CanadaLogin" ([#666](https://github.com/cds-snc/gc-signin-static-website/issues/666)) ([c1f0a9c](https://github.com/cds-snc/gc-signin-static-website/commit/c1f0a9cf2f4cca976ac0679a801c50af49f3cbd9))
+
+
+### Continuous Integration
+
+* Deploy 1.2.12 to prod ([#587](https://github.com/cds-snc/gc-signin-static-website/issues/587)) ([e19e790](https://github.com/cds-snc/gc-signin-static-website/commit/e19e7909db2c4093cb52b5b1bc22e059bc1c0b2b))
+
 ## [1.2.17](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.16...v1.2.17) (2026-03-13)
 
 
