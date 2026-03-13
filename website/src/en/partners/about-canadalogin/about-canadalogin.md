@@ -95,34 +95,28 @@ Provides users with a simple, secure, single sign-in method for government servi
 <gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="start">
   <div>
     <gcds-heading margin-top="0" tag="h3">
-      Availability
-    </gcds-heading>
-    <gcds-text>
-      CanadaLogin is committed to working collaboratively to provide timely resolution of issues including responding to support requests and inquiries during regular business hours (9am to 5pm Eastern Time).
-    </gcds-text>
-  </div>
-  <div>
-    <gcds-heading margin-top="0" tag="h3">
       Capacity
     </gcds-heading>
     <gcds-text>
-      The production environment currently has capacity to authenticate up to 12 users per second (43,200 per hour).
+      CanadaLogin has a maximum aggregated transaction rate limit of 400 Transactions per second (1,440,000 per hour). Scenarios, such as user login and MFA, performed by the service may consist of multiple transactions.
     </gcds-text>
   </div>
   <div>
     <gcds-heading margin-top="0" tag="h3">
-      Performance
+      Data backup
     </gcds-heading>
     <gcds-text>
-      The performance target for the production environment is to respond to 95% of HTTP requests within 200 milliseconds or less, and to respond to 99% of HTTP requests within 500 milliseconds or less.
+      All user data and configuration data is backed up daily and data is replicated continuously to redundant storage.
     </gcds-text>
   </div>
   <div>
     <gcds-heading margin-top="0" tag="h3">
-      Data backup and recovery
+      Recovery
     </gcds-heading>
     <gcds-text>
-      All user data and all configuration data of the service data is backed up once per hour, every hour to geographically redundant storage, with a durability of at least 99.9999% over a given year.
+      CanadaLogin is deployed active-active within the same region. A failure of an instance results in an automated switch to another instance (effectively the recovery time being seconds).
+
+      In the event of a full regional outage, Business Continuity and Disaster Recovery (BC/DR) procedures will be initiated. For such an event, the Recovery Time Objective (RTO) is 8 hours and the Recovery Point Objective (RPO) is 24 hours.
     </gcds-text>
   </div>
   <div>
