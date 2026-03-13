@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.16](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.15...v1.2.16) (2026-03-13)
+
+
+### Bug Fixes
+
+* Create English Updating your sign in method to CanadaLogin ([#638](https://github.com/cds-snc/gc-signin-static-website/issues/638)) ([a5c04f7](https://github.com/cds-snc/gc-signin-static-website/commit/a5c04f7fed5d5a83180b2b82ce3899c96ab033c9))
+* Create english why canadalogin is replacing gckey and interac sign in ([#626](https://github.com/cds-snc/gc-signin-static-website/issues/626)) ([6d365e2](https://github.com/cds-snc/gc-signin-static-website/commit/6d365e2830a994c2b2d30215a582590ccb186cbf))
+* Create managing multiple CanadaLogins ([#637](https://github.com/cds-snc/gc-signin-static-website/issues/637)) ([f930288](https://github.com/cds-snc/gc-signin-static-website/commit/f9302888a5f5e48f5a77eca95b888698390935d7))
+* hide links until French is available ([#644](https://github.com/cds-snc/gc-signin-static-website/issues/644)) ([757a2e5](https://github.com/cds-snc/gc-signin-static-website/commit/757a2e5eb6379eff61d9918fb05e2204593e443c))
+* **styling:** Update styling for technical specifications (FR and EN) ([#658](https://github.com/cds-snc/gc-signin-static-website/issues/658)) ([e0202dd](https://github.com/cds-snc/gc-signin-static-website/commit/e0202dd8e1a23ad4278ed8206550fda8fec4d307))
+* Update existing English get started with CanadaLogin ([#636](https://github.com/cds-snc/gc-signin-static-website/issues/636)) ([7efb6a0](https://github.com/cds-snc/gc-signin-static-website/commit/7efb6a0ae6c08f3e754119e1c2f74134ec8db45a))
+* Update link references to new files ([#647](https://github.com/cds-snc/gc-signin-static-website/issues/647)) ([d3e293a](https://github.com/cds-snc/gc-signin-static-website/commit/d3e293a00cfaea6c50244892503c902bd1657f46))
+
 ## [1.2.15](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.14...v1.2.15) (2026-03-04)
 
 
