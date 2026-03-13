@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.17](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.16...v1.2.17) (2026-03-13)
+
+
+### Bug Fixes
+
+* Changes to FR/EN "account(s)" and "compte(s)" wording ([#620](https://github.com/cds-snc/gc-signin-static-website/issues/620)) ([b3659a5](https://github.com/cds-snc/gc-signin-static-website/commit/b3659a5797fbfbf5c210c1c580153b51e843ef67))
+* **partners:** Add spacing in between paragraph text in Technical specifications (FR and EN) ([#662](https://github.com/cds-snc/gc-signin-static-website/issues/662)) ([831f5b7](https://github.com/cds-snc/gc-signin-static-website/commit/831f5b718727a24f2a6397a773164167bba32f27))
+* **partners:** Update FR and EN technical specifications on 'About CanadaLogin' page ([#656](https://github.com/cds-snc/gc-signin-static-website/issues/656)) ([c6f41de](https://github.com/cds-snc/gc-signin-static-website/commit/c6f41de5665e5dca4a492845224e2bba3ebf8288))
+* **Rebrand:** Replace CanadaLogin email ([#659](https://github.com/cds-snc/gc-signin-static-website/issues/659)) ([1226492](https://github.com/cds-snc/gc-signin-static-website/commit/12264923c1a3ab2164b668dc144486758cd947e6))
+* Remove extra sentence on "Numéros de téléphones internationaux pris en charge" page to match EN page ([db5ab42](https://github.com/cds-snc/gc-signin-static-website/commit/db5ab424ffec5a68c388f91f9bcdc4e45f5957b3))
+* Remove extra sentence on "Numéros de téléphones internationaux pris en charge" page to match EN page ([#654](https://github.com/cds-snc/gc-signin-static-website/issues/654)) ([db5ab42](https://github.com/cds-snc/gc-signin-static-website/commit/db5ab424ffec5a68c388f91f9bcdc4e45f5957b3))
+
 ## [1.2.16](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.15...v1.2.16) (2026-03-13)
 
 
