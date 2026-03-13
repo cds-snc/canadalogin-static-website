@@ -37,7 +37,7 @@ Le contenu de ce site Web a été produit ou compilé afin d’offrir aux minist
 
 ### Reproduction commerciale
 
-À moins d’avis contraire, il est interdit de reproduire le contenu de ce site, en totalité ou en partie, à des fins de diffusion commerciale sans avoir obtenu au préalable la permission écrite de l’administrateur ou administratrice du droit d’auteur. Si vous souhaitez obtenir le droit de reproduire du contenu du gouvernement du Canada présent sur ce site à des fins commerciales, veuillez nous contacter par courriel à l’adresse [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+À moins d’avis contraire, il est interdit de reproduire le contenu de ce site, en totalité ou en partie, à des fins de diffusion commerciale sans avoir obtenu au préalable la permission écrite de l’administrateur ou administratrice du droit d’auteur. Si vous souhaitez obtenir le droit de reproduire du contenu du gouvernement du Canada présent sur ce site à des fins commerciales, veuillez nous contacter par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
 
 Une partie du contenu de ce site pourrait faire l’objet du droit d’auteur d’une tierce partie. Lorsque du contenu est produit et que le gouvernement du Canada n’est pas le détenteur des droits d’auteur, ce contenu est protégé par la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/c-42/index.html" external>Loi sur le droit d’auteur</gcds-link> et par des ententes internationales. Les détails relatifs au droit d’auteur figurent sur la ou les pages pertinentes. 
 
