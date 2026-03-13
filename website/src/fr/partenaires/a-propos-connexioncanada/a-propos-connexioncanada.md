@@ -95,34 +95,28 @@ ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexio
 <gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading  margin-top="0" tag="h3">
-      Disponibilité
-    </gcds-heading>
-    <gcds-text>
-      ConnexionCanada s’engage à travailler de manière collaborative pour résoudre rapidement des problèmes, notamment en répondant aux questions et aux demandes de soutien durant les heures normales de travail (de 9 h à 17 h, heure de l’Est).
-    </gcds-text>
-  </div>
-  <div>
-    <gcds-heading  margin-top="0" tag="h3">
       Capacité
     </gcds-heading>
     <gcds-text>
-      L’environnement de production a actuellement la capacité d’authentifier jusqu’à 12 utilisateurs ou utilisatrices par seconde (soit 43 200 par heure).
+      ConnexionCanada a un taux cumulé maximal de transactions de 400 transactions par seconde (1 440 000 par heure). Les scénarios (comme la connexion des utilisateurs et l’authentification multifacteur) réalisés par le service peuvent consister en plusieurs transactions.
     </gcds-text>
   </div>
   <div>
     <gcds-heading  margin-top="0" tag="h3">
-      Performance
+      Sauvegarde des données
     </gcds-heading>
     <gcds-text>
-      L’objectif de performance pour l’environnement de production est de répondre à 95 % des requêtes HTTP dans un délai de 200 millisecondes ou moins et de répondre à 99 % des requêtes HTTP dans un délai de 500 millisecondes ou moins.
+      Toutes les données relatives aux utilisateurs et à la configuration font l’objet d’une sauvegarde quotidienne et les données sont continuellement répliquées vers un stockage redondant.
     </gcds-text>
   </div>
   <div>
     <gcds-heading  margin-top="0" tag="h3">
-      Sauvegarde des données et récupération
+      Rétablissement
     </gcds-heading>
     <gcds-text>
-      Toutes les données des utilisateurs et utilisatrices et toutes les données de configuration du service sont sauvegardées une fois par heure, toutes les heures, vers des installations de stockage géographiquement redondantes avec une durabilité d’au moins 99,9999 % sur une année donnée.
+      ConnexionCanada est déployé dans un mode actif-actif au sein de la même région. La défaillance d’une instance entraîne automatiquement un passage à une autre instance (le temps de récupération est donc de quelques secondes).
+
+      En cas de panne régionale complète, des procédures de continuité des activités et de rétablissement en cas de sinistre (CA/RS) seront mises en œuvre. Dans une telle situation, l’objectif de délai de rétablissement (ODR) est de 8 heures et l’objectif de point de rétablissement (OPR) est de 24 heures.
     </gcds-text>
   </div>
   <div>
