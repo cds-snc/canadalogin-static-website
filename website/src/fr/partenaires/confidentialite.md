@@ -20,7 +20,7 @@ Lorsque vous accédez à ConnexionCanada, votre organisme a les responsabilités
 - Protéger les renseignements personnels du profil central.
 - Respecter les lois et les politiques de votre ministère ou organisme.
 
-Pour en savoir plus, contactez-nous par courriel à l’adresse [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+Pour en savoir plus, contactez-nous par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
 
 ## Nous fournissons des renseignements en matière de confidentialité directement aux personnes qui créent des comptes
 Nous affichons un avis de confidentialité lorsque les gens créent ou utilisent un identifiant ConnexionCanada. Nous communiquons des renseignements sur notre conservation et notre élimination (stockage et suppression) de leurs renseignements personnels dans nos bases de données, ainsi que sur les fonctionnalités permettant de protéger la sécurité des sites Web du gouvernement du Canada. 
@@ -91,4 +91,4 @@ Vous avez également le droit de soulever des questions sur la façon dont nous 
 - 1-800-282-1376
 
 ## Des questions?
-Contactez-nous par courriel à l’adresse [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+Contactez-nous par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
