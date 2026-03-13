@@ -115,7 +115,8 @@ Provides users with a simple, secure, single sign-in method for government servi
     </gcds-heading>
     <gcds-text>
       CanadaLogin is deployed active-active within the same region. A failure of an instance results in an automated switch to another instance (effectively the recovery time being seconds).
-
+    </gcds-text>
+    <gcds-text>
       In the event of a full regional outage, Business Continuity and Disaster Recovery (BC/DR) procedures will be initiated. For such an event, the Recovery Time Objective (RTO) is 8 hours and the Recovery Point Objective (RPO) is 24 hours.
     </gcds-text>
   </div>

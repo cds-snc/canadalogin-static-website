@@ -115,7 +115,8 @@ ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexio
     </gcds-heading>
     <gcds-text>
       ConnexionCanada est déployé dans un mode actif-actif au sein de la même région. La défaillance d’une instance entraîne automatiquement un passage à une autre instance (le temps de récupération est donc de quelques secondes).
-
+    </gcds-text>
+    <gcds-text>
       En cas de panne régionale complète, des procédures de continuité des activités et de rétablissement en cas de sinistre (CA/RS) seront mises en œuvre. Dans une telle situation, l’objectif de délai de rétablissement (ODR) est de 8 heures et l’objectif de point de rétablissement (OPR) est de 24 heures.
     </gcds-text>
   </div>
