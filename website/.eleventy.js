@@ -374,6 +374,25 @@ module.exports = function (eleventyConfig) {
       details.replaceWith(notice);
     });
 
+    // Convert wp-block-details blocks to gcds-details
+    dom("details.wp-block-details").each(function () {
+      const details = dom(this);
+
+      const title = encode(details.find("summary").first().text().trim());
+
+      const bodyContent = details
+        .clone()
+        .children("summary")
+        .remove()
+        .end()
+        .html()
+        .trim();
+
+      const gcdsDetails = dom(`<gcds-details details-title="${title}">${bodyContent}</gcds-details>`);
+
+      details.replaceWith(gcdsDetails);
+    });
+
     // Convert Gutenberg button blocks to gcds-button (must run before anchor transform)
     const BUTTON_ROLES = ["secondary", "start", "danger"];
 
