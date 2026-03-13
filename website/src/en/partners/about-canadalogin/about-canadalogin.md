@@ -92,7 +92,7 @@ Provides users with a simple, secure, single sign-in method for government servi
 
 ## Technical specifications
 
-<gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
+<gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="start">
   <div>
     <gcds-heading margin-top="0" tag="h3">
       Availability

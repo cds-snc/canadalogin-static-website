@@ -92,7 +92,7 @@ ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexio
 
 ## Spécifications techniques
 
-<gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
+<gcds-grid class="mt-600" columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="start">
   <div>
     <gcds-heading  margin-top="0" tag="h3">
       Disponibilité
