@@ -232,6 +232,9 @@ module.exports = function (eleventyConfig) {
   const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
   eleventyConfig.addGlobalData('GOOGLE_ANALYTICS_ID', google_analytics_id);
 
+  const articles_api_url = process.env.ARTICLES_API_URL || '';
+  eleventyConfig.addGlobalData('ARTICLES_API_URL', articles_api_url);
+
   eleventyConfig.addShortcode('link', function (url, text) {
     return '<gcds-link href="' + url + '">' + text + '</gcds-link>';
   });
