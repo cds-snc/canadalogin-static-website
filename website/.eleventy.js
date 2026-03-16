@@ -1,3 +1,8 @@
+if (!process.env.GITHUB_ACTIONS) {
+  // Load environment variables from .env file in local development
+  require('dotenv').config();
+}
+
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const sitemap = require('@quasibit/eleventy-plugin-sitemap');
@@ -13,6 +18,7 @@ const contextMenu = require('./utils/context-menu');
 const markdownAnchor = require('./utils/anchor');
 const slugify = require('./utils/slugify');
 const { encode } = require('html-entities');
+const { gcdsTransform } = require('./utils/gcds-transform');
 
 module.exports = function (eleventyConfig) {
   // Pass through copies
@@ -317,6 +323,10 @@ module.exports = function (eleventyConfig) {
         date: item.date,
       };
     });
+  });
+
+  eleventyConfig.addTransform("gcdsTransform", function (content) {
+    return gcdsTransform(content, this.outputPath);
   });
 
   return {
