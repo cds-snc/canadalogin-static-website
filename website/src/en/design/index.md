@@ -7,11 +7,11 @@ templateEngineOverride: njk
 ---
 
 
-{% set wpPage = articles_en['articles'] %}
+{% set articlePage = articles_en['articles'] %}
 <h2>EN Articles content below:</h2>
 
-{% if wpPage %}
+{% if articlePage %}
 
-  <h1>{{ wpPage.title.rendered | safe }}</h1>
-  {{ wpPage.content.rendered | safe }}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
 {% endif %}
