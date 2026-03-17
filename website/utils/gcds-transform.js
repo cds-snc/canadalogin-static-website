@@ -2,6 +2,7 @@ const cheerio = require('cheerio');
 const { encode } = require('html-entities');
 
 const BUTTON_ROLES = ['secondary', 'start', 'danger'];
+const NOTICE_ROLES = ['success', 'danger', 'info', 'warning'];
 
 function normalizeHref(href, articlesApiUrl) {
     // Links in markdown content may be absolute URLs pointing to the Articles API.
@@ -25,9 +26,9 @@ function transformAlerts(dom) {
     dom('details.alert').each(function () {
         const details = dom(this);
 
-        const classes = details.attr('class') || '';
-        const typeMatch = classes.match(/alert-([^\s]+)/);
-        const type = encode(typeMatch ? typeMatch[1] : 'info');
+        const classes = (details.attr('class') || '').split(/\s+/);
+        const roleMatch = classes.find((cls) => NOTICE_ROLES.includes(cls.replace(/^alert-/, '')));
+        const noticeRole = encode(roleMatch ? roleMatch.replace(/^alert-/, '') : 'info');
         const title = encode(details.find('summary h3').text().trim());
 
         const bodyContent = details
@@ -40,7 +41,7 @@ function transformAlerts(dom) {
 
         const notice = dom(`
       <section class="mt-300 mb-300">
-        <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
+        <gcds-notice notice-role="${noticeRole}" notice-title-tag="h2" notice-title="${title}">
           <gcds-text>${bodyContent}</gcds-text>
         </gcds-notice>
       </section>
