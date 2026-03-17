@@ -7,7 +7,7 @@ templateEngineOverride: njk
 ---
 
 
-{% set articlePage = articles_fr['articles'] %}
+{% set articlePage = articles_fr['design'] %}
 <h2>FR Articles content below:</h2>
 
 {% if articlePage %}
