@@ -41,7 +41,7 @@ function transformAlerts(dom) {
 
         const notice = dom(`
       <section class="mt-300 mb-300">
-        <gcds-notice notice-role="${noticeRole}" notice-title-tag="h2" notice-title="${title}">
+        <gcds-notice type="${noticeRole}" notice-title-tag="h2" notice-title="${title}">
           <gcds-text>${bodyContent}</gcds-text>
         </gcds-notice>
       </section>
