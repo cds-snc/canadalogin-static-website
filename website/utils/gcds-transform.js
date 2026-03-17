@@ -172,7 +172,7 @@ function gcdsTransform(content, outputPath) {
         return content;
     }
 
-    const articlesApiUrl = process.env.ARTICLES_API;
+    const articlesApiUrl = process.env.ARTICLES_API_URL;
     const dom = cheerio.load(content);
 
     transformAlerts(dom);
