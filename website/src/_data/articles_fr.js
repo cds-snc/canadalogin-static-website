@@ -1,6 +1,6 @@
 module.exports = async function () {
     try {
-        const ARTICLES_API_URL = process.env.ARTICLES_API;
+        const ARTICLES_API_URL = process.env.ARTICLES_API_URL;
         console.log("ARTICLES_API_URL", ARTICLES_API_URL);
         console.log("Fetching FR articles from Articles API");
 
