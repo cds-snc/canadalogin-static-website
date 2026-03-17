@@ -36,7 +36,7 @@ Unless otherwise specified, you may reproduce the materials in whole or in part 
 
 ### Commercial reproduction
 
-Unless otherwise specified, you may not reproduce materials on this site, in whole or in part, for the purposes of commercial redistribution without prior written permission from the copyright administrator. To obtain permission to reproduce Government of Canada materials on this site for commercial purposes, contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+Unless otherwise specified, you may not reproduce materials on this site, in whole or in part, for the purposes of commercial redistribution without prior written permission from the copyright administrator. To obtain permission to reproduce Government of Canada materials on this site for commercial purposes, contact us at [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
 
 
 Some of the content on this site may be subject to the copyright of another party. Where information has been produced or copyright is not held by the Government of Canada, the materials are protected under the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/C-42/index.html">Copyright Act</gcds-link> and international agreements. Details concerning copyright ownership are indicated on the relevant page(s).

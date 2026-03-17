@@ -43,9 +43,9 @@ If you believe you are entering the correct password, but you are still getting 
 
 7. Success! You have reset your password and signed in. You will now be taken to the program or service you were trying to access. You will also receive an email notifying you of the change you just made. You can ignore this email.
 
-## It says your account is incomplete
+## It says your CanadaLogin is incomplete
 <gcds-text>
-When attempting to reset your password, you may come across this error message – "This account is incomplete. We cannot reset your password." This means that when originally setting up your account, you did not set up {% link links.twostepverificationmethods 'two-step verification' %}. If you remember your password you can sign in by entering your username and password and then complete the 2-step verification registration process.
+When attempting to reset your password, you may come across this error message – "This CanadaLogin is incomplete. We cannot reset your password." This means that when originally setting up your CanadaLogin, you did not set up {% link links.twostepverificationmethods 'two-step verification' %}. If you remember your password you can sign in by entering your username and password and then complete the 2-step verification registration process.
 </gcds-text>
 
-If you have forgotten your password, but have not set up 2-step verification, there is currently no way for you to reset your password. Please {% link links.getstarted 'create a new account' %} with a different email. 
+If you have forgotten your password, but have not set up 2-step verification, there is currently no way for you to reset your password. Please {% link links.getstarted 'create a new CanadaLogin' %} with a different email. 

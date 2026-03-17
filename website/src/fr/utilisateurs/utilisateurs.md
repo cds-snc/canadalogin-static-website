@@ -25,24 +25,24 @@ Plus besoin d’une multitude de méthodes de connexion et de mots de passe! L�
     card-title="Se lancer avec ConnexionCanada"
     href="se-lancer-connexioncanada"
     card-title-tag="h3"
-    description="Découvrez comment vous pourrez créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des comptes.">
+    description="Découvrez comment vous pourrez créer votre identifiant ConnexionCanada. Apprenez-en davantage sur les options d’authentification et sur les fonctionnalités des identifiants.">
     </gcds-card>
     <gcds-card
     card-title="Gestion de votre identifiant ConnexionCanada"
     href="gerer-compte"
     card-title-tag="h3"
-    description="Vous trouverez ici la marche à suivre pour modifier les paramètres de votre compte, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
+    description="Vous trouverez ici la marche à suivre pour modifier les paramètres de votre identifiant, y compris votre mot de passe, votre numéro de téléphone ou encore votre adresse courriel.">
     </gcds-card>
     <gcds-card
     card-title="Problèmes liés à l’inscription"
     href="problemes-inscription"
     card-title-tag="h3"
-    description="Vous ne parvenez pas à vérifier votre adresse courriel? Vous avez besoin d’aide pour créer un mot de passe robuste? Nous vous aidons à résoudre les problèmes liés à la création de compte.">
+    description="Vous ne parvenez pas à vérifier votre adresse courriel? Vous avez besoin d’aide pour créer un mot de passe robuste? Nous vous aidons à résoudre les problèmes liés à la création d'identifiant.">
     </gcds-card>
   <gcds-card
     card-title="Problèmes liés à la connexion"
     href="problemes-connexion"
     card-title-tag="h3"
-    description="Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compte? Nous vous aidons à résoudre les problèmes d’accès.">
+    description="Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre identifiant? Nous vous aidons à résoudre les problèmes d’accès.">
     </gcds-card>
 </gcds-grid>

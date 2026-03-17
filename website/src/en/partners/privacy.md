@@ -19,7 +19,7 @@ When you access CanadaLogin, your organization is responsible for:
 - Protecting the personal information in the Core Profile.
 - Complying with the laws and policies of your department or agency. 
 
-To learn more, contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+To learn more, contact us at [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
 
 ## We provide privacy information directly to people creating accounts.
 We display a privacy notice statement when people are creating or using a CanadaLogin. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
@@ -91,4 +91,4 @@ You also have the right to raise concerns about how we handle your personal info
 - 1-800-282-1376
 
 ## Questions
-Contact us at [cds.signin-connexion.snc@servicecanada.gc.ca](mailto:cds.signin-connexion.snc@servicecanada.gc.ca).
+Contact us at [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
