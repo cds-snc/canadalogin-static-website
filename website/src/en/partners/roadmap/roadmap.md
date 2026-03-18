@@ -161,4 +161,4 @@ Below is the planned timeline for providing features and achieving milestones fo
 
 <gcds-text>Contact us to learn more about CanadaLogin and how it could meet your service's needs.</gcds-text>
 
-<gcds-button type="link" value="Contact us" href="https://forms-formulaires.alpha.canada.ca/en/id/cmm9j3y9p01ioyl01zqcnmkz5" target="_blank">Contact us</gcds-button>
+<gcds-button type="link" value="Contact us" href="https://gcxgce.sharepoint.com/teams/10003438/SitePages/Contact-us.aspx" target="_blank">Contact us</gcds-button> <em>(<gcds-link href="https://design.canada.ca/style-guide/#wp7-4">accessible only on the Government of Canada network</gcds-link>)</em>

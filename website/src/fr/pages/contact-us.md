@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: partnersFR
   locale: fr
   order: 3
-  hideMain: false
+  hideMain: true
 permalink: false
 ---
 

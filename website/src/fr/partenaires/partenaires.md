@@ -96,7 +96,7 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
       Contactez-nous si vous avez des questions ou si vous souhaitez que nous aidions votre équipe à évaluer sa préparation et ses stratégies de transition.
     </gcds-text>
     <gcds-text>
-      <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j3y9p01ioyl01zqcnmkz5" external>Nous contacter</gcds-link>
+      <gcds-link href="https://gcxgce.sharepoint.com/teams/10003438/SitePages/fr/Contact-us.aspx" external>Nous contacter</gcds-link> <em>(<gcds-link href="https://conception.canada.ca/guide-redaction/#wp7-4">accessible uniquement sur le réseau du gouvernement du Canada</gcds-link>)</em>
     </gcds-text>
   </div>
   <div>
@@ -112,11 +112,3 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
     </gcds-text>
   </div>
 </gcds-grid>
-
-<gcds-heading tag="h2">Recevoir des communications de ConnexionCanada</gcds-heading>
-
-<gcds-text>
-Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de ConnexionCanada.
-</gcds-text>
-
-<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j47by01k0x301anfuhfxs" target="_blank">Abonnez-vous aux communications</gcds-button>
