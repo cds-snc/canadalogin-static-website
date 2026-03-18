@@ -71,7 +71,18 @@ Entrez votre nom. Si vous n’avez qu’un nom au lieu d’un nom et d’un pré
 
 ### 4. Entrez votre adresse courriel et choisissez votre langue de communication
 <gcds-text>
-NHe said
+Nous vous recommandons de choisir une adresse courriel à laquelle vous aurez toujours accès.
+</gcds-text>
+<gcds-text>
+Si vous accédez à un service pour votre utilisation personnelle, nous vous recommandons d’utiliser une adresse courriel personnelle à laquelle vous avez accès. 
+</gcds-text>
+<gcds-text>
+Si vous accédez à un service pour le compte d’une entreprise, nous vous recommandons d’utiliser une adresse courriel professionnelle à laquelle vous avez accès. 
+</gcds-text>
+<gcds-text>
+Il est possible de posséder plusieurs comptes ConnexionCanada (un compte personnel et un compte d’entreprise, par exemple).
+</gcds-text>
+
 ### 5. Cherchez dans votre boîte de réception un courriel envoyé par « ConnexionCanada ».
 
 - Nous vous enverrons un courriel contenant un code à usage unique à six chiffres. Ce courriel peut mettre quelques minutes à vous parvenir. Revenez à la page Web de ConnexionCanada et entrez le code à usage unique.
