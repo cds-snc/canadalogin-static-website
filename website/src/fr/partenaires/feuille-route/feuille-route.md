@@ -161,6 +161,11 @@ par téléphone et en ligne</td>
 
 ## Vous souhaitez en savoir plus?
 
-<gcds-text>Contactez-nous pour en savoir plus sur ConnexionCanada et sur la manière dont l’outil pourrait répondre aux besoins de votre service.</gcds-text>
+<gcds-text>
+Rejoignez-nous sur GCÉchange pour en savoir plus sur ConnexionCanada et sur la manière dont l’outil pourrait répondre aux besoins de votre service.
+</gcds-text>
+<gcds-text>
+Le lien ci-dessous est accessible uniquement sur le réseau du gouvernement du Canada (GC).
+</gcds-text>
 
-<gcds-button type="link" value="Nous contacter" href="https://gcxgce.sharepoint.com/teams/10003438/SitePages/fr/Contact-us.aspx" target="_blank">Nous contacter</gcds-button> <em>(<gcds-link href="https://conception.canada.ca/guide-redaction/#wp7-4">accessible uniquement sur le réseau du gouvernement du Canada</gcds-link>)</em>
+<gcds-button type="link" button-role="secondary" value="Nous contacter" href="https://gcxgce.sharepoint.com/teams/10003438/SitePages/fr/Contact-us.aspx" target="_blank">Contactez-nous (réseau du GC seulement)</gcds-button>
