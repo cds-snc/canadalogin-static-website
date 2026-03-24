@@ -90,8 +90,8 @@ The law requires that we protect your privacy. You have the right to access and 
 The law requires that we protect your privacy. You have the right to access and review your personal information. If you have questions, contact our <gcds-link href="https://contact-esdc-edsc.service.canada.ca/en/contact/index.html?id=esdc_access_info" external>Access to Information and Privacy Coordinator</gcds-link>.
 
 You also have the right to raise concerns about how we handle your personal information. Send complaints about how your personal information has been handled to the <gcds-link href="https://www.priv.gc.ca/en/" external>Office of the Privacy Commissioner of Canada</gcds-link>:
-- [info@priv.gc.ca](mailto:info@priv.gc.ca)
-- 1-800-282-1376
+- By email: [info@priv.gc.ca](mailto:info@priv.gc.ca)
+- By phone: 1-800-282-1376
 
 ## Questions
 Contact us at [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
