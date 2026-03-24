@@ -15,7 +15,7 @@ eleventyNavigation:
 # Privacy Notice Statement
 
 <gcds-text>
-CanadaLogin is managed byh7g b the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link> at <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link> for the Government of Canada.
+CanadaLogin is managed by the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link> at <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link> for the Government of Canada.
 </gcds-text>
 
 When you set up your CanadaLogin, we will ask you to provide basic personal information. We collect this information to: 
