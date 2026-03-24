@@ -4,7 +4,7 @@ translationKey: multipleCanadaLogins
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: multipleCanadaLoginsEn
+  key: multipleCanadaLoginsFR
   title: Gérer plusieurs identifiants ConnexionCanada
   locale: en
   order: 2
