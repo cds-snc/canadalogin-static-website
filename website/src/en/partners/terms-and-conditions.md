@@ -12,7 +12,7 @@ eleventyNavigation:
 ---
 
 # Terms and Conditions
-CanadaLogin is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own terms.
+CanadaLogin is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own <gcds-link href="https://digital.canada.ca/terms/" external>terms and conditions</gcds-link>.
 
 ## Using files located on non-Government of Canada servers
 To improve the functionality of the CanadaLogin website, certain files (such as open source libraries, images, and scripts) may be delivered automatically to your browser via a trusted third-party server or content delivery network. The delivery of these files is intended to provide a seamless user experience by speeding response times and avoiding the need for each visitor to download these files. Where applicable, specific privacy statements covering these files are included in our <gcds-link href="/en/partners/privacy">Privacy Notice</gcds-link>.
@@ -29,7 +29,7 @@ Visitors should also be aware that information offered by non-Government of Cana
 Materials on this website were produced and/or compiled for the purpose of providing departments and agencies with access to information about CanadaLogin. You may use and reproduce the materials as follows:
 
 ### Non-commercial reproduction
-Unless otherwise specified, you may reproduce the materials in whole or in part for non-commercial purposes, and in any format, without charge or further permission, provided you do the following:
+Unless otherwise specified, you may reproduce the materials in whole or in part for non-commercial purposes, and in any format, without charge or further permission, provided you do the following::
 - Exercise due diligence in ensuring the accuracy of the materials reproduced;
 - Indicate both the complete title of the materials reproduced, as well as the author (where available); and
 - Indicate that the reproduction is a copy of the version available at [URL where original document is available].
@@ -46,7 +46,7 @@ Some of the content on this site may be subject to the copyright of another part
 The official symbols of the Government of Canada, including the Canada Wordmark, the Arms of Canada, and the flag symbol may not be reproduced, whether for commercial or non-commercial purposes, without prior <gcds-link href="https://www.canada.ca/en/government/system/government-communications/federal-identity-requirements/legal-protection-official-symbols-government-canada.html" external>written authorization</gcds-link>.
 
 ## Our commitment to accessibility
-The Government of Canada is committed to achieving a high standard of accessibility as defined in the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601" external>Standard on Web Accessibility</gcds-link> and the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27088" external>Standard on Optimizing Websites and Applications for Mobile Devices</gcds-link>. In the event of difficulty using our Web pages, applications or device-based mobile applications, please contact us for assistance or to obtain alternative formats such as regular print, Braille or another appropriate format.
+The Government of Canada is committed to achieving a high standard of accessibility as defined in the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=23601" external>Standard on Web Accessibility</gcds-link> and the <gcds-link href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=27088" external>Standard on Optimizing Websites and Applications for Mobile Devices</gcds-link>. In the event of difficulty using our Web pages, applications or device-based mobile applications, please contact us at [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca) for assistance or to obtain alternative formats such as regular print, Braille or another appropriate format.
 
 ## Social media
 This notice has been written to explain how the Canadian Digital Service interacts with the public on social media platforms.
