@@ -19,6 +19,6 @@ Participating programs and services will be able to use CanadaLogin to help prot
 <ul class="list-disc mb-300">
   <li>{% link links.createaccount 'How to create a CanadaLogin' %}</li>
   <li>{% link links.twostepverificationmethods 'What is 2-step verification?' %}</li>
-  <li>{% link links.updatingyoursigninmethod 'Updating your sign-in method to CanadaLogin' %}</li>
+  <li>{% link links.updatingyoursigninmethods 'Updating your sign-in method to CanadaLogin' %}</li>
   <li>{% link links.howtosetupmultiplecanadalogin 'Managing multiple CanadaLogins' %}</li>
 </ul>

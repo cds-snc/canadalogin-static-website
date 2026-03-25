@@ -19,7 +19,7 @@ Les programmes et services participants seront en mesure d’utiliser ConnexionC
 
 <ul class="list-disc mb-300">
   <li>{% link links.createaccountFR 'Comment créer un identifiant ConnexionCanada' %}</li>
-  <li>{% link links.whatiscanadaloginFR 'Qu’est-ce que la vérification en deux étapes?' %}</li>
-  <li>{% link links.twostepverificationmethodsFR 'Mettre à jour votre méthode de connexion pour passer à ConnexionCanada' %}</li>
-  <li>{% link links.twostepverificationmethodsFR 'Gérer plusieurs identifiants ConnexionCanada' %}</li>  
+  <li>{% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}</li>
+  <li>{% link links.updatingyoursigninmethodsFR 'Mettre à jour votre méthode de connexion pour passer à ConnexionCanada' %}</li>
+  <li>{% link links.howtosetupmultiplecanadaloginFR 'Gérer plusieurs identifiants ConnexionCanada' %}</li>  
 </ul>

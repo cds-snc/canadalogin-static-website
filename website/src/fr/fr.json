@@ -1,7 +1,6 @@
 {
   "locale": "fr",
   "links": {
-    "whatiscanadaloginFR": "/fr/utilisateurs/a-propos/",
     "aboutcanadacaFR": "https://conception.canada.ca/a-propos/",
     "aboutcanadaloginFR": "/fr/partenaires/a-propos-de-connexioncanada/",
     "accessyoursettingsFR": "/fr/utilisateurs/gerer-compte/acceder-parametres/",
@@ -12,16 +11,17 @@
     "forgotyourpasswordFR": "/fr/utilisateurs/problemes-connexion/mot-de-passe-oublie/",
     "forgotyouremailFR": "/fr/utilisateurs/problemes-connexion/adresse-courriel-oubliee/",
     "getstartedFR": "/fr/utilisateurs/se-lancer-connexioncanada/",
-    "landingFR": "/fr/",
     "howtosigninFR": "/fr/utilisateurs/problemes-connexion/comment-se-connecter/",
     "howtosignoutFR": "/fr/utilisateurs/gerer-compte/comment-se-deconnecter/",
     "howtokeepyouraccountsecureFR": "/fr/utilisateurs/gerer-compte/comment-securiser-compte/",
+    "howtosetupmultiplecanadaloginFR": "/fr/utilisateurs/se-lancer-connexioncanada/gerer-plusieurs-identifiants",
     "issuestwostepverificationFR": "/fr/utilisateurs/problemes-inscription/problemes-configuration-verification-deux-etapes/",
     "issuesenterverifyemailFR": "/fr/utilisateurs/problemes-inscription/problemes-saisie-verification-adresse-courriel/",
     "issuespasswordFR": "/fr/utilisateurs/problemes-inscription/problemes-creation-mot-de-passe/",
     "implementationofopenidconnectFR": "/fr/openid-connection-protocol/implementation-of-openid-connect/",
     "integrateyourrelyingpartyFR": "/fr/openid-connection-protocol/integration-your-relying-party/",
     "issuesprofileFR": "/fr/utilisateurs/problemes-inscription/problemes-creation-profil/",
+    "landingFR": "/fr/",
     "manageyouraccountFR": "/fr/utilisateurs/gerer-compte/",
     "managehowyousigninFR": "/fr/utilisateurs/gerer-compte/gerer-methode-connexion/",
     "manageyourpersonalinformationFR": "/fr/utilisateurs/gerer-compte/gerer-renseignements-personnels/",
@@ -39,7 +39,10 @@
     "troublesigningupFR": "/fr/utilisateurs/problemes-inscription/",    
     "termsandprivacyusersFR": "/fr/utilisateurs/avis/",
     "termsandconditionspartnersFR": "/fr/partenaires/avis/",
+    "updatingyoursigninmethodsFR": "/fr/utilisateurs/migrer-compte/mise-jour-methodes-connexion/",
     "usersFR": "/fr/utilisateurs/",
-    "whattodowhenyoufindsuspiciousactivityFR": "/fr/utilisateurs/gerer-compte/que-faire-activite-suspecte/"
+    "whatiscanadaloginFR": "/fr/utilisateurs/a-propos/",
+    "whattodowhenyoufindsuspiciousactivityFR": "/fr/utilisateurs/gerer-compte/que-faire-activite-suspecte/",
+    "whycanadaloginisreplacingpartnersFR": "/fr/utilisateurs/remplacer-methodes-de-connexion-existantes/"
   }
 }
