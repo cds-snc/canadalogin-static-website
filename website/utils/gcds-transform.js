@@ -11,7 +11,7 @@ function normalizeHref(href, articlesApiUrl) {
     if (articlesApiUrl && href?.startsWith(articlesApiUrl)) {
         return href.replace(articlesApiUrl, '');
     }
-    return href;
+    return href ?? '';
 }
 
 function isExternalElement(dom, element) {
@@ -116,7 +116,7 @@ function transformLinks(dom, articlesApiUrl) {
         const anchor = dom(this);
 
         // Skip anchors already inside gcds components
-        if (anchor.closest('gcds-button').length) return;
+        if (anchor.closest('gcds-button, gcds-card').length) return;
 
         const href = anchor.attr('href');
         const displayHref = normalizeHref(href, articlesApiUrl);
@@ -145,10 +145,32 @@ function transformLists(dom) {
     });
 }
 
-function transformColumns(dom) {
+function buildCardFromColumn(dom, col, articlesApiUrl) {
+    const headingEl = col.find('.card-title');
+    const headingAnchor = headingEl.find('a');
+    const descriptionEl = col.find('.card-description');
+    const badgeEl = col.find('.card-badge');
+
+    const card = dom('<gcds-card></gcds-card>')
+        .attr('card-title', headingEl.text().trim())
+        .attr('card-title-tag', 'h3')
+        .attr('description', descriptionEl.text().trim());
+
+    if (headingAnchor.length) {
+        card.attr('href', normalizeHref(headingAnchor.attr('href'), articlesApiUrl));
+    }
+
+    if (badgeEl.length) {
+        card.attr('badge', badgeEl.text().trim());
+    }
+
+    return card;
+}
+
+function transformColumns(dom, articlesApiUrl) {
     dom('.wp-block-columns').each((_, columnsBlock) => {
-        const columns = dom(columnsBlock).find('.wp-block-column');
-        const columnCount = columns.length;
+        const children = dom(columnsBlock).children('.wp-block-column');
+        const columnCount = children.length;
 
         const desktopColumns = Array(columnCount).fill('1fr').join(' ');
         const tabletColumns = columnCount > 2 ? '1fr 1fr' : desktopColumns;
@@ -158,10 +180,12 @@ function transformColumns(dom) {
             .attr('columns-tablet', tabletColumns)
             .attr('columns', '1fr');
 
-        columns.each((_, column) => {
-            const columnContent = dom(column).html();
-            const gridColumn = dom('<div></div>').html(columnContent);
-            grid.append(gridColumn);
+        children.each((_, column) => {
+            const col = dom(column);
+            const child = col.hasClass('card-content')
+                ? buildCardFromColumn(dom, col, articlesApiUrl)
+                : dom('<div></div>').html(col.html());
+            grid.append(child);
         });
 
         dom(columnsBlock).replaceWith(grid);
@@ -179,9 +203,9 @@ function gcdsTransform(content, outputPath) {
     transformAlerts(dom);
     transformDetails(dom);
     transformButtons(dom, articlesApiUrl);
+    transformColumns(dom, articlesApiUrl);
     transformLinks(dom, articlesApiUrl);
     transformLists(dom);
-    transformColumns(dom);
 
     return dom.html();
 }
