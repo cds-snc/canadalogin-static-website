@@ -151,9 +151,11 @@ function buildCardFromColumn(dom, col, articlesApiUrl) {
     const descriptionEl = col.find('.card-description');
     const badgeEl = col.find('.card-badge');
 
+    const headingTag = headingEl.prop('tagName')?.toLowerCase() || 'h3';
+
     const card = dom('<gcds-card></gcds-card>')
         .attr('card-title', headingEl.text().trim())
-        .attr('card-title-tag', 'h3')
+        .attr('card-title-tag', headingTag)
         .attr('description', descriptionEl.text().trim());
 
     if (headingAnchor.length) {
@@ -178,11 +180,15 @@ function transformColumns(dom, articlesApiUrl) {
         const grid = dom('<gcds-grid></gcds-grid>')
             .attr('columns-desktop', desktopColumns)
             .attr('columns-tablet', tabletColumns)
-            .attr('columns', '1fr');
+            .attr('columns', '1fr')
+            .attr('class', 'mb-400');
 
         children.each((_, column) => {
             const col = dom(column);
-            const child = col.hasClass('card-content')
+            const isCard =
+                col.hasClass('card-content') ||
+                (col.find('.card-title').length > 0 && col.find('.card-description').length > 0);
+            const child = isCard
                 ? buildCardFromColumn(dom, col, articlesApiUrl)
                 : dom('<div></div>').html(col.html());
             grid.append(child);

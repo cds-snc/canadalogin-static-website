@@ -10,7 +10,21 @@ eleventyNavigation:
   parent: landingFR
   order: 1
   hideMain: false
+templateEngineOverride: njk
 ---
+
+{% set wpPage = articles_fr['utilisateurs'] %}
+
+{% if wpPage %}
+    <h2>Articles content </h2>
+
+  <h1>{{ wpPage.title.rendered | safe }}</h1>
+  {{ wpPage.content.rendered | safe }}
+{% endif %}
+
+<gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
+    original content below
+</gcds-heading>
 
 # ConnexionCanada pour les individus et les entreprises
 
