@@ -186,7 +186,7 @@ function transformColumns(dom, articlesApiUrl) {
         children.each((_, column) => {
             const col = dom(column);
             const isCard =
-                col.hasClass('card-content') ||
+                col.hasClass('card-content') &&
                 (col.find('.card-title').length > 0 && col.find('.card-description').length > 0);
             const child = isCard
                 ? buildCardFromColumn(dom, col, articlesApiUrl)

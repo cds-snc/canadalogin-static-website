@@ -11,7 +11,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_en['get-started-with-canadalogin'] %}
+{% set wpPage = articles_en['get-started'] %}
 
 {% if wpPage %}
     <h2>Articles content </h2>
