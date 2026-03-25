@@ -24,9 +24,13 @@ eleventyNavigation:
 
 There are currently over 60 different Government of Canada systems using various sign-in methods. Members of the public and businesses shouldn't have to remember multiple passwords to access the services and programs they rely on. 
 
-Sign-in methods like GCKey offer limited security. It cannot prove that you are who you say you are. This means that it is often combined with other verification methods to increase its security. This leads to varying and complex sign-in experiences.
+### GCKey
 
-While Interac sign-in partners are an existing sign-in method, it will be temporarily deactivated while partners transition over to CanadaLogin. However, Interac sign-in partners will continue to be a sign-in method for users.
+Sign-in methods like GCKey offer limited security. It is often combined with other verification methods to increase its security. This leads to varying and complex sign-in experiences.
+
+### Interac sign-in partners
+
+Interac sign-in partners will be temporarily deactivated while partners transition over to CanadaLogin. However, Interac sign-in partners will be reactivated for users at a later date.
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
     <gcds-text>{% link links.updatingyoursigninmethods 'How to update your sign-in method' %}</gcds-text>
