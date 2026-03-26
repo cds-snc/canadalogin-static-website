@@ -156,8 +156,8 @@ Pour configurer la vérification en deux étapes, procédez de la manière suiva
      vocal.
    - Vous devriez avoir reçu un code de vérification à six chiffres par message texte (SMS) ou par appel vocal. Entrez le code à six chiffres sur le site lorsque cela vous sera demandé.
 
-3. **Configurez une méthode de vérification de secours (facultatif)**
-   - Il vous sera demandé de configurer une méthode de secours pour l’envoi de code. Si vous ne souhaitez pas en configurer, vous pouvez ignorer cette étape.
+<!-- 3. **Configurez une méthode de vérification de secours (facultatif)**
+   - Il vous sera demandé de configurer une méthode de secours pour l’envoi de code. Si vous ne souhaitez pas en configurer, vous pouvez ignorer cette étape. -->
 
 <gcds-notice type="info" notice-title-tag="h4" notice-title="Guides connexes">
   <ul>
