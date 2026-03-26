@@ -32,7 +32,7 @@ Your personal information is also shared with programs and services that you con
 Your personal information is encrypted and stored in a secure database.  
 </gcds-text>
 <gcds-text>
-CanadaLogin uses an identity and access management solution from IBM Canada. CanadaLogin uses web analytics from Google Inc. Visit our {% link links.termsandprivacyusers 'Terms and Conditions' %} to learn more. 
+CanadaLogin uses an identity and access management solution from IBM Canada. CanadaLogin uses web analytics from Google Inc. Visit our {% link links.termsandconditionsusers 'Terms and Conditions' %} to learn more. 
 </gcds-text>
 <gcds-text>
 Your personal information is also used to continue to provide you access to previous programs or services that you signed into with your GCKey or Interac Sign in. More information about this activity is described in the <gcds-link href="https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/sources-federal-government-employee-information-2021-info-source.html#_External_Credential_Management_1" external>Personal Information Bank PCU 607</gcds-link>, which is currently being updated.   

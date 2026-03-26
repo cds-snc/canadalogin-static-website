@@ -35,7 +35,7 @@ Vos renseignements personnels sont chiffrés et conservés dans une base de donn
 </gcds-text>
 
 <gcds-text>
-ConnexionCanada utilise une solution de gestion des identités et des accès d’IBM Canada. ConnexionCanada utilise l’analytique Web de Google Inc. Pour en savoir plus, consultez notre {% link links.termsandprivacyusersFR 'avis' %}.
+ConnexionCanada utilise une solution de gestion des identités et des accès d’IBM Canada. ConnexionCanada utilise l’analytique Web de Google Inc. Pour en savoir plus, consultez notre {% link links.termsandconditionsusersFR 'avis' %}.
 </gcds-text>
 
 <gcds-text>

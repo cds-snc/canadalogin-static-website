@@ -1,10 +1,10 @@
 ---
 title: Terms and conditions
-translationKey: termsandprivacyusers
+translationKey: termsandconditionsusers
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: termsAndPrivacyUsersEN
+  key: termsandconditionsusersEN
   title: Terms
   parent: usersEN
   locale: en
