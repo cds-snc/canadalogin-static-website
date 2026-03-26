@@ -1,10 +1,10 @@
 ---
 title: Avis
-translationKey: termsandprivacyusers
+translationKey: termsandconditionsusers
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: termsAndPrivacyUsersFR
+  key: termsandconditionsusersFR
   title: Avis
   parent: usersFR
   locale: fr
