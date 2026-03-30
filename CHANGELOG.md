@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.0...v1.3.1) (2026-03-26)
+
+
+### Bug Fixes
+
+* Removed sign up for comms section and contact us links ([#687](https://github.com/cds-snc/gc-signin-static-website/issues/687)) ([1deb6a1](https://github.com/cds-snc/gc-signin-static-website/commit/1deb6a1696f3b2b4ab57fe173962490e35492949))
+* Update how to create a CanadaLogin ([#645](https://github.com/cds-snc/gc-signin-static-website/issues/645)) ([853e7a8](https://github.com/cds-snc/gc-signin-static-website/commit/853e7a84b024acfd1e243e648e49de881abc2eb6))
+* Update-en-fr-getstarted-with-canadalogin ([#692](https://github.com/cds-snc/gc-signin-static-website/issues/692)) ([86b9b0d](https://github.com/cds-snc/gc-signin-static-website/commit/86b9b0d0a5cdca5415f6f55dc0a6515c757aa775))
+
 ## [1.3.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.18...v1.3.0) (2026-03-25)
 
 
