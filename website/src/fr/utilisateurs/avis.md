@@ -63,7 +63,7 @@ En utilisant ConnexionCanada, vous attestez que les renseignements que vous four
   - Autres sites que vous visitez par le biais de liens provenant de ConnexionCanada.  
   - Renseignements que vous envoyez au SNC/à EDSC par le biais de ConnexionCanada.  
   - Renseignements que vous fournissez qui ne sont pas acceptés ou traités.  
-  Votre non-respect des conditions de l’avis.  
+  - Votre non-respect des conditions de l’avis.  
 
 ## ConnexionCanada fait appel à des fournisseurs de services tiers
 
@@ -120,7 +120,7 @@ Des programmes logiciels sont utilisés aux fins suivantes :
 - Détecter les tentatives non autorisées de téléverser ou de modifier des données, ou de causer d’autres dommages.  
 
 
-Lorsque vous visitez un site Web d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>, ces logiciels reçoivent automatiquement les données fournies par votre navigateur et les stockent temporairement dans les journaux de notre serveur Web pendant 12 (douze) mois. Ces programmes logiciels diffèrent des outils d’analyse Web que nous utilisons et recueillent des renseignements différents. Parmi les données automatiquement recueillies par notre serveur lorsque vous naviguez sur notre site Web figurent les éléments suivants : 
+Lorsque vous visitez un site Web d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada</gcds-link>, ces logiciels reçoivent automatiquement les données fournies par votre navigateur et les stockent temporairement dans les journaux de notre serveur Web pendant 12 (douze) mois. Ces programmes logiciels diffèrent des outils d’analyse Web que nous utilisons et recueillent des renseignements différents. Parmi les données automatiquement recueillies par notre serveur lorsque vous naviguez sur notre site Web figurent les éléments suivants : 
 - L’emplacement du réseau et l’adresse du protocole Internet (IP) de l’ordinateur et des autres appareils que vous avez utilisés pour contacter notre site Web. 
 - Le nom du domaine que vous avez utilisé pour accéder à Internet (.com, .org, .net, .ca, etc.). 
 - Le type de navigateur que vous avez utilisé (Google Chrome, Microsoft Edge, etc.). 

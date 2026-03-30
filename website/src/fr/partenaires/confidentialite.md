@@ -20,7 +20,7 @@ Lorsque vous accédez à ConnexionCanada, votre organisme a les responsabilités
 - Protéger les renseignements personnels dans le profil central.
 - Respecter les lois et les politiques de votre ministère ou agence. 
 
-Pour en savoir plus, demandez nos conditions d’utilisation par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca.](mailto:canadalogin.connexioncanada@servicecanada.gc.ca.).
+Pour en savoir plus, demandez nos conditions d’utilisation par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
 
 ## Nous fournissons des renseignements en matière de confidentialité directement aux personnes qui créent un identifiant ConnexionCanada
 Nous présentons un avis de confidentialité aux personnes qui créent ou utilisent un identifiant ConnexionCanada. Nous communiquons des renseignements sur notre conservation et notre élimination (stockage et suppression) de leurs renseignements personnels dans nos bases de données, ainsi que sur les fonctionnalités permettant de protéger la sécurité des sites Web du gouvernement du Canada. 
@@ -28,9 +28,7 @@ Nous présentons un avis de confidentialité aux personnes qui créent ou utilis
 ## Nous recueillons vos renseignements personnels
 Vos renseignements personnels comprennent les éléments suivants : votre nom et vos coordonnées, votre ministère ou organisme et les commentaires que vous fournissez ou les questions que vous posez. Nous utilisons vos renseignements pour communiquer avec vous, pour améliorer le produit et pour faire des rapports sur son incidence. 
 
-L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social</gcds-link> autorise le SNC a recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915" external>POU 915</gcds-link>. 
-
-L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social</gcds-link> autorise le SNC à recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html%23pou915" external>POU 915</gcds-link>.  
+L’article 5.1 de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social</gcds-link> autorise le SNC à recueillir ces renseignements. Pour en apprendre davantage sur cette autorisation, veuillez consulter le fichier de renseignements personnels ordinaire <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915" external>POU 915</gcds-link>. 
 
 ## Nous utilisons l’analytique Web
 <gcds-text> 
@@ -95,13 +93,11 @@ Nous traitons vos renseignements conformément à la <gcds-link href="https://la
 ## Votre droit à la vie privée
 En vertu de la Loi, nous devons protéger votre vie privée. Vous avez le droit d’accéder à vos renseignements personnels et de les examiner. En cas de question, contactez notre <gcds-link href="https://contact-esdc-edsc.service.canada.ca/fr/contact/index.html?id=esdc_access_info" external>coordonnateur ou coordonnatrice de l’accès à l’information et de la protection des renseignements personnels</gcds-link>.
 
-Vous avez également le droit de soulever des questions sur la façon dont nous traitons vos renseignements personnels. En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du<gcds-link href="https://www.priv.gc.ca/fr/" external>Commissariat à la protection de la vie privée du Canada</gcds-link>:
+Vous avez également le droit de soulever des questions sur la façon dont nous traitons vos renseignements personnels. En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external>Commissariat à la protection de la vie privée du Canada</gcds-link>:
 - info@priv.gc.ca
 - 1-800-282-1376
 
 ## Des questions?
-<<<<<<< HEAD
+
 Contactez-nous par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
-=======
-Contactez-nous par courriel à l’adresse [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
->>>>>>> 0be543e (Update (Avis de confidentialité | Privacy Notice Statement) (Partenaires | Partners))
+

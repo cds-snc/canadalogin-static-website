@@ -92,7 +92,7 @@ Google Inc. is headquartered in Mountain View, California. As such, the solution
 </gcds-text>
 
 ## Privacy
-When you set up your CanadaLogin,we will ask you to provide basic personal information. We collect this information to: 
+When you set up your CanadaLogin, we will ask you to provide basic personal information. We collect this information to: 
 - make it faster for you to access services, and 
 - contact you about the security of your CanadaLogin. 
 

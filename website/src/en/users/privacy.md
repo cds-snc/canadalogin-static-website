@@ -53,7 +53,7 @@ Protecting your personal information and privacy is important to us.
 The personal information you provide to register for CanadaLogin is administered, collected, used and disclosed in accordance with the <gcds-link href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html" external>Privacy Act</gcds-link>, the <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/h-5.7/FullText.html" external>Department of Employment and Social Development Act (DESDA)</gcds-link>, and other applicable laws. 
 </gcds-text>
 <gcds-text>
-Under the <gcds-link href="" external>Privacy Act</gcds-link>, you have the right to the protection of, access to, and correction of your personal information, which is described in Personal Information Bank (PIB forthcoming).  
+Under the <gcds-link href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html" external>Privacy Act</gcds-link>, you have the right to the protection of, access to, and correction of your personal information, which is described in Personal Information Bank (PIB forthcoming).  
 </gcds-text>
 <gcds-text>
 The department and agency responsible for the program and service you are trying to access may be subject to additional legal requirements. You may need to return to a previous web page to learn about these requirements.   

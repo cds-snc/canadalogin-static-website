@@ -56,7 +56,7 @@ Vous avez droit à la protection de vos renseignements personnels, à leur accè
 Nous avons à cœur de protéger vos renseignements personnels et votre vie privée. 
 </gcds-text>
 <gcds-text>
-Les renseignements que vous fournissez pour créer un identifiant ConnexionCanada sont administrés, recueillis, utilisés et divulgués conformément à la<gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html" external>Loi sur la protection des renseignements personnels<gcds-link> , à la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social (LMEDS)<gcds-link>, et à d’autres lois applicables. 
+Les renseignements que vous fournissez pour créer un identifiant ConnexionCanada sont administrés, recueillis, utilisés et divulgués conformément à la<gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html" external>Loi sur la protection des renseignements personnels</gcds-link> , à la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social (LMEDS)</gcds-link>, et à d’autres lois applicables. 
 </gcds-text>
 <gcds-text>
 En vertu de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html" external>Loi sur la protection des renseignements personnels<gcds-link>, vous avez droit à la protection, à l’accès et à la correction de vos renseignements personnels, comme cela est décrit dans le fichier de renseignements personnels [POU à venir].
@@ -74,7 +74,7 @@ Si vous avez des questions pour Emploi et Développement social Canada concernan
 <gcds-link href="https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source.html" external>Info Source</gcds-link>, qui fournit des détails concernant la soumission d’une requête officielle concernant vos renseignements personnels, est accessible en ligne ou dans les centres Service Canada. 
 </gcds-text>
 <gcds-text>
-En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external>https://www.priv.gc.ca/fr/</gcds-link> :
+En cas de problème lié à la gestion de vos renseignements personnels, déposez toute plainte auprès du <gcds-link href="https://www.priv.gc.ca/fr/" external>Commissariat à la protection de la vie privée du Canada</gcds-link> :
 </gcds-text>
 
 - Adresse courriel : [info@priv.gc.ca](mailto:info@priv.gc.ca)

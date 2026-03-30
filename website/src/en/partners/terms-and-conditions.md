@@ -29,7 +29,7 @@ Visitors should also be aware that information offered by non-Government of Cana
 Materials on this website were produced and/or compiled for the purpose of providing departments and agencies with access to information about CanadaLogin. You may use and reproduce the materials as follows:
 
 ### Non-commercial reproduction
-Unless otherwise specified, you may reproduce the materials in whole or in part for non-commercial purposes, and in any format, without charge or further permission, provided you do the following::
+Unless otherwise specified, you may reproduce the materials in whole or in part for non-commercial purposes, and in any format, without charge or further permission, provided you do the following:
 - Exercise due diligence in ensuring the accuracy of the materials reproduced;
 - Indicate both the complete title of the materials reproduced, as well as the author (where available); and
 - Indicate that the reproduction is a copy of the version available at [URL where original document is available].

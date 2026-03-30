@@ -19,9 +19,9 @@ When you access CanadaLogin, your organization is responsible for:
 - Protecting the personal information in the Core Profile.
 - Complying with the laws and policies of your department or agency. 
 
-<gcds-text>
+
 To learn more, request our terms of use at [canadalogin.connexioncanada@servicecanada.gc.ca](mailto:canadalogin.connexioncanada@servicecanada.gc.ca).
-</gcds-text>
+
 
 ## We provide privacy information directly to people creating a CanadaLogin
 We display a privacy notice statement when people are signing up for or using CanadaLogin. We share information about our retention and disposition (storage and disposal) of their personal information in our databases as well as features to protect the security of Government of Canada websites. 
@@ -82,10 +82,9 @@ We do not:
 We may share information with law enforcement by court order.
 
 ## We protect your privacy 
-We handle your information under the <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/h-5.7/FullText.html" external>Department of Employment and Social Development Act</gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/a-1/page-1.html" external>Access to Information Act</gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/f-11/" external>Financial Administration Act</gcds-link>,  <gcds-link href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html" external>Privacy Act</gcds-link>, and <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9//" external>Public Servants Disclosure Protection Act</gcds-link>.
+We handle your information under the <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/h-5.7/FullText.html" external>Department of Employment and Social Development Act</gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/a-1/page-1.html" external>Access to Information Act</gcds-link>, <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/f-11/" external>Financial Administration Act</gcds-link>,  <gcds-link href="https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html" external>Privacy Act</gcds-link>, and <gcds-link href="https://laws-lois.justice.gc.ca/eng/acts/p-31.9/" external>Public Servants Disclosure Protection Act</gcds-link>.
 
-## You have privacy rights
-The law requires that we protect your privacy. You have the right to access and review your personal information. 
+## You have privacy rights 
 
 The law requires that we protect your privacy. You have the right to access and review your personal information. If you have questions, contact our <gcds-link href="https://contact-esdc-edsc.service.canada.ca/en/contact/index.html?id=esdc_access_info" external>Access to Information and Privacy Coordinator</gcds-link>.
 
