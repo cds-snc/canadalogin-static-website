@@ -146,3 +146,5 @@ Pour obtenir davantage de renseignements généraux sur la présence Web du gouv
 
 ## Cet avis peut faire l’objet de modifications 
 Le présent avis est susceptible d’être mis à jour à tout moment. L’avis mis à jour prend effet dès sa publication en ligne. Vous devrez accepter les conditions de l’avis mis à jour pour continuer à utiliser ConnexionCanada. 
+
+Le présent avis est régi et interprété conformément aux lois du Canada et de la province de l’Ontario sans égard aux règles de conflit de lois.
