@@ -14,7 +14,7 @@ eleventyNavigation:
 
 This document describes the integration process between a Relying Party and CanadaLogin.
 
-## Information Required from Relying Party Test
+## Information Required from Relying Party
 You must provide the following information so that the GC Sign-in team can correctly configure your access to the GC Sign-in. Please send this information to canadalogin.connexioncanada@servicecanada.gc.ca.
 
 > Note: This contact information is pending review by the team.
