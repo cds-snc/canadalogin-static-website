@@ -59,7 +59,7 @@ Nous avons à cœur de protéger vos renseignements personnels et votre vie priv
 Les renseignements que vous fournissez pour créer un identifiant ConnexionCanada sont administrés, recueillis, utilisés et divulgués conformément à la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html" external>Loi sur la protection des renseignements personnels</gcds-link>, à la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/h-5.7/TexteComplet.html" external>Loi sur le ministère de l’Emploi et du Développement social (LMEDS)</gcds-link>, et à d’autres lois applicables. 
 </gcds-text>
 <gcds-text>
-En vertu de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html" external>Loi sur la protection des renseignements personnels<gcds-link>, vous avez droit à la protection, à l’accès et à la correction de vos renseignements personnels, comme cela est décrit dans le fichier de renseignements personnels [POU à venir].
+En vertu de la <gcds-link href="https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html" external>Loi sur la protection des renseignements personnels</gcds-link>, vous avez droit à la protection, à l’accès et à la correction de vos renseignements personnels, comme cela est décrit dans le fichier de renseignements personnels [POU à venir].
 </gcds-text>
 <gcds-text>
 Le ministère ou l’organisme responsable du programme ou service auquel vous essayez d’accéder peut être soumis à des exigences légales supplémentaires. Il se peut que vous deviez retourner à une page Web précédente pour en savoir plus sur ces exigences.   
