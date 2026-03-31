@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.1...v1.3.2) (2026-03-31)
+
+
+### Bug Fixes
+
+* Update content to new Privacy Notice Statement & Terms and Conditions pages ([#688](https://github.com/cds-snc/gc-signin-static-website/issues/688)) ([da21aa2](https://github.com/cds-snc/gc-signin-static-website/commit/da21aa21c4d81dcc69ad30e5e71f1730f93e112c))
+
 ## [1.3.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.0...v1.3.1) (2026-03-26)
 
 
