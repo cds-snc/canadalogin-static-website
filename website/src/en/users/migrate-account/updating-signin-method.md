@@ -15,11 +15,15 @@ eleventyNavigation:
 
 CanadaLogin is replacing the following sign-in methods:
 - GCKey username and password
+
+CanadaLogin is temporarily replacing the following sign-in methods:
 - Interac sign-in partners (banks and credit unions)
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
   <gcds-text>{% link links.whycanadaloginisreplacingpartners 'Why CanadaLogin is replacing GCKey and Interac sign-in partners' %}</gcds-text>
 </gcds-notice>
+
+<br>
 
 Some services will start using CanadaLogin before others. Until every service uses CanadaLogin, you may need to continue using other sign-in methods.
 
@@ -41,21 +45,21 @@ Some services will start using CanadaLogin before others. Until every service us
   </ol>
 </ul>
 
-### Once your method is updated
-
-You can now access your existing account on the service. You’ll only use CanadaLogin to access the service going forward.
-
-## Issues with updating your sign&#8209;in method to CanadaLogin
-
 ### If your account is not found
 
 After you update your sign-in method, you may not have access to your existing account on the service. This could be one of the follow reasons:
 - You used a different GCKey or Interac sign-in the last time you accessed the service.
 - You have never signed in to this service before.
 
-If you have previously signed in to this service, and you migrated the wrong account, you will need to create a new CanadaLogin, with a different email, and go through the linking process again, this time linking the correct account. 
+If you have previously signed in to this service, but used the wrong GCKey or Interac sign-in partner, you’ll need to create a new CanadaLogin. Use a different email address, and go through the linking process again using the correct GCKey or Interac sign-in partner.
 
-It is possible that you may not have an account with this program or service, or the account is expired. If that is the case, you will need to create a new account with the program or service you are trying to access.
+<gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
+  <gcds-text>{% link links.howtosetupmultiplecanadalogin 'Managing multiple CanadaLogins from the same email inbox' %}</gcds-text>
+</gcds-notice>
+
+<br>
+
+It’s possible that you may not have an account on this service. If that is the case, you’ll need to create a new account on the service.
 
 ### If your old sign&#8209;in method has expired
 
@@ -63,4 +67,6 @@ If you have not signed in with your Interac sign-in partner in over a year, your
 
 If you have not signed in with GCKey in over 2 years, your sign-in method may have expired. 
 
-You’ll need to create a new account for the program or service you are trying to access. You may be able to recover your account on the program or service. We recommend looking at the help content for the specific program or service you are trying to access and/or contacting the call centre for the department you are trying to access.
+If your old sign-in method has expired, you won’t be able to link it to your CanadaLogin. You’ll need to create a new account on the service. 
+
+You may be able to recover your account on the service. Each service’s account recovery process is different. Please refer to the specific service’s help content or contact their call centre for help.
