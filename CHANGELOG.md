@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.2...v1.3.3) (2026-03-31)
+
+
+### Bug Fixes
+
+* Small fixes to Users Privacy Page (FR) | Utilisateurs Avis de confidentialité ([#700](https://github.com/cds-snc/gc-signin-static-website/issues/700)) ([117906c](https://github.com/cds-snc/gc-signin-static-website/commit/117906c556a35857c6e1b9a2a433c538583c680b))
+
 ## [1.3.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.1...v1.3.2) (2026-03-31)
 
 
