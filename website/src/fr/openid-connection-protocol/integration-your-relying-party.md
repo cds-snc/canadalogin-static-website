@@ -12,7 +12,7 @@ eleventyNavigation:
 
 # Integrating your Relying Party
 
-This document describes the integration process between a Relying Party and GC Sign-in.
+This document describes the integration process between a Relying Party and CanadaLogin.
 
 ## Information Required from Relying Party
 You must provide the following information so that the GC Sign-in team can correctly configure your access to the GC Sign-in. Please send this information to canadalogin.connexioncanada@servicecanada.gc.ca.
@@ -71,4 +71,4 @@ Here are the user info claims available during the GC Sign-in pilot:
 
 {% link links.implementationofopenidconnectFR 'GC Sign-in Implementation of OpenID Connect' %}    
 
-
+Hello
