@@ -1,18 +1,18 @@
 ---
-title: Comment sécuriser votre compte
+title: Comment sécuriser votre identifiant
 translationKey: howtokeepyouraccountsecure
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: howToKeepYourAccountSecureFR
-  title: Comment sécuriser votre compte
+  title: Comment sécuriser votre identifiant
   locale: fr
   order: 5
   parent: manageYourAccountFR
   hideMain: true
 ---
 
-# Comment sécuriser votre compte
+# Comment sécuriser votre identifiant
 
 Pour protéger votre compte, nous vous recommandons les pratiques de sécurité suivantes :
 
@@ -49,4 +49,4 @@ Votre adresse courriel est utilisée pour la récupération de votre compte si v
 
 ## Guettez toute activité suspecte
 
-- Faites attention aux notifications que nous vous envoyons par courriel indiquant qu’une modification a été apportée à votre compte. Si vous n’êtes pas à l’origine du changement en question, suivez {% linkRef links.whattodowhenyoufindsuspiciousactivityFR 'securisez-votre-compte-connexion-gc' 'ces étapes pour protéger votre compte' %}.
+- Faites attention aux notifications que nous vous envoyons par courriel indiquant qu’une modification a été apportée à votre compte. Si vous n’êtes pas à l’origine du changement en question, suivez {% linkRef links.whattodowhenyoufindsuspiciousactivityFR 'securisez-votre-identifiant-connexioncanada' 'ces étapes pour protéger votre compte' %}.

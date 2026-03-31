@@ -1,3 +1,8 @@
+if (!process.env.GITHUB_ACTIONS) {
+  // Load environment variables from .env file in local development
+  require('dotenv').config();
+}
+
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const sitemap = require('@quasibit/eleventy-plugin-sitemap');
@@ -8,12 +13,12 @@ const svgContents = require('eleventy-plugin-svg-contents');
 const codeClipboard = require('eleventy-plugin-code-clipboard');
 const { getLatestCdnVersion } = require('./utils/cdn-info');
 const { DateTime } = require('luxon');
-const cheerio = require('cheerio');
 
 const contextMenu = require('./utils/context-menu');
 const markdownAnchor = require('./utils/anchor');
 const slugify = require('./utils/slugify');
 const { encode } = require('html-entities');
+const { gcdsTransform } = require('./utils/gcds-transform');
 
 module.exports = function (eleventyConfig) {
   // Pass through copies
@@ -320,77 +325,8 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addTransform("gcdsAlertTransform", function (content) {
-    if (this.outputPath && this.outputPath.endsWith(".html")) {
-
-      const alertPattern = /<details class="alert alert-([^"]+)" open>\s*<summary class="h3"><h3>([^<]+)<\/h3><\/summary>([\s\S]+?)<\/details>/g;
-
-      return content.replace(alertPattern, (match, type, title, body) => {
-        return `
-        <section class="mt-300 mb-300">
-          <gcds-notice type="${type}" notice-title-tag="h2" notice-title="${title}">
-          <gcds-text>${body.trim()}</gcds-text>
-          </gcds-notice>
-        </section>
-        `;
-      });
-
-    }
-    return content;
-  });
-
-  eleventyConfig.addTransform("listClassTransform", function (content) {
-    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
-      return content;
-    }
-
-    const dom = cheerio.load(content);
-
-    dom("ul.wp-block-list").each(function () {
-      dom(this)
-        .removeClass("wp-block-list")
-        .addClass("list-disc");
-    });
-
-    dom("ol.wp-block-list").each(function () {
-      dom(this)
-        .removeClass("wp-block-list")
-        .addClass("list-decimal");
-    });
-
-    return dom.html();
-  });
-
-  eleventyConfig.addTransform("wpColumnsToGcdsGrid", function (content) {
-
-    if (!this.outputPath || !this.outputPath.endsWith(".html")) {
-      return content;
-    }
-
-    const dom = cheerio.load(content);
-
-    dom(".wp-block-columns").each(function () {
-
-      const grid = dom("<gcds-grid></gcds-grid>");
-
-      grid.attr("columns-desktop", "1fr 1fr");
-      grid.attr("columns-tablet", "1fr 1fr");
-      grid.attr("columns", "1fr");
-
-      dom(this)
-        .find(".wp-block-column")
-        .each(function () {
-
-          const columnContent = dom(this).html();
-          const column = dom("<div></div>").html(columnContent);
-
-          grid.append(column);
-        });
-
-      dom(this).replaceWith(grid);
-    });
-
-    return dom.html();
+  eleventyConfig.addTransform("gcdsTransform", function (content) {
+    return gcdsTransform(content, this.outputPath);
   });
 
   return {

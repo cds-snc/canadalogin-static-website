@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # What to do when you find suspicious activity
 
-Always monitor for suspicious activity on your account. Pay attention to email notifications you may receive from us saying that a change has been made to your account. If you receive an email stating a change was made, but you did not make the change, we recommend you take the following steps:
+Always monitor for suspicious activity on your CanadaLogin. Pay attention to email notifications you may receive from us saying that a change has been made to your CanadaLogin. If you receive an email stating a change was made, but you did not make the change, we recommend you take the following steps:
 
 ## Secure your CanadaLogin
 
@@ -21,14 +21,14 @@ Always monitor for suspicious activity on your account. Pay attention to email n
 
 #### If you can't sign in
 
-If you think someone changed your account info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
+If you think someone changed your CanadaLogin info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
 
 <ul class="list-disc mb-300">
   <li>{% link links.forgotyourpassword 'Reset your password' %}</li>
   <li>{% linkRef links.problemssigninginwith2stepverification 'cannot-access-your-phone' 'Recover your 2-step verification' %}</li>
 </ul>
 
-### 2. Review your settings and revert any changes that were made to your account information
+### 2. Review your settings and revert any changes that were made to your CanadaLogin information
   1. Correct the setting immediately if you find unfamiliar changes to your CanadaLogin:
       - Email address
       - Password
@@ -36,7 +36,7 @@ If you think someone changed your account info, like your password or 2-step ver
 
   2. Review the programs/services you use CanadaLogin on to correct any changes that were made to your information
 
-### 3. Ensure you are following safety practices for good account security
+### 3. Ensure you are following safety practices for good CanadaLogin security
 
 <ul class="list-disc mb-300">
   <li>Have backup 2-step verification phone numbers on your CanadaLogin. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.</li>
@@ -50,7 +50,7 @@ If you think someone changed your account info, like your password or 2-step ver
 
 ### 1. Secure your email
 
-Your email address is used to help recover your account, so it's very important to keep it secure. We recommend taking the following steps on your **email account** to keep your CanadaLogin safe:
+Your email address is used to help recover your CanadaLogin, so it's very important to keep it secure. We recommend taking the following steps on your **email account** to keep your CanadaLogin safe:
 
 - Change your password.
 - Add a 2-step verification method if you do not have one currently.

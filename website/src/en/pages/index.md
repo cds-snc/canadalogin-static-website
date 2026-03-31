@@ -16,7 +16,27 @@ templateEngineOverride: njk
 
 {% if wpPage %}
     <h2>Articles content </h2>
-
+    HTML Elements for comparison
+       <gcds-button
+        type="link"
+        button-role="secondary"
+        href="canada.ca"
+        lang="en"
+      >
+        Primary button
+      </gcds-button>
+   <gcds-button
+        type="link"
+        button-role="secondary"
+        href="canada.ca"
+        lang="en"
+      >
+        Secondary button
+      </gcds-button>
+      <gcds-button type="link" button-role="secondary" value="CanadaLogin roadmap" href="roadmap" target="_blank">
+  CanadaLogin roadmap
+  
+</gcds-button>
   <h1>{{ wpPage.title.rendered | safe }}</h1>
   {{ wpPage.content.rendered | safe }}
 {% endif %}

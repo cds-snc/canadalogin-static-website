@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # Trouble signing in
 
-Forgot your password? Locked out of your account? Get help accessing your account.
+Forgot your password? Locked out of your CanadaLogin? Get help accessing your CanadaLogin.
 
 ## Common problems
 

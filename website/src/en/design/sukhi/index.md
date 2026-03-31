@@ -1,0 +1,16 @@
+---
+title: Articles EN POC - Sukhi
+layout: 'layouts/base.njk'
+translationKey: sukhi
+date: 'git Last Modified'
+templateEngineOverride: njk
+---
+
+{% set articlePage = articles_en['sukhi'] %}
+<h2>EN Articles content below:</h2>
+
+{% if articlePage %}
+
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
