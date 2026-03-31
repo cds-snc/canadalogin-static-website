@@ -92,12 +92,6 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
         <li>Vos applications peuvent s’intégrer avec le protocole d’identité Web OpenID Connect (OIDC).</li>
       </ul>
     </gcds-text>
-    <gcds-text>
-      Contactez-nous si vous avez des questions ou si vous souhaitez que nous aidions votre équipe à évaluer sa préparation et ses stratégies de transition.
-    </gcds-text>
-    <gcds-text>
-      <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j3y9p01ioyl01zqcnmkz5" external>Nous contacter</gcds-link>
-    </gcds-text>
   </div>
   <div>
     <gcds-heading tag="h2">
@@ -113,10 +107,17 @@ Une manière simple et sécurisée d’accéder aux programmes et services en li
   </div>
 </gcds-grid>
 
-<gcds-heading tag="h2">Recevoir des communications de ConnexionCanada</gcds-heading>
+<gcds-heading tag="h2">
+  Lancez-vous
+</gcds-heading>
 
 <gcds-text>
-Si vous souhaitez recevoir des mises à jour, rejoignez la liste d’envoi de ConnexionCanada.
+  Communiquez avec nous sur GCÉchange si vous avez des questions ou si vous souhaitez que nous aidions votre équipe à évaluer sa préparation et ses stratégies de transition.
+</gcds-text>
+<gcds-text>
+  Le lien ci-dessous est accessible uniquement sur le réseau du gouvernement du Canada (GC).
 </gcds-text>
 
-<gcds-button type="link" button-role="secondary" value="Abonnez-vous aux communications" href="https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j47by01k0x301anfuhfxs" target="_blank">Abonnez-vous aux communications</gcds-button>
+<gcds-button type="link" button-role="secondary" value="Contact us (GC network only)" href="https://gcxgce.sharepoint.com/teams/10003438/SitePages/fr/Contact-us.aspx" target="_blank">
+  Contactez-nous (réseau du GC seulement)
+</gcds-button>
