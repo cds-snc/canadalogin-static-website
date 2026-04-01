@@ -20,7 +20,7 @@ ConnexionCanada remplace temporairement la méthode de connexion suivante :
 - Partenaires de connexion Interac (banques et coopératives de crédit)
 
 <gcds-notice type="info" notice-title-tag="h3" notice-title="Guides connexes">
-  <gcds-text>{% link links.whycanadaloginisreplacingpartners 'Pourquoi ConnexionCanada remplace les méthodes de connexion existantes' %}</gcds-text>
+  <gcds-text>{% link links.whycanadaloginisreplacingpartnersFR 'Pourquoi ConnexionCanada remplace les méthodes de connexion existantes' %}</gcds-text>
 </gcds-notice>
 
 <br>
