@@ -8,7 +8,7 @@ eleventyNavigation:
   title: Gérer plusieurs identifiants ConnexionCanada
   locale: en
   order: 2
-  parent: getStartedEn
+  parent: getStartedFR
   hideMain: true
 ---
 
