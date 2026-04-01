@@ -325,8 +325,11 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  const articlesApiUrl = "https://articles.alpha.canada.ca/canadalogin-connexioncanada";
+  eleventyConfig.addGlobalData('ARTICLES_API_URL', articlesApiUrl);
+
   eleventyConfig.addTransform("gcdsTransform", function (content) {
-    return gcdsTransform(content, this.outputPath);
+    return gcdsTransform(content, this.outputPath, articlesApiUrl);
   });
 
   return {
