@@ -1,5 +1,46 @@
 # Changelog
 
+## [1.3.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.2...v1.3.3) (2026-03-31)
+
+
+### Bug Fixes
+
+* Small fixes to Users Privacy Page (FR) | Utilisateurs Avis de confidentialité ([#700](https://github.com/cds-snc/gc-signin-static-website/issues/700)) ([117906c](https://github.com/cds-snc/gc-signin-static-website/commit/117906c556a35857c6e1b9a2a433c538583c680b))
+
+## [1.3.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.1...v1.3.2) (2026-03-31)
+
+
+### Bug Fixes
+
+* Update content to new Privacy Notice Statement & Terms and Conditions pages ([#688](https://github.com/cds-snc/gc-signin-static-website/issues/688)) ([da21aa2](https://github.com/cds-snc/gc-signin-static-website/commit/da21aa21c4d81dcc69ad30e5e71f1730f93e112c))
+
+## [1.3.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.0...v1.3.1) (2026-03-26)
+
+
+### Bug Fixes
+
+* Removed sign up for comms section and contact us links ([#687](https://github.com/cds-snc/gc-signin-static-website/issues/687)) ([1deb6a1](https://github.com/cds-snc/gc-signin-static-website/commit/1deb6a1696f3b2b4ab57fe173962490e35492949))
+* Update how to create a CanadaLogin ([#645](https://github.com/cds-snc/gc-signin-static-website/issues/645)) ([853e7a8](https://github.com/cds-snc/gc-signin-static-website/commit/853e7a84b024acfd1e243e648e49de881abc2eb6))
+* Update-en-fr-getstarted-with-canadalogin ([#692](https://github.com/cds-snc/gc-signin-static-website/issues/692)) ([86b9b0d](https://github.com/cds-snc/gc-signin-static-website/commit/86b9b0d0a5cdca5415f6f55dc0a6515c757aa775))
+
+## [1.3.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.18...v1.3.0) (2026-03-25)
+
+
+### Features
+
+* data api integration for articles api support ([#676](https://github.com/cds-snc/gc-signin-static-website/issues/676)) ([40af542](https://github.com/cds-snc/gc-signin-static-website/commit/40af542120c53c84f7c4cb75255278dd9d448fcb))
+* poc design pages ([#680](https://github.com/cds-snc/gc-signin-static-website/issues/680)) ([cc8d06d](https://github.com/cds-snc/gc-signin-static-website/commit/cc8d06d271cab49a3fc9fcde9893b48ad3056f9e))
+* transform articles styles to GC Design styles ([#678](https://github.com/cds-snc/gc-signin-static-website/issues/678)) ([d1651c3](https://github.com/cds-snc/gc-signin-static-website/commit/d1651c37d132bcbb23bc3b598decd702165f5127))
+* update readme and the ci/cd variables build to inject the ARTIC… ([#673](https://github.com/cds-snc/gc-signin-static-website/issues/673)) ([aeef575](https://github.com/cds-snc/gc-signin-static-website/commit/aeef575179a2368aca6fc71216faa85d528c5c5b))
+* update readme and the ci/cd variables build to inject the ARTICLES_API_URL ([aeef575](https://github.com/cds-snc/gc-signin-static-website/commit/aeef575179a2368aca6fc71216faa85d528c5c5b))
+
+
+### Bug Fixes
+
+* Created french managing multiple canadalogins page ([#690](https://github.com/cds-snc/gc-signin-static-website/issues/690)) ([f951229](https://github.com/cds-snc/gc-signin-static-website/commit/f95122996ec29294a81cfee481fbb346de194495))
+* Created french why canadalogin is replacing existing methods ([#691](https://github.com/cds-snc/gc-signin-static-website/issues/691)) ([7b1fab7](https://github.com/cds-snc/gc-signin-static-website/commit/7b1fab71c1ad5f34af39b30caa9370da1d805da1))
+* Fix accidental typo in creer-compte text ([#686](https://github.com/cds-snc/gc-signin-static-website/issues/686)) ([008cf5d](https://github.com/cds-snc/gc-signin-static-website/commit/008cf5d7d01f2d4a69c60f1539c1555eba8aa918))
+
 ## [1.2.18](https://github.com/cds-snc/gc-signin-static-website/compare/v1.2.17...v1.2.18) (2026-03-13)
 
 
