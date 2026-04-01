@@ -41,7 +41,7 @@ Some services will start using CanadaLogin before others. Until every service us
       <li>If there was only 1 old sign-in method, you may not have to choose.</li>
       <li>You may have to complete GCKey’s or the Interac sign-in partner’s multi-factor authentication.</li>
     </ul>
-    <li>You can now use CanadaLogin to access your account. You can use the same CanadaLogin to accessing other participating services.</li>
+    <li>You can now use CanadaLogin to access your existing account on the service. You’ll only use CanadaLogin to access the service going forward. You can use the same CanadaLogin to accessing other participating services.</li>
   </ol>
 </ul>
 
