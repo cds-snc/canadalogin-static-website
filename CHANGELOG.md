@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.3...v1.4.0) (2026-04-01)
+
+
+### Features
+
+* convert content with certain class names to a gcds-card component ([#694](https://github.com/cds-snc/gc-signin-static-website/issues/694)) ([3795892](https://github.com/cds-snc/gc-signin-static-website/commit/37958922e4bb43f4426578948859244cea0b0a98))
+
+
+### Bug Fixes
+
+* Created french updating your sign-in method ([#706](https://github.com/cds-snc/gc-signin-static-website/issues/706)) ([8476b2b](https://github.com/cds-snc/gc-signin-static-website/commit/8476b2b66f4c93345ea2dfe95d64b7f01c39a356))
+* Fix broken link to 'Remplacer methodes de connexion existantes' page ([#713](https://github.com/cds-snc/gc-signin-static-website/issues/713)) ([f4e8e22](https://github.com/cds-snc/gc-signin-static-website/commit/f4e8e224047c3ce51e9709b79e510d663c173fea))
+
+
+### Continuous Integration
+
+* Deploy 1.3.3 to prod ([#702](https://github.com/cds-snc/gc-signin-static-website/issues/702)) ([98a052c](https://github.com/cds-snc/gc-signin-static-website/commit/98a052cdc3efb8a22d0a38ccd0fe3861e69e1b06))
+
 ## [1.3.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.2...v1.3.3) (2026-03-31)
 
 
