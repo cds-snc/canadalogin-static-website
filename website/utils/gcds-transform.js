@@ -198,12 +198,11 @@ function transformColumns(dom, articlesApiUrl) {
     });
 }
 
-function gcdsTransform(content, outputPath) {
+function gcdsTransform(content, outputPath, articlesApiUrl) {
     if (!outputPath || !outputPath.endsWith('.html')) {
         return content;
     }
 
-    const articlesApiUrl = process.env.ARTICLES_API_URL;
     const dom = cheerio.load(content);
 
     transformAlerts(dom);
