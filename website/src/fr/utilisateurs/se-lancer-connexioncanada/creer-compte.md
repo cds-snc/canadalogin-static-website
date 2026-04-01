@@ -18,7 +18,7 @@ eleventyNavigation:
 
 <ul class="list-disc mb-300">
   <li>{% link '#avant-de-vous-lancer' 'Avant de vous lancer' %}</li>
-  <li>{% link '#etapes-de-la-creation-de-compte' 'Étapes de la création d’identifiant' %}</li>
+  <li>{% link '#etapes-de-la-creation-didentifiant' 'Étapes de la création d’identifiant' %}</li>
 </ul>
 
 ## Avant de vous lancer
