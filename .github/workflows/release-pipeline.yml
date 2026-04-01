@@ -97,7 +97,6 @@ jobs:
         run: |
           echo "WEBSITE_ENVIRONMENT=${{ matrix.environment }}" >> $GITHUB_ENV
           echo "GOOGLE_ANALYTICS_ID=${{ vars.GOOGLE_ANALYTICS_ID }}" >> $GITHUB_ENV
-          echo "ARTICLES_API_URL=${{ vars.ARTICLES_API_URL }}" >> $GITHUB_ENV
 
       - name: Install dependencies & Build Application
         working-directory: website
