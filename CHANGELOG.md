@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.1...v1.4.2) (2026-04-02)
+
+
+### Bug Fixes
+
+* Fix broken anchor link for account creation steps ([#721](https://github.com/cds-snc/gc-signin-static-website/issues/721)) ([0c0f438](https://github.com/cds-snc/gc-signin-static-website/commit/0c0f4380509d5d1e4bf2e6ab3468bdf1c430be70))
+
 ## [1.4.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.0...v1.4.1) (2026-04-01)
 
 
