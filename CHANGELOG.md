@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.0...v1.4.1) (2026-04-01)
+
+
+### Bug Fixes
+
+* Fixed anchor link "Étapes de la création d’identifiant" ([#718](https://github.com/cds-snc/gc-signin-static-website/issues/718)) ([b494f3c](https://github.com/cds-snc/gc-signin-static-website/commit/b494f3c08515ac170c614d03b099c278fe18ce54))
+
+
+### Continuous Integration
+
+* Deploy 1.4.0 to prod ([#715](https://github.com/cds-snc/gc-signin-static-website/issues/715)) ([6a04d2c](https://github.com/cds-snc/gc-signin-static-website/commit/6a04d2cb7be3843b5c574e945a062ff8e2a70e4e))
+
 ## [1.4.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.3.3...v1.4.0) (2026-04-01)
 
 
