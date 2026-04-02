@@ -13,15 +13,12 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_en['partners'] %}
+{% set articlePage = articles_en['partners'] %}
 
-{% if wpPage %}
+{% if articlePage %}
     <h2>Articles content </h2>
 
-  <h1>{{ wpPage.title.rendered | safe }}</h1>
-  {{ wpPage.content.rendered | safe }}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
 {% endif %}
-
-
-
 
