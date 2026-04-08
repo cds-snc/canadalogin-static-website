@@ -19,7 +19,7 @@ hero:
 
 # ConnexionCanada pour les ministères et organismes
 
-Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada
+Une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada.
 
 <gcds-heading tag="h2" character-limit="false" margin-bottom="300" margin-top="500">
   Qu’est-ce que ConnexionCanada?
