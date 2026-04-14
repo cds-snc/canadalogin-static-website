@@ -22,6 +22,6 @@ Forgot your password? Locked out of your CanadaLogin? Get help accessing your Ca
   <li>{% link links.problemsenteringyouremailaddress 'Problems entering your email address' %}</li>
   <li>{% link links.forgotyouremail 'Forgot your email' %}</li>
   <li>{% link links.forgotyourpassword 'Forgot your password' %}</li>
-  <li>{% linkRef links.problemssigninginwith2stepverification '#cannot-access-your-phone' 'Cannot access your phone' %}</li>
-  <li>{% linkRef links.problemssigninginwith2stepverification '#not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</li>
+  <li>{% linkRef links.problemssigninginwith2stepverification 'cannot-access-your-2step-verification-phone' 'Cannot access your phone' %}</li>
+  <li>{% linkRef links.problemssigninginwith2stepverification 'not-receiving-verification-codes-to-your-phone' 'Not receiving verification codes to your phone' %}</li>
 </ul>
