@@ -16,6 +16,11 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% if WEBSITE_ENVIRONMENT!= 'prod' %}
+    <meta name="robots" content="noindex, nofollow, noarchive">
+  {% endif %}
+
   <title>{% block page_title %}{{ title }} - {{ base[locale].gcds }}{% endblock %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
