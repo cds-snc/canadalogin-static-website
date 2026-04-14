@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.2...v1.4.3) (2026-04-14)
+
+
+### Bug Fixes
+
+* Removed-noindex-meta-tags ([#735](https://github.com/cds-snc/gc-signin-static-website/issues/735)) ([7f1f639](https://github.com/cds-snc/gc-signin-static-website/commit/7f1f6396bbe36c53583fca056b83c25a7bdb974c))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump undici from 7.16.0 to 7.24.4 in /website ([#682](https://github.com/cds-snc/gc-signin-static-website/issues/682)) ([85a7022](https://github.com/cds-snc/gc-signin-static-website/commit/85a702298ede7d3ec28323ee7a2766289f39b022))
+* **deps:** bump lodash from 4.17.21 to 4.18.1 in /website ([#732](https://github.com/cds-snc/gc-signin-static-website/issues/732)) ([7828b9b](https://github.com/cds-snc/gc-signin-static-website/commit/7828b9b872f8fd5a1437283dfe318f39db2468a8))
+
+
+### Continuous Integration
+
+* Deploy 1.4.2 to prod ([#723](https://github.com/cds-snc/gc-signin-static-website/issues/723)) ([2077983](https://github.com/cds-snc/gc-signin-static-website/commit/2077983c908ea88f3eff4fc40c12a9c27b0eb31c))
+
 ## [1.4.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.1...v1.4.2) (2026-04-02)
 
 
