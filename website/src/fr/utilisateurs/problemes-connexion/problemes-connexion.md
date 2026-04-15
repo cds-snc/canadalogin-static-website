@@ -23,6 +23,6 @@ Vous avez oublié votre mot de passe? Vous ne pouvez pas accéder à votre compt
   <li>{% link links.problemsenteringyouremailaddressFR 'Problèmes liés à la saisie de votre adresse courriel' %}</li>
   <li>{% link links.forgotyouremailFR 'Adresse courriel oubliée' %}</li>
   <li>{% link links.forgotyourpasswordFR 'Mot de passé oublié' %}</li>
-  <li>{% linkRef links.problemssigninginwith2stepverificationFR '#vous-navez-pas-acces-au-telephone-que-vous-utilisez-pour-la-verification-en-deux-etapes' 'Vous n’avez pas accès à votre téléphone' %}</li>
-  <li>{% linkRef links.problemssigninginwith2stepverificationFR '#vous-ne-recevez-pas-les-codes-de-verification-sur-votre-telephone' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}</li>
+  <li>{% linkRef links.problemssigninginwith2stepverificationFR 'vous-navez-pas-acces-au-telephone-que-vous-utilisez-pour-la-verification-en-deux-etapes' 'Vous n’avez pas accès à votre téléphone' %}</li>
+  <li>{% linkRef links.problemssigninginwith2stepverificationFR 'vous-ne-recevez-pas-les-codes-de-verification-sur-votre-telephone' 'Vous ne recevez pas les codes de vérification sur votre téléphone' %}</li>
 </ul>
