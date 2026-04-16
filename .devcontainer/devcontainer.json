@@ -26,7 +26,8 @@
 				"github.copilot",
 				"github.vscode-github-actions",
 				"hashicorp.hcl",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"eseom.nunjucks-template"
 			],
 			"settings": {
 				"files.associations": {
