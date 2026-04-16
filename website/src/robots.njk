@@ -1,0 +1,13 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+
+{% if WEBSITE_ENVIRONMENT == "prod" %}
+User-agent: *
+Disallow: /en/design/
+Disallow: /fr/design/
+{% else %}
+User-agent: *
+Disallow: /
+{% endif %}

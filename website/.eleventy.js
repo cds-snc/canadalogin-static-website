@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
   // Pass through copies
 
   eleventyConfig.addPassthroughCopy('_redirects');
-  eleventyConfig.addPassthroughCopy('./src/robots.txt');
+
   eleventyConfig.addPassthroughCopy('./src/styles/style.css');
   eleventyConfig.addPassthroughCopy('./src/styles/prism.css');
   eleventyConfig.addPassthroughCopy({ './src/assets': 'assets' });
