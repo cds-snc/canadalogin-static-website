@@ -233,7 +233,6 @@ module.exports = function (eleventyConfig) {
   });
 
   const website_environment = process.env.WEBSITE_ENVIRONMENT || 'local';
-  console.log("WEBSITE_ENVIRONMENT:", website_environment);
   eleventyConfig.addGlobalData('WEBSITE_ENVIRONMENT', website_environment);
 
   const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
