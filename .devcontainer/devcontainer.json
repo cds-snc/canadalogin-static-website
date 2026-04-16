@@ -31,7 +31,7 @@
 			],
 			"settings": {
 				"files.associations": {
-					"*.njk": "html"
+					"*.njk": "njk"
 				},
 				"emmet.includeLanguages": {
 					"njk": "html"
