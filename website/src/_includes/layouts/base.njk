@@ -17,8 +17,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  {% if WEBSITE_ENVIRONMENT!= 'prod' %}
-    <meta name="robots" content="noindex, nofollow, noarchive">
+  {% if WEBSITE_ENVIRONMENT != 'prod' or page.url.startsWith('/en/design/') %}
+  <meta name="robots" content="noindex, nofollow, noarchive">
   {% endif %}
 
   <title>{% block page_title %}{{ title }} - {{ base[locale].gcds }}{% endblock %}</title>
@@ -44,8 +44,7 @@
 <body>
   {% include "partials/header.njk" %}
 
-  <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225" {% if not nocrawl
-    %}data-pagefind-body{% endif %}>
+  <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225" {% if not nocrawl %}data-pagefind-body{% endif %}>
 
     {% block content %}{{ content | safe }}{% endblock %}
 
