@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
   // Pass through copies
 
   eleventyConfig.addPassthroughCopy('_redirects');
-  eleventyConfig.addPassthroughCopy('./src/robots.txt');
+
   eleventyConfig.addPassthroughCopy('./src/styles/style.css');
   eleventyConfig.addPassthroughCopy('./src/styles/prism.css');
   eleventyConfig.addPassthroughCopy({ './src/assets': 'assets' });
@@ -233,6 +233,7 @@ module.exports = function (eleventyConfig) {
   });
 
   const website_environment = process.env.WEBSITE_ENVIRONMENT || 'local';
+  console.log("WEBSITE_ENVIRONMENT:", website_environment);
   eleventyConfig.addGlobalData('WEBSITE_ENVIRONMENT', website_environment);
 
   const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
