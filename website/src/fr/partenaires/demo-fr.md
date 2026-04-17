@@ -1,19 +1,19 @@
 ---
-title: Feuille de route de ConnexionCanada
-translationKey: signinroadmap
+title: Page de démonstration des composants
+translationKey: demopage
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: signinroadmapFR
-  title: Feuille de route
-  locale: fr
+  key: demopageFR
+  title: Page de démonstration des composants
   parent: partnersFR
-  order: 2
-  hideMain: false
+  locale: fr
+  order: 1
+  hideMain: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['feuille-route'] %}
+{% set articlePage = articles_fr['demo-fr'] %}
 
 {% if articlePage %}
     <h2>Articles content </h2>

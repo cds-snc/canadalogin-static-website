@@ -11,7 +11,7 @@ date: 'git Last Modified'
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_fr['bienvenue-sur-connexioncanada'] %}
+{% set wpPage = articles_fr['fr'] %}
 {% if wpPage %}
     <h2>Articles content </h2>
 

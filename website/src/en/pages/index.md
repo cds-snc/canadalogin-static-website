@@ -12,7 +12,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_en['welcome-to-canadalogin'] %}
+{% set wpPage = articles_en['en'] %}
 
 {% if wpPage %}
     <h2>Articles content </h2>
@@ -40,4 +40,3 @@ templateEngineOverride: njk
   <h1>{{ wpPage.title.rendered | safe }}</h1>
   {{ wpPage.content.rendered | safe }}
 {% endif %}
-
