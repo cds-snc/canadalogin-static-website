@@ -17,7 +17,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  {% if WEBSITE_ENVIRONMENT != 'prod' or (page.url | startsWith('/en/design/')) %}
+  {% if WEBSITE_ENVIRONMENT != 'prod' or (page.url | startsWith('/en/design/')) or (page.url | startsWith('/fr/design/')) %}
   <meta name="robots" content="noindex, nofollow, noarchive">
   {% endif %}
 
