@@ -26,3 +26,9 @@ Before you contact us, read our guidance if you're having a problem with or want
 * {% link links.manageyouraccount 'Managing your CanadaLogin' %}
 * {% link links.howtokeepyouraccountsecure 'How to keep your CanadaLogin secure' %}
 * {% link links.whattodowhenyoufindsuspiciousactivity 'What to do when you find suspicious activity' %}
+
+## User support
+
+**Telephone**: 1-833-712-2311  
+**Teletypewriter (TTY)**: 1-800-465-7735  
+**Hours of operations**: 8 am to 8 pm (Eastern time)

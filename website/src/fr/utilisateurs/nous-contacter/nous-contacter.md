@@ -26,3 +26,9 @@ Avant de nous contacter, reportez-vous à nos guides si vous avez un problème a
 * {% link links.manageyouraccountFR 'Gestion de votre identifiant ConnexionCanada ' %}
 * {% link links.howtokeepyouraccountsecureFR 'Comment sécuriser votre identifiant' %}
 * {% link links.whattodowhenyoufindsuspiciousactivityFR 'Que faire si vous détectez une activité suspecte' %}
+
+## Soutien à la clientèle
+
+**Téléphone**: 1-833-712-2311  
+**Téléimprimeur (TTY)**: 1-800-465-7735  
+**Heures d'ouverture**: De 8 h à 20 h (heure de l'Est)  
