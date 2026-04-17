@@ -23,7 +23,7 @@ If you do not have multiple numbers registered to your CanadaLogin, you will nee
 
 ### How to recover your 2-step verification
 
-1. On the “Complete 2-step verification” page or the “Check your phone” page when signing in, select “I cannot access my phone”.
+1. On the “Complete 2-step verification” page or the “Check your phone” page when signing in, select “Recover my 2-step verification”.
 
 2. Check your email for a message from CanadaLogin. The email will contain a 6-digit one-time code.
 
