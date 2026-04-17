@@ -24,7 +24,7 @@ Si vous n’avez qu’un seul numéro enregistré sur votre compte, vous devez s
 
 ### Comment accéder à nouveau à votre vérification en deux étapes
 
-1. Lors de la connexion, sur la page « Procédez à la vérification en deux étapes » ou « Consultez votre téléphone », cliquez sur « Je n’ai pas accès à mon téléphone ».
+1. Lors de la connexion, sur la page « Procédez à la vérification en deux étapes » ou « Consultez votre téléphone », cliquez sur « Récupérer mon identifiant ».
 
 2. Cherchez dans votre boîte de réception un courriel envoyé par « ConnexionCanada ». Ce courriel contiendra un code à usage unique de six chiffres.
 
