@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.5.1...v1.5.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* Fix formatting of user support contact information (FR+EN) ([#752](https://github.com/cds-snc/gc-signin-static-website/issues/752)) ([e3d2b53](https://github.com/cds-snc/gc-signin-static-website/commit/e3d2b53571565e7cbadcd57572c734126295007d))
+
 ## [1.5.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.5.0...v1.5.1) (2026-04-20)
 
 
