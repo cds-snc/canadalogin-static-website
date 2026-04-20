@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.5.0...v1.5.1) (2026-04-20)
+
+
+### Bug Fixes
+
+* Fix spacing in customer support contact details (FR) ([#750](https://github.com/cds-snc/gc-signin-static-website/issues/750)) ([084c287](https://github.com/cds-snc/gc-signin-static-website/commit/084c2873f2c5ca0debe18cd1880768b2a42ad8a7))
+
 ## [1.5.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.3...v1.5.0) (2026-04-20)
 
 
