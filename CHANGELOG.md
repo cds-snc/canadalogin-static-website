@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.5.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.3...v1.5.0) (2026-04-20)
+
+
+### Features
+
+* dynamic robots.txt file ([#743](https://github.com/cds-snc/gc-signin-static-website/issues/743)) ([85dcd14](https://github.com/cds-snc/gc-signin-static-website/commit/85dcd140b8a2806b02619eedeef4a8a6996c6e64))
+
+
+### Bug Fixes
+
+* Add missing period to Partners page (FR) and fix anchor links on 'Trouble Sign in' page ([#727](https://github.com/cds-snc/gc-signin-static-website/issues/727)) ([c8843ae](https://github.com/cds-snc/gc-signin-static-website/commit/c8843ae406287f6d87a0f4e0cf60c85024c41202))
+
+
+### Code Refactoring
+
+* added the design page to not be indexed ([#741](https://github.com/cds-snc/gc-signin-static-website/issues/741)) ([e5fe248](https://github.com/cds-snc/gc-signin-static-website/commit/e5fe2486fdfdbd8e244eec233f85e717dbfa3108))
+
+
+### Continuous Integration
+
+* Deploy 1.4.3 to prod ([#736](https://github.com/cds-snc/gc-signin-static-website/issues/736)) ([6eb803c](https://github.com/cds-snc/gc-signin-static-website/commit/6eb803cd9fe79d4d4a12ea34aa0439e6f9667a8d))
+
 ## [1.4.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.4.2...v1.4.3) (2026-04-14)
 
 
