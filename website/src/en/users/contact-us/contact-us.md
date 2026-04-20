@@ -29,6 +29,6 @@ Before you contact us, read our guidance if you're having a problem with or want
 
 ## User support
 
-**Telephone**: 1-833-712-2311  
-**Teletypewriter (TTY)**: 1-800-465-7735  
-**Hours of operations**: 8 am to 8 pm (Eastern time)
+**Telephone:** 1-833-712-2311  
+**Teletypewriter (TTY):** 1-800-465-7735  
+**Hours of operations:** 8 am to 8 pm (Eastern time)
