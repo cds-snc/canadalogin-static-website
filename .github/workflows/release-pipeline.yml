@@ -3,6 +3,8 @@ on:
     branches:
       - main
   workflow_dispatch: # Added for ease of debugging for now.
+  repository_dispatch: # Triggered by GC Articles pipeline when a new article is published and we need to update the website with the new article.
+    types: [gc-articles-content-updated]
 
 permissions:
   contents: write
