@@ -4,7 +4,6 @@ on:
       - main
   workflow_dispatch: # Added for ease of debugging for now.
   repository_dispatch: # Triggered by GC Articles pipeline when a new article is published or saved. The DEV website will be rebuilt and redeployed with the updated content.
-    types: [gc-articles-content-updated]
 
 permissions:
   contents: write
