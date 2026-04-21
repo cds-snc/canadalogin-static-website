@@ -7,9 +7,11 @@ from pathlib import Path
 
 
 def to_url(rel_path: str) -> str:
-    """Convert a relative file path to a URL-style path."""
-    url = rel_path.removesuffix("index.html")
-    return url or "/"
+    """Convert a relative file path to a root-relative URL-style path."""
+    url = rel_path.replace("\\", "/").removesuffix("index.html")
+    if not url:
+        return "/"
+    return url if url.startswith("/") else f"/{url}"
 
 
 def find_html_files(directory: Path) -> set[str]:
