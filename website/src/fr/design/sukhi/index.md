@@ -3,6 +3,7 @@ title: Articles FR POC - Sukhi
 layout: 'layouts/base.njk'
 translationKey: sukhi
 date: 'git Last Modified'
+devOnly: true
 templateEngineOverride: njk
 ---
 

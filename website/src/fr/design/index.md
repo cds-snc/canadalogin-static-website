@@ -3,6 +3,7 @@ title: Articles FR POC
 layout: 'layouts/base.njk'
 translationKey: articles
 date: 'git Last Modified'
+devOnly: true
 templateEngineOverride: njk
 ---
 
