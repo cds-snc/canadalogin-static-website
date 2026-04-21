@@ -4,7 +4,6 @@ layout: 'layouts/base.njk'
 translationKey: articles
 date: 'git Last Modified'
 devOnly: true
-eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
 
