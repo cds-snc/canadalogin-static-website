@@ -64,7 +64,7 @@ jobs:
           echo "envs=$ENVS_TO_DEPLOY" >> $GITHUB_OUTPUT
 
       - name: Notify slack
-        if: github.event_name != 'repository_dispatch' && steps.check-envs.outputs.envs != ''
+        if: steps.check-envs.outputs.envs != ''
         run: |
           workflow_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           json='{"text":":hourglass: '"${{ env.SLACK_NOTIFICATION_APPLICATION_NAME }}"' is being deployed to the following environments: `'"${{ steps.check-envs.outputs.envs }}"'`\n\n<'"$workflow_url"'|Click for more details>"}'
