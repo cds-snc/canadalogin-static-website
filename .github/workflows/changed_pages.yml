@@ -49,8 +49,7 @@ jobs:
 
       - name: Run changed pages script
         run: |
-          chmod +x .github/workflows/scripts/changed_pages.sh
-          .github/workflows/scripts/changed_pages.sh prod website/_site > changed-pages.md
+          python3 .github/workflows/scripts/changed_pages.py prod website/_site > changed-pages.md
           cat changed-pages.md
 
       - name: Update PR description with changed pages
