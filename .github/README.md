@@ -13,7 +13,8 @@ To trigger the website CI/CD automatically, a Personal Access Token needs to be 
 To create a PAT: 
 1. In your Github account, navigate to your Profile -> Developer Settings -> Fine-grained Tokens: https://github.com/settings/personal-access-tokens
 2. Generate New Token
-3. Ensure the new token resource owner is `CDS` and the selected repository is `gc-signin-static-website`. Example: [PAT Creation Reference](https://github.com/cds-snc/gc-signin-static-website/issues/753#issuecomment-4283333408)
+3. Ensure the new token resource owner is `CDS` and the selected repository is `gc-signin-static-website`. Example: [PAT Permission Reference](https://github.com/cds-snc/gc-signin-static-website/issues/753#issuecomment-4289798723)
+    - Permissions: Contents: Read and Write
 4. Save the secret PAT via https://encrypted-message.cdssandbox.xyz
 5. Share the link with the #platform-core-services team
 
