@@ -20,6 +20,12 @@ const slugify = require('./utils/slugify');
 const { encode } = require('html-entities');
 const { gcdsTransform } = require('./utils/gcds-transform');
 
+
+const ENVIRONMENTS = {
+  local: 'local',
+  dev: 'dev',
+};
+
 module.exports = function (eleventyConfig) {
   // Pass through copies
 
@@ -232,7 +238,7 @@ module.exports = function (eleventyConfig) {
     return await getLatestCdnVersion();
   });
 
-  const website_environment = process.env.WEBSITE_ENVIRONMENT || 'local';
+  const website_environment = process.env.WEBSITE_ENVIRONMENT || ENVIRONMENTS.local;
   eleventyConfig.addGlobalData('WEBSITE_ENVIRONMENT', website_environment);
 
   const google_analytics_id = process.env.GOOGLE_ANALYTICS_ID || '';
@@ -331,6 +337,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addTransform("gcdsTransform", function (content) {
     return gcdsTransform(content, this.outputPath, articlesApiUrl);
+  });
+  
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    // Required to hide dev only content such as the /design pages from production builds
+    permalink: (data) => {
+      const isDevEnvironment = website_environment === ENVIRONMENTS.dev || website_environment === ENVIRONMENTS.local;
+      if (data.devOnly && !isDevEnvironment) {
+        return false;
+      }
+
+      return data.permalink;
+    }
   });
 
   return {
