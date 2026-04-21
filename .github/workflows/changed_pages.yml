@@ -73,9 +73,11 @@ jobs:
             let body = pr.body || '';
 
             const startIdx = body.indexOf(startMarker);
-            const endIdx = body.indexOf(endMarker);
+            const endIdx = startIdx !== -1
+              ? body.indexOf(endMarker, startIdx + startMarker.length)
+              : -1;
 
-            if (startIdx !== -1 && endIdx !== -1) {
+            if (startIdx !== -1 && endIdx > startIdx) {
               // Replace existing section
               body = body.substring(0, startIdx) + section + body.substring(endIdx + endMarker.length);
             } else {
