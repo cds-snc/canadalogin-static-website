@@ -6,14 +6,23 @@ if [ $# -lt 2 ]; then
   exit 1
 fi
 
-PROD="$1"
-DEV="$2"
+PROD="${1%/}"
+DEV="${2%/}"
 
 # Convert a file path to a URL-style path
 # e.g. "dev/en/about/index.html" → "/en/about/"
 to_url() {
   local rel="${1%index.html}"
-  echo "${rel:-/}"
+
+  if [ -z "$rel" ]; then
+    echo "/"
+    return
+  fi
+
+  case "$rel" in
+    /*) echo "$rel" ;;
+    *) echo "/$rel" ;;
+  esac
 }
 
 # Collect all changes into a temp file for counting and sorting
