@@ -43,9 +43,12 @@ jobs:
 
       - name: Install dependencies & build
         working-directory: website
+        env:
+          WEBSITE_ENVIRONMENT: prod
+          GOOGLE_ANALYTICS_ID: ${{ vars.GOOGLE_ANALYTICS_ID }}
         run: |
           npm install
-          WEBSITE_ENVIRONMENT=prod npm run build
+          npm run build
 
       - name: Run changed pages script
         run: |
