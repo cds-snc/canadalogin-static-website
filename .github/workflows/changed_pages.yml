@@ -1,0 +1,87 @@
+name: Changed Pages Report
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+  id-token: write
+
+env:
+  AWS_REGION: ca-central-1
+
+jobs:
+  changed-pages:
+    # TODO: restore condition before merging: if: github.event_name == 'workflow_dispatch' || startsWith(github.head_ref, 'release-please')
+    runs-on: ubuntu-latest
+    environment: prod
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ vars.AWS_ACCOUNT_ID }}:role/github_action_push_S3-gc-signin-static-website
+          role-session-name: GHPushAppS3
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Download PROD site from S3
+        run: |
+          mkdir -p prod
+          aws s3 sync s3://${{ vars.EN_S3_BUCKET }} prod
+
+      - name: Build current site
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+
+      - name: Install dependencies & build
+        working-directory: website
+        run: |
+          npm install
+          WEBSITE_ENVIRONMENT=prod npm run build
+
+      - name: Run changed pages script
+        run: |
+          chmod +x .github/workflows/scripts/changed_pages.sh
+          .github/workflows/scripts/changed_pages.sh prod website/_site > changed-pages.md
+          cat changed-pages.md
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('changed-pages.md', 'utf8');
+            const marker = '<!-- changed-pages-report -->';
+            const fullBody = marker + '\n' + body;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const existing = comments.find(c => c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: fullBody,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: fullBody,
+              });
+            }
