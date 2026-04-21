@@ -15,7 +15,8 @@ env:
 
 jobs:
   changed-pages:
-    # TODO: restore condition before merging: if: github.event_name == 'workflow_dispatch' || startsWith(github.head_ref, 'release-please')
+    # Run manually, or automatically on Release Please PRs
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.head_ref, 'release-please')
     runs-on: ubuntu-latest
     environment: prod
 
@@ -52,36 +53,39 @@ jobs:
           .github/workflows/scripts/changed_pages.sh prod website/_site > changed-pages.md
           cat changed-pages.md
 
-      - name: Comment on PR
+      - name: Update PR description with changed pages
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const body = fs.readFileSync('changed-pages.md', 'utf8');
-            const marker = '<!-- changed-pages-report -->';
-            const fullBody = marker + '\n' + body;
+            const report = fs.readFileSync('changed-pages.md', 'utf8');
+            const startMarker = '<!-- changed-pages-start -->';
+            const endMarker = '<!-- changed-pages-end -->';
+            const section = startMarker + '\n\n---\n\n' + report + '\n' + endMarker;
 
-            const { data: comments } = await github.rest.issues.listComments({
+            const { data: pr } = await github.rest.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              pull_number: context.issue.number,
             });
 
-            const existing = comments.find(c => c.body.includes(marker));
+            let body = pr.body || '';
 
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existing.id,
-                body: fullBody,
-              });
+            const startIdx = body.indexOf(startMarker);
+            const endIdx = body.indexOf(endMarker);
+
+            if (startIdx !== -1 && endIdx !== -1) {
+              // Replace existing section
+              body = body.substring(0, startIdx) + section + body.substring(endIdx + endMarker.length);
             } else {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: fullBody,
-              });
+              // Append to end
+              body = body + '\n\n' + section;
             }
+
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              body,
+            });
