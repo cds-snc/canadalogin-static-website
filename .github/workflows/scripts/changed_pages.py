@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Compare two site directories and output a markdown table of changed pages."""
 
-import filecmp
 import re
 import sys
 from pathlib import Path
@@ -23,7 +22,10 @@ def extract_body(html: str) -> str:
 
 def normalize_lines(filepath: Path) -> list[str]:
     """Extract body content and return lines with ignored patterns filtered out."""
-    content = filepath.read_text(encoding="utf-8")
+    try:
+        content = filepath.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return []
     body = extract_body(content)
     lines = body.splitlines()
     return [
@@ -83,6 +85,13 @@ def main():
 
     prod_dir = Path(sys.argv[1])
     dev_dir = Path(sys.argv[2])
+
+    if not prod_dir.is_dir():
+        print(f"Error: '{prod_dir}' is not a directory", file=sys.stderr)
+        sys.exit(1)
+    if not dev_dir.is_dir():
+        print(f"Error: '{dev_dir}' is not a directory", file=sys.stderr)
+        sys.exit(1)
 
     changes = compare_sites(prod_dir, dev_dir)
 
