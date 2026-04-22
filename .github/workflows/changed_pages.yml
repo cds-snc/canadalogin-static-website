@@ -1,0 +1,95 @@
+name: Changed Pages Report
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+  id-token: write
+
+env:
+  AWS_REGION: ca-central-1
+
+jobs:
+  changed-pages:
+    # Run manually, or automatically on Release Please PRs
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.head_ref, 'release-please')
+    runs-on: ubuntu-latest
+    environment: prod
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
+        with:
+          role-to-assume: arn:aws:iam::${{ vars.AWS_ACCOUNT_ID }}:role/github_action_push_S3-gc-signin-static-website
+          role-session-name: GHPushAppS3
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Download PROD site from S3
+        run: |
+          mkdir -p prod
+          aws s3 sync s3://${{ vars.EN_S3_BUCKET }} prod
+
+      - name: Build current site
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 'latest'
+
+      - name: Install dependencies & build
+        working-directory: website
+        env:
+          WEBSITE_ENVIRONMENT: prod
+          GOOGLE_ANALYTICS_ID: ${{ vars.GOOGLE_ANALYTICS_ID }}
+        run: |
+          npm install
+          npm run build
+
+      - name: Run changed pages script
+        run: |
+          python3 .github/workflows/scripts/changed_pages.py prod website/_site > changed-pages.md
+          cat changed-pages.md
+
+      - name: Update PR description with changed pages
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('changed-pages.md', 'utf8');
+            const startMarker = '<!-- changed-pages-start -->';
+            const endMarker = '<!-- changed-pages-end -->';
+            const section = startMarker + '\n\n---\n\n' + report + '\n' + endMarker;
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+            });
+
+            let body = pr.body || '';
+
+            const startIdx = body.indexOf(startMarker);
+            const endIdx = startIdx !== -1
+              ? body.indexOf(endMarker, startIdx + startMarker.length)
+              : -1;
+
+            if (startIdx !== -1 && endIdx > startIdx) {
+              // Replace existing section
+              body = body.substring(0, startIdx) + section + body.substring(endIdx + endMarker.length);
+            } else {
+              // Append to end
+              body = body + '\n\n' + section;
+            }
+
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              body,
+            });
