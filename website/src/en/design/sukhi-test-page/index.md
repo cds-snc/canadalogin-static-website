@@ -1,5 +1,5 @@
 ---
-title: Articles FR POC - Sukhi
+title: Articles EN POC - Sukhi
 layout: 'layouts/base.njk'
 translationKey: sukhi
 date: 'git Last Modified'
@@ -7,8 +7,8 @@ devOnly: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['sukhi'] %}
-<h2>FR Articles content below:</h2>
+{% set articlePage = articles_en['sukhi-test-page'] %}
+<h2>EN Articles content below:</h2>
 
 {% if articlePage %}
 
