@@ -2,16 +2,45 @@
 """Compare two site directories and output a markdown table of changed pages."""
 
 import filecmp
+import re
 import sys
 from pathlib import Path
 
+# Lines matching these patterns are ignored when comparing files
+IGNORE_PATTERNS = [
+    re.compile(r'googletagmanager\.com/gtag/js'),
+    re.compile(r"gtag\('config'"),
+    re.compile(r'gcds-date-modified'),
+    re.compile(r'^\s*\d{4}-\d{2}-\d{2}\s*$'),
+]
+
+
+def extract_body(html: str) -> str:
+    """Extract content between <main> and </main> tags."""
+    match = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
+    return match.group(1) if match else html
+
+
+def normalize_lines(filepath: Path) -> list[str]:
+    """Extract body content and return lines with ignored patterns filtered out."""
+    content = filepath.read_text(encoding="utf-8")
+    body = extract_body(content)
+    lines = body.splitlines()
+    return [
+        line for line in lines
+        if line.strip() and not any(p.search(line) for p in IGNORE_PATTERNS)
+    ]
+
+
+def files_differ(file_a: Path, file_b: Path) -> bool:
+    """Compare two files, ignoring lines that match IGNORE_PATTERNS."""
+    return normalize_lines(file_a) != normalize_lines(file_b)
+
 
 def to_url(rel_path: str) -> str:
-    """Convert a relative file path to a root-relative URL-style path."""
-    url = rel_path.replace("\\", "/").removesuffix("index.html")
-    if not url:
-        return "/"
-    return url if url.startswith("/") else f"/{url}"
+    """Convert a relative file path to a URL-style path."""
+    url = rel_path.removesuffix("index.html")
+    return url or "/"
 
 
 def find_html_files(directory: Path) -> set[str]:
@@ -39,7 +68,7 @@ def compare_sites(prod_dir: Path, dev_dir: Path) -> list[tuple[str, str]]:
 
     # Modified pages (in both but different)
     for rel in sorted(dev_files & prod_files):
-        if not filecmp.cmp(prod_dir / rel, dev_dir / rel, shallow=False):
+        if files_differ(prod_dir / rel, dev_dir / rel):
             changes.append((to_url(rel), "Modified"))
 
     return sorted(changes, key=lambda x: x[0])
