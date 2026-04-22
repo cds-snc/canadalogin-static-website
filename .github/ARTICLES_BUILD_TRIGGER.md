@@ -1,9 +1,9 @@
 # GC Articles Automated Build Trigger
 
 For GC Articles to trigger our CI/CD Pipeline, the platform core services team needs:
-1. Our repo name
+1. Our repo name: `gc-signin-static-website`
 2. PAT Token
-3. [repository_dispatch](https://github.com/cds-snc/gc-signin-static-website/blob/main/.github/workflows/release-pipeline.yml#L6) trigger in our workflow
+3. A [repository_dispatch](https://github.com/cds-snc/gc-signin-static-website/blob/main/.github/workflows/release-pipeline.yml#L6) trigger in our workflow
 
 To trigger the website CI/CD automatically, a Personal Access Token needs to be created.
 
