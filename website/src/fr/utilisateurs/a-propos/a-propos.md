@@ -14,7 +14,7 @@ eleventyNavigation:
 
 # Qu’est-ce que ConnexionCanada?
 
-## Un identifiant et un mot de passe uniques
+## Un nom d’utilisateur et un mot de passe uniques
 
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
