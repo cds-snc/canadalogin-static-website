@@ -18,7 +18,7 @@ eleventyNavigation:
 
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
-    <p>ConnexionCanada est une manière simple et sécurisée de se connecter aux programmes et services en ligne du gouvernement du Canada en utilisant un identifiant unique. Cette méthode de connexion unique vous permettra de vous connecter à plusieurs programmes et services sans avoir à créer à chaque fois un nouveau nom d’utilisateur et un nouveau mot de passe.</p> 
+    <p>ConnexionCanada est une manière simple et sécurisée de se connecter aux programmes et services en ligne du gouvernement du Canada. Cette méthode de connexion unique vous permettra de vous connecter à plusieurs programmes et services sans avoir à créer à chaque fois un nouveau nom d’utilisateur et un nouveau mot de passe.</p> 
     <p>Notre objectif est de rendre le processus de connexion simple, fiable et accessible, que vous vous connectiez pour la première ou la centième fois. Nous accordons la priorité à la sécurité, à la praticité et à l’utilisabilité pour créer une expérience de connexion adaptée à tous et à toutes, aujourd’hui comme à l’avenir.</p>
   </div>
   <div>
