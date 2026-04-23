@@ -26,9 +26,20 @@ eleventyNavigation:
   </div>
 </gcds-grid>
 
-<gcds-heading tag="h3">
-  À propos de l’équipe derrière ConnexionCanada
-</gcds-heading>
+## Services utilisant ConnexionCanada
+
+<gcds-text>Les programmes/services suivants utilisent actuellement ConnexionCanada :</gcds-text>
+
+<gcds-card
+  card-title="Portail de demande de PrairiesCan et de PacifiCan"
+  href="https://pacifican.prairiescan.gc.ca/fr-CA/"
+  card-title-tag="h3"
+  description="Ce portail vous permet de soumettre une demande et de téléverser des fichiers relatifs aux programmes de financement dans l’Ouest canadien (dont les programmes dirigés par PrairiesCan, PacifiCan et Diversification de l’économie de l’Ouest Canada).">
+</gcds-card>
+
+<gcds-text>Au fil du temps, ConnexionCanada servira de porte d’entrée unique pour accéder à de plus en plus de programmes et services numériques du gouvernement fédéral.</gcds-text>
+
+ ## À propos de l’équipe derrière ConnexionCanada
 
 <gcds-text>ConnexionCanada est un outil développé par le Service numérique canadien (SNC). Le SNC fait partie d’<gcds-link href="https://www.canada.ca/fr/emploi-developpement-social.html" external>Emploi et Développement social Canada (EDSC)</gcds-link>. Il cherche à contribuer à la réalisation des objectifs de l’<gcds-link href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/ambition-numerique-canada/ambition-numerique-canada-2022-23.html" external>Ambition numérique</gcds-link> et à améliorer l’expérience d’utilisation des services du gouvernement du Canada. Nous créons des produits numériques répondant aux problèmes auxquels font généralement face les services ministériels.</gcds-text>
 
