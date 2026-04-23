@@ -90,16 +90,14 @@ countries3:
   - Uzbekistan
   - Venezuela
   - Vietnam
+templateEngineOverride: njk
 ---
 
-# Supported international phone numbers
+{% set articlePage = articles_en['supported-countries'] %}
 
-The following is a list of countries that CanadaLogin currently supports phone numbers from:
+{% if articlePage %}
+    <h2>Articles content </h2>
 
-<br />
-
-<gcds-grid columns="repeat(auto-fit, minmax(200px, 250px))">                           
-    <ul class="list-disc mb-300">{% for country in countries1 %}<li>{{country}}</li>{% endfor %}</ul>       
-    <ul class="list-disc mb-300">{% for country in countries2 %}<li>{{country}}</li>{% endfor %}</ul>  
-    <ul class="list-disc mb-300">{% for country in countries3 %}<li>{{country}}</li>{% endfor %}</ul>  
-</gcds-grid>
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
