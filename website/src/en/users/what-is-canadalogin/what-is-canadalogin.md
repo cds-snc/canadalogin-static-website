@@ -19,16 +19,27 @@ eleventyNavigation:
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" align-items="center">
   <div>
     <p>CanadaLogin is a secure and easy way to sign in to Government of Canada programs and services online. With a single sign-in method, you will be able to sign in to multiple programs/services without creating new usernames and passwords each time.</p> 
-    <p>Our goal is to make signing-in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</p>
+    <p>Our goal is to make signing in simple, reliable, and accessible — whether it’s your first time, a year, or years later. By prioritizing security, convenience, and usability, we’re building a sign-in experience that works for everyone — today and in the future.</p>
   </div>
   <div>
     <img src="/assets/images/common/users/about/users_about_gc_signin.svg" alt="">
   </div>
 </gcds-grid>
 
-<gcds-heading tag="h3">
-  About the CanadaLogin team
-</gcds-heading>
+## Services using CanadaLogin
+
+<gcds-text>Currently, CanadaLogin is used for the following programs/services:</gcds-text>
+
+<gcds-card
+  card-title="Application portal for PrairiesCan and PacifiCan"
+  href="https://pacifican.prairiescan.gc.ca/en-CA/"
+  card-title-tag="h3"
+  description="This portal allows you to submit an application and upload files related to funding programs in Western Canada (includes programs run by PrairiesCan, PacifiCan and Western Economic Diversification Canada).">
+</gcds-card>
+
+<gcds-text>Over time, more and more digital programs/services will be available through CanadaLogin as the single front door to access federal government programs/services.</gcds-text>
+
+## About the CanadaLogin team
 
 <gcds-text>CanadaLogin is developed by the Canadian Digital Service (CDS). CDS is part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada (ESDC)</gcds-link>. We aim to advance the goals of the <gcds-link href="https://www.canada.ca/en/government/system/digital-government/government-canada-digital-operations-strategic-plans/canada-digital-ambition.html" external>Digital Ambition</gcds-link> and improve service experiences in the Government of Canada. We build digital products that solve common service problems for departments.</gcds-text>
 
