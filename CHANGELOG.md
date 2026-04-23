@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.6.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.5.2...v1.6.0) (2026-04-23)
+
+
+### Features
+
+* remove design pages from sitemap and production deployments ([#766](https://github.com/cds-snc/gc-signin-static-website/issues/766)) ([3d0b997](https://github.com/cds-snc/gc-signin-static-website/commit/3d0b997178407569360cd386b8bbf4a915b4d84a))
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'landing' pages to GC Articles content + QA ([#774](https://github.com/cds-snc/gc-signin-static-website/issues/774)) ([85459eb](https://github.com/cds-snc/gc-signin-static-website/commit/85459eb5d6575d4719e3d67901718397718c8a4e))
+* Go-live updates to Users and Partners about pages (added "Services using CanadaLogin" and more) ([#788](https://github.com/cds-snc/gc-signin-static-website/issues/788)) ([cea4000](https://github.com/cds-snc/gc-signin-static-website/commit/cea40003992aff3a4163a2634773cf33c5702b24))
+* Move Automated Build Trigger README to workflows to avoid being read at root level ([#776](https://github.com/cds-snc/gc-signin-static-website/issues/776)) ([6ee7010](https://github.com/cds-snc/gc-signin-static-website/commit/6ee70107fb568fc2f9b5993324bc504b9982024e))
+* Revert "fix: [GC Articles Migration] Convert 'landing' pages to GC Articles content + QA" ([#783](https://github.com/cds-snc/gc-signin-static-website/issues/783)) ([60d39fd](https://github.com/cds-snc/gc-signin-static-website/commit/60d39fd7f03eea082d7fa6017c4ec0dcfda2bfd6))
+* updated script to ignore GA tag and date modified ([#772](https://github.com/cds-snc/gc-signin-static-website/issues/772)) ([27cf080](https://github.com/cds-snc/gc-signin-static-website/commit/27cf08006232fd7b36aab06fc9668aae4086e21d))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump axios from 1.13.2 to 1.15.1 in /website ([#759](https://github.com/cds-snc/gc-signin-static-website/issues/759)) ([977a40c](https://github.com/cds-snc/gc-signin-static-website/commit/977a40cf4cd04833d642ec95dfccf13911f01369))
+
+
+### Continuous Integration
+
+* Deploy 1.5.2 to prod ([#755](https://github.com/cds-snc/gc-signin-static-website/issues/755)) ([13585f0](https://github.com/cds-snc/gc-signin-static-website/commit/13585f0df2da8e705109515a7e5d03f0cda515f3))
+* ignore repository_dispatch events ([#764](https://github.com/cds-snc/gc-signin-static-website/issues/764)) ([7101a03](https://github.com/cds-snc/gc-signin-static-website/commit/7101a032cc2e044ba4c16ee9f9894edbdf458096))
+* repository_dispatch added to release pipeline ([#757](https://github.com/cds-snc/gc-signin-static-website/issues/757)) ([bc448bc](https://github.com/cds-snc/gc-signin-static-website/commit/bc448bcdafde20f882834c4eaedc9327f223d8d0))
+* types: [strapi_update] ([#761](https://github.com/cds-snc/gc-signin-static-website/issues/761)) ([8b34fce](https://github.com/cds-snc/gc-signin-static-website/commit/8b34fceb8bec4c9dcaf2a659222729952817492a))
+* update ([8b34fce](https://github.com/cds-snc/gc-signin-static-website/commit/8b34fceb8bec4c9dcaf2a659222729952817492a))
+
 ## [1.5.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.5.1...v1.5.2) (2026-04-20)
 
 
