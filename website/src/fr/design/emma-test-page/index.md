@@ -1,13 +1,13 @@
 ---
-title: Articles FR POC - Sukhi
+title: Articles FR POC - Emma
 layout: 'layouts/base.njk'
-translationKey: sukhi
+translationKey: emma
 date: 'git Last Modified'
 devOnly: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['sukhi'] %}
+{% set articlePage = articles_fr['emma-test-page'] %}
 <h2>FR Articles content below:</h2>
 
 {% if articlePage %}
