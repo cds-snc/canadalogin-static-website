@@ -1,13 +1,46 @@
 #!/usr/bin/env python3
 """Compare two site directories and output a markdown table of changed pages."""
 
-import filecmp
+import re
 import sys
 from pathlib import Path
 
+# Lines matching these patterns are ignored when comparing files
+IGNORE_PATTERNS = [
+    re.compile(r'googletagmanager\.com/gtag/js'),
+    re.compile(r"gtag\('config'"),
+    re.compile(r'gcds-date-modified'),
+    re.compile(r'^\s*\d{4}-\d{2}-\d{2}\s*$'),
+]
+
+
+def extract_body(html: str) -> str:
+    """Extract content between <main> and </main> tags."""
+    match = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
+    return match.group(1) if match else html
+
+
+def normalize_lines(filepath: Path) -> list[str]:
+    """Extract body content and return lines with ignored patterns filtered out."""
+    try:
+        content = filepath.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return []
+    body = extract_body(content)
+    lines = body.splitlines()
+    return [
+        line for line in lines
+        if line.strip() and not any(p.search(line) for p in IGNORE_PATTERNS)
+    ]
+
+
+def files_differ(file_a: Path, file_b: Path) -> bool:
+    """Compare two files, ignoring lines that match IGNORE_PATTERNS."""
+    return normalize_lines(file_a) != normalize_lines(file_b)
+
 
 def to_url(rel_path: str) -> str:
-    """Convert a relative file path to a root-relative URL-style path."""
+    """Convert a relative file path to a URL-style path."""
     url = rel_path.replace("\\", "/").removesuffix("index.html")
     if not url:
         return "/"
@@ -39,7 +72,7 @@ def compare_sites(prod_dir: Path, dev_dir: Path) -> list[tuple[str, str]]:
 
     # Modified pages (in both but different)
     for rel in sorted(dev_files & prod_files):
-        if not filecmp.cmp(prod_dir / rel, dev_dir / rel, shallow=False):
+        if files_differ(prod_dir / rel, dev_dir / rel):
             changes.append((to_url(rel), "Modified"))
 
     return sorted(changes, key=lambda x: x[0])
@@ -52,6 +85,13 @@ def main():
 
     prod_dir = Path(sys.argv[1])
     dev_dir = Path(sys.argv[2])
+
+    if not prod_dir.is_dir():
+        print(f"Error: '{prod_dir}' is not a directory", file=sys.stderr)
+        sys.exit(1)
+    if not dev_dir.is_dir():
+        print(f"Error: '{dev_dir}' is not a directory", file=sys.stderr)
+        sys.exit(1)
 
     changes = compare_sites(prod_dir, dev_dir)
 
