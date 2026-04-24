@@ -75,8 +75,9 @@ Pour modifier le numéro de téléphone que ConnexionCanada et les programmes et
 3. Rendez-vous dans la section « Coordonnées ». Dans la section « Numéro de téléphone de communication », sélectionnez « Modifier ». 
 4. Entrez le nouveau numéro de téléphone auquel vous souhaitez recevoir vos communications. Choisissez de quelle manière vous souhaitez recevoir votre code de vérification. 
 5. Saisissez le code que vous avez reçu sur votre téléphone pour vérifier votre nouveau numéro de téléphone.
- <gcds-notice type="info" notice-title-tag="h3" notice-title="Related help guides">
-     <gcds-text>{% linkRef links.issuesenterverifyemailFR 'Problèmes liés à la saisie et à la vérification de votre numéro de téléphone' %}</gcds-text>
+
+   <gcds-notice type="info" notice-title-tag="h3" notice-title="Guides connexes">
+     <gcds-text>{% link links.issuesenterverifyemailFR 'Problèmes liés à la saisie et à la vérification de votre numéro de téléphone' %}</gcds-text>
    </gcds-notice>
 
 6. Lorsque cela vous sera demandé, confirmez que votre nouveau numéro de téléphone est correct et que vous souhaitez procéder à la mise à jour.
