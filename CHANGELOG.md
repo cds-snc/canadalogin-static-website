@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.6.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.0...v1.6.1) (2026-04-27)
+
+
+### Bug Fixes
+
+* Fixed undefined url bug on Gerer vos renseignements personnels page ([#792](https://github.com/cds-snc/gc-signin-static-website/issues/792)) ([452533a](https://github.com/cds-snc/gc-signin-static-website/commit/452533a7f1b9502d9f8a1266f513cb6bc2cfac2b))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump follow-redirects from 1.15.11 to 1.16.0 in /website ([#739](https://github.com/cds-snc/gc-signin-static-website/issues/739)) ([733e184](https://github.com/cds-snc/gc-signin-static-website/commit/733e184b97b3815b32d6ea9dad0c86084f1276dd))
+* **deps:** bump handlebars from 4.7.8 to 4.7.9 in /website ([#733](https://github.com/cds-snc/gc-signin-static-website/issues/733)) ([1a880bb](https://github.com/cds-snc/gc-signin-static-website/commit/1a880bbf347693cb55639c521c6461d0930f7a2b))
+* **deps:** bump liquidjs from 10.24.0 to 10.25.7 in /website ([#793](https://github.com/cds-snc/gc-signin-static-website/issues/793)) ([551f31a](https://github.com/cds-snc/gc-signin-static-website/commit/551f31ab79a1cb1c1bf3230aa58182c68e7c1707))
+
+
+### Continuous Integration
+
+* Deploy 1.6.0 to prod ([#789](https://github.com/cds-snc/gc-signin-static-website/issues/789)) ([2155b37](https://github.com/cds-snc/gc-signin-static-website/commit/2155b37ae3e5a7e0a3bc60752f30ba491afb4f6d))
+
 ## [1.6.0](https://github.com/cds-snc/gc-signin-static-website/compare/v1.5.2...v1.6.0) (2026-04-23)
 
 
