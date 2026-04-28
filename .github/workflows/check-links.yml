@@ -149,7 +149,7 @@ jobs:
           fi
 
           if [ -s /tmp/fragment-formatted.md ]; then
-            echo "## :warning: Broken Anchor Fragments" >> $GITHUB_STEP_SUMMARY
+            echo "## :warning: Broken Anchor Links" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "These links load the correct page but point to a missing or malformed anchor." >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
@@ -177,7 +177,7 @@ jobs:
           fi
 
           if [ -s /tmp/fragment-formatted.md ]; then
-            echo "### :warning: Broken Anchor Fragments" >> "$BODY_FILE"
+            echo "### :warning: Broken Anchor Links" >> "$BODY_FILE"
             echo "" >> "$BODY_FILE"
             echo "These links load the correct page but point to a missing or malformed anchor." >> "$BODY_FILE"
             echo "" >> "$BODY_FILE"
