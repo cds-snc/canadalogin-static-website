@@ -35,6 +35,7 @@ jobs:
       - name: Check internal links (broken pages)
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
         with:
+          lycheeVersion: v0.24.1
           args: >-
             --offline
             --no-progress
@@ -43,10 +44,11 @@ jobs:
           output: /tmp/internal-links-report.json
           format: json
 
-      - name: Check anchor fragments (warnings)
+      - name: Check anchored links (outputs warnings)
         if: always()
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
         with:
+          lycheeVersion: v0.24.1
           args: >-
             --offline
             --no-progress
@@ -77,7 +79,6 @@ jobs:
           lycheeVersion: v0.24.1
           args: >-
             --no-progress
-            --http1
             --scheme https
             --scheme http
             'website/_site/**/*.html'
@@ -127,15 +128,19 @@ jobs:
                   local line_content
                   line_content=$(sed -n "${line_num}p" "$source_file" 2>/dev/null)
                   if [ -n "$line_content" ]; then
-                    # Try to find the link text near the broken href
-                    local search_href
-                    if [[ "$url" == file://* ]]; then
-                      search_href=$(basename "$url")
-                    else
-                      search_href="$url"
+                    # Use the last path component (before any #) + fragment as the search key
+                    local path_part="${clean_url}"
+                    local frag_part=""
+                    # Split on first # — use parameter expansion carefully for ##/### in URLs
+                    if [[ "$clean_url" == *"#"* ]]; then
+                      path_part="${clean_url%%#*}"
+                      frag_part="${clean_url:${#path_part}}"
                     fi
+                    local escaped_frag
+                    escaped_frag=$(printf '%s' "$frag_part" | sed 's/[.\\*+?{}()|[\]^$#]/\\&/g')
+                    local search_key="$(basename "$path_part")/?${escaped_frag}"
                     local found_text
-                    found_text=$(echo "$line_content" | grep -oP "href=\"[^\"]*${search_href}[^\"]*\"[^>]*>\K[^<]+" | head -1)
+                    found_text=$(echo "$line_content" | grep -oP "href=\"[^\"]*${search_key}[^\"]*\"[^>]*>\K[^<]+" | head -1)
                     [ -n "$found_text" ] && link_text="$found_text"
                   fi
                 fi
