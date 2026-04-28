@@ -40,17 +40,8 @@ jobs:
             --no-progress
             'website/_site/**/*.html'
           fail: true
-          output: /tmp/internal-links-report.md
-          format: markdown
-
-      - name: Report internal link errors
-        if: failure()
-        run: |
-          if [ -s /tmp/internal-links-report.md ]; then
-            echo "## :x: Broken Internal Links" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            cat /tmp/internal-links-report.md >> $GITHUB_STEP_SUMMARY
-          fi
+          output: /tmp/internal-links-report.json
+          format: json
 
       - name: Check anchor fragments (warnings)
         if: always()
@@ -76,19 +67,8 @@ jobs:
             --exclude-path website/_site/design
             'website/_site/**/*.html'
           fail: false
-          output: /tmp/fragment-report.md
-          format: markdown
-
-      - name: Report broken anchors
-        if: always()
-        run: |
-          if [ -s /tmp/fragment-report.md ]; then
-            echo "## :warning: Broken Anchor Fragments" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "These links load the correct page but point to a missing or malformed anchor." >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            cat /tmp/fragment-report.md >> $GITHUB_STEP_SUMMARY
-          fi
+          output: /tmp/fragment-report.json
+          format: json
 
       - name: Check external links
         if: always()
@@ -100,16 +80,103 @@ jobs:
             --scheme http
             'website/_site/**/*.html'
           fail: true
-          output: /tmp/external-links-report.md
-          format: markdown
+          output: /tmp/external-links-report.json
+          format: json
 
-      - name: Report external link errors
-        if: failure()
+      - name: Format reports
+        if: always()
         run: |
-          if [ -s /tmp/external-links-report.md ]; then
+          format_report() {
+            local json_file="$1"
+            local output_file="$2"
+
+            if [ ! -s "$json_file" ]; then
+              return 1
+            fi
+
+            local num_failures
+            num_failures=$(jq '[.fail_map | to_entries[] | .value | length] | add // 0' "$json_file")
+            if [ "$num_failures" -eq 0 ]; then
+              return 1
+            fi
+
+            {
+              echo "**Found $num_failures broken link(s)**"
+              echo ""
+              echo "| # | Page | Broken Link | Error | Line |"
+              echo "|---|------|-------------|-------|------|"
+
+              local counter=0
+              while IFS=$'\t' read -r source_file url error_text; do
+                counter=$((counter + 1))
+
+                # Clean page path — strip everything up to website/_site/
+                local page="${source_file#*website/_site/}"
+
+                # Clean URL for display
+                local clean_url="$url"
+                if [[ "$url" == file://* ]]; then
+                  clean_url="/${url#*website/_site/}"
+                fi
+
+                # Find line number in the built HTML
+                local line_num="-"
+                if [ -f "$source_file" ]; then
+                  local search_term=""
+                  if [[ "$url" == file://* ]]; then
+                    if [[ "$url" == *"#"* ]]; then
+                      search_term="${url##*#}"
+                    else
+                      search_term=$(basename "$url")
+                    fi
+                  else
+                    search_term="$url"
+                  fi
+                  if [ -n "$search_term" ]; then
+                    local found
+                    found=$(grep -n -F "$search_term" "$source_file" 2>/dev/null | head -1 | cut -d: -f1)
+                    [ -n "$found" ] && line_num="$found"
+                  fi
+                fi
+
+                echo "| $counter | \`$page\` | \`$clean_url\` | $error_text | $line_num |"
+              done < <(jq -r '
+                .fail_map | to_entries[] |
+                .key as $file |
+                .value[] |
+                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))"
+              ' "$json_file")
+            } > "$output_file"
+          }
+
+          format_report /tmp/internal-links-report.json /tmp/internal-links-formatted.md
+          format_report /tmp/fragment-report.json /tmp/fragment-formatted.md
+          format_report /tmp/external-links-report.json /tmp/external-links-formatted.md
+
+      - name: Add results to job summary
+        if: always()
+        run: |
+          if [ -s /tmp/internal-links-formatted.md ]; then
+            echo "## :x: Broken Internal Links" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/internal-links-formatted.md >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -s /tmp/fragment-formatted.md ]; then
+            echo "## :warning: Broken Anchor Fragments" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "These links load the correct page but point to a missing or malformed anchor." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/fragment-formatted.md >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -s /tmp/external-links-formatted.md ]; then
             echo "## :x: Broken External Links" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            cat /tmp/external-links-report.md >> $GITHUB_STEP_SUMMARY
+            cat /tmp/external-links-formatted.md >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Post results to PR
@@ -117,31 +184,41 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          COMMENT="## :link: Broken Link Checker Results\n\n"
+          BODY_FILE=$(mktemp)
           HAS_CONTENT=false
 
-          if [ -s /tmp/internal-links-report.md ]; then
-            COMMENT+="### :x: Broken Internal Links\n\n"
-            COMMENT+="$(cat /tmp/internal-links-report.md)\n\n"
+          echo "## :link: Broken Link Checker Results" >> "$BODY_FILE"
+          echo "" >> "$BODY_FILE"
+
+          if [ -s /tmp/internal-links-formatted.md ]; then
+            echo "### :x: Broken Internal Links" >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            cat /tmp/internal-links-formatted.md >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
             HAS_CONTENT=true
           fi
 
-          if [ -s /tmp/fragment-report.md ]; then
-            COMMENT+="### :warning: Broken Anchor Fragments\n\n"
-            COMMENT+="These links load the correct page but point to a missing or malformed anchor.\n\n"
-            COMMENT+="$(cat /tmp/fragment-report.md)\n\n"
+          if [ -s /tmp/fragment-formatted.md ]; then
+            echo "### :warning: Broken Anchor Fragments" >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            echo "These links load the correct page but point to a missing or malformed anchor." >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            cat /tmp/fragment-formatted.md >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
             HAS_CONTENT=true
           fi
 
-          if [ -s /tmp/external-links-report.md ]; then
-            COMMENT+="### :x: Broken External Links\n\n"
-            COMMENT+="$(cat /tmp/external-links-report.md)\n\n"
+          if [ -s /tmp/external-links-formatted.md ]; then
+            echo "### :x: Broken External Links" >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            cat /tmp/external-links-formatted.md >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
             HAS_CONTENT=true
           fi
 
           if [ "$HAS_CONTENT" = false ]; then
-            COMMENT+=":white_check_mark: All links are valid."
+            echo ":white_check_mark: All links are valid." >> "$BODY_FILE"
           fi
 
-          printf "$COMMENT" | gh pr comment ${{ github.event.pull_request.number }} --body-file - --edit-last || \
-          printf "$COMMENT" | gh pr comment ${{ github.event.pull_request.number }} --body-file -
+          gh pr comment ${{ github.event.pull_request.number }} --body-file "$BODY_FILE" --edit-last || \
+          gh pr comment ${{ github.event.pull_request.number }} --body-file "$BODY_FILE"
