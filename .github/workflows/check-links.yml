@@ -109,19 +109,13 @@ jobs:
                 # Extract link text from the source HTML for context
                 local link_text="-"
                 if [ -f "$source_file" ]; then
-                  # Use the last path component (before any #) + fragment as the search key
-                  local path_part="${clean_url}"
-                  local frag_part=""
-                  # Split on first # — use parameter expansion carefully for ##/### in URLs
-                  if [[ "$clean_url" == *"#"* ]]; then
-                    path_part="${clean_url%%#*}"
-                    frag_part="${clean_url:${#path_part}}"
-                  fi
-                  local escaped_frag
-                  escaped_frag=$(printf '%s' "$frag_part" | sed 's/[.\\*+?{}()|[\]^$#]/\\&/g')
-                  local search_key="$(basename "$path_part")/?${escaped_frag}"
+                  # Get the path basename (strip fragment and trailing slash)
+                  local path_part="${clean_url%%#*}"
+                  path_part="${path_part%/}"
+                  local base
+                  base=$(basename "$path_part")
                   local found_text
-                  found_text=$(grep -oP "href=\"[^\"]*${search_key}[^\"]*\"[^>]*>\K[^<]+" "$source_file" | head -1)
+                  found_text=$(grep -oP "href=\"[^\"]*${base}[^\"]*\"[^>]*>\K[^<]+" "$source_file" | head -1)
                   [ -n "$found_text" ] && link_text="$found_text"
                 fi
 
