@@ -34,34 +34,19 @@ function findHtmlFiles(dir) {
     return results;
 }
 
-function decodeEntities(str) {
-    return str
-        .replace(/&quot;/g, '"')
-        .replace(/&amp;/g, '&')
-        .replace(/&lt;/g, '<')
-        .replace(/&gt;/g, '>')
-        .replace(/&#39;/g, "'");
-}
+// Extract URLs directly from the HTML-encoded attribute value
+// without decoding entities. URLs are delimited by &quot; in the
+// encoded JSON: &quot;Label&quot;: &quot;https://example.com&quot;
+const URL_IN_ATTR = /&quot;((?:https?:\/\/|\/)[^&]+)&quot;/g;
 
 function extractUrls(html, filePath) {
     const urls = [];
-    let match;
-    while ((match = ATTR_REGEX.exec(html)) !== null) {
-        const decoded = decodeEntities(match[1]);
-        let obj;
-        try {
-            obj = JSON.parse(decoded);
-        } catch {
-            try {
-                obj = JSON.parse(decoded.replace(/(\w[\w-]*)\s*:/g, '"$1":'));
-            } catch {
-                continue;
-            }
-        }
-        for (const [label, url] of Object.entries(obj)) {
-            if (typeof url === 'string') {
-                urls.push({ url: url.trim(), label, file: filePath });
-            }
+    let attrMatch;
+    while ((attrMatch = ATTR_REGEX.exec(html)) !== null) {
+        const raw = attrMatch[1];
+        let urlMatch;
+        while ((urlMatch = URL_IN_ATTR.exec(raw)) !== null) {
+            urls.push({ url: urlMatch[1].trim(), file: filePath });
         }
     }
     return urls;
@@ -153,18 +138,18 @@ async function main() {
 
     const errors = [];
 
-    for (const { url, label, file } of uniqueUrls) {
+    for (const { url, file } of uniqueUrls) {
         const relFile = path.relative(process.cwd(), file);
         if (url.startsWith('http://') || url.startsWith('https://')) {
             if (LOCAL_ONLY) continue;
             const result = await checkExternalUrl(url);
             if (!result.ok) {
-                errors.push({ url, label, file: relFile, error: result.error });
+                errors.push({ url, file: relFile, error: result.error });
             }
         } else if (url.startsWith('/')) {
             const result = checkLocalUrl(url, SITE_DIR);
             if (!result.ok) {
-                errors.push({ url, label, file: relFile, error: result.error });
+                errors.push({ url, file: relFile, error: result.error });
             }
         }
     }
@@ -175,10 +160,10 @@ async function main() {
     }
 
     console.error(`\n${errors.length} broken URL(s) found in JSON attributes:\n`);
-    console.error('| URL | Label | File | Error |');
-    console.error('|-----|-------|------|-------|');
-    for (const { url, label, file, error } of errors) {
-        console.error(`| ${url} | ${label} | ${file} | ${error} |`);
+    console.error('| URL | File | Error |');
+    console.error('|-----|------|-------|');
+    for (const { url, file, error } of errors) {
+        console.error(`| ${url} | ${file} | ${error} |`);
     }
     process.exit(1);
 }
