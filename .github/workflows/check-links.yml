@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 jobs:
   check-links:
@@ -90,6 +91,7 @@ jobs:
           fi
 
       - name: Check external links
+        if: always()
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
         with:
           args: >-
@@ -109,3 +111,37 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
             cat /tmp/external-links-report.md >> $GITHUB_STEP_SUMMARY
           fi
+
+      - name: Post results to PR
+        if: always() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COMMENT="## :link: Link Check Results\n\n"
+          HAS_CONTENT=false
+
+          if [ -s /tmp/internal-links-report.md ]; then
+            COMMENT+="### :x: Broken Internal Links\n\n"
+            COMMENT+="$(cat /tmp/internal-links-report.md)\n\n"
+            HAS_CONTENT=true
+          fi
+
+          if [ -s /tmp/fragment-report.md ]; then
+            COMMENT+="### :warning: Broken Anchor Fragments\n\n"
+            COMMENT+="These links load the correct page but point to a missing or malformed anchor.\n\n"
+            COMMENT+="$(cat /tmp/fragment-report.md)\n\n"
+            HAS_CONTENT=true
+          fi
+
+          if [ -s /tmp/external-links-report.md ]; then
+            COMMENT+="### :x: Broken External Links\n\n"
+            COMMENT+="$(cat /tmp/external-links-report.md)\n\n"
+            HAS_CONTENT=true
+          fi
+
+          if [ "$HAS_CONTENT" = false ]; then
+            COMMENT+=":white_check_mark: All links are valid."
+          fi
+
+          printf "$COMMENT" | gh pr comment ${{ github.event.pull_request.number }} --body-file - --edit-last || \
+          printf "$COMMENT" | gh pr comment ${{ github.event.pull_request.number }} --body-file -
