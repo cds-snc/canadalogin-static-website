@@ -95,7 +95,7 @@ jobs:
             fi
 
             local num_failures
-            num_failures=$(jq '[.fail_map | to_entries[] | .value | length] | add // 0' "$json_file")
+            num_failures=$(jq '[.error_map | to_entries[] | .value | length] | add // 0' "$json_file")
             if [ "$num_failures" -eq 0 ]; then
               return 1
             fi
@@ -107,7 +107,7 @@ jobs:
               echo "|---|------|-------------|-------|------|"
 
               local counter=0
-              while IFS=$'\t' read -r source_file url error_text; do
+              while IFS=$'\t' read -r source_file url error_text line_num; do
                 counter=$((counter + 1))
 
                 # Clean page path — strip everything up to website/_site/
@@ -119,32 +119,12 @@ jobs:
                   clean_url="/${url#*website/_site/}"
                 fi
 
-                # Find line number in the built HTML
-                local line_num="-"
-                if [ -f "$source_file" ]; then
-                  local search_term=""
-                  if [[ "$url" == file://* ]]; then
-                    if [[ "$url" == *"#"* ]]; then
-                      search_term="${url##*#}"
-                    else
-                      search_term=$(basename "$url")
-                    fi
-                  else
-                    search_term="$url"
-                  fi
-                  if [ -n "$search_term" ]; then
-                    local found
-                    found=$(grep -n -F "$search_term" "$source_file" 2>/dev/null | head -1 | cut -d: -f1)
-                    [ -n "$found" ] && line_num="$found"
-                  fi
-                fi
-
                 echo "| $counter | \`$page\` | \`$clean_url\` | $error_text | $line_num |"
               done < <(jq -r '
-                .fail_map | to_entries[] |
+                .error_map | to_entries[] |
                 .key as $file |
                 .value[] |
-                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))"
+                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))\t\(.span.line // "-")"
               ' "$json_file")
             } > "$output_file"
           }
