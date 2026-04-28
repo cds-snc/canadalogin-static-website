@@ -117,7 +117,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          COMMENT="## :link: Link Check Results\n\n"
+          COMMENT="## :link: Broken Link Checker Results\n\n"
           HAS_CONTENT=false
 
           if [ -s /tmp/internal-links-report.md ]; then
