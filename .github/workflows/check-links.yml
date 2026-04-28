@@ -149,9 +149,9 @@ jobs:
             } > "$output_file"
           }
 
-          format_report /tmp/internal-links-report.json /tmp/internal-links-formatted.md
-          format_report /tmp/fragment-report.json /tmp/fragment-formatted.md
-          format_report /tmp/external-links-report.json /tmp/external-links-formatted.md
+          format_report /tmp/internal-links-report.json /tmp/internal-links-formatted.md || true
+          format_report /tmp/fragment-report.json /tmp/fragment-formatted.md || true
+          format_report /tmp/external-links-report.json /tmp/external-links-formatted.md || true
 
       - name: Add results to job summary
         if: always()
