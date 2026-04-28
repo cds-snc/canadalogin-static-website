@@ -1,0 +1,51 @@
+name: Check Links
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "website/src/**"
+      - "src/**"
+      - "lychee.toml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "latest"
+
+      - name: Install dependencies & build
+        working-directory: website
+        run: |
+          npm install
+          npm run build
+
+      - name: Check internal links & anchors
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          args: >-
+            --offline
+            --no-progress
+            'website/_site/**/*.html'
+          fail: true
+
+      - name: Check external links
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          args: >-
+            --no-progress
+            --scheme https
+            --scheme http
+            'website/_site/**/*.html'
+          fail: true
