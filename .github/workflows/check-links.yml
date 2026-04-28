@@ -46,9 +46,11 @@ jobs:
       - name: Report internal link errors
         if: failure()
         run: |
-          echo "## :x: Broken Internal Links" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          cat /tmp/internal-links-report.md >> $GITHUB_STEP_SUMMARY
+          if [ -s /tmp/internal-links-report.md ]; then
+            echo "## :x: Broken Internal Links" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/internal-links-report.md >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Check anchor fragments (warnings)
         if: always()
@@ -103,9 +105,11 @@ jobs:
       - name: Report external link errors
         if: failure()
         run: |
-          echo "## :x: Broken External Links" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          cat /tmp/external-links-report.md >> $GITHUB_STEP_SUMMARY
+          if [ -s /tmp/external-links-report.md ]; then
+            echo "## :x: Broken External Links" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/external-links-report.md >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Check URLs in web component attributes
         if: always()
