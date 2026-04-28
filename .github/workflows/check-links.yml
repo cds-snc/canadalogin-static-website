@@ -35,7 +35,6 @@ jobs:
       - name: Check internal links (broken pages)
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
         with:
-          lycheeVersion: v0.24.1
           args: >-
             --offline
             --no-progress
@@ -48,7 +47,6 @@ jobs:
         if: always()
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
         with:
-          lycheeVersion: v0.24.1
           args: >-
             --offline
             --no-progress
@@ -76,7 +74,6 @@ jobs:
         if: always()
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
         with:
-          lycheeVersion: v0.24.1
           args: >-
             --no-progress
             --scheme https
