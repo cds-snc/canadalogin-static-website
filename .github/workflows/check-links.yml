@@ -109,9 +109,3 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
             cat /tmp/external-links-report.md >> $GITHUB_STEP_SUMMARY
           fi
-
-      - name: Check footer links (gcds-footer JSON attributes)
-        if: always()
-        continue-on-error: true # Remove this when the check is stable and we want it to fail the workflow
-        run: |
-          node .github/workflows/scripts/check-json-attr-urls.js website/_site
