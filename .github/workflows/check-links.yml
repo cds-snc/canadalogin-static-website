@@ -37,7 +37,6 @@ jobs:
           args: >-
             --offline
             --no-progress
-            --include-fragments=none
             'website/_site/**/*.html'
           fail: true
           output: /tmp/internal-links-report.md
