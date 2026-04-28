@@ -76,6 +76,7 @@ jobs:
         with:
           args: >-
             --no-progress
+            --http1
             --scheme https
             --scheme http
             'website/_site/**/*.html'
