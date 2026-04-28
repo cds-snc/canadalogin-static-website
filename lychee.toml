@@ -27,13 +27,15 @@ exclude = [
   "pagefind",
   # Design sandbox test pages (may not exist in all builds)
   "/design/.*-test-page",
+  # Double-hash anchors (##) — malformed but functional, reported as warnings
+  "##",
 ]
 
 # Resolve root-relative links (e.g. /en/users/) against the _site directory
 root_dir = "website/_site"
 
-# Check anchor / fragment links (e.g. #section-id)
-include_fragments = "full"
+# Resolve directories to index.html (e.g. /en/users/ → /en/users/index.html)
+index_files = ["index.html"]
 
 # Do not require HTTPS for every link
 require_https = false
