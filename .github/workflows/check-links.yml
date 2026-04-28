@@ -104,11 +104,11 @@ jobs:
             {
               echo "**Found $num_failures broken link(s)**"
               echo ""
-              echo "| # | Page | Broken Link | Error | Line |"
-              echo "|---|------|-------------|-------|------|"
+              echo "| # | Page | Link Text | Broken URL | Error | Line |"
+              echo "|---|------|-----------|------------|-------|------|"
 
               local counter=0
-              while IFS=$'\t' read -r source_file url error_text line_num; do
+              while IFS=$'\t' read -r source_file url error_text line_num col_num; do
                 counter=$((counter + 1))
 
                 # Clean page path — strip everything up to website/_site/
@@ -120,12 +120,37 @@ jobs:
                   clean_url="/${url#*website/_site/}"
                 fi
 
-                echo "| $counter | \`$page\` | \`$clean_url\` | $error_text | $line_num |"
+                # Extract link text from the source HTML for context
+                local link_text="-"
+                if [ -f "$source_file" ] && [ "$line_num" != "-" ] && [ "$line_num" != "null" ]; then
+                  local line_content
+                  line_content=$(sed -n "${line_num}p" "$source_file" 2>/dev/null)
+                  if [ -n "$line_content" ]; then
+                    # Try to find the link text near the broken href
+                    local search_href
+                    if [[ "$url" == file://* ]]; then
+                      search_href=$(basename "$url")
+                    else
+                      search_href="$url"
+                    fi
+                    local found_text
+                    found_text=$(echo "$line_content" | grep -oP "href=\"[^\"]*${search_href}[^\"]*\"[^>]*>\K[^<]+" | head -1)
+                    [ -n "$found_text" ] && link_text="$found_text"
+                  fi
+                fi
+
+                # Handle missing line numbers
+                local display_line="${line_num}"
+                if [ "$display_line" = "null" ] || [ -z "$display_line" ]; then
+                  display_line="-"
+                fi
+
+                echo "| $counter | \`$page\` | $link_text | \`$clean_url\` | $error_text | $display_line |"
               done < <(jq -r '
                 .error_map | to_entries[] |
                 .key as $file |
                 .value[] |
-                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))\t\(.span.line // "-")"
+                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))\t\(.span.line // "null")\t\(.span.column // "null")"
               ' "$json_file")
             } > "$output_file"
           }
