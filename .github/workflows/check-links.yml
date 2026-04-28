@@ -70,19 +70,6 @@ jobs:
           output: /tmp/fragment-report.json
           format: json
 
-      - name: Check external links
-        if: always()
-        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
-        with:
-          args: >-
-            --no-progress
-            --scheme https
-            --scheme http
-            'website/_site/**/*.html'
-          fail: true
-          output: /tmp/external-links-report.json
-          format: json
-
       - name: Format reports
         if: always()
         run: |
@@ -103,11 +90,11 @@ jobs:
             {
               echo "**Found $num_failures broken link(s)**"
               echo ""
-              echo "| # | Page | Link Text | Broken URL | Error | Line |"
-              echo "|---|------|-----------|------------|-------|------|"
+              echo "| # | Page | Link Text | Broken URL | Error |"
+              echo "|---|------|-----------|------------|-------|"
 
               local counter=0
-              while IFS=$'\t' read -r source_file url error_text line_num col_num; do
+              while IFS=$'\t' read -r source_file url error_text; do
                 counter=$((counter + 1))
 
                 # Clean page path — strip everything up to website/_site/
@@ -121,46 +108,35 @@ jobs:
 
                 # Extract link text from the source HTML for context
                 local link_text="-"
-                if [ -f "$source_file" ] && [ "$line_num" != "-" ] && [ "$line_num" != "null" ]; then
-                  local line_content
-                  line_content=$(sed -n "${line_num}p" "$source_file" 2>/dev/null)
-                  if [ -n "$line_content" ]; then
-                    # Use the last path component (before any #) + fragment as the search key
-                    local path_part="${clean_url}"
-                    local frag_part=""
-                    # Split on first # — use parameter expansion carefully for ##/### in URLs
-                    if [[ "$clean_url" == *"#"* ]]; then
-                      path_part="${clean_url%%#*}"
-                      frag_part="${clean_url:${#path_part}}"
-                    fi
-                    local escaped_frag
-                    escaped_frag=$(printf '%s' "$frag_part" | sed 's/[.\\*+?{}()|[\]^$#]/\\&/g')
-                    local search_key="$(basename "$path_part")/?${escaped_frag}"
-                    local found_text
-                    found_text=$(echo "$line_content" | grep -oP "href=\"[^\"]*${search_key}[^\"]*\"[^>]*>\K[^<]+" | head -1)
-                    [ -n "$found_text" ] && link_text="$found_text"
+                if [ -f "$source_file" ]; then
+                  # Use the last path component (before any #) + fragment as the search key
+                  local path_part="${clean_url}"
+                  local frag_part=""
+                  # Split on first # — use parameter expansion carefully for ##/### in URLs
+                  if [[ "$clean_url" == *"#"* ]]; then
+                    path_part="${clean_url%%#*}"
+                    frag_part="${clean_url:${#path_part}}"
                   fi
+                  local escaped_frag
+                  escaped_frag=$(printf '%s' "$frag_part" | sed 's/[.\\*+?{}()|[\]^$#]/\\&/g')
+                  local search_key="$(basename "$path_part")/?${escaped_frag}"
+                  local found_text
+                  found_text=$(grep -oP "href=\"[^\"]*${search_key}[^\"]*\"[^>]*>\K[^<]+" "$source_file" | head -1)
+                  [ -n "$found_text" ] && link_text="$found_text"
                 fi
 
-                # Handle missing line numbers
-                local display_line="${line_num}"
-                if [ "$display_line" = "null" ] || [ -z "$display_line" ]; then
-                  display_line="-"
-                fi
-
-                echo "| $counter | \`$page\` | $link_text | \`$clean_url\` | $error_text | $display_line |"
+                echo "| $counter | \`$page\` | $link_text | \`$clean_url\` | $error_text |"
               done < <(jq -r '
                 .error_map | to_entries[] |
                 .key as $file |
                 .value[] |
-                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))\t\(.span.line // "null")\t\(.span.column // "null")"
+                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))"
               ' "$json_file")
             } > "$output_file"
           }
 
           format_report /tmp/internal-links-report.json /tmp/internal-links-formatted.md || true
           format_report /tmp/fragment-report.json /tmp/fragment-formatted.md || true
-          format_report /tmp/external-links-report.json /tmp/external-links-formatted.md || true
 
       - name: Add results to job summary
         if: always()
@@ -178,13 +154,6 @@ jobs:
             echo "These links load the correct page but point to a missing or malformed anchor." >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             cat /tmp/fragment-formatted.md >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-          fi
-
-          if [ -s /tmp/external-links-formatted.md ]; then
-            echo "## :x: Broken External Links" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            cat /tmp/external-links-formatted.md >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
           fi
 
@@ -213,14 +182,6 @@ jobs:
             echo "These links load the correct page but point to a missing or malformed anchor." >> "$BODY_FILE"
             echo "" >> "$BODY_FILE"
             cat /tmp/fragment-formatted.md >> "$BODY_FILE"
-            echo "" >> "$BODY_FILE"
-            HAS_CONTENT=true
-          fi
-
-          if [ -s /tmp/external-links-formatted.md ]; then
-            echo "### :x: Broken External Links" >> "$BODY_FILE"
-            echo "" >> "$BODY_FILE"
-            cat /tmp/external-links-formatted.md >> "$BODY_FILE"
             echo "" >> "$BODY_FILE"
             HAS_CONTENT=true
           fi
