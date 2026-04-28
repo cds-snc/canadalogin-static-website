@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.1...v1.6.2) (2026-04-28)
+
+
+### Code Refactoring
+
+* event type trigger to automatically deploy GC Articles changes has been updated to gc-articles-update ([27c3174](https://github.com/cds-snc/gc-signin-static-website/commit/27c31745b6eacb95749234ce334ffc68c2f39290))
+* update the event type name ([#831](https://github.com/cds-snc/gc-signin-static-website/issues/831)) ([27c3174](https://github.com/cds-snc/gc-signin-static-website/commit/27c31745b6eacb95749234ce334ffc68c2f39290))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump immutable from 5.1.4 to 5.1.5 in /website ([#625](https://github.com/cds-snc/gc-signin-static-website/issues/625)) ([d49994a](https://github.com/cds-snc/gc-signin-static-website/commit/d49994a676bbaff09f52b32844b87c9ebd09ac83))
+* **deps-dev:** bump storybook from 8.6.15 to 8.6.17 in /website ([#607](https://github.com/cds-snc/gc-signin-static-website/issues/607)) ([dd77aff](https://github.com/cds-snc/gc-signin-static-website/commit/dd77aff25d390dd1a128297a16fb1613383a2c9f))
+
 ## [1.6.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.0...v1.6.1) (2026-04-27)
 
 
