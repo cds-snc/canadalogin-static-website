@@ -15,8 +15,6 @@ templateEngineOverride: njk
 {% set articlePage = articles_en['updating-signin-method'] %}
 
 {% if articlePage %}
-    <h2>Articles content </h2>
-
   <h1>{{ articlePage.title.rendered | safe }}</h1>
   {{ articlePage.content.rendered | safe }}
 {% endif %}
