@@ -18,7 +18,7 @@ hero:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['partenaires'] %}
+{% set articlePage = articles_fr['partenaires'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
