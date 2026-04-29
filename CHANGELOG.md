@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.2...v1.6.3) (2026-04-29)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'landing' pages to GC Articles content + QA ([#834](https://github.com/cds-snc/gc-signin-static-website/issues/834)) ([6cabdc2](https://github.com/cds-snc/gc-signin-static-website/commit/6cabdc2a83069086843809d7e0e7ef2762b4d7a4))
+* [GC Articles Migration] Convert 'Users' pages to GC Articles content + QA ([#779](https://github.com/cds-snc/gc-signin-static-website/issues/779)) ([c9c457f](https://github.com/cds-snc/gc-signin-static-website/commit/c9c457fbc9d2f1161c05ebb923f267567a36af6e))
+
+
+### Continuous Integration
+
+* deploy version 1.6.2 ([#836](https://github.com/cds-snc/gc-signin-static-website/issues/836)) ([5fdb4c3](https://github.com/cds-snc/gc-signin-static-website/commit/5fdb4c33aff563db18fcecc4893d2bc371f94d93))
+
 ## [1.6.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.1...v1.6.2) (2026-04-28)
 
 
