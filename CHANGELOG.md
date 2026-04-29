@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.3...v1.6.4) (2026-04-29)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'Partners' main page to GC Articles content + QA ([#848](https://github.com/cds-snc/gc-signin-static-website/issues/848)) ([245b6ab](https://github.com/cds-snc/gc-signin-static-website/commit/245b6abe11094e2622358e8bbfb7c2fb5133a494))
+* [GC Articles Migration] Convert 'What is CanadaLogin?' pages to GC articles content + QA (EN + FR) ([#781](https://github.com/cds-snc/gc-signin-static-website/issues/781)) ([664070f](https://github.com/cds-snc/gc-signin-static-website/commit/664070feee80cdba50db775fdd1af7926b8c2b2d))
+
 ## [1.6.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.2...v1.6.3) (2026-04-29)
 
 
