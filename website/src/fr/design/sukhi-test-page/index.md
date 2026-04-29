@@ -1,20 +1,17 @@
 ---
-title: Welcome to CanadaLogin
+title: Articles FR POC - Sukhi
 layout: 'layouts/base.njk'
-permalink: /en/
-translationKey: landing
-redirect_from: /
+translationKey: sukhi
 date: 'git Last Modified'
-eleventyNavigation:
-  key: landingEN
-  title: CanadaLogin
-  order: 1
+devOnly: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['en'] %}
+{% set articlePage = articles_fr['sukhi-test-page'] %}
+<h2>FR Articles content below:</h2>
 
 {% if articlePage %}
+
   <h1>{{ articlePage.title.rendered | safe }}</h1>
   {{ articlePage.content.rendered | safe }}
 {% endif %}

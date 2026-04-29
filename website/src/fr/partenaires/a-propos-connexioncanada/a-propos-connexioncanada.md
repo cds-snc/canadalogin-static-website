@@ -30,7 +30,7 @@ ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexio
       À terme, ConnexionCanada prendra en charge d’autres options d’authentification multifacteur, y compris les clés d’accès, les clés de sécurité et les applications d’authentification.
     </gcds-text>
     <gcds-text>
-      De plus, les versions ultérieures pourraient prendre en charge la connexion avec des fournisseurs de justificatifs d’identité externes, tels que les identités numériques provinciales et territoriales.
+      De plus, les versions ultérieures prendront en charge la connexion avec des fournisseurs de justificatifs d’identité externes, tels que les services d’identité numérique provinciaux et territoriaux et le service d’ouverture de session Interac (institutions financières).
     </gcds-text>
   </div>
   <div>
@@ -41,13 +41,19 @@ ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexio
 <gcds-grid columns-desktop="1fr 1fr" columns-tablet="1fr 1fr" columns="1fr" place-items="center">
   <div>
     <gcds-heading tag="h3">
-      Récupération de compte autogérée
+      Récupération de justificatif autogérée
     </gcds-heading>
     <gcds-text>
-      Les utilisateurs et utilisatrices peuvent réinitialiser leur mot de passe en cas de perte. Pour ce faire, il leur faut procéder à une vérification à l’aide d’un code reçu par courriel et d’un autre reçu par téléphone. S’ils et elles perdent accès à leur numéro de téléphone, ils et elles peuvent récupérer leur compte grâce à un code envoyé à leur adresse courriel et à une méthode de vérification de secours.
+      Les utilisateurs et utilisatrices peuvent réinitialiser leur mot de passe en cas de perte. Pour ce faire, il leur faut procéder à une vérification à l’aide d’un code reçu par courriel et d’un autre reçu par téléphone. 
     </gcds-text>
     <gcds-text>
-      Toutefois, il est impossible de récupérer un compte en cas d’oubli de l’adresse courriel qui y est associée.
+      S’ils ou elles perdent accès à leur téléphone, les utilisateurs et utilisatrices peuvent ajouter un nouveau numéro de téléphone pour l’authentification multifacteur. Pour ce faire, ils ou elles doivent procéder à une vérification à l’aide d’un code reçu par courriel et saisir à nouveau leur mot de passe. 
+    </gcds-text>
+    <gcds-text>
+      Si un utilisateur ou une utilisatrice perd l’accès à son téléphone et à son mot de passe, ou s’il ou elle oublie son adresse courriel, il lui est impossible de récupérer son justificatif. C’est pourquoi nous recommandons fortement aux partenaires d’inclure dans leur application la possibilité de récupérer un compte.
+    </gcds-text>
+    <gcds-text>
+      La disponibilité de nouvelles options d’authentification permettra davantage d’options de récupération.
     </gcds-text>
   </div>
   <div style="">
@@ -129,6 +135,19 @@ ConnexionCanada offre aux utilisateurs et utilisatrices une méthode de connexio
     </gcds-text>
   </div>
 </gcds-grid>
+
+## Services utilisant ConnexionCanada
+
+<gcds-text>Les programmes/services suivants utilisent actuellement ConnexionCanada :</gcds-text>
+
+<gcds-card
+  card-title="Portail de demande de PrairiesCan et de PacifiCan"
+  href="https://pacifican.prairiescan.gc.ca/fr-CA/"
+  card-title-tag="h3"
+  description="Ce portail vous permet de soumettre une demande et de téléverser des fichiers relatifs aux programmes de financement dans l’Ouest canadien (dont les programmes dirigés par PrairiesCan, PacifiCan et Diversification de l’économie de l’Ouest Canada).">
+</gcds-card>
+
+<gcds-text>Au fil du temps, ConnexionCanada servira de porte d’entrée unique pour accéder à de plus en plus de programmes et services numériques du gouvernement fédéral.</gcds-text>
 
 ## À propos de l’équipe derrière ConnexionCanada
 
