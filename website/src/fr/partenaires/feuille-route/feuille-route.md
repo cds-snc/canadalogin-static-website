@@ -13,7 +13,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['feuille-route'] %}
+{% set articlePage = articles_fr['feuille-route'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
