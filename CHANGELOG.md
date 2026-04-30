@@ -1,5 +1,52 @@
 # Changelog
 
+## [1.6.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.4...v1.6.5) (2026-04-30)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'Roadmap' page to GC Articles content + QA ([#849](https://github.com/cds-snc/gc-signin-static-website/issues/849)) ([bca92ff](https://github.com/cds-snc/gc-signin-static-website/commit/bca92ffa5d285cc5f40167e7ddeee7dcbd6646ef))
+
+
+### Continuous Integration
+
+* Deploy 1.6.4 to prod ([#853](https://github.com/cds-snc/gc-signin-static-website/issues/853)) ([0cae5b5](https://github.com/cds-snc/gc-signin-static-website/commit/0cae5b5905d88ac8b26747eda62d1769a4339357))
+
+## [1.6.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.3...v1.6.4) (2026-04-29)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'Partners' main page to GC Articles content + QA ([#848](https://github.com/cds-snc/gc-signin-static-website/issues/848)) ([245b6ab](https://github.com/cds-snc/gc-signin-static-website/commit/245b6abe11094e2622358e8bbfb7c2fb5133a494))
+* [GC Articles Migration] Convert 'What is CanadaLogin?' pages to GC articles content + QA (EN + FR) ([#781](https://github.com/cds-snc/gc-signin-static-website/issues/781)) ([664070f](https://github.com/cds-snc/gc-signin-static-website/commit/664070feee80cdba50db775fdd1af7926b8c2b2d))
+
+## [1.6.3](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.2...v1.6.3) (2026-04-29)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'landing' pages to GC Articles content + QA ([#834](https://github.com/cds-snc/gc-signin-static-website/issues/834)) ([6cabdc2](https://github.com/cds-snc/gc-signin-static-website/commit/6cabdc2a83069086843809d7e0e7ef2762b4d7a4))
+* [GC Articles Migration] Convert 'Users' pages to GC Articles content + QA ([#779](https://github.com/cds-snc/gc-signin-static-website/issues/779)) ([c9c457f](https://github.com/cds-snc/gc-signin-static-website/commit/c9c457fbc9d2f1161c05ebb923f267567a36af6e))
+
+
+### Continuous Integration
+
+* deploy version 1.6.2 ([#836](https://github.com/cds-snc/gc-signin-static-website/issues/836)) ([5fdb4c3](https://github.com/cds-snc/gc-signin-static-website/commit/5fdb4c33aff563db18fcecc4893d2bc371f94d93))
+
+## [1.6.2](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.1...v1.6.2) (2026-04-28)
+
+
+### Code Refactoring
+
+* event type trigger to automatically deploy GC Articles changes has been updated to gc-articles-update ([27c3174](https://github.com/cds-snc/gc-signin-static-website/commit/27c31745b6eacb95749234ce334ffc68c2f39290))
+* update the event type name ([#831](https://github.com/cds-snc/gc-signin-static-website/issues/831)) ([27c3174](https://github.com/cds-snc/gc-signin-static-website/commit/27c31745b6eacb95749234ce334ffc68c2f39290))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump immutable from 5.1.4 to 5.1.5 in /website ([#625](https://github.com/cds-snc/gc-signin-static-website/issues/625)) ([d49994a](https://github.com/cds-snc/gc-signin-static-website/commit/d49994a676bbaff09f52b32844b87c9ebd09ac83))
+* **deps-dev:** bump storybook from 8.6.15 to 8.6.17 in /website ([#607](https://github.com/cds-snc/gc-signin-static-website/issues/607)) ([dd77aff](https://github.com/cds-snc/gc-signin-static-website/commit/dd77aff25d390dd1a128297a16fb1613383a2c9f))
+
 ## [1.6.1](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.0...v1.6.1) (2026-04-27)
 
 
