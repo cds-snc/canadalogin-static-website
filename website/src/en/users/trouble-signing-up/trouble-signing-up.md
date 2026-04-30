@@ -12,7 +12,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['trouble-signing-in'] %}
+{% set articlePage = articles_en['trouble-signing-up'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
