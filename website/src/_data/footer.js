@@ -8,7 +8,7 @@ module.exports = {
       partnersUrl: '/en/partners/',
       termsUsersUrl: '/en/users/terms/',
       termsPartnersUrl: '/en/partners/terms-and-conditions/',
-      privacyPartnersUrl: '/en/partners/privacy/',
+      privacyPartnersUrl: '/en/partners/privacy-notice-statement/',
       contactUsersUrl: '/en/users/contact-us/',
       contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/en/id/cmm9j3y9p01ioyl01zqcnmkz5'
     },
@@ -26,7 +26,7 @@ module.exports = {
       privacyUsers: 'Privacy',
       privacyUsersUrl: '/en/users/privacy/',
       privacyPartners: 'Privacy',
-      privacyPartnersUrl: '/en/partners/privacy/'
+      privacyPartnersUrl: '/en/partners/privacy-notice-statement/'
     }
   },
   fr: {
@@ -37,8 +37,8 @@ module.exports = {
       usersUrl: '/fr/utilisateurs/',
       partnersUrl: '/fr/partenaires/',
       termsUsersUrl: '/fr/utilisateurs/avis/',
-      termsPartnersUrl: '/fr/partenaires/avis/',
-      privacyPartnersUrl: '/fr/partenaires/confidentialite/',
+      termsPartnersUrl: '/fr/partenaires/avis-partenaires/',
+      privacyPartnersUrl: '/fr/partenaires/avis-confidentialite/',
       contactUsersUrl: '/fr/utilisateurs/nous-contacter/',
       contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j3y9p01ioyl01zqcnmkz5'
     },  
@@ -50,13 +50,13 @@ module.exports = {
       termsUsers: 'Avis',
       termsUsersUrl: '/fr/utilisateurs/avis/',
       termsPartners: 'Avis',
-      termsPartnersUrl: '/fr/partenaires/avis/',
+      termsPartnersUrl: '/fr/partenaires/avis-partenaires/',
       privacy: 'Confidentialité',
       privacyUrl: 'https://www.canada.ca/fr/transparence/confidentialite.html',
       privacyUsers: 'Confidentialité',
       privacyUsersUrl: '/fr/utilisateurs/confidentialite/',
       privacyPartners: 'Confidentialité',
-      privacyPartnersUrl: '/fr/partenaires/confidentialite/'
+      privacyPartnersUrl: '/fr/partenaires/avis-confidentialite/',
     }
   },
 };

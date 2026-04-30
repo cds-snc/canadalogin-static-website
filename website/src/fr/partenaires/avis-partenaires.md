@@ -1,19 +1,18 @@
 ---
-title: Terms and Conditions
+title: Avis
 translationKey: termsandconditionspartners
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: termsAndConditionsPartnersEN
-  title: Terms and Conditions
-  parent: partnersEN
-  locale: en
+  key: termsAndConditionsPartnersFR
+  title: Avis
+  parent: partnersFR
+  locale: fr
   order: 1
-  hideMain: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['terms-and-conditions'] %}
+{% set articlePage = articles_fr['avis-partenaires'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
