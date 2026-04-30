@@ -13,7 +13,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['terms-and-conditions'] %}
+{% set articlePage = articles_en['about-canadalogin'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>

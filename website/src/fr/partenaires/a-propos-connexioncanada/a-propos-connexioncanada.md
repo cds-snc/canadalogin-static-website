@@ -13,7 +13,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['avis-partenaires'] %}
+{% set articlePage = articles_fr['a-propos-connexioncanada'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
