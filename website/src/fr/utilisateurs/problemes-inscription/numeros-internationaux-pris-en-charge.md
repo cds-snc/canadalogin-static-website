@@ -10,100 +10,12 @@ eleventyNavigation:
   order: 2
   parent: issuesSettingUp2FaFR
   hideMain: true
-countries1:
-  - Argentine
-  - Australie
-  - Autriche
-  - Biélorussie
-  - Belgique
-  - Brésil
-  - Bulgarie
-  - Canada
-  - Chili
-  - Colombie
-  - Costa Rica
-  - Croatie
-  - Danemark
-  - République dominicaine
-  - Équateur
-  - Égypte
-  - Estonie
-  - Finlande
-  - France
-  - Allemagne
-  - Grèce
-  - Guadeloupe
-  - Guatemala
-  - Guernesey
-  - Hong Kong
-  - Hongrie
-
-countries2:
-  - Islande
-  - Inde
-  - Indonésie
-  - Irlande
-  - Île de Man
-  - Israël
-  - Italie
-  - Jamaïque
-  - Japon
-  - Jersey
-  - Kenya
-  - Lituanie
-  - Luxembourg
-  - Macédoine
-  - Malaisie
-  - Mexique
-  - Maroc
-  - Pays-Bas
-  - Nouvelle-Zélande
-  - Nigeria
-  - Norvège
-  - Oman
-  - Pakistan
-  - Panama
-  - Pérou
-  - Philippines
-
-countries3:
-  - Pologne
-  - Portugal
-  - Porto Rico
-  - Qatar
-  - Roumanie
-  - Russie
-  - Arabie saoudite
-  - Singapour
-  - Slovaquie
-  - Afrique du Sud
-  - Corée du Sud
-  - Espagne
-  - Sri Lanka
-  - Suède
-  - Suisse
-  - Taïwan
-  - Thaïlande
-  - Trinité-et-Tobago
-  - Turquie
-  - Ukraine
-  - Royaume-Uni
-  - États-Unis
-  - Uruguay
-  - Ouzbékistan
-  - Venezuela
-  - Vietnam
-
+templateEngineOverride: njk
 ---
 
-# Numéros de téléphones internationaux pris en charge
+{% set articlePage = articles_fr['numeros-internationaux-pris-en-charge'] %}
 
-Voici une liste des pays dont ConnexionCanada prend actuellement en charge les numéros de téléphone :
-
-<br />
-
-<gcds-grid columns="repeat(auto-fit, minmax(200px, 250px))">                           
-    <ul class="list-disc mb-300">{% for country in countries1 %}<li>{{country}}</li>{% endfor %}</ul>       
-    <ul class="list-disc mb-300">{% for country in countries2 %}<li>{{country}}</li>{% endfor %}</ul>  
-    <ul class="list-disc mb-300">{% for country in countries3 %}<li>{{country}}</li>{% endfor %}</ul>  
-</gcds-grid>
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
