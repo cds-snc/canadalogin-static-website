@@ -12,9 +12,9 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set wpPage = articles_fr['se-lancer-connexioncanada'] %}
+{% set articlePage = articles_fr['se-lancer-connexioncanada'] %}
 
-{% if wpPage %}
-  <h1>{{ wpPage.title.rendered | safe }}</h1>
-  {{ wpPage.content.rendered | safe }}
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
 {% endif %}
