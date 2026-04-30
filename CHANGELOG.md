@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.4...v1.6.5) (2026-04-30)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'Roadmap' page to GC Articles content + QA ([#849](https://github.com/cds-snc/gc-signin-static-website/issues/849)) ([bca92ff](https://github.com/cds-snc/gc-signin-static-website/commit/bca92ffa5d285cc5f40167e7ddeee7dcbd6646ef))
+
+
+### Continuous Integration
+
+* Deploy 1.6.4 to prod ([#853](https://github.com/cds-snc/gc-signin-static-website/issues/853)) ([0cae5b5](https://github.com/cds-snc/gc-signin-static-website/commit/0cae5b5905d88ac8b26747eda62d1769a4339357))
+
 ## [1.6.4](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.3...v1.6.4) (2026-04-29)
 
 
