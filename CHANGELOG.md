@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.6](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.5...v1.6.6) (2026-04-30)
+
+
+### Bug Fixes
+
+* [GC Articles] Migrate 'Why CanadaLogin is replacing existing sign-in methods' pages ([#837](https://github.com/cds-snc/gc-signin-static-website/issues/837)) ([6476384](https://github.com/cds-snc/gc-signin-static-website/commit/64763845474eefc6b363442eba2b668dc1eb78a4))
+
 ## [1.6.5](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.4...v1.6.5) (2026-04-30)
 
 
