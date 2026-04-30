@@ -15,7 +15,7 @@ eleventyNavigation:
 CanadaLogin is a product of the <gcds-link href="https://digital.canada.ca/" external>Canadian Digital Service (CDS)</gcds-link>, part of <gcds-link href="https://www.canada.ca/en/employment-social-development.html" external>Employment and Social Development Canada</gcds-link>. The <gcds-link href="https://digital.canada.ca/privacy/" external>CDS website</gcds-link> has its own <gcds-link href="https://digital.canada.ca/terms/" external>terms and conditions</gcds-link>.
 
 ## Using files located on non-Government of Canada servers
-To improve the functionality of the CanadaLogin website, certain files (such as open source libraries, images, and scripts) may be delivered automatically to your browser via a trusted third-party server or content delivery network. The delivery of these files is intended to provide a seamless user experience by speeding response times and avoiding the need for each visitor to download these files. Where applicable, specific privacy statements covering these files are included in our {% link links.privacynoticepartnersEN 'Privacy Notice' %}.
+To improve the functionality of the CanadaLogin website, certain files (such as open source libraries, images, and scripts) may be delivered automatically to your browser via a trusted third-party server or content delivery network. The delivery of these files is intended to provide a seamless user experience by speeding response times and avoiding the need for each visitor to download these files. Where applicable, specific privacy statements covering these files are included in our {% link links.privacyNoticePartnersEN 'Privacy Notice' %}.
 
 ## Providing content in Canada's official languages
 The <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/">Official Languages Act</gcds-link>, the <gcds-link href="http://laws.justice.gc.ca/eng/regulations/SOR-92-48/index.html">Official Languages (Communications with and Services to the Public) Regulations</gcds-link>, and Treasury Board policy requirements establish when we use both English and French to provide services to or communicate with members of the public. When there is no obligation to provide information in both official languages, content may be available in one official language only. Information provided by organizations not subject to the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/">Official Languages Act</gcds-link> is in the language(s) provided. Information provided in a language other than English or French is only for the convenience of our visitors.
@@ -67,7 +67,7 @@ Information posted by the Government of Canada is subject to the <gcds-link href
 
 ### Privacy
 Social media accounts of the Canadian Digital Service are not Government of Canada websites and represent only its presence on third-party service providers.
-For more information, please refer to our {% link links.privacynoticepartnersEN 'Privacy Notice' %} regarding third-party social media.
+For more information, please refer to our {% link links.privacyNoticePartnersEN 'Privacy Notice' %} regarding third-party social media.
 
 ### Official languages
 Many social media platforms have multiple language options and provide instructions on how to set your preferences. The Government of Canada respects the <gcds-link href="http://laws-lois.justice.gc.ca/eng/acts/O-3.01/index.html" external>Official Languages Act</gcds-link> and is committed to ensuring that our information is available in both French and English and that both versions are of equal quality.
