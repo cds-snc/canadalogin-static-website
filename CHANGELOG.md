@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.6.7](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.6...v1.6.7) (2026-05-01)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'How to sign out' page to GC Articles content + QA ([#876](https://github.com/cds-snc/gc-signin-static-website/issues/876)) ([c980ad3](https://github.com/cds-snc/gc-signin-static-website/commit/c980ad35de7d1a208b208e8bf7ce4cc3891dc98e))
+* [GC Articles Migration] Migrate 'How to create a CanadaLogin' page ([#858](https://github.com/cds-snc/gc-signin-static-website/issues/858)) ([553d2e2](https://github.com/cds-snc/gc-signin-static-website/commit/553d2e251a87a92ee96fd9df417e8e4f54d1a53b))
+* [GC Articles Migration] Migrated 'What is 2-step verification' page ([#854](https://github.com/cds-snc/gc-signin-static-website/issues/854)) ([63ccb2e](https://github.com/cds-snc/gc-signin-static-website/commit/63ccb2e3202b30fc8420d7d608d7b52b54927a08))
+* [GC Articles] [Users] Migrate 'Contact us' pages + QA (EN + FR) ([#843](https://github.com/cds-snc/gc-signin-static-website/issues/843)) ([4a9979f](https://github.com/cds-snc/gc-signin-static-website/commit/4a9979f2d7c40bd4304ae64ac0ee5e3c5d7c6d69))
+* [GC Articles] Migrate 'Problems entering and verifying your email' page + QA (EN + FR) ([#872](https://github.com/cds-snc/gc-signin-static-website/issues/872)) ([a6d3665](https://github.com/cds-snc/gc-signin-static-website/commit/a6d36655b7a3f3a567bfa7fbdba9eee65aaee495))
+* [GC Articles] Migrate 'Problems with creating a profile' pages + QA (EN + FR) ([#869](https://github.com/cds-snc/gc-signin-static-website/issues/869)) ([dc61161](https://github.com/cds-snc/gc-signin-static-website/commit/dc61161dcd24331ddcc7b5380f30fe7204ce03b1))
+* [GC Articles][Users] Migrate 'Access your settings' pages + QA (EN + FR) ([#845](https://github.com/cds-snc/gc-signin-static-website/issues/845)) ([078f83d](https://github.com/cds-snc/gc-signin-static-website/commit/078f83d1c1af17f59ca10077cfdce13bd67a2d16))
+* [GC Articles][Users] Migrate 'Supported international phone numbers' pages + QA (EN + FR) ([#850](https://github.com/cds-snc/gc-signin-static-website/issues/850)) ([438ad81](https://github.com/cds-snc/gc-signin-static-website/commit/438ad817940b536600b7d7279db4e5dfa088c272))
+* Changed "I cannot access my phone" to "Recover my 2-step verification" FR + ENG ([#749](https://github.com/cds-snc/gc-signin-static-website/issues/749)) ([32197f9](https://github.com/cds-snc/gc-signin-static-website/commit/32197f99b0e2e8eedb5ab3321c94bd07d8cbdc57))
+* Move replacing-existing-signin-methods.md to under /get-started ([#874](https://github.com/cds-snc/gc-signin-static-website/issues/874)) ([9dd50c2](https://github.com/cds-snc/gc-signin-static-website/commit/9dd50c27cac8997177884a13cffab50e7ee7ec19))
+* Update contactUsersUrl to new contact page (correct url) ([#888](https://github.com/cds-snc/gc-signin-static-website/issues/888)) ([cf3901f](https://github.com/cds-snc/gc-signin-static-website/commit/cf3901f4d9da6a9fc04184aa2731fb849a04ddb2))
+
+
+### Continuous Integration
+
+* Deploy 1.6.6 to prod ([#863](https://github.com/cds-snc/gc-signin-static-website/issues/863)) ([6be59d7](https://github.com/cds-snc/gc-signin-static-website/commit/6be59d745c14b2044641631cb1def02f44babdd7))
+
 ## [1.6.6](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.5...v1.6.6) (2026-04-30)
 
 
