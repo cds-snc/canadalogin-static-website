@@ -39,7 +39,7 @@ module.exports = {
       termsUsersUrl: '/fr/utilisateurs/avis/',
       termsPartnersUrl: '/fr/partenaires/avis/',
       privacyPartnersUrl: '/fr/partenaires/confidentialite/',
-      contactUsersUrl: '/fr/utilisateurs/contactez-nous/',
+      contactUsersUrl: '/fr/utilisateurs/nous-contacter/',
       contactPartnersUrl: 'https://forms-formulaires.alpha.canada.ca/fr/id/cmm9j3y9p01ioyl01zqcnmkz5'
     },  
     sub: {
