@@ -10,48 +10,12 @@ eleventyNavigation:
   order: 2
   parent: getStartedEn
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# What is 2-step verification?
+{% set articlePage = articles_en['two-step-verification-methods'] %}
 
-<gcds-text>
-2-step verification is a way of signing in where you are asked to verify yourself two different ways to make sure it’s really you. In addition to your password (first step), CanadaLogin requires that you set up at least one other way of signing in (second step), to keep your CanadaLogin secure.
-</gcds-text>
-<gcds-text>
-We encourage you to add multiple “second steps” to your CanadaLogin so that when you do 2-step verification, you have multiple verification options to choose from. Doing this means that if you lose access to one of your second steps (e.g. your phone), you’ll have a backup option to get access to your CanadaLogin.
-</gcds-text>
-<gcds-text>
-CanadaLogin is unable to grant you access to your CanadaLogin if you lose all of your authentication methods and get locked out. If you get locked out, you’ll have to create a new CanadaLogin.
-</gcds-text>
-
-## Phone verification
-
-As a second step, you can receive one-time verification codes to your phone. You can receive the codes either
-via text message (SMS) or a phone call. There is more information on each of these delivery methods below.
-
-### Text message
-
-**Requires:** A mobile device that can receive SMS text messages.
-
-<gcds-text>
-When you use text message or SMS (short message service) as a verification method, a unique 6-digit code is sent to your phone by text message. You enter this code on CanadaLogin to access your account. Each code is temporary, you will need a new code every time you want to sign in.
-</gcds-text>
-<gcds-text>
-To use this method, you need a working mobile phone connection to a cellular network and the ability to receive texts when you want to sign in. For example, if you’re out of the country you might not be able to receive texts. It may also cost money, if you pay per text, or have limits on the amount of texts you can receive.
-</gcds-text>
-
-### Phone call
-
-**Requires:** A landline **or** mobile phone that can receive phone calls.
-
-<gcds-text>
-When you choose this option, you receive an automated call that says a unique 6-digit code, which you then enter on CanadaLogin to access your CanadaLogin. Each code is temporary, you will need a new code every time you want to sign in. This method can be helpful if you don’t have a mobile phone, or you cannot receive text messages (SMS).
-</gcds-text>
-<gcds-text>
-For issues setting up or using text message or phone verification, see our help pages:
-</gcds-text>
-
-<ul class="list-disc mb-300">
-  <li>{% link links.issuestwostepverification 'Problems with registering text message / phone call verification' %}</li>
-  <li>{% link links.problemssigninginwith2stepverification 'Problems with signing in with text message / phone call verification' %}</li>
-</ul>
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
