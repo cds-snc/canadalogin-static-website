@@ -9,14 +9,12 @@ eleventyNavigation:
   order: 7
   parent: manageYourAccountEn
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# How to sign out
+{% set articlePage = articles_en['how-to-sign-out'] %}
 
-To sign out, follow these steps:
-
-1. Make sure you have saved all your changes.
-2. From the service you are signed in to, open the menu at the top of the page and select "Sign out".
-3. When prompted in the pop-up, confirm that you want to sign out.
-4. There should be a success message saying you have successfully signed out.
-5. If you are done using the service, we recommend closing the tab.
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
