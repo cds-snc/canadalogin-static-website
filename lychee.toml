@@ -1,0 +1,54 @@
+# Lychee link checker configuration
+# https://lychee.cli.rs/configuration/
+#
+# Shared settings used by both CI workflows:
+#   - check-links.yml        (PR — internal only, offline)
+#   - check-external-links.yml (scheduled — external only)
+
+# Exclude paths that are not part of the site content
+exclude_path = [
+  "website/_site/components",
+  "website/_site/assets",
+  "website/_site/variables",
+  # Design sandbox pages used for local testing
+  "website/_site/en/design",
+  "website/_site/fr/design",
+  "website/_site/design",
+]
+
+# Patterns to ignore
+exclude = [
+  # Mail and telephone links
+  "^mailto:",
+  "^tel:",
+  # PDF files (not present in _site)
+  "\\.pdf$",
+  # Pagefind (generated at deploy time, not during local builds)
+  "pagefind",
+  # Design sandbox test pages (may not exist in all builds)
+  "/design/.*-test-page",
+  # Double-hash anchors (##) — malformed but functional, reported as warnings
+  "##",
+]
+
+# Resolve root-relative links (e.g. /en/users/) against the _site directory
+root_dir = "website/_site"
+
+# Resolve directories to index.html (e.g. /en/users/ → /en/users/index.html)
+index_files = ["index.html"]
+
+# Do not require HTTPS for every link
+require_https = false
+
+# Timeout per request (seconds) — only relevant for external checks
+timeout = 30
+
+# Retry configuration — only relevant for external checks
+max_retries = 3
+retry_wait_time = 5
+
+# Accept common success status codes
+accept = ["200", "204", "301", "302", "307", "308"]
+
+# Number of concurrent requests
+max_concurrency = 16

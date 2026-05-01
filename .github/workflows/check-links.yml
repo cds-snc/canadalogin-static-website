@@ -1,0 +1,188 @@
+name: Check Links
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "website/src/**"
+      - "src/**"
+      - "lychee.toml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "lts/*"
+
+      - name: Install dependencies & build
+        working-directory: website
+        run: |
+          npm install
+          npm run build
+
+      - name: Check internal links (broken pages)
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          args: >-
+            --offline
+            --no-progress
+            'website/_site/**/*.html'
+          fail: true
+          output: /tmp/internal-links-report.json
+          format: json
+
+      - name: Check anchored links (outputs warnings)
+        if: always()
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          args: >-
+            --offline
+            --no-progress
+            --include-fragments
+            --config /dev/null
+            --root-dir website/_site
+            --index-files index.html
+            --exclude '^mailto:'
+            --exclude '^tel:'
+            --exclude '\.pdf$'
+            --exclude 'pagefind'
+            --exclude '/design/.*-test-page'
+            --exclude-path website/_site/components
+            --exclude-path website/_site/assets
+            --exclude-path website/_site/variables
+            --exclude-path website/_site/en/design
+            --exclude-path website/_site/fr/design
+            --exclude-path website/_site/design
+            'website/_site/**/*.html'
+          fail: false
+          output: /tmp/fragment-report.json
+          format: json
+
+      - name: Format reports
+        if: always()
+        run: |
+          format_report() {
+            local json_file="$1"
+            local output_file="$2"
+
+            if [ ! -s "$json_file" ]; then
+              return 1
+            fi
+
+            local num_failures
+            num_failures=$(jq '[.error_map | to_entries[] | .value | length] | add // 0' "$json_file")
+            if [ "$num_failures" -eq 0 ]; then
+              return 1
+            fi
+
+            {
+              echo "**Found $num_failures broken link(s)**"
+              echo ""
+              echo "| # | Page | Link Text | Broken URL | Error |"
+              echo "|---|------|-----------|------------|-------|"
+
+              local counter=0
+              while IFS=$'\t' read -r source_file url error_text; do
+                counter=$((counter + 1))
+
+                # Clean page path — strip everything up to website/_site/
+                local page="${source_file#*website/_site/}"
+
+                # Clean URL for display
+                local clean_url="$url"
+                if [[ "$url" == file://* ]]; then
+                  clean_url="/${url#*website/_site/}"
+                fi
+
+                # Extract link text from the source HTML for context
+                local link_text="-"
+                if [ -f "$source_file" ]; then
+                  # Get the path basename (strip fragment and trailing slash)
+                  local path_part="${clean_url%%#*}"
+                  path_part="${path_part%/}"
+                  local base
+                  base=$(basename "$path_part")
+                  local found_text
+                  found_text=$(grep -oP "href=\"[^\"]*${base}[^\"]*\"[^>]*>\K[^<]+" "$source_file" | head -1)
+                  [ -n "$found_text" ] && link_text="$found_text"
+                fi
+
+                echo "| $counter | \`$page\` | $link_text | \`$clean_url\` | $error_text |"
+              done < <(jq -r '
+                .error_map | to_entries[] |
+                .key as $file |
+                .value[] |
+                "\($file)\t\(.url)\t\(.status.text // (.status | tostring))"
+              ' "$json_file")
+            } > "$output_file"
+          }
+
+          format_report /tmp/internal-links-report.json /tmp/internal-links-formatted.md || true
+          format_report /tmp/fragment-report.json /tmp/fragment-formatted.md || true
+
+      - name: Add results to job summary
+        if: always()
+        run: |
+          if [ -s /tmp/internal-links-formatted.md ]; then
+            echo "## :x: Broken Internal Links" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/internal-links-formatted.md >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -s /tmp/fragment-formatted.md ]; then
+            echo "## :warning: Broken Anchor Links" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "These links load the correct page but point to a missing or malformed anchor." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/fragment-formatted.md >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Post results to PR
+        if: always() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BODY_FILE=$(mktemp)
+          HAS_CONTENT=false
+
+          echo "## :link: Broken Link Checker Results" >> "$BODY_FILE"
+          echo "" >> "$BODY_FILE"
+
+          if [ -s /tmp/internal-links-formatted.md ]; then
+            echo "### :x: Broken Internal Links" >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            cat /tmp/internal-links-formatted.md >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            HAS_CONTENT=true
+          fi
+
+          if [ -s /tmp/fragment-formatted.md ]; then
+            echo "### :warning: Broken Anchor Links" >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            echo "These links load the correct page but point to a missing or malformed anchor." >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            cat /tmp/fragment-formatted.md >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            HAS_CONTENT=true
+          fi
+
+          if [ "$HAS_CONTENT" = false ]; then
+            echo ":white_check_mark: All links are valid." >> "$BODY_FILE"
+          fi
+
+          gh pr comment ${{ github.event.pull_request.number }} --body-file "$BODY_FILE" --edit-last || \
+          gh pr comment ${{ github.event.pull_request.number }} --body-file "$BODY_FILE"
