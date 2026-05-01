@@ -9,15 +9,12 @@ eleventyNavigation:
   parent: usersEN
   order: 4
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# Manage your CanadaLogin
+{% set articlePage = articles_en['manage-your-canadalogin'] %}
 
-<ul class="list-disc mb-300">
-  <li>{% link links.accessyoursettings 'Access your settings' %}</li>
-  <li>{% link links.managehowyousignin 'Manage how you sign in' %}</li>
-  <li>{% link links.manageyourpersonalinformation 'Manage your personal information' %}</li>
-  <li>{% link links.howtokeepyouraccountsecure 'How to keep your CanadaLogin secure' %}</li>
-  <li>{% link links.whattodowhenyoufindsuspiciousactivity 'What to do when you find suspicious activity' %}</li>
-  <li>{% link links.howtosignout 'How to sign out' %}</li>
-</ul>
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
