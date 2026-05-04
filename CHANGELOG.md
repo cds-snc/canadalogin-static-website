@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.8](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.7...v1.6.8) (2026-05-04)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Copy/migrate updating your signin method ([#886](https://github.com/cds-snc/gc-signin-static-website/issues/886)) ([4f7d138](https://github.com/cds-snc/gc-signin-static-website/commit/4f7d1381955137a6bce622391e8a6a9281e63192))
+* [GC Articles] [Users] Migrate 'Terms and Conditions' page + QA (EN + FR) ([#841](https://github.com/cds-snc/gc-signin-static-website/issues/841)) ([8b2142a](https://github.com/cds-snc/gc-signin-static-website/commit/8b2142a05ae5bbb45ef252f817146d1a80dabab1))
+
 ## [1.6.7](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.6...v1.6.7) (2026-05-01)
 
 
