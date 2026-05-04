@@ -8,17 +8,12 @@ eleventyNavigation:
   locale: en
   parent: usersEN
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# Get started with CanadaLogin
+{% set articlePage = articles_en['get-started'] %}
 
-CanadaLogin is a secure and easy way to access Government of Canada services online.
-
-Participating programs and services will be able to use CanadaLogin to help protect their users. When you try to access a participating program or service you’ll be prompted to sign in or create an account with CanadaLogin before you can access the service.
-
-<ul class="list-disc mb-300">
-  <li>{% link links.createaccount 'How to create a CanadaLogin' %}</li>
-  <li>{% link links.twostepverificationmethods 'What is 2-step verification?' %}</li>
-  <li>{% link links.updatingyoursigninmethods 'Updating your sign-in method to CanadaLogin' %}</li>
-  <li>{% link links.howtosetupmultiplecanadalogin 'Managing multiple CanadaLogins' %}</li>
-</ul>
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
