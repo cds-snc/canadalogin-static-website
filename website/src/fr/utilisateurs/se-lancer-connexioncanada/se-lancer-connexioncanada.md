@@ -9,17 +9,12 @@ eleventyNavigation:
   locale: fr
   parent: usersFR
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# Se lancer avec ConnexionCanada
+{% set articlePage = articles_fr['se-lancer-connexioncanada'] %}
 
-ConnexionCanada est une manière simple et sécurisée d’accéder aux programmes et services en ligne du gouvernement du Canada.
-
-Les programmes et services participants seront en mesure d’utiliser ConnexionCanada pour aider à protéger leurs utilisateurs et utilisatrices. Lorsque vous tenterez d’accéder à un service participant, on vous demandera de vous connecter avec ConnexionCanada ou de créer un identifiant ConnexionCanada avant de pouvoir accéder au service en question.
-
-<ul class="list-disc mb-300">
-  <li>{% link links.createaccountFR 'Comment créer un identifiant ConnexionCanada' %}</li>
-  <li>{% link links.twostepverificationmethodsFR 'Qu’est-ce que la vérification en deux étapes?' %}</li>
-  <li>{% link links.updatingyoursigninmethodsFR 'Mettre à jour votre méthode de connexion pour passer à ConnexionCanada' %}</li>
-  <li>{% link links.howtosetupmultiplecanadaloginFR 'Gérer plusieurs identifiants ConnexionCanada' %}</li>  
-</ul>
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
