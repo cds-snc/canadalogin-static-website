@@ -9,61 +9,12 @@ eleventyNavigation:
   order: 6
   parent: manageYourAccountEn
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# What to do when you find suspicious activity
+{% set articlePage = articles_en['what-to-do-when-you-find-suspicious-activity'] %}
 
-Always monitor for suspicious activity on your CanadaLogin. Pay attention to email notifications you may receive from us saying that a change has been made to your CanadaLogin. If you receive an email stating a change was made, but you did not make the change, we recommend you take the following steps:
-
-## Secure your CanadaLogin
-
-### 1. Sign in to your CanadaLogin
-
-#### If you can't sign in
-
-If you think someone changed your CanadaLogin info, like your password or 2-step verification phone number, or you cannot sign in for another reason, try the following options to sign in:
-
-<ul class="list-disc mb-300">
-  <li>{% link links.forgotyourpassword 'Reset your password' %}</li>
-  <li>{% linkRef links.problemssigninginwith2stepverification 'cannot-access-your-phone' 'Recover your 2-step verification' %}</li>
-</ul>
-
-### 2. Review your settings and revert any changes that were made to your CanadaLogin information
-  1. Correct the setting immediately if you find unfamiliar changes to your CanadaLogin:
-      - Email address
-      - Password
-      - 2-step verification phone number
-
-  2. Review the programs/services you use CanadaLogin on to correct any changes that were made to your information
-
-### 3. Ensure you are following safety practices for good CanadaLogin security
-
-<ul class="list-disc mb-300">
-  <li>Have backup 2-step verification phone numbers on your CanadaLogin. {% linkRef links.managehowyousignin 'add-a-2step-verification-phone-number' 'How to add 2-step verification numbers to your account' %}.</li>
-  <li>{% linkRef links.createaccount 'how-to-make-a-strong-password' 'Use a strong password' %} </li>
-  <li>Don't use the same password you use on other accounts.</li>
-  <li>Make sure your email password is also unique, since it's used to recover your CanadaLogin.</li>
-  <li>Make sure you have a 2-step verification method on your email account, since it's used to recover your CanadaLogin. For instructions on how to do this, refer to your email provider's help content.</li>
-</ul>
-
-## Secure your other accounts
-
-### 1. Secure your email
-
-Your email address is used to help recover your CanadaLogin, so it's very important to keep it secure. We recommend taking the following steps on your **email account** to keep your CanadaLogin safe:
-
-- Change your password.
-- Add a 2-step verification method if you do not have one currently.
-- Add more than one 2-step verification method if you do not have more than one currently.
-
-For instructions on how to do these actions, refer to your email provider's help content.
-
-### 2. Secure any accounts outside of the Government of Canada where you use the same information
-
-If you use the same password or 2-step verification phone on any accounts outside of the Government of Canada, we also recommend taking the following steps to make sure your accounts are safe:
-
-- Change your password
-- Add a 2-step verification method if you do not have one currently
-- Add more than one 2-step verification method if you do not have more than one currently
-
-For instructions on how to do these actions, refer to your account provider's help content.
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
