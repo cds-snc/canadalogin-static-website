@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.10](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.9...v1.6.10) (2026-05-05)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Convert 'How to keep your CanadaLogin secure' page to GC Articles content + QA ([#870](https://github.com/cds-snc/gc-signin-static-website/issues/870)) ([e260d59](https://github.com/cds-snc/gc-signin-static-website/commit/e260d59d2c7ebc5acdb86b3e9e217add94a3f980))
+* [GC Articles Migration] Convert 'Trouble signing in' page to GC Articles content + QA ([#878](https://github.com/cds-snc/gc-signin-static-website/issues/878)) ([5b67edf](https://github.com/cds-snc/gc-signin-static-website/commit/5b67edf92fef5c1f74ae75990fbd3c55fa2c568d))
+* [GC Articles Migration] Convert 'What to do when you find suspicious activity' page to GC Articles content + QA ([#875](https://github.com/cds-snc/gc-signin-static-website/issues/875)) ([0fb5e9c](https://github.com/cds-snc/gc-signin-static-website/commit/0fb5e9cdf9137bf42ac23c313f308996a6aa8515))
+
 ## [1.6.9](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.8...v1.6.9) (2026-05-04)
 
 
