@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.6.9](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.8...v1.6.9) (2026-05-04)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Connect and migrate 'Get started with CanadaLogin' page ([#893](https://github.com/cds-snc/gc-signin-static-website/issues/893)) ([27bae2f](https://github.com/cds-snc/gc-signin-static-website/commit/27bae2f1fc6ab02a997b62334fc819d502e801cb))
+* [GC Articles Migration] Connected 'Manage your CanadaLogin' page ([#884](https://github.com/cds-snc/gc-signin-static-website/issues/884)) ([410aee4](https://github.com/cds-snc/gc-signin-static-website/commit/410aee4d7a368dc6dbbf8e970000b3dce60b9648))
+* [GC Articles Migration] Convert 'Forgot your email' page to GC Articles content + QA ([#881](https://github.com/cds-snc/gc-signin-static-website/issues/881)) ([456958d](https://github.com/cds-snc/gc-signin-static-website/commit/456958d6395dbb8d80c8508bd90a729138002535))
+* [GC Articles Migration] Convert 'Forgot your password' page to GC Articles content + QA ([#882](https://github.com/cds-snc/gc-signin-static-website/issues/882)) ([b436d13](https://github.com/cds-snc/gc-signin-static-website/commit/b436d131159ce99e9888f6f97341fa0d6f21d3df))
+* [GC Articles Migration] Convert 'How to sign in' page to GC Articles content + QA ([#879](https://github.com/cds-snc/gc-signin-static-website/issues/879)) ([7c0cb58](https://github.com/cds-snc/gc-signin-static-website/commit/7c0cb58599f66d99bcfe815bbdc1d4dd08d06100))
+* [GC Articles Migration] Convert 'Problems entering your email address' page to GC Articles content + QA ([#880](https://github.com/cds-snc/gc-signin-static-website/issues/880)) ([6668a04](https://github.com/cds-snc/gc-signin-static-website/commit/6668a043f479fc084511792ca687b6cffae0068d))
+* [GC Articles Migration] Migrate 'Managing multiple CanadaLogins' page ([#896](https://github.com/cds-snc/gc-signin-static-website/issues/896)) ([5e9acbb](https://github.com/cds-snc/gc-signin-static-website/commit/5e9acbb8405e9a259f51046ba108c1d524478f98))
+* [GC Articles] Migrate 'Problems creating a password' pages + QA (EN + FR) ([#866](https://github.com/cds-snc/gc-signin-static-website/issues/866)) ([0a6d6c6](https://github.com/cds-snc/gc-signin-static-website/commit/0a6d6c6435550e302e96e9e6a745c2565a9edf36))
+* [GC Articles] Migrate 'Problems setting up 2-step verification' pages + QA (EN + FR) ([#868](https://github.com/cds-snc/gc-signin-static-website/issues/868)) ([51ff696](https://github.com/cds-snc/gc-signin-static-website/commit/51ff696ae9598a69c1c16c33c3ddcebf404fcc86))
+* [GC Articles] Migrate 'Trouble signing up' pages + QA (EN + FR) ([#861](https://github.com/cds-snc/gc-signin-static-website/issues/861)) ([d6f60c2](https://github.com/cds-snc/gc-signin-static-website/commit/d6f60c214efd699a2f512d695d645e8ec28c8051))
+* [GC Articles][Users] Migrate 'Privacy Notice Statement' pages + QA (EN + FR) ([#842](https://github.com/cds-snc/gc-signin-static-website/issues/842)) ([6075cf8](https://github.com/cds-snc/gc-signin-static-website/commit/6075cf8b071a719729a124f5146a189a10df5d5a))
+* [GC Articles][Users] Migrate 'Privacy Notice Statement' pages + QA (EN + FR) ([#842](https://github.com/cds-snc/gc-signin-static-website/issues/842)) ([4b1201b](https://github.com/cds-snc/gc-signin-static-website/commit/4b1201b2edaa5438af9d3b41201d98fafe6c88b2))
+
+
+### Continuous Integration
+
+* update prod to 1.6.7 ([#890](https://github.com/cds-snc/gc-signin-static-website/issues/890)) ([b9fada2](https://github.com/cds-snc/gc-signin-static-website/commit/b9fada22f79728d90c41dbdffd10f1b366e2d825))
+
 ## [1.6.8](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.7...v1.6.8) (2026-05-04)
 
 
