@@ -1,19 +1,18 @@
 ---
-title: Terms and Conditions
-translationKey: termsandconditionspartners
+title: Privacy notice statement
+translationKey: privacynoticepartners
 layout: 'layouts/base.njk'
-date: 'git Last Modified'
 eleventyNavigation:
-  key: termsAndConditionsPartnersEN
-  title: Terms and Conditions
+  key: privacyNoticePartnersEN
+  title: Privacy Notice
   parent: partnersEN
   locale: en
-  order: 1
+  order: 4
   hideMain: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['terms-and-conditions'] %}
+{% set articlePage = articles_en['privacy-notice-statement'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
