@@ -10,82 +10,12 @@ eleventyNavigation:
   order: 4
   parent: manageYourAccountFR
   hideMain: true
+templateEngineOverride: njk
 ---
 
-# Gérer vos renseignements personnels
-- [Modifier votre nom](#modifier-votre-nom)
-- [Modifier votre langue de communication](#modifier-votre-langue-de-communication)
-- [Modifier votre numéro de téléphone de communication](#modifier-votre-numero-de-telephone-de-communication)
+{% set articlePage = articles_fr['gerer-renseignements-personnels'] %}
 
-## Modifier votre nom
-
-<gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette action ne modifie pas votre nom sur le plan légal.">
-  <gcds-text>Le nom que vous utilisez pour votre identifiant ConnexionCanada est communiqué aux programmes et services auxquels vous avez connecté votre compte. Cependant, la modification du nom que vous utilisez pour ConnexionCanada <strong>ne change pas légalement votre nom</strong>. Elle ne change pas non plus votre nom partout, mais seulement auprès des programmes/services connectés à votre identifiant ConnexionCanada. </gcds-text>
-</gcds-notice>
-
-Pour changer votre nom pour votre identifiant ConnexionCanada, procédez comme suit :
-
-1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
-2. Sélectionnez « Renseignements personnels ».
-3. Rendez-vous dans la section « Renseignements de base ». Sélectionnez « Modifier » dans la section « Nom ».
-4. Entrez le nouveau nom que vous souhaitez utiliser. 
-
-   <gcds-notice type="info" notice-title-tag="h3" notice-title="Guides connexes">
-     <gcds-text>{% link links.issuesprofileFR 'Problèmes liés à la création d’un profil' %}</gcds-text>
-   </gcds-notice>
-
-5. Lorsque cela vous sera demandé, confirmez que votre nom est correct et que vous souhaitez procéder à la mise à jour.
-6. **Félicitations!** Un message confirmera que votre nom a été mis à jour. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
-7. Mettez à jour votre nom pour les autres comptes du gouvernement du Canada que vous utilisez. 
-
-<gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette modification de votre nom n’a d’effet que pour les programmes et services que vous avez connectés à votre identifiant ConnexionCanada">
-<!-- Remove reference of other services in French until V2. -->
-  <gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas ConnexionCanada pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre nom auprès d’eux également. Pour rechercher un autre compte du gouvernement du Canada, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html" external>répertoire des comptes du gouvernement du Canada</gcds-link>.</gcds-text>
-</gcds-notice>
-
-## Modifier votre langue de communication
-
-Pour changer la langue officielle dans laquelle vous souhaitez que ConnexionCanada et les programmes/services connexes utilisent pour communiquer avec vous, procédez comme suit :
-
-1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
-2. Sélectionnez « Renseignements personnels ».
-3. Rendez-vous dans la section « Communication ». Cliquez sur « Modifier » dans la section « Langue de communication ». 
-4. Sélectionnez votre nouvelle langue de communication. 
-5. Confirmez que vous voulez vraiment mettre à jour votre langue de communication. 
-6. **Félicitations!** Un message confirmera que votre langue de communication a été mise à jour. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
-7. Mettez à jour votre langue de communication pour les autres comptes du gouvernement du Canada que vous utilisez. 
-
-<gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette modification de votre langue de communication n’a d’effet que pour les programmes et services que vous avez connectés à votre identifiant ConnexionCanada">
-<!-- Remove reference of other services in French until V2. -->
-  <gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas ConnexionCanada pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre langue de communication auprès d’eux également. Pour une liste des programmes et services utilisant actuellement ConnexionCanada, rendez-vous sur la page Services disponibles. Pour rechercher un autre compte du gouvernement du Canada, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html" external>répertoire des comptes du gouvernement du Canada</gcds-link>.</gcds-text>
-</gcds-notice>
-
-**Veuillez noter que les communications provenant de ConnexionCanada sont envoyées dans un format bilingue.**
-
-## Modifier votre numéro de téléphone de communication
-
-<gcds-notice type="info" notice-title-tag="h3" notice-title=" ">
-  <gcds-text>Cette action <strong>ne modifie pas</strong> votre numéro pour la vérification en deux étapes. Pour modifier le numéro de téléphone que vous utilisez pour vous connecter, consultez notre guide « {% linkRef links.managehowyousigninFR '#change-your-2-step-verification-phone-number' 'Modifier votre numéro de téléphone pour la vérification en deux étapes' %} ».</gcds-text>
-</gcds-notice>
-
-Pour modifier le numéro de téléphone que ConnexionCanada et les programmes et services connectés à votre identifiant ConnexionCanada utilisent pour vous contacter, procédez comme suit : 
-
-1. Après {% link links.howtosigninFR 'votre connexion à votre identifiant ConnexionCanada' %}, {% link links.accessyoursettingsFR 'accédez à vos paramètres' %}.
-2. Sélectionnez « Renseignements personnels ». 
-3. Rendez-vous dans la section « Coordonnées ». Dans la section « Numéro de téléphone de communication », sélectionnez « Modifier ». 
-4. Entrez le nouveau numéro de téléphone auquel vous souhaitez recevoir vos communications. Choisissez de quelle manière vous souhaitez recevoir votre code de vérification. 
-5. Saisissez le code que vous avez reçu sur votre téléphone pour vérifier votre nouveau numéro de téléphone.
-
-   <gcds-notice type="info" notice-title-tag="h3" notice-title="Guides connexes">
-     <gcds-text>{% link links.issuesenterverifyemailFR 'Problèmes liés à la saisie et à la vérification de votre numéro de téléphone' %}</gcds-text>
-   </gcds-notice>
-
-6. Lorsque cela vous sera demandé, confirmez que votre nouveau numéro de téléphone est correct et que vous souhaitez procéder à la mise à jour.
-7. **Félicitations!** Un message confirmera que votre numéro de téléphone de communication a été mis à jour. Vous recevrez également un courriel vous informant du changement que vous venez de faire. Vous pouvez ignorer ce courriel.
-8. Mettez à jour votre numéro de téléphone de communication pour les autres comptes du gouvernement du Canada que vous utilisez. 
-
-<gcds-notice type="warning" notice-title-tag="h3" notice-title="Cette modification de votre numéro de téléphone de communication n’a d’effet que pour les programmes et services que vous avez connectés à votre identifiant ConnexionCanada">
-
-<!-- Remove reference of other services in French until V2. -->
-<gcds-text>Si vous vous connectez à d’autres programmes/services gouvernementaux qui n’utilisent pas ConnexionCanada pour l’authentification (par exemple, si vous vous connectez en utilisant votre banque, CléGC ou une autre méthode), vous devrez vous connecter à ces programmes/services et mettre à jour votre numéro de téléphone de communication auprès d’eux également. Pour rechercher un autre compte du gouvernement du Canada, consultez le <gcds-link href="https://www.canada.ca/fr/gouvernement/ouvrir-session-dossier-compte-en-ligne.html" external>répertoire des comptes du gouvernement du Canada</gcds-link>.</gcds-text>
-</gcds-notice>
+{% if articlePage %}
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
+  {{ articlePage.content.rendered | safe }}
+{% endif %}
