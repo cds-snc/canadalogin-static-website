@@ -1,19 +1,18 @@
 ---
-title: About CanadaLogin
-translationKey: aboutcanadalogin
+title: Avis
+translationKey: termsandconditionspartners
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: aboutcanadaloginEN
-  title: About
-  parent: partnersEN
-  locale: en
+  key: termsAndConditionsPartnersFR
+  title: Avis
+  parent: partnersFR
+  locale: fr
   order: 1
-  hideMain: false
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['about-canadalogin'] %}
+{% set articlePage = articles_fr['avis-partenaires'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>

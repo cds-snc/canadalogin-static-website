@@ -13,7 +13,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['gerer-compte'] %}
+{% set articlePage = articles_fr['gerer-identifiant'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>

@@ -1,19 +1,19 @@
 ---
-title: À propos de ConnexionCanada
-translationKey: aboutcanadalogin
+title: Avis de confidentialité
+translationKey: privacynoticepartners
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
-  key: aboutcanadaloginFR
-  title: À propos
+  key: privacyNoticePartnersFR
+  title: Confidentialité
   parent: partnersFR
   locale: fr
-  order: 1
-  hideMain: false
+  order: 4
+  hideMain: true
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['a-propos-connexioncanada'] %}
+{% set articlePage = articles_fr['avis-confidentialite'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
