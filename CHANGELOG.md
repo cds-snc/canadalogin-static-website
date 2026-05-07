@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.12](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.11...v1.6.12) (2026-05-07)
+
+
+### Code Refactoring
+
+* check broken links on release PR's ([#904](https://github.com/cds-snc/gc-signin-static-website/issues/904)) ([6560dcb](https://github.com/cds-snc/gc-signin-static-website/commit/6560dcb3cfaf56a62b039a036b883c04bc1e5c59))
+
 ## [1.6.11](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.10...v1.6.11) (2026-05-07)
 
 
