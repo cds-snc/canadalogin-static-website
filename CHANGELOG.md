@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.6.11](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.10...v1.6.11) (2026-05-07)
+
+
+### Bug Fixes
+
+* [GC Articles Migration] Connect Manage how you sign in page ([#885](https://github.com/cds-snc/gc-signin-static-website/issues/885)) ([998ce12](https://github.com/cds-snc/gc-signin-static-website/commit/998ce1292dc5818c98c5a5c95579e2ad7e211f22))
+* [GC Articles Migration] Convert 'About CanadaLogin' (Partners) page to GC Articles content + QA ([#860](https://github.com/cds-snc/gc-signin-static-website/issues/860)) ([c11c720](https://github.com/cds-snc/gc-signin-static-website/commit/c11c7207e04ce0c3d6c1b35cfc9d495d1ed34572))
+* [GC Articles Migration] Convert 'Manage your personal information' page to GC Articles content + QA ([#877](https://github.com/cds-snc/gc-signin-static-website/issues/877)) ([c3570d3](https://github.com/cds-snc/gc-signin-static-website/commit/c3570d3369f358dc4af823bbf2ebfc73d2e5450e))
+* [GC Articles Migration] Convert 'Privacy Notice Statement' and 'Terms and conditions' (Partners) page to GC Articles content + QA ([#862](https://github.com/cds-snc/gc-signin-static-website/issues/862)) ([9f6dca1](https://github.com/cds-snc/gc-signin-static-website/commit/9f6dca1b9324e4dd3245abd4edc9f6c60dc494bd))
+* [GC Articles Migration] Convert 'Problems signing in with 2-step verification' page to GC Articles content + QA ([#902](https://github.com/cds-snc/gc-signin-static-website/issues/902)) ([cd02bb0](https://github.com/cds-snc/gc-signin-static-website/commit/cd02bb0d60e7666717eb6b091f29d91a6e935030))
+
+
+### Continuous Integration
+
+* Deploy 1.6.10 to prod ([#909](https://github.com/cds-snc/gc-signin-static-website/issues/909)) ([cf42cb0](https://github.com/cds-snc/gc-signin-static-website/commit/cf42cb0eb2df378f1638905e46861781925cfac5))
+
 ## [1.6.10](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.9...v1.6.10) (2026-05-05)
 
 
