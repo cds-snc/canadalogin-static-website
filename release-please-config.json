@@ -1,7 +1,8 @@
 {
   "extra-files": [
     ".deployed_versions/test.json",
-    ".deployed_versions/staging.json"
+    ".deployed_versions/staging.json",
+    ".deployed_versions/prod.json"
   ],
   "release-type": "simple",
   "packages": {
