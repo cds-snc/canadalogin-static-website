@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.13](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.12...v1.6.13) (2026-05-13)
+
+
+### Continuous Integration
+
+* update prod deployed version ([#910](https://github.com/cds-snc/gc-signin-static-website/issues/910)) ([9391f3e](https://github.com/cds-snc/gc-signin-static-website/commit/9391f3e5658d2c0671f45b6d0190caf5638c806c))
+
 ## [1.6.12](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.11...v1.6.12) (2026-05-07)
 
 
