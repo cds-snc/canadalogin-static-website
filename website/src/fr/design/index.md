@@ -9,8 +9,7 @@ templateEngineOverride: njk
 
 
 {% set articlePage = articles_fr['design'] %}
-<h2>FR Articles content below:</h2>
-
+<h3>Les modifications apportées à l'environnement de test sont limitées à l'environnement de développement. Les pages dont le chemin d'accès commence par /design ne seront pas déployées en production.</h3>
 {% if articlePage %}
 
   <h1>{{ articlePage.title.rendered | safe }}</h1>
