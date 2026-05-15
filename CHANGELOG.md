@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.14](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.13...v1.6.14) (2026-05-15)
+
+
+### Bug Fixes
+
+* Added css table border definitions ([#915](https://github.com/cds-snc/gc-signin-static-website/issues/915)) ([a275c98](https://github.com/cds-snc/gc-signin-static-website/commit/a275c98298665163bab2d9b47838c78bfc6fc955))
+
+
+### Tests
+
+* update design page heading ([#923](https://github.com/cds-snc/gc-signin-static-website/issues/923)) ([a6ed041](https://github.com/cds-snc/gc-signin-static-website/commit/a6ed041b9ae5ae3d4762c0151aefe1bf8f165073))
+
 ## [1.6.13](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.12...v1.6.13) (2026-05-13)
 
 
