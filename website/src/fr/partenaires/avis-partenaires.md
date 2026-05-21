@@ -9,6 +9,7 @@ eleventyNavigation:
   parent: partnersFR
   locale: fr
   order: 1
+  hideMain: true
 templateEngineOverride: njk
 ---
 
