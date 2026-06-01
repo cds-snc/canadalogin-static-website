@@ -2,6 +2,7 @@
 title: Get started with CanadaLogin
 translationKey: getstarted
 layout: 'layouts/base.njk'
+date: 'git Last Modified'
 eleventyNavigation:
   key: getStartedEn
   title: Get started with CanadaLogin
