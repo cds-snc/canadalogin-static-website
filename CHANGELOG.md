@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.7.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.6.14...v1.7.0) (2026-06-01)
+
+
+### Features
+
+* update OIDC role name for canadalogin rename ([#937](https://github.com/cds-snc/canadalogin-static-website/issues/937)) ([cd99c02](https://github.com/cds-snc/canadalogin-static-website/commit/cd99c02300572f4665b65a3a3b7043d59161c6a8))
+
+
+### Bug Fixes
+
+* Partner's FR navigation menu and remove old contact pages (EN + FR) ([#926](https://github.com/cds-snc/canadalogin-static-website/issues/926)) ([c29f898](https://github.com/cds-snc/canadalogin-static-website/commit/c29f898f9134238f3dbcc5837d5f09d6d154f81e))
+
+
+### Miscellaneous Chores
+
+* add LICENSE and SECURITY.md ([#930](https://github.com/cds-snc/canadalogin-static-website/issues/930)) ([6599317](https://github.com/cds-snc/canadalogin-static-website/commit/6599317ef171c1b731d91d9a9660b091ad5f58bf))
+* **deps:** bump liquidjs from 10.25.7 to 10.27.0 in /website ([#934](https://github.com/cds-snc/canadalogin-static-website/issues/934)) ([5b65c10](https://github.com/cds-snc/canadalogin-static-website/commit/5b65c10b8f770f635dd730ece345e5ad42d13ebf))
+* update OIDC role name for canadalogin rename in changed_pages workflow ([#942](https://github.com/cds-snc/canadalogin-static-website/issues/942)) ([902c849](https://github.com/cds-snc/canadalogin-static-website/commit/902c849e6fe3b9cfb7571b7a9548670d8b78e158))
+
 ## [1.6.14](https://github.com/cds-snc/gc-signin-static-website/compare/v1.6.13...v1.6.14) (2026-05-15)
 
 
