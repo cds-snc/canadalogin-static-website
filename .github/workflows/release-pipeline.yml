@@ -23,6 +23,7 @@ jobs:
   # Runs the release-please action. This manages the open release PR and
   # creates the release when the PR is merged.
   release-please:
+    if: github.event_name != 'repository_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/create-github-app-token@d72941d797fd3113feb6b93fd0dec494b13a2547 # v1.12.0
@@ -35,6 +36,88 @@ jobs:
         id: release
         with:
           token: ${{ steps.sre_app_token.outputs.token }}
+
+  # Creates a PR for GC articles changes instead of including them in release-please
+  create-gc-articles-pr:
+    if: github.event_name == 'repository_dispatch' && github.event.action == 'gc-articles-update'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/create-github-app-token@d72941d797fd3113feb6b93fd0dec494b13a2547 # v1.12.0
+        id: sre_app_token
+        with:
+          app-id: ${{ secrets.CDS_RELEASE_BOT_APP_ID }}
+          private-key: ${{ secrets.CDS_RELEASE_BOT_PRIVATE_KEY }}
+
+      - name: Checkout repository
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        with:
+          token: ${{ steps.sre_app_token.outputs.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "latest"
+
+      - name: Install dependencies & Build Application
+        working-directory: website
+        env:
+          WEBSITE_ENVIRONMENT: prod
+          GOOGLE_ANALYTICS_ID: ${{ vars.GOOGLE_ANALYTICS_ID }}
+        run: |
+          npm install
+          npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
+        with:
+          role-to-assume: arn:aws:iam::${{ vars.AWS_ACCOUNT_ID }}:role/github_action_push_S3-canadalogin-static-website
+          role-session-name: GHPushAppS3
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Download PROD site from S3
+        run: |
+          mkdir -p prod
+          aws s3 sync s3://${{ vars.EN_S3_BUCKET }} prod
+
+      - name: Run changed pages script
+        run: |
+          python3 .github/workflows/scripts/changed_pages.py prod website/_site > changed-pages.md
+          cat changed-pages.md
+
+      - name: Create branch and PR
+        env:
+          GH_TOKEN: ${{ steps.sre_app_token.outputs.token }}
+        run: |
+          BRANCH_NAME="gc-articles-$(date +%Y%m%d-%H%M%S)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b $BRANCH_NAME
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit, exiting."
+            exit 0
+          fi
+
+          git commit -m "chore: Update GC articles content"
+          git push origin $BRANCH_NAME
+
+          CHANGED_PAGES=$(cat changed-pages.md)
+          gh pr create \
+            --base main \
+            --head $BRANCH_NAME \
+            --title "GC Articles Update" \
+            --body "## GC Articles Update
+
+This PR contains changes from the GC CMS article updates.
+
+${CHANGED_PAGES}
+
+Please review the changes and merge when ready."
 
   notify-slack-about-deploy:
     runs-on: ubuntu-latest
@@ -114,11 +197,17 @@ jobs:
   # Deploys website application to necessary environments.
   # We check the current SHA deployed to the environment to only deploy if necessary.
   deploy-website:
-    needs: [release-please, build-website]
+    needs: [release-please, build-website, create-gc-articles-pr]
     runs-on: ubuntu-latest
     strategy:
       matrix:
         environment: [dev, test, staging, prod]
+    # For gc-articles-update, only deploy to dev; otherwise deploy to all
+    if: |
+      needs.build-website.result == 'success' && (
+        github.event_name != 'repository_dispatch' ||
+        (github.event_name == 'repository_dispatch' && matrix.environment == 'dev')
+      )
     environment: ${{ matrix.environment }}
     steps:
       - run: echo "Deploying static website to ${{ matrix.environment }} environment..."
@@ -183,7 +272,7 @@ jobs:
   notify-slack-about-deploy-success:
     runs-on: ubuntu-latest
     needs: [notify-slack-about-deploy, deploy-website]
-    if: success() && needs.notify-slack-about-deploy.outputs.envs != ''
+    if: success() && needs.notify-slack-about-deploy.outputs.envs != '' && github.event_name != 'repository_dispatch'
     steps:
       - name: Notify slack about successful Deployments
         run: |
@@ -195,7 +284,7 @@ jobs:
   notify-slack-about-deploy-failure:
     runs-on: ubuntu-latest
     needs: [notify-slack-about-deploy, deploy-website]
-    if: failure() && needs.notify-slack-about-deploy.outputs.envs != ''
+    if: failure() && needs.notify-slack-about-deploy.outputs.envs != '' && github.event_name != 'repository_dispatch'
     steps:
       - name: Notify slack about failed Deployments
         run: |
