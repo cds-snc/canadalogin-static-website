@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.7.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.1...v1.7.2) (2026-06-02)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump fast-uri from 3.1.0 to 3.1.2 in /website ([#917](https://github.com/cds-snc/canadalogin-static-website/issues/917)) ([b333bac](https://github.com/cds-snc/canadalogin-static-website/commit/b333bac25dfd53568b2445d59cf9a456e6b346ef))
+* **deps:** bump axios from 1.15.1 to 1.16.1 in /website ([#941](https://github.com/cds-snc/canadalogin-static-website/issues/941)) ([fd44c86](https://github.com/cds-snc/canadalogin-static-website/commit/fd44c86850a07c245815f4d7a9b6765a0436d8e9))
+* **deps:** bump brace-expansion in /website ([#729](https://github.com/cds-snc/canadalogin-static-website/issues/729)) ([06f15c3](https://github.com/cds-snc/canadalogin-static-website/commit/06f15c35fff9e2435948221e8b52d2223d2dec00))
+* **deps:** bump picomatch from 2.3.1 to 2.3.2 in /website ([#731](https://github.com/cds-snc/canadalogin-static-website/issues/731)) ([f75724b](https://github.com/cds-snc/canadalogin-static-website/commit/f75724bcd19dfb7acaabc0b404ef572d1c04266c))
+* **deps:** bump tmp from 0.2.5 to 0.2.7 in /website ([#935](https://github.com/cds-snc/canadalogin-static-website/issues/935)) ([a3ad972](https://github.com/cds-snc/canadalogin-static-website/commit/a3ad9723544ce82574e8c9ab43d1317ec67775b7))
+
 ## [1.7.1](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.0...v1.7.1) (2026-06-02)
 
 
