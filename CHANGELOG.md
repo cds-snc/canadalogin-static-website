@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.0...v1.7.1) (2026-06-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump minimatch in /website ([#610](https://github.com/cds-snc/canadalogin-static-website/issues/610)) ([7adb5df](https://github.com/cds-snc/canadalogin-static-website/commit/7adb5dffbfdf11c684a1b5d7395a72755050da23))
+
 ## [1.7.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.6.14...v1.7.0) (2026-06-01)
 
 
