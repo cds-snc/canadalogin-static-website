@@ -107,8 +107,16 @@ jobs:
           npm run build
 
       - name: Upload build artifacts to S3
+        # Only upload if no artifact already exists at this SHA. In `dev` we
+        # always overwrite so re-runs pick up content changes (e.g. GC Articles).
         run: |
-          aws s3 sync website/_site s3://${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}
+          S3_PREFIX="s3://${{ vars.STATIC_WEBSITE_BUILD_ARTIFACTS_S3_BUCKET }}/${GITHUB_SHA}"
+          EXISTING=$(aws s3 ls "${S3_PREFIX}/" || true)
+          if [ -n "$EXISTING" ] && [ "${{ matrix.environment }}" != "dev" ]; then
+            echo "Artifact already exists at ${S3_PREFIX}, skipping upload for ${{ matrix.environment }}."
+            exit 0
+          fi
+          aws s3 sync website/_site "${S3_PREFIX}"
 
   
   # Deploys website application to necessary environments.
