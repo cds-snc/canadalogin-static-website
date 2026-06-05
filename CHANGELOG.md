@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.2...v1.7.3) (2026-06-05)
+
+
+### Bug Fixes
+
+* Add missing date to User's 'Get started' page (EN) ([#943](https://github.com/cds-snc/canadalogin-static-website/issues/943)) ([5bded37](https://github.com/cds-snc/canadalogin-static-website/commit/5bded37aa93aefb4ce278b0192dbe55a10fcd603))
+* Created resources section pages ([#948](https://github.com/cds-snc/canadalogin-static-website/issues/948)) ([06b7107](https://github.com/cds-snc/canadalogin-static-website/commit/06b710730f166533ee8009b8ac1a5dad2894cdf9))
+
 ## [1.7.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.1...v1.7.2) (2026-06-02)
 
 
