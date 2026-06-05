@@ -11,7 +11,7 @@ eleventyNavigation:
   hideMain: true
 templateEngineOverride: njk
 ---
-<!-- <gcds-grid columns="minmax(0, 1fr)" columns-desktop="320px minmax(0, 1fr)" tag="div" container="xl" alignment="center" class="xl:px-0 sm:px-600 px-225 general-layout"> -->
+
 <gcds-grid columns="minmax(0, 1fr)" columns-desktop="320px minmax(0, 1fr)" tag="div" container="xl" alignment="center">
     <gcds-side-nav>
         <gcds-nav-group
