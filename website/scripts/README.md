@@ -2,7 +2,7 @@
 
 ## generate-new-pages
 
-Use the `generate-new-pages` script to create new EN and FR pages that connect to a GC Articles (CMS) entry.
+Use the `generate-new-pages` script to create new EN and FR pages that connect to a GC Articles (CMS) entry, fast-tracking the page creation process for content writers.
 
 ### Usage
 
