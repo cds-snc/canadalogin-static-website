@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.3...v1.7.4) (2026-06-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump shell-quote from 1.8.3 to 1.8.4 in /website ([#960](https://github.com/cds-snc/canadalogin-static-website/issues/960)) ([513714f](https://github.com/cds-snc/canadalogin-static-website/commit/513714f057bf4a9309738e351d88fba184bcb176))
+
 ## [1.7.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.2...v1.7.3) (2026-06-05)
 
 
