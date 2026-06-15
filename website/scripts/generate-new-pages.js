@@ -36,10 +36,16 @@ function toTranslationKey(slug) {
 function parseArgs(argv) {
   const args = {};
   for (let i = 0; i < argv.length; i++) {
-    if (argv[i].startsWith('--')) {
-      const key = argv[i].slice(2);
-      args[key] = argv[i + 1] || '';
-      i++;
+    const token = argv[i];
+    if (token.startsWith('--')) {
+      const key = token.slice(2);
+      const value = argv[i + 1];
+      if (!value || value.startsWith('--')) {
+        args[key] = '';
+      } else {
+        args[key] = value;
+        i++;
+      }
     }
   }
   return args;
@@ -119,6 +125,13 @@ const enParent = required(args, 'en-parent');
 const frParent = required(args, 'fr-parent');
 const enSlug   = required(args, 'en-slug');
 const frSlug   = required(args, 'fr-slug');
+
+const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+if (!slugPattern.test(enSlug) || !slugPattern.test(frSlug)) {
+  console.error('Slugs must be kebab-case (lowercase a-z, 0-9, and hyphens only).');
+  process.exit(1);
+}
+
 const enDir    = required(args, 'en-dir');
 const frDir    = required(args, 'fr-dir');
 
