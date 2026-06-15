@@ -3,8 +3,8 @@
  * Generate a pair of EN/FR markdown pages.
  *
  * Usage:
- *   node scripts/gen-page.js \
- *     --en-title "Forgot your email" \
+ *   node scripts/generate-new-pages.js \
+ *     --en-title "Forgot your email" \\
  *     --fr-title "Adresse courriel oubliée" \
  *     --en-parent "troubleSigningInEn" \
  *     --fr-parent "troubleSigningInFR" \
@@ -69,7 +69,7 @@ eleventyNavigation:
   locale: en
   parent: ${parent}
   order: 1
-  hideMain: false
+  hideMain: true
 templateEngineOverride: njk
 ---
 
@@ -94,7 +94,7 @@ eleventyNavigation:
   locale: fr
   parent: ${parent}
   order: 1
-  hideMain: false
+  hideMain: true
 templateEngineOverride: njk
 ---
 

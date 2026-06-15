@@ -37,7 +37,7 @@ node scripts/generate-new-pages.js \
 
 | Field | Rule | Example |
 |---|---|---|
-| `translationKey` | EN slug stripped of `-` | `forgotyouremail` |
+| `translationKey` | EN slug stripped of non-alphanumeric characters | `forgotyouremail` |
 | EN `eleventyNavigation.key` | camelCase(EN slug) + `En` | `forgotYourEmailEn` |
 | FR `eleventyNavigation.key` | camelCase(EN slug) + `FR` | `forgotYourEmailFR` |
 
