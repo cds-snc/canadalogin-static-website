@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.8.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.4...v1.8.0) (2026-06-18)
+
+
+### Features
+
+* Create a script to generate newly created pages for GC Articles for devs ([#952](https://github.com/cds-snc/canadalogin-static-website/issues/952)) ([e769133](https://github.com/cds-snc/canadalogin-static-website/commit/e7691332c160843d95f0584c84250a5f22a65f75))
+
+
+### Bug Fixes
+
+* Created English and French 404 error pages ([#957](https://github.com/cds-snc/canadalogin-static-website/issues/957)) ([cca60e9](https://github.com/cds-snc/canadalogin-static-website/commit/cca60e983243a4cce38cefd8b6b5311a5aebaeda))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump qs, cypress and cypress-html-validate in /website ([#956](https://github.com/cds-snc/canadalogin-static-website/issues/956)) ([92e0892](https://github.com/cds-snc/canadalogin-static-website/commit/92e0892401d99ac2338244580cc6a452a1f2517c))
+
 ## [1.7.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.3...v1.7.4) (2026-06-10)
 
 
