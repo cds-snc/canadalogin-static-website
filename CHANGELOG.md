@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.8.0...v1.9.0) (2026-07-02)
+
+
+### Features
+
+* **new-page:** Recover your 2-step verification ([538153a](https://github.com/cds-snc/canadalogin-static-website/commit/538153a308c469adddf4f8f4d9ef2278679ed5ee))
+* **new-page:** Recover your 2-step verification (EN) + Récupération de votre identifiant (FR) ([#966](https://github.com/cds-snc/canadalogin-static-website/issues/966)) ([538153a](https://github.com/cds-snc/canadalogin-static-website/commit/538153a308c469adddf4f8f4d9ef2278679ed5ee))
+
 ## [1.8.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.7.4...v1.8.0) (2026-06-18)
 
 
