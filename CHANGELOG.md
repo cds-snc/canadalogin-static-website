@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.1](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.0...v1.9.1) (2026-07-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump form-data from 4.0.5 to 4.0.6 in /website ([#968](https://github.com/cds-snc/canadalogin-static-website/issues/968)) ([2134fdf](https://github.com/cds-snc/canadalogin-static-website/commit/2134fdf2e1b43be8cbc94c95e24a91b766ce512f))
+* **deps:** bump linkify-it, @11ty/eleventy and markdown-it in /website ([#975](https://github.com/cds-snc/canadalogin-static-website/issues/975)) ([403431f](https://github.com/cds-snc/canadalogin-static-website/commit/403431fcf8431067590ec5943e2b13bac7192ab6))
+
 ## [1.9.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.8.0...v1.9.0) (2026-07-02)
 
 
