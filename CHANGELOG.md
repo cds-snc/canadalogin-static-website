@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.1...v1.9.2) (2026-07-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency prettier to v3.9.4 ([#553](https://github.com/cds-snc/canadalogin-static-website/issues/553)) ([07f8833](https://github.com/cds-snc/canadalogin-static-website/commit/07f8833ef8d11224311f16adf2d0d1a158f91535))
+
 ## [1.9.1](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.0...v1.9.1) (2026-07-07)
 
 
