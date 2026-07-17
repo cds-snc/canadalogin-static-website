@@ -7,7 +7,7 @@ eleventyNavigation:
   key: forgotYourEmailFR
   title: Adresse courriel oubliée
   locale: fr
-  parent: troubleSigningInEn
+  parent: troubleSigningInFR
   order: 2
 templateEngineOverride: njk
 ---
