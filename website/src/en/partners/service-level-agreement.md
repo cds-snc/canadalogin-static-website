@@ -14,7 +14,7 @@ templateEngineOverride: njk
 ---
 
 <gcds-grid columns="minmax(0, 1fr)" columns-desktop="320px minmax(0, 1fr)" tag="div" container="xl" alignment="center">
-    <gcds-side-nav>
+    <gcds-side-nav class="hide-on-mobile">
         <gcds-nav-group
             menu-label="Resources"
             open-trigger="Resources"

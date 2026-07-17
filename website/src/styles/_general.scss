@@ -42,3 +42,12 @@ ul li {
   width: var(--gcds-text-character-limit);
   max-width: 100%;
 }
+
+/*
+ * Used to hide the Side navigation menu on '/resources' section on mobile devices, at the point where the main navigation menu collapses into a hamburger menu. This is to prevent displaying two hamburger menus labeled "Menu".
+ */
+@media (max-width: 1025px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
