@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.2...v1.9.3) (2026-07-20)
+
+
+### Bug Fixes
+
+* Remove 404 error page as is no longer needed ([58fcb5a](https://github.com/cds-snc/canadalogin-static-website/commit/58fcb5a6bc711f2688f67a468c8b3d3cca615ab6))
+* Removed 404.md error page as is no longer needed ([#978](https://github.com/cds-snc/canadalogin-static-website/issues/978)) ([58fcb5a](https://github.com/cds-snc/canadalogin-static-website/commit/58fcb5a6bc711f2688f67a468c8b3d3cca615ab6))
+
 ## [1.9.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.1...v1.9.2) (2026-07-16)
 
 
