@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.3...v1.9.4) (2026-07-30)
+
+
+### Bug Fixes
+
+* Added css hide-on-mobile directive to resources pages ([ba950b1](https://github.com/cds-snc/canadalogin-static-website/commit/ba950b14d5d577003d2509180e1ecdbb53703066))
+* Update Partners resource dropdown to hide Side navigation when menu collapses at responsive breakpoing ([#986](https://github.com/cds-snc/canadalogin-static-website/issues/986)) ([ba950b1](https://github.com/cds-snc/canadalogin-static-website/commit/ba950b14d5d577003d2509180e1ecdbb53703066))
+
 ## [1.9.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.2...v1.9.3) (2026-07-20)
 
 
