@@ -41,7 +41,7 @@
   "devDependencies": {
     "dotenv": "^17.3.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@cdssnc/gcds-components": "^0.46.0",
+    "@cdssnc/gcds-components": "^0.47.0",
     "@cdssnc/gcds-tokens": "^2.13.1",
     "@gcds-core/css-shortcuts": "^1.0.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
