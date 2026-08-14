@@ -13,9 +13,6 @@ table {
 table tr {
   vertical-align: baseline;
 }
-table tr:first-child {
-  border-block-end: var(--gcds-border-width-md) solid var(--gcds-border-default);
-}
 table td,
 table th {
   padding: var(--gcds-spacing-100);
