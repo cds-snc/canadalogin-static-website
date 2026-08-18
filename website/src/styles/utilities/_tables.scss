@@ -20,4 +20,5 @@ table th {
 }
 table th {
   font-weight: var(--gcds-font-weights-bold);
+  border-bottom: var(--gcds-border-width-md) solid var(--gcds-border-default);
 }
