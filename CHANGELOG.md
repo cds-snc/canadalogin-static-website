@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.9.5](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.4...v1.9.5) (2026-08-18)
+
+
+### Bug Fixes
+
+* Fix table styling on Services using CanadaLogin page ([#1005](https://github.com/cds-snc/canadalogin-static-website/issues/1005)) ([10b50ff](https://github.com/cds-snc/canadalogin-static-website/commit/10b50ff07c5cbb08cbe7db064458179ad71c04b0))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump ajv from 8.17.1 to 8.18.0 in /website ([#603](https://github.com/cds-snc/canadalogin-static-website/issues/603)) ([88f155d](https://github.com/cds-snc/canadalogin-static-website/commit/88f155d17aed99287ecec829ce45cc168689efb3))
+* **deps-dev:** bump fast-uri from 3.1.2 to 3.1.5 in /website ([#997](https://github.com/cds-snc/canadalogin-static-website/issues/997)) ([29e26e2](https://github.com/cds-snc/canadalogin-static-website/commit/29e26e28f97ec87fd351b82cf173692b5679b97b))
+* **deps-dev:** bump immutable from 5.1.5 to 5.1.9 in /website ([#991](https://github.com/cds-snc/canadalogin-static-website/issues/991)) ([87a16f4](https://github.com/cds-snc/canadalogin-static-website/commit/87a16f4a3cb6921e2d5a80cfb741be5c4e7d1534))
+* **deps:** bump liquidjs from 10.27.0 to 10.27.2 in /website ([#995](https://github.com/cds-snc/canadalogin-static-website/issues/995)) ([267ec0f](https://github.com/cds-snc/canadalogin-static-website/commit/267ec0feead269f77fce96989811c22c3e09c96d))
+* **deps:** bump shell-quote from 1.8.4 to 1.10.0 in /website ([#993](https://github.com/cds-snc/canadalogin-static-website/issues/993)) ([055427e](https://github.com/cds-snc/canadalogin-static-website/commit/055427e58f09facdf2cc36d58704e44d2a04d22b))
+* **deps:** bump undici from 7.24.4 to 7.28.0 in /website ([#967](https://github.com/cds-snc/canadalogin-static-website/issues/967)) ([22e224b](https://github.com/cds-snc/canadalogin-static-website/commit/22e224bd443e4f4d2419629c804add48166776bf))
+* **deps:** bump ws from 8.18.3 to 8.21.1 in /website ([#998](https://github.com/cds-snc/canadalogin-static-website/issues/998)) ([e0f287d](https://github.com/cds-snc/canadalogin-static-website/commit/e0f287dc33f3ab33b6bb7ade01ef289f0f3df676))
+* **deps:** update all patch dependencies ([#951](https://github.com/cds-snc/canadalogin-static-website/issues/951)) ([ba5a055](https://github.com/cds-snc/canadalogin-static-website/commit/ba5a055e1e1ed829ba9f9bc2cf8f63a4caa84538))
+* **deps:** update dependency axios to v1.18.0 [security] ([#985](https://github.com/cds-snc/canadalogin-static-website/issues/985)) ([4bf8e05](https://github.com/cds-snc/canadalogin-static-website/commit/4bf8e058c43d7a0f6c52cc58c1397dad3dd393e1))
+* **deps:** update dependency prettier to v3.9.6 ([#982](https://github.com/cds-snc/canadalogin-static-website/issues/982)) ([76e4760](https://github.com/cds-snc/canadalogin-static-website/commit/76e47600dbbe1ef4bbd65d4635fc2395f337019a))
+
 ## [1.9.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.3...v1.9.4) (2026-07-30)
 
 
