@@ -6,7 +6,7 @@ eleventyNavigation:
   key: updatingYourSigninMethodEn
   title: Updating your sign-in method to CanadaLogin
   locale: en
-  parent: usersEN
+  parent: getStartedEn
   order: 4
   hideMain: true
 templateEngineOverride: njk
