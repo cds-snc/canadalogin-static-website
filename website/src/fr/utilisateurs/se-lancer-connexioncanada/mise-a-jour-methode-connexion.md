@@ -6,7 +6,7 @@ eleventyNavigation:
   key: updatingYourSigninMethodFR
   title: Mettre à jour votre méthode de connexion pour passer à ConnexionCanada
   locale: fr
-  parent: usersFR
+  parent: getStartedFR
   order: 4
   hideMain: true
 templateEngineOverride: njk
