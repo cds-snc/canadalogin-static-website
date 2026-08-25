@@ -10,10 +10,10 @@ Landing page and central source of information for potential clients that are in
 
 ## Website Installation
 
-- Navigate to the [website folder ](website)
+- Navigate to the [website folder ](website).
 - Run `npm install` to install all Node.js dependencies.
 - Run `npm run dev` if you are working locally.
-- Run `npm run build` to initiate the Eleventy build process
+- Run `npm run build` to initiate the Eleventy build process.
 - Run `npm start` to start a hot-reloading local web server.
-- The site will be accessible on http://localhost:8080/en or http://localhost:8080/fr. You have to append the `/en` and `/fr` as there is no page available at the base url
+- The site will be accessible on http://localhost:8080/en or http://localhost:8080/fr. You have to append the `/en` and `/fr` as there is no page available at the base url.
   <br/>
