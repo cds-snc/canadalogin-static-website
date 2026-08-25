@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.9.6](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.5...v1.9.6) (2026-08-25)
+
+
+### Bug Fixes
+
+* Update "Updating your sign-in method to CanadaLogin" to show "Get Started" in breadcrumb ([#1009](https://github.com/cds-snc/canadalogin-static-website/issues/1009)) ([b1c3110](https://github.com/cds-snc/canadalogin-static-website/commit/b1c311004bb99de3f12c67ae75f10b3aeb16598b))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump brace-expansion in /website ([#1001](https://github.com/cds-snc/canadalogin-static-website/issues/1001)) ([6c098a9](https://github.com/cds-snc/canadalogin-static-website/commit/6c098a9d4f245b1de37822f9fe494b47ef2eb81f))
+* **deps:** bump undici from 7.28.0 to 7.29.0 in /website ([#1000](https://github.com/cds-snc/canadalogin-static-website/issues/1000)) ([06c3428](https://github.com/cds-snc/canadalogin-static-website/commit/06c3428535521ea511dff06141f5beb71eb90b6a))
+* **deps:** update all minor dependencies ([#999](https://github.com/cds-snc/canadalogin-static-website/issues/999)) ([3796109](https://github.com/cds-snc/canadalogin-static-website/commit/37961092d62aa8a6d5a42f8e43e73546ed27f116))
+
 ## [1.9.5](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.4...v1.9.5) (2026-08-18)
 
 
