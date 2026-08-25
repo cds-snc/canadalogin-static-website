@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.7](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.6...v1.9.7) (2026-08-25)
+
+
+### Bug Fixes
+
+* Update README to trigger a release PR ([#1010](https://github.com/cds-snc/canadalogin-static-website/issues/1010)) ([afea59e](https://github.com/cds-snc/canadalogin-static-website/commit/afea59e3456d83ae601625854a5f80971c418e93))
+
 ## [1.9.6](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.5...v1.9.6) (2026-08-25)
 
 
