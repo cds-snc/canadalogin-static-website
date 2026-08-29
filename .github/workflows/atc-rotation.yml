@@ -1,0 +1,96 @@
+name: CanadaLogin Website ATC Rotation
+
+on:
+  schedule:
+    # 13:00 UTC Monday = 9am EDT. Note this lands at 8am EST once the clocks
+    # change; GitHub cron has no timezone support, so adjust here if it matters.
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Monday of the week to swap (YYYY-MM-DD). Leave blank to just re-announce."
+        required: false
+      slack_id:
+        description: "Slack member ID taking that week (e.g. U01ABC123)."
+        required: false
+  repository_dispatch:
+    types: [rotation-swap]
+
+permissions:
+  contents: write
+
+jobs:
+  atc-rotation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Record swap
+        id: swap
+        env:
+          WEEK: ${{ github.event.inputs.week || github.event.client_payload.week }}
+          SLACK_ID: ${{ github.event.inputs.slack_id || github.event.client_payload.slack_id }}
+          REQUESTED_BY: ${{ github.event.client_payload.requested_by }}
+        if: env.WEEK != '' && env.SLACK_ID != ''
+        run: |
+          python3 .github/workflows/scripts/rotation.py swap \
+            --week "$WEEK" --slack-id "$SLACK_ID" --requested-by "$REQUESTED_BY"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git commit -am "chore: ATC rotation swap for week of $WEEK"
+            git push
+          fi
+          # Only worth announcing if the swap changes who is on point right now.
+          swapped=$(python3 .github/workflows/scripts/rotation.py who --date "$WEEK" | jq -r .week_start)
+          current=$(python3 .github/workflows/scripts/rotation.py who | jq -r .week_start)
+          if [ "$swapped" = "$current" ]; then
+            echo "announce=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Resolve this week's ATC
+        id: who
+        run: |
+          python3 .github/workflows/scripts/rotation.py who > who.json
+          cat who.json
+          echo "user_group_id=$(jq -r .user_group_id who.json)" >> "$GITHUB_OUTPUT"
+          echo "slack_id=$(jq -r .slack_id who.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh the published schedule
+        run: |
+          python3 .github/workflows/scripts/rotation.py schedule --weeks 12 --write
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet .github/ATC-ROTATION.md; then
+            git commit -m "chore: refresh ATC schedule" .github/ATC-ROTATION.md
+            git push
+          fi
+
+      - name: Point the user group at them
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.CL_WEBSITE_ROTATION_SLACK_BOT_TOKEN }}
+          USER_GROUP_ID: ${{ steps.who.outputs.user_group_id }}
+        if: env.SLACK_BOT_TOKEN != '' && env.USER_GROUP_ID != ''
+        run: |
+          curl -sS -X POST https://slack.com/api/usergroups.users.update \
+            -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
+            -H 'Content-type: application/json; charset=utf-8' \
+            --data "{\"usergroup\":\"$USER_GROUP_ID\",\"users\":\"${{ steps.who.outputs.slack_id }}\"}" \
+            | jq -e .ok > /dev/null
+
+      - name: Announce in Slack
+        # A swap for a later week is recorded quietly; a manual run with no swap
+        # inputs is treated as a deliberate re-announcement.
+        if: |
+          github.event_name == 'schedule'
+          || steps.swap.outputs.announce == 'true'
+          || (github.event_name == 'workflow_dispatch' && github.event.inputs.week == '')
+        run: |
+          python3 .github/workflows/scripts/rotation.py message > message.json
+          curl -sS -X POST -H 'Content-type: application/json' \
+            --data @message.json \
+            ${{ secrets.GC_SIGNIN_WEBSITE_OPS_SLACK_INFO_WEBHOOK }}

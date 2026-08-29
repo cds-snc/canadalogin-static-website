@@ -1,0 +1,51 @@
+# CanadaLogin Website ATC Rotation roster for the #cl-website Slack channel.
+#
+# Edit this file by PR to add/remove people or record time off.
+# One-off swaps are handled by the `swap` command and stored in
+# rotation-overrides.yml, so you do not need to touch this file for those.
+
+# Monday that week 0 of the rotation started. Do not change this once the
+# rotation is live: it would reshuffle everyone's position.
+anchor_week: 2026-08-31
+
+# Hours of coverage, in each member's own local timezone.
+coverage:
+  start: "09:00"
+  end: "17:00"
+
+# Where most of the team sits. When the ATC is somewhere else, the Slack post
+# also spells out their hours in this timezone.
+team_timezone: America/Toronto
+
+# Slack channel the reminder is posted to.
+channel: "#cl-website"
+
+# Optional: Slack user group whose membership is set to the current ATC, so
+# anyone can mention @cl-website-atc without knowing the schedule.
+# Find the ID at https://cds-snc.slack.com/admin/user_groups (starts with "S").
+user_group_id: ""
+
+# Order matters: the rotation walks this list top to bottom.
+# slack_id is the member ID (Profile -> ... -> Copy member ID), NOT the @handle.
+# Using IDs means mentions keep working when someone changes their display name.
+members:
+  - name: Afonso
+    slack_id: U084FJKLE3V
+    timezone: America/Toronto
+  - name: Cheyenne
+    slack_id: U0ALJ25B604
+    timezone: America/Yellowknife
+  - name: Melody
+    slack_id: U09E9LBGN7P
+    timezone: America/Toronto
+  - name: Sami
+    slack_id: U0B532B2G10
+    timezone: America/Toronto
+
+# Inclusive date ranges. Anyone whose time off overlaps a coverage week at all
+# is skipped for that whole week, and the rotation moves to the next person.
+vacations: []
+# - slack_id: U00000000A
+#   start: 2026-09-07
+#   end: 2026-09-18
+#   note: parental leave
