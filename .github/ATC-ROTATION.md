@@ -93,6 +93,23 @@ workflow does this every Monday and after each swap, so it is only needed by
 hand after editing `rotation.yml` — to publish the change without waiting for
 the next run.
 
+## Federal statutory holidays
+
+Add a named holiday under `federal_stat_holidays` in
+[rotation.yml](rotation.yml). On that date, the workflow posts the holiday
+notice instead of the regular ATC announcement. The weekly rotation still
+starts as scheduled, and coverage resumes on Tuesday.
+
+Only Mondays change what gets posted, since the announcement runs weekly. The
+non-Monday holidays are listed anyway so the file stays correct if the
+announcement ever moves to a daily schedule.
+
+```yaml
+federal_stat_holidays:
+  - date: 2026-09-07
+    name: Labour Day
+```
+
 ## Time off
 
 Add an inclusive date range to `vacations` in [rotation.yml](rotation.yml):

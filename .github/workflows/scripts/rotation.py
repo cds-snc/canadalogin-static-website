@@ -138,6 +138,13 @@ def build_message(config, member, week_start, week_end, source):
     return text
 
 
+def federal_stat_holiday(config, day):
+    for entry in config.get("federal_stat_holidays") or []:
+        if as_date(entry["date"]) == day:
+            return entry["name"]
+    return None
+
+
 def cmd_who(args):
     config = load(CONFIG, {})
     member, week_start, week_end, source = pick(
@@ -162,12 +169,21 @@ def cmd_message(args):
     config = load(CONFIG, {})
     overrides = load(OVERRIDES, {})
     day = as_date(args.date)
-    text = build_message(config, *pick(config, overrides, day))
+    holiday = federal_stat_holiday(config, day)
+    if holiday:
+        text = (
+            f":canada: Today is {holiday}, a federal statutory holiday. "
+            "There is no ATC coverage today; regular coverage resumes tomorrow."
+        )
+    else:
+        text = build_message(config, *pick(config, overrides, day))
 
-    # A week's warning is the difference between planning around your turn and
-    # finding out on the morning.
-    following, next_start, _, _ = pick(config, overrides, monday_of(day) + timedelta(weeks=1))
-    text += f"\n:calendar: Up next, week of {next_start:%b %-d}: <@{following['slack_id']}>."
+        # A week's warning is the difference between planning around your turn and
+        # finding out on the morning.
+        following, next_start, _, _ = pick(
+            config, overrides, monday_of(day) + timedelta(weeks=1)
+        )
+        text += f"\n:calendar: Up next, week of {next_start:%b %-d}: <@{following['slack_id']}>."
 
     print(
         json.dumps(

@@ -6,7 +6,24 @@
 
 # Monday that week 0 of the rotation started. Do not change this once the
 # rotation is live: it would reshuffle everyone's position.
-anchor_week: 2026-08-31
+anchor_week: 2026-09-07
+
+# Named federal statutory holidays. The workflow posts a holiday notice instead
+# of the usual ATC announcement on these dates. Only Mondays matter while the
+# announcement is weekly; the rest are listed so a daily schedule would work.
+federal_stat_holidays:
+  - date: 2026-09-07
+    name: Labour Day
+  - date: 2026-09-30
+    name: National Day for Truth and Reconciliation
+  - date: 2026-10-12
+    name: Thanksgiving Day
+  - date: 2026-11-11
+    name: Remembrance Day
+  - date: 2026-12-25
+    name: Christmas Day
+  - date: 2026-12-28
+    name: Boxing Day (observed)
 
 # Hours of coverage, in each member's own local timezone.
 coverage:
