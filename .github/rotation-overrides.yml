@@ -1,0 +1,4 @@
+# Machine-managed. Written by `rotation.py swap` via the CanadaLogin Website ATC
+# Rotation workflow. An override wins over the rotation for that week only, and
+# does not shift anyone else's position. Safe to prune old entries.
+overrides: []
