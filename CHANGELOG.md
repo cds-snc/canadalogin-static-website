@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.7...v1.10.0) (2026-09-16)
+
+
+### Features
+
+* add CanadaLogin Website ATC rotation ([#1015](https://github.com/cds-snc/canadalogin-static-website/issues/1015)) ([494ae8b](https://github.com/cds-snc/canadalogin-static-website/commit/494ae8b1048844dfe5793752ecbb9c483911f0ea))
+* **new-page:** Generate new page "How your information is shared and stored with services" FR/EN ([#1018](https://github.com/cds-snc/canadalogin-static-website/issues/1018)) ([df99a8a](https://github.com/cds-snc/canadalogin-static-website/commit/df99a8a67f0bfd89386c108b46165af500160d17))
+
 ## [1.9.7](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.6...v1.9.7) (2026-08-25)
 
 
