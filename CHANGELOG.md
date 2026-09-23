@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.0...v1.10.1) (2026-09-23)
+
+
+### Features
+
+* **new-page:** Create 'Change your email address' + 'Modifier votre addresse courriel' ([#1026](https://github.com/cds-snc/canadalogin-static-website/issues/1026)) ([29f3cdf](https://github.com/cds-snc/canadalogin-static-website/commit/29f3cdf4f72fa7c1c3179f82e6c43c43191c92f6))
+
 ## [1.10.0](https://github.com/cds-snc/canadalogin-static-website/compare/v1.9.7...v1.10.0) (2026-09-16)
 
 
