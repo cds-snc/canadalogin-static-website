@@ -8,7 +8,7 @@ eleventyNavigation:
   title: Modifier votre addresse courriel
   locale: fr
   order: 3
-  parent: manageYourAccountFR
+  parent: manageYourPersonalInformationFR
   hideMain: true
 templateEngineOverride: njk
 ---

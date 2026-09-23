@@ -7,7 +7,7 @@ eleventyNavigation:
   title: Change your email address
   locale: en
   order: 3
-  parent: manageYourAccountEn
+  parent: manageYourPersonalInformationEn
   hideMain: true
 templateEngineOverride: njk
 ---
