@@ -24,27 +24,27 @@ a[href]:not([class*='link-inherit']):not([class*='link-light']):not(:focus):not(
 }
 
 h1 {
-  max-width: var(--gcds-heading-character-limit-h1);
+  --gcds-heading-character-limit-h1: none;
 }
 
 h2 {
-  max-width: var(--gcds-heading-character-limit-h2);
+  --gcds-heading-character-limit-h2: none;
 }
 
 h3 {
-  max-width: var(--gcds-heading-character-limit-h3);
+  --gcds-heading-character-limit-h3: none;
 }
 
 h4 {
-  max-width: var(--gcds-heading-character-limit-h4);
+  --gcds-heading-character-limit-h4: none;
 }
 
 h5 {
-  max-width: var(--gcds-heading-character-limit-h5);
+  --gcds-heading-character-limit-h5: none;
 }
 
 h6 {
-  max-width: var(--gcds-heading-character-limit-h6);
+  --gcds-heading-character-limit-h6: none;
 }
 
 // Text and long form content
