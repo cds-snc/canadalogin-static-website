@@ -47,8 +47,14 @@ h6 {
   --gcds-heading-character-limit-h6: none;
 }
 
+gcds-notice {
+  --gcds-heading-character-limit-h2: none;
+  --gcds-heading-character-limit-h3: none;
+}
+
 // Text and long form content
-ul li {
+ul li, 
+ol li {
   font: var(--gcds-font-text);
   max-width: var(--gcds-text-character-limit);
 }

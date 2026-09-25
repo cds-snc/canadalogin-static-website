@@ -15,9 +15,6 @@ templateEngineOverride: njk
 {% set articlePage = articles_en['users'] %}
 
 {% if articlePage %}
-  <h1 character-limit=false>{{ articlePage.title.rendered | safe }}</h1>
-  <gcds-heading tag="h1" character-limit=false>
-    {{ articlePage.title.rendered | safe }}
-  </gcds-heading>
+  <h1>{{ articlePage.title.rendered | safe }}</h1>
   {{ articlePage.content.rendered | safe }}
 {% endif %}
