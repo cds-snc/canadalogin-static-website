@@ -40,6 +40,7 @@ jobs:
             echo "This workflow is running at $GITHUB_SHA, but main is now at $MAIN_SHA."
             echo "Re-run from current main, or manually dispatch with old-code protection disabled."
             exit 1
+          fi
 
   # Runs the release-please action. This manages the open release PR and
   # creates the release when the PR is merged.
