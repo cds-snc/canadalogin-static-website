@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.10.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.1...v1.10.2) (2026-09-29)
+
+
+### Bug Fixes
+
+* prevent stale release pipeline reruns ([#1031](https://github.com/cds-snc/canadalogin-static-website/issues/1031)) ([42bc454](https://github.com/cds-snc/canadalogin-static-website/commit/42bc454c4d304f71523c8915498a12567cc1df78))
+* release pipeline missing syntax ([#1034](https://github.com/cds-snc/canadalogin-static-website/issues/1034)) ([44d6765](https://github.com/cds-snc/canadalogin-static-website/commit/44d6765db2d0850d669a5ba9e6a886cc3ec89062))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump undici from 7.29.0 to 7.30.0 in /website ([#1032](https://github.com/cds-snc/canadalogin-static-website/issues/1032)) ([369d7bc](https://github.com/cds-snc/canadalogin-static-website/commit/369d7bc24bbef8dd20d926e73273d178005eb1d9))
+* **deps:** update all minor dependencies ([#1013](https://github.com/cds-snc/canadalogin-static-website/issues/1013)) ([067ad03](https://github.com/cds-snc/canadalogin-static-website/commit/067ad03bf7b4716b1b3605ac1220fdeb4f6b8ec0))
+* **deps:** update dependency prettier to v3.9.8 ([#1029](https://github.com/cds-snc/canadalogin-static-website/issues/1029)) ([33495e1](https://github.com/cds-snc/canadalogin-static-website/commit/33495e1660802959d8a264df3c651dd99b9bde1b))
+
 ## [1.10.1](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.0...v1.10.1) (2026-09-23)
 
 
