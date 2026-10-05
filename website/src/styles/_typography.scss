@@ -24,43 +24,31 @@ a[href]:not([class*='link-inherit']):not([class*='link-light']):not(:focus):not(
 }
 
 h1 {
-  --gcds-heading-character-limit-h1: none;
-  text-wrap: wrap;
+  max-width: var(--gcds-heading-character-limit-h1);
 }
 
 h2 {
-  --gcds-heading-character-limit-h2: none;
-  text-wrap: wrap;
+  max-width: var(--gcds-heading-character-limit-h2);
 }
 
 h3 {
-  --gcds-heading-character-limit-h3: none;
-  text-wrap: wrap;
+  max-width: var(--gcds-heading-character-limit-h3);
 }
 
 h4 {
-  --gcds-heading-character-limit-h4: none;
-  text-wrap: wrap;
+  max-width: var(--gcds-heading-character-limit-h4);
 }
 
 h5 {
-  --gcds-heading-character-limit-h5: none;
-  text-wrap: wrap;
+  max-width: var(--gcds-heading-character-limit-h5);
 }
 
 h6 {
-  --gcds-heading-character-limit-h6: none;
-  text-wrap: wrap;
-}
-
-gcds-notice {
-  --gcds-heading-character-limit-h2: none;
-  --gcds-heading-character-limit-h3: none;
+  max-width: var(--gcds-heading-character-limit-h6);
 }
 
 // Text and long form content
-ul li, 
-ol li {
+ul li {
   font: var(--gcds-font-text);
   max-width: var(--gcds-text-character-limit);
 }
