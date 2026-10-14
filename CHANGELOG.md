@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.10.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.2...v1.10.3) (2026-10-14)
+
+
+### Bug Fixes
+
+* Revert Update heading tags to override character limit wrapping ([#1041](https://github.com/cds-snc/canadalogin-static-website/issues/1041)) ([2507f08](https://github.com/cds-snc/canadalogin-static-website/commit/2507f08293c33e1c52b3283048d7933cdec612ae))
+* Update H1 heading tags to override premature character limit wrapping ([#1042](https://github.com/cds-snc/canadalogin-static-website/issues/1042)) ([7e7985a](https://github.com/cds-snc/canadalogin-static-website/commit/7e7985ac4e838077c127f314f02e4d63cf8ff172))
+* Update heading tags to override character limit wrapping ([#1030](https://github.com/cds-snc/canadalogin-static-website/issues/1030)) ([08d04d8](https://github.com/cds-snc/canadalogin-static-website/commit/08d04d8022a3df11e0dc78ef5f1d059814ee35fc))
+
 ## [1.10.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.1...v1.10.2) (2026-09-29)
 
 
