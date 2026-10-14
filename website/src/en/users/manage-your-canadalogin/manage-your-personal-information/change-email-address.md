@@ -12,7 +12,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_en['change-your-email-address'] %}
+{% set articlePage = articles_en['change-email-address'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
