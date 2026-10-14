@@ -13,7 +13,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['modifier-votre-adresse-courriel'] %}
+{% set articlePage = articles_fr['modifier-addresse-courriel'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
