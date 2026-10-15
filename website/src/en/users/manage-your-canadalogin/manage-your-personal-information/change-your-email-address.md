@@ -1,20 +1,6 @@
 ---
-title: Change your email address
-translationKey: changeyouremailaddress
-layout: 'layouts/base.njk'
-eleventyNavigation:
-  key: changeYourEmailAddressEn
-  title: Change your email address
-  locale: en
-  order: 3
-  parent: manageYourPersonalInformationEn
-  hideMain: true
-templateEngineOverride: njk
+layout: 'layouts/redirect.njk'
+permalink: '/en/users/manage-your-canadalogin/manage-your-personal-information/change-your-email-address/'
+destination: '/en/users/manage-your-canadalogin/manage-your-personal-information/change-email-address/'
+eleventyExcludeFromCollections: true
 ---
-
-{% set articlePage = articles_en['change-your-email-address'] %}
-
-{% if articlePage %}
-  <h1>{{ articlePage.title.rendered | safe }}</h1>
-  {{ articlePage.content.rendered | safe }}
-{% endif %}

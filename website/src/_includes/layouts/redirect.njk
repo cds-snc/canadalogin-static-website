@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="ltr">
+
+<head>
+
+  {% if WEBSITE_ENVIRONMENT != 'local' %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS_ID }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ GOOGLE_ANALYTICS_ID }}');
+  </script>
+  {% endif %}
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% if WEBSITE_ENVIRONMENT != 'prod' or (page.url | startsWith('/en/design/')) or (page.url | startsWith('/fr/design/')) %}
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  {% endif %}
+
+  <!-- <title>{% block page_title %}{{ title }} - {{ base[locale].gcds }}{% endblock %}</title> -->
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" sizes="96x96" href="{{ '/favicon.ico' | url }}">
+
+  <!-- GCDS CSS Shortcuts -->
+  <link rel="stylesheet" href="{{ '/gcds-css-shortcuts.min.css' | url }}" />
+
+  <link rel="stylesheet" href="{{ '/styles/prism.css' | url }}">
+  <link rel="stylesheet" href="{{ '/styles/style.css' | url }}">
+
+  <!-- GC Design System  Components-->
+  <link rel="stylesheet" href="{{ '/components/dist/gcds/gcds.css' | url }}">
+  <script type="module" src="/components/dist/gcds/gcds.esm.js"></script>
+
+  <!-- Pagefind -->
+  <script src="/pagefind/pagefind.js" type="module"></script>
+  <script src="{{ '/scripts/search.js' | url }}" type="module"></script>
+
+  <meta http-equiv="refresh" content="0; url={{ destination }}" />
+  <link rel="canonical" href="{{ destination }}">
+  <script>window.location.replace("{{ destination }}");</script>
+</head>
+
+<body>
+  {% include "partials/header.njk" %}
+
+  <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225" {% if not nocrawl %}data-pagefind-body{% endif %}>
+
+    <p>This page has moved to <a href="{{ destination }}">this location</a>.</p>
+
+    <gcds-date-modified>
+      {{ page.date | dateLastModified }}
+    </gcds-date-modified>
+  </main>
+
+  {% include "partials/footer.njk" %}
+
+  {% initClipboardJS %}
+</body>
+
+</html>
