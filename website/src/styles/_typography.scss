@@ -54,6 +54,11 @@ h6 {
   text-wrap: wrap;
 }
 
+gcds-notice {
+  --gcds-heading-character-limit-h2: none;
+  max-width: var(--gcds-text-character-limit);
+}
+
 // Text and long form content
 ul li,
 ol li {
