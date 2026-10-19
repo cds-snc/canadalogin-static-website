@@ -41,7 +41,7 @@
   <script src="/pagefind/pagefind.js" type="module"></script>
   <script src="{{ '/scripts/search.js' | url }}" type="module"></script>
 
-  <meta http-equiv="refresh" content="0; url={{ destination }}" />
+  <meta http-equiv="refresh" content="100; url={{ destination }}" />
   <link rel="canonical" href="{{ destination }}">
   <script>window.location.replace("{{ destination }}");</script>
 </head>
@@ -51,7 +51,9 @@
 
   <main id="mc" class="container-xl mx-auto xl:px-0 sm:px-600 px-225" {% if not nocrawl %}data-pagefind-body{% endif %}>
 
-    <p>This page has moved to <a href="{{ destination }}">this location</a>.</p>
+    <p>{{ redirect[locale].moved }}</p>
+    <p>{{ redirect[locale].location }} <a href="{{ destination }}">{{ destination }}</a></p>
+    <p>{{ redirect[locale].redirected }}</p>
 
     <gcds-date-modified>
       {{ page.date | dateLastModified }}
