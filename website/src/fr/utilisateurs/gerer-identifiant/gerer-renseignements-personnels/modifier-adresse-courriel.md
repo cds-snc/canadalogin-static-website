@@ -1,11 +1,11 @@
 ---
-title: Modifier votre addresse courriel
+title: Modifier votre adresse courriel
 translationKey: changeyouremailaddress
 layout: 'layouts/base.njk'
 date: 'git Last Modified'
 eleventyNavigation:
   key: changeYourEemailAddressFR
-  title: Modifier votre addresse courriel
+  title: Modifier votre adresse courriel
   locale: fr
   order: 3
   parent: manageYourPersonalInformationFR
@@ -13,7 +13,7 @@ eleventyNavigation:
 templateEngineOverride: njk
 ---
 
-{% set articlePage = articles_fr['modifier-addresse-courriel'] %}
+{% set articlePage = articles_fr['modifier-adresse-courriel'] %}
 
 {% if articlePage %}
   <h1>{{ articlePage.title.rendered | safe }}</h1>
