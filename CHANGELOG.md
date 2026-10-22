@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.10.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.2...v1.10.3) (2026-10-21)
+
+
+### Bug Fixes
+
+* Applied CSS to wrap Notice titles at text character limit ([#1051](https://github.com/cds-snc/canadalogin-static-website/issues/1051)) ([12d9654](https://github.com/cds-snc/canadalogin-static-website/commit/12d965475a3a9ab88dced37b2422707a8fa504ce))
+* Changed EN and FR filename and links with url redirect ([#1050](https://github.com/cds-snc/canadalogin-static-website/issues/1050)) ([9c04d7f](https://github.com/cds-snc/canadalogin-static-website/commit/9c04d7f1eaef2ea440f45e97e94d408429a19b4c))
+* Fix typo in 'adresse courriel' to fix redirect URL ([#1057](https://github.com/cds-snc/canadalogin-static-website/issues/1057)) ([b913ad8](https://github.com/cds-snc/canadalogin-static-website/commit/b913ad89687dfbc2d32d90160d05dedb4bc28f24))
+* Revert Update heading tags to override character limit wrapping ([#1041](https://github.com/cds-snc/canadalogin-static-website/issues/1041)) ([2507f08](https://github.com/cds-snc/canadalogin-static-website/commit/2507f08293c33e1c52b3283048d7933cdec612ae))
+* Update H1 heading tags to override premature character limit wrapping ([#1042](https://github.com/cds-snc/canadalogin-static-website/issues/1042)) ([7e7985a](https://github.com/cds-snc/canadalogin-static-website/commit/7e7985ac4e838077c127f314f02e4d63cf8ff172))
+* Update heading tags to override character limit wrapping ([#1030](https://github.com/cds-snc/canadalogin-static-website/issues/1030)) ([08d04d8](https://github.com/cds-snc/canadalogin-static-website/commit/08d04d8022a3df11e0dc78ef5f1d059814ee35fc))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump fast-uri from 3.1.5 to 3.1.9 in /website ([#1016](https://github.com/cds-snc/canadalogin-static-website/issues/1016)) ([c0c6041](https://github.com/cds-snc/canadalogin-static-website/commit/c0c6041e88a3349525c6ce7cb552b27b2a1742da))
+* **deps-dev:** bump joi from 18.0.2 to 18.2.9 in /website ([#1044](https://github.com/cds-snc/canadalogin-static-website/issues/1044)) ([3b80dd7](https://github.com/cds-snc/canadalogin-static-website/commit/3b80dd701316f1058eb3caffdb612ba386a2e539))
+* **deps-dev:** bump source-map-js from 1.2.1 to 1.2.2 in /website ([#1052](https://github.com/cds-snc/canadalogin-static-website/issues/1052)) ([b557d32](https://github.com/cds-snc/canadalogin-static-website/commit/b557d32daedef347e4988d1dcbdfac8923baf05d))
+* **deps-dev:** bump storybook from 8.6.17 to 8.6.19 in /website ([#1055](https://github.com/cds-snc/canadalogin-static-website/issues/1055)) ([eb9a547](https://github.com/cds-snc/canadalogin-static-website/commit/eb9a547a68497d1a3d8d9a4e7659c188687e3b92))
+* **deps:** bump brace-expansion in /website ([#1043](https://github.com/cds-snc/canadalogin-static-website/issues/1043)) ([dfa2139](https://github.com/cds-snc/canadalogin-static-website/commit/dfa21393990fc6e93f343dce80b0540719e6ea05))
+* **deps:** bump follow-redirects from 1.16.0 to 1.16.1 in /website ([#1053](https://github.com/cds-snc/canadalogin-static-website/issues/1053)) ([c194924](https://github.com/cds-snc/canadalogin-static-website/commit/c194924aeff55c7c92c63944737420bb83921ebf))
+* **deps:** bump js-yaml in /website ([#1023](https://github.com/cds-snc/canadalogin-static-website/issues/1023)) ([4aec379](https://github.com/cds-snc/canadalogin-static-website/commit/4aec3797602d7ff60d50f0a852db6d7d3f0b4955))
+* **deps:** bump shell-quote from 1.10.0 to 1.12.0 in /website ([#1047](https://github.com/cds-snc/canadalogin-static-website/issues/1047)) ([b692159](https://github.com/cds-snc/canadalogin-static-website/commit/b692159c806a2a077365510c5fba787547a2ba24))
+* **deps:** update all minor dependencies ([#1039](https://github.com/cds-snc/canadalogin-static-website/issues/1039)) ([0a82ef4](https://github.com/cds-snc/canadalogin-static-website/commit/0a82ef41a6ab7d84206bbd4fc8d158916c7241df))
+* **deps:** update dependency markdown-it to v14.3.3 [security] ([#1036](https://github.com/cds-snc/canadalogin-static-website/issues/1036)) ([c84fef0](https://github.com/cds-snc/canadalogin-static-website/commit/c84fef09af416401bd16be4bc1243a7e78cca64f))
+* **deps:** update dependency prettier to v3.9.10 ([#1038](https://github.com/cds-snc/canadalogin-static-website/issues/1038)) ([a044610](https://github.com/cds-snc/canadalogin-static-website/commit/a0446106aa00834ce3f7935c9b815f8fe2079f52))
+
 ## [1.10.2](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.1...v1.10.2) (2026-09-29)
 
 
