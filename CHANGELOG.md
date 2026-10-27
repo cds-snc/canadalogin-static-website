@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.3...v1.10.4) (2026-10-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump undici from 7.30.0 to 7.30.1 in /website ([#1060](https://github.com/cds-snc/canadalogin-static-website/issues/1060)) ([a621a77](https://github.com/cds-snc/canadalogin-static-website/commit/a621a77881fd356095a10cd398a2bbd52e56944d))
+* **deps:** update all patch dependencies ([#1058](https://github.com/cds-snc/canadalogin-static-website/issues/1058)) ([ea73b93](https://github.com/cds-snc/canadalogin-static-website/commit/ea73b93a8b1299a8d21a9fa9c4d3eaeee9e49aea))
+
 ## [1.10.3](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.2...v1.10.3) (2026-10-21)
 
 
