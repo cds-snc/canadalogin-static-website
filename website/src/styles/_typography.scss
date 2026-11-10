@@ -63,6 +63,7 @@ gcds-notice {
 ul li,
 ol li {
   font: var(--gcds-font-text);
+  font-size: inherit;
   max-width: var(--gcds-text-character-limit);
 }
 
