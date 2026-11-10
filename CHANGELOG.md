@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.5](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.4...v1.10.5) (2026-11-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update all minor dependencies ([#1062](https://github.com/cds-snc/canadalogin-static-website/issues/1062)) ([f341b91](https://github.com/cds-snc/canadalogin-static-website/commit/f341b916e6e04c48d335bd9c0aa7d7afef142724))
+
 ## [1.10.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.3...v1.10.4) (2026-11-03)
 
 
