@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.10.5](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.4...v1.10.5) (2026-11-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#1063](https://github.com/cds-snc/canadalogin-static-website/issues/1063)) ([49c28e3](https://github.com/cds-snc/canadalogin-static-website/commit/49c28e3f4e5bfa9fdf86ad71b138c650b0c8421d))
+* **deps:** update all minor dependencies ([#1062](https://github.com/cds-snc/canadalogin-static-website/issues/1062)) ([f341b91](https://github.com/cds-snc/canadalogin-static-website/commit/f341b916e6e04c48d335bd9c0aa7d7afef142724))
+* **deps:** update all patch dependencies ([#1069](https://github.com/cds-snc/canadalogin-static-website/issues/1069)) ([1930457](https://github.com/cds-snc/canadalogin-static-website/commit/1930457b75f73a6738b7dfd3cc382e8044717874))
+
 ## [1.10.4](https://github.com/cds-snc/canadalogin-static-website/compare/v1.10.3...v1.10.4) (2026-11-03)
 
 
